@@ -2,5 +2,6 @@
   "layout": "layouts/post.njk",
   "tags": [
     "posts"
-  ]
+  ],
+  "columns": 4
 }

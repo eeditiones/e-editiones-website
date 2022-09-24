@@ -1,6 +1,10 @@
 ---
 title: "Members"
 date: "2020-06-08"
+eleventyNavigation:
+    parent: Society
+    key: Members
+    order: 4
 ---
 
 ## Institutional Members

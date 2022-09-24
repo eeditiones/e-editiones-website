@@ -2,8 +2,6 @@
 layout: layouts/content.njk
 templateClass: tmpl-post
 ---
-<h1>{{ title }}</h1>
-
 <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 {%- for tag in tags | filterTagList %}
 {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}

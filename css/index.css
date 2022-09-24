@@ -2,6 +2,8 @@
 :root {
   --font-family: -apple-system, system-ui, sans-serif;
   --font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+  --bs-link-color: #0d6efd;
+  --bs-link-hover-color: #0a58ca;
   --banner-image: url("/img/banner.jpg");
 }
 
@@ -55,7 +57,7 @@ header {
 }
 
 main {
-  padding-top: 64px;
+  padding-top: 90px;
   margin-top: 20px;
 }
 
@@ -120,6 +122,10 @@ nav.navbar {
 
 ul.navbar-nav {
   --bs-nav-link-color: var(--bs-light);
+}
+
+.dropdown-menu .nav-link {
+  --bs-nav-link-color: var(--bs-black);
 }
 
 .navbar-brand img {

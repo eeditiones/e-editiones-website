@@ -6,7 +6,7 @@
       {% endif %}
       <div class="card-body">
         <h3 class="card-title">
-          <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+          <a href="{{ post.url | url }}" class="text-muted">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
         </h3>
         <div>
           <time class="card-subtitle mb-2 text-muted" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>

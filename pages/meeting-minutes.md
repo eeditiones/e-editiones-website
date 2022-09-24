@@ -1,6 +1,10 @@
 ---
 title: "Meeting Minutes"
 date: "2020-06-10"
+eleventyNavigation:
+    parent: Society
+    key: Meeting Minutes
+    order: 2
 ---
 
 Protokoll der Sitzung vom 5.4.2022 (deutsch) \[[Protokoll der 2. GV e-editiones](https://e-editiones.org/wp-content/uploads/2022/04/Protokoll-der-2.-GV-e-editiones-1.pdf "Protokoll der 2. GV e-editiones")\]
