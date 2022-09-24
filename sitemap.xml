@@ -222,16 +222,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/annotations/</loc>
-    <lastmod>2022-09-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/release/</loc>
-    <lastmod>2022-09-24</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/grants/</loc>
     <lastmod>2022-09-24</lastmod>
   </url>
@@ -273,6 +263,16 @@
   
   <url>
     <loc>https://e-editiones.org/tags/open-api/</loc>
+    <lastmod>2022-09-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/release/</loc>
+    <lastmod>2022-09-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/annotations/</loc>
     <lastmod>2022-09-24</lastmod>
   </url>
   
