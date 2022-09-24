@@ -1,12 +1,22 @@
-<ol reversed class="postlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
-{% for post in postslist | reverse %}
-  <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-    <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-    {% for tag in post.data.tags | filterTagList %}
-      {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-    {% endfor %}
-  </li>
-{% endfor %}
-</ol>
+<div class="posts">
+  {% for post in postslist | reverse %}
+    <div class="card {% if post.url == url %} active{% endif %}">
+      {% if post.data.coverImage %}
+      <img class="card-img-top" src="/img/{{post.data.coverImage}}">
+      {% endif %}
+      <div class="card-body">
+        <h3 class="card-title">
+          <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+        </h3>
+        <div>
+          <time class="card-subtitle mb-2 text-muted" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+          {% for tag in post.data.tags | filterTagList %}
+            {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+            <a href="{{ tagUrl | url }}" class="badge text-bg-light">{{ tag }}</a>
+          {% endfor %}
+        </div>
+        <p class="card-text">{{ post.data.description }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/content.njk
 templateClass: tmpl-post
 ---
 <h1>{{ title }}</h1>
@@ -9,6 +9,10 @@ templateClass: tmpl-post
 {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
 {%- endfor %}
+
+{% if post.data.coverImage %}
+<img class="card-img-top" src="/img/{{post.data.coverImage}}">
+{% endif %}
 
 {{ content | safe }}
 
