@@ -1,6 +1,9 @@
 ---
 title: "Strategy"
 date: "2020-06-08"
+eleventyNavigation:
+    key: Strategy
+    order: 2
 ---
 
 ## e-editiones: Focus of the Society
