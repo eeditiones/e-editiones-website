@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roaster: an Open API Router for eXist</title>
+    <meta name="description" content="I am writing about my experiences as a naval navel-gazer.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/css/prism-diff.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      
+<header>
+    <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="/img/e-editiones-logo-color.svg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+                <a href="/" class="nav-link">Home</a>
+            </li><li class="nav-item">
+                <a href="/pages/strategy/" class="nav-link">Strategy</a>
+            </li><li class="nav-item dropdown">
+                <a class="dropdown-toggle nav-link"
+                    data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+                <ul class="dropdown-menu"><li class="nav-item">
+                <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+            </li><li class="nav-item">
+                <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+            </li><li class="nav-item">
+                <a href="/pages/board/" class="nav-link">Board</a>
+            </li><li class="nav-item">
+                <a href="/pages/members/" class="nav-link">Members</a>
+            </li><li class="nav-item">
+                <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+            </li></ul>
+            </li><li class="nav-item">
+                <a href="/posts/" class="nav-link">Archive</a>
+            </li></ul>
+        </nav>
+    </div>
+</nav>
+</header>
+
+<main class="container tmpl-post">
+    <h1>Roaster: an Open API Router for eXist</h1>
+    <time datetime="2021-01-08">08 Jan 2021</time>
+<a href="/tags/interoperability/" class="post-tag">interoperability</a>
+<a href="/tags/open-api/" class="post-tag">open-api</a>
+<a href="/tags/release/" class="post-tag">release</a>
+<a href="/tags/tei-publisher/" class="post-tag">tei-publisher</a>
+
+
+
+<p><img src="https://e-editiones.org/wp-content/uploads/2021/01/icon.svg" alt="" title="roaster logo"></p>
+<p>We're happy to announce that the request routing library, which was originally developed for TEI Publisher 7, has been released as a <a href="https://github.com/eeditiones/roaster">separate package</a> with extended functionality. The library, called <strong>roaster</strong>, is generic and can be used for any eXist-based project. It implements the Open API 3.0 standard to support well-documented, versioned and formally specified APIs.</p>
+<h2 id="background" tabindex="-1">Background <a class="direct-link" href="#background" aria-hidden="true">#</a></h2>
+<p>In previous versions of TEI Publisher, clients (i.e. your web browser) would communicate with the server by directly calling a variety of XQuery scripts. The server-side API, if you can even call it one, was thus scattered over many different files. Finding your way through the code, figuring out what parameters are expected or how the response should look like was rather difficult. Overwriting the default behaviour - e.g. to replace the generated table of contents - required substantial coding skills. The scripts also changed between TEI Publisher versions. So, if you were working on a standalone edition generated from Publisher, updates could be tricky.</p>
+<p>With TEI Publisher 7, the entire server-side API can be viewed on a single documentation page. It clearly describes the URL paths you can use, as well as any parameter you can pass in and the type it should conform to. One can also see the different possible responses and what kind of content they would return.</p>
+<h2 id="the-new-api" tabindex="-1">The new API <a class="direct-link" href="#the-new-api" aria-hidden="true">#</a></h2>
+<p>Looking at the first route of the <em>documents</em> section <a href="https://teipublisher.com/exist/apps/tei-publisher/api.html" title="in the API">in the API</a> (see screenshot below), it is easy to construct a URL which returns the source XML: the path template to use is <code>/api/document/{id}</code> and <code>{id}</code> should contain the path to a document - relative to the data root of TEI Publisher.</p>
+<p><img src="images/documents-1024x359.png" alt="Documents API screenshot"></p>
+<p>So to retrieve the TEI/XML for <em>Graves' letter</em>, located in the file path <code>test/graves6.xml</code>, we can use the following URL:</p>
+<p><a href="https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml">https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml</a></p>
+<p>Note that the / in the path needs to be URL encoded with <code>%2F</code>. This is a requirement of the Open API specification.</p>
+<p>If instead of the TEI/XML we would like to see the letter rendered to HTML, we can use the third route in the list and simply add <code>/html</code> to the end of the URL:</p>
+<p><a href="https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml/html">https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml/html</a></p>
+<p>or if we prefer a PDF:</p>
+<p><a href="https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml/pdf">https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml/pdf</a></p>
+<p>For sure, as an ordinary user, you don't need to know any of this: using the web interface of TEI Publisher, the web components on the page take care of constructing and calling above URLs for you. But if you are a developer, having a well-defined API is a game changer. Just imagine that you want to support your co-workers with a script which allows them to preview a local TEI document as HTML on the fly: sending the content of the document with an HTTP POST request to <code>/api/preview</code> is all you need! Our <a href="https://e-editiones.org/vscode/">Visual Studio Code plugin</a> does it like this.</p>
+<p>You can use any script or programming language you like, say bash, python, perl - you name it. And because Open API is a widely used standard, there are <a href="https://openapi.tools/">plenty of tools</a> for documentation, testing or code generation. The API documentation page in TEI Publisher is generated by such a tool (<a href="https://swagger.io/tools/swagger-ui/">Swagger UI</a>).</p>
+<h2 id="implementation" tabindex="-1">Implementation <a class="direct-link" href="#implementation" aria-hidden="true">#</a></h2>
+<p><strong>roaster</strong> is essentially an implementation of the Open API standard in pure XQuery. It reads the formal API specification (in JSON format) and determines for each HTTP request coming in, which route to take. It will also check if the parameters, headers or request bodies passed in comply to the rules given in the definition of the route. An error will be generated if the request is not in compliance with the definition, e.g. because a required parameter is missing or has a wrong type. It can also fill in default values for parameters, enforce correct content types for the response etc.</p>
+<p>From a developer perspective, this means you don't have to worry about parameters. Your handler function will receive a single parameter, containing all the necessary information about the request and you can safely assume that it complies with the spec you provided.</p>
+<p>If you are interested in the details, please refer to the <a href="https://github.com/eeditiones/roaster">README</a>. For a TEI Publisher-related example, check out the <a href="https://faq.teipublisher.com/templates/custom-toc/">FAQ article</a>, which describes how to replace the default table of contents with a custom one.</p>
+<p>Roaster 1.0.0 can be installed into your local eXist via the package manager in the dashboard. TEI Publisher 7 shipped with a slightly older version, 0.5.1., but you can run both versions side by side.</p>
+
+<hr>
+<ul><li>Next: <a href="/posts/newsletter-2021-1/">Newsletter 2021/1</a></li><li>Previous: <a href="/posts/cross-search/">Cross search</a></li>
+</ul>
+
+</main>
+
+<footer></footer>
+
+<!-- Current page: /posts/roaster-an-open-api-router-for-exist/ -->
+<!--script>
+    document.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener('scroll', function() {
+        const winTop = window.pageYOffset;
+        console.log('scrolling %s', winTop);
+        if (winTop > 30) {
+        document.body.classList.add('sticky');
+        } else {
+        document.body.classList.remove('sticky');
+        }
+    });
+    });
+</script-->
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annotation editor released with new TEI Publisher 7.1.0</title>
+    <meta name="description" content="I am writing about my experiences as a naval navel-gazer.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/css/prism-diff.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      
+<header>
+    <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="/img/e-editiones-logo-color.svg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+                <a href="/" class="nav-link">Home</a>
+            </li><li class="nav-item">
+                <a href="/pages/strategy/" class="nav-link">Strategy</a>
+            </li><li class="nav-item dropdown">
+                <a class="dropdown-toggle nav-link"
+                    data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+                <ul class="dropdown-menu"><li class="nav-item">
+                <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+            </li><li class="nav-item">
+                <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+            </li><li class="nav-item">
+                <a href="/pages/board/" class="nav-link">Board</a>
+            </li><li class="nav-item">
+                <a href="/pages/members/" class="nav-link">Members</a>
+            </li><li class="nav-item">
+                <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+            </li></ul>
+            </li><li class="nav-item">
+                <a href="/posts/" class="nav-link">Archive</a>
+            </li></ul>
+        </nav>
+    </div>
+</nav>
+</header>
+
+<main class="container tmpl-post">
+    <h1>Annotation editor released with new TEI Publisher 7.1.0</h1>
+    <time datetime="2021-08-10">10 Aug 2021</time>
+<a href="/tags/annotations/" class="post-tag">annotations</a>
+<a href="/tags/release/" class="post-tag">release</a>
+<a href="/tags/tei/" class="post-tag">tei</a>
+
+
+
+<p>Answering the secret dream of many TEI users, the new TEI Publisher version 7.1.0 incorporates a — beautifully simple to use, yet powerful — way to enrich existing TEI documents. Just select a text passage, click on a button and within seconds — and without a pointy bracket in sight! — mark it as one of many supported annotation types. A place or person? Sure, and with built-in connectors for external authority files, too. Critical apparatus entries? We got you! Dates, corrections, regularizations and even quick fixes for typos in your transcription.</p>
+<p>As usual, everything is customizable and extendable, so if you want a particular kind of annotation we do not support out of the box, it's not difficult to add your own or tinker existing ones. Read more in the <a href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?odd=docbook.odd&amp;id=web-annotations">documentation</a>.</p>
+<p>The good news doesn't end there: you can now use the TEI formula element with TeX notation for math. See the component's <a href="https://unpkg.com/@teipublisher/pb-components@1.24.17/dist/api.html#pb-formula.1">demo</a> page which presents some elaborate formulae or visit Publisher's Demo collection which now sports shiny new examples: <em>Euler's Algebra</em> for a wee help with your quadratic equations or <em>The Italienische Madrigal</em> by Alfred (not Albert!) Einstein, with musical scores encoded with MEI. It is nicely rendered with Verovio library through a dedicated pb-mei component and you can even listen to the piece to cheer up. And you can now set Publisher's interface even to simplified or traditional Chinese.</p>
+<p>TEI Publisher 7.1.0 is available as an application package on top of the eXist XML Database. Install it into a recent eXist (5.0.0 or newer) by going to the dashboard and selecting TEI Publisher from the package manager.</p>
+<p>For more information refer to the <a href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?odd=docbook.odd">documentation</a> or visit the <a href="https://teipublisher.com/exist/apps/tei-publisher/">homepage</a> to play around with it.</p>
+<p>It's not for the first time that our special thanks go to the <a href="https://history.state.gov/">Office of the Historian of the United States Department of State</a> - this time for funding the major portion of the annotation editor. The Math support has been kindly funded by <a href="https://bez.unibas.ch/de/">Bernoulli-Euler Zentrum</a> in Basel.</p>
+
+<hr>
+<ul><li>Next: <a href="/posts/digital-editions-survival-kit/">Digital editions survival kit</a></li><li>Previous: <a href="/pages/map/">TEI Publisher Registry</a></li>
+</ul>
+
+</main>
+
+<footer></footer>
+
+<!-- Current page: /posts/annotation-editor-released-with-new-tei-publisher-7-1-0/ -->
+<!--script>
+    document.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener('scroll', function() {
+        const winTop = window.pageYOffset;
+        console.log('scrolling %s', winTop);
+        if (winTop > 30) {
+        document.body.classList.add('sticky');
+        } else {
+        document.body.classList.remove('sticky');
+        }
+    });
+    });
+</script-->
+  </body>
+</html>
