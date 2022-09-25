@@ -192,26 +192,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/interoperability/</loc>
-    <lastmod>2022-09-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/osa20/</loc>
-    <lastmod>2022-09-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/tei/</loc>
-    <lastmod>2022-09-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/tei-publisher/</loc>
-    <lastmod>2022-09-25</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/awards/</loc>
     <lastmod>2022-09-25</lastmod>
   </url>
@@ -222,12 +202,32 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/grants/</loc>
+    <loc>https://e-editiones.org/11ty-homepage/tags/annotations/</loc>
     <lastmod>2022-09-25</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/ukraine/</loc>
+    <loc>https://e-editiones.org/11ty-homepage/tags/release/</loc>
+    <lastmod>2022-09-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/tei/</loc>
+    <lastmod>2022-09-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/interoperability/</loc>
+    <lastmod>2022-09-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/osa20/</loc>
+    <lastmod>2022-09-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/tei-publisher/</loc>
     <lastmod>2022-09-25</lastmod>
   </url>
   
@@ -243,6 +243,16 @@
   
   <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/verovio/</loc>
+    <lastmod>2022-09-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/grants/</loc>
+    <lastmod>2022-09-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/ukraine/</loc>
     <lastmod>2022-09-25</lastmod>
   </url>
   
@@ -267,27 +277,17 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/release/</loc>
-    <lastmod>2022-09-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/annotations/</loc>
-    <lastmod>2022-09-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/meetup/</loc>
-    <lastmod>2022-09-25</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/semantic-encoding/</loc>
     <lastmod>2022-09-25</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/vscode/</loc>
+    <lastmod>2022-09-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/meetup/</loc>
     <lastmod>2022-09-25</lastmod>
   </url>
 </urlset>
