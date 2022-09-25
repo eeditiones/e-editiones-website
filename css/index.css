@@ -5,7 +5,7 @@
   --font-family-banner: "Nunito", sans-serif;
   --bs-link-color: #c05b4d;
   --bs-link-hover-color: #c05b4d;
-  --banner-image: url("/img/banner.jpg");
+  --banner-image: url("../img/banner.jpg");
 }
 
 @media (prefers-color-scheme: dark) {
@@ -67,7 +67,7 @@ header {
 
 main {
   padding-top: 100px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 main.home {
