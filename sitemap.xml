@@ -232,21 +232,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/mei/</loc>
-    <lastmod>2022-09-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/pb-mei/</loc>
-    <lastmod>2022-09-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/verovio/</loc>
-    <lastmod>2022-09-25</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/grants/</loc>
     <lastmod>2022-09-25</lastmod>
   </url>
@@ -272,7 +257,27 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/mei/</loc>
+    <lastmod>2022-09-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/pb-mei/</loc>
+    <lastmod>2022-09-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/verovio/</loc>
+    <lastmod>2022-09-25</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/open-api/</loc>
+    <lastmod>2022-09-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/meetup/</loc>
     <lastmod>2022-09-25</lastmod>
   </url>
   
@@ -283,11 +288,6 @@
   
   <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/vscode/</loc>
-    <lastmod>2022-09-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/meetup/</loc>
     <lastmod>2022-09-25</lastmod>
   </url>
 </urlset>

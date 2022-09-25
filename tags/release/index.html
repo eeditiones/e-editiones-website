@@ -15,10 +15,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora&family=Nunito&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
   </head>
   <body>
       
-<header class="header-with-banner">
+<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+
+<header>
     <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="/11ty-homepage/"><img src="/11ty-homepage/img/e-editiones-logo-color.svg"></a>
@@ -53,14 +56,15 @@
         </nav>
     </div>
 </nav>
-    <div class="banner">
+</header>
+<div class="banner" data-rellax-zindex="1" data-rellax-speed="-7">
+    <div>
         <div>
             <h1>Editions with Future</h1>
             <h2>Rooted in standards, built by a community, meant to last</h2>
         </div>
     </div>
-</header>
-
+</div>
 <main class="container home">
     <h1>Tagged “release”</h1>
 
@@ -149,19 +153,21 @@
 
 <footer></footer>
 
-<!-- Current page: /11ty-homepage/tags/release/ -->
-<!--script>
+<script>
     document.addEventListener('DOMContentLoaded', function() {
-    window.addEventListener('scroll', function() {
-        const winTop = window.pageYOffset;
-        console.log('scrolling %s', winTop);
-        if (winTop > 30) {
-        document.body.classList.add('sticky');
-        } else {
-        document.body.classList.remove('sticky');
-        }
+        const main = document.querySelector('.banner');
+        const observer = new IntersectionObserver((entries) => {
+            if (!entries[0].isIntersecting) {
+                document.body.classList.remove('banner-visible');
+            } else {
+                document.body.classList.add('banner-visible');
+            }
+        }, { threshold: 0.7 });
+        observer.observe(main);
+
+        const rellax = new Rellax('.banner');
     });
-    });
-</script-->
+</script>
+<!-- Current page: /11ty-homepage/tags/release/ -->
   </body>
 </html>
