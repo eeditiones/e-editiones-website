@@ -1,9 +1,10 @@
 /* Defaults */
 :root {
-  --font-family-headings: 'Lora', serif;
-  --font-family-body: 'Nunito', sans-serif;
-  --bs-link-color: #0d6efd;
-  --bs-link-hover-color: #0a58ca;
+  --font-family-headings: "Lora", serif;
+  --font-family-body: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  --font-family-banner: "Nunito", sans-serif;
+  --bs-link-color: #c05b4d;
+  --bs-link-hover-color: #c05b4d;
   --banner-image: url("/img/banner.jpg");
 }
 
@@ -23,6 +24,25 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-headings);
+}
+
+a[href]:link {
+  text-decoration: none;
+}
+a[href]:hover {
+  text-decoration: underline;
+}
+
+code {
+  padding: 3px 5px;
+  border-radius: 4px;
+  color: #c7254e;
+  background: #f8f5ec;
+}
+
+blockquote {
+  border-left: 2px solid #c05b4d;
+  padding-left: 1rem;
 }
 
 p:last-child {
@@ -46,7 +66,7 @@ header {
 }
 
 main {
-  padding-top: 90px;
+  padding-top: 100px;
   margin-top: 20px;
 }
 
@@ -114,12 +134,12 @@ ul.navbar-nav {
 }
 
 .banner h1 {
-  font-family: 'Lora', sans-serif;
+  font-family: var(--font-family-headings);
   font-size: 5.8em;
   margin-bottom: 0;
 }
 .banner h2 {
-  font-family: 'Nunito', sans-serif;
+  font-family: var(--font-family-banner);
   font-weight: 300;
   font-weight: 2.5em;
 }
@@ -130,6 +150,20 @@ ul.navbar-nav {
   column-gap: 20px;
   row-gap: 20px;
   column-fill: auto;
+}
+
+/* Posts */
+main.tmpl-post {
+  max-width: 70rem;
+}
+
+.dateline {
+  margin-bottom: 1rem;
+}
+
+.dateline time {
+  margin-right: 2rem;
+  font-family: var(--font-family-headings);
 }
 
 /* Infobox */
