@@ -2,11 +2,13 @@
 layout: layouts/content.njk
 templateClass: tmpl-post
 ---
-<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-{%- for tag in tags | filterTagList %}
-{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-<a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{%- endfor %}
+<div class="dateline">
+  <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+  {%- for tag in tags | filterTagList %}
+  {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="badge text-bg-light">{{ tag }}</a>
+  {%- endfor %}
+</div>
 
 {% if post.data.coverImage %}
 <img class="card-img-top" src="/img/{{post.data.coverImage}}">
