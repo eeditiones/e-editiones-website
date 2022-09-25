@@ -17,7 +17,7 @@
             </li>
             {%- else -%}
             <li class="nav-item">
-                <a href="{{ entry.url }}" class="nav-link{% if entry.url == page.url %} active{% endif %}">{{ entry.title }}</a>
+                <a href="{{ entry.url | url }}" class="nav-link{% if entry.url == page.url %} active{% endif %}">{{ entry.title }}</a>
             </li>
             {%- endif -%}
             {%- endmacro %}
