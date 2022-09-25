@@ -2,34 +2,39 @@
 layout: layouts/base.njk
 templateClass: home
 ---
-
-<header class="header-with-banner">
+{% block scripts%}
+<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+{% endblock %}
+<header>
     {% include "partials/menu.njk" %}
-    <div class="banner">
+</header>
+<div class="banner" data-rellax-zindex="1" data-rellax-speed="-7">
+    <div>
         <div>
             <h1>Editions with Future</h1>
             <h2>Rooted in standards, built by a community, meant to last</h2>
         </div>
     </div>
-</header>
-
+</div>
 <main class="container {{ templateClass }}">
     {{ content | safe }}
 </main>
 
 <footer></footer>
 
-<!-- Current page: {{ page.url | url }} -->
-<!--script>
+<script>
     document.addEventListener('DOMContentLoaded', function() {
-    window.addEventListener('scroll', function() {
-        const winTop = window.pageYOffset;
-        console.log('scrolling %s', winTop);
-        if (winTop > 30) {
-        document.body.classList.add('sticky');
-        } else {
-        document.body.classList.remove('sticky');
-        }
+        const main = document.querySelector('.banner');
+        const observer = new IntersectionObserver((entries) => {
+            if (!entries[0].isIntersecting) {
+                document.body.classList.remove('banner-visible');
+            } else {
+                document.body.classList.add('banner-visible');
+            }
+        }, { threshold: 0.7 });
+        observer.observe(main);
+
+        const rellax = new Rellax('.banner');
     });
-    });
-</script-->
+</script>
+<!-- Current page: {{ page.url | url }} -->

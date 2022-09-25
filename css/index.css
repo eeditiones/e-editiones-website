@@ -6,6 +6,7 @@
   --bs-link-color: #c05b4d;
   --bs-link-hover-color: #c05b4d;
   --banner-image: url("../img/banner.jpg");
+  --banner-height: calc(100vh - 90px);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -59,19 +60,23 @@ header {
   justify-content: stretch;
   width: 100%;
   background-image: var(--banner-image);
+  z-index: 2;
 }
 
-.header-with-banner {
-  height: 384px;
+.banner-visible header {
+  background-color: #F0F0F0;
+  background-image: none;
 }
 
 main {
+  position: relative;
   padding-top: 100px;
   margin-top: 30px;
 }
 
 main.home {
-  padding-top: 384px;
+  padding-top: 20px;
+  min-height: calc(100vh - 90px);
 }
 
 header:after {
@@ -88,18 +93,26 @@ table th {
   padding-right: 1em;
 }
 
-.navbar, .banner {
-  background-color: rgba(0, 0, 0, .25);
+.banner {
   color: #F0F0F0;
 }
 
 nav.navbar {
   --bs-navbar-brand-margin-end: 60px;
-  --bs-navbar-active-color: var(--bs-light);
+  --bs-navbar-active-color: var(--bs-white);
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.banner-visible nav.navbar {
+  --bs-navbar-active-color: var(--bs-black);
+  background-color: #F0F0F0;
 }
 
 ul.navbar-nav {
-  --bs-nav-link-color: var(--bs-light);
+  --bs-nav-link-color: var(--bs-white);
+}
+.banner-visible ul.navbar-nav {
+  --bs-nav-link-color: var(--bs-black);
 }
 
 .dropdown-menu .nav-link {
@@ -111,26 +124,29 @@ ul.navbar-nav {
 }
 
 /* banner */
+.banner-visible .banner {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
 .banner {
-  height: 844px;
+  height: var(--banner-height);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+  margin-top: 90px;
   width: 100%;
   text-align: center;
-  flex: 2;
+  background-image: var(--banner-image);
+}
+
+.banner > div {
+  background-color: rgba(0, 0, 0, .25);
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.sticky .banner div {
-  height: 0;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.sticky {
-  padding-top: 64px;
 }
 
 .banner h1 {
