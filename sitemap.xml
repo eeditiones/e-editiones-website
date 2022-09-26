@@ -192,16 +192,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/awards/</loc>
-    <lastmod>2022-09-26</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/news/</loc>
-    <lastmod>2022-09-26</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/interoperability/</loc>
     <lastmod>2022-09-26</lastmod>
   </url>
@@ -218,6 +208,26 @@
   
   <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/tei-publisher/</loc>
+    <lastmod>2022-09-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/awards/</loc>
+    <lastmod>2022-09-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/news/</loc>
+    <lastmod>2022-09-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/annotations/</loc>
+    <lastmod>2022-09-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/release/</loc>
     <lastmod>2022-09-26</lastmod>
   </url>
   
@@ -263,16 +273,6 @@
   
   <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/open-api/</loc>
-    <lastmod>2022-09-26</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/release/</loc>
-    <lastmod>2022-09-26</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/annotations/</loc>
     <lastmod>2022-09-26</lastmod>
   </url>
   
