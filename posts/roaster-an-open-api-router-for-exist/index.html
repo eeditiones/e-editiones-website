@@ -75,7 +75,7 @@
 <p>With TEI Publisher 7, the entire server-side API can be viewed on a single documentation page. It clearly describes the URL paths you can use, as well as any parameter you can pass in and the type it should conform to. One can also see the different possible responses and what kind of content they would return.</p>
 <h2 id="the-new-api" tabindex="-1">The new API <a class="direct-link" href="#the-new-api" aria-hidden="true">#</a></h2>
 <p>Looking at the first route of the <em>documents</em> section <a href="https://teipublisher.com/exist/apps/tei-publisher/api.html" title="in the API">in the API</a> (see screenshot below), it is easy to construct a URL which returns the source XML: the path template to use is <code>/api/document/{id}</code> and <code>{id}</code> should contain the path to a document - relative to the data root of TEI Publisher.</p>
-<p><img src="images/documents-1024x359.png" alt="Documents API screenshot"></p>
+<p><img src="/img/documents-1024x359.png" alt="Documents API screenshot"></p>
 <p>So to retrieve the TEI/XML for <em>Graves' letter</em>, located in the file path <code>test/graves6.xml</code>, we can use the following URL:</p>
 <p><a href="https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml">https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml</a></p>
 <p>Note that the / in the path needs to be URL encoded with <code>%2F</code>. This is a requirement of the Open API specification.</p>
