@@ -100,7 +100,7 @@ table th {
 nav.navbar {
   --bs-navbar-brand-margin-end: 60px;
   --bs-navbar-active-color: var(--bs-white);
-  background-color: rgba(0, 0, 0, .25);
+  background-color: rgba(0, 0, 0, .40);
 }
 
 .banner-visible nav.navbar {
@@ -142,7 +142,7 @@ ul.navbar-nav {
 }
 
 .banner > div {
-  background-color: rgba(0, 0, 0, .25);
+  background-color: rgba(0, 0, 0, .40);
   height: 100%;
   display: flex;
   flex-direction: column;
