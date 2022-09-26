@@ -131,13 +131,13 @@ ul.navbar-nav {
 }
 
 .banner {
+  position: relative;
   height: var(--banner-height);
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s linear 300ms, opacity 300ms;
   margin-top: 90px;
   width: 100%;
-  text-align: center;
   background-image: var(--banner-image);
 }
 
@@ -147,6 +147,7 @@ ul.navbar-nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 .banner h1 {
@@ -158,6 +159,22 @@ ul.navbar-nav {
   font-family: var(--font-family-banner);
   font-weight: 300;
   font-weight: 2.5em;
+}
+.banner .intro-text {
+  position: absolute;
+  font-size: 1.2rem;
+  bottom: 10px;
+  width: 100%;
+  text-align: left;
+}
+.intro-text p, .intro-text a {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+.intro-text a, .into-text a:link {
+  color: var(--bs-white);
+  display: block;
+  text-align: right;
 }
 
 .posts {
