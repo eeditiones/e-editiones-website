@@ -15,7 +15,7 @@ Many users explore the possibilities of TEI by looking at TEI Publisher's [Featu
 
 E-editiones encourages everyone to propose examples which could serve as a model or blueprint for other users working on digital editions. If you have something in mind, please send a short proposal to the e-editiones board, briefly describing the source material you'd like to make available, major points of interest regarding the TEI encoding (or an encoded sample), as well as the features, techniques, or area of research you would like to demonstrate with it. If the board agrees on incorporating your example, you will receive **500 Swiss Francs** as compensation for your preparation effort, and we'll help you with technical questions you may have along the way.
 
-![](images/large_000000.jpg)
+![](/img/large_000000.jpg)
 
 Finished examples will include the source TEI under a license allowing redistribution, an ODD for display, and, where necessary, an HTML template. We in particular look for examples covering one or more of the following areas:
 

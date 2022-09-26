@@ -25,7 +25,7 @@ With TEI Publisher 7, the entire server-side API can be viewed on a single docum
 
 Looking at the first route of the _documents_ section [in the API](https://teipublisher.com/exist/apps/tei-publisher/api.html "in the API") (see screenshot below), it is easy to construct a URL which returns the source XML: the path template to use is `/api/document/{id}` and `{id}` should contain the path to a document - relative to the data root of TEI Publisher.
 
-![Documents API screenshot](images/documents-1024x359.png)
+![Documents API screenshot](/img/documents-1024x359.png)
 
 So to retrieve the TEI/XML for _Graves' letter_, located in the file path `test/graves6.xml`, we can use the following URL:
 

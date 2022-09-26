@@ -17,7 +17,7 @@ Usually the problem to solve would be the great diversity of encoding across pro
 
 The next potential issue would be actually running the queries across corpora, particularly with the decentralized infrastructure where editions are hosted on diverse servers. The answer here is to define an API which individual editions need to expose, so that the aggregate search engine can just poll all its registered 'members', regardless of their location or how they implement the search internally.
 
-\[caption id="attachment\_574" align="aligncenter" width="840"\]![cross-search results](images/cross-results-1024x914.png) Cross-search results page\[/caption\]
+\[caption id="attachment\_574" align="aligncenter" width="840"\]![cross-search results](/img/cross-results-1024x914.png) Cross-search results page\[/caption\]
 
 The [_cross-search_](https://teipublisher.com/exist/apps/cross-search/index.html) prototype is exactly such a search engine. With a simple configuration one can register all 'member' editions. Only requirement for the editions themselves is that they expose the `api/search/document` API endpoint, which is a matter of simple customization for all TEI Publisher 7 applications which support Open API specifications out of the box. The `api/search/document` endpoint must accept a number of parameters defined in the specification. For this prototype the title, author and lang(uage) fields as well as genre, language and corpus facets were assumed.
 

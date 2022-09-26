@@ -57,7 +57,7 @@ Technical scaffolding of the LGPN-Ling project comprises of:
 - TEI Publisher-based application with an extended API to publish and query the  data,
 - Fore XForms to edit the data.
 
-![](images/ling-1024x607.png)
+![](/img/ling-1024x607.png)
 
 ##### 2022-02-01 Tutorial: Connecting components to custom API endpoints
 
@@ -67,7 +67,7 @@ This will be a tutorial session demonstrating  a new component for displaying c
 
 We'll also look at an enhanced version of the map component to display all places mentioned in an edition in a clustered view.
 
-![](images/Bildschirmfoto-2022-01-27-um-11.52.36.png)
+![](/img/Bildschirmfoto-2022-01-27-um-11.52.36.png)
 
 #### 2021
 

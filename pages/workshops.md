@@ -7,7 +7,7 @@ Meeting Room: [https://meet.existsolutions.com/workshop](https://meet.existsolut
 
 ### Upcoming Events
 
-  ![](images/pixel.gif)
+  ![](/img/pixel.gif)
 
 ### Past Events
 
@@ -23,7 +23,7 @@ Der Workshop richtet sich an Forschende aus verschiedenen Disziplinen, die ihre 
 
 ##### 2021-03-30, 17.00 CEST Versioning and Archiving Data: TEI2Zenodo
 
-![](images/tei2zenodo-300x147.png)
+![](/img/tei2zenodo-300x147.png)
 
 Dr. Andreas Wagner, Digital Humanities, Max Planck Institute for Legal History and Legal Theory, Frankfurt
 

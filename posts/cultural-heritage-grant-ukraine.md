@@ -9,11 +9,11 @@ tags:
   - "ukraine"
 ---
 
-[Українська ![](images/ukraine-1.png)](#ukr) 
+[Українська ![](/img/ukraine-1.png)](#ukr) 
 
 # Small grants program for scholars affected by war in Ukraine
 
-![](images/ukraine-3-279x300.png)
+![](/img/ukraine-3-279x300.png)
 
 e-editiones and the [TEI Consortium](https://tei-c.org/) in collaboration with [Archives Online](https://archives-online.org/) and [JinnTec](https://jinntec.de/) announce a small grant program aiming to help scholars of Ukrainian cultural heritage to continue their work that has been disrupted by the Russian invasion of Ukraine. We urge other institutions to support this call so we can offer funding for more of our colleagues affected by the war.
 
@@ -40,7 +40,7 @@ If you or your organization would like to contribute funds or services to this i
 
 - [SAGW](https://www.sagw.ch/sagw/) (Swiss Academy of Humanities and Social Science)
 
-![](https://raw.githubusercontent.com/eeditiones/logos/master/e-editiones-logo/e-editiones-logo-color.svg) ![](https://tei-c.org/Vault/Logos/TEIlogo.svg) ![](https://jinntec.de/images/jinntec-logo.svg) Archives Online
+![](https://raw.githubusercontent.com/eeditiones/logos/master/e-editiones-logo/e-editiones-logo-color.svg) ![](https://tei-c.org/Vault/Logos/TEIlogo.svg) ![](https://jinntec.de//img/jinntec-logo.svg) Archives Online
 
 * * *
 
@@ -67,4 +67,4 @@ e-editiones та [Консорціум TEI](https://tei-c.org/ "TEI Consortium")
 
 Якщо ви або ваша організація бажаєте внести кошти чи послуги на користь цієї ініціативи, будь ласка, напишіть деталі на адресу info@e-editiones.org. Фізичним особам пропонується робити пожертви через [PayPal](https://www.paypal.com/donate/?hosted_button_id=ST7PNHJK3FMX8). e-editiones є зареєстровані як некомерційна організація у Швейцарії.
 
-![](https://raw.githubusercontent.com/eeditiones/logos/master/e-editiones-logo/e-editiones-logo-color.svg) ![](https://tei-c.org/Vault/Logos/TEIlogo.svg) ![](https://jinntec.de/images/jinntec-logo.svg) Archives Online
+![](https://raw.githubusercontent.com/eeditiones/logos/master/e-editiones-logo/e-editiones-logo-color.svg) ![](https://tei-c.org/Vault/Logos/TEIlogo.svg) ![](https://jinntec.de//img/jinntec-logo.svg) Archives Online

@@ -7,7 +7,7 @@ categories:
 
 Through December we're aiming to present a number of recent open source developments related to e-editiones mission to empower digital editions of cultural, scientific, and artistic works by promoting open standards related to digital editions and advancing open source applications based on them.
 
-![](images/open-source-advent-1-816x1024.jpg)
+![](/img/open-source-advent-1-816x1024.jpg)
 
 Trying to create the atmosphere of joyful expectation and bring some holiday cheer to the dark hours of corona winter, we'll only reveal one "present" at a time and adjust the calendar and this post as we go along.
 

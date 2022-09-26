@@ -21,7 +21,7 @@ To simplify semantic encoding, eXist Solutions created a **Word plugin** for the
 
 With another click, the selected entity is inserted into the Word document, including a reference to the entity in the database. This proved to be a huge timesaver: what took minutes before - switching to a different window, doing a search and copying the ID - is now done in seconds. A screenshot of the Word plugin is shown below:
 
-![MS Word screenshot](images/word.png)
+![MS Word screenshot](/img/word.png)
 
 The plugin also allows editors to get a preview of how the current text would look like in TEI and how it would be rendered to HTML by TEI Publisher's ODD-based transformations. The preview feature sends the underlying Word XML to a TEI Publisher instance, which transforms it first to TEI, and then - if requested - to HTML. Editors can thus see the text as it would later appear on the website.
 
@@ -31,7 +31,7 @@ However, the Word-workflow only covers the new volumes: we still have 54 already
 
 For sure, oXygen would have been the obvious choice, but since the Word Plugin was already written in javascript/typescript, we decided to give Visual Studio Code a try. It turned out to be rather straightforward and the first usable version was done within one evening. Thrilled by the success, we invested two more days to make the plugin more generic, in particular, add connectors for other authority databases. Beyond the Karl Barth Gesamtausgabe, we now have connectors for the German GND, metagrid, Geonames and Google places.
 
-![Enity lookup screencast](images/screen-entity.gif)
+![Enity lookup screencast](/img/screen-entity.gif)
 
 The TEI snippet to be inserted for each of the entity types can be configured in the settings. For example, you could replace `<persName>` with `<name type="person">` if you like.
 
@@ -39,7 +39,7 @@ The TEI snippet to be inserted for each of the entity types can be configured in
 
 The HTML preview feature has been ported as well: pressing a keyboard shortcut or clicking the toolbar icon will present you with a list of ODDs available for transformations, and then open a new editor panel showing the transformation result in HTML. All you need is a TEI Publisher 7 instance which has a matching ODD installed. The plugin uses the general API introduced with TEI Publisher 7, which will also be exposed automatically by any application generated from it.
 
-![HTML preview screencast](images/screen-preview.gif)
+![HTML preview screencast](/img/screen-preview.gif)
 
 ## Snippets
 

@@ -7,7 +7,7 @@ categories:
 
 ## e-editiones as a Society
 
-![](images/wordcloud-eeditiones-2021.png)
+![](/img/wordcloud-eeditiones-2021.png)
 
 A highlight of the past year was e-editiones being awarded the [2021 TEI Community Prize](https://tei-c.org/activities/rahtz-prize-for-tei-ingenuity/). The jury offered us these kind words:
 

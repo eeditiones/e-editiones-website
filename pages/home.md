@@ -20,4 +20,4 @@ A more detailed description can be found in our [strategy paper](strategy "strat
 
 If you would like to [become a member](how-to-become-a-member "become a member") of e-editiones, don’t hesitate to contact us: [info@e-editiones.org](mailto:info@e-editiones.org), check out our [workshops](/workshops "workshops") and [community events](/community-meetings/ "community events"), and [get in touch](/get-in-touch/ "get in touch") with others.
 
-  ![](images/pixel.gif)
+  ![](/img/pixel.gif)

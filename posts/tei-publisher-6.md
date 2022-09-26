@@ -15,7 +15,7 @@ All Publisher's web components are now available as a LitElement library distrib
 
 This version also brings extended internationalization and full localization into 19 languages, simplified styling, support for data organization based on subcollections, several new and enhanced components (including one for [notated music](https://unpkg.com/@teipublisher/pb-components@1.0.0/dist/api.html#pb-mei.1 "notated music") encoded in MEI), improved ODD editor and major extension and revision of the documentation.
 
-\[caption id="attachment\_416" align="aligncenter" width="840"\]![mei](images/mei-demo-1024x523.png) Demo page of the pb-mei component\[/caption\]
+\[caption id="attachment\_416" align="aligncenter" width="840"\]![mei](/img/mei-demo-1024x523.png) Demo page of the pb-mei component\[/caption\]
 
 More information about this release can be found on the [TEI Publisher blog.](https://teipublisher.com/exist/apps/tei-publisher/doc/blog/tei-publisher-60.xml " TEI Publisher blog.")
 

@@ -9,7 +9,7 @@ tags:
   - "tei"
 ---
 
-![](images/wordcloud-eeditiones-2021.png) We're happy to send our first newsletter covering the past year of activities and developments within e-editiones and would like to encourage institutions or individuals who are not yet members to [join forces](https://e-editiones.org/how-to-become-a-member/).
+![](/img/wordcloud-eeditiones-2021.png) We're happy to send our first newsletter covering the past year of activities and developments within e-editiones and would like to encourage institutions or individuals who are not yet members to [join forces](https://e-editiones.org/how-to-become-a-member/).
 
 ## e-editiones as a Society
 
