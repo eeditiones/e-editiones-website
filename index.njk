@@ -6,20 +6,6 @@ eleventyNavigation:
 show: 9
 ---
 
-<div class="intro-text">
-    <p>e-editiones is an international non profit society consisting of owners 
-    of smaller and larger edition projects, cultural heritage institutions, 
-    and individual researchers. Its goal is to empower digital editions of 
-    cultural, scientific, and artistic works by promoting open standards 
-    related to digital editions and advancing open source applications based on them.</p>
-    <h4>More information:</h4>
-    <ul>
-        <li><a href="pages/home/">for researchers ...</a></li>
-        <li><a href="pages/home/">for memory institutions ...</a></li>
-        <li><a href="pages/home/">for libraries ...</a></li>
-    </ul>
-</div>
-
 <section class="blog">
   {% set maxPosts = collections.posts.length | min(show) %}
   <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>

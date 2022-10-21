@@ -8,14 +8,7 @@ templateClass: home
 <header>
     {% include "partials/menu.njk" %}
 </header>
-<div class="banner" data-rellax-zindex="1" data-rellax-speed="-7">
-    <div>
-        <div>
-            <h1>Editions with Future</h1>
-            <h2>Rooted in standards, built by a community, meant to last</h2>
-        </div>
-    </div>
-</div>
+{% include "partials/banner.njk" %}
 <main class="container {{ templateClass }}">
     {{ content | safe }}
 </main>

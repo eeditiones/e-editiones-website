@@ -2,8 +2,9 @@
 title: "Strategy"
 date: "2020-06-08"
 eleventyNavigation:
+    parent: Society
     key: Strategy
-    order: 2
+    order: 0
 ---
 
 ## e-editiones: Focus of the Society

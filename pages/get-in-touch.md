@@ -1,6 +1,10 @@
 ---
 title: "Get in Touch"
 date: "2020-06-11"
+eleventyNavigation:
+    parent: Community
+    key: Get in Touch
+    order: 2
 ---
 
 The following channels are open for community discussions. You don't need to be a member to join the conversation, though we certainly encourage you to join forces and become one.

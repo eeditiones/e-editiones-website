@@ -3,10 +3,10 @@
   --font-family-headings: "Lora", serif;
   --font-family-body: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
   --font-family-banner: "Nunito", sans-serif;
-  --bs-link-color: #c05b4d;
-  --bs-link-hover-color: #c05b4d;
+  --bs-link-color: #f5a623;
+  --bs-link-hover-color: #f5a623;
   --banner-image: url("../img/banner.jpg");
-  --banner-height: calc(100vh - 90px);
+  --banner-height: calc(100vh - 30vh - 90px);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -120,6 +120,10 @@ ul.navbar-nav {
   --bs-nav-link-color: var(--bs-black);
 }
 
+.dropdown-menu .nav-link.active {
+  --bs-navbar-active-color: var(--bs-link-color);
+}
+
 .navbar-brand img {
   height: 64px;
 }
@@ -163,14 +167,23 @@ ul.navbar-nav {
 }
 
 .intro-text {
+  position: absolute;
+  bottom: 0;
   font-size: 1.2rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.intro-text ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .blog {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 2px solid rgba(0, 0, 0, .20);
 }
+
 .posts {
   display: grid;
   grid-template-columns: repeat(3, 33%);

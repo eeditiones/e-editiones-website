@@ -1,6 +1,10 @@
 ---
 title: "How to Contribute"
 date: "2020-06-11"
+eleventyNavigation:
+    parent: Community
+    key: How to Contribute
+    order: 3
 ---
 
 There are many way how you could support us and contribute:

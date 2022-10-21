@@ -1,6 +1,10 @@
 ---
 title: "Workshops"
 date: "2021-03-22"
+eleventyNavigation:
+    parent: Community
+    key: Workshops
+    order: 5
 ---
 
 Meeting Room: [https://meet.existsolutions.com/workshop](https://meet.existsolutions.com/workshop)

@@ -1,6 +1,10 @@
 ---
 title: "Community Meetings"
 date: "2021-03-15"
+eleventyNavigation:
+    parent: Community
+    key: Community Meetings
+    order: 4
 ---
 
 In April 2021 e-editions will launch a series of regular community meetings that will be held on the first Tuesday of each month at 17:00 CET/CEST.

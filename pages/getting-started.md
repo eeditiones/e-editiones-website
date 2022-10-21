@@ -1,6 +1,10 @@
 ---
 title: "Getting Started"
 date: "2020-06-11"
+eleventyNavigation:
+    parent: Community
+    key: Getting Started
+    order: 1
 ---
 
 If you want to dive in straight away go to the [TEI Publisher Documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=odd-customization).
