@@ -3,6 +3,7 @@ title: "Archives Online offers hosting in cooperation with e-editiones"
 date: "2021-03-28"
 categories: 
   - "general"
+coverImage: "kenny-eliason-uq5RMAZdZG4-unsplash.jpg"
 ---
 
 In cooperation with e-editiones, [Archives Online](https://www.archives-online.org/ "Archives Online") is building an infrastructure for digital scholarly editions based on [TEI Publisher](https://teipublisher.com "TEI Publisher") and [IIIF](https://iiif.io/ "IIIF"). It is offering comprehensive, long-term support and maintenance to keep digital editions from going dark. The offer is **available to all interested editions** world-wide.
@@ -36,3 +37,5 @@ The upcoming version will also include index configuration and API endpoints for
 With these low-level technical questions solved, e-editiones is now also putting a strong focus on describing the practical recommendations for the encoding of texts. The idea is to create a set of best practice guidelines for corpora with a pledge that any text following these guidelines will look good out of the box when rendered via TEI Publisher and will be ready for incorporation into the search portal. Initial work is carried out now and we expect a community meetup soon to discuss on a broader forum.
 
 This way we aim to: flatten the learning curve for many projects starting with TEI encoding, reduce the amount of customization work required for an edition, allowing users to publish materials with minimal effort, and assure that the project data is ready to be integrated into larger scale search portals. Needless to say, recommendations we have in mind are intended only with an eye towards interoperability and do not limit in any way customization capacities already embodied by the TEI Publisher approach.
+
+Tile photo by <a href="https://unsplash.com/@neonbrand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Kenny Eliason</a> on <a href="https://unsplash.com/s/photos/hosting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>

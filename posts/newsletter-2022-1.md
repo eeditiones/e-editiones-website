@@ -1,5 +1,5 @@
 ---
-title: "Newsletter"
+title: "Newsletter 22/1"
 lead: "Annual newsletter for 2021"
 date: "2022-04-05"
 categories: 

@@ -1,5 +1,6 @@
 ---
-title: "Newsletter 2021/1"
+title: "Newsletter 21/1"
+lead: "Annual newsletter for 2020"
 date: "2021-02-02"
 categories: 
   - "general"
@@ -7,9 +8,12 @@ categories:
 tags: 
   - "news"
   - "tei"
+coverImage: "bank-phrom-Tzm3Oyu_6sk-unsplash.jpg"
 ---
 
-![](/img/wordcloud-eeditiones-2021.png) We're happy to send our first newsletter covering the past year of activities and developments within e-editiones and would like to encourage institutions or individuals who are not yet members to [join forces](https://e-editiones.org/how-to-become-a-member/).
+![Photo by <a href="https://unsplash.com/@bank_phrom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Bank Phrom</a> on <a href="https://unsplash.com/s/photos/news?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>](/img/bank-phrom-Tzm3Oyu_6sk-unsplash.jpg)
+
+We're happy to send our first newsletter covering the past year of activities and developments within e-editiones and would like to encourage institutions or individuals who are not yet members to [join forces](https://e-editiones.org/how-to-become-a-member/).
 
 ## e-editiones as a Society
 
@@ -56,6 +60,8 @@ The association immediately set up communication facilities for its members and 
 - [TEI Publisher FAQ](https://faq.teipublisher.com/)
 - [e-editiones.org on Twitter](https://twitter.com/EEditiones)
 - Up-to-date list of [e-editiones communication channels](https://e-editiones.org/get-in-touch/)
+
+![](/img/wordcloud-eeditiones-2021.png) 
 
 ## TEI Publisher Developments: Versions 6 and 7
 

@@ -1,5 +1,6 @@
 ---
-title: "Embeding TEI Publisher Components in Wordpress"
+title: "TEI Publisher Components in Wordpress"
+lead: "How to embed TEI content into a Wordpress website"
 date: "2019-09-07"
 categories: 
   - "tei-publisher"
@@ -7,6 +8,7 @@ tags:
   - "hugo"
   - "pb-component"
   - "wordpress"
+coverImage: "tolga-ahmetler-TrEpkuxu72I-unsplash.jpg"
 ---
 
 This is a short rewrite of Wolfgang’s post on [Embedding TEI Publisher Components](https://teipublisher.onrender.com/post/embedding-publisher/) in [Hugo](https://gohugo.io/) . For Wordpress you can do the same thing very easily. I used the example of Wolfgang’s post; just make sure that your site is whitelisted.
@@ -82,3 +84,5 @@ For the facsimilie we use the `pb-facsimile` Component to integrate a IIIF viewe
 * * *
 
 1. Custom fields are hidden by default on most WordPress sites. To make them visible, select the Screen Options tab at the top of any WordPress editor page, and choose Custom Fields [↩](#fnref1:1)
+
+Tile photo by <a href="https://unsplash.com/@t_ahmetler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Tolga Ahmetler</a> on <a href="https://unsplash.com/s/photos/pack?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
