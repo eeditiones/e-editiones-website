@@ -13,7 +13,7 @@
     <link rel="alternate" href="/11ty-homepage/feed/feed.json" type="application/json" title="e-editiones">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Zilla+Slab:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     
   </head>
@@ -73,31 +73,79 @@
 </header>
 <div class="banner" data-rellax-zindex="1" data-rellax-speed="-7">
     <div>
-        <div>
-            <h1>Editions with Future</h1>
-            <h2>rooted in standards, built by a community, meant to last</h2>
+        <div class="hero">
+            <h1><span class="initial">e</span>ditions with <span class="initial">f</span>uture</h1>
+            <p>rooted in standards, built by a community, meant to last</p>
             <div>
                 <button class="btn btn-warning">Donate</button>
                 <button class="btn btn-warning">Join</button>
             </div>
-            <div class="intro-text">
-                <div>
-                    <p><strong>International non profit society</strong> gathering 
-                    edition projects, cultural heritage institutions, 
-                    and individuals<br/><strong>Empower</strong> digital projects by promoting 
-                    <strong>open standards</strong> and <strong>community collaboration</strong>.</p>
-                    <ul>
-                        <li><a href="pages/home/">researchers ...</a></li>
-                        <li><a href="pages/home/">memory institutions ...</a></li>
-                        <li><a href="pages/home/">libraries ...</a></li>
-                        <li><a href="pages/home/">developers ...</a></li>
-                    </ul>
-                </div>
-            </div>
+        </div>
+        <div class="d-none d-lg-block">
+        <div class="intro-text">
+    <div>
+        <p><strong>International non profit society</strong> gathering 
+        edition projects, cultural heritage institutions, 
+        and individuals<br/><strong>Empower</strong> digital projects by promoting 
+        <strong>open standards</strong> and <strong>community collaboration</strong>.
+        Curious?</p>
+        <ul>
+            <li>
+                <a href="pages/home/" class="shortcut btn">
+                <img src="img/poet-svgrepo-com.svg" height="32">
+                <span>researchers</span>
+                </a>
+            </li>
+            <li>
+                <a href="pages/home/" class="shortcut btn">
+                    <img src="img/university-svgrepo-com.svg" height="32">
+                    <span>memory institutions</span>
+                </a>
+            </li>
+            <li>
+                <a href="pages/home/" class="shortcut btn">
+                    <img src="img/school-material-svgrepo-com.svg" height="32">
+                    <span>developers</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
         </div>
     </div>
 </div>
 <main class="container home">
+    <div class="d-lg-none">
+        <div class="intro-text">
+    <div>
+        <p><strong>International non profit society</strong> gathering 
+        edition projects, cultural heritage institutions, 
+        and individuals<br/><strong>Empower</strong> digital projects by promoting 
+        <strong>open standards</strong> and <strong>community collaboration</strong>.
+        Curious?</p>
+        <ul>
+            <li>
+                <a href="pages/home/" class="shortcut btn">
+                <img src="img/poet-svgrepo-com.svg" height="32">
+                <span>researchers</span>
+                </a>
+            </li>
+            <li>
+                <a href="pages/home/" class="shortcut btn">
+                    <img src="img/university-svgrepo-com.svg" height="32">
+                    <span>memory institutions</span>
+                </a>
+            </li>
+            <li>
+                <a href="pages/home/" class="shortcut btn">
+                    <img src="img/school-material-svgrepo-com.svg" height="32">
+                    <span>developers</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+    </div>
     
 <section class="blog">
   
@@ -109,38 +157,47 @@
   
     <div class="card ">
       
+      <img class="card-img-top" src="/11ty-homepage/img/wall.png">
+      
       <div class="card-body">
         <h3 class="card-title">
-          <a href="/11ty-homepage/posts/names-sell-named-entity-recognition-in-tei-publisher/" class="text-muted">Names sell: Named entity recognition in TEI Publisher</a>
+          <a href="/11ty-homepage/posts/names-sell-named-entity-recognition-in-tei-publisher/" class="text-muted">Names sell</a>
         </h3>
+        
+        <p class="card-text">Named entity recognition in TEI Publisher</p>
+        
         <div>
           <time class="card-subtitle mb-2 text-muted" datetime="2022-06-10">10 Jun 2022</time>
           
         </div>
-        <p class="card-text"></p>
       </div>
     </div>
   
     <div class="card ">
+      
+      <img class="card-img-top" src="/11ty-homepage/img/wall.png">
       
       <div class="card-body">
         <h3 class="card-title">
           <a href="/11ty-homepage/posts/newsletter-2022-1/" class="text-muted">Newsletter 2022/1</a>
         </h3>
+        
         <div>
           <time class="card-subtitle mb-2 text-muted" datetime="2022-04-05">05 Apr 2022</time>
           
         </div>
-        <p class="card-text"></p>
       </div>
     </div>
   
     <div class="card ">
       
+      <img class="card-img-top" src="/11ty-homepage/img/wall.png">
+      
       <div class="card-body">
         <h3 class="card-title">
           <a href="/11ty-homepage/posts/cultural-heritage-grant-ukraine/" class="text-muted">Call for Applications / Оголошення про подачу заявок</a>
         </h3>
+        
         <div>
           <time class="card-subtitle mb-2 text-muted" datetime="2022-03-29">29 Mar 2022</time>
           
@@ -154,16 +211,18 @@
             <a href="/11ty-homepage/tags/ukraine/" class="badge text-bg-light">ukraine</a>
           
         </div>
-        <p class="card-text"></p>
       </div>
     </div>
   
     <div class="card ">
       
+      <img class="card-img-top" src="/11ty-homepage/img/wall.png">
+      
       <div class="card-body">
         <h3 class="card-title">
           <a href="/11ty-homepage/posts/tei-community-prize/" class="text-muted">e-editiones receives 2021 TEI Community Prize</a>
         </h3>
+        
         <div>
           <time class="card-subtitle mb-2 text-muted" datetime="2021-10-27">27 Oct 2021</time>
           
@@ -171,16 +230,18 @@
             <a href="/11ty-homepage/tags/awards/" class="badge text-bg-light">awards</a>
           
         </div>
-        <p class="card-text"></p>
       </div>
     </div>
   
     <div class="card ">
       
+      <img class="card-img-top" src="/11ty-homepage/img/wall.png">
+      
       <div class="card-body">
         <h3 class="card-title">
           <a href="/11ty-homepage/posts/call-for-proposals-big-prizes/" class="text-muted">Call for Proposals $$$ Big Prizes $$$</a>
         </h3>
+        
         <div>
           <time class="card-subtitle mb-2 text-muted" datetime="2021-10-27">27 Oct 2021</time>
           
@@ -191,16 +252,18 @@
             <a href="/11ty-homepage/tags/news/" class="badge text-bg-light">news</a>
           
         </div>
-        <p class="card-text"></p>
       </div>
     </div>
   
     <div class="card ">
       
+      <img class="card-img-top" src="/11ty-homepage/img/wall.png">
+      
       <div class="card-body">
         <h3 class="card-title">
           <a href="/11ty-homepage/posts/tei-conference-2021-talk-flexible-browser-based-annotations-for-tei/" class="text-muted">TEI Conference 2021 Talk: &quot;Flexible, Browser-Based Annotations for TEI&quot;</a>
         </h3>
+        
         <div>
           <time class="card-subtitle mb-2 text-muted" datetime="2021-10-26">26 Oct 2021</time>
           
@@ -211,7 +274,6 @@
             <a href="/11ty-homepage/tags/tei-publisher/" class="badge text-bg-light">tei-publisher</a>
           
         </div>
-        <p class="card-text"></p>
       </div>
     </div>
   
@@ -223,11 +285,11 @@
         <h3 class="card-title">
           <a href="/11ty-homepage/posts/digital-editions-survival-kit/" class="text-muted">Digital editions survival kit</a>
         </h3>
+        
         <div>
           <time class="card-subtitle mb-2 text-muted" datetime="2021-10-26">26 Oct 2021</time>
           
         </div>
-        <p class="card-text"></p>
       </div>
     </div>
   
@@ -239,6 +301,7 @@
         <h3 class="card-title">
           <a href="/11ty-homepage/posts/annotation-editor-released-with-new-tei-publisher-7-1-0/" class="text-muted">Annotation editor released with new TEI Publisher 7.1.0</a>
         </h3>
+        
         <div>
           <time class="card-subtitle mb-2 text-muted" datetime="2021-08-10">10 Aug 2021</time>
           
@@ -252,21 +315,22 @@
             <a href="/11ty-homepage/tags/tei/" class="badge text-bg-light">tei</a>
           
         </div>
-        <p class="card-text"></p>
       </div>
     </div>
   
     <div class="card ">
       
+      <img class="card-img-top" src="/11ty-homepage/img/">
+      
       <div class="card-body">
         <h3 class="card-title">
           <a href="/11ty-homepage/pages/map/" class="text-muted">TEI Publisher Registry</a>
         </h3>
+        
         <div>
           <time class="card-subtitle mb-2 text-muted" datetime="2021-06-23">23 Jun 2021</time>
           
         </div>
-        <p class="card-text"></p>
       </div>
     </div>
   

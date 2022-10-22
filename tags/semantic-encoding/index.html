@@ -13,14 +13,12 @@
     <link rel="alternate" href="/11ty-homepage/feed/feed.json" type="application/json" title="e-editiones">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Zilla+Slab:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     
   </head>
   <body>
       
-<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
-
 <header>
     <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
@@ -71,35 +69,10 @@
     </div>
 </nav>
 </header>
-<div class="banner" data-rellax-zindex="1" data-rellax-speed="-7">
-    <div>
-        <div>
-            <h1>Editions with Future</h1>
-            <h2>rooted in standards, built by a community, meant to last</h2>
-            <div>
-                <button class="btn btn-warning">Donate</button>
-                <button class="btn btn-warning">Join</button>
-            </div>
-            <div class="intro-text">
-                <div>
-                    <p><strong>International non profit society</strong> gathering 
-                    edition projects, cultural heritage institutions, 
-                    and individuals<br/><strong>Empower</strong> digital projects by promoting 
-                    <strong>open standards</strong> and <strong>community collaboration</strong>.</p>
-                    <ul>
-                        <li><a href="pages/home/">researchers ...</a></li>
-                        <li><a href="pages/home/">memory institutions ...</a></li>
-                        <li><a href="pages/home/">libraries ...</a></li>
-                        <li><a href="pages/home/">developers ...</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<main class="container home">
-    <h1>Tagged “semantic-encoding”</h1>
 
+<main class="container ">
+    <h1>Tagged “semantic-encoding”</h1>
+    
 
 <div class="posts">
   
@@ -111,6 +84,7 @@
         <h3 class="card-title">
           <a href="/11ty-homepage/posts/vscode/" class="text-muted">New Visual Studio Code extension for TEI Publisher</a>
         </h3>
+        
         <div>
           <time class="card-subtitle mb-2 text-muted" datetime="2020-12-09">09 Dec 2020</time>
           
@@ -127,7 +101,6 @@
             <a href="/11ty-homepage/tags/vscode/" class="badge text-bg-light">vscode</a>
           
         </div>
-        <p class="card-text"></p>
       </div>
     </div>
   
@@ -139,21 +112,19 @@
 
 <footer></footer>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const main = document.querySelector('.banner');
-        const observer = new IntersectionObserver((entries) => {
-            if (!entries[0].isIntersecting) {
-                document.body.classList.remove('banner-visible');
-            } else {
-                document.body.classList.add('banner-visible');
-            }
-        }, { threshold: 0.7 });
-        observer.observe(main);
-
-        const rellax = new Rellax('.banner');
-    });
-</script>
 <!-- Current page: /11ty-homepage/tags/semantic-encoding/ -->
+<!--script>
+    document.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener('scroll', function() {
+        const winTop = window.pageYOffset;
+        console.log('scrolling %s', winTop);
+        if (winTop > 30) {
+        document.body.classList.add('sticky');
+        } else {
+        document.body.classList.remove('sticky');
+        }
+    });
+    });
+</script-->
   </body>
 </html>
