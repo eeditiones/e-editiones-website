@@ -4,6 +4,7 @@ layout: "layouts/meetup.njk"
 date: "2022-10-22"
 tags:
     - "meetups"
+    - "events"
 coverImage: "estee-janssens-zni0zgb3bkQ-unsplash.jpg"
 ---
 
