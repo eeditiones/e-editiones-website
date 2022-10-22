@@ -1,13 +1,9 @@
 ---
 title: "Music is in the air - MEI and TEI Publisher"
+layout: "layouts/meetup.njk"
 date: "2020-07-23"
-categories: 
-  - "general"
-  - "tei-publisher"
 tags: 
-  - "mei"
-  - "pb-mei"
-  - "verovio"
+  - "events"
 ---
 
 On Wednesday, July 8th we had the opportunity to join another e-editiones online event, this time a session dedicated to MEI (Music Encoding Initiative). Giuliano Di Bacco and Dennis Ried introduced us to MEI and challenges of publishing MEI and MEI-in-TEI collections on the web ([see slides](https://e-editiones.org/wp-content/uploads/2020/07/MEI_4_GDB_DR.pdf "MEI 4 EE presentation GDB&amp;DR")). Wolfgang Meier presented early results of his work on integration of MEI into the TEI Publisher.

@@ -1,6 +1,6 @@
 {
   "layout": "layouts/content.njk",
   "tags": [
-    "posts"
+    "static"
   ]
 }
