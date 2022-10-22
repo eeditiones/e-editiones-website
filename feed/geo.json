@@ -1,0 +1,386 @@
+
+
+
+{
+    "type": "FeatureCollection",
+    "features": [
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.149523400000001,51.24477779999999]
+            },
+            "properties": {
+                "name": "A Catalog of Digital Scholarly Editions",
+                "description": "<div>\n        <h4>A Catalog of Digital Scholarly Editions</h4>\n        <p>v 4.0, 2020ff under the direction of Patrick Sahle, with Georg Vogeler (contributions 1998ff), Jana Klinger (catalog entries 2019ff), Stephan Makowski (technical system 2020ff) and Nadine Sutor (various support 2020ff).</p>\n        <a href=\"https://www.digitale-edition.de\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:stephan.makowski@uni-wuppertal.de\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [24.956264,60.17019320000001]
+            },
+            "properties": {
+                "name": "Aleksis Kivi&#39;s Lea",
+                "description": "<div>\n        <h4>Aleksis Kivi&#39;s Lea</h4>\n        <p>A critical digitial edition of the play Lea (1869) by Aleksis Kivi (1834-1872), regarded as Finland&#39;s national author. The Finnish-only edition contains transcription, commentaries, facsimile images and scholarly journal articles. XML files are available under CC BY 4.0.</p>\n        <a href=\"https://editiot.finlit.fi/exist/apps/lea\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:maria.niku@finlit.fi\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [24.956264,60.17019320000001]
+            },
+            "properties": {
+                "name": "Aleksis Kivi&#39;s Yö ja päivä (= Night and Day)",
+                "description": "<div>\n        <h4>Aleksis Kivi&#39;s Yö ja päivä (= Night and Day)</h4>\n        <p>A critical digitial edition of the play Yö ja päivä (1867) by Aleksis Kivi (1834-1872), regarded as Finland&#39;s national author. The Finnish-only edition contains transcription, commentaries, facsimile images and scholarly journal articles. XML files are available under CC BY 4.0.</p>\n        <a href=\"https://editiot.finlit.fi/exist/apps/yo-ja-paiva\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:maria.niku@finlit.fi\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.547105400000001,47.3973245]
+            },
+            "properties": {
+                "name": "Alfred Escher-Briefedition",
+                "description": "<div>\n        <h4>Alfred Escher-Briefedition</h4>\n        <p>Edition der Korrespondenz von Alfred Escher (*20. Februar 1819 in Zürich; † 6. Dezember 1882)</p>\n        <a href=\"https://www.briefedition.alfred-escher.ch/home.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [2.342818400000001,48.8483503]
+            },
+            "properties": {
+                "name": "Antonomaz",
+                "description": "<div>\n        <h4>Antonomaz</h4>\n        <p>The Antonomaz project aims to publish the corpus of the mazarinades, a set of libelles printed during the Fronde (1648-1653) and to put them back in their production context.</p>\n        <a href=\"https://antonomaz.huma-num.fr/\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:karine.abiven@sorbonne-universite.fr\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.5808315,47.55963879999999]
+            },
+            "properties": {
+                "name": "Basler Edition der Bernoulli-Briefwechsel (BEBB)",
+                "description": "<div>\n        <h4>Basler Edition der Bernoulli-Briefwechsel (BEBB)</h4>\n        <p>Die BEBB ediert die Briefwechsel der Basler Mathematiker und Physiker Daniel I (1700-1782), Jacob I (1654-1655) Jacob II (1759-1789), Johann I (1667-1748), Johann II (1710-1790), Nicolaus I (1687-1759), Nicolaus II (1695-1726) Bernoulli und Jacob Hermann (1678-1733). Die auf TEI Publisher basierende Webseite ist noch in Vorbereitung.</p>\n        <a href=\"https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/Hauptseite\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:sulamith.gehr@unibas.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [9.382042300000002,47.4291336]
+            },
+            "properties": {
+                "name": "Briefverkehr der Stadt St. Gallen 1400–1800",
+                "description": "<div>\n        <h4>Briefverkehr der Stadt St. Gallen 1400–1800</h4>\n        <p>In Vorbereitung. Edition der Missiven aus dem Stadtarchiv der Ortsbürgergemeinde St. Gallen (1400–1650)</p>\n        <a href=\"https://stadtarchiv.ch/forschungsprojekte/missivenedition/\" class=\"badge bg-light text-dark\">Link</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [24.956264,60.17019320000001]
+            },
+            "properties": {
+                "name": "Codex Aitolahti",
+                "description": "<div>\n        <h4>Codex Aitolahti</h4>\n        <p>A digital edition of a 1640s Finnish translation of a late medieval legal codex of the Swedish kingdom, which Finland was a part of at the time. The edition contains facsimile images and transcription, and XML is available under CC BY 4.0.</p>\n        <a href=\"https://editiot.finlit.fi/exist/apps/codex-aitolahti\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:maria.niku@finlit.fi\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [2.353880699999999,48.83979619999999]
+            },
+            "properties": {
+                "name": "Corpus Grammaticorum Latinorum",
+                "description": "<div>\n        <h4>Corpus Grammaticorum Latinorum</h4>\n        <p>A digital index, concordance, lexicon of the Latin artes Grammaticae: Alessandro Garcea and Valeria Lomanto eds, Corpus Grammaticorum Latinorum. A Digital Edition, Paris 2022</p>\n        <a href=\"https://htldb.huma-num.fr/exist/apps/cgl\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:clement.plancq@univ-tours.fr\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.0174339,52.23777390000001]
+            },
+            "properties": {
+                "name": "Corpus of Ioannes Dantiscus&#39; Texts and Correspondence",
+                "description": "<div>\n        <h4>Corpus of Ioannes Dantiscus&#39; Texts and Correspondence</h4>\n        <p>A journey in the footsteps of Dantiscus (1485–1548) – a humanist and world-class diplomat – from the northern outskirts of the multicultural kingdom of the Polish Jagiellons, through the royal and imperial courts of Europe and even into New World at the moment of birth of a new era. In preparation.</p>\n        <a href=\"https://teipublisher.com/exist/apps/dantiscus/index.html \" class=\"badge bg-light text-dark\">Link</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [2.3846547,48.8414464]
+            },
+            "properties": {
+                "name": "Digital Scholarly Editions (DiScholEd)",
+                "description": "<div>\n        <h4>Digital Scholarly Editions (DiScholEd)</h4>\n        <p>A platform dedicated to digital scholarly editions of egodocuments</p>\n        <a href=\"https://discholed.huma-num.fr/exist/apps/discholed/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:discholed@inria.fr\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [13.3942386,52.51398]
+            },
+            "properties": {
+                "name": "Digitales Dossier: Alexander von Humboldt und Kuba (1800-1830)",
+                "description": "<div>\n        <h4>Digitales Dossier: Alexander von Humboldt und Kuba (1800-1830)</h4>\n        <p>Proyecto Humboldt Digital (ProHD) aims to publish online a multilingual collection of texts related to Alexander von Humboldt&#39;s trip to Cuba and its reception in the island in the 19th Century.</p>\n        <a href=\"\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:rojas-castro@bbaw.de\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-87.6759889,42.0541119]
+            },
+            "properties": {
+                "name": "EarlyPrint",
+                "description": "<div>\n        <h4>EarlyPrint</h4>\n        <p>EarlyPrint presents some 52,000 Early Modern English texts from the EEBO-TCP collection in a linguistically annotated and partially corrected form. The site supports collaborative curation and complex searches via Blacklab, the corpus query tool designed by the Dutch Language Institute. We expect to add Early American texts over the course of the next year.</p>\n        <a href=\"https://earlyprint.org\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:martinmueller@northwestern.edu\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [13.3777796,52.52182959999999]
+            },
+            "properties": {
+                "name": "Editionsprogramm »Fraktionen im Deutschen Bundestag 1949–2005«",
+                "description": "<div>\n        <h4>Editionsprogramm »Fraktionen im Deutschen Bundestag 1949–2005«</h4>\n        <p>Laufende Edition der historischen Sitzungsprotokolle der Fraktionen im Deutschen Bundestag (1949 bis 2005) durch die »Kommission für die Geschichte des Parlamentarismus und der politischen Parteien e. V.«.</p>\n        <a href=\"https://www.fraktionsprotokolle.de\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:juengerkes@kgparl.de\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [2.3269827,48.85014200000001]
+            },
+            "properties": {
+                "name": "Electronic Edition of the works of Jean-Joseph Rabearivelo (french and malagasy)",
+                "description": "<div>\n        <h4>Electronic Edition of the works of Jean-Joseph Rabearivelo (french and malagasy)</h4>\n        <p>In preparation.</p>\n        <a href=\"https://rabearivelo.huma-num.fr\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:clement.plancq@ens.psl.eu\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-3.9799524,51.6092184]
+            },
+            "properties": {
+                "name": "Elizabeth Montagu Correspondence Online (EMCO)",
+                "description": "<div>\n        <h4>Elizabeth Montagu Correspondence Online (EMCO)</h4>\n        <p>A digital edition of the complete letters of Elizabeth Montagu (1718-1800) - ISSN 2753-9091</p>\n        <a href=\"http://emco.swansea.ac.uk/home/\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:a.l.roberts@swansea.ac.uk\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-77.0368707,38.9071923]
+            },
+            "properties": {
+                "name": "Foreign Relations of the United States (FRUS)",
+                "description": "<div>\n        <h4>Foreign Relations of the United States (FRUS)</h4>\n        <p>The official documentary record of U.S. foreign relations (1861-)</p>\n        <a href=\"https://history.state.gov\" class=\"badge bg-light text-dark\">Link</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [24.956264,60.17019320000001]
+            },
+            "properties": {
+                "name": "Forest Finns&#39; Letters to Gottlund",
+                "description": "<div>\n        <h4>Forest Finns&#39; Letters to Gottlund</h4>\n        <p>A digital edition of 19th century letters from Forest Finns, Finnish inhabitants of Sweden and Norway, to Carl Axel Gottlund (1796-1875), a Finnish collector of folklore, linguist, university lecturer and activist who sought to improve the Forest Finns&#39; difficult circumstances. The letters are in Finnish, Swedish and Norwegian, the user interface is available in Finnish, Swedish, Norwegian and English. The edition contains facsimile images for all letters and transcriptions for the Finnish letters. XML files are available under CC BY 4.0.</p>\n        <a href=\"https://editiot.finlit.fi/exist/apps/gottlund/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:maria.niku@finlit.fi\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.670384600000002,50.12793120000001]
+            },
+            "properties": {
+                "name": "Historical Dictionary of Canon Law in Hispanic America and the Philippines, 16th -18th century (DCH)",
+                "description": "<div>\n        <h4>Historical Dictionary of Canon Law in Hispanic America and the Philippines, 16th -18th century (DCH)</h4>\n        <p>In preparation. From a series of primary sources, it has been developed a thesaurus, comprising 120 voices, that seeks to give a full and particular scenario on the constitutive terms of this legal order in the New World. Articles are worked on the base of a corpus of sources, which circulated widely in Hispanic America and the Philippines in the period studied.</p>\n        <a href=\"https://www.lhlt.mpg.de/research-project/historical-dictionary-of-canon-law\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:wagner@lhlt.mpg.de\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.587217099999997,47.5345555]
+            },
+            "properties": {
+                "name": "Karl Barth-Gesamtausgabe",
+                "description": "<div>\n        <h4>Karl Barth-Gesamtausgabe</h4>\n        <p>In Vorbereitung</p>\n        <a href=\"https://karlbarth.unibas.ch/de/\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:bartharchiv-theol@unibas.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [19.9379298,50.0641831]
+            },
+            "properties": {
+                "name": "Korespondencja żupnika krakowskiego Mikołaja Serafina z lat 1437 — 1459",
+                "description": "<div>\n        <h4>Korespondencja żupnika krakowskiego Mikołaja Serafina z lat 1437 — 1459</h4>\n        <p>Niezwykle cenny zbiorek korespondencji prywatnej i urzędowej z połowy XV w. — obejmujący kilkadziesiąt listów z lat 1437–1459 do dzierżawcy salin krakowskich i ruskich, miecznika krakowskiego Mikołaja Serafina lub osób z nim związanych.</p>\n        <a href=\"https://teipublisher.com/exist/apps/serafin\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:tuurma@gmail.com\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.5450536,47.3804424]
+            },
+            "properties": {
+                "name": "Louis Ginzberg: Legenden der Juden",
+                "description": "<div>\n        <h4>Louis Ginzberg: Legenden der Juden</h4>\n        <p>In Vorbereitung. Erstmalige Edition des deutschen Urmanuskripts von Louis Ginzbergs Sammlung jüdischen Erzählguts, deren englische Bearbeitung international weit verbreitet ist</p>\n        <a href=\" https://lit.ethz.ch/forschung/laufende-drittmittelprojekte/louis-ginznerg--die-legenden-der-juden.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:joanna.nowotny@lit.gess.ethz.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.547105400000001,47.3973245]
+            },
+            "properties": {
+                "name": "Rechtsquellen-Edition des Kantons Zürich",
+                "description": "<div>\n        <h4>Rechtsquellen-Edition des Kantons Zürich</h4>\n        <p>In Vorbereitung Historische Quellen aus dem Gebiet des heutigen Kantons Zürich aus der Zeit bis 1798</p>\n        <a href=\"http://staatsarchiv.zh.ch/\" class=\"badge bg-light text-dark\">Link</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [14.5047253,46.0478073]
+            },
+            "properties": {
+                "name": "Register of Older Slovenian Manuscripts",
+                "description": "<div>\n        <h4>Register of Older Slovenian Manuscripts</h4>\n        <p>Descriptions of manuscripts in Slovenian language from early modern period, some of them with a digital facsimile.</p>\n        <a href=\" https://rrss.manuscripta.zrc-sazu.si\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:matija.ogrin@zrc-sazu.si\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [9.3730389,47.4285188]
+            },
+            "properties": {
+                "name": "Sammlung Schweizerischer Rechtsquellen online (SSRQ online)",
+                "description": "<div>\n        <h4>Sammlung Schweizerischer Rechtsquellen online (SSRQ online)</h4>\n        <p>Rechtshistorisches Quellenmaterial vom Mittelalter bis in die Frühe Neuzeit (1798).</p>\n        <a href=\"https://www.ssrq-sds-fds.ch/online/tei/\" class=\"badge bg-light text-dark\">Link</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.4884229,53.3813502]
+            },
+            "properties": {
+                "name": "The Digital Cassirer Collection",
+                "description": "<div>\n        <h4>The Digital Cassirer Collection</h4>\n        <p>The collected works of H. W. Cassirer (1903­-1979), philosopher, classicist and biblical scholar.</p>\n        <a href=\"https://cassirer.org/\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:i.hine@sheffield.ac.uk\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.261609300000001,51.44566589999999]
+            },
+            "properties": {
+                "name": "The International Business Correspondence of L. Kniffler &amp; Co. (1859-1876)",
+                "description": "<div>\n        <h4>The International Business Correspondence of L. Kniffler &amp; Co. (1859-1876)</h4>\n        <p>A digital edition of the international business correspondence of L. Kniffler &amp; Co., one of the first European or American trading houses established in Japan after the Shogunate dropped its isolationist policy.</p>\n        <a href=\"https://kniffler.ub.rub.de\" class=\"badge bg-light text-dark\">Link</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [35.016468,32.76327500000001]
+            },
+            "properties": {
+                "name": "TraveLab",
+                "description": "<div>\n        <h4>TraveLab</h4>\n        <p>TraveLab is a project that explores new ways to read Historical travelogs, combining an interactive map with aligned parallel editions. Starting with a trilingual edition of the Journey of Benjamin of Tudela, a Jewish 12th century traveler, the project will continue to integrate additional Travelogs. XML files are available under CC BY 4.0.</p>\n        <a href=\"https://teipublisher.info/exist/apps/TraveLab/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:sinai.rusinek@mail.huji.ac.il\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.586746199999999,47.5550288]
+            },
+            "properties": {
+                "name": "Vicentino21 – a digital edition with commentary, translation and practical exploration of Nicola Vicentino’s «L’antica musica ridotta alla moderna prattica» (Rome 1555) (in preparation)",
+                "description": "<div>\n        <h4>Vicentino21 – a digital edition with commentary, translation and practical exploration of Nicola Vicentino’s «L’antica musica ridotta alla moderna prattica» (Rome 1555) (in preparation)</h4>\n        <p>“Vicentino21” is a four year SNFS project and is creating a digital edition of the treatise and its music, with translations, commentaries and sound samples. The textual part of the treatise will be encoded in TEI and the TEI Publisher will be our publishing tool.</p>\n        <a href=\" https://www.fhnw.ch/plattformen/vicentino21/\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto: https://www.fhnw.ch/plattformen/vicentino21/\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        
+        
+    ]
+}

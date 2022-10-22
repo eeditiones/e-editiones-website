@@ -197,6 +197,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/11ty-homepage/map/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/</loc>
     <lastmod>2022-10-22</lastmod>
   </url>
@@ -247,6 +252,16 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/grants/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/ukraine/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/hugo/</loc>
     <lastmod>2022-10-22</lastmod>
   </url>
@@ -258,16 +273,6 @@
   
   <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/wordpress/</loc>
-    <lastmod>2022-10-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/grants/</loc>
-    <lastmod>2022-10-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/ukraine/</loc>
     <lastmod>2022-10-22</lastmod>
   </url>
   

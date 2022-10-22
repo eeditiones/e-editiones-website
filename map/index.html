@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-editiones</title>
+    <meta name="description" content="I am writing about my experiences as a naval navel-gazer.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/11ty-homepage/css/index.css">
+    <link rel="stylesheet" href="/11ty-homepage/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/11ty-homepage/css/prism-diff.css">
+    <link rel="alternate" href="/11ty-homepage/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/11ty-homepage/feed/feed.json" type="application/json" title="e-editiones">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Zilla+Slab:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+      
+<script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+<script src="/11ty-homepage/scripts/map.js"></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+
+<header>
+    
+
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/11ty-homepage/"><img src="/11ty-homepage/img/e-editiones-logo-color.svg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+        <a href="/11ty-homepage/" class="nav-link">Home</a>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Community</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/11ty-homepage/pages/getting-started/" class="nav-link">Getting Started</a>
+    </li><li class="nav-item">
+        <a href="/11ty-homepage/pages/get-in-touch/" class="nav-link">Get in Touch</a>
+    </li><li class="nav-item">
+        <a href="/11ty-homepage/pages/how-to-contribute/" class="nav-link">How to Contribute</a>
+    </li><li class="nav-item">
+        <a href="/11ty-homepage/pages/community-meetings/" class="nav-link">Community Meetings</a>
+    </li><li class="nav-item">
+        <a href="/11ty-homepage/pages/workshops/" class="nav-link">Workshops</a>
+    </li></ul>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/11ty-homepage/pages/strategy/" class="nav-link">Strategy</a>
+    </li><li class="nav-item">
+        <a href="/11ty-homepage/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+    </li><li class="nav-item">
+        <a href="/11ty-homepage/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+    </li><li class="nav-item">
+        <a href="/11ty-homepage/pages/board/" class="nav-link">Board</a>
+    </li><li class="nav-item">
+        <a href="/11ty-homepage/pages/members/" class="nav-link">Members</a>
+    </li><li class="nav-item">
+        <a href="/11ty-homepage/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+    </li></ul>
+    </li><li class="nav-item">
+        <a href="/11ty-homepage/posts/" class="nav-link">Archive</a>
+    </li><li class="nav-item">
+                    <a href="/tags/events/" class="nav-link">Events</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</nav>
+</header>
+
+<main class="registry">
+    <section>
+        <h1>TEI Publisher Registry</h1>
+
+        <p>If your are using TEI Publisher, please let us know. Send us the title of your edition, 
+        a postal address, url, email and a very short description: 
+        <a href="mailto:info@e-editiones.org">info@e-editiones.org</a>.</p>
+
+        <ul>
+        
+            <li>
+                <h3>A Catalog of Digital Scholarly Editions</h3>
+                <div>v 4.0, 2020ff under the direction of Patrick Sahle, with Georg Vogeler (contributions 1998ff), Jana Klinger (catalog entries 2019ff), Stephan Makowski (technical system 2020ff) and Nadine Sutor (various support 2020ff).</div>
+                <a href="https://www.digitale-edition.de" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:stephan.makowski@uni-wuppertal.de" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Aleksis Kivi&#39;s Lea</h3>
+                <div>A critical digitial edition of the play Lea (1869) by Aleksis Kivi (1834-1872), regarded as Finland&#39;s national author. The Finnish-only edition contains transcription, commentaries, facsimile images and scholarly journal articles. XML files are available under CC BY 4.0.</div>
+                <a href="https://editiot.finlit.fi/exist/apps/lea" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:maria.niku@finlit.fi" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Aleksis Kivi&#39;s Yö ja päivä (= Night and Day)</h3>
+                <div>A critical digitial edition of the play Yö ja päivä (1867) by Aleksis Kivi (1834-1872), regarded as Finland&#39;s national author. The Finnish-only edition contains transcription, commentaries, facsimile images and scholarly journal articles. XML files are available under CC BY 4.0.
+
+</div>
+                <a href="https://editiot.finlit.fi/exist/apps/yo-ja-paiva" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:maria.niku@finlit.fi" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Alfred Escher-Briefedition</h3>
+                <div>Edition der Korrespondenz von Alfred Escher (*20. Februar 1819 in Zürich; † 6. Dezember 1882)</div>
+                <a href="https://www.briefedition.alfred-escher.ch/home.html" class="badge bg-light text-dark">Link</a>
+                
+            </li>
+        
+            <li>
+                <h3>Antonomaz</h3>
+                <div>The Antonomaz project aims to publish the corpus of the mazarinades, a set of libelles printed during the Fronde (1648-1653) and to put them back in their production context. </div>
+                <a href="https://antonomaz.huma-num.fr/" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:karine.abiven@sorbonne-universite.fr" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Basler Edition der Bernoulli-Briefwechsel (BEBB)</h3>
+                <div>Die BEBB ediert die Briefwechsel der Basler Mathematiker und Physiker Daniel I (1700-1782), Jacob I (1654-1655) Jacob II (1759-1789), Johann I (1667-1748), Johann II (1710-1790), Nicolaus I (1687-1759), Nicolaus II (1695-1726) Bernoulli und Jacob Hermann (1678-1733). Die auf TEI Publisher basierende Webseite ist noch in Vorbereitung.</div>
+                <a href="https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/Hauptseite" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:sulamith.gehr@unibas.ch" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Briefverkehr der Stadt St. Gallen 1400–1800</h3>
+                <div>In Vorbereitung. Edition der Missiven aus dem Stadtarchiv der Ortsbürgergemeinde St. Gallen (1400–1650)</div>
+                <a href="https://stadtarchiv.ch/forschungsprojekte/missivenedition/" class="badge bg-light text-dark">Link</a>
+                
+            </li>
+        
+            <li>
+                <h3>Codex Aitolahti</h3>
+                <div>A digital edition of a 1640s Finnish translation of a late medieval legal codex of the Swedish kingdom, which Finland was a part of at the time. The edition contains facsimile images and transcription, and XML is available under CC BY 4.0.
+
+</div>
+                <a href="https://editiot.finlit.fi/exist/apps/codex-aitolahti" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:maria.niku@finlit.fi" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Corpus Grammaticorum Latinorum</h3>
+                <div>A digital index, concordance, lexicon of the Latin artes Grammaticae: Alessandro Garcea and Valeria Lomanto eds, Corpus Grammaticorum Latinorum. A Digital Edition, Paris 2022</div>
+                <a href="https://htldb.huma-num.fr/exist/apps/cgl" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:clement.plancq@univ-tours.fr" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Corpus of Ioannes Dantiscus&#39; Texts and Correspondence</h3>
+                <div>A journey in the footsteps of Dantiscus (1485–1548) – a humanist and world-class diplomat – from the northern outskirts of the multicultural kingdom of the Polish Jagiellons, through the royal and imperial courts of Europe and even into New World at the moment of birth of a new era. 
+
+In preparation.</div>
+                <a href="https://teipublisher.com/exist/apps/dantiscus/index.html " class="badge bg-light text-dark">Link</a>
+                
+            </li>
+        
+            <li>
+                <h3>Digital Scholarly Editions (DiScholEd)</h3>
+                <div>A platform dedicated to digital scholarly editions of egodocuments</div>
+                <a href="https://discholed.huma-num.fr/exist/apps/discholed/index.html" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:discholed@inria.fr" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Digitales Dossier: Alexander von Humboldt und Kuba (1800-1830)</h3>
+                <div>Proyecto Humboldt Digital (ProHD) aims to publish online a multilingual collection of texts related to Alexander von Humboldt&#39;s trip to Cuba and its reception in the island in the 19th Century. </div>
+                <a href="" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:rojas-castro@bbaw.de" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>EarlyPrint</h3>
+                <div>EarlyPrint presents some 52,000 Early Modern English  texts from the EEBO-TCP collection in a linguistically annotated and partially corrected form. The site supports collaborative curation and complex searches via Blacklab, the corpus query tool designed by the Dutch Language Institute. We expect to add Early American texts over the course of the next year.  </div>
+                <a href="https://earlyprint.org" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:martinmueller@northwestern.edu" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Editionsprogramm »Fraktionen im Deutschen Bundestag 1949–2005«</h3>
+                <div>Laufende Edition der historischen Sitzungsprotokolle der Fraktionen im Deutschen Bundestag (1949 bis 2005) durch die »Kommission für die Geschichte des Parlamentarismus und der politischen Parteien e. V.«. </div>
+                <a href="https://www.fraktionsprotokolle.de" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:juengerkes@kgparl.de" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Electronic Edition of the works of Jean-Joseph Rabearivelo (french and malagasy)</h3>
+                <div>In preparation.</div>
+                <a href="https://rabearivelo.huma-num.fr" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:clement.plancq@ens.psl.eu" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Elizabeth Montagu Correspondence Online (EMCO)</h3>
+                <div>A digital edition of the complete letters of Elizabeth Montagu (1718-1800) - ISSN 2753-9091</div>
+                <a href="http://emco.swansea.ac.uk/home/" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:a.l.roberts@swansea.ac.uk" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Foreign Relations of the United States (FRUS)</h3>
+                <div>The official documentary record of U.S. foreign relations (1861-)</div>
+                <a href="https://history.state.gov" class="badge bg-light text-dark">Link</a>
+                
+            </li>
+        
+            <li>
+                <h3>Forest Finns&#39; Letters to Gottlund</h3>
+                <div>A digital edition of 19th century letters from Forest Finns, Finnish inhabitants of Sweden and Norway, to Carl Axel Gottlund (1796-1875), a Finnish collector of folklore, linguist, university lecturer and activist who sought to improve the Forest Finns&#39; difficult circumstances. The letters are in Finnish, Swedish and Norwegian, the user interface is available in Finnish, Swedish, Norwegian and English. The edition contains facsimile images for all letters and transcriptions for the Finnish letters. XML files are available under CC BY 4.0.</div>
+                <a href="https://editiot.finlit.fi/exist/apps/gottlund/index.html" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:maria.niku@finlit.fi" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Historical Dictionary of Canon Law in Hispanic America and the Philippines, 16th -18th century (DCH)</h3>
+                <div>In preparation. From a series of primary sources, it has been developed a thesaurus, comprising 120 voices, that seeks to give a full and particular scenario on the constitutive terms of this legal order in the New World. Articles are worked on the base of a corpus of sources, which circulated widely in Hispanic America and the Philippines in the period studied.</div>
+                <a href="https://www.lhlt.mpg.de/research-project/historical-dictionary-of-canon-law" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:wagner@lhlt.mpg.de" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Karl Barth-Gesamtausgabe</h3>
+                <div>In Vorbereitung</div>
+                <a href="https://karlbarth.unibas.ch/de/" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:bartharchiv-theol@unibas.ch" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Korespondencja żupnika krakowskiego Mikołaja Serafina z lat 1437 — 1459</h3>
+                <div>Niezwykle cenny zbiorek korespondencji prywatnej i urzędowej z połowy XV w. — obejmujący kilkadziesiąt listów z lat 1437–1459 do dzierżawcy salin krakowskich i ruskich, miecznika krakowskiego Mikołaja Serafina lub osób z nim związanych.</div>
+                <a href="https://teipublisher.com/exist/apps/serafin" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:tuurma@gmail.com" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Louis Ginzberg: Legenden der Juden</h3>
+                <div>In Vorbereitung. Erstmalige Edition des deutschen Urmanuskripts von Louis Ginzbergs Sammlung jüdischen Erzählguts, deren englische Bearbeitung international weit verbreitet ist
+</div>
+                <a href=" https://lit.ethz.ch/forschung/laufende-drittmittelprojekte/louis-ginznerg--die-legenden-der-juden.html" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:joanna.nowotny@lit.gess.ethz.ch" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Rechtsquellen-Edition des Kantons Zürich</h3>
+                <div>In Vorbereitung Historische Quellen aus dem Gebiet des heutigen Kantons Zürich aus der Zeit bis 1798</div>
+                <a href="http://staatsarchiv.zh.ch/" class="badge bg-light text-dark">Link</a>
+                
+            </li>
+        
+            <li>
+                <h3>Register of Older Slovenian Manuscripts</h3>
+                <div>Descriptions of manuscripts in Slovenian language from early modern period, some of them with a digital facsimile.
+</div>
+                <a href=" https://rrss.manuscripta.zrc-sazu.si" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:matija.ogrin@zrc-sazu.si" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Sammlung Schweizerischer Rechtsquellen online (SSRQ online)</h3>
+                <div>Rechtshistorisches Quellenmaterial vom Mittelalter bis in die Frühe Neuzeit (1798). </div>
+                <a href="https://www.ssrq-sds-fds.ch/online/tei/" class="badge bg-light text-dark">Link</a>
+                
+            </li>
+        
+            <li>
+                <h3>The Digital Cassirer Collection</h3>
+                <div>The collected works of H. W. Cassirer (1903­-1979), philosopher, classicist and biblical scholar. </div>
+                <a href="https://cassirer.org/" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:i.hine@sheffield.ac.uk" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>The International Business Correspondence of L. Kniffler &amp; Co. (1859-1876)</h3>
+                <div>A digital edition of the international business correspondence of L. Kniffler &amp; Co., one of the first European or American trading houses established in Japan after the Shogunate dropped its isolationist policy.
+</div>
+                <a href="https://kniffler.ub.rub.de" class="badge bg-light text-dark">Link</a>
+                
+            </li>
+        
+            <li>
+                <h3>TraveLab</h3>
+                <div>TraveLab is a project that explores new ways to read Historical travelogs, combining an interactive map with aligned parallel editions. Starting with a trilingual edition of the Journey of Benjamin of Tudela, a Jewish 12th century traveler, the project will continue to integrate additional Travelogs.  XML files are available under CC BY 4.0.</div>
+                <a href="https://teipublisher.info/exist/apps/TraveLab/index.html" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto:sinai.rusinek@mail.huji.ac.il" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+            <li>
+                <h3>Vicentino21 – a digital edition with commentary, translation and practical exploration of Nicola Vicentino’s «L’antica musica ridotta alla moderna prattica» (Rome 1555) (in preparation)</h3>
+                <div>“Vicentino21” is a four year SNFS project and is creating a digital edition of the treatise and its music, with translations, commentaries and sound samples.
+
+The textual part of the treatise will be encoded in TEI and the TEI Publisher will be our publishing tool. </div>
+                <a href=" https://www.fhnw.ch/plattformen/vicentino21/" class="badge bg-light text-dark">Link</a>
+                
+                <a href="mailto: https://www.fhnw.ch/plattformen/vicentino21/" class="badge bg-light text-dark">Contact</a>
+                
+            </li>
+        
+        </ul>
+    </section>
+    <div id="map" data-zoom="6"></div>
+</main>
+  </body>
+</html>
