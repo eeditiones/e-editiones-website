@@ -5,10 +5,13 @@ date: "2020-07-23"
 tags: 
   - "events"
   - "meetups"
+coverImage: "marius-masalar-rPOmLGwai2w-unsplash.jpg"
 ---
 
 On Wednesday, July 8th we had the opportunity to join another e-editiones online event, this time a session dedicated to MEI (Music Encoding Initiative). Giuliano Di Bacco and Dennis Ried introduced us to MEI and challenges of publishing MEI and MEI-in-TEI collections on the web ([see slides](https://e-editiones.org/wp-content/uploads/2020/07/MEI_4_GDB_DR.pdf "MEI 4 EE presentation GDB&amp;DR")). Wolfgang Meier presented early results of his work on integration of MEI into the TEI Publisher.
 
+![Photo by <a href="https://unsplash.com/@marius?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Marius Masalar</a> on <a href="https://unsplash.com/s/photos/music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>](/img/marius-masalar-rPOmLGwai2w-unsplash.jpg)
+  
 As we learned from Giuliano's and Dennis' introduction _MEI, like the TEI, is an umbrella term which simultaneously describes an organization, a research community, and a markup language_ ([music-encoding.org](https://music-encoding.org/about/)). It's almost 20 years since the first public presentation of the XML schema created by Perry Roland (Univ. of Virginia) for the representation of music notation. Now it has become a thriving community of around 400 members worldwide, specialists from various music research groups, including technologists, librarians, historians, and theorists.
 
 This open-source effort to define guidelines for encoding musical documents in a machine-readable structure draws in many aspects on TEI: using an ODD metalanguage to define both the schema and encoding guidelines, dividing the document into metadata, facsimile and text parts, recording logical and structural divisions of the document (albeit named differently) or "borrowing" a number of element names from TEI to deal with metadata, textual content, critical apparatus, linking etc.

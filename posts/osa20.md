@@ -1,10 +1,14 @@
 ---
 title: "Open Source Advent"
+lead: "Holiday cheer in the dark hours of the Corona winter"
 date: "2020-12-21"
 tags:
   - "events"
+coverImage: "elena-mozhvilo-wBenc1bRgGI-unsplash.jpg"
 ---
 
+
+  
 Through December we're aiming to present a number of recent open source developments related to e-editiones mission to empower digital editions of cultural, scientific, and artistic works by promoting open standards related to digital editions and advancing open source applications based on them.
 
 ![](/img/open-source-advent-1-816x1024.jpg)
@@ -22,3 +26,5 @@ In the first instance we are presenting projects coordinated by e-editiones and 
 - Dec 21st: [TEI Publisher FAQ](https://faq.teipublisher.com/ "TEI Publisher FAQ") launch
 - Dec 23rd [Cross search](https://teipublisher.com/exist/apps/cross-search/index.html)
 - Dec 31st [ELTeC: European Literary Corpus](https://teipublisher.com/exist/apps/eltec/index.html)
+
+Tile photo by <a href="https://unsplash.com/@miracleday?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Elena Mozhvilo</a> on <a href="https://unsplash.com/s/photos/advent?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
