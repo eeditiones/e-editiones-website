@@ -1,17 +1,19 @@
 ---
-title: "Newsletter 2022/1"
+title: "Newsletter"
+lead: "Annual newsletter for 2021"
 date: "2022-04-05"
 categories: 
   - "general"
+coverImage: "jon-tyson-XmMsdtiGSfo-unsplash.jpg"
 ---
 
 ## e-editiones as a Society
 
-![](/img/wordcloud-eeditiones-2021.png)
-
 A highlight of the past year was e-editiones being awarded the [2021 TEI Community Prize](https://tei-c.org/activities/rahtz-prize-for-tei-ingenuity/). The jury offered us these kind words:
 
 > «The awards panel was especially impressed by the way e-editiones has managed to gather a non-profit community of those creating scholarly digital editions and made the process of doing so easier through the coordination of ongoing development of the TEI Publisher software. The awards panel also noted the provision of training opportunities and open availability of the workshop materials for those wishing to (re)learn the software in their own time.»
+
+![Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/s/photos/newsletter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>](/img/jon-tyson-XmMsdtiGSfo-unsplash.jpg)
 
 2021 has fortunately seen an increase in membership. Today there are 12 institutional and 30 individual members. However, it remains our goal to attract new members who will continuously support the association.
 
@@ -61,6 +63,8 @@ A big thank you to all who actively participated in the meetings and workshops.
 On Slack, we had 218 active members at the end of 2021; on average, there were 16 active members daily, with 3 to 4 members posting a total of about 8 messages daily. On Twitter, we post 4 to 5 tweets per month. 2021 brought us 172 new followers.
 
 Our mailing list, on the other hand, is not very actively used. We are happy to receive suggestions and ideas on how to proceed with it.
+
+![](/img/wordcloud-eeditiones-2021.png)
 
 # TEI Publisher Developments
 
