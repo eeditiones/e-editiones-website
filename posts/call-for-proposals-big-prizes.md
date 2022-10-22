@@ -1,6 +1,6 @@
 ---
 title: "Call for Proposals"
-lead: "Coomunity challenge"
+lead: "Community challenge"
 date: "2021-10-27"
 categories: 
   - "general"
