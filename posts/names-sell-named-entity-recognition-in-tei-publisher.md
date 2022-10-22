@@ -8,9 +8,12 @@ tags:
   - "tei-publisher"
   - "NLP"
   - "named entity recognition"
+coverImage: "denny-muller-jLjfAWwHdB8-unsplash.jpg"
 ---
 
 TEI Publisher 8 will include experimental support for detecting and tagging named entities in texts. The idea is to further simplify the work of editors when annotating documents via TEI Publisher’s web-based annotation editor by automatically identifying potential candidates for people, places etc.
+
+![Photo by <a href="https://unsplash.com/@redaquamedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Denny Müller</a> on <a href="https://unsplash.com/s/photos/inventory?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>](/img/denny-muller-jLjfAWwHdB8-unsplash.jpg)
 
 If you have the development branch (or future TEI Publisher 8) installed and the named entity recognition (NER) service running (more on this below), an additional button will be shown in the top left toolbar. Clicking on it gives you a choice of NER models to use. By default those are the standard models provided by the NER engine we're using. Below we see NER in action, detecting entities in a modern-language text copied from wikipedia. 
 
