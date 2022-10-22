@@ -197,6 +197,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/static/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/annotations/</loc>
     <lastmod>2022-10-22</lastmod>
   </url>
@@ -262,21 +267,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/mei/</loc>
-    <lastmod>2022-10-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/pb-mei/</loc>
-    <lastmod>2022-10-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/verovio/</loc>
-    <lastmod>2022-10-22</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/feature/</loc>
     <lastmod>2022-10-22</lastmod>
   </url>
@@ -292,7 +282,17 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/events/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/open-api/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/mei/</loc>
     <lastmod>2022-10-22</lastmod>
   </url>
   
