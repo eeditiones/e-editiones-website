@@ -1,5 +1,7 @@
 ---
 title: "Names sell: Named entity recognition in TEI Publisher"
+short: "Names sell"
+lead: "Named entity recognition in TEI Publisher"
 date: "2022-06-10"
 categories: 
   - "general"

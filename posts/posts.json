@@ -3,5 +3,6 @@
   "tags": [
     "posts"
   ],
-  "columns": 4
+  "columns": 4,
+  "defaultCover": "wall.png"
 }

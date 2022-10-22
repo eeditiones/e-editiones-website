@@ -3,11 +3,16 @@
     <div class="card {% if post.url == url %} active{% endif %}">
       {% if post.data.coverImage %}
       <img class="card-img-top" src="{{ '/' | url }}img/{{post.data.coverImage}}">
+      {% else %}
+      <img class="card-img-top" src="{{ '/' | url }}img/{{post.data.defaultCover}}">
       {% endif %}
       <div class="card-body">
         <h3 class="card-title">
-          <a href="{{ post.url | url }}" class="text-muted">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+          <a href="{{ post.url | url }}" class="text-muted">{% if post.data.short %}{{ post.data.short }}{% elif post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
         </h3>
+        {% if post.data.lead %}
+        <p class="card-text">{{ post.data.lead }}</p>
+        {% endif %}
         <div>
           <time class="card-subtitle mb-2 text-muted" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
           {% for tag in post.data.tags | filterTagList %}
@@ -15,7 +20,6 @@
             <a href="{{ tagUrl | url }}" class="badge text-bg-light">{{ tag }}</a>
           {% endfor %}
         </div>
-        <p class="card-text">{{ post.data.description }}</p>
       </div>
     </div>
   {% endfor %}
