@@ -10,11 +10,17 @@ templateClass: home
 </header>
 {% include "partials/banner.njk" %}
 <main class="{{ templateClass }}">
-    <div class="container">
-        <div class="d-lg-none">
+    <div class="container-fluid">
+        <div class="row d-lg-none">
             {% include "partials/intro.njk" %}
         </div>
-        {{ content | safe }}
+        <div class="row gx-5">
+            <div class="col">{{ content | safe }}</div>
+            <aside class="col-3">
+                <h3>Tags</h3>
+                {% include "partials/tagcloud.njk" %}
+            </aside>
+        </div>
     </div>
 </main>
 

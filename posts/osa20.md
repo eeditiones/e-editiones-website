@@ -1,8 +1,8 @@
 ---
 title: "Open Source Advent"
 date: "2020-12-21"
-categories: 
-  - "general"
+tags:
+  - "events"
 ---
 
 Through December we're aiming to present a number of recent open source developments related to e-editiones mission to empower digital editions of cultural, scientific, and artistic works by promoting open standards related to digital editions and advancing open source applications based on them.

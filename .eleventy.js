@@ -58,7 +58,14 @@ module.exports = function(eleventyConfig) {
       (item.data.tags || []).forEach(tag => tagSet.add(tag));
     });
 
-    return filterTagList([...tagSet]);
+    const tags = filterTagList([...tagSet]);
+    const tagMap = new Map();
+    tags.forEach(tag => {
+      const items = collection.getFilteredByTag(tag);
+      tagMap.set(tag, items.length);
+    });
+    console.log(tagMap);
+    return tagMap;
   });
 
   // Customize Markdown library and settings:

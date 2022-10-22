@@ -4,7 +4,8 @@ date: "2020-10-30"
 categories: 
   - "general"
 tags: 
-  - "meetup"
+  - "meetups"
+  - "events"
   - "news"
   - "tei"
 coverImage: "angle-bracket-scene.png"

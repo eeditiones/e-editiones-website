@@ -1,6 +1,7 @@
-<div class="posts">
+<div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 gx-2 gy-2">
   {% for post in postslist | reverse %}
-    <div class="card {% if post.url == url %} active{% endif %}">
+  <div class="col">
+    <div class="card h-100 {% if post.url == url %} active{% endif %}">
       <div class="card-img-top">
         {% if post.data.coverImage %}
         <img src="{{ '/' | url }}img/{{post.data.coverImage}}">
@@ -24,5 +25,6 @@
         <time class="card-subtitle mb-2 text-muted" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
       </div>
     </div>
+  </div>
   {% endfor %}
 </div>
