@@ -1,0 +1,36 @@
+---
+# Metadata comes from _data/metadata.json
+permalink: "/feed/geo.json"
+eleventyExcludeFromCollections: true
+---
+
+{% macro renderPlace(place) -%}
+    <div>
+        <h4>{{place.name}}</h4>
+        <p>{{place.description | nl2br | striptags}}</p>
+        <a href="{{place.url}}" class="badge bg-light text-dark">Link</a>
+        {% if place.email %}
+        <a href="mailto:{{place.email}}" class="badge bg-light text-dark">Contact</a>
+        {% endif %}
+    </div>
+{% endmacro %}
+
+{
+    "type": "FeatureCollection",
+    "features": [
+        {% for place in geodata %}
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [{{place.longitude}},{{place.latitude}}]
+            },
+            "properties": {
+                "name": "{{place.name}}",
+                "description": {{renderPlace(place).val | dump | safe }}
+            }
+        }
+        {% if loop.index < loop.length %},{% endif %}
+        {% endfor %}
+    ]
+}

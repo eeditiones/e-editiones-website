@@ -1,0 +1,263 @@
+[
+ {
+  "name": "A Catalog of Digital Scholarly Editions",
+  "address": "Bergische Universität Wuppertal, Gaußstraße 20, Wuppertal, Germany",
+  "latitude": "51.24477779999999",
+  "longitude": "7.149523400000001",
+  "description": "v 4.0, 2020ff under the direction of Patrick Sahle, with Georg Vogeler (contributions 1998ff), Jana Klinger (catalog entries 2019ff), Stephan Makowski (technical system 2020ff) and Nadine Sutor (various support 2020ff).",
+  "url": "https://www.digitale-edition.de",
+  "email": "stephan.makowski@uni-wuppertal.de"
+ },
+ {
+  "name": "Aleksis Kivi's Lea",
+  "address": "Finnish Literature Society, Hallituskatu 1, Helsinki, Finland",
+  "latitude": "60.17019320000001",
+  "longitude": "24.956264",
+  "description": "A critical digitial edition of the play Lea (1869) by Aleksis Kivi (1834-1872), regarded as Finland's national author. The Finnish-only edition contains transcription, commentaries, facsimile images and scholarly journal articles. XML files are available under CC BY 4.0.",
+  "url": "https://editiot.finlit.fi/exist/apps/lea",
+  "email": "maria.niku@finlit.fi"
+ },
+ {
+  "name": "Aleksis Kivi's Yö ja päivä (= Night and Day)",
+  "address": "Finnish Literature Society, Hallituskatu, Helsinki, Finland",
+  "latitude": "60.17019320000001",
+  "longitude": "24.956264",
+  "description": "A critical digitial edition of the play Yö ja päivä (1867) by Aleksis Kivi (1834-1872), regarded as Finland's national author. The Finnish-only edition contains transcription, commentaries, facsimile images and scholarly journal articles. XML files are available under CC BY 4.0.\n\n",
+  "url": "https://editiot.finlit.fi/exist/apps/yo-ja-paiva",
+  "email": "maria.niku@finlit.fi"
+ },
+ {
+  "name": "Alfred Escher-Briefedition",
+  "address": "Winterthurerstrasse 170, Zürich, Zürich, Switzerland",
+  "latitude": "47.3973245",
+  "longitude": "8.547105400000001",
+  "description": "Edition der Korrespondenz von Alfred Escher (*20. Februar 1819 in Zürich; † 6. Dezember 1882)",
+  "url": "https://www.briefedition.alfred-escher.ch/home.html",
+  "email": ""
+ },
+ {
+  "name": "Antonomaz",
+  "address": "1 rue Victor-Cousin, 75005 Paris, France",
+  "latitude": "48.8483503",
+  "longitude": "2.342818400000001",
+  "description": "The Antonomaz project aims to publish the corpus of the mazarinades, a set of libelles printed during the Fronde (1648-1653) and to put them back in their production context. ",
+  "url": "https://antonomaz.huma-num.fr/",
+  "email": "karine.abiven@sorbonne-universite.fr"
+ },
+ {
+  "name": "Basler Edition der Bernoulli-Briefwechsel (BEBB)",
+  "address": "Basel University Library, Schönbeinstrasse, Basel, Switzerland",
+  "latitude": "47.55963879999999",
+  "longitude": "7.5808315",
+  "description": "Die BEBB ediert die Briefwechsel der Basler Mathematiker und Physiker Daniel I (1700-1782), Jacob I (1654-1655) Jacob II (1759-1789), Johann I (1667-1748), Johann II (1710-1790), Nicolaus I (1687-1759), Nicolaus II (1695-1726) Bernoulli und Jacob Hermann (1678-1733). Die auf TEI Publisher basierende Webseite ist noch in Vorbereitung.",
+  "url": "https://ub-mediawiki.ub.unibas.ch/bernoulli/index.php/Hauptseite",
+  "email": "sulamith.gehr@unibas.ch"
+ },
+ {
+  "name": "Briefverkehr der Stadt St. Gallen 1400–1800",
+  "address": "Stadtarchiv Vadiana, Notkerstrasse, St. Gallen, Switzerland",
+  "latitude": "47.4291336",
+  "longitude": "9.382042300000002",
+  "description": "In Vorbereitung. Edition der Missiven aus dem Stadtarchiv der Ortsbürgergemeinde St. Gallen (1400–1650)",
+  "url": "https://stadtarchiv.ch/forschungsprojekte/missivenedition/",
+  "email": ""
+ },
+ {
+  "name": "Codex Aitolahti",
+  "address": "Finnish Literature Society, Hallituskatu, Helsinki, Finland",
+  "latitude": "60.17019320000001",
+  "longitude": "24.956264",
+  "description": "A digital edition of a 1640s Finnish translation of a late medieval legal codex of the Swedish kingdom, which Finland was a part of at the time. The edition contains facsimile images and transcription, and XML is available under CC BY 4.0.\n\n",
+  "url": "https://editiot.finlit.fi/exist/apps/codex-aitolahti",
+  "email": "maria.niku@finlit.fi"
+ },
+ {
+  "name": "Corpus Grammaticorum Latinorum",
+  "address": "Laboratoire d’Histoire des Théories Linguistiques (UMR 7597 Université Paris Cité/Université Sorbonne Nouvelle/CNRS), Paris 75013",
+  "latitude": "48.83979619999999",
+  "longitude": "2.353880699999999",
+  "description": "A digital index, concordance, lexicon of the Latin artes Grammaticae: Alessandro Garcea and Valeria Lomanto eds, Corpus Grammaticorum Latinorum. A Digital Edition, Paris 2022",
+  "url": "https://htldb.huma-num.fr/exist/apps/cgl",
+  "email": "clement.plancq@univ-tours.fr"
+ },
+ {
+  "name": "Corpus of Ioannes Dantiscus' Texts and Correspondence",
+  "address": "Laboratory for Source Editing and Digital Humanities, Nowy Świat 69, Warszawa, Poland",
+  "latitude": "52.23777390000001",
+  "longitude": "21.0174339",
+  "description": "A journey in the footsteps of Dantiscus (1485–1548) – a humanist and world-class diplomat – from the northern outskirts of the multicultural kingdom of the Polish Jagiellons, through the royal and imperial courts of Europe and even into New World at the moment of birth of a new era. \n\nIn preparation.",
+  "url": "https://teipublisher.com/exist/apps/dantiscus/index.html ",
+  "email": ""
+ },
+ {
+  "name": "Digital Scholarly Editions (DiScholEd)",
+  "address": "2 Rue Simone IFF, 75012 Paris, France",
+  "latitude": "48.8414464",
+  "longitude": "2.3846547",
+  "description": "A platform dedicated to digital scholarly editions of egodocuments",
+  "url": "https://discholed.huma-num.fr/exist/apps/discholed/index.html",
+  "email": "discholed@inria.fr"
+ },
+ {
+  "name": "Digitales Dossier: Alexander von Humboldt und Kuba (1800-1830)",
+  "address": "Berlin-Brandenburgische Akademie der Wissenschaften, Jägerstraße 22-23, 10117 Berlin, Germany",
+  "latitude": "52.51398",
+  "longitude": "13.3942386",
+  "description": "Proyecto Humboldt Digital (ProHD) aims to publish online a multilingual collection of texts related to Alexander von Humboldt's trip to Cuba and its reception in the island in the 19th Century. ",
+  "url": "",
+  "email": "rojas-castro@bbaw.de"
+ },
+ {
+  "name": "EarlyPrint",
+  "address": "Department of English, Northwestern University, Evanston, IL 60208, USA",
+  "latitude": "42.0541119",
+  "longitude": "-87.6759889",
+  "description": "EarlyPrint presents some 52,000 Early Modern English  texts from the EEBO-TCP collection in a linguistically annotated and partially corrected form. The site supports collaborative curation and complex searches via Blacklab, the corpus query tool designed by the Dutch Language Institute. We expect to add Early American texts over the course of the next year.  ",
+  "url": "https://earlyprint.org",
+  "email": "martinmueller@northwestern.edu"
+ },
+ {
+  "name": "Editionsprogramm »Fraktionen im Deutschen Bundestag 1949–2005«",
+  "address": "Kommission für Geschichte des Parlamentarismus und der politischen Parteien e.V. (KGParl), Schiffbauerdamm 40, 10117 Berlin, Germany",
+  "latitude": "52.52182959999999",
+  "longitude": "13.3777796",
+  "description": "Laufende Edition der historischen Sitzungsprotokolle der Fraktionen im Deutschen Bundestag (1949 bis 2005) durch die »Kommission für die Geschichte des Parlamentarismus und der politischen Parteien e. V.«. ",
+  "url": "https://www.fraktionsprotokolle.de",
+  "email": "juengerkes@kgparl.de"
+ },
+ {
+  "name": "Electronic Edition of the works of Jean-Joseph Rabearivelo (french and malagasy)",
+  "address": "Huma-Num, 54 Boulevard Raspail, 75006 Paris, France",
+  "latitude": "48.85014200000001",
+  "longitude": "2.3269827",
+  "description": "In preparation.",
+  "url": "https://rabearivelo.huma-num.fr",
+  "email": "clement.plancq@ens.psl.eu"
+ },
+ {
+  "name": "Elizabeth Montagu Correspondence Online (EMCO)",
+  "address": "Digital Humanities Team, Swansea University, Swansea SA2 8PP, UK",
+  "latitude": "51.6092184",
+  "longitude": "-3.9799524",
+  "description": "A digital edition of the complete letters of Elizabeth Montagu (1718-1800) - ISSN 2753-9091",
+  "url": "http://emco.swansea.ac.uk/home/",
+  "email": "a.l.roberts@swansea.ac.uk"
+ },
+ {
+  "name": "Foreign Relations of the United States (FRUS)",
+  "address": "Washington D.C., DC, USA",
+  "latitude": "38.9071923",
+  "longitude": "-77.0368707",
+  "description": "The official documentary record of U.S. foreign relations (1861-)",
+  "url": "https://history.state.gov",
+  "email": ""
+ },
+ {
+  "name": "Forest Finns' Letters to Gottlund",
+  "address": "Finnish Literature Society, Hallituskatu 1, Helsinki, Finland",
+  "latitude": "60.17019320000001",
+  "longitude": "24.956264",
+  "description": "A digital edition of 19th century letters from Forest Finns, Finnish inhabitants of Sweden and Norway, to Carl Axel Gottlund (1796-1875), a Finnish collector of folklore, linguist, university lecturer and activist who sought to improve the Forest Finns' difficult circumstances. The letters are in Finnish, Swedish and Norwegian, the user interface is available in Finnish, Swedish, Norwegian and English. The edition contains facsimile images for all letters and transcriptions for the Finnish letters. XML files are available under CC BY 4.0.",
+  "url": "https://editiot.finlit.fi/exist/apps/gottlund/index.html",
+  "email": "maria.niku@finlit.fi"
+ },
+ {
+  "name": "Historical Dictionary of Canon Law in Hispanic America and the Philippines, 16th -18th century (DCH)",
+  "address": "Max Planck Institute for Legal History and Legal Theory, Hansaallee 41, 60323 Frankfurt am Main, Germany",
+  "latitude": "50.12793120000001",
+  "longitude": "8.670384600000002",
+  "description": "In preparation. From a series of primary sources, it has been developed a thesaurus, comprising 120 voices, that seeks to give a full and particular scenario on the constitutive terms of this legal order in the New World. Articles are worked on the base of a corpus of sources, which circulated widely in Hispanic America and the Philippines in the period studied.",
+  "url": "https://www.lhlt.mpg.de/research-project/historical-dictionary-of-canon-law",
+  "email": "wagner@lhlt.mpg.de"
+ },
+ {
+  "name": "Karl Barth-Gesamtausgabe",
+  "address": "Karl Barth Archiv, Bruderholzallee 26, Basel, Switzerland",
+  "latitude": "47.5345555",
+  "longitude": "7.587217099999997",
+  "description": "In Vorbereitung",
+  "url": "https://karlbarth.unibas.ch/de/",
+  "email": "bartharchiv-theol@unibas.ch"
+ },
+ {
+  "name": "Korespondencja żupnika krakowskiego Mikołaja Serafina z lat 1437 — 1459",
+  "address": "Sławkowska, Kraków, Poland",
+  "latitude": "50.0641831",
+  "longitude": "19.9379298",
+  "description": "Niezwykle cenny zbiorek korespondencji prywatnej i urzędowej z połowy XV w. — obejmujący kilkadziesiąt listów z lat 1437–1459 do dzierżawcy salin krakowskich i ruskich, miecznika krakowskiego Mikołaja Serafina lub osób z nim związanych.",
+  "url": "https://teipublisher.com/exist/apps/serafin",
+  "email": "tuurma@gmail.com"
+ },
+ {
+  "name": "Louis Ginzberg: Legenden der Juden",
+  "address": "ETH Zürich, Professur für Literatur- und Kulturwissenschaften, Clausiusstrasse 59, Zürich, Switzerland",
+  "latitude": "47.3804424",
+  "longitude": "8.5450536",
+  "description": "In Vorbereitung. Erstmalige Edition des deutschen Urmanuskripts von Louis Ginzbergs Sammlung jüdischen Erzählguts, deren englische Bearbeitung international weit verbreitet ist\n",
+  "url": " https://lit.ethz.ch/forschung/laufende-drittmittelprojekte/louis-ginznerg--die-legenden-der-juden.html",
+  "email": "joanna.nowotny@lit.gess.ethz.ch"
+ },
+ {
+  "name": "Rechtsquellen-Edition des Kantons Zürich",
+  "address": "Staatsarchiv des Kantons Zürich, Winterthurerstrasse 170, Zürich, Zürich, Switzerland",
+  "latitude": "47.3973245",
+  "longitude": "8.547105400000001",
+  "description": "In Vorbereitung Historische Quellen aus dem Gebiet des heutigen Kantons Zürich aus der Zeit bis 1798",
+  "url": "http://staatsarchiv.zh.ch/",
+  "email": ""
+ },
+ {
+  "name": "Register of Older Slovenian Manuscripts",
+  "address": "Research Centre of the Slovenian Academy of Sciences and Arts, Novi trg 2, 1000 Ljubljana, Slovenia",
+  "latitude": "46.0478073",
+  "longitude": "14.5047253",
+  "description": "Descriptions of manuscripts in Slovenian language from early modern period, some of them with a digital facsimile.\n",
+  "url": " https://rrss.manuscripta.zrc-sazu.si",
+  "email": "matija.ogrin@zrc-sazu.si"
+ },
+ {
+  "name": "Sammlung Schweizerischer Rechtsquellen online (SSRQ online)",
+  "address": "Rechtsquellenstiftung des Schweizerischen Juristenvereins, Tigerbergstrasse 21, St. Gallen, Switzerland",
+  "latitude": "47.4285188",
+  "longitude": "9.3730389",
+  "description": "Rechtshistorisches Quellenmaterial vom Mittelalter bis in die Frühe Neuzeit (1798). ",
+  "url": "https://www.ssrq-sds-fds.ch/online/tei/",
+  "email": ""
+ },
+ {
+  "name": "The Digital Cassirer Collection",
+  "address": "Sheffield Institute for Interdisciplinary Biblical Studies, The University of Sheffield, Sheffield, UK",
+  "latitude": "53.3813502",
+  "longitude": "-1.4884229",
+  "description": "The collected works of H. W. Cassirer (1903­-1979), philosopher, classicist and biblical scholar. ",
+  "url": "https://cassirer.org/",
+  "email": "i.hine@sheffield.ac.uk"
+ },
+ {
+  "name": "The International Business Correspondence of L. Kniffler & Co. (1859-1876)",
+  "address": "Ruhr-Universität Bochum, Universitätsstraße 150, 44801 Bochum, Germany",
+  "latitude": "51.44566589999999",
+  "longitude": "7.261609300000001",
+  "description": "A digital edition of the international business correspondence of L. Kniffler & Co., one of the first European or American trading houses established in Japan after the Shogunate dropped its isolationist policy.\n",
+  "url": "https://kniffler.ub.rub.de",
+  "email": ""
+ },
+ {
+  "name": "TraveLab",
+  "address": "Haifa University, Haifa",
+  "latitude": "32.76327500000001",
+  "longitude": "35.016468",
+  "description": "TraveLab is a project that explores new ways to read Historical travelogs, combining an interactive map with aligned parallel editions. Starting with a trilingual edition of the Journey of Benjamin of Tudela, a Jewish 12th century traveler, the project will continue to integrate additional Travelogs.  XML files are available under CC BY 4.0.",
+  "url": "https://teipublisher.info/exist/apps/TraveLab/index.html",
+  "email": "sinai.rusinek@mail.huji.ac.il"
+ },
+ {
+  "name": "Vicentino21 – a digital edition with commentary, translation and practical exploration of Nicola Vicentino’s «L’antica musica ridotta alla moderna prattica» (Rome 1555) (in preparation)",
+  "address": "Schola Cantorum Basiliensis, Leonhardsstrasse 6, Basel, Switzerland",
+  "latitude": "47.5550288",
+  "longitude": "7.586746199999999",
+  "description": "“Vicentino21” is a four year SNFS project and is creating a digital edition of the treatise and its music, with translations, commentaries and sound samples.\n\nThe textual part of the treatise will be encoded in TEI and the TEI Publisher will be our publishing tool. ",
+  "url": " https://www.fhnw.ch/plattformen/vicentino21/",
+  "email": " https://www.fhnw.ch/plattformen/vicentino21/"
+ }
+]
