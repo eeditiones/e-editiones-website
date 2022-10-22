@@ -5,12 +5,16 @@
   --font-size-small: 0.833rem;
   --font-size-smallest: 0.75;
   --color-highlight: #FFBB54;
+  --color-1: #8F6E43;
+  --color-2: #005248;
+  --color-3: #FFECCC;
   --bs-link-color: #DE9A33;
   --bs-link-hover-color: #DE9A33;
   --background-color-light: rgba(255, 255, 255, .80);
   --background-color-dark: rgba(0, 0, 0, .40);
   --banner-image: url("../img/banner.jpg");
   --banner-height: 640px; /* calc(100vh - 30vh - 90px); */
+  --bs-badge-font-size: 1em;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -225,19 +229,6 @@ ul.navbar-nav {
 .banner .intro-text {
   position: absolute;
   bottom: 0;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-.intro-text .btn-warning {
-  --bs-btn-bg: #ffc10760;
-}
-
-.intro-text ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
 }
 
 /* Homepage tiles */
@@ -346,7 +337,6 @@ ul.cloud a[data-weight="7"] { --size: 10; }
 ul.cloud a[data-weight="8"] { --size: 13; }
 ul.cloud a[data-weight="9"] { --size: 16; }
 
-ul.cloud li:nth-child(2n+1) a { --color: #504538; }
-ul.cloud li:nth-child(3n+1) a { --color: #B7A99A; }
-ul.cloud li:nth-child(4n+1) a { --color: #00C3AB; }
-ul.cloud li:nth-child(5n+1) a { --color: #008B77; }
+ul.cloud li:nth-child(2n+1) a { --color: var(--color-1); }
+ul.cloud li:nth-child(3n+1) a { --color: var(--bs-link-color); }
+ul.cloud li:nth-child(4n+1) a { --color: var(--color-2); }
