@@ -8,7 +8,7 @@ show: 9
 
 <section class="blog">
   {% set maxPosts = collections.posts.length | min(show) %}
-  <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
+  <h3>Latest Posts</h3>
 
   {% set postslist = collections.posts | head(-show) %}
   {% set postslistCounter = collections.posts | length %}

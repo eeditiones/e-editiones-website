@@ -2,6 +2,7 @@
 :root {
   --font-family-headings: "Zilla Slab", serif;
   --font-family-body: "Lato", sans-serif;
+  --font-size-small: 0.833rem;
   --color-highlight: #ffc108;
   --bs-link-color: #cb9a08;
   --bs-link-hover-color: #cb9a08;
@@ -64,8 +65,12 @@ code {
 }
 
 blockquote {
-  border-left: 2px solid #c05b4d;
-  padding-left: 1rem;
+  margin: 2rem 2rem;
+  font-size: 1.2rem;
+}
+blockquote p::before {
+  content: url("../img/quote-svgrepo-com.svg");
+  padding-right: .25rem;
 }
 
 p:last-child {
@@ -97,7 +102,8 @@ main {
 }
 
 main.home {
-  padding-top: 20px;
+  margin-top: 0;
+  padding: 0;
   min-height: calc(100vh - 90px);
   background: rgba(255, 255, 255, .80);
 }
@@ -229,6 +235,33 @@ ul.navbar-nav {
   justify-content: space-between;
 }
 
+/* Homepage tiles */
+.card-body h3, .card-body p {
+  margin: 0;
+}
+.card-body time {
+  font-size: var(--font-size-small);
+}
+.card-img-top {
+  position: relative;
+}
+.card-img-top .tagline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .40);
+}
+.tagline .badge {
+  margin: .5em .2em;
+}
+.card-img-top a {
+  color:rgba(255, 255, 255, .80);
+}
+.card-img-top img {
+  width: 100%;
+}
+
 .blog {
 }
 
@@ -242,7 +275,16 @@ ul.navbar-nav {
 
 /* Posts */
 main.tmpl-post {
-  max-width: 70rem;
+  max-width: 50rem;
+}
+
+.tmpl-post figure {
+  text-align: center;
+}
+
+.tmpl-post img {
+  max-width: 100%;
+  border: 1px solid rgba(0, 0, 0, .40);
 }
 
 .dateline {

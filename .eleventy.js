@@ -3,6 +3,7 @@ const fs = require("fs");
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+var implicitFigures = require('markdown-it-implicit-figures');
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -72,6 +73,11 @@ module.exports = function(eleventyConfig) {
     }),
     level: [1,2,3,4],
     slugify: eleventyConfig.getFilter("slugify")
+  }).use(implicitFigures, {
+    dataType: false,  // <figure data-type="image">, default: false
+    figcaption: true,  // <figcaption>alternative text</figcaption>, default: false
+    tabindex: false, // <figure tabindex="1+n">..., default: false
+    link: false // <a href="img.png"><img src="img.png"></a>, default: false
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
 

@@ -9,11 +9,13 @@ templateClass: home
     {% include "partials/menu.njk" %}
 </header>
 {% include "partials/banner.njk" %}
-<main class="container {{ templateClass }}">
-    <div class="d-lg-none">
-        {% include "partials/intro.njk" %}
+<main class="{{ templateClass }}">
+    <div class="container">
+        <div class="d-lg-none">
+            {% include "partials/intro.njk" %}
+        </div>
+        {{ content | safe }}
     </div>
-    {{ content | safe }}
 </main>
 
 <footer></footer>

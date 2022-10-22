@@ -1,11 +1,19 @@
 <div class="posts">
   {% for post in postslist | reverse %}
     <div class="card {% if post.url == url %} active{% endif %}">
-      {% if post.data.coverImage %}
-      <img class="card-img-top" src="{{ '/' | url }}img/{{post.data.coverImage}}">
-      {% else %}
-      <img class="card-img-top" src="{{ '/' | url }}img/{{post.data.defaultCover}}">
-      {% endif %}
+      <div class="card-img-top">
+        {% if post.data.coverImage %}
+        <img src="{{ '/' | url }}img/{{post.data.coverImage}}">
+        {% else %}
+        <img src="{{ '/' | url }}img/{{post.data.defaultCover}}">
+        {% endif %}
+        <div class="tagline">
+          {% for tag in post.data.tags | filterTagList %}
+            {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+            <a href="{{ tagUrl | url }}" class="badge text-bg-light">{{ tag }}</a>
+          {% endfor %}
+        </div>
+      </div>
       <div class="card-body">
         <h3 class="card-title">
           <a href="{{ post.url | url }}" class="text-muted">{% if post.data.short %}{{ post.data.short }}{% elif post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
@@ -13,13 +21,7 @@
         {% if post.data.lead %}
         <p class="card-text">{{ post.data.lead }}</p>
         {% endif %}
-        <div>
-          <time class="card-subtitle mb-2 text-muted" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-          {% for tag in post.data.tags | filterTagList %}
-            {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-            <a href="{{ tagUrl | url }}" class="badge text-bg-light">{{ tag }}</a>
-          {% endfor %}
-        </div>
+        <time class="card-subtitle mb-2 text-muted" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
       </div>
     </div>
   {% endfor %}

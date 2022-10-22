@@ -1,5 +1,7 @@
 ---
 title: "Call for Applications / Оголошення про подачу заявок"
+short: "Call for Applications"
+lead: "Оголошення про подачу заявок"
 date: "2022-03-29"
 categories: 
   - "general"
