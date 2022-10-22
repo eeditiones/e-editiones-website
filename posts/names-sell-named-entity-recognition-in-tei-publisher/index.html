@@ -100,7 +100,7 @@
 </ul>
 <p>The ultimate goal is to make this process as smooth as possible, i.e. it should not hinder your editing work, but support it!</p>
 <p>The integration in TEI Publisher is completely functional, but we need more testing, experimenting and kicking the tires with some real-world use cases. NLP is not a simple subject and I’m in no way an expert, so I’d like to invite the community to help. I have just prepared the ground work.</p>
-<h3 id="technical-background" tabindex="-1">Technical Background <a class="direct-link" href="#technical-background" aria-hidden="true">#</a></h3>
+<h3>Technical Background</h3>
 <p>There are plenty of NLP and NER libraries and tools. However, such libraries work on plain text, not structured texts like TEI. They will get confused by angle brackets (just like many humans). The trick thus is to transform the XML into a plain text without loosing context, which means we somehow need to keep track of element boundaries, offsets of inline elements etc.</p>
 <p>Likewise, the result of running NER is again a plain text document, accompanied by a list of detected entities and character offsets. Those need to be mapped back onto the XML structure and eventually merged into the TEI. This back-and-forth conversion is the main job handled by TEI Publisher and its API.</p>
 <p>My first idea was to integrate another, existing command-line tool for enriching TEI with named entities. But after a few first experiments, it occurred to me that TEI Publisher already had some important bits and pieces in place within the annotation framework:</p>
@@ -113,7 +113,7 @@
 <p>The NLP part is a python service using <a href="https://spacy.io/" title="spaCy">spaCy</a> as the underlying NLP library. Compared to many NLP libraries I have seen before, spaCy has a rather simple, clean API. Getting started proved to be smooth and painless as most of the functionality comes pre-configured and ready to be used. A Python notebook demonstrating how to do a simple NER with spaCy is shown below:</p>
 <p><img src="/img/spacy-notebook-1024x566.png" alt="">]</p>
 <p>SpaCy can do more than just NER, e.g. part-of-speech tagging, dependency parsing, sentence segmentation, text classification, lemmatization, morphological analysis. It is also quite extensible, allowing other libraries to be plugged into its pipelines.</p>
-<h3 id="training-a-model" tabindex="-1">Training a model <a class="direct-link" href="#training-a-model" aria-hidden="true">#</a></h3>
+<h3>Training a model</h3>
 <p>Whenever you use a general-purpose NER model, you’ll quickly notice that it works great for some types of texts, i.e. texts similar to the ones it was trained on. However, results quickly degrade if you apply it to other genres or texts written in a slightly different period of time. For example, the German standard model in spaCy produces good results when run on a text from Wikipedia, but it already starts missing things when you apply it to letters written in the first half of the 20th century: the language used back then was just different, some would say: more sophisticated, than the language used today.</p>
 <p>For example, if we run the standard German model against a letter by theologian Karl Barth written in 1921, many words are wrongly identified as places:</p>
 <figure><img src="/img/kb-generic.png" alt=""></figure>
@@ -136,13 +136,13 @@
 <p>Afterwards the new trained model will become available within the annotation editor and we can try NER on the same letter as before using the custom model:</p>
 <figure><img src="/img/barth-improved.png" alt=""></figure>
 <p>Looking at the same passage of Barth's letter, we see that now only Göttingen is identified as a place. The wrongly detected places are gone. This is clearly an improvement over the standard model. The one name in the fragment, Nelly, is still not identified as a person, but the size of the training set was still rather small. The more documents we annotate, the more training data we have, and the quality of the model should gradually improve over time.</p>
-<h3 id="running-the-ner-service" tabindex="-1">Running the NER service <a class="direct-link" href="#running-the-ner-service" aria-hidden="true">#</a></h3>
+<h3>Running the NER service</h3>
 <p>For named entity recognition to be available in the web-based annotation editor, a separate Python service is needed: clone the <a href="https://github.com/eeditiones/tei-publisher-ner" title="tei-publisher-ner">tei-publisher-ner</a> repository and follow the instructions in the README.</p>
 <p>The tei-publisher-ner package uses spaCy’s own project configuration library, which in itself is quite a useful tool. The main configuration is contained in <code>project.yml</code>, which exposes a number of commands. You can also use those to train a custom model as an alternative to the web form we saw above. This gives you more control and more options.</p>
 <p>To train a custom model you can either change the variables in <code>project.yml</code> or pass them as command line parameters, e.g.:</p>
 <pre class="language-sh"><code class="language-sh">python3 <span class="token parameter variable">-m</span> spacy project run all <span class="token builtin class-name">.</span> <span class="token parameter variable">--vars.name</span><span class="token operator">=</span>hsg_demo <span class="token parameter variable">--vars.app_name</span><span class="token operator">=</span>hsg-annotate <span class="token parameter variable">--vars.training_collection</span><span class="token operator">=</span>frus1981-88v05 <span class="token parameter variable">--vars.lang</span><span class="token operator">=</span>en</code></pre>
 <p>This will contact a TEI Publisher generated app called <code>hsg-annotate</code>and retrieve training data from the <code>frus1981-88v05</code> collection below the app's data root, using English as the training language. The output of the command will pretty much look the same as the output you saw on the web before.</p>
-<h3 id="conclusion" tabindex="-1">Conclusion <a class="direct-link" href="#conclusion" aria-hidden="true">#</a></h3>
+<h3>Conclusion</h3>
 <p>Even in its current, rudimentary form, the NER integration in TEI Publisher can already help to speed up the editing workflow. We do need to gain more experience with training custom models though and the community is warmly invited to help with this.</p>
 <p>There’s also a lot of room for improving the annotation workflow, e.g. with</p>
 <ul>
@@ -154,7 +154,7 @@
 </ul>
 
 <hr>
-<ul><li>Previous: <a href="/11ty-homepage/posts/newsletter-2022-1/">Newsletter 2022/1</a></li>
+<ul><li>Next: <a href="/11ty-homepage/posts/past-meetings/">Past Community Meetings</a></li><li>Previous: <a href="/11ty-homepage/posts/newsletter-2022-1/">Newsletter 2022/1</a></li>
 </ul>
 
 </main>

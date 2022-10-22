@@ -177,6 +177,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/11ty-homepage/posts/past-meetings/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/11ty-homepage/posts/</loc>
     <lastmod>2022-10-22</lastmod>
   </url>
@@ -267,6 +272,16 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/events/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/11ty-homepage/tags/meetups/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/feature/</loc>
     <lastmod>2022-10-22</lastmod>
   </url>
@@ -278,11 +293,6 @@
   
   <url>
     <loc>https://e-editiones.org/11ty-homepage/tags/named-entity-recognition/</loc>
-    <lastmod>2022-10-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/11ty-homepage/tags/events/</loc>
     <lastmod>2022-10-22</lastmod>
   </url>
   

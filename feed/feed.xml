@@ -5,12 +5,90 @@
 	
 	<link href="https://e-editiones.org/11ty-homepage/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2022-06-10T00:00:00Z</updated>
+	<updated>2022-10-22T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Past Community Meetings</title>
+		<link href="https://e-editiones.org/11ty-homepage/posts/past-meetings/"/>
+		<updated>2022-10-22T00:00:00Z</updated>
+		<id>https://e-editiones.org/11ty-homepage/posts/past-meetings/</id>
+		<content type="html">&lt;h3&gt;Past Meetings&lt;/h3&gt;
+&lt;h4&gt;2022&lt;/h4&gt;
+&lt;h5&gt;2022-07-18 Register of Older Slovenian Manuscripts&lt;/h5&gt;
+&lt;p&gt;Matija Ogrin (Institute of Slovenian Literature and Literary Studies ZRC SAZU Ljubljana) and Magdalena Tuska (JinnTec GmbH)&lt;/p&gt;
+&lt;h5&gt;2022-07-05 &lt;a href=&quot;https://teipublisher.info/exist/apps/TraveLab/index.html&quot;&gt;TraveLab&lt;/a&gt;: a multilingual mapped edition of Benjamin of Tudela&#39;s travelog.&lt;/h5&gt;
+&lt;p&gt;Dr. Sinai Rusinaek, Elijah Lab (Haifa University) and OMILab (Open University), and Gil Shalit, independent developer, &lt;a href=&quot;http://dh-dev.com/&quot;&gt;DH-Dev.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We will show different stages in the preparation of a multi-lingual travelog edition, from modelling, digitization, geo-referencing and alignment, through to the adaptation of TEI-Publisher to provide a meaningful interaction with the texts. We will look specifically at aligning three versions with each other and at extending the pb-leaflet-map’s functionality with Javascript hooks.&lt;/p&gt;
+&lt;p&gt;We will also briefly demonstrate &lt;a href=&quot;https://xmlplanter.dh-dev.com/&quot;&gt;XMLPlanter&lt;/a&gt;, an open online tool we have developed to assist in preparing parallel editions.&lt;/p&gt;
+&lt;h5&gt;2022-06-07 Names sell: Named entity recognition in TEI Publisher&lt;/h5&gt;
+&lt;p&gt;In this talk we&#39;ll learn how to enable the named entity recognition feature in the forthcoming TEI Publisher 8 to assist with semantic annotations. We&#39;ll also see how to train a custom recognition model from a set of already annotated documents, discuss the current (early) state of the feature and possible future developments (&lt;a href=&quot;https://e-editiones.org/names-sell-named-entity-recognition-in-tei-publisher/&quot;&gt;transcript of the talk).&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;2022-05-03 Cancelled&lt;/h5&gt;
+&lt;h5&gt;2022-04-12 Anatomy of the Alfred Escher Edition: Remastering a sophisticated project to TEI Publisher&lt;/h5&gt;
+&lt;p&gt;The Alfred Escher correspondence represents a prominent edition, which has recently been ported to TEI Publisher to save it from shutting down. The goal was to preserve the existing functionality and site organization while reducing the long-term maintenance costs.&lt;/p&gt;
+&lt;p&gt;In this talk we&#39;ll have a close look at how this task was undertaken and hope to provide some hints for others who may find themselves confronted with similar challenges. On the way we&#39;ll also meet some of the new features coming to Publisher 8.&lt;/p&gt;
+&lt;h5&gt;2022-03-01 Orchestrating TEI Publisher and Fore to edit and publish LGPN-Ling&lt;/h5&gt;
+&lt;p&gt;Magdalena Turska&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;LGPN-Ling: &lt;em&gt;Etymological and Semantic analysis of ancient Greek personal names&lt;/em&gt;&lt;/em&gt; is a dictionary accompanying the Lexicon of Greek Personal Names. The purpose of &lt;em&gt;LGPN-Ling&lt;/em&gt; is to elucidate the meaning of Greek names, a task which has never before been systematically undertaken and to provide an essential semantical complement to the LGPN Database.&lt;/p&gt;
+&lt;p&gt;Technical scaffolding of the LGPN-Ling project comprises of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;eXist database of TEI encoded documents,&lt;/li&gt;
+&lt;li&gt;TEI Publisher-based application with an extended API to publish and query the  data,&lt;/li&gt;
+&lt;li&gt;Fore XForms to edit the data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/ling-1024x607.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+&lt;h5&gt;2022-02-01 Tutorial: Connecting components to custom API endpoints&lt;/h5&gt;
+&lt;p&gt;Wolfgang Meier&lt;/p&gt;
+&lt;p&gt;This will be a tutorial session demonstrating  a new component for displaying categorized lists, e.g. to browse through people or places and paginate the results by first letter of alphabet, country or other categories. We&#39;ll learn how to connect this component to the API by creating a custom endpoint.&lt;/p&gt;
+&lt;p&gt;We&#39;ll also look at an enhanced version of the map component to display all places mentioned in an edition in a clustered view.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/Bildschirmfoto-2022-01-27-um-11.52.36.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+&lt;h4&gt;2021&lt;/h4&gt;
+&lt;h5&gt;2021-12-07 Combined Workflow for Publishing Jurisprudentia Frisica&lt;/h5&gt;
+&lt;p&gt;Eduard Drenth, Fryske Akademy&lt;/p&gt;
+&lt;p&gt;Designing a robust workflow for editors working both in word and in teipublisher.&lt;/p&gt;
+&lt;h5&gt;2021-10-05 An introduction to the Distributed Text Services (DTS)&lt;/h5&gt;
+&lt;p&gt;Pietro Liuzzo, Universität Hamburg&lt;/p&gt;
+&lt;p&gt;The Distributed Text Services (DTS) Specification defines an API for working with collections of text as machine-actionable data.&lt;/p&gt;
+&lt;p&gt;More Information: &lt;a href=&quot;https://distributed-text-services.github.io/specifications/&quot;&gt;https://distributed-text-services.github.io/specifications/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1eFV9Pg9pVHdT6AEUQ9QKi2MZs4X3F53EL-AqJnoviMA/edit?usp=sharing&quot;&gt;Slides of the talk&lt;/a&gt;.&lt;/p&gt;
+&lt;h5&gt;2021-09-07: TEI Publisher 7.1 - Configuring Web Annotations&lt;/h5&gt;
+&lt;p&gt;In this session we&#39;ll have a closer look at the new web annotations editor in TEI Publisher 7.1. We&#39;ll learn how to create a custom annotation app and configure it to match the requirements of a specific edition, i.e. add new annotation types and modify the existing ones.&lt;/p&gt;
+&lt;h5&gt;2021-07-06: Contributing to TEI Publisher - A Gentle Introduction&lt;/h5&gt;
+&lt;p&gt;Talk by Wolfgang Meier (eXist Solutions) on Tuesday, the 6th of July 2021 at 17:00 CEST.&lt;/p&gt;
+&lt;p&gt;Open source projects like TEI Publisher depend on an active, contributing community. Many believe that you need to be a programmer to contribute, but this is a misconception! Documentation, communication, supporting users or providing feedback are at least as important for an open source project as thousands of lines of code.&lt;/p&gt;
+&lt;p&gt;This session targets non-programmers as well as those with some development skills. We&#39;ll start with simple things, e.g. contributing to the &lt;a href=&quot;https://faq.teipublisher.com/&quot; title=&quot;FAQ&quot;&gt;FAQ&lt;/a&gt;, and then move on and show you how to create your own little web component to plug into TEI Publisher. We&#39;ll use a grid component for displaying tabular data as an example.&lt;/p&gt;
+&lt;h5&gt;2021-06-15: For(e) humanists - Metadata, Forms and more&lt;/h5&gt;
+&lt;p&gt;Joern Turner, eXistSolutions and Jinntec GmbH&lt;/p&gt;
+&lt;p&gt;Fore is a model-driven forms framework that follows the ideas of the XForms 2.0 Standard but translates those into the world of HTML5 Web Components.&lt;/p&gt;
+&lt;p&gt;Many edition project require some sort of complex input form sooner or later - just think about collecting metadata for the TEI header. The talk will focus on TEI and show you how to author such forms in HTML5.&lt;/p&gt;
+&lt;p&gt;Join the talk here: &lt;a href=&quot;https://meet.existsolutions.com/eeditiones&quot;&gt;https://meet.existsolutions.com/eeditiones&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;2021-06-01: FairCopy&lt;/h5&gt;
+&lt;p&gt;Nick Laiacona, President Performant Software Solutions &lt;a href=&quot;https://www.performantsoftware.com/&quot;&gt;https://www.performantsoftware.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;FairCopy is a specialized word processor for studying manuscripts and historical texts. It gives scholars a desktop editing environment to create TEI encoded texts without writing XML code. In this demonstration, we will explore what sorts of editions you can build using FairCopy and how it can fit into a larger ecosystem of tools leveraging TEI XML.&lt;/p&gt;
+&lt;p&gt;In addition, Wolfgang will give us a sneak preview of some exciting TEI Publisher 8 features under development.&lt;/p&gt;
+&lt;h5&gt;2021-05-04: Open access scholarly digital editions at the Finnish Literature Society: experiences with TEI Publisher&lt;/h5&gt;
+&lt;p&gt;Maria Niku, Tiedekustantamo, Suomalaisen Kirjallisuuden Seura – Finnish Literature Society&lt;/p&gt;
+&lt;p&gt;The Finnish Literature Society (&lt;a href=&quot;https://www.finlit.fi/en&quot;&gt;https://www.finlit.fi/en&lt;/a&gt;) publishes open access scholarly digital editions of archival material as well as digital critical editions of printed works. We began using eXist-db and TEI Publisher in 2020 for all of our XML-based publications, with two editions published so far and at least three more to be published this year.&lt;/p&gt;
+&lt;p&gt;Published edition links: &lt;a href=&quot;https://kivi.finlit.fi/lea&quot;&gt;https://kivi.finlit.fi/lea&lt;/a&gt; &lt;a href=&quot;https://gottlund.finlit.fi/&quot;&gt;https://gottlund.finlit.fi&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The former is in Finnish only, the latter in Finnish and Swedish, but we&#39;ll be adding English to the latter in April&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h5&gt;2021-04-06: Workflow from Word files or Transkribus to TEI Publisher&lt;/h5&gt;
+&lt;p&gt;Elisa Bastianello, Bibliotheca Hertziana - Max Planck Institute for Art History&lt;/p&gt;
+&lt;p&gt;Reto Baumgartner, University of Zurich Science IT (S3IT)&lt;/p&gt;
+&lt;p&gt;The digital edition of the Heinrich Wölfflin - Gesammelte Werke (Complete Works): &lt;a href=&quot;https://www.biblhertz.it/en/dept-weddigen/woelfflin&quot;&gt;https://www.biblhertz.it/en/dept-weddigen/woelfflin&lt;/a&gt; &lt;a href=&quot;https://www.woelfflin.uzh.ch/de.html&quot;&gt;https://www.woelfflin.uzh.ch/de.html&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;2020&lt;/h4&gt;
+&lt;h5&gt;2020-10-20 TEI Vanilla meeting&lt;/h5&gt;
+&lt;p&gt;More information: &lt;a href=&quot;https://e-editiones.org/tei-vanilla-meeting-summary&quot;&gt;https://e-editiones.org/tei-vanilla-meeting-summary&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;2020-07-08 Community Event on Music Encoding&lt;/h5&gt;
+&lt;p&gt;More information: &lt;a href=&quot;https://e-editiones.org/music-is-in-the-air/&quot;&gt;https://e-editiones.org/music-is-in-the-air/&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;2020-05-18 First Community Event&lt;/h5&gt;
+&lt;p&gt;More information: &lt;a href=&quot;https://e-editiones.org/news/first-community-event-on-may-18th-2020/&quot;&gt;https://e-editiones.org/news/first-community-event-on-may-18th-2020/&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Names sell: Named entity recognition in TEI Publisher</title>
@@ -30,7 +108,7 @@
 &lt;/ul&gt;
 &lt;p&gt;The ultimate goal is to make this process as smooth as possible, i.e. it should not hinder your editing work, but support it!&lt;/p&gt;
 &lt;p&gt;The integration in TEI Publisher is completely functional, but we need more testing, experimenting and kicking the tires with some real-world use cases. NLP is not a simple subject and I’m in no way an expert, so I’d like to invite the community to help. I have just prepared the ground work.&lt;/p&gt;
-&lt;h3 id=&quot;technical-background&quot; tabindex=&quot;-1&quot;&gt;Technical Background &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/names-sell-named-entity-recognition-in-tei-publisher/#technical-background&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;Technical Background&lt;/h3&gt;
 &lt;p&gt;There are plenty of NLP and NER libraries and tools. However, such libraries work on plain text, not structured texts like TEI. They will get confused by angle brackets (just like many humans). The trick thus is to transform the XML into a plain text without loosing context, which means we somehow need to keep track of element boundaries, offsets of inline elements etc.&lt;/p&gt;
 &lt;p&gt;Likewise, the result of running NER is again a plain text document, accompanied by a list of detected entities and character offsets. Those need to be mapped back onto the XML structure and eventually merged into the TEI. This back-and-forth conversion is the main job handled by TEI Publisher and its API.&lt;/p&gt;
 &lt;p&gt;My first idea was to integrate another, existing command-line tool for enriching TEI with named entities. But after a few first experiments, it occurred to me that TEI Publisher already had some important bits and pieces in place within the annotation framework:&lt;/p&gt;
@@ -43,7 +121,7 @@
 &lt;p&gt;The NLP part is a python service using &lt;a href=&quot;https://spacy.io/&quot; title=&quot;spaCy&quot;&gt;spaCy&lt;/a&gt; as the underlying NLP library. Compared to many NLP libraries I have seen before, spaCy has a rather simple, clean API. Getting started proved to be smooth and painless as most of the functionality comes pre-configured and ready to be used. A Python notebook demonstrating how to do a simple NER with spaCy is shown below:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://e-editiones.org/img/spacy-notebook-1024x566.png&quot; alt=&quot;&quot; /&gt;]&lt;/p&gt;
 &lt;p&gt;SpaCy can do more than just NER, e.g. part-of-speech tagging, dependency parsing, sentence segmentation, text classification, lemmatization, morphological analysis. It is also quite extensible, allowing other libraries to be plugged into its pipelines.&lt;/p&gt;
-&lt;h3 id=&quot;training-a-model&quot; tabindex=&quot;-1&quot;&gt;Training a model &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/names-sell-named-entity-recognition-in-tei-publisher/#training-a-model&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;Training a model&lt;/h3&gt;
 &lt;p&gt;Whenever you use a general-purpose NER model, you’ll quickly notice that it works great for some types of texts, i.e. texts similar to the ones it was trained on. However, results quickly degrade if you apply it to other genres or texts written in a slightly different period of time. For example, the German standard model in spaCy produces good results when run on a text from Wikipedia, but it already starts missing things when you apply it to letters written in the first half of the 20th century: the language used back then was just different, some would say: more sophisticated, than the language used today.&lt;/p&gt;
 &lt;p&gt;For example, if we run the standard German model against a letter by theologian Karl Barth written in 1921, many words are wrongly identified as places:&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/kb-generic.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
@@ -66,13 +144,13 @@
 &lt;p&gt;Afterwards the new trained model will become available within the annotation editor and we can try NER on the same letter as before using the custom model:&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/barth-improved.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
 &lt;p&gt;Looking at the same passage of Barth&#39;s letter, we see that now only Göttingen is identified as a place. The wrongly detected places are gone. This is clearly an improvement over the standard model. The one name in the fragment, Nelly, is still not identified as a person, but the size of the training set was still rather small. The more documents we annotate, the more training data we have, and the quality of the model should gradually improve over time.&lt;/p&gt;
-&lt;h3 id=&quot;running-the-ner-service&quot; tabindex=&quot;-1&quot;&gt;Running the NER service &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/names-sell-named-entity-recognition-in-tei-publisher/#running-the-ner-service&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;Running the NER service&lt;/h3&gt;
 &lt;p&gt;For named entity recognition to be available in the web-based annotation editor, a separate Python service is needed: clone the &lt;a href=&quot;https://github.com/eeditiones/tei-publisher-ner&quot; title=&quot;tei-publisher-ner&quot;&gt;tei-publisher-ner&lt;/a&gt; repository and follow the instructions in the README.&lt;/p&gt;
 &lt;p&gt;The tei-publisher-ner package uses spaCy’s own project configuration library, which in itself is quite a useful tool. The main configuration is contained in &lt;code&gt;project.yml&lt;/code&gt;, which exposes a number of commands. You can also use those to train a custom model as an alternative to the web form we saw above. This gives you more control and more options.&lt;/p&gt;
 &lt;p&gt;To train a custom model you can either change the variables in &lt;code&gt;project.yml&lt;/code&gt; or pass them as command line parameters, e.g.:&lt;/p&gt;
 &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;python3 &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; spacy project run all &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--vars.name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;hsg_demo &lt;span class=&quot;token parameter variable&quot;&gt;--vars.app_name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;hsg-annotate &lt;span class=&quot;token parameter variable&quot;&gt;--vars.training_collection&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;frus1981-88v05 &lt;span class=&quot;token parameter variable&quot;&gt;--vars.lang&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;en&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;This will contact a TEI Publisher generated app called &lt;code&gt;hsg-annotate&lt;/code&gt;and retrieve training data from the &lt;code&gt;frus1981-88v05&lt;/code&gt; collection below the app&#39;s data root, using English as the training language. The output of the command will pretty much look the same as the output you saw on the web before.&lt;/p&gt;
-&lt;h3 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/names-sell-named-entity-recognition-in-tei-publisher/#conclusion&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;Even in its current, rudimentary form, the NER integration in TEI Publisher can already help to speed up the editing workflow. We do need to gain more experience with training custom models though and the community is warmly invited to help with this.&lt;/p&gt;
 &lt;p&gt;There’s also a lot of room for improving the annotation workflow, e.g. with&lt;/p&gt;
 &lt;ul&gt;
@@ -90,7 +168,7 @@
 		<link href="https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/"/>
 		<updated>2022-04-05T00:00:00Z</updated>
 		<id>https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/</id>
-		<content type="html">&lt;h2 id=&quot;e-editiones-as-a-society&quot; tabindex=&quot;-1&quot;&gt;e-editiones as a Society &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/#e-editiones-as-a-society&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+		<content type="html">&lt;h2&gt;e-editiones as a Society&lt;/h2&gt;
 &lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/wordcloud-eeditiones-2021.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
 &lt;p&gt;A highlight of the past year was e-editiones being awarded the &lt;a href=&quot;https://tei-c.org/activities/rahtz-prize-for-tei-ingenuity/&quot;&gt;2021 TEI Community Prize&lt;/a&gt;. The jury offered us these kind words:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -100,14 +178,14 @@
 &lt;p&gt;One of e-editiones&#39; strategic goals is to ensure the long-term availability of digital editions. To this end e-editiones supports hosting offers that also include the continuous maintenance of digital editions (software updates). This year Archives Online has set up such an offer with «Sources Online». Some of the editions associated with e-editiones already use the Sources Online servers.&lt;/p&gt;
 &lt;p&gt;In February 2021, e-editiones received a grant by the Ernst Göhner Stiftung. The joint proposal was backed by a number of members and their institutions. Together with the additional generous contributions made by participating projects, this grant supported a larger part of the development work past year.&lt;/p&gt;
 &lt;p&gt;With the Escher correspondence, a prominent Swiss edition has been migrated to TEI Publisher. This step has been necessary since maintenance and hosting with the previous setup became too expensive in the long term. With TEI Publisher application hosted by Sources Online, the annual costs are reduced to a third.&lt;/p&gt;
-&lt;h2 id=&quot;more-information&quot; tabindex=&quot;-1&quot;&gt;More Information &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/#more-information&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;More Information&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://e-editiones.org/members/&quot; title=&quot;Current list of members&quot;&gt;Current list of members&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://e-editiones.org/statuten-des-vereins-e-editiones-german/&quot; title=&quot;Statutes&quot;&gt;Statutes&lt;/a&gt; (in German)&lt;/li&gt;
 &lt;li&gt;How to &lt;a href=&quot;https://e-editiones.org/how-to-become-a-member/&quot; title=&quot;become a member&quot;&gt;become a member&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;events&quot; tabindex=&quot;-1&quot;&gt;Events &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/#events&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;community-meetings&quot; tabindex=&quot;-1&quot;&gt;Community Meetings &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/#community-meetings&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h2&gt;Events&lt;/h2&gt;
+&lt;h3&gt;Community Meetings&lt;/h3&gt;
 &lt;p&gt;e-editiones was able to hold 7 community meetings and thus contribute to the exchange of expertise. Many of the meetings were extremely well received. However, the number of participants varied greatly.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;2021-10-05 An introduction to the Distributed Text Services (DTS)&lt;/li&gt;
@@ -118,7 +196,7 @@
 &lt;li&gt;2021-05-04: Open access scholarly digital editions at the Finnish Literature Society: experiences with TEI Publisher&lt;/li&gt;
 &lt;li&gt;2021-04-06: Workflow from Word files or Transkribus to TEI Publisher&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;workshops&quot; tabindex=&quot;-1&quot;&gt;Workshops &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/#workshops&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Workshops&lt;/h2&gt;
 &lt;p&gt;Among the workshops, special mention should be made of the 5-part introductory workshop by Anne Diekjobst and Claudia Sutter, which received very good feedback.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;2021-08-2021 Manuscript Mondays – Einführung in das digitale Edieren handschriftlicher Quellen (5-teilig)&lt;/li&gt;
@@ -126,15 +204,15 @@
 &lt;li&gt;2021-03-08 Beginners Workshop (Git, Editing Workflows)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;A big thank you to all who actively participated in the meetings and workshops.&lt;/p&gt;
-&lt;h2 id=&quot;more-information-1&quot; tabindex=&quot;-1&quot;&gt;More Information &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/#more-information-1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;More Information&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCAPhSZdBwFRCEFWNNYOC4Ww&quot; title=&quot;e-editiones-YouTube-Channel&quot;&gt;e-editiones-YouTube-Channel&lt;/a&gt; (3 neue Videos)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://e-editiones.org/blog/&quot; title=&quot;e-editiones blog&quot;&gt;e-editiones blog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;communication&quot; tabindex=&quot;-1&quot;&gt;Communication &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/#communication&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h1&gt;Communication&lt;/h1&gt;
 &lt;p&gt;On Slack, we had 218 active members at the end of 2021; on average, there were 16 active members daily, with 3 to 4 members posting a total of about 8 messages daily. On Twitter, we post 4 to 5 tweets per month. 2021 brought us 172 new followers.&lt;/p&gt;
 &lt;p&gt;Our mailing list, on the other hand, is not very actively used. We are happy to receive suggestions and ideas on how to proceed with it.&lt;/p&gt;
-&lt;h1 id=&quot;tei-publisher-developments&quot; tabindex=&quot;-1&quot;&gt;TEI Publisher Developments &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/#tei-publisher-developments&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h1&gt;TEI Publisher Developments&lt;/h1&gt;
 &lt;p&gt;In February 2021 e-editiones successfully applied for a grant by the Ernst Göhner Stiftung, from which we received 30000 SFR for further TEI Publisher development. The joint proposal was backed by a number of members and their institutions and included features like:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;support for web annotations&lt;/li&gt;
@@ -145,17 +223,17 @@
 &lt;li&gt;display of mathematical formulas&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Obviously the budget did not suffice to cover everything planned, but thanks to the additional contributions provided by the member institutions, we could address the main topics and even go beyond in some areas.&lt;/p&gt;
-&lt;h2 id=&quot;web-annotations&quot; tabindex=&quot;-1&quot;&gt;Web Annotations &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/#web-annotations&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Web Annotations&lt;/h2&gt;
 &lt;p&gt;The most visible feature is the editor for web-based annotations, released in version 7.1.0. The development team had been contemplating this feature already for a couple years and thanks to additional generous funding by the Office of the Historian at the US Department of State, it finally became reality. Being able to annotate TEI documents via a graphic, web based interface eases the burden of enhancing a transcription with semantic, analytic or text-critical markup. Users work in a user-friendly environment in which XML code is neatly hidden from sight. The integration of external authority databases saves a lot of time, improves consistency and opens possibilities for data exchange and interoperability. At the same time, the annotation editor is fully configurable, allowing complex, nested markup where necessary. Several member institutions are actively using the editor in their daily work and continue to contribute to its development.&lt;/p&gt;
 &lt;p&gt;The annotation editor marks the first milestone in our endeavour to extend TEI Publisher to support the entire editing workflow rather than just publishing the end result. Further steps are already in planning, e.g. form-based editing of the TEI header, which will offer the same level of customizability and extensibility.&lt;/p&gt;
-&lt;h2 id=&quot;web-components&quot; tabindex=&quot;-1&quot;&gt;Web Components &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/#web-components&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Web Components&lt;/h2&gt;
 &lt;p&gt;Several new web components have been released during the past year: most notable, a new timeline component allows users to visualise dates and events in an interactive, graphical display. The component can be used to directly select a date or date range, or it can be connected to a facetted search to drill down into a collection of items. Development was supported by the Staatsarchiv Zürich. This component is prominently featured in the remake of the Alfred Escher correspondence edition (to be announced soon).&lt;/p&gt;
 &lt;p&gt;The Bernoulli edition in Basel financed a component to display mathematical formulas embedded in the TEI text, using either MathML or TeX notation. Other new components include a grid element for viewing tabular data, and a &amp;quot;split list&amp;quot;, which comes handy when browsing lists of places, people or abbreviations. The latter was again financed by the Staatsarchiv Zürich and first appeared in the Escher correspondence.&lt;/p&gt;
 &lt;p&gt;As usual, many other components have seen major improvements needed by concrete projects. For example, the map component is now able to display a large number of places at once by clustering the markers.&lt;/p&gt;
-&lt;h2 id=&quot;tei-publisher-8&quot; tabindex=&quot;-1&quot;&gt;TEI Publisher 8 &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/#tei-publisher-8&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;TEI Publisher 8&lt;/h2&gt;
 &lt;p&gt;The next major release of TEI Publisher is currently being finalized. It will include a few breaking changes, mainly in the libraries used, but as usual we&#39;re aiming to remain as backwards compatible as possible. One reason for the breaking changes is to better support persistent, bookmarkable URLs as well as browsing the navigation history. The goal is to make the URL structure as seen by the end-user completely independent of the underlying organization of documents and collections. This involves both a server- and client-side part.&lt;/p&gt;
 &lt;p&gt;The main remaining task on the way to the release is to extensively document the possibilities and approaches enabled by those changes.&lt;/p&gt;
-&lt;h2 id=&quot;other-software-packages&quot; tabindex=&quot;-1&quot;&gt;Other Software Packages &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/#other-software-packages&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Other Software Packages&lt;/h2&gt;
 &lt;p&gt;In line with our modular development policy, a number of software packages which should be considered part of Publisher 8 are published in separate repositories:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/eeditiones/tuttle&quot;&gt;tuttle - a Git Integration for eXist-db&lt;/a&gt; (stable): allows synchronizing a data collection directly from a github or gitlab repository to the database. It can deal with multiple repositories as well as incremental updates. Thanks to the Karl Barth Gesamtausgabe for contributing funding.&lt;/li&gt;
@@ -164,7 +242,7 @@
 &lt;li&gt;&lt;a href=&quot;https://github.com/eeditiones/teipublisher-docker-compose&quot;&gt;Docker Compose Configuration&lt;/a&gt; (beta): a configuration to help users install a TEI Publisher-based application on a docker-enabled host. It handles the more difficult tasks of installing a reverse proxy in front of Publisher as well as registering an SSL certificate. Hosting via docker compose can be a viable option for smaller projects with limited budget and users who lack the server administration skills necessary to set up a dedicated hosting service.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/jinntec/fore&quot;&gt;Fore&lt;/a&gt;: an XForms-inspired library for building complex forms with web components. While this is not an integral part of TEI Publisher yet, it will become the fundament for many of the future, workflow-related features we have in mind (see below).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;the-future&quot; tabindex=&quot;-1&quot;&gt;The Future &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/#the-future&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h1&gt;The Future&lt;/h1&gt;
 &lt;p&gt;The e-editiones board will prepare a new joint funding proposal soon. To be successfull we&#39;ll again need projects or institutions to express interest and signal readiness to make a contribution (in whatever way). If you are working with TEI Publisher and wish for a certain feature, please do not hesitate to contact us, so we can add it to the list of topics.&lt;/p&gt;
 &lt;p&gt;A main area we currently have in mind is to further enhance TEI Publisher with respect to supporting the editorial workflow:&lt;/p&gt;
 &lt;ul&gt;
@@ -195,42 +273,42 @@
 		<updated>2022-03-29T00:00:00Z</updated>
 		<id>https://e-editiones.org/11ty-homepage/posts/cultural-heritage-grant-ukraine/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https://e-editiones.org/11ty-homepage/posts/cultural-heritage-grant-ukraine/#ukr&quot;&gt;Українська &lt;img src=&quot;https://e-editiones.org/img/ukraine-1.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;small-grants-program-for-scholars-affected-by-war-in-ukraine&quot; tabindex=&quot;-1&quot;&gt;Small grants program for scholars affected by war in Ukraine &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/cultural-heritage-grant-ukraine/#small-grants-program-for-scholars-affected-by-war-in-ukraine&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h1&gt;Small grants program for scholars affected by war in Ukraine&lt;/h1&gt;
 &lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/ukraine-3-279x300.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
 &lt;p&gt;e-editiones and the &lt;a href=&quot;https://tei-c.org/&quot;&gt;TEI Consortium&lt;/a&gt; in collaboration with &lt;a href=&quot;https://archives-online.org/&quot;&gt;Archives Online&lt;/a&gt; and &lt;a href=&quot;https://jinntec.de/&quot;&gt;JinnTec&lt;/a&gt; announce a small grant program aiming to help scholars of Ukrainian cultural heritage to continue their work that has been disrupted by the Russian invasion of Ukraine. We urge other institutions to support this call so we can offer funding for more of our colleagues affected by the war.&lt;/p&gt;
-&lt;h2 id=&quot;who-is-eligible&quot; tabindex=&quot;-1&quot;&gt;Who is eligible? &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/cultural-heritage-grant-ukraine/#who-is-eligible&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Who is eligible?&lt;/h2&gt;
 &lt;p&gt;Any scholar who had to leave Ukraine or relocate within Ukrainian territory because of the war and is working on sources broadly conceived as textual cultural heritage and plans to make data and results openly available.&lt;/p&gt;
-&lt;h2 id=&quot;what-is-offered&quot; tabindex=&quot;-1&quot;&gt;What is offered? &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/cultural-heritage-grant-ukraine/#what-is-offered&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;What is offered?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Initial funding ranging between 500 and 2000 EUR to support the continuation of research work on materials related to cultural heritage available in TEI&lt;/li&gt;
 &lt;li&gt;Help with encoding and other conceptual aspects of a digital edition&lt;/li&gt;
 &lt;li&gt;Technical support in converting data sources into the TEI Standard and/or publishing them as a digital edition online&lt;/li&gt;
 &lt;li&gt;Hosting of the edition for at least 3 years on Sources Online servers&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;how-to-apply&quot; tabindex=&quot;-1&quot;&gt;How to apply? &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/cultural-heritage-grant-ukraine/#how-to-apply&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;How to apply?&lt;/h2&gt;
 &lt;p&gt;Please send a brief description of the project and its current state to &lt;a href=&quot;mailto:info@e-editiones.org&quot;&gt;info@e-editiones.org&lt;/a&gt;. Applications will be reviewed on an ongoing basis. The number of grants awarded will depend on the funding contributions we will be able to secure, the confirmed initial pool is 10 000 EUR. Please include a description of your personal situation and why you should be eligible.&lt;/p&gt;
-&lt;h2 id=&quot;how-can-i-contribute&quot; tabindex=&quot;-1&quot;&gt;How can I contribute? &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/cultural-heritage-grant-ukraine/#how-can-i-contribute&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;How can I contribute?&lt;/h2&gt;
 &lt;p&gt;If you or your organization would like to contribute funds or services to this initiative, please email &lt;a href=&quot;mailto:info@e-editiones.org&quot;&gt;info@e-editiones.org&lt;/a&gt; with details. Individuals are encouraged to donate via &lt;a href=&quot;https://www.paypal.com/donate/?hosted_button_id=ST7PNHJK3FMX8&quot;&gt;PayPal&lt;/a&gt;. e-editiones is registered as a non-profit society in Switzerland.&lt;/p&gt;
-&lt;h2 id=&quot;supporters&quot; tabindex=&quot;-1&quot;&gt;Supporters &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/cultural-heritage-grant-ukraine/#supporters&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Supporters&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.sagw.ch/sagw/&quot;&gt;SAGW&lt;/a&gt; (Swiss Academy of Humanities and Social Science)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/eeditiones/logos/master/e-editiones-logo/e-editiones-logo-color.svg&quot; alt=&quot;&quot; /&gt; &lt;img src=&quot;https://tei-c.org/Vault/Logos/TEIlogo.svg&quot; alt=&quot;&quot; /&gt; &lt;img src=&quot;https://jinntec.de//img/jinntec-logo.svg&quot; alt=&quot;&quot; /&gt; Archives Online&lt;/p&gt;
 &lt;hr /&gt;
-&lt;h1 id=&quot;programa-malih-grantiv-dlya-vchenih-yaki-postrazhdali-vid-vijni-v-ukrayini&quot; tabindex=&quot;-1&quot;&gt;Програма малих грантів для вчених, які постраждали від війни в Україні &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/cultural-heritage-grant-ukraine/#programa-malih-grantiv-dlya-vchenih-yaki-postrazhdali-vid-vijni-v-ukrayini&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h1&gt;Програма малих грантів для вчених, які постраждали від війни в Україні&lt;/h1&gt;
 &lt;p&gt;e-editiones та &lt;a href=&quot;https://tei-c.org/&quot; title=&quot;TEI Consortium&quot;&gt;Консорціум TEI&lt;/a&gt; у співпраці з &lt;a href=&quot;https://archives-online.org/&quot; title=&quot;Archives Online&quot;&gt;Archives Online&lt;/a&gt; і &lt;a href=&quot;https://jinntec.de/&quot; title=&quot;JinnTec&quot;&gt;JinnTec&lt;/a&gt; оголошують програму невеликих грантів, спрямовану на допомогу дослідникам української культурної спадщини, щоб ті могли продовжувати свою роботу, перервану вторгненням Росії в Україну. Ми закликаємо інші установи підтримати цей звернення, щоб ми могли запропонувати фінансування для більшої кількості наших колег, що постраждали від війни.&lt;/p&gt;
-&lt;h2 id=&quot;hto-maye-pravo&quot; tabindex=&quot;-1&quot;&gt;Хто має право? &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/cultural-heritage-grant-ukraine/#hto-maye-pravo&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Хто має право?&lt;/h2&gt;
 &lt;p&gt;Будь-який науковець, який був змушений виїхати з України чи переїхати в межах української території через війну і працює над джерелами, що широко розуміються як текстова культурна спадщина та планує викласти дані та результати у відкритому доступі.&lt;/p&gt;
-&lt;h2 id=&quot;shho-proponuyetsya&quot; tabindex=&quot;-1&quot;&gt;Що пропонується? &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/cultural-heritage-grant-ukraine/#shho-proponuyetsya&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Що пропонується?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Початкове фінансування від 500 до 2000 євро для підтримки продовження науково-дослідницької роботи над матеріалами, що стосуються культурної спадщини, доступними в TEI&lt;/li&gt;
 &lt;li&gt;Допомога з кодуванням та іншими концептуальними аспектами цифрового видання&lt;/li&gt;
 &lt;li&gt;Технічна підтримка перетворення джерел даних у стандарт TEI та/або їх публікація у вигляді цифрового видання в Інтернеті&lt;/li&gt;
 &lt;li&gt;Хостинг видання не менше 3 років на серверах Sources Online&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;yak-podati-zayavku&quot; tabindex=&quot;-1&quot;&gt;Як подати заявку? &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/cultural-heritage-grant-ukraine/#yak-podati-zayavku&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Як подати заявку?&lt;/h2&gt;
 &lt;p&gt;Будь ласка, надішліть короткий опис проекту та його поточний стан на адресу &lt;a href=&quot;mailto:info@e-editiones.org&quot;&gt;info@e-editiones.org&lt;/a&gt;. Заявки розглядатимуться на постійній основі. Кількість наданих грантів залежатиме від фінансових внесків, які ми зможемо забазпечити, при підтвердженому початковому бюджеті 10000 євро. Будь ласка додайте опис вашої особистої ситуації та обгрунтуйте, чому ваша кандидатура має бути розглянута позитивно.&lt;/p&gt;
-&lt;h2 id=&quot;yak-ya-mozhu-zrobiti-svij-vnesok&quot; tabindex=&quot;-1&quot;&gt;Як я можу зробити свій внесок? &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/cultural-heritage-grant-ukraine/#yak-ya-mozhu-zrobiti-svij-vnesok&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Як я можу зробити свій внесок?&lt;/h2&gt;
 &lt;p&gt;Якщо ви або ваша організація бажаєте внести кошти чи послуги на користь цієї ініціативи, будь ласка, напишіть деталі на адресу &lt;a href=&quot;mailto:info@e-editiones.org&quot;&gt;info@e-editiones.org&lt;/a&gt;. Фізичним особам пропонується робити пожертви через &lt;a href=&quot;https://www.paypal.com/donate/?hosted_button_id=ST7PNHJK3FMX8&quot;&gt;PayPal&lt;/a&gt;. e-editiones є зареєстровані як некомерційна організація у Швейцарії.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/eeditiones/logos/master/e-editiones-logo/e-editiones-logo-color.svg&quot; alt=&quot;&quot; /&gt; &lt;img src=&quot;https://tei-c.org/Vault/Logos/TEIlogo.svg&quot; alt=&quot;&quot; /&gt; &lt;img src=&quot;https://jinntec.de//img/jinntec-logo.svg&quot; alt=&quot;&quot; /&gt; Archives Online&lt;/p&gt;
 </content>
@@ -285,7 +363,7 @@
 		<link href="https://e-editiones.org/11ty-homepage/posts/digital-editions-survival-kit/"/>
 		<updated>2021-10-26T00:00:00Z</updated>
 		<id>https://e-editiones.org/11ty-homepage/posts/digital-editions-survival-kit/</id>
-		<content type="html">&lt;h2 id=&quot;reconstructing-an-edition&quot; tabindex=&quot;-1&quot;&gt;Reconstructing an edition &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/digital-editions-survival-kit/#reconstructing-an-edition&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+		<content type="html">&lt;h2&gt;Reconstructing an edition&lt;/h2&gt;
 &lt;p&gt;Computer systems are not meant to last, to the contrary - not only do they require regular maintenance but we need to take into account the unavoidable cycle of major refurbishments. This paper, just presented at the virtual TEI conference, aims to demonstrate how critically important aspects of an edition can be reconstructed from a rather minimal data set and how such a &lt;em&gt;survival kit&lt;/em&gt; can be useful not only for disaster recovery but also as a sustainable approach for the maintenance of scholarly publications.&lt;/p&gt;
 &lt;p&gt;The following schemata are the key components of the &lt;em&gt;survival kit&lt;/em&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -332,7 +410,7 @@
 &lt;p&gt;The offer will be complemented by a portal, which allows users to search across all editions participating in the service. The portal application has been developed by e-editiones, Archives Online and the &lt;a href=&quot;https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html&quot; title=&quot;Staatsarchiv Zürich&quot;&gt;Staatsarchiv Zürich&lt;/a&gt;, and will go online as soon as the first editions are ready for publication. All code will be made available as free software. The distributed search feature was based on earlier work financed by the &lt;a href=&quot;https://www.dipf.de/&quot; title=&quot;DIPF Berlin&quot;&gt;DIPF Berlin&lt;/a&gt; (Leibniz Institute for Research and Information in Education), and the &lt;a href=&quot;https://theologie.unibas.ch/de/karl-barth-zentrum/gesamtausgabe/&quot; title=&quot;Karl Barth Gesamtausgabe&quot;&gt;Karl Barth-Gesamtausgabe&lt;/a&gt; supported the server set up and automation.&lt;/p&gt;
 &lt;p&gt;The goal is to provide an easy, long-term hosting option for editions based on minimal, well-documented requirements: ultimately any edition which complies with the recommended practices can benefit from the hosting offer and participate in the portal service.&lt;/p&gt;
 &lt;p&gt;If you are interested in having an edition hosted, please contact &lt;a href=&quot;mailto:info@archives-online.org&quot; title=&quot;Archives Online&quot;&gt;Archives Online&lt;/a&gt;. The service will not be for free: any serious long-term hosting has to cover certain maintenance costs if it wants to follow more than an &amp;quot;install and forget&amp;quot; policy. But we&#39;re confident that our solution minimizes the costs while providing the best possible service, in particular if you&#39;re looking towards long-term availability.&lt;/p&gt;
-&lt;h1 id=&quot;technical-background&quot; tabindex=&quot;-1&quot;&gt;Technical Background &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/new-hosting-offer/#technical-background&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h1&gt;Technical Background&lt;/h1&gt;
 &lt;p&gt;e-editiones central goal is to provide editions with a sustainable publishing solution which ensures long term availability with minimal maintenance. With the redesign of TEI Publisher 6 and 7, we prepared the necessary technical foundations: all editions generated by TEI Publisher now share a common API.&lt;/p&gt;
 &lt;p&gt;With the new version 7 it became possible to:&lt;/p&gt;
 &lt;ol&gt;
@@ -341,7 +419,7 @@
 &lt;li&gt;search across local and distributed editions (hosted on a different server) by leveraging the shared API&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Also, despite looking different on the surface, the building blocks for any TEI Publisher-based edition are the same, which allows server administrators to create automated setup and maintenance routines.&lt;/p&gt;
-&lt;h1 id=&quot;outlook&quot; tabindex=&quot;-1&quot;&gt;Outlook &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/new-hosting-offer/#outlook&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h1&gt;Outlook&lt;/h1&gt;
 &lt;p&gt;Among many other things, TEI Publisher 8 will further improve the architecture by introducing more generic concepts for persistent URLs, navigation and addressing documents, allowing editions to use an addressing scheme which better reflects the logic of the edition rather than technical requirements.&lt;/p&gt;
 &lt;p&gt;A direct integration with git will allow editions to update published data without having to touch the command line.&lt;/p&gt;
 &lt;p&gt;The upcoming version will also include index configuration and API endpoints for local and distributed portal search, so generated editions can automatically participate in a multi-edition portal like sources-online.&lt;/p&gt;
@@ -356,15 +434,15 @@
 		<updated>2021-02-02T00:00:00Z</updated>
 		<id>https://e-editiones.org/11ty-homepage/posts/newsletter-2021-1/</id>
 		<content type="html">&lt;p&gt;&lt;img src=&quot;https://e-editiones.org/img/wordcloud-eeditiones-2021.png&quot; alt=&quot;&quot; /&gt; We&#39;re happy to send our first newsletter covering the past year of activities and developments within e-editiones and would like to encourage institutions or individuals who are not yet members to &lt;a href=&quot;https://e-editiones.org/how-to-become-a-member/&quot;&gt;join forces&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;e-editiones-as-a-society&quot; tabindex=&quot;-1&quot;&gt;e-editiones as a Society &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2021-1/#e-editiones-as-a-society&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;e-editiones as a Society&lt;/h2&gt;
 &lt;p&gt;The e-editiones society was founded on 4 May 2020 by more than 20 international partners. Our institutional members are academies, archives and libraries, edition projects and their sponsors, as well as companies. Among individual members we are proud to count archivists, librarians, editors, researchers from the (digital) humanities, and software developers. After our first attempt to obtain a non-profit association status from the St. Gallen tax office failed, e-editiones was recognized as a non-profit association with tax exemption, following an amendment to the statutes (5th November 2020). A huge thanks to the Karl Barth Foundation for generously sponsoring the necessary legal advice. Building on these foundations and developments and events listed below, our still young society is off to a great start. We hope to broaden the community and increase our membership in 2021.&lt;/p&gt;
-&lt;h3 id=&quot;more-information&quot; tabindex=&quot;-1&quot;&gt;More Information &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2021-1/#more-information&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;More Information&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://e-editiones.org/members/&quot;&gt;Current list of members&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://e-editiones.org/statuten-des-vereins-e-editiones-german/&quot;&gt;Statutes (in German)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://e-editiones.org/how-to-become-a-member/&quot;&gt;How to become a member&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;2020-events&quot; tabindex=&quot;-1&quot;&gt;2020 Events &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2021-1/#2020-events&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;2020 Events&lt;/h2&gt;
 &lt;p&gt;e-editiones organized various meetings and workshops in 2020 for members and the wider community to get to know each other and exchange ideas.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Meetings&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -385,21 +463,21 @@
 &lt;li&gt;Common eXist-db/TEI Publisher. Deployment Scenarios by Olaf Schreck and Lars Windauer covers different deployment scenarios of eXist-db and TEI Publisher, 9th Sep 2020 &lt;a href=&quot;https://youtu.be/sA7H2f6zKmI&quot;&gt;Video&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Open Source Advent: Presentation of a number of open source developments, 11th – 31st Dec 2020 &lt;a href=&quot;https://e-editiones.org/osa20/&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;more-information-1&quot; tabindex=&quot;-1&quot;&gt;More Information &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2021-1/#more-information-1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;More Information&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCAPhSZdBwFRCEFWNNYOC4Ww&quot;&gt;e-editiones-YouTube-Channel&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://e-editiones.org/blog/&quot;&gt;e-editiones blog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;communication&quot; tabindex=&quot;-1&quot;&gt;Communication &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2021-1/#communication&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Communication&lt;/h2&gt;
 &lt;p&gt;The association immediately set up communication facilities for its members and the community. For technical questions about TEI Publisher, the central communication channel is &lt;a href=&quot;https://e-editiones.slack.com/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg#/&quot;&gt;Slack&lt;/a&gt;. Recurring issues and questions are incorporated into the new &lt;a href=&quot;https://faq.teipublisher.com/&quot;&gt;FAQ&lt;/a&gt; page. For announcements and important messages, we use &lt;a href=&quot;https://twitter.com/EEditiones&quot;&gt;Twitter&lt;/a&gt;. Follow us!&lt;/p&gt;
-&lt;h3 id=&quot;more-information-2&quot; tabindex=&quot;-1&quot;&gt;More Information &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2021-1/#more-information-2&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;More Information&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://e-editiones.slack.com/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg#/&quot;&gt;e-editiones workspace on Slack&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://faq.teipublisher.com/&quot;&gt;TEI Publisher FAQ&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://twitter.com/EEditiones&quot;&gt;e-editiones.org on Twitter&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Up-to-date list of &lt;a href=&quot;https://e-editiones.org/get-in-touch/&quot;&gt;e-editiones communication channels&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;tei-publisher-developments-versions-6-and-7&quot; tabindex=&quot;-1&quot;&gt;TEI Publisher Developments: Versions 6 and 7 &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2021-1/#tei-publisher-developments-versions-6-and-7&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;TEI Publisher Developments: Versions 6 and 7&lt;/h2&gt;
 &lt;p&gt;In 2020 two major versions of TEI Publisher were released: versions 6 and 7. The plan for these versions was born during a meeting in Basel in November 2019, when several Swiss edition projects using TEI Publisher came together to discuss how the software could be developed into an even more sustainable platform. A number of them later became founding members of e-editiones. Their primary goal was to enable institutions to manage and maintain a larger number of editions, either on the same or several servers. To reduce maintenance costs, keeping editions up to date with newer TEI Publisher versions needed to be as simple as possible. Editions relying on different versions needed to be able to run alongside each other.&lt;/p&gt;
 &lt;p&gt;Two areas had to be addressed to achieve these goals:&lt;/p&gt;
 &lt;ol&gt;
@@ -411,17 +489,17 @@
 &lt;p&gt;Contributions also came from member institutions: the Collection of Swiss Law Sources Online and the St. Galler Missiven were built on an early version of TEI Publisher 4. Both funded a major update of their code to version 7. A number of regressions and new bugs were encountered during the migration, and appropriate fixes were contributed back into the TEI Publisher code base.&lt;/p&gt;
 &lt;p&gt;The Karl Barth Gesamtausgabe likewise served as a test bed during TEI Publisher 7 development. Furthermore, the Karl Barth project financed the Microsoft Word to TEI transformation, which is now part of TEI Publisher.&lt;/p&gt;
 &lt;p&gt;The source code of TEI Publisher and its related repositories have been moved under the roof of e-editiones and are hosted within &lt;a href=&quot;https://github.com/eeditiones&quot;&gt;its GitHub organization&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;other-software-packages&quot; tabindex=&quot;-1&quot;&gt;Other Software Packages &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2021-1/#other-software-packages&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Other Software Packages&lt;/h2&gt;
 &lt;p&gt;Beyond TEI Publisher itself, e-editiones released a number of other software packages:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The Open API routing library at the heart of TEI Publisher 7, called &lt;a href=&quot;https://e-editiones.org/roaster-an-open-api-router-for-exist/&quot;&gt;Roaster&lt;/a&gt;, proved to be useful even outside the humanities and has already been adopted by a project in the medical realm.&lt;/li&gt;
 &lt;li&gt;Born out of the Karl Barth Gesamtausgabe, e-editiones published an &lt;a href=&quot;https://e-editiones.org/vscode/&quot;&gt;extension for the Visual Studio Code editor&lt;/a&gt; to help editors work on TEI. This includes an entity explorer to help with the markup of entities in a text by querying external authority databases from within the XML editor.&lt;/li&gt;
 &lt;li&gt;The &lt;a href=&quot;https://e-editiones.org/cross-search/&quot;&gt;Cross Search&lt;/a&gt; package provides a blueprint for a portal incorporating multiple editions, supporting cross-edition search facilities. This will become the basis for future hosting services.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;community-contributions&quot; tabindex=&quot;-1&quot;&gt;Community Contributions &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2021-1/#community-contributions&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Community Contributions&lt;/h2&gt;
 &lt;p&gt;Last but not least, we would like to point out the many contributions we received with respect to translations: TEI Publisher has now been translated to more than 20 languages!&lt;/p&gt;
 &lt;p&gt;We hope to see similar interest in other areas, e.g., the newly established &lt;a href=&quot;https://faq.teipublisher.com/&quot;&gt;FAQ website&lt;/a&gt;. We would like to encourage everyone to add entries and turn this into a knowledge base for all users. It already hosts questions and answers concerning encoding, workflows, or best practice recommendations.&lt;/p&gt;
-&lt;h2 id=&quot;the-future&quot; tabindex=&quot;-1&quot;&gt;The Future &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/newsletter-2021-1/#the-future&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;The Future&lt;/h2&gt;
 &lt;p&gt;Continuing our cooperative development model, the following new components and features are scheduled to appear in the forthcoming minor version of TEI Publisher:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A component for displaying mathematical formulae, sponsored by the Bernoulli project (Uni Basel).&lt;/li&gt;
@@ -451,10 +529,10 @@
 		<id>https://e-editiones.org/11ty-homepage/posts/roaster-an-open-api-router-for-exist/</id>
 		<content type="html">&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/wp-content/uploads/2021/01/icon.svg&quot; alt=&quot;&quot; title=&quot;roaster logo&quot; /&gt;&lt;/figure&gt;
 &lt;p&gt;We&#39;re happy to announce that the request routing library, which was originally developed for TEI Publisher 7, has been released as a &lt;a href=&quot;https://github.com/eeditiones/roaster&quot;&gt;separate package&lt;/a&gt; with extended functionality. The library, called &lt;strong&gt;roaster&lt;/strong&gt;, is generic and can be used for any eXist-based project. It implements the Open API 3.0 standard to support well-documented, versioned and formally specified APIs.&lt;/p&gt;
-&lt;h2 id=&quot;background&quot; tabindex=&quot;-1&quot;&gt;Background &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/roaster-an-open-api-router-for-exist/#background&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
 &lt;p&gt;In previous versions of TEI Publisher, clients (i.e. your web browser) would communicate with the server by directly calling a variety of XQuery scripts. The server-side API, if you can even call it one, was thus scattered over many different files. Finding your way through the code, figuring out what parameters are expected or how the response should look like was rather difficult. Overwriting the default behaviour - e.g. to replace the generated table of contents - required substantial coding skills. The scripts also changed between TEI Publisher versions. So, if you were working on a standalone edition generated from Publisher, updates could be tricky.&lt;/p&gt;
 &lt;p&gt;With TEI Publisher 7, the entire server-side API can be viewed on a single documentation page. It clearly describes the URL paths you can use, as well as any parameter you can pass in and the type it should conform to. One can also see the different possible responses and what kind of content they would return.&lt;/p&gt;
-&lt;h2 id=&quot;the-new-api&quot; tabindex=&quot;-1&quot;&gt;The new API &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/roaster-an-open-api-router-for-exist/#the-new-api&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;The new API&lt;/h2&gt;
 &lt;p&gt;Looking at the first route of the &lt;em&gt;documents&lt;/em&gt; section &lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/api.html&quot; title=&quot;in the API&quot;&gt;in the API&lt;/a&gt; (see screenshot below), it is easy to construct a URL which returns the source XML: the path template to use is &lt;code&gt;/api/document/{id}&lt;/code&gt; and &lt;code&gt;{id}&lt;/code&gt; should contain the path to a document - relative to the data root of TEI Publisher.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/documents-1024x359.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Documents API screenshot&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;So to retrieve the TEI/XML for &lt;em&gt;Graves&#39; letter&lt;/em&gt;, located in the file path &lt;code&gt;test/graves6.xml&lt;/code&gt;, we can use the following URL:&lt;/p&gt;
@@ -466,7 +544,7 @@
 &lt;p&gt;&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml/pdf&quot;&gt;https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml/pdf&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;For sure, as an ordinary user, you don&#39;t need to know any of this: using the web interface of TEI Publisher, the web components on the page take care of constructing and calling above URLs for you. But if you are a developer, having a well-defined API is a game changer. Just imagine that you want to support your co-workers with a script which allows them to preview a local TEI document as HTML on the fly: sending the content of the document with an HTTP POST request to &lt;code&gt;/api/preview&lt;/code&gt; is all you need! Our &lt;a href=&quot;https://e-editiones.org/vscode/&quot;&gt;Visual Studio Code plugin&lt;/a&gt; does it like this.&lt;/p&gt;
 &lt;p&gt;You can use any script or programming language you like, say bash, python, perl - you name it. And because Open API is a widely used standard, there are &lt;a href=&quot;https://openapi.tools/&quot;&gt;plenty of tools&lt;/a&gt; for documentation, testing or code generation. The API documentation page in TEI Publisher is generated by such a tool (&lt;a href=&quot;https://swagger.io/tools/swagger-ui/&quot;&gt;Swagger UI&lt;/a&gt;).&lt;/p&gt;
-&lt;h2 id=&quot;implementation&quot; tabindex=&quot;-1&quot;&gt;Implementation &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/roaster-an-open-api-router-for-exist/#implementation&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Implementation&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;roaster&lt;/strong&gt; is essentially an implementation of the Open API standard in pure XQuery. It reads the formal API specification (in JSON format) and determines for each HTTP request coming in, which route to take. It will also check if the parameters, headers or request bodies passed in comply to the rules given in the definition of the route. An error will be generated if the request is not in compliance with the definition, e.g. because a required parameter is missing or has a wrong type. It can also fill in default values for parameters, enforce correct content types for the response etc.&lt;/p&gt;
 &lt;p&gt;From a developer perspective, this means you don&#39;t have to worry about parameters. Your handler function will receive a single parameter, containing all the necessary information about the request and you can safely assume that it complies with the spec you provided.&lt;/p&gt;
 &lt;p&gt;If you are interested in the details, please refer to the &lt;a href=&quot;https://github.com/eeditiones/roaster&quot;&gt;README&lt;/a&gt;. For a TEI Publisher-related example, check out the &lt;a href=&quot;https://faq.teipublisher.com/templates/custom-toc/&quot;&gt;FAQ article&lt;/a&gt;, which describes how to replace the default table of contents with a custom one.&lt;/p&gt;
@@ -499,7 +577,7 @@
 &lt;p&gt;Trying to create the atmosphere of joyful expectation and bring some holiday cheer to the dark hours of corona winter, we&#39;ll only reveal one &amp;quot;present&amp;quot; at a time and adjust the calendar and this post as we go along.&lt;/p&gt;
 &lt;p&gt;In the first instance we are presenting projects coordinated by e-editiones and its members. We certainly hope to see others joining the fun - please use the #OSA20 hashtag on Twitter and let us know so we can update the list.&lt;/p&gt;
 &lt;hr /&gt;
-&lt;h2 id=&quot;list-of-osa20-presents-in-december&quot; tabindex=&quot;-1&quot;&gt;List of #OSA20 presents in December &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/osa20/#list-of-osa20-presents-in-december&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;List of #OSA20 presents in December&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Dec 11th: &lt;a href=&quot;https://e-editiones.org/vscode/&quot; title=&quot;Visual Studio Code plugin&quot;&gt;Visual Studio Code&lt;/a&gt; plugin&lt;/li&gt;
 &lt;li&gt;Dec 18th: &lt;a href=&quot;https://e-editiones.org/tei-publisher-7-final/&quot; title=&quot;TEI Publisher 7&quot;&gt;TEI Publisher 7&lt;/a&gt; release&lt;/li&gt;
@@ -530,30 +608,30 @@
 		<updated>2020-12-09T00:00:00Z</updated>
 		<id>https://e-editiones.org/11ty-homepage/posts/vscode/</id>
 		<content type="html">&lt;p&gt;Enhancing TEI documents with semantic markup, i.e. encode places, people or terms, can be a time consuming and tedious task. For the Karl Barth edition project, we have thus created a new extension for Visual Studio Code (vscode) and published it as Open Source.&lt;/p&gt;
-&lt;h2 id=&quot;where-it-all-started-a-word-plugin&quot; tabindex=&quot;-1&quot;&gt;Where it all started: a Word plugin &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/vscode/#where-it-all-started-a-word-plugin&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Where it all started: a Word plugin&lt;/h2&gt;
 &lt;p&gt;Within the Karl Barth edition, texts to be published in new volumes are encoded in Microsoft Word and transformed to TEI using TEI Publisher&#39;s powerful &lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/test/test.docx.xml&quot;&gt;docx2TEI conversion&lt;/a&gt; feature based on the TEI processing model.&lt;/p&gt;
 &lt;p&gt;To simplify semantic encoding, eXist Solutions created a &lt;strong&gt;Word plugin&lt;/strong&gt; for the project, which allows editors to easily encode entities occurring within the text: select a string representing an entity, click a button and the plugin will run a query against the database of the Karl Barth Gesamtausgabe, showing potential matches for each possible category.&lt;/p&gt;
 &lt;p&gt;With another click, the selected entity is inserted into the Word document, including a reference to the entity in the database. This proved to be a huge timesaver: what took minutes before - switching to a different window, doing a search and copying the ID - is now done in seconds. A screenshot of the Word plugin is shown below:&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/word.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;MS Word screenshot&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;The plugin also allows editors to get a preview of how the current text would look like in TEI and how it would be rendered to HTML by TEI Publisher&#39;s ODD-based transformations. The preview feature sends the underlying Word XML to a TEI Publisher instance, which transforms it first to TEI, and then - if requested - to HTML. Editors can thus see the text as it would later appear on the website.&lt;/p&gt;
-&lt;h2 id=&quot;porting-it-to-visual-studio-code&quot; tabindex=&quot;-1&quot;&gt;Porting it to Visual Studio Code &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/vscode/#porting-it-to-visual-studio-code&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Porting it to Visual Studio Code&lt;/h2&gt;
 &lt;p&gt;However, the Word-workflow only covers the new volumes: we still have 54 already published volumes in TEI, which need to be extended. Parts of this is done automatically (via entity detection), but there&#39;s still a lot of manual editing involved. Thus the question arised if the Word plugin could be ported to an XML editor.&lt;/p&gt;
 &lt;p&gt;For sure, oXygen would have been the obvious choice, but since the Word Plugin was already written in javascript/typescript, we decided to give Visual Studio Code a try. It turned out to be rather straightforward and the first usable version was done within one evening. Thrilled by the success, we invested two more days to make the plugin more generic, in particular, add connectors for other authority databases. Beyond the Karl Barth Gesamtausgabe, we now have connectors for the German GND, metagrid, Geonames and Google places.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/screen-entity.gif&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Enity lookup screencast&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;The TEI snippet to be inserted for each of the entity types can be configured in the settings. For example, you could replace &lt;code&gt;&amp;lt;persName&amp;gt;&lt;/code&gt; with &lt;code&gt;&amp;lt;name type=&amp;quot;person&amp;quot;&amp;gt;&lt;/code&gt; if you like.&lt;/p&gt;
-&lt;h2 id=&quot;previews&quot; tabindex=&quot;-1&quot;&gt;Previews &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/vscode/#previews&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Previews&lt;/h2&gt;
 &lt;p&gt;The HTML preview feature has been ported as well: pressing a keyboard shortcut or clicking the toolbar icon will present you with a list of ODDs available for transformations, and then open a new editor panel showing the transformation result in HTML. All you need is a TEI Publisher 7 instance which has a matching ODD installed. The plugin uses the general API introduced with TEI Publisher 7, which will also be exposed automatically by any application generated from it.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/screen-preview.gif&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;HTML preview screencast&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;h2 id=&quot;snippets&quot; tabindex=&quot;-1&quot;&gt;Snippets &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/vscode/#snippets&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Snippets&lt;/h2&gt;
 &lt;p&gt;Finally, it is rather straightforward to create reusable snippets in vscode. To start with, we implemented the one shortcut we use most in oXygen and miss everywhere else: wrap the current selection with an element (the Scholarly XML extension described below also has this, but it doesn&#39;t hurt to have it twice in case you&#39;re not using that).&lt;/p&gt;
 &lt;p&gt;And since we have to encode a lot of foreign texts, we also added one for &lt;code&gt;&amp;lt;foreign&amp;gt;&lt;/code&gt;. Doing more would be easy: maybe you have some suggestions? Just write them into our &lt;a href=&quot;https://github.com/eeditiones/tei-publisher-vscode/issues&quot; title=&quot;github issues&quot;&gt;github issues&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;combine-with-other-extensions&quot; tabindex=&quot;-1&quot;&gt;Combine with other extensions &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/vscode/#combine-with-other-extensions&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Combine with other extensions&lt;/h2&gt;
 &lt;p&gt;If you combine this with other extensions available on the vscode marketplace, you get rather decent XML editing support - not as sophisticated as with oXygen, but good enough for some serious work.&lt;/p&gt;
 &lt;p&gt;For schema-based validation and context sensitive suggestions one can choose between two extensions: &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=raffazizzi.sxml&quot;&gt;Scholary XML&lt;/a&gt; is lightweight and provides nice suggestions with documentation. It only understands relax-ng though and does not support catalogs, which means you need to reference the schema via a processing instruction in every TEI file. The second option, &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml&quot;&gt;XML Language Support by Red Hat&lt;/a&gt;, supports XML schema and catalogs, which you can use to associate the TEI namespace with a schema once and for all. On the downside, it uses more system resources as it starts a background Java process.&lt;/p&gt;
 &lt;p&gt;To set up a catalog, just create a file &lt;code&gt;catalog.xml&lt;/code&gt; somewhere with e.g. the following content and change the vscode configuration property &lt;code&gt;xml.catalogs&lt;/code&gt; to point to it:&lt;/p&gt;
 &lt;pre class=&quot;language-xml&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;catalog&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;xmlns&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;urn:oasis:names:tc:entity:xmlns:xml:catalog&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;uri&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;http://www.tei-c.org/ns/1.0&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token attr-name&quot;&gt;uri&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://tei-c.org/Vault/P5/current/xml/tei/custom/schema/xsd/tei_all.xsd&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;catalog&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Finally, if you use TEI Publisher as a basis for your own editions, you definitely want to install the &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=eXist-db.existdb-vscode&quot;&gt;Language Server and Client for XQuery/eXistdb&lt;/a&gt;. It supports working on XQuery files, syncing your local changes with the database, installing XAR files and more.&lt;/p&gt;
-&lt;h2 id=&quot;get-it&quot; tabindex=&quot;-1&quot;&gt;Get it &lt;a class=&quot;direct-link&quot; href=&quot;https://e-editiones.org/11ty-homepage/posts/vscode/#get-it&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Get it&lt;/h2&gt;
 &lt;p&gt;The extension is available from Microsoft&#39;s &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=e-editiones.tei-publisher-vscode&quot;&gt;Visual Studio Marketplace&lt;/a&gt;. To install it in your own Visual Studio Code, just open the &lt;em&gt;Extensions&lt;/em&gt; tab and search for &lt;code&gt;tei-publisher-vscode&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;All source code is available on the &lt;a href=&quot;https://github.com/eeditiones/tei-publisher-vscode&quot;&gt;e-editiones github&lt;/a&gt; and we would like to invite others to further extend it, e.g. by adding connectors to other authority APIs. Connectors are simple javascript/typescript classes with just two methods. See the &lt;a href=&quot;https://github.com/eeditiones/tei-publisher-vscode/tree/master/src/connectors&quot;&gt;existing connectors&lt;/a&gt; for inspiration.&lt;/p&gt;
 &lt;p&gt;If you have questions, suggestions or would like to discuss further extensions: you&#39;ll find us in the &lt;a href=&quot;https://e-editiones.org/get-in-touch/&quot; title=&quot;e-editiones slack&quot;&gt;e-editiones slack&lt;/a&gt; rooms.&lt;/p&gt;
