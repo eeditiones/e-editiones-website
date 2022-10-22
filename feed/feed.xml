@@ -166,7 +166,7 @@
 	</entry>
 	
 	<entry>
-		<title>Newsletter</title>
+		<title>Newsletter 22/1</title>
 		<link href="https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/"/>
 		<updated>2022-04-05T00:00:00Z</updated>
 		<id>https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/</id>
@@ -382,18 +382,18 @@
 &lt;li&gt;Interoperable metadata mapping specification&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;TEI is the perfect archival format for text-centric data: human readable and easy to process - as long as we have the capacity to read text files we can recover the information from a repository of TEI texts. TEI encoded documents with an associated ODD schema and documentation already form a solid basis for reconstruction even if the ODD would say nothing about the final form of the publication as intended by the editors.&lt;/p&gt;
-&lt;p&gt;[caption align=&amp;quot;aligncenter&amp;quot; width=&amp;quot;840&amp;quot;]&lt;img src=&quot;https://e-editiones.org/img/processingmodel.png&quot; alt=&quot;TEI source and rendition via the Processing Model&quot; /&gt;TEI source and rendition via the Processing Model[/caption]&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/processingmodel.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;TEI source and rendition via the Processing Model&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;The TEI Processing Model covers part of this territory, describing how a source document should be transformed for publication. Nevertheless, in the virtual realm, the document is always accompanied by a certain context on the page: controls to zoom in or out, facing facsimile image or switch between normalized and original spellings, just to name a few options. To explicitly define such a context and specify how a publication page would look and behave we can rely on HTML5 layout templates. A modern, web components based approach to website design gives us a beautifully simple and expressive method of assembling web pages from a virtual Lego block equivalent.&lt;/p&gt;
-&lt;p&gt;[caption align=&amp;quot;aligncenter&amp;quot; width=&amp;quot;840&amp;quot;]&lt;img src=&quot;https://e-editiones.org/img/components.png&quot; alt=&quot;HTML5 page layout using web components&quot; /&gt;HTML5 page layout using web components[/caption]&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/components.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;HTML5 page layout using web components&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;The last missing piece is to document how abstract concepts, e.g. author or date of creation are realized in the encoding so we can recover and use them for queries within the publication as well as for data interchange with other systems. Given the richness of TEI it’s impossible to prescribe what metadata needs to be gathered and how exactly it should be encoded in any given project. On the other hand, it is rather simple to express the mapping in XML, e.g. with an index configuration syntax.&lt;/p&gt;
-&lt;p&gt;[caption align=&amp;quot;aligncenter&amp;quot; width=&amp;quot;840&amp;quot;]&lt;img src=&quot;https://e-editiones.org/img/indexconfiguration.png&quot; alt=&quot;Sample index configuration with fields and facets&quot; /&gt;Sample index configuration with fields and facets for a TEI document[/caption]&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/indexconfiguration.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Sample index configuration with fields and facets&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;Such a set of specifications preserves all the information necessary to rebuild the edition from scratch, focusing on the intentions and decisions of the editor while filtering out the ephemeral or secondary presentation aspects. Good to put in the vault and send into space but equally useful when the time to migrate to a new infrastructure comes.&lt;/p&gt;
-&lt;p&gt;[caption align=&amp;quot;aligncenter&amp;quot; width=&amp;quot;840&amp;quot;]&lt;img src=&quot;https://e-editiones.org/img/dodis.png&quot; alt=&quot;original Dodis layout&quot; /&gt; Original Dodis document view[/caption]&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/dodis.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Original Dodis layout&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;How does it work in practice? You might want to have a closer look at one of the TEI Publisher&#39;s demo apps &lt;a href=&quot;https://github.com/eeditiones/dodis-wall&quot;&gt;&lt;em&gt;When the Wall came Down&lt;/em&gt;&lt;/a&gt; which we managed to recreate on the basis of TEI sources and accompanying ODD released by Dodis on the 30th anniversary of the Fall of the Berlin Wall. We managed to get a draft version in only 165 lines of custom code and during just one day of pre-conference workshop. Our task would be still simpler if we also had the web page template and index configuration available.&lt;/p&gt;
-&lt;p&gt;[caption align=&amp;quot;aligncenter&amp;quot; width=&amp;quot;840&amp;quot;]&lt;img src=&quot;https://e-editiones.org/img/wall.png&quot; alt=&quot;reconstructed layout&quot; /&gt; Recreated document view[/caption]&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/wall.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Recreated document view&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;Given that there&#39;s barely an extra effort involved in assembling the survival kit, preparing it is a clear win. After all, we already have the sources and the ODD! Enriching it with a processing model is not particularly difficult, especially if we use it to generate our transformations. Similarly, in most database systems we will need to prepare the index configurations. At this point we probably don&#39;t need to mention that TEI Publisher already implements this approach since quite a few versions (ODD with the processing model from inception, web components for user interface since version 4 and fields and facets since version 5).&lt;/p&gt;
 &lt;p&gt;Just think about it, if you pack your edition nicely, it becomes a present which archives and libraries would very much like to keep safe in their vaults and running on their servers forever...&lt;/p&gt;
-&lt;p&gt;Tile Photo by &lt;a href=&quot;https://unsplash.com/@mbaumi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Mika Baumeister&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/survival-kit?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@isthatbrock?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Brock Wegner&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/vault?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -408,6 +408,7 @@
 &lt;p&gt;TEI Publisher 7.1.0 is available as an application package on top of the eXist XML Database. Install it into a recent eXist (5.0.0 or newer) by going to the dashboard and selecting TEI Publisher from the package manager.&lt;/p&gt;
 &lt;p&gt;For more information refer to the &lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?odd=docbook.odd&quot;&gt;documentation&lt;/a&gt; or visit the &lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/&quot;&gt;homepage&lt;/a&gt; to play around with it.&lt;/p&gt;
 &lt;p&gt;It&#39;s not for the first time that our special thanks go to the &lt;a href=&quot;https://history.state.gov/&quot;&gt;Office of the Historian of the United States Department of State&lt;/a&gt; - this time for funding the major portion of the annotation editor. The Math support has been kindly funded by &lt;a href=&quot;https://bez.unibas.ch/de/&quot;&gt;Bernoulli-Euler Zentrum&lt;/a&gt; in Basel.&lt;/p&gt;
+&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/ja/@carolynchristine?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;carolyn christine&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/dreams?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -435,15 +436,17 @@
 &lt;p&gt;The upcoming version will also include index configuration and API endpoints for local and distributed portal search, so generated editions can automatically participate in a multi-edition portal like sources-online.&lt;/p&gt;
 &lt;p&gt;With these low-level technical questions solved, e-editiones is now also putting a strong focus on describing the practical recommendations for the encoding of texts. The idea is to create a set of best practice guidelines for corpora with a pledge that any text following these guidelines will look good out of the box when rendered via TEI Publisher and will be ready for incorporation into the search portal. Initial work is carried out now and we expect a community meetup soon to discuss on a broader forum.&lt;/p&gt;
 &lt;p&gt;This way we aim to: flatten the learning curve for many projects starting with TEI encoding, reduce the amount of customization work required for an edition, allowing users to publish materials with minimal effort, and assure that the project data is ready to be integrated into larger scale search portals. Needless to say, recommendations we have in mind are intended only with an eye towards interoperability and do not limit in any way customization capacities already embodied by the TEI Publisher approach.&lt;/p&gt;
+&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@neonbrand?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Kenny Eliason&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/hosting?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>Newsletter 2021/1</title>
+		<title>Newsletter 21/1</title>
 		<link href="https://e-editiones.org/11ty-homepage/posts/newsletter-2021-1/"/>
 		<updated>2021-02-02T00:00:00Z</updated>
 		<id>https://e-editiones.org/11ty-homepage/posts/newsletter-2021-1/</id>
-		<content type="html">&lt;p&gt;&lt;img src=&quot;https://e-editiones.org/img/wordcloud-eeditiones-2021.png&quot; alt=&quot;&quot; /&gt; We&#39;re happy to send our first newsletter covering the past year of activities and developments within e-editiones and would like to encourage institutions or individuals who are not yet members to &lt;a href=&quot;https://e-editiones.org/how-to-become-a-member/&quot;&gt;join forces&lt;/a&gt;.&lt;/p&gt;
+		<content type="html">&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/bank-phrom-Tzm3Oyu_6sk-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@bank_phrom?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Bank Phrom&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/news?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;We&#39;re happy to send our first newsletter covering the past year of activities and developments within e-editiones and would like to encourage institutions or individuals who are not yet members to &lt;a href=&quot;https://e-editiones.org/how-to-become-a-member/&quot;&gt;join forces&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;e-editiones as a Society&lt;/h2&gt;
 &lt;p&gt;The e-editiones society was founded on 4 May 2020 by more than 20 international partners. Our institutional members are academies, archives and libraries, edition projects and their sponsors, as well as companies. Among individual members we are proud to count archivists, librarians, editors, researchers from the (digital) humanities, and software developers. After our first attempt to obtain a non-profit association status from the St. Gallen tax office failed, e-editiones was recognized as a non-profit association with tax exemption, following an amendment to the statutes (5th November 2020). A huge thanks to the Karl Barth Foundation for generously sponsoring the necessary legal advice. Building on these foundations and developments and events listed below, our still young society is off to a great start. We hope to broaden the community and increase our membership in 2021.&lt;/p&gt;
 &lt;h3&gt;More Information&lt;/h3&gt;
@@ -487,6 +490,7 @@
 &lt;li&gt;&lt;a href=&quot;https://twitter.com/EEditiones&quot;&gt;e-editiones.org on Twitter&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Up-to-date list of &lt;a href=&quot;https://e-editiones.org/get-in-touch/&quot;&gt;e-editiones communication channels&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/wordcloud-eeditiones-2021.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
 &lt;h2&gt;TEI Publisher Developments: Versions 6 and 7&lt;/h2&gt;
 &lt;p&gt;In 2020 two major versions of TEI Publisher were released: versions 6 and 7. The plan for these versions was born during a meeting in Basel in November 2019, when several Swiss edition projects using TEI Publisher came together to discuss how the software could be developed into an even more sustainable platform. A number of them later became founding members of e-editiones. Their primary goal was to enable institutions to manage and maintain a larger number of editions, either on the same or several servers. To reduce maintenance costs, keeping editions up to date with newer TEI Publisher versions needed to be as simple as possible. Editions relying on different versions needed to be able to run alongside each other.&lt;/p&gt;
 &lt;p&gt;Two areas had to be addressed to achieve these goals:&lt;/p&gt;
@@ -559,6 +563,7 @@
 &lt;p&gt;From a developer perspective, this means you don&#39;t have to worry about parameters. Your handler function will receive a single parameter, containing all the necessary information about the request and you can safely assume that it complies with the spec you provided.&lt;/p&gt;
 &lt;p&gt;If you are interested in the details, please refer to the &lt;a href=&quot;https://github.com/eeditiones/roaster&quot;&gt;README&lt;/a&gt;. For a TEI Publisher-related example, check out the &lt;a href=&quot;https://faq.teipublisher.com/templates/custom-toc/&quot;&gt;FAQ article&lt;/a&gt;, which describes how to replace the default table of contents with a custom one.&lt;/p&gt;
 &lt;p&gt;Roaster 1.0.0 can be installed into your local eXist via the package manager in the dashboard. TEI Publisher 7 shipped with a slightly older version, 0.5.1., but you can run both versions side by side.&lt;/p&gt;
+&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@timmossholder?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Tim Mossholder&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/roaster?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -570,10 +575,11 @@
 		<content type="html">&lt;p&gt;With a growing number of editions realized with the TEI Publisher it is a logical next step to wish for a search service which can run queries across multiple corpora at the same time.&lt;/p&gt;
 &lt;p&gt;Usually the problem to solve would be the great diversity of encoding across projects, even if they all use TEI as a vocabulary of choice. Even commonly represented information, like the language of the source document, can be stored in various locations in a TEI document. Lucene-based fields and facets, introduced in eXist-db 5.0 provide a mechanism to smoothly abstract away these encoding differences - we can just define, say, a &lt;em&gt;language&lt;/em&gt; facet and it&#39;s the collection index configuration&#39;s role to take care of specifying where exactly to grab data from.&lt;/p&gt;
 &lt;p&gt;The next potential issue would be actually running the queries across corpora, particularly with the decentralized infrastructure where editions are hosted on diverse servers. The answer here is to define an API which individual editions need to expose, so that the aggregate search engine can just poll all its registered &#39;members&#39;, regardless of their location or how they implement the search internally.&lt;/p&gt;
-&lt;p&gt;[caption id=&amp;quot;attachment_574&amp;quot; align=&amp;quot;aligncenter&amp;quot; width=&amp;quot;840&amp;quot;]&lt;img src=&quot;https://e-editiones.org/img/cross-results-1024x914.png&quot; alt=&quot;cross-search results&quot; /&gt; Cross-search results page[/caption]&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/cross-results-1024x914.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Cross-search results page&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;The &lt;a href=&quot;https://teipublisher.com/exist/apps/cross-search/index.html&quot;&gt;&lt;em&gt;cross-search&lt;/em&gt;&lt;/a&gt; prototype is exactly such a search engine. With a simple configuration one can register all &#39;member&#39; editions. Only requirement for the editions themselves is that they expose the &lt;code&gt;api/search/document&lt;/code&gt; API endpoint, which is a matter of simple customization for all TEI Publisher 7 applications which support Open API specifications out of the box. The &lt;code&gt;api/search/document&lt;/code&gt; endpoint must accept a number of parameters defined in the specification. For this prototype the title, author and lang(uage) fields as well as genre, language and corpus facets were assumed.&lt;/p&gt;
 &lt;p&gt;We are very happy to report that our prototype works really well as a proof of concept with the eclectic collection of documents from TEI Publisher demo apps, all originating with vastly different projects with diverse encoding styles. Next, we intend to extend this idea into a general portal for archives and libraries and we would welcome collaboration from such institutions.&lt;/p&gt;
 &lt;p&gt;Our sincere thanks go to the &lt;a href=&quot;http://https//bbf.dipf.de/en&quot; title=&quot;Bibliothek für Bildungsgeschichtliche Forschung des DIPF / Research Library for the History of Education at DIPF&quot;&gt;Bibliothek für Bildungsgeschichtliche Forschung des DIPF / Research Library for the History of Education at DIPF&lt;/a&gt; for supporting this project.&lt;/p&gt;
+&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@alinnnaaaa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Alina Grubnyak&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/connection?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -605,6 +611,7 @@
 		<updated>2020-12-18T00:00:00Z</updated>
 		<id>https://e-editiones.org/11ty-homepage/posts/tei-publisher-7-final/</id>
 		<content type="html">&lt;p&gt;We&#39;re happy to announce the final release of TEI Publisher 7. This is the second release coordinated by e-editiones and another important step to improve interoperability, sustainability and long-term maintenance of editions created with TEI Publisher. While release 6 came with a major redesign of the client side parts of TEI Publisher, version 7 focusses on the server, featuring a clean and extensible API based on the Open API standard.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/marcel-eberle-_Z5ayVBcYjg-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@marcel_eberle?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Marcel Eberle&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/seven?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;The plan for TEI Publisher 7 (and 6 before) was born during a meeting in Basel in November last year, when some of the Swiss edition projects using TEI Publisher came together to discuss how the software could be developed into an even more sustainable platform. Many of them became founding members of e-editiones a few months later.&lt;/p&gt;
 &lt;p&gt;Fortunately the &lt;a href=&quot;https://www.nie-ine.ch/&quot; title=&quot;Swiss Nationale Infrastruktur für Editionen - Infrastructure nationale pour les éditions&quot;&gt;Swiss Nationale Infrastruktur für Editionen - Infrastructure nationale pour les éditions&lt;/a&gt; agreed to support the outlined ideas, funding a substantial part of the work. Other member projects contributed time and money, and served as testbeds for the new versions.&lt;/p&gt;
 &lt;p&gt;TEI Publisher 7 is thus more than just another technological milestone - it is the product of a cooperative development model in which users, researchers, institutions and developers work hand in hand towards a shared goal.&lt;/p&gt;
@@ -734,7 +741,7 @@ All Publisher&#39;s web components are now available as a LitElement library dis
 	</entry>
 	
 	<entry>
-		<title>Embeding TEI Publisher Components in Wordpress</title>
+		<title>TEI Publisher Components in Wordpress</title>
 		<link href="https://e-editiones.org/11ty-homepage/posts/embeding-tei-publisher-components/"/>
 		<updated>2019-09-07T00:00:00Z</updated>
 		<id>https://e-editiones.org/11ty-homepage/posts/embeding-tei-publisher-components/</id>
@@ -792,6 +799,7 @@ pb-navigation[direction=&amp;quot;forward&amp;quot;] {
 &lt;ol&gt;
 &lt;li&gt;Custom fields are hidden by default on most WordPress sites. To make them visible, select the Screen Options tab at the top of any WordPress editor page, and choose Custom Fields &lt;a href=&quot;https://e-editiones.org/11ty-homepage/posts/embeding-tei-publisher-components/#fnref1:1&quot;&gt;↩&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@t_ahmetler?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Tolga Ahmetler&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/pack?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>
