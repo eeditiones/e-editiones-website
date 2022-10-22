@@ -39,7 +39,7 @@ Difficulties arise when we need to deal with mixed textual and musical content: 
 
 Following this cue, Wolfgang has demonstrated his new [pb-mei](https://unpkg.com/@teipublisher/pb-components@1.0.0/dist/api.html#pb-mei.0) web component which uses Verovio under the hood to generate SVG representation of the score. For TEI documents applying \`\` element to include a pointer to a MEI encoding of a music notation it is very straightforward to adjust the ODD to transform this pointer to a pb-mei component, as demonstrated in the [pb-mei](https://unpkg.com/@teipublisher/pb-components@1.0.0/dist/api.html#pb-mei.1) demo.
 
-\[caption id="attachment\_416" align="aligncenter" width="840"\]![mei](/img/mei-demo-1024x523.png) Demo page of the pb-mei component\[/caption\]
+![Demo page of the pb-mei component](/img/mei-demo-1024x523.png)
 
 This proved to be a very pleasant surprise and a convincing argument that TEI Publisher could be adapted to fit the needs of MEI community. A short discussion followed ranging from detailed questions on MEI encoding, through workflows on creating MEI sources [cf. Verovio editor](https://editor.verovio.org) to information important for preparing an ODD and customization modules for supporting MEI in TEI Publisher. We agreed to work with Giuliano and Dennis on including MEI-in-TEI and pure MEI examples in the next minor version of the TEI Publisher to demonstrate fully its capability.
 
