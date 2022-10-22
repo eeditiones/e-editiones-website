@@ -1,5 +1,6 @@
 ---
-title: "Call for Proposals $$$ Big Prizes $$$"
+title: "Call for Proposals"
+lead: "Coomunity challenge"
 date: "2021-10-27"
 categories: 
   - "general"
@@ -7,10 +8,13 @@ categories:
 tags: 
   - "awards"
   - "news"
+coverImage: "brett-jordan-MHS7g_q-6mE-unsplash.jpg"
 ---
 
 We are thrilled and deeply honoured that e-editiones has been awarded the [2021 TEI Community Prize](https://tei-c.org/activities/rahtz-prize-for-tei-ingenuity/). We would like to reinvest the funds into a community challenge, with its own big prizes!
 
+![Photo by <a href="https://unsplash.com/ja/@brett_jordan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Brett Jordan</a> on <a href="https://unsplash.com/s/photos/apply?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>](/img/brett-jordan-MHS7g_q-6mE-unsplash.jpg)
+  
 Many users explore the possibilities of TEI by looking at TEI Publisher's [Featured Demos collection](https://teipublisher.com). Very often they use the provided encoding examples and re-use code snippets to build their own custom edition. We are aware how important it is for the community to have an extensive set of high quality examples covering the various domains, languages, and research approaches. While highly praised, the examples available in TEI Publisher so far cover only a limited range of applications and represent only a small selection of what can be done. To extend this collection we desperately need you—the experts in the field!
 
 E-editiones encourages everyone to propose examples which could serve as a model or blueprint for other users working on digital editions. If you have something in mind, please send a short proposal to the e-editiones board, briefly describing the source material you'd like to make available, major points of interest regarding the TEI encoding (or an encoded sample), as well as the features, techniques, or area of research you would like to demonstrate with it. If the board agrees on incorporating your example, you will receive **500 Swiss Francs** as compensation for your preparation effort, and we'll help you with technical questions you may have along the way.

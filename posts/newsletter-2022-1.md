@@ -13,7 +13,7 @@ A highlight of the past year was e-editiones being awarded the [2021 TEI Communi
 
 > «The awards panel was especially impressed by the way e-editiones has managed to gather a non-profit community of those creating scholarly digital editions and made the process of doing so easier through the coordination of ongoing development of the TEI Publisher software. The awards panel also noted the provision of training opportunities and open availability of the workshop materials for those wishing to (re)learn the software in their own time.»
 
-![Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/s/photos/newsletter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>](/img/jon-tyson-XmMsdtiGSfo-unsplash.jpg)
+![Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Jon Tyson</a> on <a href="https://unsplash.com/s/photos/newsletter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>](/img/jon-tyson-XmMsdtiGSfo-unsplash.jpg)
 
 2021 has fortunately seen an increase in membership. Today there are 12 institutional and 30 individual members. However, it remains our goal to attract new members who will continuously support the association.
 

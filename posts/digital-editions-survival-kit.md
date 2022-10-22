@@ -4,12 +4,14 @@ date: "2021-10-26"
 categories: 
   - "sustainability"
   - "tei-publisher"
-coverImage: "survivalkit.png"
+coverImage: "mika-baumeister-WHPiIbMMgWY-unsplash.jpg"
 ---
 
 ## Reconstructing an edition
 
 Computer systems are not meant to last, to the contrary - not only do they require regular maintenance but we need to take into account the unavoidable cycle of major refurbishments. This paper, just presented at the virtual TEI conference, aims to demonstrate how critically important aspects of an edition can be reconstructed from a rather minimal data set and how such a _survival kit_ can be useful not only for disaster recovery but also as a sustainable approach for the maintenance of scholarly publications.
+
+![Poster for 2021 TEI Conference by Magdalena Turska](/img/survivalkit.png)
 
 The following schemata are the key components of the _survival kit_:
 
@@ -41,3 +43,5 @@ How does it work in practice? You might want to have a closer look at one of the
 Given that there's barely an extra effort involved in assembling the survival kit, preparing it is a clear win. After all, we already have the sources and the ODD! Enriching it with a processing model is not particularly difficult, especially if we use it to generate our transformations. Similarly, in most database systems we will need to prepare the index configurations. At this point we probably don't need to mention that TEI Publisher already implements this approach since quite a few versions (ODD with the processing model from inception, web components for user interface since version 4 and fields and facets since version 5).
 
 Just think about it, if you pack your edition nicely, it becomes a present which archives and libraries would very much like to keep safe in their vaults and running on their servers forever...
+
+Tile Photo by <a href="https://unsplash.com/@mbaumi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Mika Baumeister</a> on <a href="https://unsplash.com/s/photos/survival-kit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
