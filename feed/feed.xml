@@ -97,6 +97,7 @@
 		<updated>2022-06-10T00:00:00Z</updated>
 		<id>https://e-editiones.org/11ty-homepage/posts/names-sell-named-entity-recognition-in-tei-publisher/</id>
 		<content type="html">&lt;p&gt;TEI Publisher 8 will include experimental support for detecting and tagging named entities in texts. The idea is to further simplify the work of editors when annotating documents via TEI Publisher’s web-based annotation editor by automatically identifying potential candidates for people, places etc.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/denny-muller-jLjfAWwHdB8-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@redaquamedia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Denny Müller&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/inventory?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;If you have the development branch (or future TEI Publisher 8) installed and the named entity recognition (NER) service running (more on this below), an additional button will be shown in the top left toolbar. Clicking on it gives you a choice of NER models to use. By default those are the standard models provided by the NER engine we&#39;re using. Below we see NER in action, detecting entities in a modern-language text copied from wikipedia.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/wikipedia.gif&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;NER in action&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;Entities identified by NER get a marker in striped color, which allows users to distinguish them from annotations, which were manually tagged. The user can now review the identified entities, assign them an authority entry etc. As each annotation is reviewed, the stripes will be removed.&lt;/p&gt;
@@ -165,16 +166,16 @@
 	</entry>
 	
 	<entry>
-		<title>Newsletter 2022/1</title>
+		<title>Newsletter</title>
 		<link href="https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/"/>
 		<updated>2022-04-05T00:00:00Z</updated>
 		<id>https://e-editiones.org/11ty-homepage/posts/newsletter-2022-1/</id>
 		<content type="html">&lt;h2&gt;e-editiones as a Society&lt;/h2&gt;
-&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/wordcloud-eeditiones-2021.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
 &lt;p&gt;A highlight of the past year was e-editiones being awarded the &lt;a href=&quot;https://tei-c.org/activities/rahtz-prize-for-tei-ingenuity/&quot;&gt;2021 TEI Community Prize&lt;/a&gt;. The jury offered us these kind words:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;«The awards panel was especially impressed by the way e-editiones has managed to gather a non-profit community of those creating scholarly digital editions and made the process of doing so easier through the coordination of ongoing development of the TEI Publisher software. The awards panel also noted the provision of training opportunities and open availability of the workshop materials for those wishing to (re)learn the software in their own time.»&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/jon-tyson-XmMsdtiGSfo-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@jontyson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Jon Tyson&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/newsletter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;2021 has fortunately seen an increase in membership. Today there are 12 institutional and 30 individual members. However, it remains our goal to attract new members who will continuously support the association.&lt;/p&gt;
 &lt;p&gt;One of e-editiones&#39; strategic goals is to ensure the long-term availability of digital editions. To this end e-editiones supports hosting offers that also include the continuous maintenance of digital editions (software updates). This year Archives Online has set up such an offer with «Sources Online». Some of the editions associated with e-editiones already use the Sources Online servers.&lt;/p&gt;
 &lt;p&gt;In February 2021, e-editiones received a grant by the Ernst Göhner Stiftung. The joint proposal was backed by a number of members and their institutions. Together with the additional generous contributions made by participating projects, this grant supported a larger part of the development work past year.&lt;/p&gt;
@@ -213,6 +214,7 @@
 &lt;h1&gt;Communication&lt;/h1&gt;
 &lt;p&gt;On Slack, we had 218 active members at the end of 2021; on average, there were 16 active members daily, with 3 to 4 members posting a total of about 8 messages daily. On Twitter, we post 4 to 5 tweets per month. 2021 brought us 172 new followers.&lt;/p&gt;
 &lt;p&gt;Our mailing list, on the other hand, is not very actively used. We are happy to receive suggestions and ideas on how to proceed with it.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/wordcloud-eeditiones-2021.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
 &lt;h1&gt;TEI Publisher Developments&lt;/h1&gt;
 &lt;p&gt;In February 2021 e-editiones successfully applied for a grant by the Ernst Göhner Stiftung, from which we received 30000 SFR for further TEI Publisher development. The joint proposal was backed by a number of members and their institutions and included features like:&lt;/p&gt;
 &lt;ul&gt;
@@ -316,7 +318,7 @@
 	</entry>
 	
 	<entry>
-		<title>e-editiones receives 2021 TEI Community Prize</title>
+		<title>e-editiones receives TEI Community Prize</title>
 		<link href="https://e-editiones.org/11ty-homepage/posts/tei-community-prize/"/>
 		<updated>2021-10-27T00:00:00Z</updated>
 		<id>https://e-editiones.org/11ty-homepage/posts/tei-community-prize/</id>
@@ -324,18 +326,21 @@
 &lt;blockquote&gt;
 &lt;p&gt;The awards panel was especially impressed by the way e-editiones has managed to gather a non-profit community of those creating scholarly digital editions and made the process of doing so easier through the coordination of ongoing development of the TEI Publisher software. The awards panel also noted the provision of training opportunities and open availability of the workshop materials for those wishing to (re)learn the software in their own time.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/ray-hennessy-gdTxVSAE5sk-unsplash-1024x681.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Colorful fireworks over a lake&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/ray-hennessy-gdTxVSAE5sk-unsplash-1024x681.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Colorful fireworks over a lake. Photo by &lt;a href=&quot;https://unsplash.com/@rayhennessy?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Ray Hennessy&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/fireworks?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;
+&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;We are delighted that our efforts to build a thriving, diverse, and supportive open source software community together resonate so strongly with the broader community of TEI practitioners. The roots of e-editiones run deep in the TEI—starting with our initial implementation of the TEI Processing Model and continuing with the development and expansion of TEI Publisher. Throughout, we have been relentlessly driven by the simple goal to empower editors—whose digital training may focus on TEI encoding—to create high quality, sustainable, and interoperable publications. TEI Publisher is the synergistic product of strengths of our contributors: deep expertise in textual scholarship and TEI combined with technical excellence and sensitivity to the needs of humanities scholars. We are striving to carry on the legacy of Sebastian Rahtz’s passion, sharing his community-oriented, open-source-first approach, and a wish to work on challenging projects that advance the state of the field for the entire TEI Community.&lt;/p&gt;
 &lt;p&gt;In the community spirit, we will use the prize as a seed fund to expand our set of high quality examples to domains and use cases not yet covered in the TEI Publisher&#39;s demo collection. A call for contributions will be announced shortly.&lt;/p&gt;
+&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@erwanhesry?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Erwan Hesry&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/fireworks?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>Call for Proposals $$$ Big Prizes $$$</title>
+		<title>Call for Proposals</title>
 		<link href="https://e-editiones.org/11ty-homepage/posts/call-for-proposals-big-prizes/"/>
 		<updated>2021-10-27T00:00:00Z</updated>
 		<id>https://e-editiones.org/11ty-homepage/posts/call-for-proposals-big-prizes/</id>
 		<content type="html">&lt;p&gt;We are thrilled and deeply honoured that e-editiones has been awarded the &lt;a href=&quot;https://tei-c.org/activities/rahtz-prize-for-tei-ingenuity/&quot;&gt;2021 TEI Community Prize&lt;/a&gt;. We would like to reinvest the funds into a community challenge, with its own big prizes!&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/brett-jordan-MHS7g_q-6mE-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/ja/@brett_jordan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Brett Jordan&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/apply?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;Many users explore the possibilities of TEI by looking at TEI Publisher&#39;s &lt;a href=&quot;https://teipublisher.com/&quot;&gt;Featured Demos collection&lt;/a&gt;. Very often they use the provided encoding examples and re-use code snippets to build their own custom edition. We are aware how important it is for the community to have an extensive set of high quality examples covering the various domains, languages, and research approaches. While highly praised, the examples available in TEI Publisher so far cover only a limited range of applications and represent only a small selection of what can be done. To extend this collection we desperately need you—the experts in the field!&lt;/p&gt;
 &lt;p&gt;E-editiones encourages everyone to propose examples which could serve as a model or blueprint for other users working on digital editions. If you have something in mind, please send a short proposal to the e-editiones board, briefly describing the source material you&#39;d like to make available, major points of interest regarding the TEI encoding (or an encoded sample), as well as the features, techniques, or area of research you would like to demonstrate with it. If the board agrees on incorporating your example, you will receive &lt;strong&gt;500 Swiss Francs&lt;/strong&gt; as compensation for your preparation effort, and we&#39;ll help you with technical questions you may have along the way.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/large_000000.jpg&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
@@ -366,6 +371,7 @@
 		<id>https://e-editiones.org/11ty-homepage/posts/digital-editions-survival-kit/</id>
 		<content type="html">&lt;h2&gt;Reconstructing an edition&lt;/h2&gt;
 &lt;p&gt;Computer systems are not meant to last, to the contrary - not only do they require regular maintenance but we need to take into account the unavoidable cycle of major refurbishments. This paper, just presented at the virtual TEI conference, aims to demonstrate how critically important aspects of an edition can be reconstructed from a rather minimal data set and how such a &lt;em&gt;survival kit&lt;/em&gt; can be useful not only for disaster recovery but also as a sustainable approach for the maintenance of scholarly publications.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/survivalkit.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Poster for 2021 TEI Conference by Magdalena Turska&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;The following schemata are the key components of the &lt;em&gt;survival kit&lt;/em&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Source documents&lt;/li&gt;
@@ -385,6 +391,7 @@
 &lt;p&gt;[caption align=&amp;quot;aligncenter&amp;quot; width=&amp;quot;840&amp;quot;]&lt;img src=&quot;https://e-editiones.org/img/wall.png&quot; alt=&quot;reconstructed layout&quot; /&gt; Recreated document view[/caption]&lt;/p&gt;
 &lt;p&gt;Given that there&#39;s barely an extra effort involved in assembling the survival kit, preparing it is a clear win. After all, we already have the sources and the ODD! Enriching it with a processing model is not particularly difficult, especially if we use it to generate our transformations. Similarly, in most database systems we will need to prepare the index configurations. At this point we probably don&#39;t need to mention that TEI Publisher already implements this approach since quite a few versions (ODD with the processing model from inception, web components for user interface since version 4 and fields and facets since version 5).&lt;/p&gt;
 &lt;p&gt;Just think about it, if you pack your edition nicely, it becomes a present which archives and libraries would very much like to keep safe in their vaults and running on their servers forever...&lt;/p&gt;
+&lt;p&gt;Tile Photo by &lt;a href=&quot;https://unsplash.com/@mbaumi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Mika Baumeister&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/survival-kit?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
