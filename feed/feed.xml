@@ -23,7 +23,7 @@
 &lt;h5&gt;2022-07-18 Register of Older Slovenian Manuscripts&lt;/h5&gt;
 &lt;p&gt;Matija Ogrin (Institute of Slovenian Literature and Literary Studies ZRC SAZU Ljubljana) and Magdalena Tuska (JinnTec GmbH)&lt;/p&gt;
 &lt;h5&gt;2022-07-05 &lt;a href=&quot;https://teipublisher.info/exist/apps/TraveLab/index.html&quot;&gt;TraveLab&lt;/a&gt;: a multilingual mapped edition of Benjamin of Tudela&#39;s travelog.&lt;/h5&gt;
-&lt;p&gt;Dr. Sinai Rusinaek, Elijah Lab (Haifa University) and OMILab (Open University), and Gil Shalit, independent developer, &lt;a href=&quot;http://dh-dev.com/&quot;&gt;DH-Dev.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dr. Sinai Rusinek, Elijah Lab (Haifa University) and OMILab (Open University), and Gil Shalit, independent developer, &lt;a href=&quot;http://dh-dev.com/&quot;&gt;DH-Dev.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;We will show different stages in the preparation of a multi-lingual travelog edition, from modelling, digitization, geo-referencing and alignment, through to the adaptation of TEI-Publisher to provide a meaningful interaction with the texts. We will look specifically at aligning three versions with each other and at extending the pb-leaflet-map’s functionality with Javascript hooks.&lt;/p&gt;
 &lt;p&gt;We will also briefly demonstrate &lt;a href=&quot;https://xmlplanter.dh-dev.com/&quot;&gt;XMLPlanter&lt;/a&gt;, an open online tool we have developed to assist in preparing parallel editions.&lt;/p&gt;
 &lt;h5&gt;2022-06-07 Names sell: Named entity recognition in TEI Publisher&lt;/h5&gt;
@@ -488,7 +488,7 @@
 &lt;li&gt;Workflows for TEI Editing and App Development (Wolfgang Meier)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;A recording is available on the e-editiones &lt;a href=&quot;https://www.youtube.com/watch?v=dyY539HzN6Q&quot;&gt;youtube channel&lt;/a&gt;.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/kiwihug-5bzMOpMTDRM-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/ja/@kiwihug?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Kiwihug&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/manuscript?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/headway-5QgIuuBxKwM-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@headwayio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Headway&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/workshop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;The workshop is &lt;strong&gt;free&lt;/strong&gt;. A registration is not required. Just join the &lt;a href=&quot;https://meet.existsolutions.com/workshop&quot;&gt;meeting room&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
@@ -792,7 +792,7 @@
 		<link href="https://e-editiones.org/posts/common-exist-db-tei-publisher-deployment-scenarios/"/>
 		<updated>2020-08-29T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/common-exist-db-tei-publisher-deployment-scenarios/</id>
-		<content type="html">&lt;p&gt;This E-editiones online evennt covers different scenarios of running eXist-db applications by the example of TEI Publisher. Olaf Schreck and Lars Windauer from eXist Solutions will present the different possibilities and requirements for:&lt;/p&gt;
+		<content type="html">&lt;p&gt;This E-editiones online event covers different scenarios of running eXist-db applications by the example of TEI Publisher. Olaf Schreck and Lars Windauer from eXist Solutions will present the different possibilities and requirements for:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Editors presenting their TEI documents&lt;/li&gt;
 &lt;li&gt;Developers implementing new features&lt;/li&gt;
@@ -801,10 +801,11 @@
 &lt;p&gt;The first part of the event is intended also for the non-technical audience and will provide an overview of the different usage scenarios of TEI Publisher while the second part focuses on setting up and maintaining TEI Publisher for production environments with a focus on the IT automation software &lt;a href=&quot;https://www.ansible.com/&quot;&gt;Ansible&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The event took place on Tuesday the 8th of September from 16:00 till 17:00 CEST on Jitsi.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Slides: &lt;a href=&quot;https://e-editiones.org/wp-content/uploads/2020/08/Common-eXist-db-TEI-Publisher-Deployment-Scenarios.pdf&quot; title=&quot;Common-eXist-db-TEI-Publisher-Deployment-Scenarios&quot;&gt;Common-eXist-db-TEI-Publisher-Deployment-Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Slides: &lt;a href=&quot;https://e-editiones.org/wp-content/uploads/2020/08/Common-eXist-db-TEI-Publisher-Deployment-Scenarios.pdf&quot;&gt;Common-eXist-db-TEI-Publisher-Deployment-Scenarios&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://youtu.be/sA7H2f6zKmI&quot;&gt;Workshop Recording&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Thanks to &lt;a href=&quot;https://www.nie-ine.ch/&quot;&gt;NIE-INE&lt;/a&gt; for sponsoring this event.&lt;/p&gt;
+&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@neonbrand?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Kenny Eliason&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/hosting?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -873,6 +874,7 @@
 &lt;p&gt;Community members Giuliano Di Bacco and Dennis Ried will give us a lightning introduction to the Music Encoding Initiative (MEI) and its practical use. We&#39;ll then have an open conversation about possible integrations of MEI into TEI Publisher. There will be also be room for further discussion in the &amp;quot;any other business&amp;quot; section afterwards. So if you have other topics or questions beyond music encoding, do not hesitate to bring them up.&lt;/p&gt;
 &lt;p&gt;Join us on jitsi: &lt;a href=&quot;https://meet.jit.si/e-editiones-events&quot;&gt;https://meet.jit.si/e-editiones-events&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This event will be the first in a series of community meetups we would like to establish on a monthly basis. Looking forward to see you all next week.&lt;/p&gt;
+&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@marius?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Marius Masalar&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/music?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -884,6 +886,7 @@
 		<content type="html">&lt;p&gt;«Stay Home Learn TEI Publisher From Scratch» Online Course A 3-part online course: 8th, 15th and 22nd of June 4-5 pm (CEST)&lt;/p&gt;
 &lt;p&gt;Find all informations on github:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/eeditiones/workshop&quot;&gt;https://github.com/eeditiones/workshop&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/headway-5QgIuuBxKwM-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@headwayio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Headway&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/workshop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 </content>
 	</entry>
 	
