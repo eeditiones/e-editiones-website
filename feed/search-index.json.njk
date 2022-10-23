@@ -1,0 +1,6 @@
+---
+permalink: "/feed/search-index.json"
+eleventyExcludeFromCollections: true
+---
+
+{{ collections.markdown | search | dump | safe }}

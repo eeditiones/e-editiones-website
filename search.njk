@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+permalink: /search/
+templateClass: 'search'
+---
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/gh/nextapps-de/flexsearch@0.7.2/dist/flexsearch.bundle.js"></script>
+<script src="/scripts/search.js"></script>
+{% endblock %}
+
+<header>
+    {% include "partials/menu.njk" %}
+</header>
+
+<main class="{{ templateClass }}">
+    <section class="container">
+        <h1>Search</h1>
+
+        <form id="search-form">
+            <div class="input-group">
+                <select class="form-select" id="field-select" style="max-width: 256px" name="field">
+                    <option value="all" selected>All</option>
+                    <option value="title">Title</option>
+                    <option value="content">Content</option>
+                </select>
+                <input type="text" id="search-input" class="form-control" placeholder="Query" aria-label="Query"
+                    aria-describedby="search-addon">
+                <button id="search-button" class="btn btn-primary" type="submit">Search</button>
+            </div>
+        </form>
+        <div id="results"></div>
+    </section>
+</main>

@@ -65,8 +65,32 @@ module.exports = function(eleventyConfig) {
       const items = collection.getFilteredByTag(tag);
       tagMap.set(tag, items.length);
     });
-    console.log(tagMap);
     return tagMap;
+  });
+
+  eleventyConfig.addCollection('markdown', collection => {
+    return [...collection.getFilteredByGlob('./**/*.md')];
+  });
+
+  function normalizeContent(content) {
+    return content
+      .replace(/!\[[^\]*\]\([^\)]*\)/g, '')
+      .replace(/\[([^\]]*)\]\([^\)]*\)/g, '$1')
+      .replace(/^`{2,}.*^`{2,}/gsm, '')
+      .replace(/#+/g, '')
+      .replace(/\n/g, ' ');
+  }
+
+  eleventyConfig.addFilter('search', function(collection) {
+    const index = [];
+    collection.forEach(page => {
+      index.push({
+        id: page.url,
+        title: page.template.frontMatter.data.title.replace(/\n/g, ' '),
+        content: normalizeContent(page.template.frontMatter.content)
+      });
+    });
+    return index;
   });
 
   // Customize Markdown library and settings:
