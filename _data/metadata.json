@@ -12,5 +12,8 @@
   "jsonfeed": {
     "path": "/feed/feed.json",
     "url": "https://e-editiones.org/feed/feed.json"
+  },
+  "twitter": {
+    "limit": 2
   }
 }
