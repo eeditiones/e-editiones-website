@@ -31,10 +31,12 @@ templateClass: home
                 <h3>Projects Map <small class="text-muted"><a href="/map/">Expand</a></small></h3>
                 <div id="map" data-zoom="5"></div>
 
+                {% if metadata.twitter.enabled %}
                 <div class="twitter d-none d-lg-block">
                     <a class="twitter-timeline" href="https://twitter.com/EEditiones" data-tweet-limit="{{metadata.twitter.limit}}" data-chrome="noborders">Tweets by EEditiones</a> 
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
+                {% endif %}
             </aside>
         </div>
     </div>
