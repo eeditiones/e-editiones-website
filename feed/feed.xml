@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>e-editiones</title>
-	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+	<subtitle>e-editiones – Society for Scholarly Digital Editions</subtitle>
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
 	<updated>2022-10-22T00:00:00Z</updated>
-	<id>https://example.com/</id>
+	<id>https://e-editiones.org/</id>
 	<author>
-		<name>Your Name Here</name>
-		<email>youremailaddress@example.com</email>
+		<name></name>
+		<email></email>
 	</author>
 	
 	<entry>

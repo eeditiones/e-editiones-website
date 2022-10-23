@@ -3,11 +3,11 @@
   "title": "e-editiones",
   "language": "en",
   "home_page_url": "https://e-editiones.org/",
-  "feed_url": "https://example.com/feed/feed.json",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "feed_url": "https://e-editiones.org/feed/feed.json",
+  "description": "e-editiones – Society for Scholarly Digital Editions",
   "author": {
-    "name": "Your Name Here",
-    "url": "https://example.com/about-me/"
+    "name": "",
+    "url": ""
   },
   "items": [{
       "id": "https://e-editiones.org/posts/past-meetings/",
