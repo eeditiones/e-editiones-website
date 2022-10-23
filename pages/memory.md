@@ -3,8 +3,7 @@ title: "Libraries, Archives, Cultural Heritage and Memory Institutions"
 date: "2022-10-23"
 eleventyNavigation:
     parent: Community
-    key: For GLAM sector
-    
+    key: For memory institutions
 ---
 
 Do you work in an archive or library and got a truckload of data dumps from terminated projects? Are you responsible for a digital humanities initiative and funding is about to dry out? Worried about future maintenance and long-term prospects? Asking yourself **"What now?!"**. This community has the answers you need.
