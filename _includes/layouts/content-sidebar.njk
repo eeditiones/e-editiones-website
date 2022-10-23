@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+---
+
+<header>
+    {% include "partials/menu.njk" %}
+</header>
+
+<main class="container {{ templateClass }}">
+    {% block top %}{% endblock %}
+    <div class="row gx-5">
+        <div class="col">
+            <h1>{{ title }}</h1>
+            {{ content | safe }}
+        </div>
+        <aside class="col-4">
+            {% include "partials/sidebar.njk" %}
+        </aside>
+    </div>
+</main>
+
+<footer></footer>
