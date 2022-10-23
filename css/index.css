@@ -296,6 +296,10 @@ main.tmpl-post {
   font-family: var(--font-family-headings);
 }
 
+.twitter {
+  margin-top: 3rem;
+}
+
 /* Search form in sidebar */
 aside .search-form {
   margin-top: 3rem;
