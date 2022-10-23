@@ -1,5 +1,6 @@
 ---
 title: "New Visual Studio Code extension for TEI Publisher"
+author: "Wolfgang Meier"
 date: "2020-12-09"
 categories: 
   - "tei-publisher"
@@ -45,7 +46,7 @@ The HTML preview feature has been ported as well: pressing a keyboard shortcut o
 
 Finally, it is rather straightforward to create reusable snippets in vscode. To start with, we implemented the one shortcut we use most in oXygen and miss everywhere else: wrap the current selection with an element (the Scholarly XML extension described below also has this, but it doesn't hurt to have it twice in case you're not using that).
 
-And since we have to encode a lot of foreign texts, we also added one for `<foreign>`. Doing more would be easy: maybe you have some suggestions? Just write them into our [github issues](https://github.com/eeditiones/tei-publisher-vscode/issues "github issues").
+And since we have to encode a lot of foreign texts, we also added one for `<foreign>`. Doing more would be easy: maybe you have some suggestions? Just write them into our [github issues](https://github.com/eeditiones/tei-publisher-vscode/issues).
 
 ## Combine with other extensions
 
@@ -71,4 +72,4 @@ The extension is available from Microsoft's [Visual Studio Marketplace](https://
 
 All source code is available on the [e-editiones github](https://github.com/eeditiones/tei-publisher-vscode) and we would like to invite others to further extend it, e.g. by adding connectors to other authority APIs. Connectors are simple javascript/typescript classes with just two methods. See the [existing connectors](https://github.com/eeditiones/tei-publisher-vscode/tree/master/src/connectors) for inspiration.
 
-If you have questions, suggestions or would like to discuss further extensions: you'll find us in the [e-editiones slack](https://e-editiones.org/get-in-touch/ "e-editiones slack") rooms.
+If you have questions, suggestions or would like to discuss further extensions: you'll find us in the [e-editiones slack](https://e-editiones.org/get-in-touch/) rooms.

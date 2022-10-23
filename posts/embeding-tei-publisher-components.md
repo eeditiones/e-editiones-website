@@ -1,6 +1,7 @@
 ---
 title: "TEI Publisher Components in Wordpress"
 lead: "How to embed TEI content into a Wordpress website"
+author: "Andreas Kränzle"
 date: "2019-09-07"
 categories: 
   - "tei-publisher"

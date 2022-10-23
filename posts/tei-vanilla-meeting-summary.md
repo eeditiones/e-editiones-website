@@ -1,6 +1,7 @@
 ---
 title: "TEI \"Vanilla\" meeting summary"
 date: "2020-10-30"
+author: "Magdalena Turska"
 categories: 
   - "general"
 tags: 
@@ -11,7 +12,7 @@ tags:
 coverImage: "angle-bracket-scene.png"
 ---
 
-Following the spontaneous exchange on [e-editiones Slack](https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg "e-editiones Slack") channel, we have held an online community meeting to discuss the emerging TEI Vanilla proposal on October 20th. It was a pleasure to see such a broad interest and diverse representation of participants, spanning the entire range from TEI newcomers to current and former TEI Council and Board members.
+Following the spontaneous exchange on [e-editiones Slack](https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg) channel, we have held an online community meeting to discuss the emerging TEI Vanilla proposal on October 20th. It was a pleasure to see such a broad interest and diverse representation of participants, spanning the entire range from TEI newcomers to current and former TEI Council and Board members.
 
 Main motivation for what Martin Mueller and I initially codenamed TEI Vanilla were recurring voices expressing frustration of starting a TEI project. Without previous experience with this extensive and robust vocabulary the learning curve may be quite steep and the whole process overwhelming. During the meeting we had a chance to hear many opinions on history, theory, practice and local circumstances of conducting a TEI project. These voices cannot be easily reconciled but form an excellent base for further discussion.
 
@@ -31,7 +32,7 @@ It is obvious that gathering and preparing resources helpful for broad spectre o
 - TEI-encoded samples for various domains
 - accompanying ODD schema and processing model customizations
 
-You can discuss and [submit proposals](https://github.com/eeditiones/tei-vanilla/issues "submit proposals") via TEI Vanilla issue tracker.
+You can discuss and [submit proposals](https://github.com/eeditiones/tei-vanilla/issues) via TEI Vanilla issue tracker.
 
 PS We hoped to provide a recording of our online meeting and did not minute it. Unfortunately, due to a technical glitch, the recording quality is insufficient for publication. I am very sorry for this and would like to encourage other participants to share their perspectives, opinions and points for discussion I might have missed in this summary.
 

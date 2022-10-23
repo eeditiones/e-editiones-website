@@ -1,18 +1,19 @@
 ---
 title: "Archives Online offers hosting in cooperation with e-editiones"
+author: "Wolfgang Meier"
 date: "2021-03-28"
 categories: 
   - "general"
 coverImage: "kenny-eliason-uq5RMAZdZG4-unsplash.jpg"
 ---
 
-In cooperation with e-editiones, [Archives Online](https://www.archives-online.org/ "Archives Online") is building an infrastructure for digital scholarly editions based on [TEI Publisher](https://teipublisher.com "TEI Publisher") and [IIIF](https://iiif.io/ "IIIF"). It is offering comprehensive, long-term support and maintenance to keep digital editions from going dark. The offer is **available to all interested editions** world-wide.
+In cooperation with e-editiones, [Archives Online](https://www.archives-online.org/) is building an infrastructure for digital scholarly editions based on [TEI Publisher](https://teipublisher.com ) and [IIIF](https://iiif.io/). It is offering comprehensive, long-term support and maintenance to keep digital editions from going dark. The offer is **available to all interested editions** world-wide.
 
-The offer will be complemented by a portal, which allows users to search across all editions participating in the service. The portal application has been developed by e-editiones, Archives Online and the [Staatsarchiv Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html "Staatsarchiv Zürich"), and will go online as soon as the first editions are ready for publication. All code will be made available as free software. The distributed search feature was based on earlier work financed by the [DIPF Berlin](https://www.dipf.de/ "DIPF Berlin") (Leibniz Institute for Research and Information in Education), and the [Karl Barth-Gesamtausgabe](https://theologie.unibas.ch/de/karl-barth-zentrum/gesamtausgabe/ "Karl Barth Gesamtausgabe") supported the server set up and automation.
+The offer will be complemented by a portal, which allows users to search across all editions participating in the service. The portal application has been developed by e-editiones, Archives Online and the [Staatsarchiv Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html), and will go online as soon as the first editions are ready for publication. All code will be made available as free software. The distributed search feature was based on earlier work financed by the [DIPF Berlin](https://www.dipf.de/) (Leibniz Institute for Research and Information in Education), and the [Karl Barth-Gesamtausgabe](https://theologie.unibas.ch/de/karl-barth-zentrum/gesamtausgabe/) supported the server set up and automation.
 
 The goal is to provide an easy, long-term hosting option for editions based on minimal, well-documented requirements: ultimately any edition which complies with the recommended practices can benefit from the hosting offer and participate in the portal service.
 
-If you are interested in having an edition hosted, please contact [Archives Online](mailto:info@archives-online.org "Archives Online"). The service will not be for free: any serious long-term hosting has to cover certain maintenance costs if it wants to follow more than an "install and forget" policy. But we're confident that our solution minimizes the costs while providing the best possible service, in particular if you're looking towards long-term availability.
+If you are interested in having an edition hosted, please contact [Archives Online](mailto:info@archives-online.org). The service will not be for free: any serious long-term hosting has to cover certain maintenance costs if it wants to follow more than an "install and forget" policy. But we're confident that our solution minimizes the costs while providing the best possible service, in particular if you're looking towards long-term availability.
 
 # Technical Background
 

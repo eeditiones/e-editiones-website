@@ -2,6 +2,7 @@
 title: "Names sell: Named entity recognition in TEI Publisher"
 short: "Names sell"
 lead: "Named entity recognition in TEI Publisher"
+author: "Wolfgang Meier"
 date: "2022-06-10"
 tags: 
   - "feature"
@@ -113,7 +114,7 @@ Looking at the same passage of Barth's letter, we see that now only Göttingen i
 
 ### Running the NER service
 
-For named entity recognition to be available in the web-based annotation editor, a separate Python service is needed: clone the [tei-publisher-ner](https://github.com/eeditiones/tei-publisher-ner "tei-publisher-ner") repository and follow the instructions in the README.
+For named entity recognition to be available in the web-based annotation editor, a separate Python service is needed: clone the [tei-publisher-ner](https://github.com/eeditiones/tei-publisher-ner) repository and follow the instructions in the README.
 
 The tei-publisher-ner package uses spaCy’s own project configuration library, which in itself is quite a useful tool. The main configuration is contained in `project.yml`, which exposes a number of commands. You can also use those to train a custom model as an alternative to the web form we saw above. This gives you more control and more options.
 

@@ -1,6 +1,7 @@
 ---
 title: "Digital editions survival kit"
 lead: "Pack your edition for apocalypse while making libraries happy to keep it safe and running on their servers forever..."
+author: "Magdalena Turska"
 date: "2021-10-26"
 categories: 
   - "sustainability"
