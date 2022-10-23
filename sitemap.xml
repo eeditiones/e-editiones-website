@@ -247,6 +247,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/search/</loc>
+    <lastmod>2022-10-23</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/</loc>
     <lastmod>2022-10-23</lastmod>
   </url>
@@ -363,6 +368,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/vscode/</loc>
+    <lastmod>2022-10-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/markdown/</loc>
     <lastmod>2022-10-23</lastmod>
   </url>
 </urlset>

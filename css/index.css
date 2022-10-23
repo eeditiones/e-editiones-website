@@ -34,7 +34,6 @@ body {
   line-height: 1.75;
   font-family: var(--font-family-body);
   --bs-body-font-family: var(--font-family-body);
-  background-color: #F0F0F0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -295,6 +294,11 @@ main.tmpl-post {
 .dateline time {
   margin-right: 2rem;
   font-family: var(--font-family-headings);
+}
+
+/* Search form in sidebar */
+aside .search-form {
+  margin-top: 3rem;
 }
 
 /* Tag cloud */

@@ -83,7 +83,7 @@
                     <a href="/tags/events/" class="nav-link">Events</a>
                 </li>
             </ul>
-        </nav>
+        </div>
     </div>
 </nav>
 </header>
@@ -205,6 +205,10 @@
     <td></td>
   </tr>
   <tr>
+    <td><a href="/search/"><code>/search/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
     <td><a href="/tags/"><code>/tags/</code></a></td>
     <td></td>
   </tr>
@@ -248,14 +252,18 @@
     <td><a href="/tags/grants/"><code>/tags/grants/</code></a></td>
     <td>Tagged “grants”</td>
   </tr>
-  <tr>
-    <td><a href="/tags/ukraine/"><code>/tags/ukraine/</code></a></td>
-    <td>Tagged “ukraine”</td>
-  </tr>
   </tbody>
 </table>
 </div>
             <aside class="col-4">
+                <form action="/search" class="search-form">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Query" aria-label="Query"
+                            aria-describedby="search-addon" name="query">
+                        <button id="search-button" class="btn btn-primary" type="submit">Search</button>
+                    </div>
+                </form>
+
                 <h3>Tags</h3>
                 <ul class="cloud" role="navigation" aria-label="tag cloud" data-show-value>
   
