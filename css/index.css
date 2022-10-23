@@ -176,6 +176,14 @@ ul.navbar-nav {
   background-image: url("/img/e-editiones-logo-color.svg");
 }
 
+nav .icons a:link {
+  --bs-link-color: white;
+}
+
+.icons a:link, .banner-visible nav .icons a:link {
+  --bs-link-color: black;
+}
+
 /* banner */
 .banner-visible .banner {
   visibility: visible;
@@ -249,6 +257,11 @@ ul.navbar-nav {
 .banner .intro-text {
   position: absolute;
   bottom: 0;
+}
+
+/* footer */
+footer {
+  font-size: var(--font-size-small);
 }
 
 /* Homepage tiles */
