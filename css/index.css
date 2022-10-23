@@ -315,7 +315,7 @@ ul.cloud {
   font-size: 125%;
 }
 
-.home ul.cloud {
+aside ul.cloud {
   font-size: var(--font-size-small);
   line-height: 1.4;
 }
