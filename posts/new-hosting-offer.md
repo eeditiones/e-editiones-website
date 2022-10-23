@@ -1,5 +1,7 @@
 ---
 title: "Archives Online offers hosting in cooperation with e-editiones"
+short: "Archives Online"
+lead: "Hosting offer in cooperation with e-editiones"
 author: "Wolfgang Meier"
 date: "2021-03-28"
 categories: 

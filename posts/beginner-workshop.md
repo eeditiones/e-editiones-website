@@ -9,7 +9,7 @@ categories:
 tags: 
   - "events"
   - "workshop"
-coverImage: "kiwihug-5bzMOpMTDRM-unsplash.jpg"
+coverImage: "headway-5QgIuuBxKwM-unsplash.jpg"
 ---
 
 - A Gentle Introduction to Git (Joseph Wicentowski)
@@ -17,7 +17,7 @@ coverImage: "kiwihug-5bzMOpMTDRM-unsplash.jpg"
 
 A recording is available on the e-editiones [youtube channel](https://www.youtube.com/watch?v=dyY539HzN6Q).
 
-![Photo by <a href="https://unsplash.com/ja/@kiwihug?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kiwihug</a> on <a href="https://unsplash.com/s/photos/manuscript?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>](/img/kiwihug-5bzMOpMTDRM-unsplash.jpg)
+![Photo by <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Headway</a> on <a href="https://unsplash.com/s/photos/workshop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>](/img/headway-5QgIuuBxKwM-unsplash.jpg)
 
 The workshop is **free**. A registration is not required. Just join the [meeting room](https://meet.existsolutions.com/workshop).
 

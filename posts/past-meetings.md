@@ -20,7 +20,7 @@ Matija Ogrin (Institute of Slovenian Literature and Literary Studies ZRC SAZU Lj
 
 ##### 2022-07-05 [TraveLab](https://teipublisher.info/exist/apps/TraveLab/index.html): a multilingual mapped edition of Benjamin of Tudela's travelog.
 
-Dr. Sinai Rusinaek, Elijah Lab (Haifa University) and OMILab (Open University), and Gil Shalit, independent developer, [DH-Dev.com](http://dh-dev.com/)
+Dr. Sinai Rusinek, Elijah Lab (Haifa University) and OMILab (Open University), and Gil Shalit, independent developer, [DH-Dev.com](http://dh-dev.com/)
 
 We will show different stages in the preparation of a multi-lingual travelog edition, from modelling, digitization, geo-referencing and alignment, through to the adaptation of TEI-Publisher to provide a meaningful interaction with the texts. We will look specifically at aligning three versions with each other and at extending the pb-leaflet-map’s functionality with Javascript hooks.
 

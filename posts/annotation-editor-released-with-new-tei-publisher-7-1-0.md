@@ -1,6 +1,6 @@
 ---
 title: "Annotation editor released with new TEI Publisher 7.1.0"
-short: "Dreams come true: Annotation editor"
+short: "Annotation editor: Dreams come true"
 lead: "Beautifully simple way to enrich existing TEI documents"
 author: "Magdalena Turska"
 date: "2021-08-10"

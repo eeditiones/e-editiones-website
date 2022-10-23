@@ -1,5 +1,7 @@
 ---
 title: "Music is in the air - MEI and TEI Publisher"
+short: "Music is in the air"
+lead: "MEI and TEI Publisher"
 author: "Magdalena Turska"
 layout: "layouts/meetup.njk"
 date: "2020-07-23"
