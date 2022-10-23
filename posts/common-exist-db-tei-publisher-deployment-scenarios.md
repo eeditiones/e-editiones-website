@@ -4,6 +4,9 @@ date: "2020-08-29"
 categories: 
   - "general"
   - "tei-publisher"
+tags:
+  - "events"
+  - "workshop"
 ---
 
 This E-editiones online evennt covers different scenarios of running eXist-db applications by the example of TEI Publisher. Olaf Schreck and Lars Windauer from eXist Solutions will present the different possibilities and requirements for:
