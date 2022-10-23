@@ -10,5 +10,6 @@ New homepage for e-editiones.
 
 ## Edit files
 
-* Blog articles are stored in `posts`
-* Other pages are found in `pages`
+* Blog articles, news, announcements etc. are stored in `posts`
+* Static pages (i.e. everything which is not a post) are found in `pages`
+* geodata for the TEI Publisher map is kept in `_data/geodata.json`
