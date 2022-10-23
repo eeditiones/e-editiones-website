@@ -200,9 +200,9 @@ ul.navbar-nav {
   left: 0;
   right: 0;
 }
-.banner .hero .btn-warning {
+/* .banner .hero .btn-warning {
   --bs-btn-bg: var(--bs-link-color);
-}
+} */
 .banner h1 {
   font-family: var(--font-family-headings);
   font-size: 5.8em;
