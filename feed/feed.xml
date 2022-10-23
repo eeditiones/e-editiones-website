@@ -413,6 +413,32 @@
 	</entry>
 	
 	<entry>
+		<title>For(e) humanists - Metadata, Forms and more</title>
+		<link href="https://e-editiones.org/posts/fore-humanists-metadata-forms-and-more/"/>
+		<updated>2021-06-15T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/fore-humanists-metadata-forms-and-more/</id>
+		<content type="html">&lt;p&gt;2021-06-15: For(e) humanists - Metadata, Forms and more&lt;/p&gt;
+&lt;p&gt;Joern Turner, eXistSolutions and Jinntec GmbH&lt;/p&gt;
+&lt;p&gt;Fore is a model-driven forms framework that follows the ideas of the XForms 2.0 Standard but translates those into the world of HTML5 Web Components.&lt;/p&gt;
+&lt;p&gt;Many edition project require some sort of complex input form sooner or later - just think about collecting metadata for the TEI header. The talk will focus on TEI and show you how to author such forms in HTML5.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://meet.existsolutions.com/eeditiones&quot;&gt;https://meet.existsolutions.com/eeditiones&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Contributing to TEI Publisher - a gentle introduction</title>
+		<link href="https://e-editiones.org/posts/contributing-to-tei-publisher-a-gentle-introduction/"/>
+		<updated>2021-06-15T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/contributing-to-tei-publisher-a-gentle-introduction/</id>
+		<content type="html">&lt;p&gt;Talk by Wolfgang Meier (eXist Solutions) on Tuesday, the 6th of July 2021 at 17:00 CEST.&lt;/p&gt;
+&lt;p&gt;Open source projects like TEI Publisher depend on an active, contributing community. Many believe that you need to be a programmer to contribute, but this is a misconception! Documentation, communication, supporting users or providing feedback are at least as important for an open source project as thousands of lines of code.&lt;/p&gt;
+&lt;p&gt;This session targets non-programmers as well as those with some development skills. We&#39;ll start with simple things, e.g. contributing to the &lt;a href=&quot;https://faq.teipublisher.com/&quot; title=&quot;FAQ&quot;&gt;FAQ&lt;/a&gt;, and then move on and show you how to create your own little web component to plug into TEI Publisher. We&#39;ll use a grid component for displaying tabular data as an example.&lt;/p&gt;
+&lt;p&gt;Open source projects like TEI Publisher depend on an active, contributing community. Many believe that you need to be a programmer to contribute, but this is a misconception! Documentation, communication, supporting users or providing feedback are at least as important for an open source project as thousands of lines of code.&lt;/p&gt;
+&lt;p&gt;This session targets non-programmers as well as those with some development skills. We&#39;ll start with simple things, e.g. contributing to the &lt;a href=&quot;https://faq.teipublisher.com/&quot; title=&quot;FAQ&quot;&gt;FAQ&lt;/a&gt;, and then move on and show you how to create your own little web component to plug into TEI Publisher. We&#39;ll use a grid component for displaying tabular data as an example.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Archives Online offers hosting in cooperation with e-editiones</title>
 		<link href="https://e-editiones.org/posts/new-hosting-offer/"/>
 		<updated>2021-03-28T00:00:00Z</updated>
@@ -437,6 +463,30 @@
 &lt;p&gt;With these low-level technical questions solved, e-editiones is now also putting a strong focus on describing the practical recommendations for the encoding of texts. The idea is to create a set of best practice guidelines for corpora with a pledge that any text following these guidelines will look good out of the box when rendered via TEI Publisher and will be ready for incorporation into the search portal. Initial work is carried out now and we expect a community meetup soon to discuss on a broader forum.&lt;/p&gt;
 &lt;p&gt;This way we aim to: flatten the learning curve for many projects starting with TEI encoding, reduce the amount of customization work required for an edition, allowing users to publish materials with minimal effort, and assure that the project data is ready to be integrated into larger scale search portals. Needless to say, recommendations we have in mind are intended only with an eye towards interoperability and do not limit in any way customization capacities already embodied by the TEI Publisher approach.&lt;/p&gt;
 &lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@neonbrand?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Kenny Eliason&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/hosting?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Save the dates</title>
+		<link href="https://e-editiones.org/posts/save-the-dates/"/>
+		<updated>2021-02-02T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/save-the-dates/</id>
+		<content type="html">&lt;p&gt;New e-editiones events are coming up. Please save the dates:&lt;/p&gt;
+&lt;p&gt;1st March 2021, 17.00 CET:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Assembly of e-editiones (members only)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;8th March 2021, 17.00 CET: Beginners Workshop&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A Gentle Introduction to Git (Joseph Wicentowski)&lt;/li&gt;
+&lt;li&gt;Workflows for TEI Editing and App Development (Wolfgang Meier)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A recording is available on the &lt;a href=&quot;https://t.co/hZ5ELCTrJd&quot; title=&quot;e-editiones youtube channel&quot;&gt;e-editiones youtube channel&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;30th March 2021, 17.00 CET Workshop&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Versioning and Archiving Data: TEI2Zenodo (Dr. Andreas Wagner, Digital Humanities Max Planck Institute for Legal History and Legal Theory, Frankfurt)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All events are &lt;strong&gt;free&lt;/strong&gt;. A registration is not required. Just join the &lt;a href=&quot;https://meet.existsolutions.com/workshop&quot; title=&quot;jitsi room&quot;&gt;meeting room&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -685,6 +735,41 @@
 	</entry>
 	
 	<entry>
+		<title>TEI Vanilla - a scoop of TEI for everyone</title>
+		<link href="https://e-editiones.org/posts/tei-vanilla-a-scoop-of-tei-for-everyone/"/>
+		<updated>2020-10-06T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei-vanilla-a-scoop-of-tei-for-everyone/</id>
+		<content type="html">&lt;p&gt;Following the spontaneous but inspiring exchange on e-editiones Slack channel, we&#39;d like to invite you to a new e-editiones community meeting to discuss the emerging TEI Vanilla proposal. The event will take place &lt;a href=&quot;https://meet.existsolutions.com/eeditiones&quot; title=&quot;online&quot;&gt;online&lt;/a&gt; at 4pm CET on October 20th, 2020.&lt;/p&gt;
+&lt;p&gt;Many of us at some point expressed their frustration with starting a TEI project. Without previous experience with this extensive and robust vocabulary the learning curve may be quite steep and the whole process overwhelming.&lt;/p&gt;
+&lt;p&gt;TEI Vanilla is a grassroots movement to help newcomers to the TEI community in smooth on-boarding. We feel that a number of prospective users, both individual and institutional, would benefit from a gentler introduction than TEI&#39;s excellent but extensive Guidelines provide.&lt;/p&gt;
+&lt;p&gt;Vanilla is meant to pick up where earlier 2015 TEI Simple project, led by the late Sebastian Rahtz, Martin Mueller and Brian Pytlik-Zillig, left off. As some of you would remember, main outcome of the TEI Simple was the TEI Processing Model, now lying at the heart of the TEI Publisher. Nevertheless, the other goal envisioned for Simple was creating a schema which would provide a good starting point for majority, if not most, larger scale editorial projects. We based our selection on a survey of usage through large volume corpora, among them EEBO-TCP and DTA, and believed it to be a solid 80/20 solution: addressing 80% of users needs with 20% of the effort and heartache.&lt;/p&gt;
+&lt;p&gt;Thanks to the space for discussion on e-editiones Slack we found out there are many like-minded individuals willing to join forces in the work of reviewing the schema and working on its own dedicated Guidelines and a body of examples, tutorials and other auxiliary resources.&lt;/p&gt;
+&lt;p&gt;At this point we would like to share our motivations and preliminary goals but above all solicit opinions, perspectives and requirements from our community. &lt;a href=&quot;https://meet.existsolutions.com/eeditiones&quot; title=&quot;Join us&quot;&gt;Join us&lt;/a&gt; for the event and share your thoughts on &lt;a href=&quot;https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg&quot; title=&quot;Slack&quot;&gt;Slack&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Common eXist-db / TEI Publisher Deployment Scenarios</title>
+		<link href="https://e-editiones.org/posts/common-exist-db-tei-publisher-deployment-scenarios/"/>
+		<updated>2020-08-29T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/common-exist-db-tei-publisher-deployment-scenarios/</id>
+		<content type="html">&lt;p&gt;This E-editiones online evennt covers different scenarios of running eXist-db applications by the example of TEI Publisher. Olaf Schreck and Lars Windauer from eXist Solutions will present the different possibilities and requirements for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Editors presenting their TEI documents&lt;/li&gt;
+&lt;li&gt;Developers implementing new features&lt;/li&gt;
+&lt;li&gt;Sysadmins hosting digital editions in TEI Publisher&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The first part of the event is intended also for the non-technical audience and will provide an overview of the different usage scenarios of TEI Publisher while the second part focuses on setting up and maintaining TEI Publisher for production environments with a focus on the IT automation software &lt;a href=&quot;https://www.ansible.com/&quot;&gt;Ansible&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The event took place on Tuesday the 8th of September from 16:00 till 17:00 CEST on Jitsi.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Slides: &lt;a href=&quot;https://e-editiones.org/wp-content/uploads/2020/08/Common-eXist-db-TEI-Publisher-Deployment-Scenarios.pdf&quot; title=&quot;Common-eXist-db-TEI-Publisher-Deployment-Scenarios&quot;&gt;Common-eXist-db-TEI-Publisher-Deployment-Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/sA7H2f6zKmI&quot;&gt;Workshop Recording&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks to &lt;a href=&quot;https://www.nie-ine.ch/&quot;&gt;NIE-INE&lt;/a&gt; for sponsoring this event.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Music is in the air - MEI and TEI Publisher</title>
 		<link href="https://e-editiones.org/posts/music-is-in-the-air/"/>
 		<updated>2020-07-23T00:00:00Z</updated>
@@ -737,6 +822,53 @@
 &lt;li&gt;Swiss Nationale Infrastruktur für Editionen - Infrastructure nationale pour les éditions for funding a large part of work on the web component refactoring.&lt;/li&gt;
 &lt;li&gt;ACE – Austrian Corpora and Editions of the Österreichische Akademie der Wissenschaften for a small grant to enhance toggling mechanisms&lt;/li&gt;
 &lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>TEI Publisher 6 released</title>
+		<link href="https://e-editiones.org/posts/tei-publisher-6-released/"/>
+		<updated>2020-07-10T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei-publisher-6-released/</id>
+		<content type="html">&lt;p&gt;The new TEI Publisher 6.0.0 is finally out!&lt;/p&gt;
+&lt;p&gt;This is a major release introducing the refactored and extended web components which are now available as a LitElement library distributed via npm. While invisible to users, this redesign greatly improves modularity and simplifies updates of Publisher-based applications. It also facilitates embedding of Publisher custom components into CMS systems (e.g. Hugo or WordPress) and other application frameworks (like angular, vue or react).&lt;/p&gt;
+&lt;p&gt;Version 6 also brings extended internationalization and full localization into 19 languages, simplified styling, support for data organization based on subcollections, several new and enhanced components (including one for &lt;a href=&quot;https://unpkg.com/@teipublisher/pb-components@1.0.0/dist/api.html#pb-mei.1&quot; title=&quot;notated music&quot;&gt;notated music&lt;/a&gt; encoded in MEI), improved ODD editor and major extension and revision of the documentation.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_416&amp;quot; align=&amp;quot;aligncenter&amp;quot; width=&amp;quot;840&amp;quot;]&lt;img src=&quot;https://e-editiones.org/posts/tei-publisher-6-released/images/mei-demo-1024x523.png&quot; alt=&quot;mei&quot; /&gt; Demo page of the pb-mei component[/caption]&lt;/p&gt;
+&lt;p&gt;More information about this release can be found on the &lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/blog/tei-publisher-60.xml&quot; title=&quot; TEI Publisher blog.&quot;&gt;TEI Publisher blog.&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Community Event on Music Encoding</title>
+		<link href="https://e-editiones.org/posts/community-event-on-music-encoding/"/>
+		<updated>2020-07-03T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/community-event-on-music-encoding/</id>
+		<content type="html">&lt;p&gt;We would like to invite all members and non-members of &lt;a href=&quot;http://e-editiones.org/&quot;&gt;e-editiones.org&lt;/a&gt; to another community event on 8th of July, 16:00 CEST (&lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event+on+Music+Encoding&amp;amp;iso=20200708T16&amp;amp;p1=37&amp;amp;ah=1&quot; title=&quot;check your local time&quot;&gt;check your local time&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Community members Giuliano Di Bacco and Dennis Ried will give us a lightning introduction to the Music Encoding Initiative (MEI) and its practical use. We&#39;ll then have an open conversation about possible integrations of MEI into TEI Publisher. There will be also be room for further discussion in the &amp;quot;any other business&amp;quot; section afterwards. So if you have other topics or questions beyond music encoding, do not hesitate to bring them up.&lt;/p&gt;
+&lt;p&gt;Join us on jitsi: &lt;a href=&quot;https://meet.jit.si/e-editiones-events&quot;&gt;https://meet.jit.si/e-editiones-events&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This event will be the first in a series of community meetups we would like to establish on a monthly basis. Looking forward to see you all next week.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>«Stay Home Learn TEI Publisher From Scratch»  June 2020</title>
+		<link href="https://e-editiones.org/posts/stay-home-learn-tei-publisher-from-scratch-june-2020/"/>
+		<updated>2020-06-08T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/stay-home-learn-tei-publisher-from-scratch-june-2020/</id>
+		<content type="html">&lt;p&gt;«Stay Home Learn TEI Publisher From Scratch» Online Course A 3-part online course: 8th, 15th and 22nd of June 4-5 pm (CEST)&lt;/p&gt;
+&lt;p&gt;Find all informations on github:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/eeditiones/workshop&quot;&gt;https://github.com/eeditiones/workshop&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>First Community Event on May 18th 2020</title>
+		<link href="https://e-editiones.org/posts/first-community-event-on-may-18th-2020/"/>
+		<updated>2020-05-18T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/first-community-event-on-may-18th-2020/</id>
+		<content type="html">&lt;h2&gt;If you missed it ...&lt;/h2&gt;
+&lt;p&gt;the recorded live stream of our first community event on May 18th 2020 is available on youtube:&lt;/p&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/LNbuyeh-vew&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
 </content>
 	</entry>
 	
