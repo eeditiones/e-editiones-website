@@ -107,7 +107,7 @@
 <figure><img src="/img/screen-preview.gif" alt=""><figcaption>HTML preview screencast</figcaption></figure>
 <h2>Snippets</h2>
 <p>Finally, it is rather straightforward to create reusable snippets in vscode. To start with, we implemented the one shortcut we use most in oXygen and miss everywhere else: wrap the current selection with an element (the Scholarly XML extension described below also has this, but it doesn't hurt to have it twice in case you're not using that).</p>
-<p>And since we have to encode a lot of foreign texts, we also added one for <code>&lt;foreign&gt;</code>. Doing more would be easy: maybe you have some suggestions? Just write them into our <a href="https://github.com/eeditiones/tei-publisher-vscode/issues" title="github issues">github issues</a>.</p>
+<p>And since we have to encode a lot of foreign texts, we also added one for <code>&lt;foreign&gt;</code>. Doing more would be easy: maybe you have some suggestions? Just write them into our <a href="https://github.com/eeditiones/tei-publisher-vscode/issues">github issues</a>.</p>
 <h2>Combine with other extensions</h2>
 <p>If you combine this with other extensions available on the vscode marketplace, you get rather decent XML editing support - not as sophisticated as with oXygen, but good enough for some serious work.</p>
 <p>For schema-based validation and context sensitive suggestions one can choose between two extensions: <a href="https://marketplace.visualstudio.com/items?itemName=raffazizzi.sxml">Scholary XML</a> is lightweight and provides nice suggestions with documentation. It only understands relax-ng though and does not support catalogs, which means you need to reference the schema via a processing instruction in every TEI file. The second option, <a href="https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml">XML Language Support by Red Hat</a>, supports XML schema and catalogs, which you can use to associate the TEI namespace with a schema once and for all. On the downside, it uses more system resources as it starts a background Java process.</p>
@@ -117,7 +117,7 @@
 <h2>Get it</h2>
 <p>The extension is available from Microsoft's <a href="https://marketplace.visualstudio.com/items?itemName=e-editiones.tei-publisher-vscode">Visual Studio Marketplace</a>. To install it in your own Visual Studio Code, just open the <em>Extensions</em> tab and search for <code>tei-publisher-vscode</code>.</p>
 <p>All source code is available on the <a href="https://github.com/eeditiones/tei-publisher-vscode">e-editiones github</a> and we would like to invite others to further extend it, e.g. by adding connectors to other authority APIs. Connectors are simple javascript/typescript classes with just two methods. See the <a href="https://github.com/eeditiones/tei-publisher-vscode/tree/master/src/connectors">existing connectors</a> for inspiration.</p>
-<p>If you have questions, suggestions or would like to discuss further extensions: you'll find us in the <a href="https://e-editiones.org/get-in-touch/" title="e-editiones slack">e-editiones slack</a> rooms.</p>
+<p>If you have questions, suggestions or would like to discuss further extensions: you'll find us in the <a href="https://e-editiones.org/get-in-touch/">e-editiones slack</a> rooms.</p>
 
 <hr>
 <ul><li>Next: <a href="/posts/tei-publisher-7-final/">TEI Publisher 7: an example of collaborative development</a></li><li>Previous: <a href="/posts/tei-vanilla-meeting-summary/">TEI &quot;Vanilla&quot; meeting summary</a></li>
