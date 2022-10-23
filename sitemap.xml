@@ -227,6 +227,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/pages/memory/</loc>
+    <lastmod>2022-10-23</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/pages/researcher/</loc>
     <lastmod>2022-10-23</lastmod>
   </url>
@@ -292,6 +297,16 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/grants/</loc>
+    <lastmod>2022-10-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <lastmod>2022-10-23</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/interoperability/</loc>
     <lastmod>2022-10-23</lastmod>
   </url>
@@ -303,16 +318,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/tei-publisher/</loc>
-    <lastmod>2022-10-23</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/grants/</loc>
-    <lastmod>2022-10-23</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/ukraine/</loc>
     <lastmod>2022-10-23</lastmod>
   </url>
   
