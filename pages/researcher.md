@@ -20,6 +20,11 @@ In time, building upon various community standards, partial solutions, and inter
 
 > re-using components, pooling resources and sharing best practices benefits everyone in the community and ensures our projects remain online and maintained for the decades to come
 
-It all starts with your source documents, regardless if they are in **TEI**, other form of **XML** or perhaps even **Word** or Markdown. It doesn't matter if they are ancient inscriptions, correspondence, writer's notebooks or lexicon entries: they can be **easily transformed** into a range of output formats for publication - from a **modern web page** that you can open on your laptop or mobile device, to an **ebook**, a **mobile app**, or a high quality **PDF** for sending **straight to your publisher** for printing. 
+It all starts with your source documents, regardless if they are in **TEI**, other form of **XML** or perhaps even **Word** or Markdown. It doesn't matter if they are ancient inscriptions, correspondence, writer's notebooks, lexicon entries or anything else: they can be **easily transformed** into a range of output formats for publication - from a **modern web page** that you can open on your laptop or mobile device, to an **ebook**, a **mobile app**, or a high quality **PDF** for sending **straight to your publisher** for printing. 
+
+> rooted in standards, built by the community, meant to last
 
 More than that, your publication can be assembled very much **like playing with Lego** blocks, and, like Lego, it **will still fit with others** who embrace the same basic principles, however different they may look and feel on the surface. As a side effect, without any extra effort on your part, you end up with a kind of **survival kit**, resilient data and application package fit for **easy distribution, long-term archiving** but also future hosting and **maintenance** through infrastructure on institutional and national level.
+
+Photo by <a href="https://unsplash.com/@zoltantasi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Zoltan Tasi</a> on <a href="https://unsplash.com/s/photos/power?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
+  
