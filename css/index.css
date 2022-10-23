@@ -115,7 +115,7 @@ main {
 main.home {
   margin-top: 0;
   padding: 0;
-  min-height: calc(100vh - 90px);
+  min-height: calc(100vh - 84px);
   background: #f0f0f0;
 }
 
@@ -163,8 +163,17 @@ ul.navbar-nav {
   --bs-navbar-active-color: var(--bs-link-color);
 }
 
-.navbar-brand img {
+.navbar-brand {
+  width: 210px;
   height: 64px;
+  background-image: url("/img/e-editiones-logo-color-inverted.svg");
+  background-size: 100% auto;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.banner-visible .navbar-brand {
+  background-image: url("/img/e-editiones-logo-color.svg");
 }
 
 /* banner */
@@ -180,7 +189,7 @@ ul.navbar-nav {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s linear 300ms, opacity 300ms;
-  margin-top: 90px;
+  margin-top: 84px;
   width: 100%;
   background-image: var(--banner-image);
 }

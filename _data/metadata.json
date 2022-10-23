@@ -2,20 +2,15 @@
   "title": "e-editiones",
   "url": "https://e-editiones.org/",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "e-editiones – Society for Scholarly Digital Editions",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "e-editiones – Society for Scholarly Digital Editions",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://e-editiones.org/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
-  },
-  "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "url": "https://e-editiones.org/feed/feed.json"
   }
 }
