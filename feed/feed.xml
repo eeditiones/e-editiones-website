@@ -398,6 +398,18 @@
 	</entry>
 	
 	<entry>
+		<title>Manuscript Mondays – Einführung in das digitale Edieren handschriftlicher Quellen</title>
+		<link href="https://e-editiones.org/posts/manuscript-mondays/"/>
+		<updated>2021-08-20T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/manuscript-mondays/</id>
+		<content type="html">&lt;h2&gt;Anne Diekjobst, Claudia Sutter&lt;/h2&gt;
+&lt;p&gt;Der Workshop richtet sich an Forschende aus verschiedenen Disziplinen, die ihre erste eigene digitale Edition erstellen wollen, die sich aber überfordert fühlen von der Fülle der verfügbaren Hilfsmittel, die online zu finden sind. Wir wollen eine niederschwellige Einführung für die ersten Schritte bieten, einen Mix aus Vortrag und Workshop vornehmen und uns die Zeit nehmen, individuelle Fragen und Probleme zusammen zu besprechen. Der Workshop bietet eine begleitete Einführung, bei der die Teilnehmenden viel Zeit haben, das Gehörte selbst anzuwenden. Ziel ist es, eine eigenständige digitale Edition in TEI/XML zu erstellen und im TEI Publisher darzustellen.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/kiwihug-5bzMOpMTDRM-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/ja/@kiwihug?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Kiwihug&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/manuscript?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;The workshop is &lt;strong&gt;free&lt;/strong&gt; and will be held in &lt;strong&gt;German&lt;/strong&gt; over 5 Mondays. A registration is not required. Just join the &lt;a href=&quot;https://meet.existsolutions.com/workshop&quot;&gt;meeting room&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Annotation editor released with new TEI Publisher 7.1.0</title>
 		<link href="https://e-editiones.org/posts/annotation-editor-released-with-new-tei-publisher-7-1-0/"/>
 		<updated>2021-08-10T00:00:00Z</updated>
@@ -467,26 +479,53 @@
 	</entry>
 	
 	<entry>
+		<title>Beginners Workshop (Git, Editing Workflows)</title>
+		<link href="https://e-editiones.org/posts/beginner-workshop/"/>
+		<updated>2021-03-08T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/beginner-workshop/</id>
+		<content type="html">&lt;ul&gt;
+&lt;li&gt;A Gentle Introduction to Git (Joseph Wicentowski)&lt;/li&gt;
+&lt;li&gt;Workflows for TEI Editing and App Development (Wolfgang Meier)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A recording is available on the e-editiones &lt;a href=&quot;https://www.youtube.com/watch?v=dyY539HzN6Q&quot;&gt;youtube channel&lt;/a&gt;.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/kiwihug-5bzMOpMTDRM-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/ja/@kiwihug?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Kiwihug&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/manuscript?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;The workshop is &lt;strong&gt;free&lt;/strong&gt;. A registration is not required. Just join the &lt;a href=&quot;https://meet.existsolutions.com/workshop&quot;&gt;meeting room&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>TEI2Zenodo</title>
+		<link href="https://e-editiones.org/posts/tei-to-zenodo/"/>
+		<updated>2021-03-02T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei-to-zenodo/</id>
+		<content type="html">&lt;h1&gt;2021-03-30, 17.00 CEST &lt;em&gt;Versioning and Archiving Data: TEI2Zenodo&lt;/em&gt;&lt;/h1&gt;
+&lt;p&gt;Dr. Andreas Wagner, Digital Humanities, Max Planck Institute for Legal History and Legal Theory, Frankfurt&lt;/p&gt;
+&lt;p&gt;How can I get Persistent Identifiers for the works of my digital edition? How can I deposit their TEI XML sources at a long-time archival repository? And how can I do all this when I don&#39;t have an affiliated institution/library taking care of it all? It&#39;s in response to questions as these that the &amp;quot;TEI2Zenodo&amp;quot;-Service offers a software (and, for the time being, a platform) that can facilitate archival and sustainable citation of your data. This workshop will introduce the platforms github and zenodo, and discuss the roles that they can play in such an endeavour. We will see and experiment with configurations for various ways of connecting them, particularly ones making use of the TEI2Zenodo service. After the workshop, participants should be capable of sustainably depositing the data of their digital edition, taking profit of free and open services and platforms.&lt;/p&gt;
+&lt;p&gt;The workshop is &lt;strong&gt;free&lt;/strong&gt;. A registration is not required. Just join the &lt;a href=&quot;https://meet.existsolutions.com/workshop&quot;&gt;meeting room&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Save the dates</title>
 		<link href="https://e-editiones.org/posts/save-the-dates/"/>
 		<updated>2021-02-02T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/save-the-dates/</id>
 		<content type="html">&lt;p&gt;New e-editiones events are coming up. Please save the dates:&lt;/p&gt;
-&lt;p&gt;1st March 2021, 17.00 CET:&lt;/p&gt;
+&lt;h2&gt;1st March 2021, 17.00 CET: Assembly&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Assembly of e-editiones (members only)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;8th March 2021, 17.00 CET: Beginners Workshop&lt;/p&gt;
+&lt;h2&gt;8th March 2021, 17.00 CET: Beginners Workshop&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;A Gentle Introduction to Git (Joseph Wicentowski)&lt;/li&gt;
 &lt;li&gt;Workflows for TEI Editing and App Development (Wolfgang Meier)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;A recording is available on the &lt;a href=&quot;https://t.co/hZ5ELCTrJd&quot; title=&quot;e-editiones youtube channel&quot;&gt;e-editiones youtube channel&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;30th March 2021, 17.00 CET Workshop&lt;/p&gt;
+&lt;p&gt;A recording is available on the &lt;a href=&quot;https://t.co/hZ5ELCTrJd&quot;&gt;e-editiones youtube channel&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;30th March 2021, 17.00 CET: Workshop&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Versioning and Archiving Data: TEI2Zenodo (Dr. Andreas Wagner, Digital Humanities Max Planck Institute for Legal History and Legal Theory, Frankfurt)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;All events are &lt;strong&gt;free&lt;/strong&gt;. A registration is not required. Just join the &lt;a href=&quot;https://meet.existsolutions.com/workshop&quot; title=&quot;jitsi room&quot;&gt;meeting room&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;All events are &lt;strong&gt;free&lt;/strong&gt;. A registration is not required. Just join the &lt;a href=&quot;https://meet.existsolutions.com/workshop&quot;&gt;meeting room&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -826,19 +865,6 @@
 	</entry>
 	
 	<entry>
-		<title>TEI Publisher 6 released</title>
-		<link href="https://e-editiones.org/posts/tei-publisher-6-released/"/>
-		<updated>2020-07-10T00:00:00Z</updated>
-		<id>https://e-editiones.org/posts/tei-publisher-6-released/</id>
-		<content type="html">&lt;p&gt;The new TEI Publisher 6.0.0 is finally out!&lt;/p&gt;
-&lt;p&gt;This is a major release introducing the refactored and extended web components which are now available as a LitElement library distributed via npm. While invisible to users, this redesign greatly improves modularity and simplifies updates of Publisher-based applications. It also facilitates embedding of Publisher custom components into CMS systems (e.g. Hugo or WordPress) and other application frameworks (like angular, vue or react).&lt;/p&gt;
-&lt;p&gt;Version 6 also brings extended internationalization and full localization into 19 languages, simplified styling, support for data organization based on subcollections, several new and enhanced components (including one for &lt;a href=&quot;https://unpkg.com/@teipublisher/pb-components@1.0.0/dist/api.html#pb-mei.1&quot; title=&quot;notated music&quot;&gt;notated music&lt;/a&gt; encoded in MEI), improved ODD editor and major extension and revision of the documentation.&lt;/p&gt;
-&lt;p&gt;[caption id=&amp;quot;attachment_416&amp;quot; align=&amp;quot;aligncenter&amp;quot; width=&amp;quot;840&amp;quot;]&lt;img src=&quot;https://e-editiones.org/posts/tei-publisher-6-released/images/mei-demo-1024x523.png&quot; alt=&quot;mei&quot; /&gt; Demo page of the pb-mei component[/caption]&lt;/p&gt;
-&lt;p&gt;More information about this release can be found on the &lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/blog/tei-publisher-60.xml&quot; title=&quot; TEI Publisher blog.&quot;&gt;TEI Publisher blog.&lt;/a&gt;&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
 		<title>Community Event on Music Encoding</title>
 		<link href="https://e-editiones.org/posts/community-event-on-music-encoding/"/>
 		<updated>2020-07-03T00:00:00Z</updated>
@@ -851,7 +877,7 @@
 	</entry>
 	
 	<entry>
-		<title>«Stay Home Learn TEI Publisher From Scratch»  June 2020</title>
+		<title>«Stay Home Learn TEI Publisher From Scratch»</title>
 		<link href="https://e-editiones.org/posts/stay-home-learn-tei-publisher-from-scratch-june-2020/"/>
 		<updated>2020-06-08T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/stay-home-learn-tei-publisher-from-scratch-june-2020/</id>

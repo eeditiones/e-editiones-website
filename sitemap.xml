@@ -82,11 +82,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/posts/tei-publisher-6-released/</loc>
-    <lastmod>2020-07-10</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/posts/tei-publisher-6/</loc>
     <lastmod>2020-07-10</lastmod>
   </url>
@@ -147,13 +142,18 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/pages/community-meetings/</loc>
-    <lastmod>2021-03-15</lastmod>
+    <loc>https://e-editiones.org/posts/tei-to-zenodo/</loc>
+    <lastmod>2021-03-02</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/pages/workshops/</loc>
-    <lastmod>2021-03-22</lastmod>
+    <loc>https://e-editiones.org/posts/beginner-workshop/</loc>
+    <lastmod>2021-03-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/pages/community-meetings/</loc>
+    <lastmod>2021-03-15</lastmod>
   </url>
   
   <url>
@@ -184,6 +184,11 @@
   <url>
     <loc>https://e-editiones.org/posts/annotation-editor-released-with-new-tei-publisher-7-1-0/</loc>
     <lastmod>2021-08-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/posts/manuscript-mondays/</loc>
+    <lastmod>2021-08-20</lastmod>
   </url>
   
   <url>
@@ -287,6 +292,16 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/events/</loc>
+    <lastmod>2022-10-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/workshop/</loc>
+    <lastmod>2022-10-23</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/awards/</loc>
     <lastmod>2022-10-23</lastmod>
   </url>
@@ -333,11 +348,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/wordpress/</loc>
-    <lastmod>2022-10-23</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/events/</loc>
     <lastmod>2022-10-23</lastmod>
   </url>
   
