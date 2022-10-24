@@ -393,8 +393,8 @@ ul.cloud li:nth-child(4n+1) a { --color: var(--color-2); }
 .registry {
   display: grid;
   grid-template-columns: 1fr minmax(50vw, auto);
-  height: calc(100vh);
-  padding-top: 97px;
+  height: 100vh;
+  padding: 84px 0 0 0;
   margin-top: 0;
 }
 
