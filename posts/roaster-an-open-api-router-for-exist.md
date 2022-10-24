@@ -13,8 +13,7 @@ coverImage: "tim-mossholder-YC6RVdoTtIk-unsplash.jpg"
 coverImageCredits: Tile photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Tim Mossholder</a> on <a href="https://unsplash.com/s/photos/roaster?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---
 
-![](https://e-editiones.org/wp-content/uploads/2021/01/icon.svg "roaster logo")
-
+![](https://e-editiones.org/wp-content/uploads/2021/01/icon.svg "roaster logo"){.left width=220}
 We're happy to announce that the request routing library, which was originally developed for TEI Publisher 7, has been released as a [separate package](https://github.com/eeditiones/roaster) with extended functionality. The library, called **roaster**, is generic and can be used for any eXist-based project. It implements the Open API 3.0 standard to support well-documented, versioned and formally specified APIs.
 
 ## Background

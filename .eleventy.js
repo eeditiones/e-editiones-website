@@ -3,6 +3,7 @@ const fs = require("fs");
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItAttrs = require('markdown-it-attrs');
 var implicitFigures = require('markdown-it-implicit-figures');
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -99,6 +100,7 @@ module.exports = function(eleventyConfig) {
     linkify: true
   })
   .use(markdownItAnchor)
+  .use(markdownItAttrs)
   .use(implicitFigures, {
     dataType: false,  // <figure data-type="image">, default: false
     figcaption: true,  // <figcaption>alternative text</figcaption>, default: false
