@@ -6,7 +6,7 @@
         {% if post.data.coverImage %}
         <img src="{{ '/' | url }}img/{{post.data.coverImage}}" title="{{post.data.coverImageCredits | striptags}}">
         {% else %}
-        <img src="{{ '/' | url }}img/{{post.data.defaultCover}}" title="{{post.data.coverImageCredits | striptags}}">
+        <img src="{{ '/' | url }}img/{{post.data.defaultCover}}" title="{{post.data.defaultCoverCredit | striptags}}">
         {% endif %}
         <div class="tagline">
           {% for tag in post.data.tags | filterTagList %}
