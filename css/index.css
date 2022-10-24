@@ -319,9 +319,15 @@ main.tmpl-post {
   text-align: center;
 }
 
-.tmpl-post img {
+.tmpl-post figure img {
   max-width: 100%;
   border: 1px solid var(--background-color-dark);
+}
+
+.tmpl-post img.left {
+  float: left;
+  max-width: 33%;
+  padding-right: 1rem;
 }
 
 .dateline {
