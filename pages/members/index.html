@@ -13,6 +13,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="/css/prism-diff.css">
@@ -101,8 +102,10 @@
 
 <main class="container tmpl-post">
     
-    <h1>Members</h1>
-    <h2 id="institutional-members" tabindex="-1">Institutional Members</h2>
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>Members</h1>
+            <h2 id="institutional-members" tabindex="-1">Institutional Members</h2>
 <ul>
 <li><a href="https://www.dh.unibe.ch/">Digital Humanities</a>/<a href="https://www.wbkolleg.unibe.ch/">Walter Benjamin Kolleg</a> der Universität Bern</li>
 <li><a href="https://isllv.zrc-sazu.si/en/predstavitev#v">Institute of Slovenian Literature and Literary studies</a>, Research Centre of the Slovenian Academy of Sciences and Arts, Ljubljana</li>
@@ -153,6 +156,15 @@
 <li>Christian von Zimmermann, Dr. phil., Privatdozent, Leiter <a href="https://www.gotthelf.unibe.ch/">Forschungsstelle Jeremias Gotthelf</a>, Bern</li>
 </ul>
 
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
+            <nav class="toc" >
+        <ul><li><a href="#institutional-members">Institutional Members</a></li><li><a href="#individual-members">Individual Members</a></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
 </main>
 
 <footer class="p-2">
@@ -161,6 +173,7 @@
 </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <script src="/scripts/common.js"></script>
       
   </body>
 </html>

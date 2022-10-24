@@ -13,6 +13,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="/css/prism-diff.css">
@@ -24,8 +25,7 @@
     
   </head>
   <body>
-      
-<header>
+      <header>
     
 
 
@@ -98,16 +98,18 @@
     </div>
 </nav>
 </header>
-
 <main class="container tmpl-post">
     
-    <h1>Open Source Advent</h1>
-    <div class="dateline">
-  <time datetime="2020-12-21">21 Dec 2020</time>
-  <a href="/tags/events/" class="badge text-bg-light">events</a>
-</div>
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>Open Source Advent</h1>
 
-<p>Through December we're aiming to present a number of recent open source developments related to e-editiones mission to empower digital editions of cultural, scientific, and artistic works by promoting open standards related to digital editions and advancing open source applications based on them.</p>
+            <div class="dateline">
+              <div></div>
+              <time datetime="2020-12-21">21 Dec 2020</time>
+            </div>
+
+            <p>Through December we're aiming to present a number of recent open source developments related to e-editiones mission to empower digital editions of cultural, scientific, and artistic works by promoting open standards related to digital editions and advancing open source applications based on them.</p>
 <figure><img src="/img/open-source-advent-1-816x1024.jpg" alt=""></figure>
 <p>Trying to create the atmosphere of joyful expectation and bring some holiday cheer to the dark hours of corona winter, we'll only reveal one &quot;present&quot; at a time and adjust the calendar and this post as we go along.</p>
 <p>In the first instance we are presenting projects coordinated by e-editiones and its members. We certainly hope to see others joining the fun - please use the #OSA20 hashtag on Twitter and let us know so we can update the list.</p>
@@ -122,12 +124,36 @@
 </ul>
 
 
+            
+            <p class="credits">Tile photo by <a href="https://unsplash.com/@miracleday?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Elena Mozhvilo</a> on <a href="https://unsplash.com/s/photos/advent?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a></p>
+            
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
 
-<p class="credits">Tile photo by <a href="https://unsplash.com/@miracleday?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Elena Mozhvilo</a> on <a href="https://unsplash.com/s/photos/advent?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a></p>
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/cross-search/"
+                data-bs-toggle="tooltip" title="Cross search">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+              <a class="btn btn-light" href="/posts/tei-publisher-7-final/"
+                data-bs-toggle="tooltip" title="TEI Publisher 7: an example of collaborative development">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
 
-<hr>
-<ul><li>Next: <a href="/posts/cross-search/">Cross search</a></li><li>Previous: <a href="/posts/tei-publisher-7-final/">TEI Publisher 7: an example of collaborative development</a></li>
-</ul>
+            <ul class="tags mb-3">
+              <li><a href="/tags/events/" class="badge text-bg-light" style="color: var(--color-2) !important">events</a></li>
+            </ul>
+
+            <nav class="toc" >
+        <ul><li><a href="#list-of-%23osa20-presents-in-december">List ofOSA20 presents in December</a></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
 </main>
 
 <footer class="p-2">
@@ -136,6 +162,7 @@
 </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <script src="/scripts/common.js"></script>
       
   </body>
 </html>

@@ -13,6 +13,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="/css/prism-diff.css">
@@ -24,8 +25,7 @@
     
   </head>
   <body>
-      
-<header>
+      <header>
     
 
 
@@ -98,19 +98,18 @@
     </div>
 </nav>
 </header>
-
 <main class="container tmpl-post">
     
-    <h1>Names sell: Named entity recognition in TEI Publisher</h1>
-    <div class="dateline">
-  <time datetime="2022-06-10">10 Jun 2022</time>
-  <a href="/tags/feature/" class="badge text-bg-light">feature</a>
-  <a href="/tags/tei-publisher/" class="badge text-bg-light">tei-publisher</a>
-  <a href="/tags/nlp/" class="badge text-bg-light">NLP</a>
-  <a href="/tags/named-entity-recognition/" class="badge text-bg-light">named entity recognition</a>
-</div>
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>Names sell: Named entity recognition in TEI Publisher</h1>
 
-<p>TEI Publisher 8 will include experimental support for detecting and tagging named entities in texts. The idea is to further simplify the work of editors when annotating documents via TEI Publisher’s web-based annotation editor by automatically identifying potential candidates for people, places etc.</p>
+            <div class="dateline">
+              <div>Wolfgang Meier</div>
+              <time datetime="2022-06-10">10 Jun 2022</time>
+            </div>
+
+            <p>TEI Publisher 8 will include experimental support for detecting and tagging named entities in texts. The idea is to further simplify the work of editors when annotating documents via TEI Publisher’s web-based annotation editor by automatically identifying potential candidates for people, places etc.</p>
 <figure><img src="/img/denny-muller-jLjfAWwHdB8-unsplash.jpg" alt=""></figure>
 <p>If you have the development branch (or future TEI Publisher 8) installed and the named entity recognition (NER) service running (more on this below), an additional button will be shown in the top left toolbar. Clicking on it gives you a choice of NER models to use. By default those are the standard models provided by the NER engine we're using. Below we see NER in action, detecting entities in a modern-language text copied from wikipedia.</p>
 <figure><img src="/img/wikipedia.gif" alt=""><figcaption>NER in action</figcaption></figure>
@@ -178,12 +177,39 @@
 </ul>
 
 
+            
+            <p class="credits">Cover photo by <a href="https://unsplash.com/@redaquamedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Denny Müller</a> on <a href="https://unsplash.com/s/photos/inventory?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a></p>
+            
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
 
-<p class="credits">Cover photo by <a href="https://unsplash.com/@redaquamedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Denny Müller</a> on <a href="https://unsplash.com/s/photos/inventory?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a></p>
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/past-meetings/"
+                data-bs-toggle="tooltip" title="Past Community Meetings">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+              <a class="btn btn-light" href="/posts/newsletter-2022-1/"
+                data-bs-toggle="tooltip" title="Newsletter 22/1">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
 
-<hr>
-<ul><li>Next: <a href="/posts/past-meetings/">Past Community Meetings</a></li><li>Previous: <a href="/posts/newsletter-2022-1/">Newsletter 22/1</a></li>
-</ul>
+            <ul class="tags mb-3">
+              <li><a href="/tags/feature/" class="badge text-bg-light" style="color: var(--color-2) !important">feature</a></li>
+              <li><a href="/tags/tei-publisher/" class="badge text-bg-light" style="color: var(--color-3) !important">tei-publisher</a></li>
+              <li><a href="/tags/nlp/" class="badge text-bg-light" style="color: var(--color-4) !important">NLP</a></li>
+              <li><a href="/tags/named-entity-recognition/" class="badge text-bg-light" style="color: var(--color-2) !important">named entity recognition</a></li>
+            </ul>
+
+            <nav class="toc" >
+        <ul><li><a href="#technical-background">Technical Background</a></li><li><a href="#training-a-model">Training a model</a></li><li><a href="#running-the-ner-service">Running the NER service</a></li><li><a href="#conclusion">Conclusion</a></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
 </main>
 
 <footer class="p-2">
@@ -192,6 +218,7 @@
 </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <script src="/scripts/common.js"></script>
       
   </body>
 </html>

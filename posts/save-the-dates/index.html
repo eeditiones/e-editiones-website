@@ -13,6 +13,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="/css/prism-diff.css">
@@ -24,8 +25,7 @@
     
   </head>
   <body>
-      
-<header>
+      <header>
     
 
 
@@ -98,16 +98,18 @@
     </div>
 </nav>
 </header>
-
 <main class="container tmpl-post">
     
-    <h1>Save the dates</h1>
-    <div class="dateline">
-  <time datetime="2021-02-02">02 Feb 2021</time>
-  <a href="/tags/events/" class="badge text-bg-light">events</a>
-</div>
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>Save the dates</h1>
 
-<p>New e-editiones events are coming up. Please save the dates:</p>
+            <div class="dateline">
+              <div></div>
+              <time datetime="2021-02-02">02 Feb 2021</time>
+            </div>
+
+            <p>New e-editiones events are coming up. Please save the dates:</p>
 <h2 id="1st-march-2021%2C-17.00-cet%3A-assembly" tabindex="-1">1st March 2021, 17.00 CET: Assembly</h2>
 <ul>
 <li>Assembly of e-editiones (members only)</li>
@@ -125,10 +127,34 @@
 <p>All events are <strong>free</strong>. A registration is not required. Just join the <a href="https://meet.existsolutions.com/workshop">meeting room</a>.</p>
 
 
+            
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
 
-<hr>
-<ul><li>Next: <a href="/posts/tei-to-zenodo/">TEI2Zenodo</a></li><li>Previous: <a href="/posts/newsletter-2021-1/">Newsletter 21/1</a></li>
-</ul>
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/tei-to-zenodo/"
+                data-bs-toggle="tooltip" title="TEI2Zenodo">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+              <a class="btn btn-light" href="/posts/newsletter-2021-1/"
+                data-bs-toggle="tooltip" title="Newsletter 21/1">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
+
+            <ul class="tags mb-3">
+              <li><a href="/tags/events/" class="badge text-bg-light" style="color: var(--color-2) !important">events</a></li>
+            </ul>
+
+            <nav class="toc" >
+        <ul><li><a href="#1st-march-2021%2C-17.00-cet%3A-assembly">1st March 2021, 17.00 CET: Assembly</a></li><li><a href="#8th-march-2021%2C-17.00-cet%3A-beginners-workshop">8th March 2021, 17.00 CET: Beginners Workshop</a></li><li><a href="#30th-march-2021%2C-17.00-cet%3A-workshop">30th March 2021, 17.00 CET: Workshop</a></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
 </main>
 
 <footer class="p-2">
@@ -137,6 +163,7 @@
 </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <script src="/scripts/common.js"></script>
       
   </body>
 </html>

@@ -13,6 +13,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="/css/prism-diff.css">
@@ -24,8 +25,7 @@
     
   </head>
   <body>
-      
-<header>
+      <header>
     
 
 
@@ -98,18 +98,18 @@
     </div>
 </nav>
 </header>
-
 <main class="container tmpl-post">
     
-    <h1>TEI Publisher Components in Wordpress</h1>
-    <div class="dateline">
-  <time datetime="2019-09-07">07 Sep 2019</time>
-  <a href="/tags/hugo/" class="badge text-bg-light">hugo</a>
-  <a href="/tags/pb-component/" class="badge text-bg-light">pb-component</a>
-  <a href="/tags/wordpress/" class="badge text-bg-light">wordpress</a>
-</div>
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>TEI Publisher Components in Wordpress</h1>
 
-<p>This is a short rewrite of Wolfgang’s post on <a href="https://teipublisher.onrender.com/post/embedding-publisher/">Embedding TEI Publisher Components</a> in <a href="https://gohugo.io/">Hugo</a> . For Wordpress you can do the same thing very easily. I used the example of Wolfgang’s post; just make sure that your site is whitelisted.</p>
+            <div class="dateline">
+              <div>Andreas Kränzle</div>
+              <time datetime="2019-09-07">07 Sep 2019</time>
+            </div>
+
+            <p>This is a short rewrite of Wolfgang’s post on <a href="https://teipublisher.onrender.com/post/embedding-publisher/">Embedding TEI Publisher Components</a> in <a href="https://gohugo.io/">Hugo</a> . For Wordpress you can do the same thing very easily. I used the example of Wolfgang’s post; just make sure that your site is whitelisted.</p>
 <p>Just install the <a href="https://de.wordpress.org/plugins/simple-embed-code/">Code Embed Plugin</a> and create a <a href="https://wordpress.org/support/article/custom-fields/">custom field</a> <a href="#fn:1">1</a> with the name &quot;CODEpbembed&quot; and the value:</p>
 <pre><code>&lt;script src=&quot;https://unpkg.com/@webcomponents/webcomponentsjs@2.4.3/webcomponents-loader.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;module&quot; src=&quot;https://unpkg.com/@teipublisher/pb-components@latest/dist/pb-components-bundle.js&quot;&gt;&lt;/script&gt;
 </code></pre>
@@ -165,12 +165,31 @@ pb-navigation[direction=&quot;forward&quot;] {
 </ol>
 
 
+            
+            <p class="credits">Tile photo by <a href="https://unsplash.com/@t_ahmetler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Tolga Ahmetler</a> on <a href="https://unsplash.com/s/photos/pack?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a></p>
+            
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
 
-<p class="credits">Tile photo by <a href="https://unsplash.com/@t_ahmetler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Tolga Ahmetler</a> on <a href="https://unsplash.com/s/photos/pack?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a></p>
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/first-community-event-on-may-18th-2020/"
+                data-bs-toggle="tooltip" title="First Community Event on May 18th 2020">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+            </div>
 
-<hr>
-<ul><li>Next: <a href="/posts/first-community-event-on-may-18th-2020/">First Community Event on May 18th 2020</a></li>
-</ul>
+            <ul class="tags mb-3">
+              <li><a href="/tags/hugo/" class="badge text-bg-light" style="color: var(--color-2) !important">hugo</a></li>
+              <li><a href="/tags/pb-component/" class="badge text-bg-light" style="color: var(--color-3) !important">pb-component</a></li>
+              <li><a href="/tags/wordpress/" class="badge text-bg-light" style="color: var(--color-4) !important">wordpress</a></li>
+            </ul>
+
+            
+        </aside>
+        
+    </div>
 </main>
 
 <footer class="p-2">
@@ -179,6 +198,7 @@ pb-navigation[direction=&quot;forward&quot;] {
 </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <script src="/scripts/common.js"></script>
       
   </body>
 </html>

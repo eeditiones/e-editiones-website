@@ -13,6 +13,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="/css/prism-diff.css">
@@ -24,8 +25,7 @@
     
   </head>
   <body>
-      
-<header>
+      <header>
     
 
 
@@ -98,18 +98,18 @@
     </div>
 </nav>
 </header>
-
 <main class="container tmpl-post">
     
-    <h1>TEI Publisher 6</h1>
-    <div class="dateline">
-  <time datetime="2020-07-10">10 Jul 2020</time>
-  <a href="/tags/mei/" class="badge text-bg-light">mei</a>
-  <a href="/tags/pb-component/" class="badge text-bg-light">pb-component</a>
-  <a href="/tags/release/" class="badge text-bg-light">release</a>
-</div>
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>TEI Publisher 6</h1>
 
-<p>Today the new TEI Publisher 6.0.0 is finally out. This is a major release introducing the refactored and extended component library as well as numerous bugfixes and new features.</p>
+            <div class="dateline">
+              <div>Magdalena Turska</div>
+              <time datetime="2020-07-10">10 Jul 2020</time>
+            </div>
+
+            <p>Today the new TEI Publisher 6.0.0 is finally out. This is a major release introducing the refactored and extended component library as well as numerous bugfixes and new features.</p>
 <figure><img src="/img/clem-onojeghuo-H-82Nbe8m7o-unsplash.jpg" alt=""><figcaption>Photo by <a href="https://unsplash.com/@clemono?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Clem Onojeghuo</a> on <a href="https://unsplash.com/s/photos/six?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a></figcaption></figure>
 <p>All Publisher's web components are now available as a LitElement library distributed via npm. While invisible to users, this redesign greatly improves modularity and simplifies updates of Publisher-based applications. It also facilitates embedding of Publisher custom components into CMS systems (e.g. Hugo or WordPress) and other application frameworks (like angular, vue or react).</p>
 <p>This version also brings extended internationalization and full localization into 19 languages, simplified styling, support for data organization based on subcollections, several new and enhanced components (including one for <a href="https://unpkg.com/@teipublisher/pb-components@1.0.0/dist/api.html#pb-mei.1">notated music</a> encoded in MEI), improved ODD editor and major extension and revision of the documentation.</p>
@@ -124,10 +124,34 @@
 </ul>
 
 
+            
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
 
-<hr>
-<ul><li>Next: <a href="/posts/music-is-in-the-air/">Music is in the air - MEI and TEI Publisher</a></li><li>Previous: <a href="/posts/community-event-on-music-encoding/">Community Event on Music Encoding</a></li>
-</ul>
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/music-is-in-the-air/"
+                data-bs-toggle="tooltip" title="Music is in the air - MEI and TEI Publisher">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+              <a class="btn btn-light" href="/posts/community-event-on-music-encoding/"
+                data-bs-toggle="tooltip" title="Community Event on Music Encoding">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
+
+            <ul class="tags mb-3">
+              <li><a href="/tags/mei/" class="badge text-bg-light" style="color: var(--color-2) !important">mei</a></li>
+              <li><a href="/tags/pb-component/" class="badge text-bg-light" style="color: var(--color-3) !important">pb-component</a></li>
+              <li><a href="/tags/release/" class="badge text-bg-light" style="color: var(--color-4) !important">release</a></li>
+            </ul>
+
+            
+        </aside>
+        
+    </div>
 </main>
 
 <footer class="p-2">
@@ -136,6 +160,7 @@
 </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <script src="/scripts/common.js"></script>
       
   </body>
 </html>

@@ -13,6 +13,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="/css/prism-diff.css">
@@ -101,8 +102,10 @@
 
 <main class="container tmpl-post">
     
-    <h1>Board</h1>
-    <ul>
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>Board</h1>
+            <ul>
 <li>Dr. <a href="https://k-r.ch">Andreas Kränzle</a>, <a href="https://karlbarth.unibas.ch/de/">Karl Barth-Archiv</a>, Basel</li>
 <li>Dr. Pascale Sutter, <a href="https://www.ssrq-sds-fds.ch/home/">Rechtsquellenstiftung des Schweizerischen Juristenvereins</a></li>
 <li><a href="https://www.histsem.uni-kiel.de/de/das-institut-1/abteilungen/professur-fuer-geschichte-des-spaeten-mittelalters-sowie-wirtschafts-und-sozialgeschichte/team/anne-diekjobst">Dr. des. Anne Diekjobst</a>, Christian-Albrechts-Universität zu Kiel, Historisches Seminar</li>
@@ -120,6 +123,15 @@ c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen<br>
 Notkerstrasse 22<br>
 CH-9000 St. Gallen</p>
 
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
+            <nav class="toc" >
+        <ul><li><a href="#contact">Contact</a><ul><li><a href="#postal-address">Postal Address</a></li></ul></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
 </main>
 
 <footer class="p-2">
@@ -128,6 +140,7 @@ CH-9000 St. Gallen</p>
 </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <script src="/scripts/common.js"></script>
       
   </body>
 </html>

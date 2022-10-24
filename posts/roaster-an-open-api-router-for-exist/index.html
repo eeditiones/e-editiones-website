@@ -13,6 +13,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="/css/prism-diff.css">
@@ -24,8 +25,7 @@
     
   </head>
   <body>
-      
-<header>
+      <header>
     
 
 
@@ -98,19 +98,18 @@
     </div>
 </nav>
 </header>
-
 <main class="container tmpl-post">
     
-    <h1>Roaster: an Open API Router for eXist</h1>
-    <div class="dateline">
-  <time datetime="2021-01-08">08 Jan 2021</time>
-  <a href="/tags/interoperability/" class="badge text-bg-light">interoperability</a>
-  <a href="/tags/open-api/" class="badge text-bg-light">open-api</a>
-  <a href="/tags/release/" class="badge text-bg-light">release</a>
-  <a href="/tags/tei-publisher/" class="badge text-bg-light">tei-publisher</a>
-</div>
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>Roaster: an Open API Router for eXist</h1>
 
-<p><img src="https://e-editiones.org/wp-content/uploads/2021/01/icon.svg" alt="" title="roaster logo" class="left" width="220">
+            <div class="dateline">
+              <div></div>
+              <time datetime="2021-01-08">08 Jan 2021</time>
+            </div>
+
+            <p><img src="https://e-editiones.org/wp-content/uploads/2021/01/icon.svg" alt="" title="roaster logo" class="left" width="220">
 We're happy to announce that the request routing library, which was originally developed for TEI Publisher 7, has been released as a <a href="https://github.com/eeditiones/roaster">separate package</a> with extended functionality. The library, called <strong>roaster</strong>, is generic and can be used for any eXist-based project. It implements the Open API 3.0 standard to support well-documented, versioned and formally specified APIs.</p>
 <h2 id="background" tabindex="-1">Background</h2>
 <p>In previous versions of TEI Publisher, clients (i.e. your web browser) would communicate with the server by directly calling a variety of XQuery scripts. The server-side API, if you can even call it one, was thus scattered over many different files. Finding your way through the code, figuring out what parameters are expected or how the response should look like was rather difficult. Overwriting the default behaviour - e.g. to replace the generated table of contents - required substantial coding skills. The scripts also changed between TEI Publisher versions. So, if you were working on a standalone edition generated from Publisher, updates could be tricky.</p>
@@ -134,12 +133,39 @@ We're happy to announce that the request routing library, which was originally d
 <p>Roaster 1.0.0 can be installed into your local eXist via the package manager in the dashboard. TEI Publisher 7 shipped with a slightly older version, 0.5.1., but you can run both versions side by side.</p>
 
 
+            
+            <p class="credits">Tile photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Tim Mossholder</a> on <a href="https://unsplash.com/s/photos/roaster?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a></p>
+            
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
 
-<p class="credits">Tile photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Tim Mossholder</a> on <a href="https://unsplash.com/s/photos/roaster?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a></p>
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/newsletter-2021-1/"
+                data-bs-toggle="tooltip" title="Newsletter 21/1">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+              <a class="btn btn-light" href="/posts/cross-search/"
+                data-bs-toggle="tooltip" title="Cross search">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
 
-<hr>
-<ul><li>Next: <a href="/posts/newsletter-2021-1/">Newsletter 21/1</a></li><li>Previous: <a href="/posts/cross-search/">Cross search</a></li>
-</ul>
+            <ul class="tags mb-3">
+              <li><a href="/tags/interoperability/" class="badge text-bg-light" style="color: var(--color-2) !important">interoperability</a></li>
+              <li><a href="/tags/open-api/" class="badge text-bg-light" style="color: var(--color-3) !important">open-api</a></li>
+              <li><a href="/tags/release/" class="badge text-bg-light" style="color: var(--color-4) !important">release</a></li>
+              <li><a href="/tags/tei-publisher/" class="badge text-bg-light" style="color: var(--color-2) !important">tei-publisher</a></li>
+            </ul>
+
+            <nav class="toc" >
+        <ul><li><a href="#background">Background</a></li><li><a href="#the-new-api">The new API</a></li><li><a href="#implementation">Implementation</a></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
 </main>
 
 <footer class="p-2">
@@ -148,6 +174,7 @@ We're happy to announce that the request routing library, which was originally d
 </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <script src="/scripts/common.js"></script>
       
   </body>
 </html>

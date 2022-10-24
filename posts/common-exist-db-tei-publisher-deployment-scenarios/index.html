@@ -13,6 +13,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="/css/prism-diff.css">
@@ -24,8 +25,7 @@
     
   </head>
   <body>
-      
-<header>
+      <header>
     
 
 
@@ -98,17 +98,18 @@
     </div>
 </nav>
 </header>
-
 <main class="container tmpl-post">
     
-    <h1>Common eXist-db / TEI Publisher Deployment Scenarios</h1>
-    <div class="dateline">
-  <time datetime="2020-08-29">29 Aug 2020</time>
-  <a href="/tags/events/" class="badge text-bg-light">events</a>
-  <a href="/tags/workshop/" class="badge text-bg-light">workshop</a>
-</div>
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>Common eXist-db / TEI Publisher Deployment Scenarios</h1>
 
-<p>This E-editiones online event covers different scenarios of running eXist-db applications by the example of TEI Publisher. Olaf Schreck and Lars Windauer from eXist Solutions will present the different possibilities and requirements for:</p>
+            <div class="dateline">
+              <div></div>
+              <time datetime="2020-08-29">29 Aug 2020</time>
+            </div>
+
+            <p>This E-editiones online event covers different scenarios of running eXist-db applications by the example of TEI Publisher. Olaf Schreck and Lars Windauer from eXist Solutions will present the different possibilities and requirements for:</p>
 <ul>
 <li>Editors presenting their TEI documents</li>
 <li>Developers implementing new features</li>
@@ -123,12 +124,35 @@
 <p>Thanks to <a href="https://www.nie-ine.ch/">NIE-INE</a> for sponsoring this event.</p>
 
 
+            
+            <p class="credits">Tile photo by <a href="https://unsplash.com/@neonbrand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Kenny Eliason</a> on <a href="https://unsplash.com/s/photos/hosting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a></p>
+            
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
 
-<p class="credits">Tile photo by <a href="https://unsplash.com/@neonbrand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Kenny Eliason</a> on <a href="https://unsplash.com/s/photos/hosting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a></p>
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/tei-vanilla-a-scoop-of-tei-for-everyone/"
+                data-bs-toggle="tooltip" title="TEI Vanilla - a scoop of TEI for everyone">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+              <a class="btn btn-light" href="/posts/music-is-in-the-air/"
+                data-bs-toggle="tooltip" title="Music is in the air - MEI and TEI Publisher">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
 
-<hr>
-<ul><li>Next: <a href="/posts/tei-vanilla-a-scoop-of-tei-for-everyone/">TEI Vanilla - a scoop of TEI for everyone</a></li><li>Previous: <a href="/posts/music-is-in-the-air/">Music is in the air - MEI and TEI Publisher</a></li>
-</ul>
+            <ul class="tags mb-3">
+              <li><a href="/tags/events/" class="badge text-bg-light" style="color: var(--color-2) !important">events</a></li>
+              <li><a href="/tags/workshop/" class="badge text-bg-light" style="color: var(--color-3) !important">workshop</a></li>
+            </ul>
+
+            
+        </aside>
+        
+    </div>
 </main>
 
 <footer class="p-2">
@@ -137,6 +161,7 @@
 </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <script src="/scripts/common.js"></script>
       
   </body>
 </html>

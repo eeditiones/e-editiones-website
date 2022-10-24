@@ -13,6 +13,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="/css/prism-diff.css">
@@ -24,8 +25,7 @@
     
   </head>
   <body>
-      
-<header>
+      <header>
     
 
 
@@ -98,23 +98,49 @@
     </div>
 </nav>
 </header>
-
 <main class="container tmpl-post">
     
-    <h1>First Community Event on May 18th 2020</h1>
-    <div class="dateline">
-  <time datetime="2020-05-18">18 May 2020</time>
-</div>
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>First Community Event on May 18th 2020</h1>
 
-<h2 id="if-you-missed-it-..." tabindex="-1">If you missed it ...</h2>
+            <div class="dateline">
+              <div></div>
+              <time datetime="2020-05-18">18 May 2020</time>
+            </div>
+
+            <h2 id="if-you-missed-it-..." tabindex="-1">If you missed it ...</h2>
 <p>the recorded live stream of our first community event on May 18th 2020 is available on youtube:</p>
 <iframe src="https://www.youtube.com/embed/LNbuyeh-vew" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 
+            
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
 
-<hr>
-<ul><li>Next: <a href="/posts/stay-home-learn-tei-publisher-from-scratch-june-2020/">«Stay Home Learn TEI Publisher From Scratch»</a></li><li>Previous: <a href="/posts/embeding-tei-publisher-components/">TEI Publisher Components in Wordpress</a></li>
-</ul>
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/stay-home-learn-tei-publisher-from-scratch-june-2020/"
+                data-bs-toggle="tooltip" title="«Stay Home Learn TEI Publisher From Scratch»">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+              <a class="btn btn-light" href="/posts/embeding-tei-publisher-components/"
+                data-bs-toggle="tooltip" title="TEI Publisher Components in Wordpress">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
+
+            <ul class="tags mb-3">
+            </ul>
+
+            <nav class="toc" >
+        <ul><li><a href="#if-you-missed-it-...">If you missed it ...</a></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
 </main>
 
 <footer class="p-2">
@@ -123,6 +149,7 @@
 </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <script src="/scripts/common.js"></script>
       
   </body>
 </html>
