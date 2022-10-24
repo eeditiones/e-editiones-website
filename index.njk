@@ -8,7 +8,7 @@ show: 9
 
 <section class="blog">
   {% set maxPosts = collections.posts.length | min(show) %}
-  <h3>Latest Posts</h3>
+  <h3>Latest Posts <small><a href="/posts/">See all</a></small></h3>
 
   {% set postslist = collections.posts | head(-show) %}
   {% set postslistCounter = collections.posts | length %}
