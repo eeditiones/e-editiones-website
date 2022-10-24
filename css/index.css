@@ -2,6 +2,11 @@
 :root {
   --font-family-headings: "Zilla Slab", serif;
   --font-family-body: "Lato", sans-serif;
+  --font-size-h1: 2.488rem;
+  --font-size-h2: 2.074rem;
+  --font-size-h3: 1.728rem;
+  --font-size-h4: 1.44rem;
+  --font-size-h5: 1.2rem;
   --font-size-small: 0.833rem;
   --font-size-smallest: 0.694rem;
   --color-1: #E5A02E;
@@ -15,6 +20,7 @@
   --background-color-dark: rgba(0, 0, 0, .40);
   --banner-image: url("../img/banner.jpg");
   --banner-height: 640px; /* calc(100vh - 30vh - 90px); */
+  --header-height: 84px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -45,19 +51,19 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   margin-top: 0;
-  font-size: 2.488rem;
+  font-size: var(--font-size-h1);
 }
 
-h2 {font-size: 2.074rem;}
+h2 {font-size: var(--font-size-h2);}
 
-h3 {font-size: 1.728rem;}
+h3 {font-size: var(--font-size-h3);}
 
-h4 {font-size: 1.44rem;}
+h4 {font-size: var(--font-size-h4);}
 
-h5 {font-size: 1.2rem;}
+h5 {font-size: var(--font-size-h5);}
 
-h3 small {
-  font-size: var(--font-size-small);
+small {
+  font-size: .6em;
   vertical-align: super;
 }
 
@@ -112,7 +118,7 @@ header {
 
 main {
   position: relative;
-  padding: 84px 0 3em 0;
+  padding: var(--header-height) 0 3em 0;
   margin-top: 30px;
   min-height: calc(100vh - 110px);
 }
@@ -120,7 +126,7 @@ main {
 main.home {
   margin-top: 0;
   padding: 0 0 3em 0;
-  min-height: calc(100vh - 84px);
+  min-height: calc(100vh - var(--header-height));
   background: #f0f0f0;
 }
 
@@ -212,7 +218,7 @@ nav .icons a:link {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s linear 300ms, opacity 300ms;
-  margin-top: 84px;
+  margin-top: var(--header-height);
   width: 100%;
   background-image: var(--banner-image);
 }
@@ -314,7 +320,7 @@ footer {
  * scrolling
  */
 :target {
-  scroll-margin-top: 84px;
+  scroll-margin-top: var(--header-height);
 }
 
 /* Posts */
@@ -441,7 +447,7 @@ ul.cloud li:nth-child(4n+1) a { --color: var(--color-2); }
   display: grid;
   grid-template-columns: 1fr minmax(50vw, auto);
   height: 100vh;
-  padding: 84px 0 0 0;
+  padding: var(--header-height) 0 0 0;
   margin-top: 0;
 }
 
