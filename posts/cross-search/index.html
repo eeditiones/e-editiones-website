@@ -99,7 +99,6 @@
 </nav>
 </header>
 <main class="container tmpl-post">
-    
     <div class="row gx-lg-5 gx-2">
         <div class="col-lg-9 col-md-9">
             <h1>Cross search</h1>
@@ -109,6 +108,8 @@
               <time datetime="2020-12-23">23 Dec 2020</time>
             </div>
 
+            
+            
             <p>With a growing number of editions realized with the TEI Publisher it is a logical next step to wish for a search service which can run queries across multiple corpora at the same time.</p>
 <p>Usually the problem to solve would be the great diversity of encoding across projects, even if they all use TEI as a vocabulary of choice. Even commonly represented information, like the language of the source document, can be stored in various locations in a TEI document. Lucene-based fields and facets, introduced in eXist-db 5.0 provide a mechanism to smoothly abstract away these encoding differences - we can just define, say, a <em>language</em> facet and it's the collection index configuration's role to take care of specifying where exactly to grab data from.</p>
 <p>The next potential issue would be actually running the queries across corpora, particularly with the decentralized infrastructure where editions are hosted on diverse servers. The answer here is to define an API which individual editions need to expose, so that the aggregate search engine can just poll all its registered 'members', regardless of their location or how they implement the search internally.</p>
