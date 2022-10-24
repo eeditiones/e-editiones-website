@@ -3,7 +3,7 @@
   --font-family-headings: "Zilla Slab", serif;
   --font-family-body: "Lato", sans-serif;
   --font-size-small: 0.833rem;
-  --font-size-smallest: 0.75;
+  --font-size-smallest: 0.694rem;
   --color-highlight: #FFBB54;
   --color-1: #8F6E43;
   --color-2: #005248;
@@ -248,17 +248,18 @@ nav .icons a:link {
   font-style: normal;
 }
 
+/* intro text buttons */
 .shortcut {
-  display: flex;
-  padding: 10px 8px;
   color:var(--background-color-light);
   background-color: var(--background-color-dark);
 }
+
 .shortcut span {
-  display: block;
+  display: inline-block;
   margin-left: 1em;
 }
 
+/* "editions with future" initial letter */
 .initial {
   color: var(--bs-link-color);
 }
