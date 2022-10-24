@@ -16,7 +16,7 @@ New homepage for e-editiones.
 
 ## Contributing articles
 
-Articles should use CommonMark markdown syntax and start with a header separated by `---`. The following fields can be present in the header:
+Articles should use [CommonMark](https://spec.commonmark.org/) markdown syntax and start with a header separated by `---`. The following fields can be present in the header:
 
 ```yaml
 ---
