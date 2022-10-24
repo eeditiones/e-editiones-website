@@ -1,16 +1,19 @@
 ---
 title: "Past Community Meetings"
+short: "Community Meetings"
+lead: "Listing of past meetings"
 layout: "layouts/meetup.njk"
 date: "2022-10-22"
 tags:
     - "meetups"
     - "events"
 coverImage: "estee-janssens-zni0zgb3bkQ-unsplash.jpg"
+coverImageCredits: Photo by <a href="https://unsplash.com/@esteejanssens?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Estée Janssens</a> on <a href="https://unsplash.com/s/photos/calendar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---
 
 ### Past Meetings
 
-![Photo by <a href="https://unsplash.com/@esteejanssens?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Estée Janssens</a> on <a href="https://unsplash.com/s/photos/calendar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>](/img/estee-janssens-zni0zgb3bkQ-unsplash.jpg)
+![](/img/estee-janssens-zni0zgb3bkQ-unsplash.jpg)
 
 #### 2022
 

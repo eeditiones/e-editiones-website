@@ -6,6 +6,7 @@ date: "2021-06-15"
 layout: "layouts/meetup.njk"
 tags:
     - "meetups"
+    - "events"
 ---
 
 2021-06-15: For(e) humanists - Metadata, Forms and more

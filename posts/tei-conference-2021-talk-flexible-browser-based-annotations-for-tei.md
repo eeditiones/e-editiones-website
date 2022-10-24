@@ -1,5 +1,7 @@
 ---
 title: "TEI Conference 2021 Talk: \"Flexible, Browser-Based Annotations for TEI\""
+short: "Flexible, Browser-Based Annotations for TEI"
+lead: "TEI Conference 2021"
 date: "2021-10-26"
 categories: 
   - "general"
