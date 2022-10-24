@@ -176,6 +176,14 @@ ul.navbar-nav {
   background-image: url("/img/e-editiones-logo-color.svg");
 }
 
+@media (max-width: 400px) {
+  /* Use icon instead of logo for small screens */
+  .navbar-brand, .banner-visible .navbar-brand {
+    width: 64px;
+    background-image: url("/img/e-editiones-icon-color-300x300-square.svg");
+  }
+}
+
 nav .icons a:link {
   --bs-link-color: white;
 }
