@@ -1,29 +1,64 @@
 ---
-layout: layouts/content.njk
+layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<div class="dateline">
-  <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-  {%- for tag in tags | filterTagList %}
-  {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="badge text-bg-light">{{ tag }}</a>
-  {%- endfor %}
-</div>
+<header>
+    {% include "partials/menu.njk" %}
+</header>
+<main class="container {{ templateClass }}">
+    {% block top %}{% endblock %}
+    <div class="row gx-lg-5 gx-2">
+        <div class="{{'col-lg-9 col-md-9' if sidebar else ''}}">
+            <h1>{{ title }}</h1>
 
-{{ content | safe }}
+            <div class="dateline">
+              <div>{{ author }}</div>
+              <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+            </div>
 
-{% if coverImageCredits %}
-<p class="credits">{{ coverImageCredits | safe }}</p>
-{% endif %}
+            {{ content | safe }}
 
-{%- if collections.posts %}
-{%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-{%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-{%- if nextPost or previousPost %}
-<hr>
-<ul>
-  {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-  {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-</ul>
-{%- endif %}
-{%- endif %}
+            {% if coverImageCredits %}
+            <p class="credits">{{ coverImageCredits | safe }}</p>
+            {% endif %}
+        </div>
+        {% if sidebar %}
+        <aside class="col-lg-3 col-md-3">
+            {%- if collections.posts %}
+            {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+            {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+            {%- if nextPost or previousPost %}
+
+            <div class="btn-group w-100 mb-3">
+              {%- if nextPost %}
+              <a class="btn btn-light" href="{{ nextPost.url | url }}"
+                data-bs-toggle="tooltip" title="{{ nextPost.data.title }}">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              {% endif %}
+              {%- if previousPost %}
+              <a class="btn btn-light" href="{{ previousPost.url | url }}"
+                data-bs-toggle="tooltip" title="{{ previousPost.data.title }}">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              {% endif %}
+            </div>
+
+            {%- endif %}
+            {%- endif %}
+
+            <ul class="tags mb-3">
+              {%- set cls = cycler("color-2", "color-3", "color-4") %}
+              {%- for tag in tags | filterTagList %}
+              {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+              <li><a href="{{ tagUrl | url }}" class="badge text-bg-light" style="color: var(--{{cls.next()}}) !important">{{ tag }}</a></li>
+              {%- endfor %}
+            </ul>
+
+            {{ content | toc | safe }}
+        </aside>
+        {% endif %}
+    </div>
+</main>
+
+{% include "partials/footer.njk" %}

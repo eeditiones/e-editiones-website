@@ -3,5 +3,6 @@
   "templateClass": "tmpl-post",
   "tags": [
     "static"
-  ]
+  ],
+  "sidebar": true
 }

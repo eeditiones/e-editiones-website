@@ -4,7 +4,7 @@ date: "2022-10-23"
 eleventyNavigation:
     parent: Community
     key: For researchers
-    
+sidebar: false
 ---
 
 If you are a researcher working with texts or wanting to publish **any kind of textual material**, this is the right place.

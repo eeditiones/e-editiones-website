@@ -5,6 +5,7 @@ eleventyNavigation:
     parent: Community
     key: Community Meetings
     order: 4
+sidebar: false
 ---
 
 ![Photo by <a href="https://unsplash.com/@reddalec?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Redd</a> on <a href="https://unsplash.com/s/photos/meeting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>](/img/redd-5U_28ojjgms-unsplash.jpg)

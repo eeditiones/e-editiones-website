@@ -8,8 +8,17 @@ layout: layouts/base.njk
 
 <main class="container {{ templateClass }}">
     {% block top %}{% endblock %}
-    <h1>{{ title }}</h1>
-    {{ content | safe }}
+    <div class="row gx-lg-5 gx-2">
+        <div class="{{'col-lg-9 col-md-9' if sidebar else ''}}">
+            <h1>{{ title }}</h1>
+            {{ content | safe }}
+        </div>
+        {% if sidebar %}
+        <aside class="col-lg-3 col-md-3">
+            {{ content | toc | safe }}
+        </aside>
+        {% endif %}
+    </div>
 </main>
 
 {% include "partials/footer.njk" %}
