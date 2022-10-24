@@ -3,7 +3,6 @@ title: "For(e) humanists - Metadata, Forms and more"
 short: "For(e) humanists"
 lead: "Metadata, Forms and more: new forms framework"
 date: "2021-06-15"
-layout: "layouts/meetup.njk"
 tags:
     - "meetups"
     - "events"

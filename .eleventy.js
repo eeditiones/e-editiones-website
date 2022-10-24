@@ -16,6 +16,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("scripts");
+  eleventyConfig.addPassthroughCopy("resources");
 
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);
@@ -25,6 +26,10 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
+  });
+
+  eleventyConfig.addFilter("hasTag", (tagList, tag) => {
+    return tagList.indexOf(tag) > -1;
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string

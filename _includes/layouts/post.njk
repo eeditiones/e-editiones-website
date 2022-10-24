@@ -6,7 +6,6 @@ templateClass: tmpl-post
     {% include "partials/menu.njk" %}
 </header>
 <main class="container {{ templateClass }}">
-    {% block top %}{% endblock %}
     <div class="row gx-lg-5 gx-2">
         <div class="{{'col-lg-9 col-md-9' if sidebar else ''}}">
             <h1>{{ title }}</h1>
@@ -16,6 +15,16 @@ templateClass: tmpl-post
               <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
             </div>
 
+            {% if tags | hasTag('meetups') %}
+            <p class="alert alert-warning">The <a href="{{ '/pages/community-meetings' | url }}">community meetings</a> are held online at 
+                <a href="https://meet.existsolutions.com/eeditiones">https://meet.existsolutions.com/eeditiones</a>, 
+                usually on the first Tuesday of each month at 17:00 CET/CEST. No registration is required to attend. 
+                We warmly invite you to propose topics 
+                <a href="mailto:info@e-editiones.org">info@e-editiones.org</a> 
+                for the forthcoming meetings.
+            </p>
+            {% endif %}
+            
             {{ content | safe }}
 
             {% if coverImageCredits %}

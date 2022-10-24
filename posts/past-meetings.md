@@ -2,7 +2,6 @@
 title: "Past Community Meetings"
 short: "Community Meetings"
 lead: "Listing of past meetings"
-layout: "layouts/meetup.njk"
 date: "2022-10-22"
 tags:
     - "meetups"
