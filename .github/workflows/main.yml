@@ -35,3 +35,4 @@ jobs:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         publish_dir: ./_site
         publish_branch: gh-pages
+        cname: eeditiones.teipublisher.com
