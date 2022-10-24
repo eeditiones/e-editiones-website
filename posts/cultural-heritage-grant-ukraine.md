@@ -17,9 +17,7 @@ coverImageCredits: Tile Photo by <a href="https://unsplash.com/@aaronburden?utm_
 
 # Small grants program for scholars affected by war in Ukraine
 
-![](/img/ukraine-3-279x300.png)
-
-e-editiones and the [TEI Consortium](https://tei-c.org/) in collaboration with [Archives Online](https://archives-online.org/) and [JinnTec](https://jinntec.de/) announce a small grant program aiming to help scholars of Ukrainian cultural heritage to continue their work that has been disrupted by the Russian invasion of Ukraine. We urge other institutions to support this call so we can offer funding for more of our colleagues affected by the war.
+![](/img/ukraine-3-279x300.png){.left}e-editiones and the [TEI Consortium](https://tei-c.org/) in collaboration with [Archives Online](https://archives-online.org/) and [JinnTec](https://jinntec.de/) announce a small grant program aiming to help scholars of Ukrainian cultural heritage to continue their work that has been disrupted by the Russian invasion of Ukraine. We urge other institutions to support this call so we can offer funding for more of our colleagues affected by the war.
 
 ## Who is eligible?
 
@@ -42,9 +40,13 @@ If you or your organization would like to contribute funds or services to this i
 
 ## Supporters
 
-- [SAGW](https://www.sagw.ch/sagw/) (Swiss Academy of Humanities and Social Science)
-
-![](https://raw.githubusercontent.com/eeditiones/logos/master/e-editiones-logo/e-editiones-logo-color.svg) ![](https://tei-c.org/Vault/Logos/TEIlogo.svg) ![](https://jinntec.de//img/jinntec-logo.svg) Archives Online
+<ul style="line-height: 96px;">
+  <li><a href="https://www.sagw.ch/sagw/">SAGW</a> (Swiss Academy of Humanities and Social Science)</li>
+  <li><a href="https://e-editiones.org"><img src="/img/e-editiones-logo-color.svg" height="64"></a></li>
+  <li><a href="https://tei-c.org"><img src="https://tei-c.org/Vault/Logos/TEIlogo.svg" height="64"></a></li>
+  <li><a href="https://jinntec.de"><img src="https://jinntec.de/images/jinntec-logo.svg"></a></li>
+  <li>Archives Online</li>
+</ul>
 
 * * *
 
@@ -71,4 +73,10 @@ e-editiones та [Консорціум TEI](https://tei-c.org/ "TEI Consortium")
 
 Якщо ви або ваша організація бажаєте внести кошти чи послуги на користь цієї ініціативи, будь ласка, напишіть деталі на адресу info@e-editiones.org. Фізичним особам пропонується робити пожертви через [PayPal](https://www.paypal.com/donate/?hosted_button_id=ST7PNHJK3FMX8). e-editiones є зареєстровані як некомерційна організація у Швейцарії.
 
-![](https://raw.githubusercontent.com/eeditiones/logos/master/e-editiones-logo/e-editiones-logo-color.svg) ![](https://tei-c.org/Vault/Logos/TEIlogo.svg) ![](https://jinntec.de//img/jinntec-logo.svg) Archives Online
+<ul style="line-height: 96px;">
+  <li><a href="https://www.sagw.ch/sagw/">SAGW</a> (Swiss Academy of Humanities and Social Science)</li>
+  <li><a href="https://e-editiones.org"><img src="/img/e-editiones-logo-color.svg" height="64"></a></li>
+  <li><a href="https://tei-c.org"><img src="https://tei-c.org/Vault/Logos/TEIlogo.svg" height="64"></a></li>
+  <li><a href="https://jinntec.de"><img src="https://jinntec.de/images/jinntec-logo.svg"></a></li>
+  <li>Archives Online</li>
+</ul>
