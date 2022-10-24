@@ -97,15 +97,9 @@ module.exports = function(eleventyConfig) {
   let markdownLibrary = markdownIt({
     html: true,
     linkify: true
-  // }).use(markdownItAnchor, {
-  //   permalink: markdownItAnchor.permalink.ariaHidden({
-  //     placement: "after",
-  //     class: "direct-link",
-  //     symbol: "#"
-  //   }),
-  //   level: [1,2,3,4],
-  //   slugify: eleventyConfig.getFilter("slugify")
-  }).use(implicitFigures, {
+  })
+  .use(markdownItAnchor)
+  .use(implicitFigures, {
     dataType: false,  // <figure data-type="image">, default: false
     figcaption: true,  // <figcaption>alternative text</figcaption>, default: false
     tabindex: false, // <figure tabindex="1+n">..., default: false
