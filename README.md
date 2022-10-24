@@ -16,6 +16,23 @@ New homepage for e-editiones.
 
 ## Contributing articles
 
+Articles should use CommonMark markdown syntax and start with a header separated by `---`. The following fields can be present in the header:
+
+```yaml
+---
+title: full title of the article
+short: (optional) short title
+lead: (optional) descriptive short summary
+author: author of the article
+date: 2022-10-04
+tags:
+    - events
+    - meetups
+coverImage: image to be used as cover, located in img folder
+coverImageCredits: any credits to be shown for the image
+---
+```
+
 Every article should use at least one of the following tags. Nested tags below should be used in combination with the corresponding parent tag.
 
 * events
