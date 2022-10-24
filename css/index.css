@@ -333,6 +333,11 @@ main.tmpl-post {
   font-family: var(--font-family-headings);
 }
 
+.credits {
+  text-align: right;
+  font-size: var(--font-size-small);
+}
+
 .twitter {
   margin-top: 3rem;
 }

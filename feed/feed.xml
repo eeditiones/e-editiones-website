@@ -314,7 +314,6 @@
 &lt;h2 id=&quot;%D1%8F%D0%BA-%D1%8F-%D0%BC%D0%BE%D0%B6%D1%83-%D0%B7%D1%80%D0%BE%D0%B1%D0%B8%D1%82%D0%B8-%D1%81%D0%B2%D1%96%D0%B9-%D0%B2%D0%BD%D0%B5%D1%81%D0%BE%D0%BA%3F&quot; tabindex=&quot;-1&quot;&gt;Як я можу зробити свій внесок?&lt;/h2&gt;
 &lt;p&gt;Якщо ви або ваша організація бажаєте внести кошти чи послуги на користь цієї ініціативи, будь ласка, напишіть деталі на адресу &lt;a href=&quot;mailto:info@e-editiones.org&quot;&gt;info@e-editiones.org&lt;/a&gt;. Фізичним особам пропонується робити пожертви через &lt;a href=&quot;https://www.paypal.com/donate/?hosted_button_id=ST7PNHJK3FMX8&quot;&gt;PayPal&lt;/a&gt;. e-editiones є зареєстровані як некомерційна організація у Швейцарії.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/eeditiones/logos/master/e-editiones-logo/e-editiones-logo-color.svg&quot; alt=&quot;&quot; /&gt; &lt;img src=&quot;https://tei-c.org/Vault/Logos/TEIlogo.svg&quot; alt=&quot;&quot; /&gt; &lt;img src=&quot;https://jinntec.de//img/jinntec-logo.svg&quot; alt=&quot;&quot; /&gt; Archives Online&lt;/p&gt;
-&lt;p&gt;Tile Photo by &lt;a href=&quot;https://unsplash.com/@aaronburden?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Aaron Burden&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/business-proposal?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -331,7 +330,6 @@
 &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;We are delighted that our efforts to build a thriving, diverse, and supportive open source software community together resonate so strongly with the broader community of TEI practitioners. The roots of e-editiones run deep in the TEI—starting with our initial implementation of the TEI Processing Model and continuing with the development and expansion of TEI Publisher. Throughout, we have been relentlessly driven by the simple goal to empower editors—whose digital training may focus on TEI encoding—to create high quality, sustainable, and interoperable publications. TEI Publisher is the synergistic product of strengths of our contributors: deep expertise in textual scholarship and TEI combined with technical excellence and sensitivity to the needs of humanities scholars. We are striving to carry on the legacy of Sebastian Rahtz’s passion, sharing his community-oriented, open-source-first approach, and a wish to work on challenging projects that advance the state of the field for the entire TEI Community.&lt;/p&gt;
 &lt;p&gt;In the community spirit, we will use the prize as a seed fund to expand our set of high quality examples to domains and use cases not yet covered in the TEI Publisher&#39;s demo collection. A call for contributions will be announced shortly.&lt;/p&gt;
-&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@erwanhesry?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Erwan Hesry&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/fireworks?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -361,9 +359,7 @@
 		<updated>2021-10-26T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/tei-conference-2021-talk-flexible-browser-based-annotations-for-tei/</id>
 		<content type="html">&lt;p&gt;Wolfgang Meier and Joe Wicentowski explain the web-based annotation feature introduced with TEI Publisher 7.1. We briefly introduce TEI Publisher 7.1&#39;s &lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=web-annotations&quot;&gt;Annotation Facility&lt;/a&gt; and the workflows it supports. Joe Wicentowski then demonstrates how the &lt;a href=&quot;https://history.state.gov/&quot;&gt;Office of the Historian&lt;/a&gt; uses the tool to annotate documents from the Foreign Relations series.&lt;/p&gt;
-&lt;iframe title=&quot;YouTube video player&quot; src=&quot;https://www.youtube.com/embed/5eVilDacrtA&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@theunsteady5?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Edwin Andrade&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/conference?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-</content>
+&lt;iframe title=&quot;YouTube video player&quot; src=&quot;https://www.youtube.com/embed/5eVilDacrtA&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;</content>
 	</entry>
 	
 	<entry>
@@ -393,7 +389,6 @@
 &lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/wall.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Recreated document view&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;Given that there&#39;s barely an extra effort involved in assembling the survival kit, preparing it is a clear win. After all, we already have the sources and the ODD! Enriching it with a processing model is not particularly difficult, especially if we use it to generate our transformations. Similarly, in most database systems we will need to prepare the index configurations. At this point we probably don&#39;t need to mention that TEI Publisher already implements this approach since quite a few versions (ODD with the processing model from inception, web components for user interface since version 4 and fields and facets since version 5).&lt;/p&gt;
 &lt;p&gt;Just think about it, if you pack your edition nicely, it becomes a present which archives and libraries would very much like to keep safe in their vaults and running on their servers forever...&lt;/p&gt;
-&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@isthatbrock?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Brock Wegner&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/vault?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -404,7 +399,7 @@
 		<id>https://e-editiones.org/posts/manuscript-mondays/</id>
 		<content type="html">&lt;h2 id=&quot;anne-diekjobst%2C-claudia-sutter&quot; tabindex=&quot;-1&quot;&gt;Anne Diekjobst, Claudia Sutter&lt;/h2&gt;
 &lt;p&gt;Der Workshop richtet sich an Forschende aus verschiedenen Disziplinen, die ihre erste eigene digitale Edition erstellen wollen, die sich aber überfordert fühlen von der Fülle der verfügbaren Hilfsmittel, die online zu finden sind. Wir wollen eine niederschwellige Einführung für die ersten Schritte bieten, einen Mix aus Vortrag und Workshop vornehmen und uns die Zeit nehmen, individuelle Fragen und Probleme zusammen zu besprechen. Der Workshop bietet eine begleitete Einführung, bei der die Teilnehmenden viel Zeit haben, das Gehörte selbst anzuwenden. Ziel ist es, eine eigenständige digitale Edition in TEI/XML zu erstellen und im TEI Publisher darzustellen.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/kiwihug-5bzMOpMTDRM-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/ja/@kiwihug?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Kiwihug&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/manuscript?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/kiwihug-5bzMOpMTDRM-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
 &lt;p&gt;The workshop is &lt;strong&gt;free&lt;/strong&gt; and will be held in &lt;strong&gt;German&lt;/strong&gt; over 5 Mondays. A registration is not required. Just join the &lt;a href=&quot;https://meet.existsolutions.com/workshop&quot;&gt;meeting room&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
@@ -420,7 +415,6 @@
 &lt;p&gt;TEI Publisher 7.1.0 is available as an application package on top of the eXist XML Database. Install it into a recent eXist (5.0.0 or newer) by going to the dashboard and selecting TEI Publisher from the package manager.&lt;/p&gt;
 &lt;p&gt;For more information refer to the &lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?odd=docbook.odd&quot;&gt;documentation&lt;/a&gt; or visit the &lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/&quot;&gt;homepage&lt;/a&gt; to play around with it.&lt;/p&gt;
 &lt;p&gt;It&#39;s not for the first time that our special thanks go to the &lt;a href=&quot;https://history.state.gov/&quot;&gt;Office of the Historian of the United States Department of State&lt;/a&gt; - this time for funding the major portion of the annotation editor. The Math support has been kindly funded by &lt;a href=&quot;https://bez.unibas.ch/de/&quot;&gt;Bernoulli-Euler Zentrum&lt;/a&gt; in Basel.&lt;/p&gt;
-&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/ja/@carolynchristine?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;carolyn christine&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/dreams?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -474,7 +468,6 @@
 &lt;p&gt;The upcoming version will also include index configuration and API endpoints for local and distributed portal search, so generated editions can automatically participate in a multi-edition portal like sources-online.&lt;/p&gt;
 &lt;p&gt;With these low-level technical questions solved, e-editiones is now also putting a strong focus on describing the practical recommendations for the encoding of texts. The idea is to create a set of best practice guidelines for corpora with a pledge that any text following these guidelines will look good out of the box when rendered via TEI Publisher and will be ready for incorporation into the search portal. Initial work is carried out now and we expect a community meetup soon to discuss on a broader forum.&lt;/p&gt;
 &lt;p&gt;This way we aim to: flatten the learning curve for many projects starting with TEI encoding, reduce the amount of customization work required for an edition, allowing users to publish materials with minimal effort, and assure that the project data is ready to be integrated into larger scale search portals. Needless to say, recommendations we have in mind are intended only with an eye towards interoperability and do not limit in any way customization capacities already embodied by the TEI Publisher approach.&lt;/p&gt;
-&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@neonbrand?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Kenny Eliason&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/hosting?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -652,7 +645,6 @@
 &lt;p&gt;From a developer perspective, this means you don&#39;t have to worry about parameters. Your handler function will receive a single parameter, containing all the necessary information about the request and you can safely assume that it complies with the spec you provided.&lt;/p&gt;
 &lt;p&gt;If you are interested in the details, please refer to the &lt;a href=&quot;https://github.com/eeditiones/roaster&quot;&gt;README&lt;/a&gt;. For a TEI Publisher-related example, check out the &lt;a href=&quot;https://faq.teipublisher.com/templates/custom-toc/&quot;&gt;FAQ article&lt;/a&gt;, which describes how to replace the default table of contents with a custom one.&lt;/p&gt;
 &lt;p&gt;Roaster 1.0.0 can be installed into your local eXist via the package manager in the dashboard. TEI Publisher 7 shipped with a slightly older version, 0.5.1., but you can run both versions side by side.&lt;/p&gt;
-&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@timmossholder?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Tim Mossholder&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/roaster?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -668,7 +660,6 @@
 &lt;p&gt;The &lt;a href=&quot;https://teipublisher.com/exist/apps/cross-search/index.html&quot;&gt;cross-search&lt;/a&gt; prototype is exactly such a search engine. With a simple configuration one can register all &#39;member&#39; editions. Only requirement for the editions themselves is that they expose the &lt;code&gt;api/search/document&lt;/code&gt; API endpoint, which is a matter of simple customization for all TEI Publisher 7 applications which support Open API specifications out of the box. The &lt;code&gt;api/search/document&lt;/code&gt; endpoint must accept a number of parameters defined in the specification. For this prototype the title, author and lang(uage) fields as well as genre, language and corpus facets were assumed.&lt;/p&gt;
 &lt;p&gt;We are very happy to report that our prototype works really well as a proof of concept with the eclectic collection of documents from TEI Publisher demo apps, all originating with vastly different projects with diverse encoding styles. Next, we intend to extend this idea into a general portal for archives and libraries and we would welcome collaboration from such institutions.&lt;/p&gt;
 &lt;p&gt;Our sincere thanks go to the &lt;a href=&quot;http://https//bbf.dipf.de/en&quot;&gt;Bibliothek für Bildungsgeschichtliche Forschung des DIPF / Research Library for the History of Education at DIPF&lt;/a&gt; for supporting this project.&lt;/p&gt;
-&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@alinnnaaaa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Alina Grubnyak&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/connection?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -690,7 +681,6 @@
 &lt;li&gt;Dec 23rd &lt;a href=&quot;https://teipublisher.com/exist/apps/cross-search/index.html&quot;&gt;Cross search&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Dec 31st &lt;a href=&quot;https://teipublisher.com/exist/apps/eltec/index.html&quot;&gt;ELTeC: European Literary Corpus&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@miracleday?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Elena Mozhvilo&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/advent?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -805,7 +795,6 @@
 &lt;li&gt;&lt;a href=&quot;https://youtu.be/sA7H2f6zKmI&quot;&gt;Workshop Recording&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Thanks to &lt;a href=&quot;https://www.nie-ine.ch/&quot;&gt;NIE-INE&lt;/a&gt; for sponsoring this event.&lt;/p&gt;
-&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@neonbrand?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Kenny Eliason&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/hosting?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -874,7 +863,6 @@
 &lt;p&gt;Community members Giuliano Di Bacco and Dennis Ried will give us a lightning introduction to the Music Encoding Initiative (MEI) and its practical use. We&#39;ll then have an open conversation about possible integrations of MEI into TEI Publisher. There will be also be room for further discussion in the &amp;quot;any other business&amp;quot; section afterwards. So if you have other topics or questions beyond music encoding, do not hesitate to bring them up.&lt;/p&gt;
 &lt;p&gt;Join us on jitsi: &lt;a href=&quot;https://meet.jit.si/e-editiones-events&quot;&gt;https://meet.jit.si/e-editiones-events&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This event will be the first in a series of community meetups we would like to establish on a monthly basis. Looking forward to see you all next week.&lt;/p&gt;
-&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@marius?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Marius Masalar&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/music?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -960,7 +948,6 @@ pb-navigation[direction=&amp;quot;forward&amp;quot;] {
 &lt;ol&gt;
 &lt;li&gt;Custom fields are hidden by default on most WordPress sites. To make them visible, select the Screen Options tab at the top of any WordPress editor page, and choose Custom Fields &lt;a href=&quot;https://e-editiones.org/posts/embeding-tei-publisher-components/#fnref1:1&quot;&gt;↩&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Tile photo by &lt;a href=&quot;https://unsplash.com/@t_ahmetler?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Tolga Ahmetler&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/pack?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>
