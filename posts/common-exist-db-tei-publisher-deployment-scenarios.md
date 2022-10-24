@@ -10,6 +10,7 @@ tags:
   - "events"
   - "workshop"
 coverImage: "kenny-eliason-uq5RMAZdZG4-unsplash.jpg"
+coverImageCredits: Tile photo by <a href="https://unsplash.com/@neonbrand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Kenny Eliason</a> on <a href="https://unsplash.com/s/photos/hosting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---
 
 This E-editiones online event covers different scenarios of running eXist-db applications by the example of TEI Publisher. Olaf Schreck and Lars Windauer from eXist Solutions will present the different possibilities and requirements for:
@@ -26,5 +27,3 @@ The event took place on Tuesday the 8th of September from 16:00 till 17:00 CEST 
 - [Workshop Recording](https://youtu.be/sA7H2f6zKmI)
 
 Thanks to [NIE-INE](https://www.nie-ine.ch/) for sponsoring this event.
-
-Tile photo by <a href="https://unsplash.com/@neonbrand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Kenny Eliason</a> on <a href="https://unsplash.com/s/photos/hosting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>

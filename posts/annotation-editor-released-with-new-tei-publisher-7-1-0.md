@@ -11,6 +11,7 @@ tags:
   - "release"
   - "tei"
 coverImage: "carolyn-christine-D7bmnvGJA2Q-unsplash.jpg"
+coverImageCredits: Tile photo by <a href="https://unsplash.com/ja/@carolynchristine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">carolyn christine</a> on <a href="https://unsplash.com/s/photos/dreams?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---
 
 Answering the secret dream of many TEI users, the new TEI Publisher version 7.1.0 incorporates a — beautifully simple to use, yet powerful — way to enrich existing TEI documents. Just select a text passage, click on a button and within seconds — and without a pointy bracket in sight! — mark it as one of many supported annotation types. A place or person? Sure, and with built-in connectors for external authority files, too. Critical apparatus entries? We got you! Dates, corrections, regularizations and even quick fixes for typos in your transcription.
@@ -24,6 +25,3 @@ TEI Publisher 7.1.0 is available as an application package on top of the eXist X
 For more information refer to the [documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?odd=docbook.odd) or visit the [homepage](https://teipublisher.com/exist/apps/tei-publisher/) to play around with it.
 
 It's not for the first time that our special thanks go to the [Office of the Historian of the United States Department of State](https://history.state.gov/) - this time for funding the major portion of the annotation editor. The Math support has been kindly funded by [Bernoulli-Euler Zentrum](https://bez.unibas.ch/de/) in Basel.
-
-Tile photo by <a href="https://unsplash.com/ja/@carolynchristine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">carolyn christine</a> on <a href="https://unsplash.com/s/photos/dreams?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
-  

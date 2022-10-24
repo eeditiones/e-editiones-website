@@ -5,6 +5,7 @@ date: "2020-12-21"
 tags:
   - "events"
 coverImage: "elena-mozhvilo-wBenc1bRgGI-unsplash.jpg"
+coverImageCredits: Tile photo by <a href="https://unsplash.com/@miracleday?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Elena Mozhvilo</a> on <a href="https://unsplash.com/s/photos/advent?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---
 
 
@@ -26,5 +27,3 @@ In the first instance we are presenting projects coordinated by e-editiones and 
 - Dec 21st: [TEI Publisher FAQ](https://faq.teipublisher.com/ "TEI Publisher FAQ") launch
 - Dec 23rd [Cross search](https://teipublisher.com/exist/apps/cross-search/index.html)
 - Dec 31st [ELTeC: European Literary Corpus](https://teipublisher.com/exist/apps/eltec/index.html)
-
-Tile photo by <a href="https://unsplash.com/@miracleday?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Elena Mozhvilo</a> on <a href="https://unsplash.com/s/photos/advent?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>

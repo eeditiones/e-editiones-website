@@ -10,6 +10,7 @@ tags:
   - "news"
   - "ukraine"
 coverImage: "aaron-burden-AXqMy8MSSdk-unsplash.jpg"
+coverImageCredits: Tile Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Aaron Burden</a> on <a href="https://unsplash.com/s/photos/business-proposal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---
 
 [Українська ![](/img/ukraine-1.png)](#ukr) 
@@ -71,6 +72,3 @@ e-editiones та [Консорціум TEI](https://tei-c.org/ "TEI Consortium")
 Якщо ви або ваша організація бажаєте внести кошти чи послуги на користь цієї ініціативи, будь ласка, напишіть деталі на адресу info@e-editiones.org. Фізичним особам пропонується робити пожертви через [PayPal](https://www.paypal.com/donate/?hosted_button_id=ST7PNHJK3FMX8). e-editiones є зареєстровані як некомерційна організація у Швейцарії.
 
 ![](https://raw.githubusercontent.com/eeditiones/logos/master/e-editiones-logo/e-editiones-logo-color.svg) ![](https://tei-c.org/Vault/Logos/TEIlogo.svg) ![](https://jinntec.de//img/jinntec-logo.svg) Archives Online
-
-Tile Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Aaron Burden</a> on <a href="https://unsplash.com/s/photos/business-proposal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
-  

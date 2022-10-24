@@ -10,6 +10,7 @@ tags:
   - "release"
   - "tei-publisher"
 coverImage: "tim-mossholder-YC6RVdoTtIk-unsplash.jpg"
+coverImageCredits: Tile photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Tim Mossholder</a> on <a href="https://unsplash.com/s/photos/roaster?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---
 
 ![](https://e-editiones.org/wp-content/uploads/2021/01/icon.svg "roaster logo")
@@ -55,5 +56,3 @@ From a developer perspective, this means you don't have to worry about parameter
 If you are interested in the details, please refer to the [README](https://github.com/eeditiones/roaster). For a TEI Publisher-related example, check out the [FAQ article](https://faq.teipublisher.com/templates/custom-toc/), which describes how to replace the default table of contents with a custom one.
 
 Roaster 1.0.0 can be installed into your local eXist via the package manager in the dashboard. TEI Publisher 7 shipped with a slightly older version, 0.5.1., but you can run both versions side by side.
-
-Tile photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Tim Mossholder</a> on <a href="https://unsplash.com/s/photos/roaster?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>

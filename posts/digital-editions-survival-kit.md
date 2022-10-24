@@ -7,6 +7,7 @@ categories:
   - "sustainability"
   - "tei-publisher"
 coverImage: "brock-wegner-3ROwc3JSjCk-unsplash.jpg"
+coverImageCredits: Tile photo by <a href="https://unsplash.com/@isthatbrock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Brock Wegner</a> on <a href="https://unsplash.com/s/photos/vault?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---
 
 ## Reconstructing an edition
@@ -45,5 +46,3 @@ How does it work in practice? You might want to have a closer look at one of the
 Given that there's barely an extra effort involved in assembling the survival kit, preparing it is a clear win. After all, we already have the sources and the ODD! Enriching it with a processing model is not particularly difficult, especially if we use it to generate our transformations. Similarly, in most database systems we will need to prepare the index configurations. At this point we probably don't need to mention that TEI Publisher already implements this approach since quite a few versions (ODD with the processing model from inception, web components for user interface since version 4 and fields and facets since version 5).
 
 Just think about it, if you pack your edition nicely, it becomes a present which archives and libraries would very much like to keep safe in their vaults and running on their servers forever...
-
-Tile photo by <a href="https://unsplash.com/@isthatbrock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Brock Wegner</a> on <a href="https://unsplash.com/s/photos/vault?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>

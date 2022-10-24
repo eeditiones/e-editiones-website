@@ -11,6 +11,7 @@ tags:
   - "tei"
   - "tei-publisher"
 coverImage: "alina-grubnyak-ZiQkhI7417A-unsplash.jpg"
+coverImageCredits: Tile photo by <a href="https://unsplash.com/@alinnnaaaa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Alina Grubnyak</a> on <a href="https://unsplash.com/s/photos/connection?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---
 
 With a growing number of editions realized with the TEI Publisher it is a logical next step to wish for a search service which can run queries across multiple corpora at the same time.
@@ -26,6 +27,3 @@ The [cross-search](https://teipublisher.com/exist/apps/cross-search/index.html) 
 We are very happy to report that our prototype works really well as a proof of concept with the eclectic collection of documents from TEI Publisher demo apps, all originating with vastly different projects with diverse encoding styles. Next, we intend to extend this idea into a general portal for archives and libraries and we would welcome collaboration from such institutions.
 
 Our sincere thanks go to the [Bibliothek für Bildungsgeschichtliche Forschung des DIPF / Research Library for the History of Education at DIPF](http://https://bbf.dipf.de/en) for supporting this project.
-
-Tile photo by <a href="https://unsplash.com/@alinnnaaaa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Alina Grubnyak</a> on <a href="https://unsplash.com/s/photos/connection?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
-  

@@ -10,11 +10,11 @@ templateClass: tmpl-post
   {%- endfor %}
 </div>
 
-{% if post.data.coverImage %}
-<img class="card-img-top" src="/img/{{post.data.coverImage}}">
-{% endif %}
-
 {{ content | safe }}
+
+{% if coverImageCredits %}
+<p class="credits">{{ coverImageCredits | safe }}</p>
+{% endif %}
 
 {%- if collections.posts %}
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
