@@ -16,7 +16,7 @@ New homepage for e-editiones.
 
 ## Contributing articles
 
-Articles should use [CommonMark](https://commonmark.org/help/) markdown syntax and start with a header separated by `---`. You can use the file [pages/article-template.md](pages/article-template.md) as a template. The following fields can be present in the header:
+Articles should use [CommonMark](https://commonmark.org/help/) markdown syntax and start with a header separated by `---`. You can use the file [posts/article-template.md](posts/article-template.md) as a template. The following fields can be present in the header:
 
 ```yaml
 ---
