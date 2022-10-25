@@ -16,20 +16,20 @@ New homepage for e-editiones.
 
 ## Contributing articles
 
-Articles should use [CommonMark](https://spec.commonmark.org/) markdown syntax and start with a header separated by `---`. The following fields can be present in the header:
+Articles should use [CommonMark](https://commonmark.org/help/) markdown syntax and start with a header separated by `---`. You can use the file [pages/article-template.md](pages/article-template.md) as a template. The following fields can be present in the header:
 
 ```yaml
 ---
-title: full title of the article
-short: (optional) short title
-lead: (optional) descriptive short summary
-author: author of the article
-date: 2022-10-04
+title: Full title of the article
+short: (optional) Short title
+lead: (optional) Descriptive short summary
+author: Author of the article
+date: 2022-10-25
 tags:
     - events
     - meetups
-coverImage: image to be used as cover, located in img folder
-coverImageCredits: any credits to be shown for the image
+coverImage: Image to be used as cover, located in img folder
+coverImageCredits: Any credits to be shown for the cover image
 ---
 ```
 
@@ -47,7 +47,7 @@ Every article should use at least one of the following tags. Nested tags below s
 * tutorial
   * beginner
   * intermediate
-  * pro
+  * advanced
 * faq
 * report
   * projects
