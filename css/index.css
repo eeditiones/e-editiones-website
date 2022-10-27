@@ -18,7 +18,7 @@
   --bs-link-hover-color: var(--color-2);
   --background-color-light: rgba(255, 255, 255, .80);
   --background-color-dark: rgba(0, 0, 0, .40);
-  --banner-image: url("../img/banner.jpg");
+  --banner-image: url("../img/banner-640.jpg");
   --banner-height: 640px; /* calc(100vh - 30vh - 90px); */
   --header-height: 84px;
 }
@@ -108,7 +108,7 @@ header {
   justify-content: stretch;
   width: 100%;
   background-image: var(--banner-image);
-  z-index: 2;
+  z-index: 1001;
 }
 
 .banner-visible header {
