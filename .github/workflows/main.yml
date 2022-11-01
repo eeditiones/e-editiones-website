@@ -24,7 +24,7 @@ jobs:
       uses: actions/setup-node@v3.4.1
 
     - name: Start docker image
-      run: docker run --publish 8080:8080 --detach exist-db ghcr.io/eeditiones/tei-publisher-app/teipublisher:master
+      run: docker run --publish 8080:8080 --detach ghcr.io/eeditiones/tei-publisher-app/teipublisher:master
 
     - name: Wait for eXist
       uses: iFaxity/wait-on-action@v1
