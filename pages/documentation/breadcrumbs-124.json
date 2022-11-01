@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.35.21",
+    "rootNode": "3.35.21",
+    "id": "new-vocabulary-lucene",
+    "odd": "docbook.odd",
+    "next": "3.35.23",
+    "previous": "3.35.19",
+    "nextId": "new-vocabulary-navigation",
+    "previousId": "new-vocabulary-default-view",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Adding a custom vocabulary</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Lucene configuration</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

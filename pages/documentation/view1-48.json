@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.11.15.11",
+    "rootNode": "3.11.15.11",
+    "id": "output-media-fo",
+    "odd": "docbook.odd",
+    "next": "3.11.15.13",
+    "previous": "3.11.15",
+    "nextId": "output-media-latex",
+    "previousId": "output-media",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"output-media-fo\"><pb-observable data=\"3.11.15.11,3.11.15.11\" emit=\"transcription\">\n        <h3 class=\"tei-title6 title\">FO Output</h3>\n        <p class=\"tei-para\">When generating XSL:FO output, the implementation tries to translate the CSS rules\n            specified for renditions into the corresponding XSL:FO formatting properties. Not all\n            CSS properties are recognized or can be mapped to FO properties. Unknown properties\n            defined in a rendition will be ignored.</p>\n        <p class=\"tei-para\">The default rendering for headings, paragraphs and the like is defined by a separate\n            CSS file. The implementation merges those defaults with the custom renditions given in\n            the ODD.</p>\n        <p class=\"tei-para\">\n          The library searches for default CSS styles in a file named\n          <span class=\"tei-filename code\">&lt;odd-name&gt;.fo.css</span>\n          inside the specified output collection\n            (in which the generated XQuery files are stored). The style definitions are copied\n            literally into attributes on the output XSL:FO elements, so any property which is a\n            valid attribute for the corresponding element may be used. For example,\n          <span class=\"tei-filename code\">teipublisher.fo.css</span>\n          contains:\n        </p>\n        <pb-code-highlight class=\"tei-programlisting5\" language=\"css\" line-numbers=\"line-numbers\">\n.tei-text { font-family: \"Junicode\"; hyphenate: true; }\n.tei-floatingText { padding: 6pt; }\n.tei-p { text-align: justify; }\n        </pb-code-highlight>\n        <p class=\"tei-para\">Every XSL:FO document needs a master layout and a page sequence definition. Because\n            those tend to be rather verbose as they include things like page margins etc., they are\n            read from two XML files:</p>\n        <dl><dt>master.fo.xml</dt><dd>\n              <p class=\"tei-para\">Contains the layout master set</p>\n            </dd><dt>page-sequence.fo.xml</dt><dd>\n              <p class=\"tei-para\">Defines the main page sequence</p>\n            </dd></dl>\n        <p class=\"tei-para\">The mechanisms for configuring FO output are still very much under development and\n            we welcome suggestions by users.</p>\n      </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

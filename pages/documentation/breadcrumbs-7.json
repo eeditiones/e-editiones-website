@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.7.7",
+    "rootNode": "3.7.7",
+    "id": "installation",
+    "odd": "docbook.odd",
+    "next": "3.7.7.9",
+    "previous": "3.7",
+    "nextId": "exist-installation",
+    "previousId": "quickstart",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Quickstart</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Installation</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

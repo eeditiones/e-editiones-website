@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.27.15",
+    "rootNode": "3.27.15",
+    "id": "pi-config",
+    "odd": "docbook.odd",
+    "next": "3.29",
+    "previous": "3.27.13",
+    "nextId": "facets",
+    "previousId": "subcollections",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Data</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Processing instructions</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

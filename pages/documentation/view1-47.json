@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.11.15",
+    "rootNode": "3.11.15",
+    "id": "output-media",
+    "odd": "docbook.odd",
+    "next": "3.11.15.11",
+    "previous": "3.11.13",
+    "nextId": "output-media-fo",
+    "previousId": "external-css",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"output-media\"><pb-observable data=\"3.11.15,3.11.15\" emit=\"transcription\"><h2 class=\"tei-title6 title\">Output Media Settings</h2><p class=\"tei-para\">\n        The library supports various output media formats and translates styles into the\n          corresponding format. Currently the following output modes are supported and can be used\n          in the\n        <span class=\"tei-parameter code\">@output</span>\n        attribute:\n      </p><dl><dt>web</dt><dd>\n            <p class=\"tei-para\">Produces HTML output</p>\n          </dd><dt>fo</dt><dd>\n            <p class=\"tei-para\">Generates a PDF via XSL:FO</p>\n          </dd><dt>latex</dt><dd>\n            <p class=\"tei-para\">Creates a PDF via LaTeX</p>\n          </dd><dt>print</dt><dd>\n            <p class=\"tei-para\">An alias which applies to both: fo and latex modes.</p>\n          </dd><dt>epub</dt><dd>\n            <p class=\"tei-para\">Similar to web concerning features, but targetted at epub documents</p>\n          </dd></dl><p class=\"tei-para\">The quality of the generated output may vary a lot for the fo and latex modes,\n          depending on the type of input document. The following section provides more details on\n          the configuration of the FO output option:</p></pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

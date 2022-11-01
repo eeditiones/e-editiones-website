@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.7.7.9",
+    "rootNode": "3.7.7.9",
+    "id": "exist-installation",
+    "odd": "docbook.odd",
+    "next": "3.7.7.9.7",
+    "previous": "3.7.7",
+    "nextId": "download",
+    "previousId": "installation",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"exist-installation\"><pb-observable data=\"3.7.7.9,3.7.7.9\" emit=\"transcription\">\n        <h3 class=\"tei-title6 title\">Installing into an eXist instance</h3>\n\n        <div class=\"tei-section3\" id=\"java\"><pb-observable data=\"3.7.7.9,3.7.7.9.5\" emit=\"transcription\">\n          <h4 class=\"tei-title6 title\">Java</h4>\n          <p class=\"tei-para\">\n            Before installing eXist, make sure you have Java installed on your machine. You\n              can run\n            <span class=\"tei-command code\">java -version</span>\n            on a command line to check which version of\n              Java you have. Make sure you have at least Java 8 (recommended: Java 11). Please note\n              that the\n            <span class=\"tei-command code\">java -version</span>\n            shows the full version string, so 1.8.0 or\n              similar instead of just 8.\n          </p>\n          <p class=\"tei-para\">\n            If you do not have Java installed, you can choose between a variety of different\n              Java distributions for your operating system. While these are largely equivalent, so\n              far we have had the smoothest installation experience across operating systems with\n              the\n            <a href=\"https://www.azul.com/downloads/zulu-community/?package=jdk\" class=\"tei-link4\" target=\"_new\">Zulu\n                Community OpenJDK</a>\n            builds. In particular for Windows users, this provides the\n              best out of the box experience.\n          </p>\n        </pb-observable></div></pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.19.17.13",
+    "rootNode": "3.19.17.13",
+    "id": "i18n-page-templates-properties",
+    "odd": "docbook.odd",
+    "next": "3.19.19",
+    "previous": "3.19.17.11",
+    "nextId": "i18n-customization",
+    "previousId": "i18n-page-templates-attributes",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"i18n-page-templates-properties\"><pb-observable data=\"3.19.17.13,3.19.17.13\" emit=\"transcription\">\n        <h3 class=\"tei-title6 title\">Special web component properties configured via attributes</h3>\n        <p class=\"tei-para\">\n          Some web components accept more complex configuration options via arrays passed in\n            attributes. For example,\n          <span class=\"tei-tag code\">pb-browse-docs</span>\n          component allows to specify a number\n            of label/value pairs for dropdown menus used for ordering and filtering the document\n            list. Understandably, the labels should switch in line with changes to the language\n            chosen via\n          <span class=\"tei-tag code\">pb-lang</span>\n          . Therefore i18n translation keys like\n          <span class=\"tei-emphasis2\">browse.title</span>\n          or\n          <span class=\"tei-emphasis2\">browse.author</span>\n          are used\n            instead of text values. Note that web components may have particular expectations for\n            the data format expected so consult API documentation for each component.\n        </p>\n        <pb-code-highlight class=\"tei-programlisting5\" language=\"html\" line-numbers=\"line-numbers\">\n&lt;pb-browse-docs id=\"document-list\" url=\"collection/\" \n      sort-options='[{\"label\": \"browse.title\", \"value\": \"title\"},{\"label\": \"browse.author\", \"value\": \"author\"}]' \n      sort-by=\"title\"\n      filter-options='[{\"label\": \"browse.title\", \"value\": \"title\"},{\"label\": \"browse.author\", \"value\": \"author\"},{\"label\": \"browse.file\", \"value\": \"file\"}]' \n      filter-by=\"title\" \n      auto=\"auto\" history=\"history\" login=\"login\" emit=\"docs\" subscribe=\"docs\"&gt;\n  &lt;pb-paginate slot=\"toolbar\" id=\"paginate\" per-page=\"10\" range=\"5\" emit=\"docs\" subscribe=\"docs\"&gt;&lt;/pb-paginate&gt;\n&lt;/pb-browse-docs&gt;\n         </pb-code-highlight>\n      </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

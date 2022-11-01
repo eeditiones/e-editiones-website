@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.7.7.9.15",
+    "rootNode": "3.7.7.9.15",
+    "id": "first-launch",
+    "odd": "docbook.odd",
+    "next": "3.7.7.9.17",
+    "previous": "3.7.7.9.13",
+    "nextId": "packageManager",
+    "previousId": "unix-installation",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"first-launch\"><pb-observable data=\"3.7.7.9.15,3.7.7.9.15\" emit=\"transcription\">\n          <h4 class=\"tei-title6 title\">First launch</h4>\n          <p class=\"tei-para\">Once eXist is launched for the first time you should see (with the exception of\n              some Unix system configurations described above) a splash window popping up, showing\n              that default applications are being installed:</p>\n          <figure class=\"tei-figure2 figure\"><span class=\"tei--element\">\n              <span class=\"tei--element\">\n                <img src=\"eXistSplash.png\" class=\"tei-imagedata2\" title=\"\" style=\"width: 256px; \">\n              </span>\n            </span><figcaption>Splash Screen on eXist Startup</figcaption></figure>\n          <p class=\"tei-para\">Upon first start, an additional configuration window will pop up on Windows and\n              Mac, allowing you to configure basic parameters. Default settings suggested provide a\n              good starting point for most projects so usually there's no need to change anything. </p>\n          <figure class=\"tei-figure2 figure\"><span class=\"tei--element\">\n              <span class=\"tei--element\">\n                <img src=\"eXistInitialConfig.png\" class=\"tei-imagedata2\" title=\"\" style=\"width: 512px; \">\n              </span>\n            </span><figcaption>Configuration Dialog Showing on First Start</figcaption></figure>\n          <p class=\"tei-para\">\n            Clicking on\n            <span class=\"tei-guibutton guibutton\">Save</span>\n            will show a popup asking to confirm the\n              location of the data directory. Unless you have specific requirements just agree to\n              the suggestion of the configuration dialog.\n          </p>\n          <p class=\"tei-para\">\n            <span class=\"tei-emphasis2\">Windows users</span>\n            will be asked if they would like to install\n              eXist as a service. This is highly recommended to ensure that the database is\n              correctly closed whenever the operating system shuts down.\n          </p>\n          <p class=\"tei-para\">If all went well, eXist should now be up and running in the background. Mac and\n              Windows users should find a small eXist icon in their task bar. Right-clicking on it\n              will reveal a menu:</p>\n          <figure class=\"tei-figure2 figure\"><span class=\"tei--element\">\n              <span class=\"tei--element\">\n                <img src=\"eXistTaskbarIcon.png\" class=\"tei-imagedata2\" title=\"\" style=\"width: 512px; \">\n              </span>\n            </span><figcaption>Taskbar Launcher Context Menu</figcaption></figure>\n        </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

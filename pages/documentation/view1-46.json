@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.11.13",
+    "rootNode": "3.11.13",
+    "id": "external-css",
+    "odd": "docbook.odd",
+    "next": "3.11.15",
+    "previous": "3.11.11.13.7",
+    "nextId": "output-media",
+    "previousId": "behaviours-available",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"external-css\"><pb-observable data=\"3.11.13,3.11.13\" emit=\"transcription\">\n      <h2 class=\"tei-title6 title\">Including General CSS Styles</h2>\n      <p class=\"tei-para\">\n        TEI Publisher is based on webcomponents, therefore styling of one document will not\n          interfere with the styling of another document on the same page. All styles are strictly\n          encapsulated within the component and do not \"pollute\" the global browser space. This also\n          has a downside though: CSS rules defined outside the\n        <span class=\"tei-tag code\">pb-view</span>\n        have no influence\n          on the text styling inside the component (with some exceptions, mainly for properties\n          which are inherited down the HTML tree, e.g.\n        <span class=\"tei-parameter code\">font-family</span>\n        ).\n      </p>\n      <p class=\"tei-para\">\n        However, putting\n        <span class=\"tei-emphasis2\">all</span>\n        styling information into\n        <span class=\"tei-tag code\">outputRendition</span>\n        tags within the ODD is also not a good idea - it adds a lot\n          of redundancy and mixes editorial responsibilities with web design concerns.\n      </p>\n      <p class=\"tei-para\">\n        The recommended solution would therefore be to use CSS classes for repeating styling\n          aspects. TEI Publisher supports linking to an external CSS stylesheet from the\n        <span class=\"tei-code2 code\">encodingDesc/tagsDecl/rendition</span>\n        section of the ODD. Just specify a relative\n          link in the\n        <span class=\"tei-parameter code\">@source</span>\n        attribute:\n      </p>\n      <pb-code-highlight class=\"tei-programlisting5\" language=\"xml\" line-numbers=\"line-numbers\">\n                  &lt;rendition source=\"docbook.css\"/&gt;\n          </pb-code-highlight>\n      <p class=\"tei-para\">The file should be stored in the same collection as the source ODD it is referenced\n          from. The linked file should be a standard CSS stylesheet.</p>\n      <p class=\"tei-para\">Note that unfortunately, editing renditions is not yet supported by the visual ODD\n          editor, so you will have to fall back to add the corresponding elements to the ODD by\n          hand.</p>\n      <p class=\"tei-para\">\n        Alternatively, one may also use the same TEI element\n        <span class=\"tei-tag code\">rendition</span>\n        with the\n        <span class=\"tei-parameter code\">@selector</span>\n        attribute to embed CSS rules directly in the\n          ODD.\n      </p>\n\n      <pb-code-highlight class=\"tei-programlisting5\" language=\"xml\" line-numbers=\"line-numbers\">&lt;rendition selector=\"h3\"&gt;\n  font-family: serif;\n  font-weight: 400;\n&lt;/rendition&gt;</pb-code-highlight>\n      <p class=\"tei-para\">Choose one of the two approaches, but do not mix them. In both cases make sure to\n          recompile the ODD after changes as the CSS is merged into the generated code!</p>\n\n      <p class=\"tei-para\">\n        New addition in Publisher 6.0 allows to pass the external CSS file in\n        <span class=\"tei-code2 code\">load-css</span>\n        attribute of\n        <span class=\"tei-code2 code\">pb-view</span>\n        . Recompiling ODD in this case is\n          not necessary, otherwise it is functionally equivalent to using ODD\n        <span class=\"tei-code2 code\">rendition</span>\n        .\n      </p>\n    </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

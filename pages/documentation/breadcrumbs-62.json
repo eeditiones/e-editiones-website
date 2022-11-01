@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.11.17.15.13",
+    "rootNode": "3.11.17.15.13",
+    "id": "odd-by-example-advanced",
+    "odd": "docbook.odd",
+    "next": "3.13",
+    "previous": "3.11.17.15",
+    "nextId": "css-styling",
+    "previousId": "odd-by-example",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Processing Model transformations</span><span class=\"tei-title3\">Extensions to the Processing Model Specification</span><span class=\"tei-title3\">Building a Sample-Based ODD</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Advanced Use</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

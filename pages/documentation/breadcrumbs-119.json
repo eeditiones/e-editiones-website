@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.33.33",
+    "rootNode": "3.33.33",
+    "id": "custom-components-using",
+    "odd": "docbook.odd",
+    "next": "3.35",
+    "previous": "3.33.31",
+    "nextId": "new-vocabulary",
+    "previousId": "custom-components-bundle",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Creating Custom Web Components</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Using pb-extension-bundle in TEI Publisher or other apps</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

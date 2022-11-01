@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.15",
+    "rootNode": "3.15",
+    "id": "webcomponents",
+    "odd": "docbook.odd",
+    "next": "3.15.9",
+    "previous": "3.13.13",
+    "nextId": "webcomponents-intro",
+    "previousId": "css-styling-external",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"></span><span class=\"tei-section2\"><span class=\"tei-title3\">Page templates and pb-components</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

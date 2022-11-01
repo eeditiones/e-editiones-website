@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.35.23",
+    "rootNode": "3.35.23",
+    "id": "new-vocabulary-navigation",
+    "odd": "docbook.odd",
+    "next": "3.35.25",
+    "previous": "3.35.21",
+    "nextId": "new-vocabulary-search",
+    "previousId": "new-vocabulary-lucene",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"new-vocabulary-navigation\"><pb-observable data=\"3.35.23,3.35.23\" emit=\"transcription\">\n      <h2 class=\"tei-title6 title\">Navigation</h2>\n      <p class=\"tei-para\">We have extensively covered modifications to the ODD and page templates in earlier\n          chapters. In case of vocabularies without out-of-the-box Publisher support it is necessary\n          to customize the navigation as well. Tacit understanding of document's structure is\n          critical for many kinds of user interactions - from browsing through pages to creating the\n          table of contents.</p>\n      <p class=\"tei-para\">\n        <span class=\"tei-filename code\">modules/navigation.xql</span>\n        is the main \"control room\" for all tasks\n          related to navigation. You will note that it imports custom modules for all supported\n          vocabularies:\n        <span class=\"tei-emphasis2\">TEI</span>\n        ,\n        <span class=\"tei-emphasis2\">JATS</span>\n        and\n        <span class=\"tei-emphasis2\">DocBook</span>\n        . All requests are dispatched to specialized modules,\n          depending on the namespace of the document (cf.\n        <span class=\"tei-function code\">config:document-type</span>\n        function).\n      </p>\n      <pb-code-highlight class=\"tei-programlisting5\" language=\"xquery\" line-numbers=\"line-numbers\">\nmodule namespace nav=\"http://www.tei-c.org/tei-simple/navigation\";\n\nimport module namespace tei-nav=\"http://www.tei-c.org/tei-simple/navigation/tei\" at \"navigation-tei.xql\";\nimport module namespace jats-nav=\"http://www.tei-c.org/tei-simple/navigation/jats\" at \"navigation-jats.xql\";\nimport module namespace docbook-nav=\"http://www.tei-c.org/tei-simple/navigation/docbook\" at \"navigation-dbk.xql\";\n      </pb-code-highlight>\n      <p class=\"tei-para\">Customizing yet unsupported vocabulary will require:</p>\n      <ul class=\"tei-itemizedlist\"><li class=\"tei-listitem\">\n          <p class=\"tei-para\">\n            create a new navigation module for the new vocabulary (e.g.\n            <span class=\"tei-filename code\">navigation-foo.xql</span>\n            ; it should implement all the functions that\n            <span class=\"tei-function code\">navigation.xql</span>\n            dispatches to; you can use\n            <span class=\"tei-filename code\">navigation-tei</span>\n            as a starting point for customization\n          </p>\n        </li><li class=\"tei-listitem\">\n          <p class=\"tei-para\">\n            import it into\n            <span class=\"tei-filename code\">navigation.xql</span>\n          </p>\n        </li><li class=\"tei-listitem\">\n          <p class=\"tei-para\">\n            adjust\n            <span class=\"tei-function code\">config:document-type</span>\n            function\n          </p>\n        </li><li class=\"tei-listitem\">\n          <p class=\"tei-para\">\n            adjust\n            <span class=\"tei-function code\">nav:get-root</span>\n          </p>\n        </li></ul>\n    </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

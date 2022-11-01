@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.19.17.9",
+    "rootNode": "3.19.17.9",
+    "id": "i18n-page-templates-pb-i18n",
+    "odd": "docbook.odd",
+    "next": "3.19.17.11",
+    "previous": "3.19.17",
+    "nextId": "i18n-page-templates-attributes",
+    "previousId": "i18n-page-templates",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"i18n-page-templates-pb-i18n\"><pb-observable data=\"3.19.17.9,3.19.17.9\" emit=\"transcription\">\n        <h3 class=\"tei-title6 title\">\n          HTML text node with\n          <span class=\"tei-code2 code\">pb-i18n</span>\n        </h3>\n        <p class=\"tei-para\">\n          Any text fragment within HTML element can be considered a target for i18n when\n            wrapped in\n          <span class=\"tei-tag code\">pb-i18n</span>\n          component.\n          <span class=\"tei-tag code\">pb-i18n</span>\n          elements are listening for\n            events emitted by\n          <span class=\"tei-tag code\">pb-lang</span>\n          .\n        </p>\n        <pb-code-highlight class=\"tei-programlisting5\" language=\"html\" line-numbers=\"line-numbers\">\n&lt;h3 slot=\"collapse-trigger\"&gt;\n   &lt;pb-i18n key=\"menu.documentation\"&gt;Documentation&lt;/pb-i18n&gt;\n&lt;/h3&gt;\n        </pb-code-highlight>\n      </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

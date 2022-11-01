@@ -359,8 +359,18 @@ main.tmpl-post {
   font-size: var(--font-size-small);
 }
 
-.tmpl-post aside {
+.tmpl-post aside, .tmpl-documentation aside, .breadcrumbs {
   font-size: var(--font-size-small);
+}
+
+main.tmpl-documentation {
+  margin-top: 104px;
+  padding-top: 0;
+}
+
+.tmpl-documentation aside, .tmpl-documentation .content {
+  height: calc(100vh - 84px);
+  overflow: auto;
 }
 
 .toc ul {

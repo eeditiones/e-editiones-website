@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.33.31",
+    "rootNode": "3.33.31",
+    "id": "custom-components-bundle",
+    "odd": "docbook.odd",
+    "next": "3.33.33",
+    "previous": "3.33.29.13",
+    "nextId": "custom-components-using",
+    "previousId": "custom-components-demo",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Creating Custom Web Components</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Bundling and distribution</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

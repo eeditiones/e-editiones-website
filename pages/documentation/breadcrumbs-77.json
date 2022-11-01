@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.19",
+    "rootNode": "3.19",
+    "id": "i18n",
+    "odd": "docbook.odd",
+    "next": "3.19.17",
+    "previous": "3.17.19",
+    "nextId": "i18n-page-templates",
+    "previousId": "api-custom-endpoints",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"></span><span class=\"tei-section2\"><span class=\"tei-title3\">Language versions</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

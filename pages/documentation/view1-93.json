@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.25.9.9",
+    "rootNode": "3.25.9.9",
+    "id": "upgrade71",
+    "odd": "docbook.odd",
+    "next": "3.25.11",
+    "previous": "3.25.9",
+    "nextId": "update6-7",
+    "previousId": "upgrade7",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"upgrade71\"><pb-observable data=\"3.25.9.9,3.25.9.9\" emit=\"transcription\">\n        <h3 class=\"tei-title6 title\">Extra Steps for TEI Publisher 7.1</h3>\n        <p class=\"tei-para\">The new annotation editor in TEI Publisher 7.1 requires a bunch of files to be copied. If you do not intend to support web annotations in your app (we recommend having a separate app for this), you only need step 1 and 2:</p>\n        <ol class=\"tei-procedure\"><li class=\"tei-step\">\n            <p class=\"tei-para\">Copy <span class=\"tei-filename code\">modules/annotation-config.xqm</span> into the corresponding location in your app</p>\n          </li><li class=\"tei-step\">\n            <p class=\"tei-para\">Copy <span class=\"tei-filename code\">templates/basic/controller.xql</span> into the root of your app. This contains an important security fix. If you modified your controller yourself, just replace the last \"else\", which in the new version should start with:<span class=\"tei-programlisting4 code\">let $main :=\n        if (matches($exist:path, \"^/+api/+(?:odd|lint)\")) then \n            \"api-odd.xql\" \n        else if (matches($exist:path, \"/+tex$\") or matches($exist:path, \"/+api/+apps/+generate$\")) then\n            \"api-dba.xql\"\n        else \n            \"api.xql\"</span></p>\n          </li><li class=\"tei-step\">\n            <p class=\"tei-para\">Copy <span class=\"tei-filename code\">odd/annotations.odd</span> to <span class=\"tei-filename code\">resources/odd</span> in the generated app.</p>\n          </li><li class=\"tei-step\">\n            <p class=\"tei-para\">Copy <span class=\"tei-filename code\">templates/pages/annotate.html</span> and <span class=\"tei-filename code\">templates/pages/annotate.css</span> to the corresponding folders.</p>\n          </li><li class=\"tei-step\">\n            <p class=\"tei-para\">Also copy <span class=\"tei-filename code\">resources/scripts/annotations</span></p>\n          </li></ol>\n      </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

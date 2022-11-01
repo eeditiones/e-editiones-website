@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.11.17.11.13",
+    "rootNode": "3.11.17.11.13",
+    "id": "pb-behaviour",
+    "odd": "docbook.odd",
+    "next": "3.11.17.13",
+    "previous": "3.11.17.11.11",
+    "nextId": "extension-modules",
+    "previousId": "pb-template",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Processing Model transformations</span><span class=\"tei-title3\">Extensions to the Processing Model Specification</span><span class=\"tei-title3\">Code Templates and Custom Behaviours</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Defining New Behaviours in the ODD</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

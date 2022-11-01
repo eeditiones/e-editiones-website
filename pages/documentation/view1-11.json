@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.7.7.9.11",
+    "rootNode": "3.7.7.9.11",
+    "id": "windows-installation",
+    "odd": "docbook.odd",
+    "next": "3.7.7.9.13",
+    "previous": "3.7.7.9.9",
+    "nextId": "unix-installation",
+    "previousId": "mac-installation",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"windows-installation\"><pb-observable data=\"3.7.7.9.11,3.7.7.9.11\" emit=\"transcription\">\n          <h4 class=\"tei-title6 title\">Windows installation</h4>\n          <p class=\"tei-para\">\n            On Windows download the file with the\n            <span class=\"tei-command code\">.jar</span>\n            extension, e.g.\n                \"\n            <span class=\"tei-filename code\">exist-installer-5.x.x.jar</span>\n            \".\n          </p>\n\n          <p class=\"tei-para\">\n            Double clicking the\n            <span class=\"tei-command code\">.jar</span>\n            should install eXist on your local\n              system. It will launch an installer to guide you through basic settings. The default\n              settings suggested by the installer provide a good starting point for most\n              projects.\n          </p>\n\n          <div class=\"tei-note3 note\"><p class=\"tei-para\">\n              If double-clicking the\n              <span class=\"tei-command code\">.jar</span>\n              does not have any effect, there's\n                may be something wrong with your Java setup. The\n              <span class=\"tei-filename code\">java</span>\n              binary\n                needs to be in your\n              <span class=\"tei--element\">%PATH%</span>\n              environment.\n            </p><p class=\"tei-para\">You can also try to manually start the installer by opening a command prompt,\n                changing to the directory where you downloaded the distribution and typing:</p><pb-code-highlight class=\"tei-synopsis4\" language=\"\">java -jar exist-installer-5.x.x.jar</pb-code-highlight></div>\n\n          <p class=\"tei-para\">Once the installation is completed, you should find an eXist-db shortcut to launch\n              eXist.</p>\n        </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

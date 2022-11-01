@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.31",
+    "rootNode": "3.31",
+    "id": "embedding",
+    "odd": "docbook.odd",
+    "next": "3.31.7",
+    "previous": "3.29",
+    "nextId": "embedding-examples",
+    "previousId": "facets",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"embedding\"><pb-observable data=\"3.31,3.31\" emit=\"transcription\"><h1 class=\"tei-title6 title\">Embedding TEI Publisher in other systems</h1><p class=\"tei-para\">\n      Since version 6.0, all\n      <span class=\"tei-code2 code\">pb-components</span>\n      can be used\n      <span class=\"tei-emphasis2\">outside</span>\n      TEI Publisher itself. The components can be embedded into any\n        environment, e.g. a CMS or blog software (like WordPress or Drupal) or integrated into any\n        modern front-end framework (like vue, react or angular). All that is needed is a TEI\n        Publisher instance available on the web which stores the source TEI and provides a\n        communication endpoint for the components to talk to.\n    </p></pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

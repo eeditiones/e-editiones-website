@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.7.7.9.7",
+    "rootNode": "3.7.7.9.7",
+    "id": "download",
+    "odd": "docbook.odd",
+    "next": "3.7.7.9.9",
+    "previous": "3.7.7.9",
+    "nextId": "mac-installation",
+    "previousId": "exist-installation",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"download\"><pb-observable data=\"3.7.7.9.7,3.7.7.9.7\" emit=\"transcription\">\n          <h4 class=\"tei-title6 title\">Download</h4>\n\n          <p class=\"tei-para\">\n            Download an eXist distribution following the link on its\n            <a href=\"http://exist-db.org/exist/apps/homepage/index.html#downloads\" class=\"tei-link4\" target=\"_new\">homepage</a>\n            .\n          </p>\n\n          <div class=\"tei-note3 note\"><p class=\"tei-para\">It is recommended that you set up an admin password when installing eXist but\n                make sure to remember or store it securely!</p></div>\n        </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

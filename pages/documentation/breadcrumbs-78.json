@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.19.17",
+    "rootNode": "3.19.17",
+    "id": "i18n-page-templates",
+    "odd": "docbook.odd",
+    "next": "3.19.17.9",
+    "previous": "3.19",
+    "nextId": "i18n-page-templates-pb-i18n",
+    "previousId": "i18n",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Language versions</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Using i18n in page templates</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

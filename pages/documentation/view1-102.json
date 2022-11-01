@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.25.13.11",
+    "rootNode": "3.25.13.11",
+    "id": "update5-7-newapp",
+    "odd": "docbook.odd",
+    "next": "3.25.13.13",
+    "previous": "3.25.13",
+    "nextId": "update5-7-copy",
+    "previousId": "update5-7",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"update5-7-newapp\"><pb-observable data=\"3.25.13.11,3.25.13.11\" emit=\"transcription\">\n        <h3 class=\"tei-title6 title\">Update by Generating a New Application</h3>\n        <ol class=\"tei-procedure\"><li class=\"tei-step\">\n            <p class=\"tei-para\">Upload your customized ODD to the TEI Publisher 7</p>\n          </li><li class=\"tei-step\">\n            <p class=\"tei-para\">\n              If you created a custom HTML template for your document view, upload it to the\n              <span class=\"tei-filename code\">templates/pages</span>\n              collection of the TEI Publisher. You can use\n                eXide's file manager to do so.\n            </p>\n          </li><li class=\"tei-step\">\n            <p class=\"tei-para\">Generate a new application using your custom ODD. Make sure to choose a\n                different URL and short name to not confuse the old and new app.</p>\n          </li><li class=\"tei-step\">\n            <p class=\"tei-para\">\n              Adjust\n              <span class=\"tei-filename code\">modules/config.xqm</span>\n              variables, if necessary.\n            </p>\n          </li><li class=\"tei-step\">\n            <p class=\"tei-para\">\n              Selectively upload all other files you changed or resources you added to the\n                generated app (data, CSS). In case of custom page templates and XQuery modules\n                follow recommendations for\n              <a href=\"?odd=docbook.odd&amp;view=div&amp;id=update6-7\" class=\"tei-link3\" target=\"\">updating from Publisher\n                  6</a>\n              .\n            </p>\n          </li></ol>\n      </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

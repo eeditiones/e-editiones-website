@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.37.23",
+    "rootNode": "3.37.23",
+    "id": null,
+    "odd": "docbook.odd",
+    "next": "3.37.25",
+    "previous": "3.37.21.24",
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\"><pb-observable data=\"3.37.23,3.37.23\" emit=\"transcription\">\n    <h2 class=\"tei-title6 title\">Modifying Annotations</h2>\n    <p class=\"tei-para\">The annotation view shows a colored line beneath the text spanned by each annotation. You can select text within an existing annotation or \n      across multiple different ones and apply yet another annotation to it, thus resulting in <span class=\"tei-emphasis2\">nested annotations</span>. \n      However, the editor will ensure that you do not select partial elements, for example, a range of text followed by half of a <span class=\"tei-tag code\">persName</span>. \n      This would result in invalid XML, so the editor will automatically expand your selection to include the entire <span class=\"tei-tag code\">persName</span>.</p>\n    <figure class=\"tei-figure2 figure\"><span class=\"tei--element\">\n        <span class=\"tei--element\">\n          <img src=\"ann-nested.png\" class=\"tei-imagedata2\" title=\"\" style=\"width: 600px; \">\n        </span>\n      </span><figcaption>Nested annotations</figcaption></figure>\n    <p class=\"tei-para\">To the right of the annotated text, a colored box indicates the type of the annotation. The sequence of boxes also indicates \n      how annotations are nested: the ones appearing to the right are wrapping those to the left. In the example above the \"church of \n      San Francisco\" is a reference to a place, while \"San Francisco\" refers to a person, a patron saint of the church. The <span class=\"tei-tag code\">persName</span> \n      element is nested in the <span class=\"tei-tag code\">placeName</span>.</p>\n    <p class=\"tei-para\">Click on the colored box to see details about the annotation. For semantic annotations, the details will include a summary of the entity drawn from the connected authority or the local TEI register. For analytic and text critical annotations, a table is shown, listing the corresponding attributes associated with the annotation.</p>\n    <figure class=\"tei-figure2 figure\"><span class=\"tei--element\">\n        <span class=\"tei--element\">\n          <img src=\"ann-details.png\" class=\"tei-imagedata2\" title=\"\" style=\"width: 800px; \">\n        </span>\n      </span><figcaption>Annotation details</figcaption></figure>\n    <p class=\"tei-para\">The toolbar at the bottom of the popup allows to delete or modify the annotation. Clicking the delete button will immediately remove the annotation, without asking for confirmation.</p>\n    <p class=\"tei-para\">Clicking on the pen icon will open the annotation in the left sidebar, where you can change it. For semantic annotations, the authority lookup dialog will pop up automatically and you can change the connected authority entry by selecting a different one.</p>\n    <p class=\"tei-para\">Again, semantic annotations are applied immediately, while analytic and text critical annotations require a click on the save button after making modifications.</p>\n  </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

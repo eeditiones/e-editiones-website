@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.39",
+    "rootNode": "3.39",
+    "id": null,
+    "odd": "docbook.odd",
+    "next": "3.39.10",
+    "previous": "3.37.27",
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\"><pb-observable data=\"3.39,3.39\" emit=\"transcription\"><h1 class=\"tei-title6 title\">Configuring the Annotation Editor</h1><p class=\"tei-para\">The annotation editor is fully configurable. This includes<ol class=\"tei-orderedlist\"><li class=\"tei-listitem\">\n          <p class=\"tei-para\">the connectors used for authority lookups</p>\n        </li><li class=\"tei-listitem\">\n          <p class=\"tei-para\">how authority entries can be extended with additional information</p>\n        </li><li class=\"tei-listitem\">\n          <p class=\"tei-para\">how annotations are mapped to TEI elements</p>\n        </li></ol></p><p class=\"tei-para\">If you would like to customize the editor for your own needs, we recommend to generate a <span class=\"tei-emphasis2\">separate application just for annotation purposes</span>. This makes it easier to configure and you maintain a clear separation between data which is still being worked on and the final edition you want to show to users.</p><p class=\"tei-para\">To generate a separate application for annotations, select <span class=\"tei--element\">Admin</span>/<span class=\"tei--element\">App Generator</span>. In the form, make sure to choose the ODD called \"Annotations\" and select \"Annotation Editing\" as template.</p></pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

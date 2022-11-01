@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.27",
+    "rootNode": "3.27",
+    "id": "data-organization",
+    "odd": "docbook.odd",
+    "next": "3.27.11",
+    "previous": "3.25.13.13",
+    "nextId": "data-collection",
+    "previousId": "update5-7-copy",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"data-organization\"><pb-observable data=\"3.27,3.27\" emit=\"transcription\"><h1 class=\"tei-title6 title\">Data</h1><p class=\"tei-para\">TEI Publisher ships its data files within the same application package. Nevertheless,\n        separating your data from application code has many benefits, particularly for actively\n        developed applications and data sets. This way changes to your code can be deployed without\n        redeploying and reindexing your data and vice versa. It is also easier to maintain separate\n        repositories (e.g. in Git) and differentiate privileges for editorial and developer\n        teams.</p><p class=\"tei-para\">\n      While we would generally recommend separating data and code, some projects may still\n        prefer to keep their data and application integrated in a single\n      <span class=\"tei-emphasis2\">xar</span>\n      package for the sake of marginally easier distribution.\n    </p><p class=\"tei-para\">Internal structure of the data collection can be arbitrary, though there are some\n        considerations regarding index configuration to take into account.</p></pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

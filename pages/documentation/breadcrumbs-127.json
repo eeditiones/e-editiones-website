@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.37",
+    "rootNode": "3.37",
+    "id": "web-annotations",
+    "odd": "docbook.odd",
+    "next": "3.37.17",
+    "previous": "3.35.25",
+    "nextId": null,
+    "previousId": "new-vocabulary-search",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"></span><span class=\"tei-section2\"><span class=\"tei-title3\">Annotating Documents</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

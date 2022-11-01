@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.21",
+    "rootNode": "3.21",
+    "id": "appgen",
+    "odd": "docbook.odd",
+    "next": "3.21.19",
+    "previous": "3.19.19",
+    "nextId": "appgen-code-overview",
+    "previousId": "i18n-customization",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"></span><span class=\"tei-section2\"><span class=\"tei-title3\">Creating applications with the App Generator</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

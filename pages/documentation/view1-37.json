@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.11.9.17",
+    "rootNode": "3.11.9.17",
+    "id": "odd-customization-screencast",
+    "odd": "docbook.odd",
+    "next": "3.11.9.19",
+    "previous": "3.11.9.15",
+    "nextId": "oddxml",
+    "previousId": "odd-customization-parameters",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"odd-customization-screencast\"><pb-observable data=\"3.11.9.17,3.11.9.17\" emit=\"transcription\">\n        <h3 class=\"tei-title6 title\">Screencast</h3>\n        <p class=\"tei-para\">The screencast below recapitulates some of the modifications we just applied. It\n            uses an older version of TEI Publisher, but the basic concepts and controls are still\n            the same:</p>\n        <figure class=\"tei-figure2 figure\" id=\"edit-odd\"><span class=\"tei--element\">\n            <span class=\"tei--element\">\n              <iframe src=\"https://www.youtube.com/embed/avRO-b2BwUI?rel=0\" width=\"853\" height=\"480\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe>\n            </span>\n          </span><figcaption>Screencast</figcaption></figure>\n      </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

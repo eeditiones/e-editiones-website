@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.15.13",
+    "rootNode": "3.15.13",
+    "id": "webcomponents-communication",
+    "odd": "docbook.odd",
+    "next": "3.15.15",
+    "previous": "3.15.11",
+    "nextId": "webcomponents-page-templates",
+    "previousId": "webcomponents-docs",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"webcomponents-communication\"><pb-observable data=\"3.15.13,3.15.13\" emit=\"transcription\">\n      <h2 class=\"tei-title6 title\">Communication between Components</h2>\n      <p class=\"tei-para\">\n        To allow for maximum flexibility, nearly all of the TEI Publisher webcomponents\n          communicate via events: this way avoids hard wiring and components may appear anywhere on\n          the page. For example, the controls for paginating through a document do not directly talk\n          to the document view: they just send an\n        <span class=\"tei-emphasis2\">event</span>\n        , indicating the users'\n          wish to navigate backward or forward. Components listening for this event may then react\n          to it by refreshing the text being displayed.\n      </p>\n      <p class=\"tei-para\">\n        Since you can have multiple text views showing content from different sources, every\n          event can be announced at a specific communication\n        <span class=\"tei-emphasis2\">channel</span>\n        . This\n          allows us to distinguish between different sources, e.g. two transcriptions being shown\n          side by side. Most TEI Publisher components therefore accept two properties to configure\n          the channel they are listening or sending events to:\n      </p>\n      <dl><dt>subscribe</dt><dd>\n            <p class=\"tei-para\">name of the channel to which this component subscribes to. It will only react to\n                events coming in via this channel.</p>\n          </dd><dt>emit</dt><dd>\n            <p class=\"tei-para\">name of the channel to which this components sends events.</p>\n          </dd></dl>\n      <p class=\"tei-para\">If neither of these properties is given, the component will subscribe and emit to the\n          global default channel. A component may also send to a different channel than it\n          subscribes to, allowing chains of events.</p>\n      <p class=\"tei-para\">Common properties and methods accepted by many TEI Publisher components are defined in\n          the class PbMixin.</p>\n    </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

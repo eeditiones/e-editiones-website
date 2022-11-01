@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.17.19",
+    "rootNode": "3.17.19",
+    "id": "api-custom-endpoints",
+    "odd": "docbook.odd",
+    "next": "3.19",
+    "previous": "3.17.17",
+    "nextId": "i18n",
+    "previousId": "api-endpoints",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"api-custom-endpoints\"><pb-observable data=\"3.17.19,3.17.19\" emit=\"transcription\">\n      <h2 class=\"tei-title6 title\">Custom API endpoints</h2>\n      <p class=\"tei-para\">\n        Beyond the standard server-side functionality provided by TEI Publisher, careful\n          provisions have been made to allow users to add their own API endpoints. The\n        <a href=\"../api.html#operations-tag-default\" class=\"tei-link4\" target=\"_new\">Custom API</a>\n        section demonstrates how project-specific functionality can be added within the OAS API\n          scheme.\n      </p>\n      <p class=\"tei-para\">\n        All that is required is to edit the\n        <span class=\"tei-filename code\">modules/custom-api.json</span>\n        file\n          and add specifications for custom endpoints in JSON format. The\n        <span class=\"tei-parameter code\">operationId</span>\n        property specifies the XQuery function to be called\n          to process the request. All function module with the function definition needs to be\n          imported into\n        <span class=\"tei-filename code\">modules/custom-api.xql</span>\n        so that the request can be\n          correctly resolved.\n      </p>\n      <p class=\"tei-para\">\n        The function implementation can either be added to the XQuery module\n        <span class=\"tei-filename code\">modules/custom-api.xql</span>\n        or to a new module, which should be imported\n          into this file to make it known. See the\n        <a href=\"https://github.com/eeditiones/oas-router\" class=\"tei-link4\" target=\"_new\">README</a>\n        of the oas-router\n          package for more information about how to write a request handler function.\n      </p>\n      <figure class=\"tei-figure2 figure\"><span class=\"tei--element\">\n          <span class=\"tei--element\">\n            <img src=\"api-custom-json.png\" class=\"tei-imagedata2\" title=\"\" style=\"width: 900px; \">\n          </span>\n        </span><figcaption>Custom API specification - show article</figcaption></figure>\n      <p class=\"tei-para\">\n        To reference a custom function declared directly in\n        <span class=\"tei-filename code\">modules/custom-api.xql</span>\n        , use the prefix\n        <span class=\"tei-parameter code\">custom:</span>\n        in the\n        <span class=\"tei-parameter code\">operationId</span>\n        . For functions\n          in imported modules, use the prefix defined in the import statement.\n      </p>\n    </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

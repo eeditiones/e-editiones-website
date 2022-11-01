@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.9.13",
+    "rootNode": "3.9.13",
+    "id": "format-docbook",
+    "odd": "docbook.odd",
+    "next": "3.9.15",
+    "previous": "3.9.11",
+    "nextId": "docx",
+    "previousId": "format-tei",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"format-docbook\"><pb-observable data=\"3.9.13,3.9.13\" emit=\"transcription\">\n      <h2 class=\"tei-title6 title\">DocBook</h2>\n      <p class=\"tei-para\">\n        DocBook support is demonstrated by this very document you are now reading,\n        <span class=\"tei-filename code\">documentation.xml</span>\n        . It is written in DocBook and presented via\n          dedicated\n        <span class=\"tei-filename code\">docbook.odd</span>\n        and\n        <span class=\"tei-filename code\">documentation.html</span>\n        page template.\n      </p>\n      <p class=\"tei-para\">\n        You will notice a custom processing instruction in the source code of this document\n          which specifies which ODD and template to use. Experiment changing the template and ODD\n          via\n        <span class=\"tei-guibutton guibutton\">Settings</span>\n        drawer to see how much impact it has on\n          display.\n      </p>\n      <pb-code-highlight class=\"tei-programlisting5\" language=\"xml\" line-numbers=\"line-numbers\">\n          &lt;?teipublisher odd=\"docbook.odd\" template=\"documentation.html\" depth=\"3\"?&gt;\n        </pb-code-highlight>\n    </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

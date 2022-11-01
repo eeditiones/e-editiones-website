@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.25",
+    "rootNode": "3.25",
+    "id": "updating",
+    "odd": "docbook.odd",
+    "next": "3.25.9",
+    "previous": "3.23",
+    "nextId": "upgrade7",
+    "previousId": "customization-best-practice",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"updating\"><pb-observable data=\"3.25,3.25\" emit=\"transcription\"><h1 class=\"tei-title6 title\">Updating Applications</h1><p class=\"tei-para\">With TEI Publisher 7, we have redesigned the server-side API. Combined with the\n        client-side reorganization brought by TEI Publisher 6, this will make future updates for\n        generated applications a lot easier. Client-side UI and server-side API are now cleanly\n        separated from any custom app elements.</p><p class=\"tei-para\">For apps created with TEI Publisher 6 updating to 7 requires only small modifications.\n        Migrating from earlier versions, like 4 or 5, requires more effort, and is described in\n        futher sections.</p></pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

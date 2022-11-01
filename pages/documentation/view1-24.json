@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.9.11",
+    "rootNode": "3.9.11",
+    "id": "format-tei",
+    "odd": "docbook.odd",
+    "next": "3.9.13",
+    "previous": "3.9",
+    "nextId": "format-docbook",
+    "previousId": "supported-input-formats",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"format-tei\"><pb-observable data=\"3.9.11,3.9.11\" emit=\"transcription\">\n      <h2 class=\"tei-title6 title\">TEI</h2>\n      <p class=\"tei-para\">In principle, any TEI document will be supported by TEI Publisher and can be displayed\n          with the default page template and odd.</p>\n      <p class=\"tei-para\">Nevertheless, certain assumptions are made about encoding of the basic structure of\n          the TEI documents for the purpose of navigation:</p>\n      <ul class=\"tei-itemizedlist\"><li class=\"tei-listitem\">\n          <p class=\"tei-para\">\n            page beginnings are encoded with\n            <span class=\"tei-tag code\">pb</span>\n          </p>\n        </li><li class=\"tei-listitem\">\n          <p class=\"tei-para\">\n            column beginnings are encoded with\n            <span class=\"tei-tag code\">cb</span>\n          </p>\n        </li><li class=\"tei-listitem\">\n          <p class=\"tei-para\">\n            structural divisions in the document are encoded with\n            <span class=\"tei-tag code\">div</span>\n            elements\n          </p>\n        </li></ul>\n      <p class=\"tei-para\">\n        We acknowledge that TEI offers other ways to encode these features, e.g. generic\n        <span class=\"tei-tag code\">milestone</span>\n        element or specialized numbered division elements like\n        <span class=\"tei-tag code\">div1</span>\n        ,\n        <span class=\"tei-tag code\">div2</span>\n        . TEI documents using alternative encodings will be\n          still displayed as specified in the ODD, it is only for the sake of navigation or\n          division-based full text search that we had to assume certain conventions to be able to\n          decide what to show as the next page, column or division.\n      </p>\n      <p class=\"tei-para\">\n        We believe our choice represents most common way of using TEI but, for those who\n          followed the path less travelled, the chapter on\n        <a href=\"?odd=docbook.odd&amp;view=div&amp;id=new-vocabulary-navigation\" class=\"tei-link3\" target=\"\">customization</a>\n        briefly discusses how to change relevant functionality.\n      </p>\n    </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

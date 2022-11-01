@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.11.11.9",
+    "rootNode": "3.11.11.9",
+    "id": "pm-syntax-model",
+    "odd": "docbook.odd",
+    "next": "3.11.11.9.13",
+    "previous": "3.11.11",
+    "nextId": "pm-syntax-model-children",
+    "previousId": "pm-syntax",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"pm-syntax-model\"><pb-observable data=\"3.11.11.9,3.11.11.9\" emit=\"transcription\"><h3 class=\"tei-title6 title\">\n          <span class=\"tei-tag code\">model</span>\n          element\n        </h3><p class=\"tei-para\">\n          <span class=\"tei-tag code\">model</span>\n          element is primarily used to document the intended processing for a\n            given element. One or more of these elements may appear directly within an\n          <span class=\"tei-tag code\">elementSpec</span>\n          element specification to define the processing anticipated for\n            that element. Where multiple\n          <span class=\"tei-tag code\">model</span>\n          elements appear, they are understood to\n            document mutually exclusive processing scenarios, possibly for different outputs or\n            applicable in different contexts.\n        </p><p class=\"tei-para\">\n          A processing model defines on an abstract level how a given element may be\n            transformed to produce one or more outputs. The model is expressed in terms of\n          <span class=\"tei-emphasis1\">behaviours</span>\n          and their parameters, using high-level formatting\n            concepts, such as\n          <span class=\"tei-parameter code\">block</span>\n          ,\n          <span class=\"tei-parameter code\">inline</span>\n          ,\n          <span class=\"tei-parameter code\">note</span>\n          or\n          <span class=\"tei-parameter code\">heading</span>\n          . A processing model is\n            thus a template description, used to generate the code needed by the publishing\n            application to process the source document into required output.\n        </p><p class=\"tei-para\">\n          The example below depicts a situation where a single model is defined for the\n          <span class=\"tei-tag code\">app</span>\n          element. As no\n          <span class=\"tei-parameter code\">@predicate</span>\n          or\n          <span class=\"tei-parameter code\">@output</span>\n          are specified, this model applies for all contexts in\n            which\n          <span class=\"tei-tag code\">app</span>\n          may appear and all possible outputs. Thus all\n          <span class=\"tei-tag code\">app</span>\n          elements will be transformed into inline chunks of text containing only contents of\n          <span class=\"tei-tag code\">app</span>\n          's\n          <span class=\"tei-tag code\">lem</span>\n          child and omitting any possible\n          <span class=\"tei-tag code\">rdg</span>\n          children.\n        </p><pb-code-highlight class=\"tei-programlisting5\" language=\"xml\" line-numbers=\"line-numbers\">&lt;elementSpec mode=\"change\" ident=\"app\"&gt;\n  &lt;model behaviour=\"inline\"&gt;\n    &lt;param name=\"content\" value=\"lem\"/&gt;\n  &lt;/model&gt;\n&lt;/elementSpec&gt;</pb-code-highlight></pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

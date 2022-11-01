@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.7.7.9.17",
+    "rootNode": "3.7.7.9.17",
+    "id": "packageManager",
+    "odd": "docbook.odd",
+    "next": "3.7.7.11",
+    "previous": "3.7.7.9.15",
+    "nextId": "docker",
+    "previousId": "first-launch",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"packageManager\"><pb-observable data=\"3.7.7.9.17,3.7.7.9.17\" emit=\"transcription\">\n          <h4 class=\"tei-title6 title\">Installing TEI Publisher</h4>\n          <p class=\"tei-para\">\n            Clicking on\n            <span class=\"tei--element\">Open Dashboard</span>\n            in the taskbar will open a\n              browser and display eXist's Dashboard: the central administrative hub for the\n              database. Alternatively - e.g. when you chose the manual installation on Linux - you\n              can also open a browser window and navigate to:\n            <a href=\"http://localhost:8080\" class=\"tei-link4\" target=\"_new\">http://localhost:8080</a>\n            .\n          </p>\n          <p class=\"tei-para\">\n            Log into the dashboard using the admin account and the password you chose during\n              the installation (it will be empty by default). Use the left sidebar to navigate to\n              the\n            <span class=\"tei--element\">Package Manager</span>\n            . You'll see two tabs: the first one\n              lists the application packages currently installed, the second can be used to install\n              additional packages from eXist's public application repository.\n          </p>\n          <p class=\"tei-para\">\n            Switch to the\n            <span class=\"tei--element\">Available</span>\n            tab and search the list for TEI\n              Publisher. Once you find it, click on the little install icon.\n          </p>\n          <p class=\"tei-para\">After installing you will find the TEI Publisher icon in the tab showing installed\n              apps. Click on it to open the TEI Publisher.</p>\n          <figure class=\"tei-figure2 figure\"><span class=\"tei--element\">\n              <span class=\"tei--element\">\n                <img src=\"eXistDashboard.png\" class=\"tei-imagedata2\" title=\"\" style=\"width: 640px; \">\n              </span>\n            </span><figcaption>\n              Installing\n              <span class=\"tei-emphasis2\">TEI Publisher</span>\n              from the Package Manager\n            </figcaption></figure>\n        </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

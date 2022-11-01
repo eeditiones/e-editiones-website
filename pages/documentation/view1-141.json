@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.39.10.22",
+    "rootNode": "3.39.10.22",
+    "id": null,
+    "odd": "docbook.odd",
+    "next": "3.39.12",
+    "previous": "3.39.10.20",
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\"><pb-observable data=\"3.39.10.22,3.39.10.22\" emit=\"transcription\">\n        <h3 class=\"tei-title6 title\">Custom Connector</h3>\n        <p class=\"tei-para\">The custom connector delegates queries to one or more authorities, but most importantly it creates a copy of every authority entry you select and writes it to a local TEI register.</p>\n        <p class=\"tei-para\">For many editions the information provided by an external authority will not be sufficient. It may be incomplete, in the sense it may lack important information relevant in the context of the edition but also many historical persons or places may not yet appear in any authority.</p>\n        <p class=\"tei-para\">Using the custom connector gives you a possibility to extend the information about an entity, or add new ones. This works as follows:<ol class=\"tei-orderedlist\"><li class=\"tei-listitem\">\n              <p class=\"tei-para\">whenever you select an entry from the external authority, the custom connector creates a skeleton <span class=\"tei-tag code\">person</span>, <span class=\"tei-tag code\">place</span> or <span class=\"tei-tag code\">category</span> TEI element in the local TEI registry (the exact location of the registry can be configured) using the information provided by the authority</p>\n            </li><li class=\"tei-listitem\">\n              <p class=\"tei-para\">you can extend the local entry with additional information, e.g. add a note to explain why the person is important in the context of the edition</p>\n            </li><li class=\"tei-listitem\">\n              <p class=\"tei-para\">any subsequent authority query will also search the local registry and matches found there will be ranked at the top of the results</p>\n            </li><li class=\"tei-listitem\">\n              <p class=\"tei-para\">to support entites which do not exist in an external authority, just create an entry in the local registry and assign it a local xml:id</p>\n            </li></ol></p>\n        <p class=\"tei-para\">To configure the custom connector, simply wrap it around the definition for the external authority you want to use, e.g.:</p>\n        <pb-code-highlight class=\"tei-programlisting5\" language=\"xml\" line-numbers=\"line-numbers\">&lt;pb-authority connector=\"Custom\" name=\"person\"&gt;\n    &lt;pb-authority connector=\"GND\" prefix=\"gnd\"&gt;&lt;/pb-authority&gt;\n&lt;/pb-authority&gt;</pb-code-highlight>\n        <p class=\"tei-para\">This defines a custom connector for the annotation type 'person', delegating queries to the GND connector, but also maintaining a local registry. By default the local registry is stored in a TEI document residing in <span class=\"tei-filename code\">data/registry.xml</span>. You can change the location by modifying the variable <span class=\"tei--element\">$anno:local-authority-file</span> in the annotation configuration, <span class=\"tei-filename code\">modules/annotation-config.xqm</span>. You can also change the function <span class=\"tei-function code\">anno:insert-point</span> to configure where exactly the local entity definitions will be stored.</p> \n        <p class=\"tei-para\">Currently, it is not possible to use the Reconciliation connector described above in the context of the Custom connector. This will be added in a future release.</p>\n      </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

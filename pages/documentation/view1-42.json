@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.11.11.9.15",
+    "rootNode": "3.11.11.9.15",
+    "id": "model-styling",
+    "odd": "docbook.odd",
+    "next": "3.11.11.11",
+    "previous": "3.11.11.9.13",
+    "nextId": "pm-syntax-modelSequence",
+    "previousId": "pm-syntax-model-children",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"model-styling\"><pb-observable data=\"3.11.11.9.15,3.11.11.9.15\" emit=\"transcription\">\n          <h4 class=\"tei-title6 title\">\n            <span class=\"tei-tag code\">model</span>\n            output styling\n          </h4>\n          <p class=\"tei-para\">The intended rendering for a particular behaviour of a processing model may be\n              specified in one or all of the three following ways.</p>\n\n          <ul class=\"tei-itemizedlist\"><li class=\"tei-listitem\">\n              <p class=\"tei-para\">\n                the\n                <span class=\"tei-parameter code\">@cssClass</span>\n                attribute may be used to specify the name\n                  of a CSS style in an associated CSS stylesheet (read more on\n                <a href=\"?odd=docbook.odd&amp;view=div&amp;id=external-css\" class=\"tei-link3\" target=\"\">specifying CSS styles in the ODD</a>\n                ) which is to be\n                  applied to each occurrence of a specified element found (in a given context, for a\n                  specified output),\n              </p>\n            </li><li class=\"tei-listitem\">\n              <p class=\"tei-para\">\n                the attribute\n                <span class=\"tei-parameter code\">@useSourceRendition</span>\n                may be used to\n                  indicate that the rendition specified in the source document should be applied,\n              </p>\n            </li><li class=\"tei-listitem\">\n              <p class=\"tei-para\">\n                the styling to be applied may be specified explicitly as content of a child\n                <span class=\"tei-tag code\">outputRendition</span>\n                element.\n              </p>\n            </li></ul>\n          <p class=\"tei-para\"> When more than one of these options is used, they are understood to be combined\n              in accordance with the rules for multiple declaration of the styling language used. </p>\n          <p class=\"tei-para\">\n            It is strongly recommended that use\n            <span class=\"tei-tag code\">outputRendition</span>\n            should be limited\n              to strictly editorial decisions, such as 'conjectures are to be displayed in square\n              brackets' and not as means to record all typesetting and layout specific design\n              choices. The latter are discussion in the\n            <a href=\"?odd=docbook.odd&amp;view=div&amp;id=css-styling\" class=\"tei-link3\" target=\"\">Custom CSS\n                styling</a>\n            chapter.\n          </p>\n          <p class=\"tei-para\">\n            The processing model library translates the CSS styles into the target media\n              format. Restrictions apply due to differences between the output formats. Not all CSS\n              properties are supported for every format. Please refer to the section on\n            <a href=\"?odd=docbook.odd&amp;view=div&amp;id=output-media\" class=\"tei-link3\" target=\"\">Output media settings</a>\n            for further information.\n          </p>\n\n\n        </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

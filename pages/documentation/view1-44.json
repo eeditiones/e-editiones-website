@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.11.11.13",
+    "rootNode": "3.11.11.13",
+    "id": "behaviours",
+    "odd": "docbook.odd",
+    "next": "3.11.11.13.7",
+    "previous": "3.11.11.11",
+    "nextId": "behaviours-available",
+    "previousId": "pm-syntax-modelSequence",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"behaviours\"><pb-observable data=\"3.11.11.13,3.11.11.13\" emit=\"transcription\"><h3 class=\"tei-title6 title\">Behaviours</h3><p class=\"tei-para\">\n          The\n          <a href=\"http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-model.html\" class=\"tei-link4\" target=\"_new\">TEI\n              guidelines</a>\n          document a number of default behaviours. TEI Publisher allows users\n            to add their own behaviours, either within the ODD itself or by writing\n          <a href=\"?odd=docbook.odd&amp;view=div&amp;id=extension-modules\" class=\"tei-link3\" target=\"\">XQuery code</a>\n          . The following section lists the\n            default behaviours.\n        </p></pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

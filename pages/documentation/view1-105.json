@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.27.11",
+    "rootNode": "3.27.11",
+    "id": "data-collection",
+    "odd": "docbook.odd",
+    "next": "3.27.13",
+    "previous": "3.27",
+    "nextId": "subcollections",
+    "previousId": "data-organization",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"data-collection\"><pb-observable data=\"3.27.11,3.27.11\" emit=\"transcription\">\n      <h2 class=\"tei-title6 title\">Data collection</h2>\n      <p class=\"tei-para\">\n        Two variables in\n        <span class=\"tei-filename code\">config.xqm</span>\n        are used to configure location of the\n          data collection.\n        <span class=\"tei-code2 code\">$config:data-root</span>\n        specifies where in the collection\n          hierarchy the data is stored. Only the top level collection needs to be specified.\n      </p>\n      <pb-code-highlight class=\"tei-programlisting5\" language=\"xquery\" line-numbers=\"line-numbers\">\n(:~\n : The root of the collection hierarchy containing data.\n :)\ndeclare variable $config:data-root := $config:app-root || \"/data\";\n    </pb-code-highlight>\n      <p class=\"tei-para\">\n        Switching to a separate data package is as simple as changing this variable, e.g.\n          assuming that we store our data in\n        <span class=\"tei-code2 code\">/db/apps/lgpn-ling-data/data</span>\n        , the\n        <span class=\"tei-code2 code\">data-root</span>\n        should be defined as:\n      </p>\n      <pb-code-highlight class=\"tei-programlisting5\" language=\"xquery\" line-numbers=\"line-numbers\">\n      declare variable $config:data-root := '/db/apps/lgpn-ling-data/data';\n    </pb-code-highlight>\n      <p class=\"tei-para\">\n        In the variable\n        <span class=\"tei-parameter code\">$config:data-exclude</span>\n        you may specifiy a\n          sequence of root elements which should be excluded from the list of document shown in the\n          browsing view, e.g. secondary data files like a taxonomy or entity lists.\n      </p>\n      <p class=\"tei-para\">\n        You may find it helpful to create and build the data package starting from the\n          template hosted in the\n        <a href=\"https://github.com/eeditiones/tei-publisher-data-template\" class=\"tei-link4\" target=\"_new\">e-editiones repository</a>\n        . README document provided there explains shortly roles of\n          all the files and how to adjust them to your needs.\n      </p>\n\n      <div class=\"tei-note3 note\"><p class=\"tei-para\">\n          It is critical to store index configuration file,\n          <span class=\"tei-filename code\">collection.xconf</span>\n          in the correct location. Refer to\n          <a href=\"https://exist-db.org/exist/apps/doc/indexing.xml\" class=\"tei-link4\" target=\"_new\">eXist-db documentation</a>\n          for details but it is common practice to store a\n            collection configuration in the data package and rely on mechanisms of pre-install\n            script (\n          <span class=\"tei-filename code\">pre-install.xql</span>\n          ) to copy the file to its required position\n            in\n          <span class=\"tei-filename code\">/db/system/config</span>\n          .\n        </p><p class=\"tei-para\">\n          Similar consideration applies if fulltext index makes use of any external function\n            module, which in TEI Publisher and generated apps is commonly the case for facet and\n            field definitions. This module needs to be stored before the index is to be applied and\n            usually it's best to store it in the same location as\n          <span class=\"tei-filename code\">collection.xconf</span>\n          .\n        </p></div>\n    </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

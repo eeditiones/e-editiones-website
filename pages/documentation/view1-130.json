@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.37.21",
+    "rootNode": "3.37.21",
+    "id": null,
+    "odd": "docbook.odd",
+    "next": "3.37.21.20",
+    "previous": "3.37.19",
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\"><pb-observable data=\"3.37.21,3.37.21\" emit=\"transcription\"><h2 class=\"tei-title6 title\">Applying Annotations</h2><p class=\"tei-para\">To start annotating a document, select or upload one into the annotations collection in TEI Publisher.</p><figure class=\"tei-figure2 figure\"><span class=\"tei--element\">\n        <span class=\"tei--element\">\n          <img src=\"ann-playground.png\" class=\"tei-imagedata2\" title=\"\" style=\"width: 900px; \">\n        </span>\n      </span><figcaption>Annotation playground</figcaption></figure><p class=\"tei-para\">Selecting any document in this collection will load the annotation view. This view is split into three areas:</p><ol class=\"tei-orderedlist\"><li class=\"tei-listitem\">\n        <p class=\"tei-para\">a sidebar to the left, initially showing only a toolbar with a disabled button for each annotation type</p>\n      </li><li class=\"tei-listitem\">\n        <p class=\"tei-para\">the annotation view in the middle, displaying the text content to be annotated</p>\n      </li><li class=\"tei-listitem\">\n        <p class=\"tei-para\">a preview panel to the right: this is initially empty, but will come to life once you start making annotations</p>\n      </li></ol><figure class=\"tei-figure2 figure\"><span class=\"tei--element\">\n        <span class=\"tei--element\">\n          <img src=\"ann-init.png\" class=\"tei-imagedata2\" title=\"\" style=\"width: 900px; \">\n        </span>\n      </span><figcaption>Annotation view</figcaption></figure><p class=\"tei-para\">To annotate a certain passage, select it with your mouse. The toolbar buttons in the left sidebar now become active. Choose an annotation \n      by clicking the corresponding button or using a keyboard shortcut. Hovering over buttons you can see an info text with a brief description \n      and a keyboard shortut.</p><figure class=\"tei-figure2 figure\"><span class=\"tei--element\">\n          <span class=\"tei--element\">\n            <img src=\"ann-types.png\" class=\"tei-imagedata2\" title=\"\" style=\"width: 300px; \">\n          </span>\n        </span><figcaption>Annotation types</figcaption></figure><p class=\"tei-para\">Depending on the chosen annotation type, a form will appear beneath the toolbar. We distinguish three categories of annotations:\n      <ol class=\"tei-orderedlist\"><li class=\"tei-listitem\">\n          <p class=\"tei-para\">semantic annotations, which are (usually) connected to an external authority, e.g. for people, places, organizations or terms.</p>\n        </li><li class=\"tei-listitem\">\n          <p class=\"tei-para\">\"toggle\" annotations, which do not need require additional information, so they simply switch an annotation on/off, e.g. for deletions \n            or titles (not part of the default annotation editor setup).</p>\n        </li><li class=\"tei-listitem\">\n          <p class=\"tei-para\">analytic or text critical annotations, which may require further input from the user, e.g. a normalized date.</p>\n        </li></ol>\n    These categories are not mutually exclusive but may be helpful to explain the main functional differences between the three use scenarios.\n    </p></pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

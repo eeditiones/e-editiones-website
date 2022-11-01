@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.35.17",
+    "rootNode": "3.35.17",
+    "id": "new-vocabulary-odd",
+    "odd": "docbook.odd",
+    "next": "3.35.17.15",
+    "previous": "3.35",
+    "nextId": "new-vocabulary-foo",
+    "previousId": "new-vocabulary",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"new-vocabulary-odd\"><pb-observable data=\"3.35.17,3.35.17\" emit=\"transcription\"><h2 class=\"tei-title6 title\">ODD</h2><p class=\"tei-para\">\n        Create a new, blank ODD file which is not chained to any other ODD and add\n        <span class=\"tei-tag code\">elementSpec</span>\n        s for its elements. Make sure that you specify correct namespace\n          for your vocabulary. Optionally, you can also specify an external CSS file with style\n          declarations for classes and elements you will be using in processing models of your\n          ODD.\n      </p><p class=\"tei-para\">See how it looks in the ODD for DocBook.</p><figure class=\"tei-figure2 figure\"><span class=\"tei--element\">\n          <span class=\"tei--element\">\n            <img src=\"new-vocabulary-odd.png\" class=\"tei-imagedata2\" title=\"\">\n          </span>\n        </span><figcaption>ODD for DocBook</figcaption></figure><p class=\"tei-para\">\n        When adding models into the custom ODD for your vocabulary it is recommended that at\n          least one element applies the\n        <span class=\"tei-parameter code\">document</span>\n        behaviour. Usually it will\n          be the top level element or the main content-bearing one (like\n        <span class=\"tei-tag code\">article</span>\n        in\n          DocBook).\n      </p><p class=\"tei-para\">\n        This is not strictly required but for print output via LaTeX or FO the\n        <span class=\"tei-parameter code\">document</span>\n        behaviour specifies default prologue governing basic\n          setup for PDF. If you refer to the\n        <span class=\"tei-filename code\">docbook.odd</span>\n        you will note that the\n          same effect is achieved by explicitly defining the prologue in the\n        <span class=\"tei-tag code\">pb:template</span>\n        for\n        <span class=\"tei-parameter code\">article</span>\n        .\n      </p></pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

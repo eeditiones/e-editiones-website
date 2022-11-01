@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.11.11.11",
+    "rootNode": "3.11.11.11",
+    "id": "pm-syntax-modelSequence",
+    "odd": "docbook.odd",
+    "next": "3.11.11.13",
+    "previous": "3.11.11.9.15",
+    "nextId": "behaviours",
+    "previousId": "model-styling",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"pm-syntax-modelSequence\"><pb-observable data=\"3.11.11.11,3.11.11.11\" emit=\"transcription\">\n        <h3 class=\"tei-title6 title\">\n          <span class=\"tei-tag code\">modelSequence</span>\n          and\n          <span class=\"tei-tag code\">modelGrp</span>\n        </h3>\n        <p class=\"tei-para\">\n          Summary of elements that can be used to document one or more processing models for\n            a given element:\n          <ul class=\"tei-itemizedlist\"><li class=\"tei-listitem\">\n              <p class=\"tei-para\">\n                <span class=\"tei-tag code\">model</span>\n                describes the processing intended for a specific context\n              </p>\n            </li><li class=\"tei-listitem\">\n              <p class=\"tei-para\">\n                <span class=\"tei-tag code\">modelSequence</span>\n                (sequence of processing models) a group of model elements\n                  documenting intended processing models for this element, to be acted upon in\n                  sequence\n              </p>\n            </li><li class=\"tei-listitem\">\n              <p class=\"tei-para\">\n                <span class=\"tei-tag code\">modelGrp</span>\n                (processing model group) a group of model elements documenting\n                  intended processing models for this element\n              </p>\n            </li></ul>\n        </p>\n        <p class=\"tei-para\">\n          The\n          <span class=\"tei-tag code\">modelGrp</span>\n          element may be used to group alternative\n          <span class=\"tei-tag code\">model</span>\n          elements intended for a single kind of output. The\n          <span class=\"tei-tag code\">modelSequence</span>\n          element is\n            provided for the case where a sequence of models is to be processed, functioning as a\n            single unit. Common use case would be to use modelSequence to generate table of contents\n            along with the reading text as shown in the example below:\n        </p>\n        <pb-code-highlight class=\"tei-programlisting5\" language=\"xml\" line-numbers=\"line-numbers\">&lt;elementSpec mode=\"change\" ident=\"body\"&gt;\n  &lt;modelSequence&gt;\n    &lt;model behaviour=\"index\"&gt;\n      &lt;param name=\"type\" value=\"'toc'\"/&gt;\n    &lt;/model&gt;\n    &lt;model behaviour=\"block\"/&gt;\n  &lt;/modelSequence&gt;\n&lt;/elementSpec&gt;</pb-code-highlight>\n      </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.33.29",
+    "rootNode": "3.33.29",
+    "id": "custom-components-api",
+    "odd": "docbook.odd",
+    "next": "3.33.29.13",
+    "previous": "3.33.27",
+    "nextId": "custom-components-demo",
+    "previousId": "custom-components-testing",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Creating Custom Web Components</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">API documentation</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.27.11",
+    "rootNode": "3.27.11",
+    "id": "data-collection",
+    "odd": "docbook.odd",
+    "next": "3.27.13",
+    "previous": "3.27",
+    "nextId": "subcollections",
+    "previousId": "data-organization",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Data</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Data collection</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

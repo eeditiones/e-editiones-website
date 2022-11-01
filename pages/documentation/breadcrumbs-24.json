@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.9.11",
+    "rootNode": "3.9.11",
+    "id": "format-tei",
+    "odd": "docbook.odd",
+    "next": "3.9.13",
+    "previous": "3.9",
+    "nextId": "format-docbook",
+    "previousId": "supported-input-formats",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Supported XML vocabularies</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">TEI</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

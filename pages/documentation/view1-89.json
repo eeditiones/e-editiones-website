@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.21.25",
+    "rootNode": "3.21.25",
+    "id": "appgen-build",
+    "odd": "docbook.odd",
+    "next": "3.23",
+    "previous": "3.21.23",
+    "nextId": "customization-best-practice",
+    "previousId": "appgen-export",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"appgen-build\"><pb-observable data=\"3.21.25,3.21.25\" emit=\"transcription\">\n      <h2 class=\"tei-title6 title\">Building from a directory</h2>\n      <p class=\"tei-para\">\n        Once you have a copy of your app extracted in a local directory, you can always\n          rebuild a fresh\n        <span class=\"tei-filename code\">.xar</span>\n        from it. In the simplest case it is sufficient\n          to call\n        <span class=\"tei-command code\">ant</span>\n        inside the directory.\n      </p>\n      <p class=\"tei-para\">\n        For up to date build instructions which also cover more advanced uses, refer to the\n          \"Building\" section in the\n        <a href=\"https://github.com/eeditiones/tei-publisher-app\" class=\"tei-link5\" target=\"\">readme of the TEI Publisher\n            repository</a>\n        .\n      </p>\n    </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

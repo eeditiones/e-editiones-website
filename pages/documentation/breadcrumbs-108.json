@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.29",
+    "rootNode": "3.29",
+    "id": "facets",
+    "odd": "docbook.odd",
+    "next": "3.31",
+    "previous": "3.27.15",
+    "nextId": "embedding",
+    "previousId": "pi-config",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"></span><span class=\"tei-section2\"><span class=\"tei-title3\">Facet Search Configuration</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

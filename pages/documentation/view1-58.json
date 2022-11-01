@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.11.17.13.7",
+    "rootNode": "3.11.17.13.7",
+    "id": "extension-configuration",
+    "odd": "docbook.odd",
+    "next": "3.11.17.13.9",
+    "previous": "3.11.17.13",
+    "nextId": "extension-modules-behaviours",
+    "previousId": "extension-modules",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"extension-configuration\"><pb-observable data=\"3.11.17.13.7,3.11.17.13.7\" emit=\"transcription\">\n        <h4 class=\"tei-title6 title\">Configuration</h4>\n        <p class=\"tei-para\">\n          Configuration is done via an XML file which must reside in the same collection as\n            the source ODD files. It contains a series of\n          <span class=\"tei-tag code\">output</span>\n          elements, representing\n            particular output modes (e.g. web or print) via\n          <span class=\"tei-parameter code\">@mode</span>\n          attribute.\n          <span class=\"tei-tag code\">output</span>\n          element without a mode groups modules available for all output\n            modes.\n        </p>\n        <p class=\"tei-para\">\n          Each\n          <span class=\"tei-tag code\">output</span>\n          element lists modules to be loaded for specified output mode.\n            Each definition may optionally be limited to a specific ODD, name of which is specified\n            in the\n          <span class=\"tei-parameter code\">@odd</span>\n          attribute.\n        </p>\n        <pb-code-highlight class=\"tei-programlisting5\" language=\"xml\" line-numbers=\"line-numbers\">&lt;modules&gt;\n    &lt;!-- functions or behaviours common to all output modes --&gt;\n    &lt;output&gt;\n      &lt;module uri=\"http://www.tei-c.org/tei-simple/xquery/common-functions\" prefix=\"tc\" at=\"xmldb:exist:///db/apps/my-app/modules/common.xql\"/&gt;\n    &lt;/output&gt;\n    &lt;!-- General fo extension functions --&gt;\n    &lt;output mode=\"print\"&gt;\n      &lt;module uri=\"http://www.tei-c.org/tei-simple/xquery/ext-fo\" prefix=\"ext-fo\" at=\"xmldb:exist:///db/apps/tei-publisher/modules/ext-fo.xql\"/&gt;\n    &lt;/output&gt;\n    &lt;!-- Special web configuration for the documentation (to handle &lt;code&gt;) --&gt;\n    &lt;output mode=\"web\" odd=\"documentation\"&gt;\n      &lt;module uri=\"http://www.tei-c.org/tei-simple/xquery/ext-html\" prefix=\"ext-html\" at=\"xmldb:exist:///db/apps/tei-publisher/modules/ext-html.xql\"/&gt;\n    &lt;/output&gt;\n&lt;/modules&gt;</pb-code-highlight>\n        <p class=\"tei-para\">\n          Whenever the library tries to locate a processing model function for a given\n            behaviour, it will\n          <span class=\"tei-emphasis1\">first</span>\n          check any extension module it\n            knows to see if it contains a matching function. One can thus\n          <span class=\"tei-emphasis1\">overwrite</span>\n          the default functions as well as define new ones.\n        </p>\n        <p class=\"tei-para\">\n          An extension module may also contain general purpose XQuery functions you want to\n            call from within an ODD parameter, e.g. for formatting a date, outputting a number etc.\n            To make those functions available to all output modes, just skip the\n          <span class=\"tei-parameter code\">@mode</span>\n          attribute.\n        </p>\n      </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

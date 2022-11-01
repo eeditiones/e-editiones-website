@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.35.17.15",
+    "rootNode": "3.35.17.15",
+    "id": "new-vocabulary-foo",
+    "odd": "docbook.odd",
+    "next": "3.35.19",
+    "previous": "3.35.17",
+    "nextId": "new-vocabulary-default-view",
+    "previousId": "new-vocabulary-odd",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Adding a custom vocabulary</span><span class=\"tei-title3\">ODD</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Case study: foo vocabulary</span></span></div>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.35.19",
+    "rootNode": "3.35.19",
+    "id": "new-vocabulary-default-view",
+    "odd": "docbook.odd",
+    "next": "3.35.21",
+    "previous": "3.35.17.15",
+    "nextId": "new-vocabulary-lucene",
+    "previousId": "new-vocabulary-foo",
+    "switchView": null,
+    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"new-vocabulary-default-view\"><pb-observable data=\"3.35.19,3.35.19\" emit=\"transcription\">\n      <h2 class=\"tei-title6 title\">Default view and page template</h2>\n      <p class=\"tei-para\">\n        Rendering of the document is governed by a number of parameters, particularly\n        <span class=\"tei-parameter code\">view</span>\n        ,\n        <span class=\"tei-parameter code\">ODD</span>\n        and\n        <span class=\"tei-parameter code\">template</span>\n        :\n      </p>\n      <p class=\"tei-para\">\n        Even when these parameters are not explicitly specified, TEI Publisher and apps\n          generated from it, will fall back to the default values specified in\n        <span class=\"tei-filename code\">modules/config.xqm</span>\n        .\n      </p>\n\n      <ul class=\"tei-itemizedlist\"><li class=\"tei-listitem\">\n          <p class=\"tei-para\">\n            ODD:\n            <span class=\"tei-code2 code\">$config:default-view</span>\n          </p>\n        </li><li class=\"tei-listitem\">\n          <p class=\"tei-para\">\n            view:\n            <span class=\"tei-code2 code\">$config:default-view</span>\n          </p>\n        </li><li class=\"tei-listitem\">\n          <p class=\"tei-para\">\n            template:\n            <span class=\"tei-code2 code\">$config:default-template</span>\n          </p>\n        </li></ul>\n      <p class=\"tei-para\">\n        Alternative way to specify these would be using a\n        <a href=\"?odd=docbook.odd&amp;view=div&amp;id=pi-config\" class=\"tei-link3\" target=\"\">processing\n            instruction</a>\n        in the foo.xml document itself.\n      </p>\n      <pb-code-highlight class=\"tei-programlisting5\" language=\"xml\" line-numbers=\"line-numbers\">\n        &lt;?teipublisher odd=\"foo.odd\" view=\"single\" template=\"view.html\"?&gt;\n      </pb-code-highlight>\n    </pb-observable></div></div>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}
