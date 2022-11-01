@@ -10,6 +10,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const pluginToc = require('eleventy-plugin-toc');
+const pluginTP = require('@teipublisher/pb-eleventy-plugin');
 
 module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
@@ -23,6 +24,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(pluginToc, { ul: true });
+  eleventyConfig.addPlugin(pluginTP);
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");

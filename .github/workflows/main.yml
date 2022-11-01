@@ -23,6 +23,14 @@ jobs:
     - name: Setup Node.js environment
       uses: actions/setup-node@v3.4.1
 
+    - name: Start docker image
+      run: docker run --publish 8080:8080 --detach exist-db ghcr.io/eeditiones/tei-publisher-app/teipublisher:master
+
+    - name: Wait for eXist
+      uses: iFaxity/wait-on-action@v1
+      with:
+        resource: http-get://localhost:8080/exist/apps/tei-publisher/index.html
+
     - name: Install packages
       run: npm ci
 
