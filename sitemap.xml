@@ -252,6 +252,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/posts/contributing-content/</loc>
+    <lastmod>2022-11-02</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/posts/</loc>
     <lastmod>2022-11-02</lastmod>
   </url>
@@ -337,6 +342,16 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/tutorial/</loc>
+    <lastmod>2022-11-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/beginner/</loc>
+    <lastmod>2022-11-02</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/interoperability/</loc>
     <lastmod>2022-11-02</lastmod>
   </url>
@@ -383,11 +398,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/wordpress/</loc>
-    <lastmod>2022-11-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/tutorial/</loc>
     <lastmod>2022-11-02</lastmod>
   </url>
   

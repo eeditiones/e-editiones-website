@@ -5,12 +5,74 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2022-10-22T00:00:00Z</updated>
+	<updated>2022-11-02T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Contributing Content to e-editiones</title>
+		<link href="https://e-editiones.org/posts/contributing-content/"/>
+		<updated>2022-11-02T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/contributing-content/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;The community is invited to contribute content in the form of tutorials, announcements, project reports, teaching materials – whatever may be of interest and help other members.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The e-editiones website is hosted on GitHub and will be updated whenever files are pushed to the repository. Articles are authored using Markdown syntax and start with a short header to tell the system how the post should appear on the website. You don&#39;t need any special software to write a post: you can do it directly in the web browser using GitHub&#39;s simple editor (though we would recommend using a proper text editor for longer posts).&lt;/p&gt;
+&lt;h2 id=&quot;adding-an-article&quot; tabindex=&quot;-1&quot;&gt;Adding an article&lt;/h2&gt;
+&lt;p&gt;To contribute an article, log into GitHub with your account (or create one first) and browse to the &lt;a href=&quot;https://github.com/eeditiones/e-editiones-website/tree/main/posts&quot;&gt;posts&lt;/a&gt; subfolder of the GitHub repository and click on the &lt;code&gt;Add file&lt;/code&gt; button in the toolbar. Here you can choose to upload an existing file or open an editor to write your text.&lt;/p&gt;
+&lt;img width=&quot;236&quot; alt=&quot;image&quot; src=&quot;https://user-images.githubusercontent.com/117303754/199563935-14303746-5718-4ccc-b94c-9b9f8b0467b9.png&quot; /&gt;
+&lt;p&gt;Unless you are a member of the editorial team, GitHub will warn you that you are about to make changes to a project you don&#39;t have write access to. This is ok! Your changes will result in a ~pull request~, which will be sent to the e-editiones team for approval.&lt;/p&gt;
+&lt;img width=&quot;1205&quot; alt=&quot;image&quot; src=&quot;https://user-images.githubusercontent.com/117303754/199564198-0829f34f-6163-4ae9-ad64-e6a62e788eea.png&quot; /&gt;
+&lt;h2 id=&quot;editing-the-article&quot; tabindex=&quot;-1&quot;&gt;Editing the article&lt;/h2&gt;
+&lt;p&gt;As mentioned above, every article should start with a short header containing some basic metadata delimited by 3 dashes (&lt;code&gt;---&lt;/code&gt;):&lt;/p&gt;
+&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token key atrule&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Full title of the article&lt;br /&gt;&lt;span class=&quot;token key atrule&quot;&gt;short&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; (optional) Short title&lt;br /&gt;&lt;span class=&quot;token key atrule&quot;&gt;lead&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; (optional) Descriptive short summary&lt;br /&gt;&lt;span class=&quot;token key atrule&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Author of the article&lt;br /&gt;&lt;span class=&quot;token key atrule&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token datetime number&quot;&gt;2022-10-25&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token key atrule&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; events&lt;br /&gt;    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; meetups&lt;br /&gt;&lt;span class=&quot;token key atrule&quot;&gt;coverImage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; (recommended) Image to be used as cover&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; located in img folder&lt;br /&gt;&lt;span class=&quot;token key atrule&quot;&gt;coverImageCredits&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; (recommended) Any credits to be shown for the cover image&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You should at least provide the full title, author, date and some tags. You may also supply a short title if your main title is longer than ~5 words. The ~short title~ as well as the ~lead~ will be used in post listings (like the one on the start page).&lt;/p&gt;
+&lt;p&gt;We also recommend to choose a cover image to catch some attention. Images need to be saved separately in the &lt;a href=&quot;https://github.com/eeditiones/e-editiones-website/tree/main/img&quot;&gt;img&lt;/a&gt; folder. Don&#39;t forget to provide proper credits in the &lt;code&gt;coverImageCredits&lt;/code&gt; field.&lt;/p&gt;
+&lt;p&gt;Every article should have one or two tags. Tags are important for navigation within the website. Please include at least one of the tag categories listed below. Tags shown as nested below should always come in pairs. For example, if you write about a conference, you should include the tags &lt;code&gt;events&lt;/code&gt; &lt;strong&gt;and&lt;/strong&gt; &lt;code&gt;conference&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;events
+&lt;ul&gt;
+&lt;li&gt;workshop&lt;/li&gt;
+&lt;li&gt;meetups&lt;/li&gt;
+&lt;li&gt;conference&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;announcements
+&lt;ul&gt;
+&lt;li&gt;call&lt;/li&gt;
+&lt;li&gt;e-editiones&lt;/li&gt;
+&lt;li&gt;tei-publisher&lt;/li&gt;
+&lt;li&gt;... other tags referring to a particular software package, working group etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;tutorial
+&lt;ul&gt;
+&lt;li&gt;beginner&lt;/li&gt;
+&lt;li&gt;intermediate&lt;/li&gt;
+&lt;li&gt;advanced&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;faq&lt;/li&gt;
+&lt;li&gt;report
+&lt;ul&gt;
+&lt;li&gt;projects&lt;/li&gt;
+&lt;li&gt;best practice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;teaching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;writing-content&quot; tabindex=&quot;-1&quot;&gt;Writing Content&lt;/h2&gt;
+&lt;p&gt;Content is written using &lt;a href=&quot;https://commonmark.org/help/&quot;&gt;markdown syntax&lt;/a&gt;. It should not repeat the title already given in the header as this will be inserted automatically.&lt;/p&gt;
+&lt;p&gt;If you write a longer article, please use headings to give it some structure. They will be automatically added to the table of contents in the right sidebar and help the user to navigate the text.&lt;/p&gt;
+&lt;h2 id=&quot;submitting&quot; tabindex=&quot;-1&quot;&gt;Submitting&lt;/h2&gt;
+&lt;p&gt;Once you are happy with your article, fill out the form at the bottom of the GitHub page, titled ~Propose new file~. Provide a title and maybe a short comment
+for the editorial team.&lt;/p&gt;
+&lt;img width=&quot;1183&quot; alt=&quot;image&quot; src=&quot;https://user-images.githubusercontent.com/117303754/199565381-0561f0e4-e46c-479e-8ea7-b0d2912fc9a8.png&quot; /&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Past Community Meetings</title>
