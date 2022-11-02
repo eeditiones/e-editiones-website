@@ -61,11 +61,23 @@ function search(index, fields, query) {
 
             const div = document.createElement('div');
             const head = document.createElement('h3');
+            head.className = 'mb-0';
             const link = document.createElement('a');
             link.href = data.id;
             link.innerHTML = data.title;
             head.appendChild(link);
             div.appendChild(head);
+
+            if (data.tags) {
+                const tags = document.createElement('ul');
+                tags.className = 'tags';
+                data.tags.forEach((tag) => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `<a href="/tags/${tag}" class="badge text-bg-light">${tag}</a>`;
+                    tags.appendChild(li);
+                });
+                div.appendChild(tags);
+            }
 
             const list = document.createElement('ul');
             let matches = Array.from(data.content.matchAll(regex));

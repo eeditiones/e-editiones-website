@@ -97,7 +97,8 @@ module.exports = function(eleventyConfig) {
       index.push({
         id: page.url,
         title: page.template.frontMatter.data.title.replace(/\n/g, ' '),
-        content: normalizeContent(page.template.frontMatter.content)
+        content: normalizeContent(page.template.frontMatter.content),
+        tags: page.template.frontMatter.data.tags
       });
     });
     return index;
