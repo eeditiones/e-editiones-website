@@ -420,7 +420,7 @@ ul.cloud a {
   --size: 4;
   --color: #a33;
   color: var(--color);
-  font-size: calc(var(--size) * 0.10em + 0.5em);
+  font-size: calc(var(--size) * 0.15rem + var(--font-size-smallest));
   display: block;
   padding: 0.125em 0.25em;
   position: relative;
@@ -428,34 +428,14 @@ ul.cloud a {
 }
 
 ul[data-show-value] a::after {
-  content: " (" attr(data-weight) ")";
+  content: " (" attr(data-count) ")";
   font-size: 1em;
 }
 
-ul.cloud a[data-weight="1"] { --size: 1; }
-ul.cloud a[data-weight="2"] { --size: 2; }
-ul.cloud a[data-weight="3"] { --size: 3; }
-ul.cloud a[data-weight="4"] { --size: 4; }
-ul.cloud a[data-weight="5"] { --size: 5; }
-ul.cloud a[data-weight="6"] { --size: 6; }
-ul.cloud a[data-weight="7"] { --size: 7; }
-ul.cloud a[data-weight="8"] { --size: 8; }
-ul.cloud a[data-weight="9"] { --size: 9; }
-ul.cloud a[data-weight="10"] { --size: 10; }
-ul.cloud a[data-weight="11"] { --size: 11; }
-ul.cloud a[data-weight="12"] { --size: 12; }
-ul.cloud a[data-weight="13"] { --size: 13; }
-ul.cloud a[data-weight="14"] { --size: 14; }
-ul.cloud a[data-weight="15"] { --size: 15; }
-ul.cloud a[data-weight="16"] { --size: 16; }
-ul.cloud a[data-weight="17"] { --size: 17; }
-ul.cloud a[data-weight="18"] { --size: 18; }
-ul.cloud a[data-weight="19"] { --size: 19; }
-ul.cloud a[data-weight="20"] { --size: 20; }
-
 ul.cloud li:nth-child(2n+1) a { --color: var(--color-1); }
-ul.cloud li:nth-child(3n+1) a { --color: var(--bs-link-color); }
-ul.cloud li:nth-child(4n+1) a { --color: var(--color-2); }
+ul.cloud li:nth-child(3n+1) a { --color: var(--color-2); }
+ul.cloud li:nth-child(4n+1) a { --color: var(--color-3); }
+ul.cloud li:nth-child(5n+1) a { --color: var(--color-4); }
 
 .home #map {
   width: 100%;
