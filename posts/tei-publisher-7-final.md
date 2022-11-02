@@ -4,9 +4,10 @@ short: "TEI Publisher 7"
 lead: "An example of collaborative development"
 author: "Wolfgang Meier"
 date: "2020-12-18"
-categories: 
-  - "general"
+tags: 
+  - "announcements"
   - "tei-publisher"
+  - release
 coverImage: "marcel-eberle-_Z5ayVBcYjg-unsplash.jpg"
 ---
 

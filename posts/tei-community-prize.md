@@ -1,10 +1,9 @@
 ---
 title: "e-editiones receives TEI Community Prize"
 date: "2021-10-27"
-categories: 
-  - "general"
-  - "tei-publisher"
 tags: 
+  - announcements
+  - e-editiones
   - "awards"
 coverImage: "erwan-hesry-WPTHZkA-M4I-unsplash.jpg"
 coverImageCredits: Tile photo by <a href="https://unsplash.com/@erwanhesry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Erwan Hesry</a> on <a href="https://unsplash.com/s/photos/fireworks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>

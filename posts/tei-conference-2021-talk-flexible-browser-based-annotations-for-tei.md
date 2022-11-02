@@ -3,10 +3,9 @@ title: "TEI Conference 2021 Talk: \"Flexible, Browser-Based Annotations for TEI\
 short: "Flexible, Browser-Based Annotations for TEI"
 lead: "TEI Conference 2021"
 date: "2021-10-26"
-categories: 
-  - "general"
-  - "tei-publisher"
 tags: 
+  - events
+  - conference
   - "annotations"
   - "tei-publisher"
 coverImage: "edwin-andrade-4V1dC_eoCwg-unsplash.jpg"

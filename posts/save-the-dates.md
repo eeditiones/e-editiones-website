@@ -2,11 +2,9 @@
 title: "Save the dates"
 lead: "Upcoming events"
 date: "2021-02-02"
-categories: 
-  - "general"
-  - "tei-publisher"
 tags: 
   - "events"
+  - meetups
 coverImage: "estee-janssens-zni0zgb3bkQ-unsplash.jpg"
 ---
 

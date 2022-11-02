@@ -6,8 +6,8 @@ categories:
   - "general"
   - "tei-publisher"
 tags: 
-  - "news"
-  - "tei"
+  - announcements
+  - e-editiones
 coverImage: "bank-phrom-Tzm3Oyu_6sk-unsplash.jpg"
 ---
 

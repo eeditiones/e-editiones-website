@@ -3,12 +3,11 @@ title: "Call for Applications / Оголошення про подачу зая�
 short: "Call for Applications"
 lead: "Оголошення про подачу заявок"
 date: "2022-03-29"
-categories: 
-  - "general"
 tags: 
-  - "grants"
-  - "news"
+  - "announcements"
+  - "e-editiones"
   - "ukraine"
+  - "grants"
 coverImage: "aaron-burden-AXqMy8MSSdk-unsplash.jpg"
 coverImageCredits: Tile Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Aaron Burden</a> on <a href="https://unsplash.com/s/photos/business-proposal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---

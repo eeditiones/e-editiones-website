@@ -2,12 +2,10 @@
 title: "Call for Proposals"
 lead: "Community challenge"
 date: "2021-10-27"
-categories: 
-  - "general"
-  - "tei-publisher"
 tags: 
+  - "announcements"
+  - "e-editiones"
   - "awards"
-  - "news"
 coverImage: "brett-jordan-MHS7g_q-6mE-unsplash.jpg"
 ---
 

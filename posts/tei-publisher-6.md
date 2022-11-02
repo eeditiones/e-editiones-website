@@ -6,6 +6,8 @@ date: "2020-07-10"
 categories: 
   - "tei-publisher"
 tags: 
+  - announcements
+  - tei-publisher
   - "mei"
   - "pb-component"
   - "release"

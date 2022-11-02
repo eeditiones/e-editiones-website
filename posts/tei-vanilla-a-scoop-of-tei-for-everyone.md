@@ -2,6 +2,10 @@
 title: "TEI Vanilla - a scoop of TEI for everyone"
 date: "2020-10-06"
 coverImage: "round-wall-scene-e1601981235620.png"
+tags:
+    - announcements
+    - tei
+    - tei vanilla
 ---
 
 Following the spontaneous but inspiring exchange on e-editiones Slack channel, we'd like to invite you to a new e-editiones community meeting to discuss the emerging TEI Vanilla proposal. The event will take place [online](https://meet.existsolutions.com/eeditiones "online") at 4pm CET on October 20th, 2020.

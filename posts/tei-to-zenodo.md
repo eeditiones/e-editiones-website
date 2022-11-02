@@ -2,12 +2,9 @@
 title: "TEI2Zenodo"
 lead: "Versioning and Archiving Data: A workshop by Dr. Andreas Wagner"
 date: "2021-03-02"
-categories: 
-  - "general"
-  - "tei-publisher"
 tags: 
   - "events"
-  - "workshop"
+  - "meetups"
 coverImage: "estee-janssens-zni0zgb3bkQ-unsplash.jpg"
 ---
 

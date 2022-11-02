@@ -5,10 +5,10 @@ categories:
   - "general"
   - "tei-publisher"
 tags: 
-  - "interoperability"
+  - "announcements"
   - "open-api"
-  - "release"
-  - "tei-publisher"
+  - "roaster"
+  - release
 coverImage: "tim-mossholder-YC6RVdoTtIk-unsplash.jpg"
 coverImageCredits: Tile photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Tim Mossholder</a> on <a href="https://unsplash.com/s/photos/roaster?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---

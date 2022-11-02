@@ -5,10 +5,12 @@ lead: "Named entity recognition in TEI Publisher"
 author: "Wolfgang Meier"
 date: "2022-06-10"
 tags: 
-  - "feature"
+  - "announcements"
   - "tei-publisher"
+  - "tutorial"
+  - "intermediate"
   - "NLP"
-  - "named entity recognition"
+  - "NER"
 coverImage: "denny-muller-jLjfAWwHdB8-unsplash.jpg"
 coverImageCredits: Cover photo by <a href="https://unsplash.com/@redaquamedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Denny Müller</a> on <a href="https://unsplash.com/s/photos/inventory?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---

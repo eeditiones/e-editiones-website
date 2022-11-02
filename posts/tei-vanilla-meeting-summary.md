@@ -7,8 +7,8 @@ categories:
 tags: 
   - "meetups"
   - "events"
-  - "news"
   - "tei"
+  - tei vanilla
 coverImage: "angle-bracket-scene.png"
 ---
 

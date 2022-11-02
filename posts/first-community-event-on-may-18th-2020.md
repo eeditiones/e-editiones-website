@@ -1,8 +1,9 @@
 ---
 title: "First Community Event on May 18th 2020"
 date: "2020-05-18"
-categories: 
-  - "general"
+tags: 
+  - "events"
+  - meetups
 ---
 
 ## If you missed it ...

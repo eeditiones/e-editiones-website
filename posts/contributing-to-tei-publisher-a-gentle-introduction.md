@@ -1,6 +1,9 @@
 ---
 title: "Contributing to TEI Publisher - a gentle introduction"
 date: "2021-06-15"
+tags:
+    - events
+    - meetups
 ---
 
 Talk by Wolfgang Meier (eXist Solutions) on Tuesday, the 6th of July 2021 at 17:00 CEST.

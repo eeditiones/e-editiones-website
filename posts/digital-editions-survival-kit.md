@@ -3,9 +3,10 @@ title: "Digital editions survival kit"
 lead: "Pack your edition for apocalypse while making libraries happy to keep it safe and running on their servers forever..."
 author: "Magdalena Turska"
 date: "2021-10-26"
-categories: 
-  - "sustainability"
-  - "tei-publisher"
+tags:
+  - report
+  - best practice
+  - tei-publisher
 coverImage: "brock-wegner-3ROwc3JSjCk-unsplash.jpg"
 coverImageCredits: Tile photo by <a href="https://unsplash.com/@isthatbrock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Brock Wegner</a> on <a href="https://unsplash.com/s/photos/vault?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---

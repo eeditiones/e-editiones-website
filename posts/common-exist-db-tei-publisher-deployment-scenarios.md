@@ -3,12 +3,9 @@ title: "Common eXist-db / TEI Publisher Deployment Scenarios"
 short: "Deployment Scenarios"
 lead: "Setting up TEI Publisher in production environment"
 date: "2020-08-29"
-categories: 
-  - "general"
-  - "tei-publisher"
 tags:
   - "events"
-  - "workshop"
+  - "meetups"
 coverImage: "kenny-eliason-uq5RMAZdZG4-unsplash.jpg"
 coverImageCredits: Tile photo by <a href="https://unsplash.com/@neonbrand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Kenny Eliason</a> on <a href="https://unsplash.com/s/photos/hosting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---

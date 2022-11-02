@@ -3,9 +3,8 @@ title: "Cross search"
 lead: "Search service which can run queries across multiple editions at the same time"
 author: "Magdalena Turska"
 date: "2020-12-23"
-categories: 
-  - "tei-publisher"
 tags: 
+  - announcements
   - "interoperability"
   - "osa20"
   - "tei"

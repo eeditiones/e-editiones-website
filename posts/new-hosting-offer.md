@@ -4,8 +4,11 @@ short: "Archives Online"
 lead: "Hosting offer in cooperation with e-editiones"
 author: "Wolfgang Meier"
 date: "2021-03-28"
-categories: 
-  - "general"
+tags: 
+  - announcements
+  - e-editiones
+  - hosting
+  - tei-publisher
 coverImage: "kenny-eliason-uq5RMAZdZG4-unsplash.jpg"
 coverImageCredits: Tile photo by <a href="https://unsplash.com/@neonbrand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Kenny Eliason</a> on <a href="https://unsplash.com/s/photos/hosting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---

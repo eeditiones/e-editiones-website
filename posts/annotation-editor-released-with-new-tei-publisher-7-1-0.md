@@ -4,12 +4,11 @@ short: "Annotation editor: Dreams come true"
 lead: "Beautifully simple way to enrich existing TEI documents"
 author: "Magdalena Turska"
 date: "2021-08-10"
-categories: 
-  - "tei-publisher"
 tags: 
+  - announcements
+  - tei-publisher
+  - release
   - "annotations"
-  - "release"
-  - "tei"
 coverImage: "carolyn-christine-D7bmnvGJA2Q-unsplash.jpg"
 coverImageCredits: Tile photo by <a href="https://unsplash.com/ja/@carolynchristine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">carolyn christine</a> on <a href="https://unsplash.com/s/photos/dreams?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---

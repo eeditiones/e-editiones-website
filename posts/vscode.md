@@ -5,9 +5,9 @@ date: "2020-12-09"
 categories: 
   - "tei-publisher"
 tags: 
-  - "news"
+  - "announcements"
   - "semantic-encoding"
-  - "tei"
+  - "tei-publisher"
   - "vscode"
 coverImage: "word.png"
 ---
