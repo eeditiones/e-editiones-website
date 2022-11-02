@@ -105,7 +105,7 @@
 
     <main class="container tmpl-documentation">
         <div class="row gx-lg-3 gx-2">
-            <div class="col-lg-8 content">
+            <div class="col-lg-8 content d-flex flex-column">
                 <div class="row">
                     <ul class="nav justify-content-start align-items-center flex-nowrap gap-2">
                         <li class="nav-item d-lg-none">
@@ -130,13 +130,13 @@
                         </li>
                     </ul>
                 </div>
-                <div class="row">
+                <div class="row flex-grow-1 overflow-auto">
                     <pb-view id="view1" src="document1" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription"
                         static="" no-scroll>
                     </pb-view>
                 </div>
             </div>
-            <aside class="col-lg-4">
+            <aside class="col-lg-4 overflow-auto">
                 <div class="offcanvas-lg offcanvas-start" tabindex="-1" id="toc-panel" aria-labelledby="offcanvasExampleLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasExampleLabel">Contents</h5>
@@ -170,7 +170,7 @@
         </div>
     </main>
 </pb-page>
-<script type="module" src="https://cdn.jsdelivr.net/npm/@teipublisher/pb-components@latest/dist/pb-components-bundle.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@teipublisher/pb-components@1.38.7/dist/pb-components-bundle.js"></script>
 <!--script type="module" src="http://localhost:8000/src/pb-components-bundle.js"></script-->
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
