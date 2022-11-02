@@ -366,11 +366,11 @@ main.tmpl-post {
 main.tmpl-documentation {
   margin-top: 104px;
   padding-top: 0;
+  padding-bottom: 0;
 }
 
 .tmpl-documentation aside, .tmpl-documentation .content {
-  height: calc(100vh - 84px);
-  overflow: auto;
+  height: calc(100vh - 104px);
 }
 
 .toc ul {
