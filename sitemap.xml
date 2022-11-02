@@ -292,7 +292,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/annotations/</loc>
+    <loc>https://e-editiones.org/tags/announcements/</loc>
+    <lastmod>2022-11-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
     <lastmod>2022-11-02</lastmod>
   </url>
   
@@ -302,7 +307,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/tei/</loc>
+    <loc>https://e-editiones.org/tags/annotations/</loc>
     <lastmod>2022-11-02</lastmod>
   </url>
   
@@ -317,12 +322,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/awards/</loc>
+    <loc>https://e-editiones.org/tags/e-editiones/</loc>
     <lastmod>2022-11-02</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/news/</loc>
+    <loc>https://e-editiones.org/tags/awards/</loc>
     <lastmod>2022-11-02</lastmod>
   </url>
   
@@ -342,7 +347,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
+    <loc>https://e-editiones.org/tags/tei/</loc>
+    <lastmod>2022-11-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/ukraine/</loc>
     <lastmod>2022-11-02</lastmod>
   </url>
   
@@ -352,7 +362,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <loc>https://e-editiones.org/tags/report/</loc>
+    <lastmod>2022-11-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/best-practice/</loc>
     <lastmod>2022-11-02</lastmod>
   </url>
   
@@ -372,7 +387,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/feature/</loc>
+    <loc>https://e-editiones.org/tags/tutorial/</loc>
+    <lastmod>2022-11-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/intermediate/</loc>
     <lastmod>2022-11-02</lastmod>
   </url>
   
@@ -382,7 +402,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/named-entity-recognition/</loc>
+    <loc>https://e-editiones.org/tags/ner/</loc>
+    <lastmod>2022-11-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/hosting/</loc>
     <lastmod>2022-11-02</lastmod>
   </url>
   
@@ -392,7 +417,22 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/roaster/</loc>
+    <lastmod>2022-11-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/conference/</loc>
+    <lastmod>2022-11-02</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/mei/</loc>
+    <lastmod>2022-11-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei-vanilla/</loc>
     <lastmod>2022-11-02</lastmod>
   </url>
   
