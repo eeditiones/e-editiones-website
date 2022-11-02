@@ -82,6 +82,16 @@
 	</entry>
 	
 	<entry>
+		<title>What&#39;s that scent?</title>
+		<link href="https://e-editiones.org/posts/community-meeting-roaster/"/>
+		<updated>2022-11-02T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/community-meeting-roaster/</id>
+		<content type="html">&lt;p&gt;Upcoming community meetup on Nov. 15, 2022:&lt;/p&gt;
+&lt;p&gt;Juri Leino (eXistSolutions/Jinntec) will talk about recent developments in Roaster, the OpenApi implementation, which handles client-server communication in TEI Publisher. Learn about file uploads, mime-types, schemas and what is coming next.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Past Community Meetings</title>
 		<link href="https://e-editiones.org/posts/past-meetings/"/>
 		<updated>2022-10-22T00:00:00Z</updated>
