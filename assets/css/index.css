@@ -1,0 +1,478 @@
+@import url("fonts.css");
+
+/* Defaults */
+:root {
+  --font-family-headings: "Zilla Slab", serif;
+  --font-family-body: "Lato", sans-serif;
+  --font-size-h1: 2.488rem;
+  --font-size-h2: 2.074rem;
+  --font-size-h3: 1.728rem;
+  --font-size-h4: 1.44rem;
+  --font-size-h5: 1.2rem;
+  --font-size-small: 0.833rem;
+  --font-size-smallest: 0.694rem;
+  --color-1: #E5A02E;
+  --color-2: #B05241;
+  --color-3: #5E5739;
+  --color-4: #303F2F;
+  --color-highlight: #FFBB54;
+  --bs-link-color: var(--color-1);
+  --bs-link-hover-color: var(--color-2);
+  --background-color-light: rgba(255, 255, 255, .80);
+  --background-color-dark: rgba(0, 0, 0, .40);
+  --banner-image: url("../../img/banner-640.jpg");
+  --banner-height: 640px; /* calc(100vh - 30vh - 90px); */
+  --header-height: 84px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+/* Global stylesheet */
+html {
+  font-size: 125%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  line-height: 1.75;
+  font-family: var(--font-family-body);
+  --bs-body-font-family: var(--font-family-body);
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: var(--font-family-headings);
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: var(--font-size-h1);
+}
+
+h2 {font-size: var(--font-size-h2);}
+
+h3 {font-size: var(--font-size-h3);}
+
+h4 {font-size: var(--font-size-h4);}
+
+h5 {font-size: var(--font-size-h5);}
+
+small {
+  font-size: .6em;
+  vertical-align: super;
+}
+
+a[href]:link {
+  text-decoration: none;
+}
+a[href]:hover {
+  text-decoration: underline;
+}
+
+.badge {
+  --bs-badge-font-size: var(--font-size-small);
+}
+
+code {
+  padding: 3px 5px;
+  border-radius: 4px;
+  color: #c7254e;
+  background: #f8f5ec;
+}
+
+blockquote {
+  margin: 2rem 2rem;
+  font-size: 1.2rem;
+}
+blockquote p::before {
+  content: url("../../img/quote-svgrepo-com.svg");
+  padding-right: .25rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  width: 100%;
+  background-image: var(--banner-image);
+  z-index: 1001;
+}
+
+.banner-visible header {
+  background-color: #F0F0F0;
+  background-image: none;
+}
+
+main {
+  position: relative;
+  padding: var(--header-height) 0 3em 0;
+  margin-top: 30px;
+  min-height: calc(100vh - 110px);
+}
+
+main.home {
+  margin-top: 0;
+  padding: 0 0 3em 0;
+  min-height: calc(100vh - var(--header-height));
+  background: #f0f0f0;
+}
+
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table {
+  margin: 1em 0;
+}
+table td,
+table th {
+  padding-right: 1em;
+}
+
+.banner {
+  color: #F0F0F0;
+}
+
+nav.navbar {
+  --bs-navbar-brand-margin-end: 60px;
+  --bs-navbar-active-color: var(--bs-white);
+  background-color: rgba(0, 0, 0, .40);
+}
+
+.banner-visible nav.navbar {
+  --bs-navbar-active-color: var(--bs-black);
+  background-color: #F0F0F0;
+}
+
+ul.navbar-nav {
+  --bs-nav-link-color: var(--bs-white);
+  --bs-nav-link-hover-color: var(--bs-nav-link-color);
+}
+.banner-visible ul.navbar-nav {
+  --bs-nav-link-color: var(--bs-black);
+}
+
+.dropdown-menu .nav-link {
+  --bs-nav-link-color: var(--bs-black);
+  --bs-nav-link-hover-color: var(--bs-nav-link-color);
+}
+
+.dropdown-menu .nav-link.active {
+  --bs-navbar-active-color: var(--bs-link-color);
+}
+
+.navbar-brand {
+  width: 210px;
+  height: 64px;
+  background-image: url("../../img/e-editiones-logo-color-inverted.svg");
+  background-size: 100% auto;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.banner-visible .navbar-brand {
+  background-image: url("../../img/e-editiones-logo-color.svg");
+}
+
+@media (max-width: 400px) {
+  /* Use icon instead of logo for small screens */
+  .navbar-brand, .banner-visible .navbar-brand {
+    width: 64px;
+    background-image: url("../../img/e-editiones-icon-color-300x300-square.svg");
+  }
+}
+
+nav .icons a:link {
+  --bs-link-color: white;
+}
+
+.icons a:link, .banner-visible nav .icons a:link {
+  --bs-link-color: black;
+}
+
+/* banner */
+.banner-visible .banner {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.banner {
+  position: relative;
+  height: var(--banner-height);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+  margin-top: var(--header-height);
+  width: 100%;
+  background-image: var(--banner-image);
+}
+
+.banner > div {
+  background-color: var(--background-color-dark);
+  height: 100%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  text-align: center;
+}
+
+.banner .hero {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  right: 0;
+}
+/* .banner .hero .btn-warning {
+  --bs-btn-bg: var(--bs-link-color);
+} */
+.banner h1 {
+  font-family: var(--font-family-headings);
+  font-size: 5.8em;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+@media (max-width: 375px) {
+  .banner h1 {
+    font-size: 2.488rem;
+  }
+}
+
+.banner h2 {
+  font-family: var(--font-family-body);
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* intro text buttons */
+.shortcut {
+  color:var(--background-color-light);
+  background-color: var(--background-color-dark);
+}
+
+.shortcut span {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+/* "editions with future" initial letter */
+.initial {
+  color: var(--bs-link-color);
+}
+
+.banner .intro-text {
+  position: absolute;
+  bottom: 0;
+}
+
+/* footer */
+footer {
+  font-size: var(--font-size-small);
+}
+
+/* Homepage tiles */
+.card-body h3, .card-body p {
+  margin: 0;
+}
+.card-body time {
+  font-size: var(--font-size-small);
+}
+.card-img-top {
+  position: relative;
+}
+.card-img-top .tagline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--background-color-dark);
+}
+.tagline .badge {
+  margin: .5em .2em;
+}
+.card-img-top a {
+  color:var(--background-color-light);
+}
+.card-img-top img {
+  width: 100%;
+}
+
+.blog {
+}
+
+/* Make sure the navbar height is taken into account when 
+ * scrolling
+ */
+:target {
+  scroll-margin-top: var(--header-height);
+}
+
+/* Posts */
+main.tmpl-post {
+  max-width: 50rem;
+}
+
+.tmpl-post figure {
+  text-align: center;
+}
+
+.tmpl-post figure img {
+  max-width: 100%;
+  border: 1px solid var(--background-color-dark);
+}
+
+.tmpl-post img.left {
+  float: left;
+  max-width: 33%;
+  padding-right: 1rem;
+}
+
+.dateline {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-family: var(--font-family-headings);
+}
+
+.dateline time {
+  display: block;
+}
+
+.credits {
+  text-align: right;
+  font-size: var(--font-size-small);
+}
+
+.tmpl-post aside, .tmpl-documentation aside, .breadcrumbs {
+  font-size: var(--font-size-small);
+}
+
+main.tmpl-documentation {
+  margin-top: 104px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.tmpl-documentation aside, .tmpl-documentation .content {
+  height: calc(100vh - 104px);
+}
+
+.toc ul {
+  padding-left: 1rem;
+}
+
+.tags {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 1rem;
+  row-gap: .5rem;
+}
+
+.twitter {
+  margin-top: 3rem;
+}
+
+/* Search form in sidebar */
+aside .search-form {
+  margin-top: 3rem;
+}
+
+/* Tag cloud */
+
+ul.cloud {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  line-height: 2.75em;
+  max-width: 480px;
+  font-size: 125%;
+}
+
+aside ul.cloud {
+  font-size: var(--font-size-small);
+  line-height: 1.4;
+}
+
+ul.cloud a {
+  --size: 4;
+  --color: #a33;
+  color: var(--color);
+  font-size: calc(var(--size) * 0.15rem + var(--font-size-smallest));
+  display: block;
+  padding: 0.125em 0.25em;
+  position: relative;
+  text-decoration: none;
+}
+
+ul[data-show-value] a::after {
+  content: " (" attr(data-count) ")";
+  font-size: 1em;
+}
+
+ul.cloud li:nth-child(2n+1) a { --color: var(--color-1); }
+ul.cloud li:nth-child(3n+1) a { --color: var(--color-2); }
+ul.cloud li:nth-child(4n+1) a { --color: var(--color-3); }
+ul.cloud li:nth-child(5n+1) a { --color: var(--color-4); }
+
+.home #map {
+  width: 100%;
+  height: 320px;
+  border: 1px solid #dee2e6;
+  font-family: var(--font-family-body);
+}
+
+/* TEI Publisher registry */
+.registry {
+  display: grid;
+  grid-template-columns: 1fr minmax(50vw, auto);
+  height: 100vh;
+  padding: var(--header-height) 0 0 0;
+  margin-top: 0;
+}
+
+.registry section {
+  overflow: auto;
+  padding: 30px 1rem;
+}
+
+.registry ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.registry #map {
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-family-body);
+}
+
+#map h4 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
