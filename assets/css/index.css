@@ -328,6 +328,7 @@ footer {
 /* Posts */
 main.tmpl-post {
   max-width: 50rem;
+  hyphens: auto;
 }
 
 .tmpl-post figure {
@@ -369,6 +370,7 @@ main.tmpl-documentation {
   margin-top: 104px;
   padding-top: 0;
   padding-bottom: 0;
+  hyphens: auto;
 }
 
 .tmpl-documentation aside, .tmpl-documentation .content {

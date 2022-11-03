@@ -332,27 +332,17 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
+    <lastmod>2022-11-03</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/e-editiones/</loc>
     <lastmod>2022-11-03</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/awards/</loc>
-    <lastmod>2022-11-03</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
-    <lastmod>2022-11-03</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/tutorial/</loc>
-    <lastmod>2022-11-03</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/beginner/</loc>
     <lastmod>2022-11-03</lastmod>
   </url>
   
@@ -368,6 +358,16 @@
   
   <url>
     <loc>https://e-editiones.org/tags/tei/</loc>
+    <lastmod>2022-11-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tutorial/</loc>
+    <lastmod>2022-11-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/beginner/</loc>
     <lastmod>2022-11-03</lastmod>
   </url>
   
