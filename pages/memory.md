@@ -9,7 +9,7 @@ sidebar: false
 
 Do you work in an archive or library and got a truckload of data dumps from terminated projects? Are you responsible for a digital humanities initiative and funding is about to dry out? Worried about future maintenance and long-term prospects? Asking yourself **"What now?!"**. This community has the answers you need.
 
-![](/img/aditya-dvPd91Pdh5c-unsplash.jpg)
+![Photo by <a href="https://unsplash.com/ja/@adidhotre?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aditya</a> on <a href="https://unsplash.com/s/photos/archive?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>](/img/aditya-dvPd91Pdh5c-unsplash.jpg)
 
 > rooted in standards, built by the community, meant to last
 
@@ -20,6 +20,3 @@ Imagine a universe, where a digital publication can be assembled very much **lik
 At the same time, all resources are based on human-readable and well documented formats (like TEI XML), ultimately fitting for **long-term** safe-keeping but also allowing for single-source transformations into a range output formats (web, ebook, pdf) right here and now.
 
 In the ideal world, projects requesting to hand over their resources to a memory institution would already follow such a modular and standardized design. Nevertheless, for legacy collections, it is still feasible to transform the source material at relatively low cost into required form, thus saving the research data and giving it a new lease of life and sound prospects for the future.
-
-
-Photo by <a href="https://unsplash.com/ja/@adidhotre?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aditya</a> on <a href="https://unsplash.com/s/photos/archive?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
