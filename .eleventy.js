@@ -14,9 +14,7 @@ const pluginTP = require('@teipublisher/pb-eleventy-plugin');
 
 module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
-  eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy("scripts");
+  eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("resources");
 
   // Add plugins

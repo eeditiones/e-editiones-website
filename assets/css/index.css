@@ -1,3 +1,5 @@
+@import url("fonts.css");
+
 /* Defaults */
 :root {
   --font-family-headings: "Zilla Slab", serif;
@@ -18,7 +20,7 @@
   --bs-link-hover-color: var(--color-2);
   --background-color-light: rgba(255, 255, 255, .80);
   --background-color-dark: rgba(0, 0, 0, .40);
-  --banner-image: url("../img/banner-640.jpg");
+  --banner-image: url("../../img/banner-640.jpg");
   --banner-height: 640px; /* calc(100vh - 30vh - 90px); */
   --header-height: 84px;
 }
@@ -90,7 +92,7 @@ blockquote {
   font-size: 1.2rem;
 }
 blockquote p::before {
-  content: url("../img/quote-svgrepo-com.svg");
+  content: url("../../img/quote-svgrepo-com.svg");
   padding-right: .25rem;
 }
 
@@ -179,21 +181,21 @@ ul.navbar-nav {
 .navbar-brand {
   width: 210px;
   height: 64px;
-  background-image: url("/img/e-editiones-logo-color-inverted.svg");
+  background-image: url("../../img/e-editiones-logo-color-inverted.svg");
   background-size: 100% auto;
   background-position: left center;
   background-repeat: no-repeat;
 }
 
 .banner-visible .navbar-brand {
-  background-image: url("/img/e-editiones-logo-color.svg");
+  background-image: url("../../img/e-editiones-logo-color.svg");
 }
 
 @media (max-width: 400px) {
   /* Use icon instead of logo for small screens */
   .navbar-brand, .banner-visible .navbar-brand {
     width: 64px;
-    background-image: url("/img/e-editiones-icon-color-300x300-square.svg");
+    background-image: url("../../img/e-editiones-icon-color-300x300-square.svg");
   }
 }
 
@@ -441,6 +443,7 @@ ul.cloud li:nth-child(5n+1) a { --color: var(--color-4); }
   width: 100%;
   height: 320px;
   border: 1px solid #dee2e6;
+  font-family: var(--font-family-body);
 }
 
 /* TEI Publisher registry */
@@ -466,6 +469,7 @@ ul.cloud li:nth-child(5n+1) a { --color: var(--color-4); }
 .registry #map {
   width: 100%;
   height: 100%;
+  font-family: var(--font-family-body);
 }
 
 #map h4 {
