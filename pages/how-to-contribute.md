@@ -15,7 +15,7 @@ While we are very happy with the achievements so far, we still have a much broad
 
 ## Become a Member or Supporter
 
-We would be thrilled if you can convince your organization to [become a member of e-editiones](/pages/how-to-become-a-member). Institutional membership gives our society the best leverage when applying for funding or infrastructural support. If this is difficult in your institution, consider our special Support membership or join the society as an individual.
+We would be thrilled if you can convince your organization to [become a member of e-editiones](/pages/how-to-become-a-member). Institutional membership gives our society the best leverage when applying for funding or infrastructural support. If this is difficult in your institution, consider to join the society as an individual.
 
 ## Add your project to our registry
 
