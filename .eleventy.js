@@ -12,6 +12,24 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const pluginToc = require('eleventy-plugin-toc');
 const pluginTP = require('@teipublisher/pb-eleventy-plugin');
 
+const Image = require("@11ty/eleventy-img");
+
+async function imageShortcode(src, alt) {
+  if(alt === undefined) {
+    // You bet we throw an error on missing alt (alt="" works okay)
+    throw new Error(`Missing \`alt\` on myImage from: ${src}`);
+  }
+
+  let metadata = await Image(`img/${src}`, {
+    widths: [300],
+    formats: ["jpeg"],
+    outputDir: "./_site/img/",
+  });
+
+  let data = metadata.jpeg[metadata.jpeg.length - 1];
+  return `<img src="${data.url}" alt="${alt}" loading="lazy" decoding="async">`;
+}
+
 module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
@@ -102,6 +120,8 @@ module.exports = function(eleventyConfig) {
     });
     return index;
   });
+
+  eleventyConfig.addNunjucksAsyncShortcode("thumb", imageShortcode);
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
