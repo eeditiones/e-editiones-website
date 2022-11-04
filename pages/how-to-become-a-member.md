@@ -14,10 +14,6 @@ To become a member please contact [info@e-editiones.org](mailto:info@e-editiones
 
 Do you represent a legal entity in the broadly understood research, academic or cultural heritage domains? With institutional membership contribution available from CHF 500.– you will benefit from full membership rights and receive e-editiones support in funding proposals.
 
-### Support membership
-
-Projects and parts of larger organizations unable to have their formal representative proceed with the institutional membership can nevertheless benefit from a special "support" relationship with the society available from CHF 600.– Equivalent in all but name to the institutional membership.
-
 ### Individual membership
 
 Natural persons membership fee is reduced to CHF 50.– In justified cases individual membership fee may be waived at discretion of the board.
