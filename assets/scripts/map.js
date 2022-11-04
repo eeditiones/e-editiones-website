@@ -30,5 +30,13 @@ window.addEventListener('DOMContentLoaded', () => {
             });
         markers.addLayer(layer);
         map.addLayer(markers);
+
+        document.querySelectorAll('.geoplace').forEach(place => {
+            place.addEventListener('mouseover', () => {
+                const latLong = place.dataset.coordinates.split(',');
+                const coords = L.latLng(latLong[0], latLong[1]);
+                map.setView(coords, zoom + 5);
+            });
+        });
     });
 });

@@ -29,7 +29,7 @@ templateClass: 'registry'
         <ul>
         {% for place in geodata %}
             <li>
-                <h3>{{place.name}}</h3>
+                <h3>{{place.name}} <small><i class="bi bi-geo geoplace" data-coordinates="{{place.latitude}},{{place.longitude}}"></i></small></h3>
                 <div>{{place.description}}</div>
                 <a href="{{place.url}}" class="badge bg-light text-dark">Link</a>
                 {% if place.email %}
