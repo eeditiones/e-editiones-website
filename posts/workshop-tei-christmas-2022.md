@@ -3,7 +3,7 @@ title: Have yourself a TEI-Christmas
 short: Workshop on 30th Nov, 7th Dec and 14th Dec 2022 5-9pm CET
 lead:
 author: Author of the article
-date: 2022-10-25
+date: 2022-11-07
 tags:
     - events
     - workshop
