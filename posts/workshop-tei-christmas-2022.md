@@ -1,16 +1,16 @@
 
 ---
-title: Workshop on 30th Nov, 7th Dec and 14th Dec 2022 5-9pm CET
-short: Have yourself a TEI-Christmas
+title: "Workshop on 30th Nov, 7th Dec and 14th Dec 2022 5-9pm CET"
+short: "Have yourself a TEI-Christmas"
 lead:
-author: Anne Diekjobst and Kevin Lord
+author: "Anne Diekjobst and Kevin Lord"
 date: 2022-11-07
 tags:
-    - events
-    - workshop
-    - tei
-    - beginner
-coverImage: red_christmas_present.jpg
+  - "events"
+  - "workshop"
+  - "tei"
+  - "beginner"
+coverImage: "red_christmas_present.jpg"
 ---
 
 We are offering a workshop entitled «Have yourself a TEI-Christmas» to be offered online via Zoom. The workshop will take place on three consecutive Wednesdays (Nov, 30; Dec 7 and 14) from 11:00-15:00 Eastern Standard Time/17:00-21:00 Central European Time.
