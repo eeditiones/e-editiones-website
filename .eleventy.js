@@ -11,6 +11,7 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const pluginToc = require('eleventy-plugin-toc');
 const pluginTP = require('@teipublisher/pb-eleventy-plugin');
+const pluginFavicon = require("eleventy-favicon");
 
 const Image = require("@11ty/eleventy-img");
 
@@ -41,6 +42,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(pluginToc, { ul: true });
+  eleventyConfig.addPlugin(pluginFavicon);
   eleventyConfig.addPlugin(pluginTP);
 
   eleventyConfig.addFilter("readableDate", dateObj => {
