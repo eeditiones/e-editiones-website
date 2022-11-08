@@ -267,6 +267,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/admin/</loc>
+    <lastmod>2022-11-08</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/posts/</loc>
     <lastmod>2022-11-08</lastmod>
   </url>
@@ -337,17 +342,17 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
+    <lastmod>2022-11-08</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/e-editiones/</loc>
     <lastmod>2022-11-08</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/awards/</loc>
-    <lastmod>2022-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2022-11-08</lastmod>
   </url>
   
