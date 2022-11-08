@@ -36,6 +36,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("resources");
+  eleventyConfig.addPassthroughCopy("admin");
 
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);

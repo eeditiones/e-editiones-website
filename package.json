@@ -5,6 +5,7 @@
   "scripts": {
     "build": "DEBUG=tei-publisher npx @11ty/eleventy",
     "build.all": "DEBUG=tei-publisher TP_NO_CACHE=true npx @11ty/eleventy",
+    "build.cms": "TP_DISABLED=true DEBUG=tei-publisher TP_NO_CACHE=true npx @11ty/eleventy",
     "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "watch": "TP_DISABLED=true DEBUG=tei-publisher npx @11ty/eleventy --watch",
     "serve": "TP_DISABLED=true DEBUG=tei-publisher npx @11ty/eleventy --serve --port 8081",
