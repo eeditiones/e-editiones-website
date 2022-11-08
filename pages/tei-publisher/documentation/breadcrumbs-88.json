@@ -11,7 +11,7 @@
     "nextId": "appgen-build",
     "previousId": "multiple-odds-collection",
     "switchView": null,
-    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Creating applications with the App Generator</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Exporting the Finished App</span></span></div>",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Creating applications with the App Generator</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Exporting the Finished App</span></span></div></body></html>",
     "footnotes": "",
     "userParams": {
         "mode": "breadcrumbs",

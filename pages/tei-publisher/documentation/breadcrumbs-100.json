@@ -11,7 +11,7 @@
     "nextId": "update5-7",
     "previousId": "customizations6-7-cleanup",
     "switchView": null,
-    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Updating Applications</span><span class=\"tei-title3\">Upgrading from TEI Publisher 6 to 7</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Change API endpoints</span></span></div>",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Updating Applications</span><span class=\"tei-title3\">Upgrading from TEI Publisher 6 to 7</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Change API endpoints</span></span></div></body></html>",
     "footnotes": "",
     "userParams": {
         "mode": "breadcrumbs",

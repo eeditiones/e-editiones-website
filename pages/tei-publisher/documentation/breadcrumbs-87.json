@@ -11,7 +11,7 @@
     "nextId": "appgen-export",
     "previousId": "multiple-odds",
     "switchView": null,
-    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Creating applications with the App Generator</span><span class=\"tei-title3\">Modifying the App</span><span class=\"tei-title3\">Using Multiple ODDs</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Using different ODDs depending on the collection</span></span></div>",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Creating applications with the App Generator</span><span class=\"tei-title3\">Modifying the App</span><span class=\"tei-title3\">Using Multiple ODDs</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Using different ODDs depending on the collection</span></span></div></body></html>",
     "footnotes": "",
     "userParams": {
         "mode": "breadcrumbs",

@@ -11,7 +11,7 @@
     "nextId": "model-styling",
     "previousId": "pm-syntax-model",
     "switchView": null,
-    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Processing Model transformations</span><span class=\"tei-title3\">Processing Model Syntax</span><span class=\"tei-title3\">\n          <span class=\"tei-tag code\">model</span>\n          element\n        </span></span><span class=\"tei-section2\"><span class=\"tei-title3\">\n            <span class=\"tei-tag code\">model</span>\n            children and attributes:\n          </span></span></div>",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Processing Model transformations</span><span class=\"tei-title3\">Processing Model Syntax</span><span class=\"tei-title3\">\n          <span class=\"tei-tag code\">model</span>\n          element\n        </span></span><span class=\"tei-section2\"><span class=\"tei-title3\">\n            <span class=\"tei-tag code\">model</span>\n            children and attributes:\n          </span></span></div></body></html>",
     "footnotes": "",
     "userParams": {
         "mode": "breadcrumbs",

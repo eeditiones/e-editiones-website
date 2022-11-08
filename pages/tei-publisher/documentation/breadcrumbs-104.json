@@ -11,7 +11,7 @@
     "nextId": "data-collection",
     "previousId": "update5-7-copy",
     "switchView": null,
-    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"></span><span class=\"tei-section2\"><span class=\"tei-title3\">Data</span></span></div>",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-section1\"></span><span class=\"tei-section2\"><span class=\"tei-title3\">Data</span></span></div></body></html>",
     "footnotes": "",
     "userParams": {
         "mode": "breadcrumbs",

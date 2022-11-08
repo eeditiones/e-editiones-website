@@ -11,7 +11,7 @@
     "nextId": "i18n-page-templates-pb-i18n",
     "previousId": "i18n",
     "switchView": null,
-    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"i18n-page-templates\"><pb-observable data=\"3.19.17,3.19.17\" emit=\"transcription\"><h2 class=\"tei-title6 title\">Using i18n in page templates</h2><p class=\"tei-para\">There are several scenarios for using i18n labels:</p><ul class=\"tei-itemizedlist\"><li class=\"tei-listitem\">\n          <p class=\"tei-para\">directly within HTML element</p>\n        </li><li class=\"tei-listitem\">\n          <p class=\"tei-para\">in an attribute</p>\n        </li><li class=\"tei-listitem\">\n          <p class=\"tei-para\">passed in component-specific structure</p>\n        </li></ul></pb-observable></div></div>",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"tei-section3\" id=\"i18n-page-templates\"><pb-observable data=\"3.19.17,3.19.17\" emit=\"transcription\"><h2 class=\"tei-title6 title\">Using i18n in page templates</h2><p class=\"tei-para\">There are several scenarios for using i18n labels:</p><ul class=\"tei-itemizedlist\"><li class=\"tei-listitem\">\n          <p class=\"tei-para\">directly within HTML element</p>\n        </li><li class=\"tei-listitem\">\n          <p class=\"tei-para\">in an attribute</p>\n        </li><li class=\"tei-listitem\">\n          <p class=\"tei-para\">passed in component-specific structure</p>\n        </li></ul></pb-observable></div></div></body></html>",
     "footnotes": "",
     "userParams": {
         "webcomponents": 7

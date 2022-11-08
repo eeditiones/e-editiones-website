@@ -11,7 +11,7 @@
     "nextId": "v6",
     "previousId": "versions",
     "switchView": null,
-    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Introduction</span><span class=\"tei-title3\">Versions</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">What's new in TEI Publisher 7.0.0</span></span></div>",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Introduction</span><span class=\"tei-title3\">Versions</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">What's new in TEI Publisher 7.0.0</span></span></div></body></html>",
     "footnotes": "",
     "userParams": {
         "mode": "breadcrumbs",

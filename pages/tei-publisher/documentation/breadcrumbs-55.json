@@ -11,7 +11,7 @@
     "nextId": "pb-behaviour",
     "previousId": "pm-extensions-templates",
     "switchView": null,
-    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Processing Model transformations</span><span class=\"tei-title3\">Extensions to the Processing Model Specification</span><span class=\"tei-title3\">Code Templates and Custom Behaviours</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">\n            Introducing\n            <span class=\"tei-tag code\">pb:template</span>\n          </span></span></div>",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Processing Model transformations</span><span class=\"tei-title3\">Extensions to the Processing Model Specification</span><span class=\"tei-title3\">Code Templates and Custom Behaviours</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">\n            Introducing\n            <span class=\"tei-tag code\">pb:template</span>\n          </span></span></div></body></html>",
     "footnotes": "",
     "userParams": {
         "mode": "breadcrumbs",

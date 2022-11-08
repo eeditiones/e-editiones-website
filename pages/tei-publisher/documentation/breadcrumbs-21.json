@@ -11,7 +11,7 @@
     "nextId": "upload",
     "previousId": "document-view",
     "switchView": null,
-    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Quickstart</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Experimenting with ODDs and page templates</span></span></div>",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Quickstart</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Experimenting with ODDs and page templates</span></span></div></body></html>",
     "footnotes": "",
     "userParams": {
         "mode": "breadcrumbs",

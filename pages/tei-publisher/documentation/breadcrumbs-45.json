@@ -11,7 +11,7 @@
     "nextId": "external-css",
     "previousId": "behaviours",
     "switchView": null,
-    "content": "<!DOCTYPE html>\n<div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Processing Model transformations</span><span class=\"tei-title3\">Processing Model Syntax</span><span class=\"tei-title3\">Behaviours</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Available Behaviours</span></span></div>",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Processing Model transformations</span><span class=\"tei-title3\">Processing Model Syntax</span><span class=\"tei-title3\">Behaviours</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Available Behaviours</span></span></div></body></html>",
     "footnotes": "",
     "userParams": {
         "mode": "breadcrumbs",

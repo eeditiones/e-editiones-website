@@ -11,7 +11,7 @@
     "nextId": "customizations6-7-endpoints",
     "previousId": "customizations6-7",
     "switchView": null,
-    "content": "<!DOCTYPE html>\n<div class=\"content \"><div class=\"tei-section3\" id=\"customizations6-7-cleanup\"><pb-observable data=\"3.25.11.23,3.25.11.23\" emit=\"transcription\">\n        <h3 class=\"tei-title6 title\">Remove superfluous code</h3>\n        <p class=\"tei-para\">Now you can remove files which are no longer used:</p>\n        <pb-code-highlight class=\"tei-programlisting5\" language=\"shell\" line-numbers=\"line-numbers\">\nrm templates/toc.html\nrm templates/search-results.html\nrm modules/view.xql</pb-code-highlight>\n      </pb-observable></div></div>",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"tei-section3\" id=\"customizations6-7-cleanup\"><pb-observable data=\"3.25.11.23,3.25.11.23\" emit=\"transcription\">\n        <h3 class=\"tei-title6 title\">Remove superfluous code</h3>\n        <p class=\"tei-para\">Now you can remove files which are no longer used:</p>\n        <pb-code-highlight class=\"tei-programlisting5\" language=\"shell\" line-numbers=\"line-numbers\">\nrm templates/toc.html\nrm templates/search-results.html\nrm modules/view.xql</pb-code-highlight>\n      </pb-observable></div></div></body></html>",
     "footnotes": "",
     "userParams": {
         "webcomponents": 7
