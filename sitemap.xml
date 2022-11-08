@@ -262,11 +262,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/drafts/workshop-tei-christmas-2022/</loc>
-    <lastmod>2022-11-07</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/posts/workshop-tei-christmas-2022/</loc>
     <lastmod>2022-11-07</lastmod>
   </url>
@@ -307,26 +302,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/events/</loc>
-    <lastmod>2022-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/workshop/</loc>
-    <lastmod>2022-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/tei/</loc>
-    <lastmod>2022-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/beginner/</loc>
-    <lastmod>2022-11-08</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/static/</loc>
     <lastmod>2022-11-08</lastmod>
   </url>
@@ -352,6 +327,16 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/events/</loc>
+    <lastmod>2022-11-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/workshop/</loc>
+    <lastmod>2022-11-08</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/e-editiones/</loc>
     <lastmod>2022-11-08</lastmod>
   </url>
@@ -372,12 +357,22 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/beginner/</loc>
+    <lastmod>2022-11-08</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/interoperability/</loc>
     <lastmod>2022-11-08</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/osa20/</loc>
+    <lastmod>2022-11-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei/</loc>
     <lastmod>2022-11-08</lastmod>
   </url>
   
