@@ -6,7 +6,7 @@ author: Wolfgang Meier
 tags:
   - tutorial
   - e-editiones
-coverImage: /img/mark-konig-xceuxxhpy3o-unsplash.jpg
+coverImage: /img/aditya-dvPd91Pdh5c-unsplash.jpg
 ---
 Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor eu augue ut lectus arcu bibendum at varius vel. Suspendisse in est ante in nibh mauris cursus mattis molestie. Tellus molestie nunc non blandit massa. Auctor eu augue ut lectus arcu bibendum at varius. Sit amet est placerat in egestas erat. Purus in massa tempor nec feugiat nisl pretium fusce id. Dui ut ornare lectus sit amet est. Imperdiet nulla malesuada pellentesque elit eget. Euismod lacinia at quis risus sed vulputate odio ut enim. Ac tortor dignissim convallis aenean et tortor at risus viverra. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Faucibus purus in massa tempor nec feugiat nisl. Nulla at volutpat diam ut venenatis tellus in. Tristique senectus et netus et malesuada fames ac turpis. Metus vulputate eu scelerisque felis.
 
