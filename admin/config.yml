@@ -12,14 +12,15 @@ collections:
     label: "Posts"
     folder: "posts/"
     create: true
+    publish: false
     slug: "{{slug}}-{{year}}-{{month}}-{{day}}"
     fields:
-      - { label: "title", name: "title", widget: "string" }
-      - { label: "date", name: "date", widget: "date", format: 'YYYY-MM-DD' }
-      - { label: "short title", name: "short", widget: "string", required: false}
-      - { label: "lead", name: "lead", widget: "text", required: false }
+      - { label: "title", name: "title", widget: "string", hint: 'Full title of the post' }
+      - { label: "date", name: "date", widget: "dateTime", format: 'YYYY-MM-DD' }
+      - { label: "short title", name: "short", widget: "string", hint: 'Short title for post lists', required: false}
+      - { label: "lead", name: "lead", widget: "text", hint: 'Short abstract for post lists', required: false }
       - { label: "author", name: "author", widget: "string" }
       - { label: "tags", name: "tags", widget: "list", min: 1 }
-      - { label: "cover image", name: "coverImage", widget: "image", required: false }
+      - { label: "cover image", name: "coverImage", widget: "image", required: false, hint: 'Image to be used as cover in post list' }
       - { label: "cover image credits", name: "coverImageCredits", widget: "text", required: false }
       - { label: "body", name: "body", widget: "markdown" }
