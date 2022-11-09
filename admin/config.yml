@@ -5,6 +5,7 @@ backend:
   auth_scope: repo
   open_authoring: true
   branch: main
+  site_domain: https://guidelines.teipublisher.com
 media_folder: "/img"
 publish_mode: editorial_workflow
 logo_url: https://e-editiones.org/img/e-editiones-logo-color.svg
