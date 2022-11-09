@@ -16,7 +16,7 @@ collections:
     slug: "{{slug}}-{{year}}-{{month}}-{{day}}"
     fields:
       - { label: "title", name: "title", widget: "string", hint: 'Full title of the post' }
-      - { label: "date", name: "date", widget: "dateTime", format: 'YYYY-MM-DD' }
+      - { label: "date", name: "date", widget: "datetime", format: 'YYYY-MM-DD' }
       - { label: "short title", name: "short", widget: "string", hint: 'Short title for post lists', required: false}
       - { label: "lead", name: "lead", widget: "text", hint: 'Short abstract for post lists', required: false }
       - { label: "author", name: "author", widget: "string" }
