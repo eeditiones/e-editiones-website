@@ -14,6 +14,7 @@ show: 9
   {% set postslistCounter = collections.posts | length %}
   {% include "postslist.njk" %}
 </section>
+{#
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
@@ -25,3 +26,4 @@ show: 9
     });
   }
 </script>
+#}

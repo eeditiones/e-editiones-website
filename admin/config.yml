@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
-  # repo: eeditiones/e-editiones-website
+  # name: git-gateway
+  name: github
+  repo: eeditiones/e-editiones-website
+  auth_scope: repo
+  open_authoring: true
   branch: main
 media_folder: "/img"
 publish_mode: editorial_workflow
