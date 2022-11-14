@@ -199,6 +199,10 @@ ul.navbar-nav {
   }
 }
 
+.icons .bi {
+  font-size: 28px;
+}
+
 nav .icons a:link {
   --bs-link-color: white;
 }
