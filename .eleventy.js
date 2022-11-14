@@ -37,6 +37,20 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("resources");
   eleventyConfig.addPassthroughCopy("admin");
+  eleventyConfig.addPassthroughCopy({
+    "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js": "assets/scripts/bootstrap.bundle.min.js",
+    "./node_modules/bootstrap/dist/css/bootstrap.min.css": "assets/css/bootstrap.min.css",
+    "./node_modules/bootstrap-icons/font/bootstrap-icons.css": "assets/css/bootstrap-icons.css",
+    "./node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": "assets/css/fonts/bootstrap-icons.woff",
+    "./node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": "assets/css/fonts/bootstrap-icons.woff2",
+    "./node_modules/rellax/rellax.min.js": "assets/scripts/rellax.min.js",
+    "./node_modules/leaflet/dist/leaflet.js": "assets/scripts/leaflet.js",
+    "./node_modules/leaflet/dist/leaflet.css": "assets/css/leaflet.css",
+    "./node_modules/leaflet/dist/images/*.png": "assets/css/images",
+    "./node_modules/leaflet.markercluster/dist/leaflet.markercluster.js": "assets/scripts/leaflet.markercluster.js",
+    "./node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css": "assets/css/MarkerCluster.Default.css",
+    "./node_modules/leaflet.markercluster/dist/MarkerCluster.css": "assets/css/MarkerCluster.css"
+  });
 
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);

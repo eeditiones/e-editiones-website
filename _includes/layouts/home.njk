@@ -3,15 +3,15 @@ layout: layouts/base.njk
 templateClass: home
 ---
 {% block scripts %}
-<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
-<script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
-<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+<script src="/assets/scripts/rellax.min.js"></script>
+<script src="/assets/scripts/leaflet.js"></script>
+<script src="/assets/scripts/leaflet.markercluster.js"></script>
 <script src="{{ '/assets/scripts/map.js' | url }}"></script>
 {% endblock %}
 {% block styles %}
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+<link rel="stylesheet" href="/assets/css/leaflet.css">
+<link rel="stylesheet" href="/assets/css/MarkerCluster.css">
+<link rel="stylesheet" href="/assets/css/MarkerCluster.Default.css">
 {% endblock %}
 
 <header>
