@@ -99,6 +99,7 @@
 		<id>https://e-editiones.org/posts/community-meeting-roaster/</id>
 		<content type="html">&lt;p&gt;Upcoming community meetup on Nov. 15, 2022:&lt;/p&gt;
 &lt;p&gt;Juri Leino (eXistSolutions/Jinntec) will talk about recent developments in Roaster, the OpenApi implementation, which handles client-server communication in TEI Publisher. Learn about file uploads, mime-types, schemas and what is coming next.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://e-editiones.org/assets/files/roaster-eeditiones-community-2022.pdf&quot;&gt;View the slides&lt;/a&gt; from the talk.&lt;/p&gt;
 </content>
 	</entry>
 	
