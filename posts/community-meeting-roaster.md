@@ -13,3 +13,5 @@ coverImageCredits: Photo by <a href="https://unsplash.com/@timmossholder?utm_sou
 Upcoming community meetup on Nov. 15, 2022:
 
 Juri Leino (eXistSolutions/Jinntec) will talk about recent developments in Roaster, the OpenApi implementation, which handles client-server communication in TEI Publisher. Learn about file uploads, mime-types, schemas and what is coming next.
+
+[View the slides](/assets/files/roaster-eeditiones-community-2022.pdf) from the talk.
