@@ -1,5 +1,5 @@
 const fs = require("fs");
-
+const path = require("path");
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
@@ -21,13 +21,14 @@ async function imageShortcode(src, alt) {
     throw new Error(`Missing \`alt\` on myImage from: ${src}`);
   }
 
-  let metadata = await Image(`img/${src}`, {
+  const imageName = path.basename(src);
+  const metadata = await Image(`img/${imageName}`, {
     widths: [300],
     formats: ["jpeg"],
     outputDir: "./_site/img/",
   });
 
-  let data = metadata.jpeg[metadata.jpeg.length - 1];
+  const data = metadata.jpeg[metadata.jpeg.length - 1];
   return `<img src="${data.url}" alt="${alt}" title="${alt}" data-bs-toggle="tooltip" loading="lazy" decoding="async">`;
 }
 
