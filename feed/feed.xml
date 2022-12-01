@@ -5,12 +5,22 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2022-11-07T00:00:00Z</updated>
+	<updated>2022-12-01T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Generating a high voltage site by going static</title>
+		<link href="https://e-editiones.org/posts/community-event-going-static/"/>
+		<updated>2022-12-01T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/community-event-going-static/</id>
+		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;strong&gt;Dec. 6, 2022&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Sometimes you don&#39;t need a fully dynamic website with sophisticated search and navigation, but rather a simple service, which is super fast, reliable and easy to maintain. This is where static site generators provide a perfect alternative to a dynamic, database-driven architecture like TEI Publisher. In this session we&#39;ll learn how to marry the two concepts to combine the best of both worlds.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Workshop on 30th Nov, 7th Dec and 14th Dec 2022 5-9pm CET</title>
