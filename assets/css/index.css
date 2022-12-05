@@ -492,3 +492,22 @@ ul.cloud li:nth-child(5n+1) a { --color: var(--color-4); }
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+@media print {
+  html {
+    font-size: 100%;
+  }
+
+  header, footer {
+    display: none;
+  }
+
+  .tmpl-post aside {
+    display: none;
+  }
+
+  main {
+    margin-top: 0;
+    padding: 0;
+  }
+}
