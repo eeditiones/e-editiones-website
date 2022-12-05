@@ -24,9 +24,9 @@ In the context of digital editions, there are nevertheless many use cases where 
 
 The last point is addressing a problem we all face sooner or later: we created a fancy, TEI Publisher-powered website, but then the funding period ends and the university library tells us: sorry, we can only archive static content, not applications requiring a database. So having a – maybe slightly stripped down – static snapshot will at least allow potential users to dig up your site and look at it long after you switched jobs or retired.
 
-A number of frameworks are available to help you create a static website. The e-editiones homepage is an example for this approach: it is based on a static website generator called [11ty](https://www.11ty.dev/). Articles are written using markdown syntax and the generator takes care to transform each article and wrap it into the site's HTML templates. It works great and – thanks to github – the hosting is free.
-
 ## Integrating TEI
+
+A number of frameworks are available to help you create a static website. The e-editiones homepage is an example for this approach: it is based on a static website generator called [11ty](https://www.11ty.dev/). Articles are written using markdown syntax and the generator takes care to transform each article and wrap it into the site's HTML templates. It works great and – thanks to github – the hosting is free.
 
 Digital editions are rarely based on markdown though. Can we integrate TEI or other XML content as well? Some might say: we can always write an XSLT to generate HTML and add this to our static site. But this means we'd loose most of the nice features a system like TEI Publisher provides and have to reimplement them. Is there an easier way?
 
