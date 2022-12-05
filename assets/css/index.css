@@ -339,15 +339,25 @@ main.tmpl-post {
   text-align: center;
 }
 
+.tmpl-post figcaption {
+  font-size: var(--font-size-small);
+}
+
 .tmpl-post figure img {
   max-width: 100%;
   border: 1px solid var(--background-color-dark);
 }
 
-.tmpl-post img.left {
+.tmpl-post .left {
   float: left;
   max-width: 33%;
   padding-right: 1rem;
+}
+
+.tmpl-post .right {
+  float: right;
+  max-width: 33%;
+  padding-left: 1rem;
 }
 
 .dateline {
