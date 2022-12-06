@@ -1,17 +1,17 @@
 ---
 title: Generating a high voltage site by going static
+date: 2022-12-01
 lead: "Mark the date: community meetup Dec. 6"
 author: Wolfgang Meier
-date: 2022-12-01
 tags:
-    - events
-    - meetups
-    - feature
-    - tei-publisher
-    - tutorial
-    - advanced
+  - feature
+  - tei-publisher
+  - tutorial
+  - advanced
 coverImage: Electrostatic_generator_Teylers_Museum.jpeg
-coverImageCredits: Cover photo by McSmit - Own work, <a href="https://commons.wikimedia.org/w/index.php?curid=1436426">Public Domain</a>
+coverImageCredits: Cover photo by McSmit - Own work, <a
+  href="https://commons.wikimedia.org/w/index.php?curid=1436426">Public
+  Domain</a>
 ---
 
 Sometimes you don't need a fully dynamic website with sophisticated search and navigation, but rather a simple service, which is fast, cheap and easy to maintain. This is where static site generators provide a perfect alternative to a dynamic, database-driven architecture like TEI Publisher. In this article we'll learn how to combine the best of both worlds.
