@@ -5,12 +5,22 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2022-12-01T00:00:00Z</updated>
+	<updated>2022-12-06T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Community Meetings in 2023</title>
+		<link href="https://e-editiones.org/posts/planning-2023-community-events/"/>
+		<updated>2022-12-06T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/planning-2023-community-events/</id>
+		<content type="html">&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/planet-volumes-v_CQ10cps_Y-unsplash.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@planetvolumes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Planet Volumes&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/2023?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot; target=&quot;unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Dear community, the e-editiones board is currently planning 2023 and our community meetings. We want to revive the original idea of workshop reports and invite you to discuss open problems from your projects with us. It is a good opportunity to tap into concentrated expertise, which is why such a discussion is worthwhile even or especially at the beginning of projects. We still try to organise a meeting every first Tuesday of the month. So please &lt;a href=&quot;mailto:info@e-editiones.org&quot;&gt;get in touch&lt;/a&gt; if you want to present something.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Generating a high voltage site by going static</title>
