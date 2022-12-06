@@ -417,16 +417,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/report/</loc>
-    <lastmod>2022-12-06</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/best-practice/</loc>
-    <lastmod>2022-12-06</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/hugo/</loc>
     <lastmod>2022-12-06</lastmod>
   </url>
@@ -438,6 +428,16 @@
   
   <url>
     <loc>https://e-editiones.org/tags/wordpress/</loc>
+    <lastmod>2022-12-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/report/</loc>
+    <lastmod>2022-12-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/best-practice/</loc>
     <lastmod>2022-12-06</lastmod>
   </url>
   
