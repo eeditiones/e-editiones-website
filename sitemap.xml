@@ -267,12 +267,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/posts/community-event-going-static/</loc>
-    <lastmod>2022-12-01</lastmod>
+    <loc>https://e-editiones.org/pages/code-of-conduct/</loc>
+    <lastmod>2022-12-06</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/pages/code-of-conduct/</loc>
+    <loc>https://e-editiones.org/posts/community-event-going-static/</loc>
     <lastmod>2022-12-06</lastmod>
   </url>
   
@@ -417,6 +417,16 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/report/</loc>
+    <lastmod>2022-12-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/best-practice/</loc>
+    <lastmod>2022-12-06</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/hugo/</loc>
     <lastmod>2022-12-06</lastmod>
   </url>
@@ -428,16 +438,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/wordpress/</loc>
-    <lastmod>2022-12-06</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/report/</loc>
-    <lastmod>2022-12-06</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/best-practice/</loc>
     <lastmod>2022-12-06</lastmod>
   </url>
   
