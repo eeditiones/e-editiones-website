@@ -1,6 +1,6 @@
 ---
 title: Generating a high voltage site by going static
-date: 2022-12-01
+date: 2022-12-06
 lead: "Mark the date: community meetup Dec. 6"
 author: Wolfgang Meier
 tags:
