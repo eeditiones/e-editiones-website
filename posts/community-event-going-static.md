@@ -1,7 +1,7 @@
 ---
 title: Generating a high voltage site by going static
 date: 2022-12-06
-lead: "Mark the date: community meetup Dec. 6"
+lead: Generating a static site out of TEI Publisher.
 author: Wolfgang Meier
 tags:
   - feature
