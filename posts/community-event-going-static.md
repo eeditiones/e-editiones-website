@@ -13,7 +13,6 @@ coverImageCredits: Cover photo by McSmit - Own work, <a
   href="https://commons.wikimedia.org/w/index.php?curid=1436426">Public
   Domain</a>
 ---
-
 Sometimes you don't need a fully dynamic website with sophisticated search and navigation, but rather a simple service, which is fast, cheap and easy to maintain. This is where static site generators provide a perfect alternative to a dynamic, database-driven architecture like TEI Publisher. In this article we'll learn how to combine the best of both worlds.
 
 # Benefits of a static site
@@ -58,7 +57,7 @@ The only noticable difference is the additional attribute `static=""` – and th
 
 The unique selling point of this approach is: we can just continue to use nearly all of TEI Publisher's webcomponents! They will **work as before** on a dynamic site, which means we have page-by-page or division-by-division navigation out of the box, we can add facsimiles via `<pb-facsimile>`, switch between diplomatic or reading views via `<pb-toggle>`, and so on. At the same time, you can see that the components integrate nicely with the look and feel of the e-editiones website, which – unlike TEI Publisher – uses Bootstrap for basic styling.
 
-But can we also create a snapshot of an entire website we developed with TEI Publisher? Head over to our copy of the [TEI P5 guidelines](https://guidelines.teipublisher.com). This app was first developed as a dynamic TEI Publisher application and then transformed into a static version. Besides browsing through the chapters of the guidelines, the app also includes all the reference pages. There's even some dynamic functionality: you can jump to a reference page for an element or class by typing into the corresponding search box and there will be an autocomplete popping up. There's also a simple search facility! We'll talk about that later.
+But can we also create a snapshot of an entire website we developed with TEI Publisher? Head over to our copy of the [TEI P5 guidelines](https://guidelines.teipublisher.com). This app was first developed as a dynamic TEI Publisher application and then transformed into a static version. Besides browsing through the chapters of the guidelines, the app also includes all the reference pages. There's even some dynamic functionality: you can jump to a reference page for an element or class by typing into the corresponding search box and there will be an autocomplete popping up. There's also a simple search facility!
 
 <figure class="right">
     <img src="/img/guidelines_mobile.jpg">
