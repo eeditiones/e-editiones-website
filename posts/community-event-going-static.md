@@ -66,6 +66,8 @@ But can we also create a snapshot of an entire website we developed with TEI Pub
 
 Also worth mentioning: the static version of the TEI guidelines app is a so-called **progressive web app**, which means you can install it as a standalone application. This is most useful on a phone or tablet as visited pages will be cached for offline use. I'm actually using the guidelines app on the phone quite often, e.g. if I have to look up something while travelling. What is cached or preloaded for offline use is fully configurable in the generator, so you could even preload all the content and be fully independent of a network connection.
 
+A﻿s you can see in the screenshot, Chrome on Android displays a notification suggesting that you can install the page as an app. On a desktop machine, you should see an icon next to the location bar offering the same.
+
 ## How does it work?
 
 During the past year we actually implemented two different approaches for generating static content from TEI Publisher. The [first project](https://github.com/eeditiones/tei-publisher-static), which I started last winter, is written in Python. It is fully functional, providing the same features as the second approach. However, I ended up coding all those features myself, basically creating our own static site generator. This works fine as long as your goal is to create a static snapshot of a dynamic publisher-based site.
