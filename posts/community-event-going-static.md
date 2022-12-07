@@ -64,7 +64,7 @@ But can we also create a snapshot of an entire website we developed with TEI Pub
     <figcaption>TEI Guidelines as a mobile app</figcaption>
 </figure>
 
-Also worth mentioning: the static version of the TEI guidelines app is a so-called **progressive web app**, which means you can install it as a standalone application. This is most useful on a phone or tablet as visited pages will be cached for offline use. I'm actually using the guidelines app on the phone quite often, e.g. if I have to look up something while travelling. What is cached or preloaded for offline use is fully configurable in the generator, so you could even preload all the content and be fully independent of a network connection.
+Also worth mentioning: the static version of the [TEI guidelines app](https://guidelines.teipublisher.com) is a so-called **progressive web app**, which means you can install it as a standalone application. This is most useful on a phone or tablet as visited pages will be cached for offline use. I'm actually using the guidelines app on the phone quite often, e.g. if I have to look up something while travelling. What is cached or preloaded for offline use is fully configurable in the generator, so you could even preload all the content and be fully independent of a network connection.
 
 A﻿s you can see in the screenshot, Chrome on Android displays a notification suggesting that you can install the page as an app. On a desktop machine, you should see an icon next to the location bar offering the same.
 
