@@ -33,6 +33,7 @@ eleventyNavigation:
 - Sulamith Gehr, [Basler Edition der Bernoulli-Briefwechsel](https://ub.unibas.ch/bernoulli/index.php/Hauptseite)
 - [Mascha Hansen](https://ifaa.uni-greifswald.de/hansen/), Dr., Lecturer, Department of British and North American Studies (IfAA), University of Greifswald
 - Pauline Jacsont, Research Associate in Digital Humanities, project «[Desenrollando el cordel](https://desenrollandoelcordel.unige.ch/inicio.html)», University of Geneva
+- Boris Lehečka, freelance developer (Persian-Czech Dictionary, digital edition of J. A. Comenius’s work)
 - [Prof. Dr. Christina Lechtermann](http://staff.germanistik.rub.de/lechtermann/), Ruhr-Universität Bochum, Fakultät für Philologie Germanistisches Institut
 - [Stephan Makowski](https://www.geschichte.uni-wuppertal.de/de/personen/digital-humanities/stephan-makowski-ma.html), Wissenschaftlicher Mitarbeiter in Digital Humanities, DFG-Projekt "Index Librorum Civitatum", Bergische Universität Wuppertal
 - [David Maus](https://dmaus.name/), Leiter der Abteilung Forschung und Entwicklung. Staats- und [Universitätsbibliothek Hamburg Carl von Ossietzky](https://www.sub.uni-hamburg.de/startseite.html)
