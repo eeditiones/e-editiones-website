@@ -311,8 +311,21 @@
                 "coordinates": [8.547105400000001,47.3973245]
             },
             "properties": {
+                "name": "Quellen zur Zürcher Geschichte (QZH)",
+                "description": "<div>\n        <h4>Quellen zur Zürcher Geschichte (QZH)</h4>\n        <p>In Vorbereitung: Die Plattform Quellen zur Zürcher Geschichte (QZH) ist der Publikationskanal für Transkriptionen und Digitalisate ausgewählter Quellenstücke aus den Beständen des Staatsarchivs des Kantons Zürich. Sie steht auch für Transkriptionen anderer Institutionen und Kollaborationspartner offen.</p>\n        <a href=\"https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:christian.sieber@ji.zh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.547105400000001,47.3973245]
+            },
+            "properties": {
                 "name": "Rechtsquellen-Edition des Kantons Zürich",
-                "description": "<div>\n        <h4>Rechtsquellen-Edition des Kantons Zürich</h4>\n        <p>In Vorbereitung Historische Quellen aus dem Gebiet des heutigen Kantons Zürich aus der Zeit bis 1798</p>\n        <a href=\"http://staatsarchiv.zh.ch/\" class=\"badge bg-light text-dark\">Link</a>\n        \n    </div>\n"
+                "description": "<div>\n        <h4>Rechtsquellen-Edition des Kantons Zürich</h4>\n        <p>Historische Quellen aus dem Gebiet des heutigen Kantons Zürich aus der Zeit bis 1798</p>\n        <a href=\"https://rechtsquellen.sources-online.org/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:christian.sieber@ji.zh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
