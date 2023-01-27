@@ -234,6 +234,15 @@
     "email": "matija.ogrin@zrc-sazu.si"
   },
   {
+    "name": "The Salomon project",
+    "address": "Seminar für mittelalterliche Geschichte | Eberhard Karls Universität Tübingen | Wilhelmstr. 12, 72074 Tübingen",
+    "latitude": "48.522338150521115",
+    "longitude": "9.058878011084074",
+    "description": "The Salomon project presents an introduction to the early medieval ‘prognostic table of Salomon’ (Tabula pronostica Salomonis) as well as transcriptions and translations of some of its different versions. It is an attempt to make complex historical sources accessible to a wider audience through open digital presentation methods.\n",
+    "url": "https://tabula.libripendis.eu/",
+    "email": "bastiaan.waagmeester@uni-tuebingen.de"
+  },
+  {
     "name": "Sammlung Schweizerischer Rechtsquellen online (SSRQ online)",
     "address": "Rechtsquellenstiftung des Schweizerischen Juristenvereins, Tigerbergstrasse 21, St. Gallen, Switzerland",
     "latitude": "47.4285188",
