@@ -347,6 +347,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [9.058878011084074,48.522338150521115]
+            },
+            "properties": {
+                "name": "The Salomon project",
+                "description": "<div>\n        <h4>The Salomon project</h4>\n        <p>The Salomon project presents an introduction to the early medieval ‘prognostic table of Salomon’ (Tabula pronostica Salomonis) as well as transcriptions and translations of some of its different versions. It is an attempt to make complex historical sources accessible to a wider audience through open digital presentation methods.</p>\n        <a href=\"https://tabula.libripendis.eu/\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:bastiaan.waagmeester@uni-tuebingen.de\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [9.3730389,47.4285188]
             },
             "properties": {
