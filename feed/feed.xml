@@ -5,12 +5,22 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2022-12-06T00:00:00Z</updated>
+	<updated>2023-02-02T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Fresh from the press: fancy printouts with TEI Processing Model and Print CSS</title>
+		<link href="https://e-editiones.org/posts/comunity-event-print-css/"/>
+		<updated>2023-02-02T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/comunity-event-print-css/</id>
+		<content type="html">&lt;p&gt;Upcoming community meetup on Feb. 7, 2023:&lt;/p&gt;
+&lt;p&gt;The ability of web browsers to generate a usable printout of a digital edition is still limited. Fortunately there are tools to fill the gap. CSS Page Media provides surprising possibilities for those who need a quick solution without learning LaTeX or XSL/FO. In this community meetup we&#39;ll explore some of them and see how new additions to TEI Publisher can help with the task.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Community Meetings in 2023</title>
