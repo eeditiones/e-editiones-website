@@ -13,7 +13,7 @@
       "id": "https://e-editiones.org/posts/comunity-event-print-css/",
       "url": "https://e-editiones.org/posts/comunity-event-print-css/",
       "title": "Fresh from the press: fancy printouts with TEI Processing Model and Print CSS",
-      "content_html": "<p>Upcoming community meetup on Feb. 7, 2023:</p>\n<p>The ability of web browsers to generate a usable printout of a digital edition is still limited. Fortunately there are tools to fill the gap. CSS Page Media provides surprising possibilities for those who need a quick solution without learning LaTeX or XSL/FO. In this community meetup we'll explore some of them and see how new additions to TEI Publisher can help with the task.</p>\n",
+      "content_html": "<p>Upcoming community meetup on Feb. 7, 2023:</p>\n<p>The ability of web browsers to generate a usable printout of a digital edition is still limited. Fortunately there are tools to fill the gap. CSS Page Media provides surprising possibilities for those who need a quick solution without learning LaTeX or XSL/FO. In this community meetup we'll explore some of them and see how new additions to TEI Publisher can help with the task.</p>\n<figure><img src=\"https://e-editiones.org/img/tei-publisher-docs-printcss.png\" alt=\"\" /><figcaption>TEI Publisher documentation pages rendered with Print CSS</figcaption></figure>\n",
       "date_published": "2023-02-02T00:00:00Z"
     },{
       "id": "https://e-editiones.org/posts/planning-2023-community-events/",
