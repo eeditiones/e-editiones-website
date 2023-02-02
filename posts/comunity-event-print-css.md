@@ -7,7 +7,7 @@ author: Wolfgang Meier
 tags:
   - events
   - meetups
-coverImage: Electrostatic_generator_Teylers_Museum.jpeg
+coverImage: bank-phrom-Tzm3Oyu_6sk-unsplash.jpg
 coverImageCredits: Cover photo by <a href="https://unsplash.com/@bank_phrom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bank Phrom</a> on <a href="https://unsplash.com/s/photos/printing-press?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 ---
