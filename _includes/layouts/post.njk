@@ -26,10 +26,6 @@ templateClass: tmpl-post
             {% endif %}
             
             {{ content | safe }}
-
-            {% if coverImageCredits %}
-            <p class="credits">{{ coverImageCredits | safe }}</p>
-            {% endif %}
         </div>
         {% if sidebar %}
         <aside class="col-lg-3 col-md-3">
