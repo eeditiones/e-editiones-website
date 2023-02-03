@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "New e-editiones homepage",
   "scripts": {
-    "build": "DEBUG=tei-publisher npx @11ty/eleventy",
-    "build.all": "DEBUG=tei-publisher TP_NO_CACHE=true npx @11ty/eleventy",
-    "build.cms": "TP_DISABLED=true DEBUG=tei-publisher TP_NO_CACHE=true npx @11ty/eleventy",
-    "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
-    "watch": "TP_DISABLED=true DEBUG=tei-publisher npx @11ty/eleventy --watch",
-    "serve": "TP_DISABLED=true DEBUG=tei-publisher npx @11ty/eleventy --serve --port 8081",
+    "build": "cross-env DEBUG=tei-publisher npx @11ty/eleventy",
+    "build.all": "cross-env DEBUG=tei-publisher TP_NO_CACHE=true npx @11ty/eleventy",
+    "build.cms": "cross-env TP_DISABLED=true DEBUG=tei-publisher TP_NO_CACHE=true npx @11ty/eleventy",
+    "bench": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+    "watch": "cross-env TP_DISABLED=true DEBUG=tei-publisher npx @11ty/eleventy --watch",
+    "serve": "cross-env TP_DISABLED=true DEBUG=tei-publisher npx @11ty/eleventy --serve --port 8081",
     "start": "npm run serve",
-    "debug": "DEBUG=* npx @11ty/eleventy"
+    "debug": "cross-env DEBUG=* npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
@@ -36,5 +36,8 @@
     "markdown-it-attrs": "^4.1.4",
     "markdown-it-implicit-figures": "^0.10.0",
     "rellax": "^1.12.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
