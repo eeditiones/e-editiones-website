@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tei-publisher-lib 3: Print CSS and other new features</title>
+    <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
+    
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/css/prism-diff.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    
+    
+  </head>
+  <body>
+      <header>
+    
+
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Community</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/developer/" class="nav-link">For developers</a>
+    </li><li class="nav-item">
+        <a href="/pages/memory/" class="nav-link">For memory institutions</a>
+    </li><li class="nav-item">
+        <a href="/pages/researcher/" class="nav-link">For researchers</a>
+    </li><li class="nav-item">
+        <a href="/pages/getting-started/" class="nav-link">Getting Started</a>
+    </li><li class="nav-item">
+        <a href="/pages/get-in-touch/" class="nav-link">Get in Touch</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-contribute/" class="nav-link">How to Contribute</a>
+    </li><li class="nav-item">
+        <a href="/pages/community-meetings/" class="nav-link">Community Meetings</a>
+    </li><li class="nav-item">
+        <a href="/pages/code-of-conduct/" class="nav-link">Code of Conduct</a>
+    </li></ul>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/strategy/" class="nav-link">Strategy</a>
+    </li><li class="nav-item">
+        <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+    </li><li class="nav-item">
+        <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+    </li><li class="nav-item">
+        <a href="/pages/board/" class="nav-link">Board</a>
+    </li><li class="nav-item">
+        <a href="/pages/members/" class="nav-link">Members</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+    </li></ul>
+    </li><li class="nav-item">
+        <a href="/posts/" class="nav-link">Archive</a>
+    </li><li class="nav-item">
+                    <a href="/tags/events/" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/map/" class="nav-link">Project Registry</a>
+                </li>
+            </ul>
+            <div class="icons d-flex justify-content-end">
+                <a rel="me" href="https://social.e-editiones.org/@eeditiones" class="me-4"><i class="bi bi-mastodon"></i></a>
+                <a href="https://twitter.com/EEditiones" class="me-4">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/tei-publisher-lib-3.md">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+</header>
+<main class="container tmpl-post">
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>tei-publisher-lib 3: Print CSS and other new features</h1>
+
+            <div class="dateline">
+              <div>Wolfgang Meier</div>
+              <time datetime="2023-01-27">27 Jan 2023</time>
+            </div>
+
+            
+            
+            <blockquote>
+<p>Version 3.0.0 features a dedicated output mode to better support printing HTML using paged media CSS, and two small extensions to the TEI Processing Model.</p>
+</blockquote>
+<p><code>tei-publisher-lib</code> contains the code libraries used for ODD processing and the different supported output modes. It implements the corresponding parts of the TEI guidelines.</p>
+<p class="alert alert-warning">
+We use semantic versioning for all TEI Publisher projects: a change in the first digit of the version number indicates a <strong>breaking change</strong>. You should be aware that such releases are not fully backwards compatible and may require adjustments to existing apps. Please read the section on upgrading below.
+</p>
+<h2 id="a-dedicated-output-mode-for-print-css" tabindex="-1">A dedicated output mode for Print CSS</h2>
+<p>TEI Publisher 8 will feature a simpler approach for creating print output using the Print CSS and CSS Paged Media standards. This supplements the existing FO and LaTeX output modes. The new features will be covered in a separate article.</p>
+<p>With respect to <code>tei-publisher-lib</code>, one major change was introduced: the <code>print</code> output mode, which was previously a synonym for <code>fo</code>, now targets HTML optimized for print.</p>
+<h2 id="extensions-to-the-processing-model" tabindex="-1">Extensions to the Processing Model</h2>
+<p>We added two carefully chosen features to our implementation of the TEI Processing Model, which have been extensively tested, but not announced or documented until now:</p>
+<ol>
+<li>a method to specify a ~processing mode~ passed to all subsequently called models</li>
+<li>a way to set a parameter, so it will become available to models processed below</li>
+</ol>
+<p>The first is implemented as a specialization of the second. Both features are not intended for daily use, but rather for edge cases, where the standard mechanisms for handling the flow of processing are not enough. This mainly applies to cases in which you have to process the same parts of the TEI document multiple times in different contexts. None of the examples shipping with TEI Publisher needs those features, but in complex ODDs we frequently encounter situations which cannot be handled without those extensions.</p>
+<h3 id="processing-modes" tabindex="-1">Processing Modes</h3>
+<p>Distinguishing between processing modes is a common feature in XSLT. It comes handy if you need to process the same XML more than once for different purposes. One common example would be to generate a separate index page: the elements you want to process are likely the same as when you output the body of the document, but you need to render them differently. While you can often use tricks to somehow distinguish the two cases, it's sometimes simply not possible.</p>
+<p>tei-publisher-lib 3 allows you to specify a new extension attribute, <code>@pb:mode</code>, on a <code>&lt;model&gt;</code>. The value of the attribute will be taken as the name of the mode, and subsequently called models can check it via a variable, e.g. <code>$mode=&quot;bibliography&quot;</code>. This allows you to distinguish different modes in a predicate.</p>
+<h3 id="setting-parameters" tabindex="-1">Setting Parameters</h3>
+<p>TEI Publisher always supported parameters to be passed into the ODD. However, those parameters came from external sources and there was no way to set a parameter from within a model in the ODD. Sometimes you may wish to do so, for example, to compile a sorted list of people, whose details are not given in the document itself, but an auxilary authority file, which you have to pull in before sorting. Again, using tricks often helps in such a task, but not always.</p>
+<p>tei-publisher-lib now supports setting a parameter, so it becomes available to subsequent models. The syntax is the same as for the standard <code>&lt;param name=&quot;foo&quot; value=&quot;baz&quot;/&gt;</code>. Just the name of the element changes to <code>&lt;pb:set-param&gt;</code>, marking this as an extension.</p>
+<h2 id="upgrading" tabindex="-1">Upgrading</h2>
+<p>In previous versions, the output mode <code>print</code> was a synonym for <code>fo</code>. It generated XML output to be further processed by an XSL/FO engine like Apache fop. This has changed: <code>print</code> now refers to the Print CSS mode, which extends the <code>web</code> output mode. We thought this is a more natural fit and doesn't break backwards compatibility too much. If you have been generating output targetted only at XSL/FO, make sure to use the <code>fo</code> output mode instead of <code>print</code>.</p>
+<p>TEI Publisher compiles ODDs into XQuery code. Loading this generated code may fail if you upgrade your custom application to <code>tei-publisher-lib</code> 3 as the imports will be wrong. The app itself may work correctly at first. But trying to download the document using the <code>fo</code> or <code>print</code> modes will result in an error (which persists from this point on):</p>
+<pre><code> namespace URI declared by module (http://www.tei-c.org/pm/models/shakespeare/print/module) does not match namespace URI in import statement, which was: http://www.tei-c.org/pm/models/shakespeare/fo/module
+</code></pre>
+<p>Fortunately fixing this should not be difficult. There are two ways to resolve the issue:</p>
+<ol>
+<li>reinstall your custom app <strong>after</strong> updating <code>tei-publisher-lib</code>: this should regenerate all required files, at least with the 7.0 versions of TEI Publisher</li>
+<li>the manual approach</li>
+</ol>
+<p>The latter involves two steps:</p>
+<p><strong>a) Recreate <code>modules/pm-config.xql</code></strong></p>
+<p>In eXide open the XQuery file <code>modules/generate-pm-config.xql</code> and execute it once by clicking <code>Run</code>. If your custom app does not have this file (it may be too old), you can copy it from <a href="https://github.com/eeditiones/tei-publisher-app/blob/master/templates/basic/modules/generate-pm-config.xql">github</a>.</p>
+<p><strong>b) Recompile ODDs</strong></p>
+<p>Next you need to recompile your ODDs. This can either be done using the corresponding <code>Regenerate All ODDs</code> button, which you can find above the document list on the start page (you need to be logged in). If you are unable to access this page, because your installation is already broken, the alternative is to go through the API:</p>
+<p>In the browser, open the <code>api.html</code> page. You get to this page by appending <code>api.html</code> to the root URL of your application. Login via the <em>Authorize</em> button using the database user and password configured for your application (to be entered in the <code>basicAuth</code> form). Scroll down to the <em>odd</em> section and find the POST request to <code>/api/odd</code>. The label next to it should say 'Recompile ODDs'.</p>
+<p>Uncollapse the panel and click <em>'Try it out'</em>, followed by <em>'Execute'</em>. This will recompile all ODDs registered with the application, which may take a while.</p>
+<p>For those on Linux or Mac preferring the command line: you can also achieve the same by using the following shell command with <code>curl</code>:</p>
+<pre class="language-sh"><code class="language-sh"><span class="token function">curl</span> <span class="token parameter variable">-X</span> <span class="token string">'POST'</span> <span class="token string">'http://user:password@localhost:8080/exist/apps/shakespeare-pm/api/odd?check=false'</span></code></pre>
+
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
+
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/comunity-event-print-css/"
+                data-bs-toggle="tooltip" title="Fresh from the press: fancy printouts with TEI Processing Model and Print CSS">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+              <a class="btn btn-light" href="/posts/print-css/"
+                data-bs-toggle="tooltip" title="Generating CSS for print">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
+
+            <ul class="tags mb-3">
+              <li><a href="/tags/announcements/" class="badge text-bg-light" style="color: var(--color-2) !important">announcements</a></li>
+              <li><a href="/tags/tei-publisher/" class="badge text-bg-light" style="color: var(--color-3) !important">tei-publisher</a></li>
+              <li><a href="/tags/tei-publisher-lib/" class="badge text-bg-light" style="color: var(--color-4) !important">tei-publisher-lib</a></li>
+              <li><a href="/tags/release/" class="badge text-bg-light" style="color: var(--color-2) !important">release</a></li>
+            </ul>
+
+            <nav class="toc" >
+        <ul><li><a href="#a-dedicated-output-mode-for-print-css">A dedicated output mode for Print CSS</a></li><li><a href="#extensions-to-the-processing-model">Extensions to the Processing Model</a><ul><li><a href="#processing-modes">Processing Modes</a></li><li><a href="#setting-parameters">Setting Parameters</a></li></ul></li><li><a href="#upgrading">Upgrading</a></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
+</main>
+
+<footer class="p-2">
+    <div>e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
+    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX</div>
+</footer>
+
+      <script src="/assets/scripts/bootstrap.bundle.min.js"></script>
+      <script src="/assets/scripts/common.js"></script>
+      
+  </body>
+</html>
