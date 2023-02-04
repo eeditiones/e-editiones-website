@@ -477,11 +477,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/tei-publisher-lib/</loc>
-    <lastmod>2023-02-04</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/open-api/</loc>
     <lastmod>2023-02-04</lastmod>
   </url>
@@ -498,6 +493,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/mei/</loc>
+    <lastmod>2023-02-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei-publisher-lib/</loc>
     <lastmod>2023-02-04</lastmod>
   </url>
   

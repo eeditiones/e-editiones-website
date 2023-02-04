@@ -110,7 +110,7 @@
 </blockquote>
 <p><code>tei-publisher-lib</code> contains the code libraries used for ODD processing and the different supported output modes. It implements the corresponding parts of the TEI guidelines.</p>
 <p class="alert alert-warning">
-We use semantic versioning for all TEI Publisher projects: a change in the first digit of the version number indicates a <strong>breaking change</strong>. You should be aware that such releases are not fully backwards compatible and may require adjustments to existing apps. Please read the section on upgrading below.
+We use semantic versioning for all TEI Publisher projects: a change in the first digit of the version number indicates a <strong>breaking change</strong>. You should be aware that such releases are not fully backwards compatible and may require adjustments to existing apps. Please read the section on <a href="#upgrading">upgrading</a> below.
 </p>
 <h2 id="a-dedicated-output-mode-for-print-css" tabindex="-1">A dedicated output mode for Print CSS</h2>
 <p>TEI Publisher 8 will feature a simpler approach for creating print output using the Print CSS and CSS Paged Media standards. This supplements the existing FO and LaTeX output modes. The new features will be covered in a separate article.</p>
@@ -130,9 +130,7 @@ We use semantic versioning for all TEI Publisher projects: a change in the first
 <p>tei-publisher-lib now supports setting a parameter, so it becomes available to subsequent models. The syntax is the same as for the standard <code>&lt;param name=&quot;foo&quot; value=&quot;baz&quot;/&gt;</code>. Just the name of the element changes to <code>&lt;pb:set-param&gt;</code>, marking this as an extension.</p>
 <h2 id="upgrading" tabindex="-1">Upgrading</h2>
 <p>In previous versions, the output mode <code>print</code> was a synonym for <code>fo</code>. It generated XML output to be further processed by an XSL/FO engine like Apache fop. This has changed: <code>print</code> now refers to the Print CSS mode, which extends the <code>web</code> output mode. We thought this is a more natural fit and doesn't break backwards compatibility too much. If you have been generating output targetted only at XSL/FO, make sure to use the <code>fo</code> output mode instead of <code>print</code>.</p>
-<p>TEI Publisher compiles ODDs into XQuery code. Loading this generated code may fail if you upgrade your custom application to <code>tei-publisher-lib</code> 3 as the imports will be wrong. The app itself may work correctly at first. But trying to download the document using the <code>fo</code> or <code>print</code> modes will result in an error (which persists from this point on):</p>
-<pre><code> namespace URI declared by module (http://www.tei-c.org/pm/models/shakespeare/print/module) does not match namespace URI in import statement, which was: http://www.tei-c.org/pm/models/shakespeare/fo/module
-</code></pre>
+<p>TEI Publisher compiles ODDs into XQuery code. Loading this generated code may fail if you upgrade your custom application to <code>tei-publisher-lib</code> 3 as the imports will be wrong. The app itself may work correctly at first. But trying to download the document using the <code>fo</code> mode will result in an error.</p>
 <p>Fortunately fixing this should not be difficult. There are two ways to resolve the issue:</p>
 <ol>
 <li>reinstall your custom app <strong>after</strong> updating <code>tei-publisher-lib</code>: this should regenerate all required files, at least with the 7.0 versions of TEI Publisher</li>
