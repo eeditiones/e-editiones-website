@@ -91,6 +91,10 @@ module.exports = function(eleventyConfig) {
     return Math.min.apply(null, numbers);
   });
 
+  eleventyConfig.addFilter("excludeDrafts", (posts) => 
+    posts.filter(post => post.data.tags.indexOf("draft") === -1)
+  );
+
   function filterTagList(tags) {
     return (tags || []).filter(tag => ["all", "nav", "static", "posts"].indexOf(tag) === -1);
   }

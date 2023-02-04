@@ -8,6 +8,7 @@ pagination:
     - post
     - posts
     - tagList
+    - draft
   addAllPagesToCollections: true
 layout: layouts/content-sidebar.njk
 eleventyComputed:
@@ -15,5 +16,5 @@ eleventyComputed:
 permalink: /tags/{{ tag | slugify }}/
 ---
 
-{% set postslist = collections[ tag ] %}
+{% set postslist = collections[ tag ] | excludeDrafts %}
 {% include "postslist.njk" %}

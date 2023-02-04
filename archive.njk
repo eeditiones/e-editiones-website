@@ -7,5 +7,5 @@ eleventyNavigation:
   order: 3
 ---
 
-{% set postslist = collections.posts %}
+{% set postslist = collections.posts | excludeDrafts %}
 {% include "postslist.njk" %}
