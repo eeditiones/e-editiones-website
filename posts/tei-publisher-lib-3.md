@@ -5,6 +5,7 @@ lead:  It is not fully backwards compatible, so please make sure to read this ar
 author: Wolfgang Meier
 date: 2023-01-27
 tags:
+    - draft
     - announcements
     - tei-publisher
     - tei-publisher-lib

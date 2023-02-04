@@ -14,11 +14,11 @@ coverImage:
 coverImageCredits: 
 ---
 
-> TEI Publisher 8 will support creating print output using CSS Paged Media. This supplements the existing FO and LaTeX output modes. While FO or LaTeX require quite some customization in the ODD, CSS Print extends the existing HTML view and CSS styles to layout the text on the printed page.
+> TEI Publisher 8 will support creating print output using CSS Paged Media. This feature supplements the existing FO and LaTeX output modes. While FO and LaTeX require quite some customization in the ODD, Print CSS extends the existing HTML view and CSS styles to layout the text on the printed page.
 
-Though it has improved, browser support for CSS Paged Media (often also called *CSS Print*) is still lacking. However, there are tools to fill the gap. The starting point for my recent exploration into this technology was an edition of medevial texts on the life of a saint. The editors requested a printout, which should ideally resemble the future website as closely as possible, so corrections could be done on paper. While LaTeX does provide all the fancy features needed (e.g. an aligned parallel layout of transcription and translation using the powerful reledpar package), the result would quickly diverge from the web version, thus not being suitable for a review process.
+Though it has improved, browser support for CSS Paged Media (often also called *Print CSS*) is still insufficient. However, there are tools to fill the gap. The starting point for my recent exploration into this technology was an edition of medieval hagiography. The editors requested a printout, which should ideally resemble the future website as closely as possible, so corrections could be done on paper. While LaTeX does provide all the fancy features needed (e.g. an aligned parallel layout of transcription and translation using the powerful reledpar package), the result would quickly diverge from the web version, hence would not be suitable for the review process.
 
-Looking into CSS Paged Media as an alternative, I was surprised by what is possible by now in the browser. The book had quite a complex layout, using different types of margin notes, text critical apparatus etc. Even though I could not realize every feature just within the browser and had to switch to an external utility (see below), the results were satisfactory and would certainly be sufficient for a slightly simpler edition.
+Looking into CSS Paged Media as an alternative, I was surprised by what is possible by now in the browser. The book had quite a complex layout, using different types of marginal notes, text critical apparatus etc. Even though I could not realize every feature just within the browser and had to switch to an external utility (see below), the results were satisfactory and would certainly be sufficient for a slightly simpler edition.
 
 ## A print preview for TEI Publisher
 
@@ -27,25 +27,25 @@ Looking into CSS Paged Media as an alternative, I was surprised by what is possi
     <figcaption>Page from the TP demo with margin notes and running head rendered with paged.js</figcaption>
 </figure>
 
-We have thus decided to integrate this approach more tightly into TEI Publisher, providing a separate print preview page for those sample documents for which it makes sense, as well as an API endpoint to retrieve the complete HTML of a document targeted at print.
+We have therefore decided to integrate this approach more tightly into TEI Publisher, providing a separate print preview page for those sample documents for which it makes sense, as well as an API endpoint to retrieve the complete HTML of a document targeted at print.
 
 The new feature will become available with the TEI Publisher 8 release. If you would like to experiment with it right now, feel free to use one of the [docker images](https://github.com/eeditiones/tei-publisher-app/pkgs/container/tei-publisher-app%2Fteipublisher) - which always reflect the current state of development - or build TEI Publisher yourself.
 
 The new print preview page includes a brilliant javascript library, [paged.js](https://pagedjs.org/), which fills many of the gaps in browsers concerning CSS Print support. Without this library, web browsers would ignore most parts of the page layout and just generate a very basic printout. With paged.js though, you can use the browser's default print dialog to get a pretty fancy printed version.
 
-paged.js is open source and still under development, so there are limitations (see below). For simple linear documents like the TEI Publisher documentation it does produce very good results though. 
+paged.js is open source and still under development, so there are limitations (see below). For linear documents like the TEI Publisher documentation it does produce very good results though. 
 
 ## New print output mode in tei-publisher-lib
 
-Obviously not everything you can do on a screen will work on paper. For example, the `alternate` behaviour defined in the TEI guidelines will by default generate a popup if you use the `web` output mode in TEI Publisher. We can't do that on paper. We thus need a way to distinguish between HTML targeted at the screen and HTML for print by using a different output mode in the ODD. This requires a change in the underlying core library of TEI Publisher, called `tei-publisher-lib`. 
+Obviously not everything you can do on a screen will work on paper. For example, the `alternate` behaviour defined in the TEI guidelines will by default generate a popup if you use the `web` output mode in TEI Publisher. We can't do that on paper. Therefore we need a way to distinguish between HTML targeted at the screen and HTML for print by using a different output mode in the ODD. This requires a change in the underlying core library of TEI Publisher, called `tei-publisher-lib`. 
 
 The newly released `tei-publisher-lib` version 3.0.0 reassigns the `print` output mode to generate HTML for print. `print` extends `web`, overwriting the two behaviours, which would fail on paper: `note` and `alternate`. Both involve popups. `print` just outputs them as plain HTML to be processed by print CSS styles.
 
-You'll need to [update](/posts/tei-publisher-lib-3.md) `tei-publisher-lib` to benefit from the newly added features. `print` was previously defined as a synonym for `fo` and generated XML output to be further processed by an XSL/FO engine like Apache fop. Reassigning it is a breaking change (thus the major 3.0.0 version, which indicates: not backwards compatible), though the `fo` mode will still work as before. Please keep this in mind when you decide to upgrade and read the [instructions](/posts/tei-publisher-lib-3.md).
+You'll need to [update](/posts/tei-publisher-lib-3.md) `tei-publisher-lib` to benefit from the newly added features. `print` was previously defined as a synonym for `fo` and generated XML output to be further processed by an XSL/FO engine like Apache fop. Reassigning it constitutes a breaking change (hence the major 3.0.0 version, which indicates: not backwards compatible), though the `fo` mode will still work as before. Please keep this in mind when you decide to upgrade and read the [instructions](/posts/tei-publisher-lib-3.md).
 
 ## Adding CSS for print
 
-TEI Publisher 8 will include a default CSS stylesheet for print, residing in `resources/css/print.css`. The API endpoint, which generates HTML for print, automatically injects this. The default stylesheet sets the paper size to 'A4', adds margins for recto and verso pages, page numbers in the left resp. right bottom corner, and most important: a footnote area at the bottom. HTML elements with class *footnote* will be output there.
+TEI Publisher 8 will include a default CSS stylesheet for print, residing in `resources/css/print.css`. The API endpoint, which generates HTML for print, automatically injects this. The default stylesheet sets the paper size to 'A4', adds margins for recto and verso pages, page numbers in the respective bottom corners, and most important: a footnote area at the bottom. HTML elements with class *footnote* will be output there.
 
 You can extend this by adding your own print styles as follows: if you have not done that yet, create an empty CSS file next to the location in which your ODD is stored (`odd` in TEI Publisher or `resources/odd` in a generated app). Associate this with your ODD by adding a corresponding `<rendition>` element to the `<teiHeader>`:
 
@@ -110,7 +110,7 @@ Key here are the added `@top-left` and `@top-right` sections, which take their c
 }
 ```
 
-We also request that a page break is inserted before every title. As you have full control over the ODD which generates the HTML, you could also decide to use a different element or a given class name. You can even combine multiple named strings into one running head (as demonstrated for the TEI Publisher documentation).
+We also request that a page break is inserted before every title. As you have full control over the ODD which generates the HTML, you could also decide to use a different element or a given class name. You can even combine multiple named strings into one running head (as demonstrated by the TEI Publisher documentation).
 
 The chapter on [generated content and margin boxes](https://pagedjs.org/documentation/7-generated-content-in-margin-boxes/) in the *paged.js* documentation explains the concepts very well, so please refer there for further information.
 
@@ -159,13 +159,13 @@ Here `odd` defines the ODD to use for the transformation, `base` is the base URI
 
 ## Conclusion
 
-While I have many years of experience with FO and worked on some LaTeX-based projects, I did not really look into Paged Media CSS until recently. Though browser support is still lacking, a library like paged.js definitely fills the gap, at least for documents not requiring parallel layout or huge tables (see the TEI Publisher documentation for example). For complex layouts, commercial software like [Antennahouse](https://www.antennahouse.com/), [PrinceXML](https://www.princexml.com/) (to just name two) can provide high quality print.
+While I have many years of experience with FO and worked on some LaTeX-based projects, I did not really look into Paged Media CSS until recently. Though browser support is still lacking, a library like paged.js definitely fills the gap, at least for documents not requiring parallel layout or huge tables (see the TEI Publisher documentation for example). For complex layouts, commercial software like [Antennahouse](https://www.antennahouse.com/) or [PrinceXML](https://www.princexml.com/) (to just name two) can provide high quality print.
 
 <figure>
     <img src="/img/tei-publisher-docs-printcss.png">
     <figcaption>Two pages from the TEI Publisher documentation rendered with paged.js</figcaption>
 </figure>
 
-The one big advantage of using Print CSS instead of FO or LaTeX is that you can work on the web and the print version at the same time and generate both from the same ODD, distinguishing the output mode in a few places only. This allows for rapid prototyping and quick review cycles. 
+The one great advantage of using Print CSS instead of FO or LaTeX is that you can work on the web and the print version at the same time and generate both from the same ODD, distinguishing the output mode in a few places only. This allows for rapid prototyping and quick review cycles. 
 
-We'd like to ask the community to contribute in this area by contributing further examples. Help us push the limits of what can be done.
+We'd like to ask the community to support us in this area by contributing further examples. Help us push the limits of what can be done.
