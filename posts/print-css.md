@@ -8,10 +8,8 @@ tags:
     - draft
     - announcements
     - tei-publisher
-    - tei-publisher-lib
-    - release
-coverImage: 
-coverImageCredits: 
+coverImage: bank-phrom-Tzm3Oyu_6sk-unsplash.jpg
+coverImageCredits: Cover photo by <a href="https://unsplash.com/@bank_phrom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bank Phrom</a> on <a href="https://unsplash.com/s/photos/printing-press?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
 ---
 
 > TEI Publisher 8 will support creating print output using CSS Paged Media. This feature supplements the existing FO and LaTeX output modes. While FO and LaTeX require quite some customization in the ODD, Print CSS extends the existing HTML view and CSS styles to layout the text on the printed page.

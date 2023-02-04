@@ -1,7 +1,7 @@
 ---
 title: "tei-publisher-lib 3: Print CSS and other new features"
 short: tei-publisher-lib 3
-lead:  It is not fully backwards compatible, so please make sure to read this article before upgrading!
+lead:  Version 3.0.0 of TEI Publisher's core library has been released
 author: Wolfgang Meier
 date: 2023-01-27
 tags:
@@ -10,6 +10,8 @@ tags:
     - tei-publisher
     - tei-publisher-lib
     - release
+coverImageCredits: Foto von <a href="https://unsplash.com/@sneakyelbow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sneaky Elbow</a> auf <a href="https://unsplash.com/de/s/fotos/three?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+coverImage: /img/sneaky-elbow-h00rqvO5A-M-unsplash.jpg
 --- 
 
 > Version 3.0.0 features a dedicated output mode to better support printing HTML using paged media CSS, and two small extensions to the TEI Processing Model.
@@ -17,7 +19,7 @@ tags:
 `tei-publisher-lib` contains the code libraries used for ODD processing and the different supported output modes. It implements the corresponding parts of the TEI guidelines.
 
 <p class="alert alert-warning">
-We use semantic versioning for all TEI Publisher projects: a change in the first digit of the version number indicates a <strong>breaking change</strong>. You should be aware that such releases are not fully backwards compatible and may require adjustments to existing apps. Please read the section on upgrading below.
+We use semantic versioning for all TEI Publisher projects: a change in the first digit of the version number indicates a <strong>breaking change</strong>. You should be aware that such releases are not fully backwards compatible and may require adjustments to existing apps. Please read the section on <a href="#upgrading">upgrading</a> below.
 </p>
 
 ## A dedicated output mode for Print CSS
@@ -51,12 +53,7 @@ tei-publisher-lib now supports setting a parameter, so it becomes available to s
 
 In previous versions, the output mode `print` was a synonym for `fo`. It generated XML output to be further processed by an XSL/FO engine like Apache fop. This has changed: `print` now refers to the Print CSS mode, which extends the `web` output mode. We thought this is a more natural fit and doesn't break backwards compatibility too much. If you have been generating output targetted only at XSL/FO, make sure to use the `fo` output mode instead of `print`.
 
-TEI Publisher compiles ODDs into XQuery code. Loading this generated code may fail if you upgrade your custom application to `tei-publisher-lib` 3 as the imports will be wrong. The app itself may work correctly at first. But trying to download the document using the `fo` or `print` modes will result in an error (which persists from this point on):
-
-
-```
- namespace URI declared by module (http://www.tei-c.org/pm/models/shakespeare/print/module) does not match namespace URI in import statement, which was: http://www.tei-c.org/pm/models/shakespeare/fo/module
- ```
+TEI Publisher compiles ODDs into XQuery code. Loading this generated code may fail if you upgrade your custom application to `tei-publisher-lib` 3 as the imports will be wrong. The app itself may work correctly at first. But trying to download the document using the `fo` mode will result in an error.
 
 Fortunately fixing this should not be difficult. There are two ways to resolve the issue:
 
