@@ -360,6 +360,22 @@ main.tmpl-post {
   padding-left: 1rem;
 }
 
+.tmpl-post .right-margin {
+  float: right;
+  max-width: 60%;
+  margin-right: -25%;
+  margin-left: 1em;
+}
+
+@media (max-width: 767px) {
+  .tmpl-post .right-margin {
+    float: none;
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 .dateline {
   display: flex;
   justify-content: space-between;
