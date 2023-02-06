@@ -60,13 +60,29 @@ Fortunately fixing this should not be difficult. There are two ways to resolve t
 1. reinstall your custom app **after** updating `tei-publisher-lib`: this should regenerate all required files, at least with the 7.0 versions of TEI Publisher
 2. the manual approach
 
-The latter involves two steps:
+The latter involves three steps:
 
 **a) Recreate `modules/pm-config.xql`**
 
 In eXide open the XQuery file `modules/generate-pm-config.xql` and execute it once by clicking `Run`. If your custom app does not have this file (it may be too old), you can copy it from [github](https://github.com/eeditiones/tei-publisher-app/blob/master/templates/basic/modules/generate-pm-config.xql).
 
-**b) Recompile ODDs**
+**b) Check `resources/odd/configuration.xml`**
+
+If you registered any custom XQuery module in your `resources/odd/configuration.xml` for the `web` output mode, make sure to also enable this for the `print` output mode by copying the corresponding configuration section. For example:
+
+```xml
+<modules>
+    <output mode="web">
+        <module uri="http://karlbarth.ch/apps/kb/ext-html.xql" prefix="ext-html" at="xmldb:exist:///db/apps/kb/modules/ext-html.xql"/>
+    </output>
+    <!-- we need to add this because print extends web -->
+    <output mode="print">
+        <module uri="http://karlbarth.ch/apps/kb/ext-html.xql" prefix="ext-html" at="xmldb:exist:///db/apps/kb/modules/ext-html.xql"/>
+    </output>
+</modules>
+```
+
+**c) Recompile ODDs**
 
 Next you need to recompile your ODDs. This can either be done using the corresponding `Regenerate All ODDs` button, which you can find above the document list on the start page (you need to be logged in). If you are unable to access this page, because your installation is already broken, the alternative is to go through the API:
 
