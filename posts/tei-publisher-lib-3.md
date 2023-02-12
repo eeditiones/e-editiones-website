@@ -82,9 +82,9 @@ If you registered any custom XQuery module in your `resources/odd/configuration.
 
 If you never touched this file or don't know what it is for: skip this step.
 
-### 2. Change `resources/lib/api/odd.xql` and `post-install.xql`
+### 2. Change `modules/lib/api/odd.xql` and `post-install.xql`
 
-Around line 68 of `resources/lib/api/odd.xql` (function `oapi:recompile`) you'll find a list of output modes. Various functions rely on this list when recompiling ODDs. Add the mode `fo` to the list:
+Around line 68 of `modules/lib/api/odd.xql` (function `oapi:recompile`) you'll find a list of output modes. Various functions rely on this list when recompiling ODDs. Add the mode `fo` to the list:
 
 ```xquery
 for $module in
