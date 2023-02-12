@@ -5,7 +5,6 @@ lead: TEI Publisher 8 will support creating print output using CSS Paged Media. 
 author: Wolfgang Meier
 date: 2023-02-12
 tags:
-    - draft
     - announcements
     - tei-publisher
 coverImage: bank-phrom-Tzm3Oyu_6sk-unsplash.jpg
