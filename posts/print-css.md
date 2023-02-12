@@ -3,7 +3,7 @@ title: "Generating CSS for print"
 short: "Generating CSS for print"
 lead: TEI Publisher 8 will support creating print output using CSS Paged Media. This supplements the existing FO and LaTeX output modes.
 author: Wolfgang Meier
-date: 2023-01-27
+date: 2023-02-12
 tags:
     - draft
     - announcements
