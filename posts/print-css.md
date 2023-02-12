@@ -38,7 +38,7 @@ Obviously not everything you can do on a screen will work on paper. For example,
 
 The newly released `tei-publisher-lib` version 3.0.0 reassigns the `print` output mode to generate HTML for print. `print` extends `web`, overwriting the two behaviours, which would fail on paper: `note` and `alternate`. Both involve popups. `print` just outputs them as plain HTML to be processed by print CSS styles.
 
-You'll need to [update](/posts/tei-publisher-lib-3.md) `tei-publisher-lib` to benefit from the newly added features. `print` was previously defined as a synonym for `fo` and generated XML output to be further processed by an XSL/FO engine like Apache fop. Reassigning it constitutes a breaking change (hence the major 3.0.0 version, which indicates: not backwards compatible), though the `fo` mode will still work as before. Please keep this in mind when you decide to upgrade and read the [instructions](/posts/tei-publisher-lib-3.md).
+You'll need to [update](/posts/tei-publisher-lib-3) `tei-publisher-lib` to benefit from the newly added features. `print` was previously defined as a synonym for `fo` and generated XML output to be further processed by an XSL/FO engine like Apache fop. Reassigning it constitutes a breaking change (hence the major 3.0.0 version, which indicates: not backwards compatible), though the `fo` mode will still work as before. Please keep this in mind when you decide to upgrade and read the [instructions](/posts/tei-publisher-lib-3).
 
 ## Adding CSS for print
 
