@@ -94,7 +94,7 @@ for $module in
         ("web", "print", "latex", "epub", "fo")
 ```
 
-The following only applies if you change the code of your custom app on disk and intend to (re-)install it later: you'll find a similar list in function `local:generate-code` in the post-installation XQuery script `post-install.xql`. Add `fo` there as well.
+You'll find a second list in function `local:generate-code` in the post-installation XQuery script `post-install.xql`. Add `fo` there as well.
 
 ### 3. Recreate `modules/pm-config.xql`
 
@@ -108,7 +108,7 @@ Next you need to recompile your ODDs. This can either be done using the correspo
 
 In the browser, open the `api.html` page. You get to this page by appending `api.html` to the root URL of your application. Login via the *Authorize* button using the database user and password configured for your application (to be entered in the `basicAuth` form). Scroll down to the *odd* section and find the POST request to `/api/odd`. The label next to it should say 'Recompile ODDs'.
 
-Uncollapse the panel and click *'Try it out'*, followed by *'Execute'*. This will recompile all ODDs registered with the application, which may take a while.
+Expand the panel and click *'Try it out'*, followed by *'Execute'*. This will recompile all ODDs registered with the application, which may take a while.
 
 For those on Linux or Mac preferring the command line: you can also achieve the same by using the following shell command with `curl`:
 
