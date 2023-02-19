@@ -19,6 +19,7 @@ coverImage: /img/sneaky-elbow-h00rqvO5A-M-unsplash.jpg
 
 <div class="alert alert-success">
     <p>A patch release of TEI Publisher, version 7.1.2, is now available. This should help all new users to avoid the dependency issues reported recently. As long as you avoid updating tei-publisher-lib via the dashboard, everything should work as before.</p>
+    <p>If you already upgraded tei-publisher-lib by mistake, you may downgrade to 2.10.1 and reinstall TEI Publisher or your custom app.</p>
 </div>
 
 <div class="alert alert-warning">
