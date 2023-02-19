@@ -23,6 +23,7 @@
 &lt;p&gt;&lt;code&gt;tei-publisher-lib&lt;/code&gt; contains the code libraries used for ODD processing and the different supported output modes. It implements the corresponding parts of the TEI guidelines.&lt;/p&gt;
 &lt;div class=&quot;alert alert-success&quot;&gt;
     &lt;p&gt;A patch release of TEI Publisher, version 7.1.2, is now available. This should help all new users to avoid the dependency issues reported recently. As long as you avoid updating tei-publisher-lib via the dashboard, everything should work as before.&lt;/p&gt;
+    &lt;p&gt;If you already upgraded tei-publisher-lib by mistake, you may downgrade to 2.10.1 and reinstall TEI Publisher or your custom app.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;alert alert-warning&quot;&gt;
     &lt;p&gt;We use semantic versioning for all TEI Publisher projects: a change in the first digit of the version number indicates a &lt;strong&gt;breaking change&lt;/strong&gt;. You should be aware that such releases are not fully backwards compatible and may require adjustments to existing apps. Please read the section on &lt;a href=&quot;https://e-editiones.org/posts/tei-publisher-lib-3/#upgrading&quot;&gt;upgrading&lt;/a&gt; below.&lt;/p&gt;
