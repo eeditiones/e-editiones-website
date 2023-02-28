@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building a political text editition with TEI Publisher. A field report</title>
+    <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
+    
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/css/prism-diff.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    
+    
+  </head>
+  <body>
+      <header>
+    
+
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Community</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/developer/" class="nav-link">For developers</a>
+    </li><li class="nav-item">
+        <a href="/pages/memory/" class="nav-link">For memory institutions</a>
+    </li><li class="nav-item">
+        <a href="/pages/researcher/" class="nav-link">For researchers</a>
+    </li><li class="nav-item">
+        <a href="/pages/getting-started/" class="nav-link">Getting Started</a>
+    </li><li class="nav-item">
+        <a href="/pages/get-in-touch/" class="nav-link">Get in Touch</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-contribute/" class="nav-link">How to Contribute</a>
+    </li><li class="nav-item">
+        <a href="/pages/community-meetings/" class="nav-link">Community Meetings</a>
+    </li><li class="nav-item">
+        <a href="/pages/code-of-conduct/" class="nav-link">Code of Conduct</a>
+    </li></ul>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/strategy/" class="nav-link">Strategy</a>
+    </li><li class="nav-item">
+        <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+    </li><li class="nav-item">
+        <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+    </li><li class="nav-item">
+        <a href="/pages/board/" class="nav-link">Board</a>
+    </li><li class="nav-item">
+        <a href="/pages/members/" class="nav-link">Members</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+    </li></ul>
+    </li><li class="nav-item">
+        <a href="/posts/" class="nav-link">Archive</a>
+    </li><li class="nav-item">
+                    <a href="/tags/events/" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/map/" class="nav-link">Project Registry</a>
+                </li>
+            </ul>
+            <div class="icons d-flex justify-content-end">
+                <a rel="me" href="https://social.e-editiones.org/@eeditiones" class="me-4"><i class="bi bi-mastodon"></i></a>
+                <a href="https://twitter.com/EEditiones" class="me-4">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/building-a-political-txt-edition-with-tei-publisher.md">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+</header>
+<main class="container tmpl-post">
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>Building a political text editition with TEI Publisher. A field report</h1>
+
+            <div class="dateline">
+              <div>Sven Jüngerkes and Stephan Makowski</div>
+              <time datetime="2023-04-02">02 Apr 2023</time>
+            </div>
+
+            
+            <p class="alert alert-warning">The <a href="/pages/community-meetings" class="alert-link" >community meetings</a> are held online using
+              <a class="alert-link" href="https://meet.existsolutions.com/eeditiones">this link</a>,
+                usually on the first Tuesday of each month at 17:00 CET/CEST. No registration is required to attend. 
+                We warmly invite you to propose topics 
+                <a class="alert-link" href="mailto:info@e-editiones.org">info@e-editiones.org</a> 
+                for the forthcoming meetings.
+            </p>
+            
+            
+            <p>Upcoming community meetup on <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&amp;iso=20230404T17&amp;p1=1425&amp;ah=1">April 4, 2023</a></p>
+<p>Sven Jüngerkes (KGParl) and Stephan Makowski (Uni Wuppertal) will talk about their experiences in converting an extensive edition of minutes of the parliamentary groups of the German Bundestag (since 1949 and planned at the moment until 2005: see <a href="https://fraktionsprotokolle.de">https://fraktionsprotokolle.de</a>), initially based on PDF, to TEI-XML and the TEI Publisher. The goal was to convert the publication model to XML as quickly, cost-effectively as possible (during the ongoing editorial work), and  also to get  the edition website running quickly and similar to the old website (which was based on PDF/DSpace). Particular focus was placed on identfying and tagging of all persons mentioned in the protocols and linking the entries with authority files like the GND, therefor searchable registers (at the moment Person, Literature) and a calendar view. At the moment, the edition contains almost 5700 meeting minutes and a database with almost 11.000 Persons.</p>
+
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
+
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/tei-publisher-lib-3/"
+                data-bs-toggle="tooltip" title="tei-publisher-lib 3: Print CSS and other new features">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
+
+            <ul class="tags mb-3">
+              <li><a href="/tags/events/" class="badge text-bg-light" style="color: var(--color-2) !important">events</a></li>
+              <li><a href="/tags/meetups/" class="badge text-bg-light" style="color: var(--color-3) !important">meetups</a></li>
+            </ul>
+
+            
+        </aside>
+        
+    </div>
+</main>
+
+<footer class="p-2">
+    <div>e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
+    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX</div>
+</footer>
+
+      <script src="/assets/scripts/bootstrap.bundle.min.js"></script>
+      <script src="/assets/scripts/common.js"></script>
+      
+  </body>
+</html>
