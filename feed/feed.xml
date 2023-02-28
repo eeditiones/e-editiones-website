@@ -5,7 +5,7 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2023-04-02T00:00:00Z</updated>
+	<updated>2023-04-04T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
@@ -15,10 +15,10 @@
 	<entry>
 		<title>Building a political text editition with TEI Publisher. A field report</title>
 		<link href="https://e-editiones.org/posts/building-a-political-txt-edition-with-tei-publisher/"/>
-		<updated>2023-04-02T00:00:00Z</updated>
+		<updated>2023-04-04T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/building-a-political-txt-edition-with-tei-publisher/</id>
 		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&amp;amp;iso=20230404T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;April 4, 2023&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Sven Jüngerkes (KGParl) and Stephan Makowski (Uni Wuppertal) will talk about their experiences in converting an extensive edition of minutes of the parliamentary groups of the German Bundestag (since 1949 and planned at the moment until 2005: see &lt;a href=&quot;https://fraktionsprotokolle.de/&quot;&gt;https://fraktionsprotokolle.de&lt;/a&gt;), initially based on PDF, to TEI-XML and the TEI Publisher. The goal was to convert the publication model to XML as quickly, cost-effectively as possible (during the ongoing editorial work), and  also to get  the edition website running quickly and similar to the old website (which was based on PDF/DSpace). Particular focus was placed on identfying and tagging of all persons mentioned in the protocols and linking the entries with authority files like the GND, therefor searchable registers (at the moment Person, Literature) and a calendar view. At the moment, the edition contains almost 5700 meeting minutes and a database with almost 11.000 Persons.&lt;/p&gt;
+&lt;p&gt;Sven Jüngerkes (KGParl) and Stephan Makowski (Uni Wuppertal) will talk about their experiences in converting an extensive edition of minutes of the parliamentary groups of the German Bundestag (since 1949 and planned at the moment until 2005: see &lt;a href=&quot;https://fraktionsprotokolle.de/&quot;&gt;https://fraktionsprotokolle.de&lt;/a&gt;), initially based on PDF, to TEI-XML and the TEI Publisher. The goal was to convert the publication model to XML as quickly, cost-effectively as possible (during the ongoing editorial work), and  also to get  the edition website running quickly and similar to the old website (which was based on PDF/DSpace). Particular focus was placed on identifying and tagging of all persons mentioned in the protocols and linking the entries with authority files like the GND, therefor searchable registers (at the moment Person, Literature) and a calendar view. Right now, the edition contains almost 5700 meeting minutes and a database with almost 11.000 Persons.&lt;/p&gt;
 </content>
 	</entry>
 	
