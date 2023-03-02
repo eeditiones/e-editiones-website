@@ -7,8 +7,8 @@ author: Sven Jüngerkes and Stephan Makowski
 tags:
   - events
   - meetups
-coverImage:
-coverImageCredits:
+coverImage: frederic-koberl-x_0hW-KaCgI-unsplash.jpg
+coverImageCredits: Cover photo by <a href="https://unsplash.com/@internetztube?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Frederic Köberl</a> on <a href="https://unsplash.com/de/fotos/x_0hW-KaCgI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 ---
 
