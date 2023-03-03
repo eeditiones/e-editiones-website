@@ -16,17 +16,17 @@
       "content_html": "<p>Upcoming community meetup on <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&amp;iso=20230404T17&amp;p1=1425&amp;ah=1\">April 4, 2023</a></p>\n<p>Sven Jüngerkes (KGParl) and Stephan Makowski (Uni Wuppertal) will talk about their experiences in converting an extensive edition of minutes of the parliamentary groups of the German Bundestag (since 1949 and planned at the moment until 2005: see <a href=\"https://fraktionsprotokolle.de/\">https://fraktionsprotokolle.de</a>), initially based on PDF, to TEI-XML and the TEI Publisher. The goal was to convert the publication model to XML as quickly, cost-effectively as possible (during the ongoing editorial work), and  also to get  the edition website running quickly and similar to the old website (which was based on PDF/DSpace). Particular focus was placed on identifying and tagging of all persons mentioned in the protocols and linking the entries with authority files like the GND, therefor searchable registers (at the moment Person, Literature) and a calendar view. Right now, the edition contains almost 5700 meeting minutes and a database with almost 11.000 Persons.</p>\n",
       "date_published": "2023-04-04T00:00:00Z"
     },{
-      "id": "https://e-editiones.org/posts/community-solomon-project/",
-      "url": "https://e-editiones.org/posts/community-solomon-project/",
-      "title": "The Salomon project - complex medieval sources and the potential of digital presentation",
-      "content_html": "<p>Upcoming community meetup on <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&amp;iso=20230314T17&amp;p1=1425&amp;ah=1\">March 7, 2023</a></p>\n<p>Invited speaker: Bastiaan Waagmeester, Seminar für mittelalterliche Geschichte, Universität Tübingen</p>\n<p>The Salomon project is an attempt to make the prognostic Table of Salomon accessible to a wider audience through open digital presentation methods. In this talk, we will discuss the possibilities offered by TEI-Publisher to access medieval</p>\n",
-      "date_published": "2023-03-14T00:00:00Z"
-    },{
       "id": "https://e-editiones.org/posts/community-event-ssrq/",
       "url": "https://e-editiones.org/posts/community-event-ssrq/",
       "title": "Swiss Law Sources – Lessons learned from using TEIPublisher for &gt; 5 years",
       "content_html": "<p>Upcoming community meetup on <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&amp;iso=20230314T17&amp;p1=1425&amp;ah=1\">March 14, 2023</a></p>\n<p>Invited speaker: Bastian Politycki, University of St. Gallen / Swiss Law Sources Foundation</p>\n<p>The research institution of the Law Sources Foundation of the Swiss Lawyers Society, set up over 100 years ago, provides a unique range of law sources from each of Switzerland’s linguistic regions in its «Collection of Swiss Law Sources» (Sammlung Schweizerischer Rechtsquellen / SSRQ). At the end of the early 2000s, SSRQ began (retro)digitizing the edition volumes that had been published until then. For about 5 years, new volumes have been published as 'born digital' editions - based on TEI XML and the TEIPublisher. The presentation discusses the challenges of digital presentation (using the TEIPublisher) and shows perspectives for future use.</p>\n",
       "date_published": "2023-03-14T00:00:00Z"
+    },{
+      "id": "https://e-editiones.org/posts/community-solomon-project/",
+      "url": "https://e-editiones.org/posts/community-solomon-project/",
+      "title": "The Salomon project - complex medieval sources and the potential of digital presentation",
+      "content_html": "<p>Upcoming community meetup on <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&amp;iso=20230314T17&amp;p1=1425&amp;ah=1\">March 7, 2023</a></p>\n<p>Invited speaker: Bastiaan Waagmeester, Seminar für mittelalterliche Geschichte, Universität Tübingen</p>\n<p>The Salomon project is an attempt to make the prognostic Table of Salomon accessible to a wider audience through open digital presentation methods. In this talk, we will discuss the possibilities offered by TEI-Publisher to access medieval</p>\n",
+      "date_published": "2023-03-07T00:00:00Z"
     },{
       "id": "https://e-editiones.org/posts/tei-publisher-lib-3/",
       "url": "https://e-editiones.org/posts/tei-publisher-lib-3/",
