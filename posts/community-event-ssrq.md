@@ -1,7 +1,7 @@
 ---
 title: "Swiss Law Sources – Lessons learned from using TEIPublisher for > 5 years"
 short: "Swiss Law Sources"
-lead: "Lessons learned from using TEIPublisher for > 5 years (community meetup March 7)"
+lead: "Lessons learned from using TEIPublisher for > 5 years (community meetup March 14)"
 date: 2023-03-14
 author: Politycki, Bastian
 tags:
