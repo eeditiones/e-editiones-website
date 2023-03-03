@@ -1,8 +1,8 @@
 ---
 title: "The Salomon project - complex medieval sources and the potential of digital presentation"
-short: "The Salomon project - complex medieval sources and the potential of digital presentation"
-lead: ""
-date: 2023-03-14
+short: "The Salomon project"
+lead: "The Salomon project - complex medieval sources and the potential of digital presentation"
+date: 2023-03-07
 author: Waagmeester, Bastiaan
 tags:
   - events
