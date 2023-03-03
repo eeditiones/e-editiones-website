@@ -16,4 +16,4 @@ Upcoming community meetup on [March 7, 2023](https://www.timeanddate.com/worldcl
 
 Invited speaker: Bastiaan Waagmeester, Seminar für mittelalterliche Geschichte, Universität Tübingen
 
-The Salomon project is an attempt to make the prognostic Table of Salomon accessible to a wider audience through open digital presentation methods. In this talk, we will discuss the possibilities offered by TEI-Publisher to access medieval
+The Salomon project is an attempt to make the prognostic Table of Salomon accessible to a wider audience through open digital presentation methods. In this talk, we will discuss the possibilities offered by TEI-Publisher to access medieval sources and use them for teaching.
