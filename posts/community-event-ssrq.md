@@ -2,7 +2,7 @@
 title: "Swiss Law Sources – Lessons learned from using TEIPublisher for > 5 years"
 short: "Swiss Law Sources"
 lead: "Lessons learned from using TEIPublisher for > 5 years (community meetup March 7)"
-date: 2023-03-07
+date: 2023-03-14
 author: Politycki, Bastian
 tags:
   - events
@@ -12,7 +12,7 @@ coverImageCredits: Photo by <a href="https://unsplash.com/@tingeyinjurylawfirm?u
 
 ---
 
-Upcoming community meetup on [March 7, 2023](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Meetup&iso=20230307T17&p1=1425&ah=1)
+Upcoming community meetup on [March 14, 2023](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&iso=20230314T17&p1=1425&ah=1)
 
 Invited speaker: Bastian Politycki, University of St. Gallen / Swiss Law Sources Foundation
 
