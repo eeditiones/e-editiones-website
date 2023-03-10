@@ -19,6 +19,7 @@ eleventyNavigation:
 - [Stiftsbibliothek St.Gallen](https://www.stiftsbezirk.ch/de/stiftsbibliothek/)
 - [Stiftung Eisenbibliothek](https://www.eisenbibliothek.ch/), Klostergut Paradies, Schlatt TG
 - [Schweizerische Akademie der Geistes- und Sozialwissenschaften (SAGW)](https://sagw.ch/sagw/)
+- [Trägerschaft Archives Online](https://www.archives-online.org)
 - [eXist Solutions GmbH](http://existsolutions.com/), Lenzkirch/Berlin
 - [GBL Gubler AG](https://gbl-gubler.ch/), Frauenfeld
 
