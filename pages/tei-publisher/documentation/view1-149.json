@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.42.11",
+    "rootNode": "3.42.11",
+    "id": "hosting",
+    "odd": "docbook.odd",
+    "next": null,
+    "previous": "3.42",
+    "nextId": null,
+    "previousId": "production",
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"tei-section3\" id=\"hosting\"><pb-observable data=\"3.42.11,3.42.11\" emit=\"transcription\">\n      <h2 class=\"tei-title7 title\">Hosting</h2>\n      <p class=\"tei-para\">There are various hosting options for the TEI Publisher. Many academic providers and\n        research infrastructures (e.g. Huma-Num) routinely support eXist-db and TEI Publisher\n        installations while others can do so upon request. A recent <a href=\"https://sources-online.org/\" class=\"tei-link4\" target=\"_new\">sources-online.org</a> initiative offers\n        hosting for editions which includes TEI Publisher and IIIF support.</p>\n      <p class=\"tei-para\">Roughly three different types of hosting can be distinguished: </p><ol class=\"tei-orderedlist\"><li class=\"tei-listitem\">\n            <p class=\"tei-para\">dedicated server</p>\n          </li><li class=\"tei-listitem\">\n            <p class=\"tei-para\">Docker-based installation</p>\n          </li><li class=\"tei-listitem\">\n            <p class=\"tei-para\">static site</p>\n                <p class=\"tei-para\">static site</p> \n            <p class=\"tei-para\">static site</p>\n          </li></ol>\n      <p></p>\n      <p class=\"tei-para\"><span class=\"tei-emphasis1\">Dedicated server</span> in this context means that a physical\n        or virtual machine is available on which eXist-db, TEI Publisher and a proxy server are\n        installed and configured.</p>\n      <p class=\"tei-para\"><span class=\"tei-emphasis1\">Dockerized installation</span> means that a Docker\n        configuration has been prepared which automates the tasks of setting up the server with\n        eXist, TEI Publisher and all related services (including proxy server). The e-editiones\n          <a href=\"https://github.com/eeditiones/teipublisher-docker-compose\" class=\"tei-link4\" target=\"_new\">teipublisher-docker-compose</a> Github repository describes how to set up such an\n        architecture.</p>\n      <p class=\"tei-para\">With a <span class=\"tei-emphasis1\">static site</span>, no TEI Publisher and therefore no\n        eXist-db is needed for hosting, since the entire application is converted to a pregenerated\n        set of static HTML pages which can be hosted on any web server, including at no cost via\n        GitHub Pages. It is a particularly fitting solution for smaller editions without extensive\n        search features. The article <a href=\"https://www.e-editiones.org/posts/community-event-going-static/\" class=\"tei-link4\" target=\"_new\">Generating a\n          high voltage site by going static</a> describes how such a static site can be generated\n        and discusses in detail the advantages and drawbacks of this solution.</p>\n    </pb-observable></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

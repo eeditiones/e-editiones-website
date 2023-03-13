@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.42",
+    "rootNode": "3.42",
+    "id": "production",
+    "odd": "docbook.odd",
+    "next": "3.42.11",
+    "previous": "3.40.14",
+    "nextId": "hosting",
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"tei-section3\" id=\"production\"><pb-observable data=\"3.42,3.42\" emit=\"transcription\"><h1 class=\"tei-title7 title\">TEI Publisher in production</h1><p class=\"tei-para\">Regardless of the installation type, TEI Publisher always runs on an <a href=\"https://exist-db.org\" class=\"tei-link4\" target=\"_new\">eXist-db database</a> and there are a\n      few things to keep in mind for a production system, i.e. one that is publicly available to\n      users. We strongly suggest following the recommendations outlined in the <a href=\"https://exist-db.org/exist/apps/doc/production_good_practice\" class=\"tei-link4\" target=\"_new\">Production Use - Good Practice</a> of the eXist-db documentation. One important point is\n      to always run eXist-db in production behind a proxy server, which serves as an intermediary to\n      control and protect access to a server on which the database runs. More information about\n      proxy servers and eXist-db can be found in the article <a href=\"https://exist-db.org/exist/apps/doc/production_web_proxying\" class=\"tei-link4\" target=\"_new\">Proxying eXist-db\n        behind a Web Server</a>.</p><p class=\"tei-para\">One common function of a proxy server is \"hiding\" or translating requests to the\n      collection where TEI Publisher applications actually live to a shorter and more memorable\n      domain name. As a consequence, the internal application links must be correctly set, depending\n      on the context in which the app operates. TEI Publisher based apps allow developers to control\n      this behaviour via a special variable in <span class=\"tei-code2 code\">modules/config.xqm</span> called\n        <span class=\"tei-code2 code\">$config:context-path</span>. </p><p class=\"tei-para\">The variable <span class=\"tei-code2 code\">$config:context-path</span> by default determines the context path\n      depending on the presence of the <span class=\"tei-code2 code\">teipublisher.context-path</span> system variable or the\n        <span class=\"tei-code2 code\">X-Forwarded-Host</span> HTTP header. If the proxy server sets the\n        <span class=\"tei-code2 code\">X-Forwarded-Host</span> HTTP header, TEI Publisher app will recognize it is running\n      behind a proxy and adjust the context path on its own.</p></pb-observable></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}
