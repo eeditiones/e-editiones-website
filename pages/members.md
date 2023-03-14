@@ -27,7 +27,6 @@ eleventyNavigation:
 
 - [Elisa Beshero-Bondar](https://newtfire.org), PhD, Program Chair of Digital Media, Arts, and Technology Professor of Digital Humanities | Director of the [Digital Humanities Lab at Penn State Erie](https://sites.psu.edu/psudhlab/), the Behrend College, Member of the TEI Technical Council
 - [Philip R. «Pib» Burns](https://hcommons.org/members/pibburns/), Senior Developer, Research Computing Services Northwestern University
-- [James Cummings](https://www.ncl.ac.uk/elll/staff/profile/jamescummings.html), PhD, Senior Lecturer in Late Medieval Literature and Digital Humanities, Newcastle University; member of the TEI Consortium's Board of Directors
 - Giuliano Di Bacco, PhD, music historian and medievalist, director of the [Resources and Studies for the History of Music Theory](https://chmtl.indiana.edu/hmt/index.html) (CHMTL, Indiana University Bloomington), including the [Thesaurus Musicarum Latinarum](https://chmtl.indiana.edu/tml/)
 - [Anne Diekjobst](https://www.histsem.uni-kiel.de/de/das-institut-1/abteilungen/professur-fuer-geschichte-des-spaeten-mittelalters-sowie-wirtschafts-und-sozialgeschichte/team/anne-diekjobst), Dr. des., Christian-Albrechts-Universität zu Kiel, u.a. Edition des Zinsrodels des Klosters Feldbach
 - [Rita Gautschy](https://daw.philhist.unibas.ch/de/personen/rita-gautschy), Dr., Privatdozentin an der Universität Basel, Direktorin des [Swiss National Data and Service Center for the Humanities (DaSCH)](https://www.dasch.swiss/our-team)
