@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEI Publisher 4.1.0</title>
+    <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
+    
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/css/prism-diff.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    
+    
+  </head>
+  <body>
+      <header>
+    
+
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Community</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/developer/" class="nav-link">For developers</a>
+    </li><li class="nav-item">
+        <a href="/pages/memory/" class="nav-link">For memory institutions</a>
+    </li><li class="nav-item">
+        <a href="/pages/researcher/" class="nav-link">For researchers</a>
+    </li><li class="nav-item">
+        <a href="/pages/getting-started/" class="nav-link">Getting Started</a>
+    </li><li class="nav-item">
+        <a href="/pages/get-in-touch/" class="nav-link">Get in Touch</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-contribute/" class="nav-link">How to Contribute</a>
+    </li><li class="nav-item">
+        <a href="/pages/community-meetings/" class="nav-link">Community Meetings</a>
+    </li><li class="nav-item">
+        <a href="/pages/code-of-conduct/" class="nav-link">Code of Conduct</a>
+    </li></ul>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/strategy/" class="nav-link">Strategy</a>
+    </li><li class="nav-item">
+        <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+    </li><li class="nav-item">
+        <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+    </li><li class="nav-item">
+        <a href="/pages/board/" class="nav-link">Board</a>
+    </li><li class="nav-item">
+        <a href="/pages/members/" class="nav-link">Members</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+    </li></ul>
+    </li><li class="nav-item">
+        <a href="/posts/" class="nav-link">Archive</a>
+    </li><li class="nav-item">
+                    <a href="/tags/events/" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/map/" class="nav-link">Project Registry</a>
+                </li>
+            </ul>
+            <div class="icons d-flex justify-content-end">
+                <a rel="me" href="https://social.e-editiones.org/@eeditiones" class="me-4"><i class="bi bi-mastodon"></i></a>
+                <a href="https://twitter.com/EEditiones" class="me-4">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/tei-publisher-41.md">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+</header>
+<main class="container tmpl-post">
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>TEI Publisher 4.1.0</h1>
+
+            <div class="dateline">
+              <div>Wolfgang Meier</div>
+              <time datetime="2019-02-21">21 Feb 2019</time>
+            </div>
+
+            
+            
+            <blockquote>
+<p>This is mainly a bug fix release based on user feedback, but also
+includes various enhancements and features new demos.</p>
+</blockquote>
+<h2 id="release-highlights%3A-dynamic-layout-and-custom-translation-alignment" tabindex="-1">Release Highlights: Dynamic Layout and Custom Translation Alignment</h2>
+<p>Many users were interested in the correspondence examples, in particular
+the Serafin and Cortés letters showing transcription and translation
+side by side. We have focused on enhancing those use cases and close
+some gaps in functionality. One problem arising in many TEI projects is
+how to align two or more texts, e.g. a transcription and a translation.
+In the simplest case, the texts may be aligned on the level of divisions
+or page breaks. Unfortunately things are not always as simple as that.
+TEI allows a wide variety of alignment mechanisms, some more complex
+than others. TEI Publisher 4.1.0 thus implements a generic mechanism to
+define a <a href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=alignment">mapping function</a> written
+in XQuery. This is a simple, yet powerful approach. The letter from
+<a href="https://teipublisher.com/exist/apps/tei-publisher/test/cortes_to_dantiscus_Mexico.xml">Cortés to Dantiscus
+(Mexico)</a> showcases a rather
+complex mapping.</p>
+<h2 id="van-gogh%3A-dynamic%2C-multi-column-example" tabindex="-1">Van Gogh: Dynamic, Multi Column Example</h2>
+<figure><img src="/img/VanGogh.png" alt=""></figure>
+<p>The <a href="http://vangoghletters.org/vg/">Van Gogh edition</a> is often
+considered a model example for correspondence and several users
+expressed their wish to create something similar with TEI Publisher.
+With recent release of XML sources for all the letters we've decided to
+use one letter from <a href="../../test/let695.xml">Van Gogh to Gauguin</a> and try
+to reproduce the dynamic, user configurable, multi column display of the
+original Van Gogh website using the webcomponents provided by TEI
+Publisher. The corresponding webcomponents (<code>&lt;pb-grid&gt;/&lt;pb-panel&gt;</code>) have been
+reworked to make this possible.</p>
+<h2 id="other-new-features-and-bug-fixes" tabindex="-1">Other New Features and Bug Fixes</h2>
+<ul>
+<li>
+<p>Sort and filter documents by title, author or file name</p>
+</li>
+<li>
+<p>Autocomplete suggestions are now displayed for all search boxes</p>
+</li>
+<li>
+<p>Allow arbitrary footnote labels to be passed via the @n parameter of
+the note behaviour</p>
+</li>
+<li>
+<p>Support plain images to be displayed by <code>&lt;pb-facsimile&gt;</code> - if a IIIF
+server is not needed or available</p>
+</li>
+<li>
+<p>Fix uploads of files containing spaces in their names</p>
+</li>
+</ul>
+<h2 id="get-it!" tabindex="-1">Get It!</h2>
+<p>TEI Publisher 4.1.0 is available as an application package on top of the
+<a href="https://exist-db.org">eXist XML Database</a>. Install it into a recent
+eXist (4.x.x series) by going to the dashboard and selecting TEI
+Publisher from the package manager.</p>
+<p>For more information refer to the
+<a href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml">documentation</a>
+or visit the <a href="https://teipublisher.com">homepage</a> to play around with
+it.</p>
+
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
+
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/tei-publisher-5/"
+                data-bs-toggle="tooltip" title="TEI Publisher 5.0.0">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+              <a class="btn btn-light" href="/posts/tei-publisher-4/"
+                data-bs-toggle="tooltip" title="TEI Publisher 4.0">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
+
+            <ul class="tags mb-3">
+              <li><a href="/tags/announcements/" class="badge text-bg-light" style="color: var(--color-2) !important">announcements</a></li>
+              <li><a href="/tags/tei-publisher/" class="badge text-bg-light" style="color: var(--color-3) !important">tei-publisher</a></li>
+              <li><a href="/tags/release/" class="badge text-bg-light" style="color: var(--color-4) !important">release</a></li>
+            </ul>
+
+            <nav class="toc" >
+        <ul><li><a href="#release-highlights%3A-dynamic-layout-and-custom-translation-alignment">Release Highlights: Dynamic Layout and Custom Translation Alignment</a></li><li><a href="#van-gogh%3A-dynamic%2C-multi-column-example">Van Gogh: Dynamic, Multi Column Example</a></li><li><a href="#other-new-features-and-bug-fixes">Other New Features and Bug Fixes</a></li><li><a href="#get-it!">Get It!</a></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
+</main>
+
+<footer class="p-2">
+    <div>e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
+    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX</div>
+</footer>
+
+      <script src="/assets/scripts/bootstrap.bundle.min.js"></script>
+      <script src="/assets/scripts/common.js"></script>
+      
+  </body>
+</html>

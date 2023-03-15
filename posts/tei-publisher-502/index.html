@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEI Publisher 5.0.2</title>
+    <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
+    
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/css/prism-diff.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    
+    
+  </head>
+  <body>
+      <header>
+    
+
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Community</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/developer/" class="nav-link">For developers</a>
+    </li><li class="nav-item">
+        <a href="/pages/memory/" class="nav-link">For memory institutions</a>
+    </li><li class="nav-item">
+        <a href="/pages/researcher/" class="nav-link">For researchers</a>
+    </li><li class="nav-item">
+        <a href="/pages/getting-started/" class="nav-link">Getting Started</a>
+    </li><li class="nav-item">
+        <a href="/pages/get-in-touch/" class="nav-link">Get in Touch</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-contribute/" class="nav-link">How to Contribute</a>
+    </li><li class="nav-item">
+        <a href="/pages/community-meetings/" class="nav-link">Community Meetings</a>
+    </li><li class="nav-item">
+        <a href="/pages/code-of-conduct/" class="nav-link">Code of Conduct</a>
+    </li></ul>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/strategy/" class="nav-link">Strategy</a>
+    </li><li class="nav-item">
+        <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+    </li><li class="nav-item">
+        <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+    </li><li class="nav-item">
+        <a href="/pages/board/" class="nav-link">Board</a>
+    </li><li class="nav-item">
+        <a href="/pages/members/" class="nav-link">Members</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+    </li></ul>
+    </li><li class="nav-item">
+        <a href="/posts/" class="nav-link">Archive</a>
+    </li><li class="nav-item">
+                    <a href="/tags/events/" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/map/" class="nav-link">Project Registry</a>
+                </li>
+            </ul>
+            <div class="icons d-flex justify-content-end">
+                <a rel="me" href="https://social.e-editiones.org/@eeditiones" class="me-4"><i class="bi bi-mastodon"></i></a>
+                <a href="https://twitter.com/EEditiones" class="me-4">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/tei-publisher-502.md">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+</header>
+<main class="container tmpl-post">
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>TEI Publisher 5.0.2</h1>
+
+            <div class="dateline">
+              <div>Wolfgang Meier</div>
+              <time datetime="2020-01-25">25 Jan 2020</time>
+            </div>
+
+            
+            
+            <blockquote>
+<p>This is a minor release introducing primarily new features of Word
+document import along some bugfixes.</p>
+</blockquote>
+<h2 id="release-highlights%3A-word-document-import" tabindex="-1">Release Highlights: Word document import</h2>
+<p>Docx module introduced in 5.0.0 allows for importing documents in docx
+format, preserving their textual content, structure and basic semantics
+of the text. TEI Publisher preserves document's structural divisions and
+headings, lists, tables, embedded images, foot- and endnotes, as well as
+recognizes styles whose names start with tei: as TEI elements with the
+same name, e.g <em>Johann Wolfgang Goethe</em> styled with <code>tei:persName</code> style
+will be converted to <code>&lt;persName&gt;Johann Wolfgang Goethe&lt;/persName&gt;</code>.</p>
+<p>This release introduces a default convention for encoding additional
+attributes: text in angle brackets will be interpreted as a list of
+attribute-value pairs. Multiple items can be separated with a “;”. For
+example, to set a <code>@rend</code> and provide a <code>@ref</code> for a <code>placeName</code>, you can
+write <code>Frankfurt&lt;rend=smallcaps;ref=Frankfurt am Main&gt;</code>. This notation
+can be modified by extending the ODD with additional rules for
+project-specific workflow. For example, if persName does always need a
+<code>@ref</code> attribute in your edition, you could have a simplified rule which
+parses: <code>Friedrich Dürrenmatt&lt;118527908&gt;</code>.</p>
+<p>Further conventions have been introduced to distinguish between
+different kinds of notes (e.g. editor's commentary, source annotations,
+and text-critical notes). Footnotes marked with a custom mark (to be
+found under <em>Format</em> &gt; <em>Custom Mark</em> in Word's <em>Footnote Dialog</em>) are
+converted into note <code>n=&quot;custom mark&quot; type=&quot;original&quot;</code>.</p>
+<p>Yet another mechanism, based on Word comments, can be leveraged to mark
+arbitrary spans of text. Word comments insert a start and end marker,
+which can be easily converted to TEI using <code>anchor</code> and <code>note</code> element
+combination and output accordingly later.</p>
+<p>Please refer to the sample Word conversion document for detailed
+discussion of the import features and conventions.</p>
+<h2 id="historical-dictionary-example%3A-bogactwa-mowy-polskiej" tabindex="-1">Historical dictionary example: Bogactwa mowy polskiej</h2>
+<p>On a mission to provide a rich spectrum of examples showcasing different
+uses of TEI we're adding a small sample for a genre so far unrepresented
+in TEI Publisher - a 19th century manuscript collocative dictionary of
+Polish <em>Bogactwa mowy polskiej</em> (<em>Riches of the Polish tongue</em>) by Alojzy
+Osiński, edited by Ewa Rudnicka.</p>
+<p>This example features a transcription and facsimile parallel view with
+regions of interest highlighted in the facsimile panel thanks to the use
+of <code>pb-facs-link</code> component.</p>
+<figure><img src="/img/osinski.jpg" alt=""></figure>
+<h2 id="main-new-features-and-bug-fixes" tabindex="-1">Main New Features and Bug Fixes</h2>
+<ul>
+<li>
+<p>DOCX (Word) document format import</p>
+</li>
+<li>
+<p>Examples: Word import sample and historical dictionary sample</p>
+</li>
+<li>
+<p>Fixes related to user login</p>
+</li>
+<li>
+<p><code>pb-popover</code>: fix spacing</p>
+</li>
+<li>
+<p><code>pb-view</code>: scroll to target element if an id is given in the URLs hash</p>
+</li>
+</ul>
+<h2 id="get-it!" tabindex="-1">Get It!</h2>
+<p>TEI Publisher 5.0.2 is available as an application package on top of the
+<a href="https://exist-db.org">eXist XML Database</a>. Install it into a recent
+eXist (5.0.0 or newer) by going to the dashboard and selecting TEI
+Publisher from the package manager.</p>
+<p>For more information refer to the
+<a href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml">documentation</a>
+or visit the <a href="https://teipublisher.com">homepage</a> to play around with
+it.</p>
+
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
+
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/first-community-event-on-may-18th-2020/"
+                data-bs-toggle="tooltip" title="First Community Event on May 18th 2020">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+              <a class="btn btn-light" href="/posts/embeding-tei-publisher-components/"
+                data-bs-toggle="tooltip" title="TEI Publisher Components in Wordpress">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
+
+            <ul class="tags mb-3">
+              <li><a href="/tags/announcements/" class="badge text-bg-light" style="color: var(--color-2) !important">announcements</a></li>
+              <li><a href="/tags/tei-publisher/" class="badge text-bg-light" style="color: var(--color-3) !important">tei-publisher</a></li>
+              <li><a href="/tags/release/" class="badge text-bg-light" style="color: var(--color-4) !important">release</a></li>
+            </ul>
+
+            <nav class="toc" >
+        <ul><li><a href="#release-highlights%3A-word-document-import">Release Highlights: Word document import</a></li><li><a href="#historical-dictionary-example%3A-bogactwa-mowy-polskiej">Historical dictionary example: Bogactwa mowy polskiej</a></li><li><a href="#main-new-features-and-bug-fixes">Main New Features and Bug Fixes</a></li><li><a href="#get-it!">Get It!</a></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
+</main>
+
+<footer class="p-2">
+    <div>e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
+    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX</div>
+</footer>
+
+      <script src="/assets/scripts/bootstrap.bundle.min.js"></script>
+      <script src="/assets/scripts/common.js"></script>
+      
+  </body>
+</html>

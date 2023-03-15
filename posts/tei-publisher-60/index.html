@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEI Publisher 6.0.0</title>
+    <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
+    
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/css/prism-diff.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    
+    
+  </head>
+  <body>
+      <header>
+    
+
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Community</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/developer/" class="nav-link">For developers</a>
+    </li><li class="nav-item">
+        <a href="/pages/memory/" class="nav-link">For memory institutions</a>
+    </li><li class="nav-item">
+        <a href="/pages/researcher/" class="nav-link">For researchers</a>
+    </li><li class="nav-item">
+        <a href="/pages/getting-started/" class="nav-link">Getting Started</a>
+    </li><li class="nav-item">
+        <a href="/pages/get-in-touch/" class="nav-link">Get in Touch</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-contribute/" class="nav-link">How to Contribute</a>
+    </li><li class="nav-item">
+        <a href="/pages/community-meetings/" class="nav-link">Community Meetings</a>
+    </li><li class="nav-item">
+        <a href="/pages/code-of-conduct/" class="nav-link">Code of Conduct</a>
+    </li></ul>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/strategy/" class="nav-link">Strategy</a>
+    </li><li class="nav-item">
+        <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+    </li><li class="nav-item">
+        <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+    </li><li class="nav-item">
+        <a href="/pages/board/" class="nav-link">Board</a>
+    </li><li class="nav-item">
+        <a href="/pages/members/" class="nav-link">Members</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+    </li></ul>
+    </li><li class="nav-item">
+        <a href="/posts/" class="nav-link">Archive</a>
+    </li><li class="nav-item">
+                    <a href="/tags/events/" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/map/" class="nav-link">Project Registry</a>
+                </li>
+            </ul>
+            <div class="icons d-flex justify-content-end">
+                <a rel="me" href="https://social.e-editiones.org/@eeditiones" class="me-4"><i class="bi bi-mastodon"></i></a>
+                <a href="https://twitter.com/EEditiones" class="me-4">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/tei-publisher-60.md">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+</header>
+<main class="container tmpl-post">
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>TEI Publisher 6.0.0</h1>
+
+            <div class="dateline">
+              <div>Wolfgang Meier</div>
+              <time datetime="2020-07-07">07 Jul 2020</time>
+            </div>
+
+            
+            
+            <blockquote>
+<p>This is a major release introducing the refactored and extended TEI
+Publisher component library as well as numerous bugfixes and new
+features.</p>
+</blockquote>
+<h2 id="release-highlight%3A-user-interface-components-as-an-independent-library" tabindex="-1">Release Highlight: User Interface Components as an Independent Library</h2>
+<p>Publisher's library of web components is now distributed via
+<a href="https://www.npmjs.com/package/@teipublisher/pb-components">npm</a>. Thanks
+to the increasing support for the web component standards in modern
+browsers, the heavier framework used before (Polymer) could be dropped
+and has been replaced by LitElement, which is just a thin wrapper around
+native web components. While invisible to users, this redesign greatly
+improves modularity of Publisher-based applications.</p>
+<p>Thanks to npm releases, updating the user interface for all
+Publisher-based apps becomes simply a question of changing a single
+variable in the configuration file.</p>
+<p>Furthermore, Publisher's library of web components - true to the basic
+idea of Web Components Standard - can be included in any HTML webpage.
+This means it can be embedded into existing CMS or any other publishing
+solution, even if it's not running eXist-db (e.g. the popular
+<a href="https://teipublisher.onrender.com/post/embedding-publisher/">Hugo</a> or
+<a href="https://e-editiones.org/blog/">WordPress</a>). A few lines of HTML is
+sufficient to embed a document view anywhere you like:</p>
+<iframe scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="" height="480" title="undefinedl" src="https://codepen.io/wolfgangmm/embed/GRJyvNY?height=480&theme-id=dark&default-tab=html,result&editable=true">Loading codepen ...</iframe>
+<p>Similarly, if you prefer to write your own application using any of the
+popular frameworks like angular, vue or react you can easily import the
+pb-components package and use it directly <a href="https://github.com/eeditiones/pb-extension-template">in your
+project</a>.</p>
+<p>As a final consequence, this change decouples the component library from
+the TEI Publisher app. It is now possible to host multiple applications,
+which depend on different versions of the component library, without
+conflict, within the same eXist-db instance, a point of importance for
+institutions with numerous projects.</p>
+<h2 id="main-new-features-and-bug-fixes" tabindex="-1">Main New Features and Bug Fixes</h2>
+<ul>
+<li>
+<p>Redesigned and simplified CSS styling customization</p>
+<p>Styling properties are now exposed via standard CSS files and theme
+variables. Stylesheets can also be specified within the ODD, as
+previously, or through <code>pb-view</code> component configuration attributes.</p>
+</li>
+<li>
+<p>Extended internationalization</p>
+<ul>
+<li>
+<p>full i18n support for all the labels in HTML templates and within
+web components</p>
+</li>
+<li>
+<p>mechanism for project specific language files extending the default
+Publisher collection</p>
+</li>
+<li>
+<p>a number of new languages added and existing ones updated. Currently
+TEI Publisher is fully translated into Bulgarian, Czech, Dutch,
+French, Georgian, German, Greek, Italian, Norwegian, Polish,
+Portuguese, Romanian, Russian, Slovenian, Spanish, Swedish, Turkish
+and Ukrainian.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Subcorpora - new TEI Publisher data organization</p>
+<p>Publisher's pre-populated data collection is now split into Playground
+and TEI Publisher demo collection areas which illustrate how this
+mechanism could be used to host multiple subcorpora within single TEI
+Publisher application.</p>
+</li>
+<li>
+<p>New and improved web components</p>
+<ul>
+<li>
+<p><code>pb-select-feature</code> and <code>pb-toggle-feature</code> components have been
+extended to allow for interactive changing of display parameters
+(like switching between regularized or original spelling) which can
+be then processed client or server-side</p>
+</li>
+<li>
+<p>new <a href="https://unpkg.com/@teipublisher/pb-components@latest/dist/api.html">API documentation
+app</a>
+and web component demo pages</p>
+</li>
+<li>
+<p><a href="https://unpkg.com/@teipublisher/pb-components@1.0.0/dist/api.html#pb-mei.1">pb-mei</a>
+component for rendering Music Encoding Initiative documents based on
+Verovio; supports optional MIDI playback using web-midi-player</p>
+<figure><img src="/img/mei-demo.png" alt=""></figure>
+</li>
+</ul>
+</li>
+<li>
+<p>Redesigned ODD editor providing an improved user experience</p>
+</li>
+<li>
+<p>Documentation:</p>
+<ul>
+<li>
+<p>reorganized and extended TEI Publisher documentation</p>
+</li>
+<li>
+<p>pb-components API documentation and demos</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="get-it!" tabindex="-1">Get It!</h2>
+<p>TEI Publisher 6.0.0 is available as an application package on top of the
+<a href="https://exist-db.org">eXist XML Database</a>. Install it into a recent
+eXist (5.0.0 or newer) by going to the dashboard and selecting TEI
+Publisher from the package manager.</p>
+<p>For more information refer to the
+<a href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml">documentation</a>
+or visit the <a href="https://teipublisher.com">homepage</a> to play around with
+it.</p>
+<p>A 3-part online course on TEI Publisher 6 has been led by Wolfgang Meier
+in June 2020. Course material, as well as video recordings of all the
+sessions, and a walk-through for the assignments are available for
+self-learning. Find all informations on the <a href="https://github.com/eeditiones/workshop#slides">workshop
+GitHub</a> page.</p>
+<iframe src="https://www.youtube-nocookie.com/embed/QuWrfAS2SWM" width="100%" height="480px" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+<h2 id="thanks" tabindex="-1">Thanks</h2>
+<p>Our thanks go to the Swiss <a href="https://www.nie-ine.ch/">Nationale Infrastruktur für Editionen -
+Infrastructure nationale pour les éditions</a> for
+funding a large part of work on the web component refactoring.</p>
+<p>Work on components for toggling has been aided by a small grant from ACE
+– Austrian Corpora and Editions of the Österreichische Akademie der
+Wissenschaften.</p>
+<p>We are also grateful for the generous contributions of numerous
+individuals who used the <a href="https://crwd.in/tei-publisher">Crowdin
+platform</a> to translate and proofread
+Publisher's language files: Boris Lehečka, Øyvind Gjesdal, Sandra Romano
+Martin, Antonio Rojas Castro, Isabel Marti, Natalia Kotsyba, Elena
+Spadini, Pietro Liuzzo, Karolina Bielenin-Lenczowska, Jaqueline
+Pierazzo, Emmanuelle Morlock, Emmanuel Château-Dutier, Clement Plancq,
+Eduard Drenth, Wout Dillen, Anna-Maria Sichani, Maria Akritidou, Elli
+Mylonas, Matija Ogrin, Cristina Vertan, Dimitar Illiev, Arman
+Weidenmann, Leif-Jöran Olsson, Irina Lobzhanidze, Joseph Wicentowski,
+Juri Leino, Daniel Stoekl, Yael Netzer, Naoki Kokaze, Kiyonori Nagasaki,
+Toma Tasovac, Alexandra von Criegern, Bettina Pandula, Daria Elagina,
+and others whom we unfortunately only know by their usernames.</p>
+<h2 id="e-editiones" tabindex="-1">e-editiones</h2>
+<p>May of 2020 saw an advent of a new scholarly society:
+<a href="https://e-editiones.org">e-editiones</a>. Its goal is to promote open
+standards for digital editions and free software based on them with a
+focus on TEI Publisher development. All TEI Publisher source
+repositories have been moved to the <a href="https://github.com/eeditiones">e-editiones
+github</a>.</p>
+<p>We encourage you to join the society, through your institution or
+individually, and take part in our work and discussions, shaping the
+future of the TEI Publisher.</p>
+<figure><a href="https://e-editiones.org"><img src="/img/e-editiones-logo-color.svg" alt=""></a></figure>
+
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
+
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/tei-publisher-6/"
+                data-bs-toggle="tooltip" title="TEI Publisher 6">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+              <a class="btn btn-light" href="/posts/community-event-on-music-encoding/"
+                data-bs-toggle="tooltip" title="Community Event on Music Encoding">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
+
+            <ul class="tags mb-3">
+              <li><a href="/tags/announcements/" class="badge text-bg-light" style="color: var(--color-2) !important">announcements</a></li>
+              <li><a href="/tags/tei-publisher/" class="badge text-bg-light" style="color: var(--color-3) !important">tei-publisher</a></li>
+              <li><a href="/tags/release/" class="badge text-bg-light" style="color: var(--color-4) !important">release</a></li>
+            </ul>
+
+            <nav class="toc" >
+        <ul><li><a href="#release-highlight%3A-user-interface-components-as-an-independent-library">Release Highlight: User Interface Components as an Independent Library</a></li><li><a href="#main-new-features-and-bug-fixes">Main New Features and Bug Fixes</a></li><li><a href="#get-it!">Get It!</a></li><li><a href="#thanks">Thanks</a></li><li><a href="#e-editiones">e-editiones</a></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
+</main>
+
+<footer class="p-2">
+    <div>e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
+    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX</div>
+</footer>
+
+      <script src="/assets/scripts/bootstrap.bundle.min.js"></script>
+      <script src="/assets/scripts/common.js"></script>
+      
+  </body>
+</html>

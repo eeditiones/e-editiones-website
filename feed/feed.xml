@@ -779,6 +779,73 @@
 	</entry>
 	
 	<entry>
+		<title>TEI Publisher 7.1.0</title>
+		<link href="https://e-editiones.org/posts/tei-publisher-71/"/>
+		<updated>2021-08-10T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei-publisher-71/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Version 7.1.0 of the TEI Publisher boasting in-browser annotations
+support along other features and bugfixes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;release-highlight%3A-annotations&quot; tabindex=&quot;-1&quot;&gt;Release Highlight: Annotations&lt;/h2&gt;
+&lt;p&gt;Answering the secret dream of many TEI users this new TEI Publisher
+version 7.1.0 incorporates a — beautifully simple to use, yet powerful —
+way to enrich existing TEI documents. Users can just select a text
+passage, click on a button and within seconds — and without a pointy
+bracket in sight! — mark it as one of many supported annotation types. A
+place or person? Sure, and with built-in connectors for external
+authority files, too. Critical apparatus entries? We got you! Dates,
+corrections, regularizations and even quick fixes for typos in your
+transcription.&lt;/p&gt;
+&lt;p&gt;As usual, everything is customizable and extendable, so if you want a
+particular kind of annotation we do not support out of the box, it&#39;s not
+difficult to add your own or tinker existing ones. Read more in the
+&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=web-annotations&quot;&gt;documentation&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/ann-madrid.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;release-highlight%3A-support-for-mathematical-formulae&quot; tabindex=&quot;-1&quot;&gt;Release Highlight: support for mathematical formulae&lt;/h2&gt;
+&lt;p&gt;You can now use the TEI formula element with TeX notation for
+mathematical formulae, so something like&lt;/p&gt;
+&lt;pre class=&quot;language-xml&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;formula&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;notation&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;TeX&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;\frac{24}{20 - x}&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;formula&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;can be nicely rendered in HTML thanks to the new &lt;code&gt;pb-formula&lt;/code&gt; component.
+See the component&#39;s &lt;a href=&quot;https://unpkg.com/@teipublisher/pb-components@1.24.17/dist/api.html#pb-formula.1&quot;&gt;demo
+page&lt;/a&gt;
+which presents some elaborate formulae.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/ann-euler.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;other-improvements&quot; tabindex=&quot;-1&quot;&gt;Other Improvements&lt;/h2&gt;
+&lt;p&gt;The Demo collection has several new examples, most notably a Music
+Encoding Initiative (MEI) example &lt;em&gt;The Italienische Madrigal&lt;/em&gt; by Alfred
+(not Albert!) Einstein, with musical scores encoded with MEI music
+notation. It is nicely rendered with Verovio library through a dedicated
+&lt;code&gt;pb-mei&lt;/code&gt; component and you can even listen to it. Other point of interest
+is the Euler&#39;s Algebra with mathematic formulas rendered via &lt;code&gt;pb-formula&lt;/code&gt;
+component.&lt;/p&gt;
+&lt;p&gt;Publisher 7.1.0 is available in 21 languages, now proudly boasting both
+simplified and traditional Chinese. We&#39;ll be happy to collaborate on
+extending the coverage for other, especially non-European languages.&lt;/p&gt;
+&lt;h2 id=&quot;upgrading&quot; tabindex=&quot;-1&quot;&gt;Upgrading&lt;/h2&gt;
+&lt;p&gt;Version 7.1.0 is fully compatible with 7 except for some minor changes
+which are described in the
+&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=upgrade7&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;get-it!&quot; tabindex=&quot;-1&quot;&gt;Get It!&lt;/h2&gt;
+&lt;p&gt;TEI Publisher 7.1.0 is available as an application package on top of the
+&lt;a href=&quot;https://exist-db.org/&quot;&gt;eXist XML Database&lt;/a&gt;. Install it into a recent
+eXist (5.0.0 or newer) by going to the dashboard and selecting TEI
+Publisher from the package manager.&lt;/p&gt;
+&lt;p&gt;For more information refer to the
+&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml&quot;&gt;documentation&lt;/a&gt;
+or visit the &lt;a href=&quot;https://teipublisher.com/&quot;&gt;homepage&lt;/a&gt; to play around with
+it.&lt;/p&gt;
+&lt;h2 id=&quot;thanks&quot; tabindex=&quot;-1&quot;&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;It&#39;s not for the first time that our special thanks go to the &lt;a href=&quot;https://history.state.gov/&quot;&gt;Office of
+the Historian of the United States Department of
+State&lt;/a&gt; - this time for spearheading and
+funding the efforts which resulted in the annotation editor.&lt;/p&gt;
+&lt;p&gt;The Math support has been kindly funded by &lt;a href=&quot;https://bez.unibas.ch/de/&quot;&gt;Bernoulli-Euler Zentrum in
+Basel&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Annotation editor released with new TEI Publisher 7.1.0</title>
 		<link href="https://e-editiones.org/posts/annotation-editor-released-with-new-tei-publisher-7-1-0/"/>
 		<updated>2021-08-10T00:00:00Z</updated>
@@ -1059,6 +1126,89 @@ We&#39;re happy to announce that the request routing library, which was original
 	</entry>
 	
 	<entry>
+		<title>TEI Publisher 7.0.0</title>
+		<link href="https://e-editiones.org/posts/tei-publisher-7/"/>
+		<updated>2020-12-18T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei-publisher-7/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Version 7 of the TEI Publisher released with Open API and Markdown
+support along numerous other features and bugfixes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;release-highlight%3A-open-api&quot; tabindex=&quot;-1&quot;&gt;Release Highlight: Open API&lt;/h2&gt;
+&lt;p&gt;Version 7 represents the logical next step on our mission to improve
+interoperability, sustainability and long-term maintenance of editions
+created with TEI Publisher. A major redesign to the server side allowed
+us to expose a well-defined, clear &lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/api.html&quot;&gt;API specification&lt;/a&gt;
+following the Open API standard. Integrated Swagger UI allows you to
+visualize and interact with the API’s resources. Read more in &lt;a href=&quot;https://e-editiones.org/posts/tei-publisher-7/tei-publisher-70&quot;&gt;7.0.0
+Release Candidate notice&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The API can be easily extended to cover project-specific functionality.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/posts/api-spec.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;release-highlight%3A-markdown-support&quot; tabindex=&quot;-1&quot;&gt;Release Highlight: Markdown support&lt;/h2&gt;
+&lt;p&gt;In addition to various XML vocabularies, like TEI or DocBook, you can
+now use Markdown format. Markdown documents with &lt;code&gt;.md&lt;/code&gt; extension will be
+correctly rendered via &lt;a href=&quot;https://marked.js.org/&quot;&gt;marked&lt;/a&gt; library. This
+feature is particularly useful for static content, like introductory
+material or project news.&lt;/p&gt;
+&lt;h2 id=&quot;release-highlight%3A-flexible-collection-configuration&quot; tabindex=&quot;-1&quot;&gt;Release Highlight: Flexible collection configuration&lt;/h2&gt;
+&lt;p&gt;Previous versions of TEI Publisher allowed the view configuration to be
+specified either on the app level, through default odd, template and
+related variables in &lt;code&gt;modules/config.xqm&lt;/code&gt;, or on the document level via
+processing instructions. Current version extends the application
+configuration mechanism in the &lt;code&gt;$config:collection-config&lt;/code&gt; allowing for
+specifying view parameters per collection or document with arbitrary
+filtering expression (e.g. only documents in a certain language or of a
+particular type) without the need to change documents themselves.&lt;/p&gt;
+&lt;h2 id=&quot;other-improvements&quot; tabindex=&quot;-1&quot;&gt;Other Improvements&lt;/h2&gt;
+&lt;p&gt;The webcomponent library saw a number of important bug fixes and
+improvements. Despite the API changes, the library is fully backwards
+compatible: it first checks which version of TEI Publisher is running on
+the server and adjusts accordingly.&lt;/p&gt;
+&lt;p&gt;Among other things we improved the component handling file uploads,
+introduced a way to navigate back to the parent collection of a document
+being viewed, switched to xml:id based navigation where available, fixed
+bugs in the visual ODD editor, the search component and many others.&lt;/p&gt;
+&lt;p&gt;Furthermore we have fixed some issues with DocBook configuration,
+introduced more sensible defaults for indexing and sorting and
+streamlined naming conventions of commonly customized modules. Support
+for nested footnotes has been improved.&lt;/p&gt;
+&lt;p&gt;Publisher 7 is available in 20 languages and we&#39;ll be happy to
+collaborate on extending the coverage for other, especially non-European
+languages. Extended FAQ section has been moved to an &lt;a href=&quot;https://faq.teipublisher.com/&quot;&gt;external
+site&lt;/a&gt;, automatically generated from
+markdown files stored in
+&lt;a href=&quot;https://github.com/eeditiones/tei-publisher-faq/tree/master/content&quot;&gt;tei-publisher-faq&lt;/a&gt;
+repository. Quick edits are possible via GitHub, all contributions are
+welcome.&lt;/p&gt;
+&lt;h2 id=&quot;upgrading&quot; tabindex=&quot;-1&quot;&gt;Upgrading&lt;/h2&gt;
+&lt;p&gt;While version 7 tries to ensure that future updates will become much
+smoother, upgrading to 7 does still require a few manual steps, which
+are described in the
+&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=update6-7&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;get-it!&quot; tabindex=&quot;-1&quot;&gt;Get It!&lt;/h2&gt;
+&lt;p&gt;TEI Publisher 7.0.0 is available as an application package on top of the
+&lt;a href=&quot;https://exist-db.org/&quot;&gt;eXist XML Database&lt;/a&gt;. Install it into a recent
+eXist (5.0.0 or newer) by going to the dashboard and selecting TEI
+Publisher from the package manager.&lt;/p&gt;
+&lt;p&gt;For more information refer to the
+&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml&quot;&gt;documentation&lt;/a&gt;
+or visit the &lt;a href=&quot;https://teipublisher.com/&quot;&gt;homepage&lt;/a&gt; to play around with
+it.&lt;/p&gt;
+&lt;h2 id=&quot;thanks&quot; tabindex=&quot;-1&quot;&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;Again our special thanks go to the &lt;a href=&quot;https://www.nie-ine.ch/&quot;&gt;Swiss Nationale Infrastruktur für
+Editionen - Infrastructure nationale pour les
+éditions&lt;/a&gt; for funding most of the redesign!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.nie-ine.ch/&quot;&gt;
+&lt;img src=&quot;https://static.wixstatic.com/media/1b2bb4_a4d1727a7b92487cab792795839cfd5a~mv2_d_2362_2362_s_2.jpg/v1/crop/x_0,y_629,w_2362,h_964/fill/w_152,h_60,al_c,q_80,usm_0.66_1.00_0.01/1b2bb4_a4d1727a7b92487cab792795839cfd5a~mv2_d_2362_2362_s_2.webp&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Open API implementation was inspired by earlier work funded by
+&lt;a href=&quot;https://uni-heidelberg.de/ecpo&quot;&gt;Early Chinese Periodicals Online&lt;/a&gt;
+(ECPO). A lot of bug fixes were supported by the &lt;a href=&quot;https://www.ssrq-sds-fds.ch/home/&quot;&gt;Sammlung
+Schweizerischer Rechtsquellen&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>TEI Publisher 7: an example of collaborative development</title>
 		<link href="https://e-editiones.org/posts/tei-publisher-7-final/"/>
 		<updated>2020-12-18T00:00:00Z</updated>
@@ -1134,6 +1284,91 @@ We&#39;re happy to announce that the request routing library, which was original
 &lt;p&gt;PS We hoped to provide a recording of our online meeting and did not minute it. Unfortunately, due to a technical glitch, the recording quality is insufficient for publication. I am very sorry for this and would like to encourage other participants to share their perspectives, opinions and points for discussion I might have missed in this summary.&lt;/p&gt;
 &lt;p&gt;Hoping to hear from you soon,&lt;/p&gt;
 &lt;p&gt;Magdalena Turska&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>TEI Publisher 7.0.0 RC</title>
+		<link href="https://e-editiones.org/posts/tei-publisher-7-rc/"/>
+		<updated>2020-10-26T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei-publisher-7-rc/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;We&#39;re happy to announce the availability of version 7 of TEI Publisher
+as a release candidate.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;release-highlight%3A-open-api&quot; tabindex=&quot;-1&quot;&gt;Release Highlight: Open API&lt;/h2&gt;
+&lt;p&gt;Version 7 represents the logical next step on our mission to improve
+interoperability, sustainability and long-term maintenance of editions
+created with TEI Publisher. While version 6 addressed the client side by
+extracting all webcomponents into a separate package, version 7 applies
+a similar redesign to the server side:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;It exposes a well-defined, clear &lt;a href=&quot;https://e-editiones.org/api.html&quot;&gt;API specification&lt;/a&gt;
+following the Open API standard. Understanding how exactly TEI
+Publisher routes requests through the various layers was often
+challenging. With the new API we have a single, well-documented
+entry point to which you can also add your own functionality.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Updating becomes much easier due to defined API versions, clear
+configuration and separation of concerns&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The API can be easily accessed by other software outside TEI
+Publisher or its webcomponents, say, for example, Python or R
+scripts&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/api-spec.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+&lt;p&gt;The basis of this redesign is the new OAS-Router library, which reads a
+service specification following the Open API standard and maps incoming
+requests to the XQuery library implementing the actual functionality. By
+using Open API we can benefit from a wide choice of tools and utilities
+available for many programming languages.&lt;/p&gt;
+&lt;p&gt;Users can extend or modify the API by adding their own endpoints to
+&lt;code&gt;custom-api.json&lt;/code&gt;. Open API allows you to describe all the details of an
+API call (i.e. parameters, response codes etc.), so your XQuery code can
+concentrate on implementing the actual functionality without having to
+bother with parameter or response types.&lt;/p&gt;
+&lt;p&gt;Furthermore, every API operation is independently tested against the
+specification, to assure that e.g. parameter and response types
+correspond exactly to the definition. For this our main Git repositories
+now use a sophisticated setup for running automated tests.&lt;/p&gt;
+&lt;h2 id=&quot;other-improvements&quot; tabindex=&quot;-1&quot;&gt;Other Improvements&lt;/h2&gt;
+&lt;p&gt;The webcomponent library saw a number of important bug fixes and
+improvements. Despite the API changes, the library is fully backwards
+compatible: it first checks which version of TEI Publisher is running on
+the server and adjusts accordingly.&lt;/p&gt;
+&lt;p&gt;Among other things we improved the component handling file uploads,
+introduced a way to navigate back to the parent collection of a document
+being viewed, fixed bugs in the visual ODD editor, the search component
+and many others.&lt;/p&gt;
+&lt;h2 id=&quot;upgrading&quot; tabindex=&quot;-1&quot;&gt;Upgrading&lt;/h2&gt;
+&lt;p&gt;While version 7 tries to ensure that future updates will become much
+smoother, upgrading to 7 does still require a few manual steps, which
+are described in the
+&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=update6-7&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;get-it!&quot; tabindex=&quot;-1&quot;&gt;Get It!&lt;/h2&gt;
+&lt;p&gt;TEI Publisher 7.0.0 RC is available as an application package on top of
+the &lt;a href=&quot;https://exist-db.org/&quot;&gt;eXist XML Database&lt;/a&gt;. Install it into a recent
+eXist (5.0.0 or newer) by going to the dashboard and selecting TEI
+Publisher from the package manager.&lt;/p&gt;
+&lt;p&gt;For more information refer to the
+&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml&quot;&gt;documentation&lt;/a&gt;
+or visit the &lt;a href=&quot;https://teipublisher.com/&quot;&gt;homepage&lt;/a&gt; to play around with
+it.&lt;/p&gt;
+&lt;h2 id=&quot;thanks&quot; tabindex=&quot;-1&quot;&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;Again our special thanks go to the &lt;a href=&quot;https://www.nie-ine.ch/&quot;&gt;Swiss Nationale Infrastruktur für
+Editionen - Infrastructure nationale pour les
+éditions&lt;/a&gt; for funding most of the redesign!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.nie-ine.ch/&quot;&gt;
+&lt;img src=&quot;https://static.wixstatic.com/media/1b2bb4_a4d1727a7b92487cab792795839cfd5a~mv2_d_2362_2362_s_2.jpg/v1/crop/x_0,y_629,w_2362,h_964/fill/w_152,h_60,al_c,q_80,usm_0.66_1.00_0.01/1b2bb4_a4d1727a7b92487cab792795839cfd5a~mv2_d_2362_2362_s_2.webp&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Open API implementation was inspired by earlier work funded by
+&lt;a href=&quot;https://uni-heidelberg.de/ecpo&quot;&gt;Early Chinese Periodicals Online&lt;/a&gt;
+(ECPO). A lot of bug fixes were supported by the &lt;a href=&quot;https://www.ssrq-sds-fds.ch/home/&quot;&gt;Sammlung
+Schweizerischer Rechtsquellen&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -1229,6 +1464,165 @@ We&#39;re happy to announce that the request routing library, which was original
 	</entry>
 	
 	<entry>
+		<title>TEI Publisher 6.0.0</title>
+		<link href="https://e-editiones.org/posts/tei-publisher-60/"/>
+		<updated>2020-07-07T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei-publisher-60/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;This is a major release introducing the refactored and extended TEI
+Publisher component library as well as numerous bugfixes and new
+features.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;release-highlight%3A-user-interface-components-as-an-independent-library&quot; tabindex=&quot;-1&quot;&gt;Release Highlight: User Interface Components as an Independent Library&lt;/h2&gt;
+&lt;p&gt;Publisher&#39;s library of web components is now distributed via
+&lt;a href=&quot;https://www.npmjs.com/package/@teipublisher/pb-components&quot;&gt;npm&lt;/a&gt;. Thanks
+to the increasing support for the web component standards in modern
+browsers, the heavier framework used before (Polymer) could be dropped
+and has been replaced by LitElement, which is just a thin wrapper around
+native web components. While invisible to users, this redesign greatly
+improves modularity of Publisher-based applications.&lt;/p&gt;
+&lt;p&gt;Thanks to npm releases, updating the user interface for all
+Publisher-based apps becomes simply a question of changing a single
+variable in the configuration file.&lt;/p&gt;
+&lt;p&gt;Furthermore, Publisher&#39;s library of web components - true to the basic
+idea of Web Components Standard - can be included in any HTML webpage.
+This means it can be embedded into existing CMS or any other publishing
+solution, even if it&#39;s not running eXist-db (e.g. the popular
+&lt;a href=&quot;https://teipublisher.onrender.com/post/embedding-publisher/&quot;&gt;Hugo&lt;/a&gt; or
+&lt;a href=&quot;https://e-editiones.org/blog/&quot;&gt;WordPress&lt;/a&gt;). A few lines of HTML is
+sufficient to embed a document view anywhere you like:&lt;/p&gt;
+&lt;iframe scrolling=&quot;no&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;&quot; height=&quot;480&quot; title=&quot;undefinedl&quot; src=&quot;https://codepen.io/wolfgangmm/embed/GRJyvNY?height=480&amp;theme-id=dark&amp;default-tab=html,result&amp;editable=true&quot;&gt;Loading codepen ...&lt;/iframe&gt;
+&lt;p&gt;Similarly, if you prefer to write your own application using any of the
+popular frameworks like angular, vue or react you can easily import the
+pb-components package and use it directly &lt;a href=&quot;https://github.com/eeditiones/pb-extension-template&quot;&gt;in your
+project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As a final consequence, this change decouples the component library from
+the TEI Publisher app. It is now possible to host multiple applications,
+which depend on different versions of the component library, without
+conflict, within the same eXist-db instance, a point of importance for
+institutions with numerous projects.&lt;/p&gt;
+&lt;h2 id=&quot;main-new-features-and-bug-fixes&quot; tabindex=&quot;-1&quot;&gt;Main New Features and Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Redesigned and simplified CSS styling customization&lt;/p&gt;
+&lt;p&gt;Styling properties are now exposed via standard CSS files and theme
+variables. Stylesheets can also be specified within the ODD, as
+previously, or through &lt;code&gt;pb-view&lt;/code&gt; component configuration attributes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Extended internationalization&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;full i18n support for all the labels in HTML templates and within
+web components&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;mechanism for project specific language files extending the default
+Publisher collection&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;a number of new languages added and existing ones updated. Currently
+TEI Publisher is fully translated into Bulgarian, Czech, Dutch,
+French, Georgian, German, Greek, Italian, Norwegian, Polish,
+Portuguese, Romanian, Russian, Slovenian, Spanish, Swedish, Turkish
+and Ukrainian.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Subcorpora - new TEI Publisher data organization&lt;/p&gt;
+&lt;p&gt;Publisher&#39;s pre-populated data collection is now split into Playground
+and TEI Publisher demo collection areas which illustrate how this
+mechanism could be used to host multiple subcorpora within single TEI
+Publisher application.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;New and improved web components&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;pb-select-feature&lt;/code&gt; and &lt;code&gt;pb-toggle-feature&lt;/code&gt; components have been
+extended to allow for interactive changing of display parameters
+(like switching between regularized or original spelling) which can
+be then processed client or server-side&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;new &lt;a href=&quot;https://unpkg.com/@teipublisher/pb-components@latest/dist/api.html&quot;&gt;API documentation
+app&lt;/a&gt;
+and web component demo pages&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://unpkg.com/@teipublisher/pb-components@1.0.0/dist/api.html#pb-mei.1&quot;&gt;pb-mei&lt;/a&gt;
+component for rendering Music Encoding Initiative documents based on
+Verovio; supports optional MIDI playback using web-midi-player&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/mei-demo.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Redesigned ODD editor providing an improved user experience&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;reorganized and extended TEI Publisher documentation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;pb-components API documentation and demos&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;get-it!&quot; tabindex=&quot;-1&quot;&gt;Get It!&lt;/h2&gt;
+&lt;p&gt;TEI Publisher 6.0.0 is available as an application package on top of the
+&lt;a href=&quot;https://exist-db.org/&quot;&gt;eXist XML Database&lt;/a&gt;. Install it into a recent
+eXist (5.0.0 or newer) by going to the dashboard and selecting TEI
+Publisher from the package manager.&lt;/p&gt;
+&lt;p&gt;For more information refer to the
+&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml&quot;&gt;documentation&lt;/a&gt;
+or visit the &lt;a href=&quot;https://teipublisher.com/&quot;&gt;homepage&lt;/a&gt; to play around with
+it.&lt;/p&gt;
+&lt;p&gt;A 3-part online course on TEI Publisher 6 has been led by Wolfgang Meier
+in June 2020. Course material, as well as video recordings of all the
+sessions, and a walk-through for the assignments are available for
+self-learning. Find all informations on the &lt;a href=&quot;https://github.com/eeditiones/workshop#slides&quot;&gt;workshop
+GitHub&lt;/a&gt; page.&lt;/p&gt;
+&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/QuWrfAS2SWM&quot; width=&quot;100%&quot; height=&quot;480px&quot; frameborder=&quot;0&quot; gesture=&quot;media&quot; allow=&quot;encrypted-media&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
+&lt;h2 id=&quot;thanks&quot; tabindex=&quot;-1&quot;&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;Our thanks go to the Swiss &lt;a href=&quot;https://www.nie-ine.ch/&quot;&gt;Nationale Infrastruktur für Editionen -
+Infrastructure nationale pour les éditions&lt;/a&gt; for
+funding a large part of work on the web component refactoring.&lt;/p&gt;
+&lt;p&gt;Work on components for toggling has been aided by a small grant from ACE
+– Austrian Corpora and Editions of the Österreichische Akademie der
+Wissenschaften.&lt;/p&gt;
+&lt;p&gt;We are also grateful for the generous contributions of numerous
+individuals who used the &lt;a href=&quot;https://crwd.in/tei-publisher&quot;&gt;Crowdin
+platform&lt;/a&gt; to translate and proofread
+Publisher&#39;s language files: Boris Lehečka, Øyvind Gjesdal, Sandra Romano
+Martin, Antonio Rojas Castro, Isabel Marti, Natalia Kotsyba, Elena
+Spadini, Pietro Liuzzo, Karolina Bielenin-Lenczowska, Jaqueline
+Pierazzo, Emmanuelle Morlock, Emmanuel Château-Dutier, Clement Plancq,
+Eduard Drenth, Wout Dillen, Anna-Maria Sichani, Maria Akritidou, Elli
+Mylonas, Matija Ogrin, Cristina Vertan, Dimitar Illiev, Arman
+Weidenmann, Leif-Jöran Olsson, Irina Lobzhanidze, Joseph Wicentowski,
+Juri Leino, Daniel Stoekl, Yael Netzer, Naoki Kokaze, Kiyonori Nagasaki,
+Toma Tasovac, Alexandra von Criegern, Bettina Pandula, Daria Elagina,
+and others whom we unfortunately only know by their usernames.&lt;/p&gt;
+&lt;h2 id=&quot;e-editiones&quot; tabindex=&quot;-1&quot;&gt;e-editiones&lt;/h2&gt;
+&lt;p&gt;May of 2020 saw an advent of a new scholarly society:
+&lt;a href=&quot;https://e-editiones.org/&quot;&gt;e-editiones&lt;/a&gt;. Its goal is to promote open
+standards for digital editions and free software based on them with a
+focus on TEI Publisher development. All TEI Publisher source
+repositories have been moved to the &lt;a href=&quot;https://github.com/eeditiones&quot;&gt;e-editiones
+github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We encourage you to join the society, through your institution or
+individually, and take part in our work and discussions, shaping the
+future of the TEI Publisher.&lt;/p&gt;
+&lt;figure&gt;&lt;a href=&quot;https://e-editiones.org/&quot;&gt;&lt;img src=&quot;https://e-editiones.org/img/e-editiones-logo-color.svg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/figure&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Community Event on Music Encoding</title>
 		<link href="https://e-editiones.org/posts/community-event-on-music-encoding/"/>
 		<updated>2020-07-03T00:00:00Z</updated>
@@ -1260,6 +1654,83 @@ We&#39;re happy to announce that the request routing library, which was original
 		<content type="html">&lt;h2 id=&quot;if-you-missed-it-...&quot; tabindex=&quot;-1&quot;&gt;If you missed it ...&lt;/h2&gt;
 &lt;p&gt;the recorded live stream of our first community event on May 18th 2020 is available on youtube:&lt;/p&gt;
 &lt;iframe src=&quot;https://www.youtube.com/embed/LNbuyeh-vew&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>TEI Publisher 5.0.2</title>
+		<link href="https://e-editiones.org/posts/tei-publisher-502/"/>
+		<updated>2020-01-25T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei-publisher-502/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;This is a minor release introducing primarily new features of Word
+document import along some bugfixes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;release-highlights%3A-word-document-import&quot; tabindex=&quot;-1&quot;&gt;Release Highlights: Word document import&lt;/h2&gt;
+&lt;p&gt;Docx module introduced in 5.0.0 allows for importing documents in docx
+format, preserving their textual content, structure and basic semantics
+of the text. TEI Publisher preserves document&#39;s structural divisions and
+headings, lists, tables, embedded images, foot- and endnotes, as well as
+recognizes styles whose names start with tei: as TEI elements with the
+same name, e.g &lt;em&gt;Johann Wolfgang Goethe&lt;/em&gt; styled with &lt;code&gt;tei:persName&lt;/code&gt; style
+will be converted to &lt;code&gt;&amp;lt;persName&amp;gt;Johann Wolfgang Goethe&amp;lt;/persName&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This release introduces a default convention for encoding additional
+attributes: text in angle brackets will be interpreted as a list of
+attribute-value pairs. Multiple items can be separated with a “;”. For
+example, to set a &lt;code&gt;@rend&lt;/code&gt; and provide a &lt;code&gt;@ref&lt;/code&gt; for a &lt;code&gt;placeName&lt;/code&gt;, you can
+write &lt;code&gt;Frankfurt&amp;lt;rend=smallcaps;ref=Frankfurt am Main&amp;gt;&lt;/code&gt;. This notation
+can be modified by extending the ODD with additional rules for
+project-specific workflow. For example, if persName does always need a
+&lt;code&gt;@ref&lt;/code&gt; attribute in your edition, you could have a simplified rule which
+parses: &lt;code&gt;Friedrich Dürrenmatt&amp;lt;118527908&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Further conventions have been introduced to distinguish between
+different kinds of notes (e.g. editor&#39;s commentary, source annotations,
+and text-critical notes). Footnotes marked with a custom mark (to be
+found under &lt;em&gt;Format&lt;/em&gt; &amp;gt; &lt;em&gt;Custom Mark&lt;/em&gt; in Word&#39;s &lt;em&gt;Footnote Dialog&lt;/em&gt;) are
+converted into note &lt;code&gt;n=&amp;quot;custom mark&amp;quot; type=&amp;quot;original&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Yet another mechanism, based on Word comments, can be leveraged to mark
+arbitrary spans of text. Word comments insert a start and end marker,
+which can be easily converted to TEI using &lt;code&gt;anchor&lt;/code&gt; and &lt;code&gt;note&lt;/code&gt; element
+combination and output accordingly later.&lt;/p&gt;
+&lt;p&gt;Please refer to the sample Word conversion document for detailed
+discussion of the import features and conventions.&lt;/p&gt;
+&lt;h2 id=&quot;historical-dictionary-example%3A-bogactwa-mowy-polskiej&quot; tabindex=&quot;-1&quot;&gt;Historical dictionary example: Bogactwa mowy polskiej&lt;/h2&gt;
+&lt;p&gt;On a mission to provide a rich spectrum of examples showcasing different
+uses of TEI we&#39;re adding a small sample for a genre so far unrepresented
+in TEI Publisher - a 19th century manuscript collocative dictionary of
+Polish &lt;em&gt;Bogactwa mowy polskiej&lt;/em&gt; (&lt;em&gt;Riches of the Polish tongue&lt;/em&gt;) by Alojzy
+Osiński, edited by Ewa Rudnicka.&lt;/p&gt;
+&lt;p&gt;This example features a transcription and facsimile parallel view with
+regions of interest highlighted in the facsimile panel thanks to the use
+of &lt;code&gt;pb-facs-link&lt;/code&gt; component.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/osinski.jpg&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;main-new-features-and-bug-fixes&quot; tabindex=&quot;-1&quot;&gt;Main New Features and Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;DOCX (Word) document format import&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Examples: Word import sample and historical dictionary sample&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixes related to user login&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;pb-popover&lt;/code&gt;: fix spacing&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;pb-view&lt;/code&gt;: scroll to target element if an id is given in the URLs hash&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;get-it!&quot; tabindex=&quot;-1&quot;&gt;Get It!&lt;/h2&gt;
+&lt;p&gt;TEI Publisher 5.0.2 is available as an application package on top of the
+&lt;a href=&quot;https://exist-db.org/&quot;&gt;eXist XML Database&lt;/a&gt;. Install it into a recent
+eXist (5.0.0 or newer) by going to the dashboard and selecting TEI
+Publisher from the package manager.&lt;/p&gt;
+&lt;p&gt;For more information refer to the
+&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml&quot;&gt;documentation&lt;/a&gt;
+or visit the &lt;a href=&quot;https://teipublisher.com/&quot;&gt;homepage&lt;/a&gt; to play around with
+it.&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -1322,6 +1793,240 @@ pb-navigation[direction=&amp;quot;forward&amp;quot;] {
 &lt;ol&gt;
 &lt;li&gt;Custom fields are hidden by default on most WordPress sites. To make them visible, select the Screen Options tab at the top of any WordPress editor page, and choose Custom Fields &lt;a href=&quot;https://e-editiones.org/posts/embeding-tei-publisher-components/#fnref1:1&quot;&gt;↩&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>TEI Publisher 5.0.0</title>
+		<link href="https://e-editiones.org/posts/tei-publisher-5/"/>
+		<updated>2019-08-02T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei-publisher-5/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;This is major release building on the faceting feature added in eXist-db
+5.0.0 RC8 and introducing Word document import and draft coverage of DTS
+API.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;release-highlights%3A-facets&quot; tabindex=&quot;-1&quot;&gt;Release Highlights: Facets&lt;/h2&gt;
+&lt;p&gt;Facets allow users to quickly navigate through a result set by selecting
+from the list of predefined categories. This way, users can drill down
+into the set, reducing the number of displayed items with every step. As
+the user chooses a facet, the set necessarily becomes smaller, so
+non-matching entries will disappear from sight.&lt;/p&gt;
+&lt;p&gt;Facets are a new feature in eXist 5.0.0. They are &lt;em&gt;super fast&lt;/em&gt; because
+eXist will create them when indexing the document. No extra computation
+is needed when the user clicks on a facet to drill down into a displayed
+set: all information is already available in the index. By default TEI
+Publisher configures two facets: &lt;em&gt;Genre&lt;/em&gt; and &lt;em&gt;Language&lt;/em&gt; while &lt;a href=&quot;https://teipublisher.com/exist/apps/vangogh/index.html&quot;&gt;Van Gogh
+demo&lt;/a&gt; presents a
+more elaborate example of facets in action.&lt;/p&gt;
+&lt;h2 id=&quot;van-gogh-demo&quot; tabindex=&quot;-1&quot;&gt;Van Gogh demo&lt;/h2&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/VanGoghFacets.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+&lt;p&gt;The &lt;a href=&quot;http://vangoghletters.org/vg/&quot;&gt;Van Gogh edition&lt;/a&gt; is often
+considered a model example for correspondence. Following the recent
+release of XML sources for all the letters we&#39;ve decided to use this
+excellent resource to showcase the new faceting feature of eXist 5.0.0
+as well as the dynamic, user configurable, multi column display of the
+original Van Gogh website using the webcomponents provided by TEI
+Publisher in a playful styling.&lt;/p&gt;
+&lt;h2 id=&quot;docx-import&quot; tabindex=&quot;-1&quot;&gt;DOCX import&lt;/h2&gt;
+&lt;p&gt;New docx module based on custom ODD for docx to TEI transformation is
+available to allow for importing documents in docx format, preserving
+their textual content, structure and basic semantics of the text. Due to
+the particularities of docx, reconstructing logical document structure
+can be only based on certain heuristics but TEI Publisher preserves
+basic document divisions and headings, lists, tables, embedded images,
+foot- and endnotes, as well as recognizing styles whose names start with
+&lt;code&gt;tei:&lt;/code&gt; as TEI elements with the same name, e.g &lt;em&gt;Johann Wolfgang Goethe&lt;/em&gt;
+styled with &lt;code&gt;tei:persName&lt;/code&gt; style will be converted to &lt;code&gt;&amp;lt;persName&amp;gt;Johann Wolfgang Goethe&amp;lt;/persName&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;dts-api&quot; tabindex=&quot;-1&quot;&gt;DTS API&lt;/h2&gt;
+&lt;p&gt;TEI Publisher now implements a &lt;a href=&quot;https://distributed-text-services.github.io/specifications/&quot;&gt;Distributed Text
+Services&lt;/a&gt;
+client and exposes core endpoints of DTS API. Custom &lt;code&gt;&amp;lt;dts-client&amp;gt;&lt;/code&gt;
+component allows for browsing remote DTS server collections and
+documents which are rendered via TEI Publisher&#39;s ODD.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/dts.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;main-new-features-and-bug-fixes&quot; tabindex=&quot;-1&quot;&gt;Main New Features and Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Facets based document filtering&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DOCX (Word) document format import&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Draft implementation of the DTS API&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;New pb-toggle-feature UI component for switching between two states of
+a parameter passed to ODD, e.g. normalized and diplomatic view&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Coverage for embedding TEI Publisher output components in other
+websites (e.g. WordPress)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Remove dependency on monex and calls to deprecated map functions&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;i18n: Performance improvements, support for multiple catalogue files
+for a single language, Dutch translation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fix DocBook support for generated apps&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Simplify login configuration&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use new field definitions for metadata in index config&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Support page breaks in non-TEI vocabularies&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;get-it!&quot; tabindex=&quot;-1&quot;&gt;Get It!&lt;/h2&gt;
+&lt;p&gt;TEI Publisher 5.0.0 is available as an application package on top of the
+&lt;a href=&quot;https://exist-db.org/&quot;&gt;eXist XML Database&lt;/a&gt;. Install it into a recent
+eXist (5.0.0 RC8 or newer) by going to the dashboard and selecting TEI
+Publisher from the package manager.&lt;/p&gt;
+&lt;p&gt;For more information refer to the
+&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml&quot;&gt;documentation&lt;/a&gt;
+or visit the &lt;a href=&quot;https://teipublisher.com/&quot;&gt;homepage&lt;/a&gt; to play around with
+it.&lt;/p&gt;
+&lt;h2 id=&quot;thanks&quot; tabindex=&quot;-1&quot;&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;Our thanks go to &lt;a href=&quot;https://history.state.gov/&quot;&gt;Office of the Historian of the United States
+Department of State&lt;/a&gt; for funding a large part
+of work on the faceting feature for eXist-db.&lt;/p&gt;
+&lt;p&gt;We are also grateful to the Van Gogh Museum &amp;amp; Huygens ING for releasing
+&lt;a href=&quot;http://vangoghletters.org/vg/about_6.html#intro.VI.6.4.&quot;&gt;XML source files of Vincent Van Gogh
+letters&lt;/a&gt; under
+an open licence which allowed us to use this data as our demo samples.
+Same goes for &lt;a href=&quot;https://github.com/textcreationpartnership&quot;&gt;EEBO-TCP&lt;/a&gt; and
+&lt;a href=&quot;https://firstfolio.bodleian.ox.ac.uk/&quot;&gt;Bodleian First Folio&lt;/a&gt;, already
+protagonists of TEI Publisher demos for a longer time.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>TEI Publisher 4.1.0</title>
+		<link href="https://e-editiones.org/posts/tei-publisher-41/"/>
+		<updated>2019-02-21T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei-publisher-41/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;This is mainly a bug fix release based on user feedback, but also
+includes various enhancements and features new demos.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;release-highlights%3A-dynamic-layout-and-custom-translation-alignment&quot; tabindex=&quot;-1&quot;&gt;Release Highlights: Dynamic Layout and Custom Translation Alignment&lt;/h2&gt;
+&lt;p&gt;Many users were interested in the correspondence examples, in particular
+the Serafin and Cortés letters showing transcription and translation
+side by side. We have focused on enhancing those use cases and close
+some gaps in functionality. One problem arising in many TEI projects is
+how to align two or more texts, e.g. a transcription and a translation.
+In the simplest case, the texts may be aligned on the level of divisions
+or page breaks. Unfortunately things are not always as simple as that.
+TEI allows a wide variety of alignment mechanisms, some more complex
+than others. TEI Publisher 4.1.0 thus implements a generic mechanism to
+define a &lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=alignment&quot;&gt;mapping function&lt;/a&gt; written
+in XQuery. This is a simple, yet powerful approach. The letter from
+&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/test/cortes_to_dantiscus_Mexico.xml&quot;&gt;Cortés to Dantiscus
+(Mexico)&lt;/a&gt; showcases a rather
+complex mapping.&lt;/p&gt;
+&lt;h2 id=&quot;van-gogh%3A-dynamic%2C-multi-column-example&quot; tabindex=&quot;-1&quot;&gt;Van Gogh: Dynamic, Multi Column Example&lt;/h2&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/VanGogh.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+&lt;p&gt;The &lt;a href=&quot;http://vangoghletters.org/vg/&quot;&gt;Van Gogh edition&lt;/a&gt; is often
+considered a model example for correspondence and several users
+expressed their wish to create something similar with TEI Publisher.
+With recent release of XML sources for all the letters we&#39;ve decided to
+use one letter from &lt;a href=&quot;https://e-editiones.org/test/let695.xml&quot;&gt;Van Gogh to Gauguin&lt;/a&gt; and try
+to reproduce the dynamic, user configurable, multi column display of the
+original Van Gogh website using the webcomponents provided by TEI
+Publisher. The corresponding webcomponents (&lt;code&gt;&amp;lt;pb-grid&amp;gt;/&amp;lt;pb-panel&amp;gt;&lt;/code&gt;) have been
+reworked to make this possible.&lt;/p&gt;
+&lt;h2 id=&quot;other-new-features-and-bug-fixes&quot; tabindex=&quot;-1&quot;&gt;Other New Features and Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Sort and filter documents by title, author or file name&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Autocomplete suggestions are now displayed for all search boxes&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Allow arbitrary footnote labels to be passed via the @n parameter of
+the note behaviour&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Support plain images to be displayed by &lt;code&gt;&amp;lt;pb-facsimile&amp;gt;&lt;/code&gt; - if a IIIF
+server is not needed or available&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fix uploads of files containing spaces in their names&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;get-it!&quot; tabindex=&quot;-1&quot;&gt;Get It!&lt;/h2&gt;
+&lt;p&gt;TEI Publisher 4.1.0 is available as an application package on top of the
+&lt;a href=&quot;https://exist-db.org/&quot;&gt;eXist XML Database&lt;/a&gt;. Install it into a recent
+eXist (4.x.x series) by going to the dashboard and selecting TEI
+Publisher from the package manager.&lt;/p&gt;
+&lt;p&gt;For more information refer to the
+&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml&quot;&gt;documentation&lt;/a&gt;
+or visit the &lt;a href=&quot;https://teipublisher.com/&quot;&gt;homepage&lt;/a&gt; to play around with
+it.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>TEI Publisher 4.0</title>
+		<link href="https://e-editiones.org/posts/tei-publisher-4/"/>
+		<updated>2018-12-20T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei-publisher-4/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;eXist Solutions are proud to announce the final 4.0 release of TEI
+Publisher. This release is the next big step towards our vision of a
+tool which enables XML-savy scholars and editors to publish materials
+without becoming programmers or forcing them into a one-size-fits-it-all
+framework.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;tei-publisher-goes-web-components&quot; tabindex=&quot;-1&quot;&gt;TEI Publisher goes Web Components&lt;/h2&gt;
+&lt;p&gt;Past projects we realized could prove that the &lt;a href=&quot;http://www.tei-c.org/release/doc/tei-p5-doc/de/html/TD.html#TDPM&quot;&gt;TEI Processing
+Model&lt;/a&gt;
+is indeed a truly universal and powerful tool for any kind of XML, not
+just TEI. However, creating an online edition requires more than just
+text transformation: the text needs to be embedded into an application
+context, adding navigation, pagination, search, facsimiles and so on.
+Moving towards the emerging web component standard, TEI Publisher 4.0
+implements all this functionality as small &amp;quot;lego&amp;quot; blocks to be freely
+arranged, recombined and extended.&lt;/p&gt;
+&lt;p&gt;Earlier versions of TEI Publisher were limited to showing a single text
+view by default. Creating more complex layouts required at least basic
+XQuery, HTML and CSS skills. As
+&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/index.html&quot;&gt;showcased&lt;/a&gt;
+by the example documents, the new version allows users to realize custom
+views without actually writing code. Users can pick from a toolbox of
+ready-made components, including text views based on an ODD
+transformation, IIIF-powered image viewers, maps and many more. All
+those building blocks come as custom HTML elements, which are easy to
+write and configure. Each of them encapsulates a certain functionality
+and appearance. Have a look at the
+&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=webcomponents&quot;&gt;documentation&lt;/a&gt;
+and the web components API to see how to use components.&lt;/p&gt;
+&lt;h2 id=&quot;open-source&quot; tabindex=&quot;-1&quot;&gt;Open Source&lt;/h2&gt;
+&lt;p&gt;We strongly believe in Open Source, standards and reusability. TEI
+Publisher is a major milestone towards our vision, but there&#39;s always
+more to be done and we would like to invite the community to contribute
+ideas, goals and implementations. Missing a certain functionality or
+component? Tell us.&lt;/p&gt;
+&lt;h2 id=&quot;get-it!&quot; tabindex=&quot;-1&quot;&gt;Get It!&lt;/h2&gt;
+&lt;p&gt;TEI Publisher 4.0 is available as an application package on top of the
+&lt;a href=&quot;https://exist-db.org/&quot;&gt;eXist XML Database&lt;/a&gt;. Install it into a recent
+eXist (4.x.x series) by going to the dashboard and selecting TEI
+Publisher from the package manager.&lt;/p&gt;
+&lt;p&gt;For more information refer to the
+&lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml&quot;&gt;documentation&lt;/a&gt;
+or visit the &lt;a href=&quot;https://teipublisher.com/&quot;&gt;homepage&lt;/a&gt; to play around with
+it.&lt;/p&gt;
+&lt;h2 id=&quot;thanks&quot; tabindex=&quot;-1&quot;&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;Our special thanks go to the &lt;a href=&quot;http://erabbinica.org/&quot;&gt;erabbinica.org&lt;/a&gt; project for funding a major
+part of the migration to web components.&lt;/p&gt;
 </content>
 	</entry>
 </feed>

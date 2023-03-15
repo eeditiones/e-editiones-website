@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEI Publisher 4.0</title>
+    <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
+    
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/css/prism-diff.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    
+    
+  </head>
+  <body>
+      <header>
+    
+
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Community</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/developer/" class="nav-link">For developers</a>
+    </li><li class="nav-item">
+        <a href="/pages/memory/" class="nav-link">For memory institutions</a>
+    </li><li class="nav-item">
+        <a href="/pages/researcher/" class="nav-link">For researchers</a>
+    </li><li class="nav-item">
+        <a href="/pages/getting-started/" class="nav-link">Getting Started</a>
+    </li><li class="nav-item">
+        <a href="/pages/get-in-touch/" class="nav-link">Get in Touch</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-contribute/" class="nav-link">How to Contribute</a>
+    </li><li class="nav-item">
+        <a href="/pages/community-meetings/" class="nav-link">Community Meetings</a>
+    </li><li class="nav-item">
+        <a href="/pages/code-of-conduct/" class="nav-link">Code of Conduct</a>
+    </li></ul>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/strategy/" class="nav-link">Strategy</a>
+    </li><li class="nav-item">
+        <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+    </li><li class="nav-item">
+        <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+    </li><li class="nav-item">
+        <a href="/pages/board/" class="nav-link">Board</a>
+    </li><li class="nav-item">
+        <a href="/pages/members/" class="nav-link">Members</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+    </li></ul>
+    </li><li class="nav-item">
+        <a href="/posts/" class="nav-link">Archive</a>
+    </li><li class="nav-item">
+                    <a href="/tags/events/" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/map/" class="nav-link">Project Registry</a>
+                </li>
+            </ul>
+            <div class="icons d-flex justify-content-end">
+                <a rel="me" href="https://social.e-editiones.org/@eeditiones" class="me-4"><i class="bi bi-mastodon"></i></a>
+                <a href="https://twitter.com/EEditiones" class="me-4">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/tei-publisher-4.md">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+</header>
+<main class="container tmpl-post">
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>TEI Publisher 4.0</h1>
+
+            <div class="dateline">
+              <div>Wolfgang Meier</div>
+              <time datetime="2018-12-20">20 Dec 2018</time>
+            </div>
+
+            
+            
+            <blockquote>
+<p>eXist Solutions are proud to announce the final 4.0 release of TEI
+Publisher. This release is the next big step towards our vision of a
+tool which enables XML-savy scholars and editors to publish materials
+without becoming programmers or forcing them into a one-size-fits-it-all
+framework.</p>
+</blockquote>
+<h2 id="tei-publisher-goes-web-components" tabindex="-1">TEI Publisher goes Web Components</h2>
+<p>Past projects we realized could prove that the <a href="http://www.tei-c.org/release/doc/tei-p5-doc/de/html/TD.html#TDPM">TEI Processing
+Model</a>
+is indeed a truly universal and powerful tool for any kind of XML, not
+just TEI. However, creating an online edition requires more than just
+text transformation: the text needs to be embedded into an application
+context, adding navigation, pagination, search, facsimiles and so on.
+Moving towards the emerging web component standard, TEI Publisher 4.0
+implements all this functionality as small &quot;lego&quot; blocks to be freely
+arranged, recombined and extended.</p>
+<p>Earlier versions of TEI Publisher were limited to showing a single text
+view by default. Creating more complex layouts required at least basic
+XQuery, HTML and CSS skills. As
+<a href="https://teipublisher.com/exist/apps/tei-publisher/index.html">showcased</a>
+by the example documents, the new version allows users to realize custom
+views without actually writing code. Users can pick from a toolbox of
+ready-made components, including text views based on an ODD
+transformation, IIIF-powered image viewers, maps and many more. All
+those building blocks come as custom HTML elements, which are easy to
+write and configure. Each of them encapsulates a certain functionality
+and appearance. Have a look at the
+<a href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=webcomponents">documentation</a>
+and the web components API to see how to use components.</p>
+<h2 id="open-source" tabindex="-1">Open Source</h2>
+<p>We strongly believe in Open Source, standards and reusability. TEI
+Publisher is a major milestone towards our vision, but there's always
+more to be done and we would like to invite the community to contribute
+ideas, goals and implementations. Missing a certain functionality or
+component? Tell us.</p>
+<h2 id="get-it!" tabindex="-1">Get It!</h2>
+<p>TEI Publisher 4.0 is available as an application package on top of the
+<a href="https://exist-db.org">eXist XML Database</a>. Install it into a recent
+eXist (4.x.x series) by going to the dashboard and selecting TEI
+Publisher from the package manager.</p>
+<p>For more information refer to the
+<a href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml">documentation</a>
+or visit the <a href="https://teipublisher.com">homepage</a> to play around with
+it.</p>
+<h2 id="thanks" tabindex="-1">Thanks</h2>
+<p>Our special thanks go to the <a href="http://erabbinica.org">erabbinica.org</a> project for funding a major
+part of the migration to web components.</p>
+
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
+
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/tei-publisher-41/"
+                data-bs-toggle="tooltip" title="TEI Publisher 4.1.0">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+            </div>
+
+            <ul class="tags mb-3">
+              <li><a href="/tags/announcements/" class="badge text-bg-light" style="color: var(--color-2) !important">announcements</a></li>
+              <li><a href="/tags/tei-publisher/" class="badge text-bg-light" style="color: var(--color-3) !important">tei-publisher</a></li>
+              <li><a href="/tags/release/" class="badge text-bg-light" style="color: var(--color-4) !important">release</a></li>
+            </ul>
+
+            <nav class="toc" >
+        <ul><li><a href="#tei-publisher-goes-web-components">TEI Publisher goes Web Components</a></li><li><a href="#open-source">Open Source</a></li><li><a href="#get-it!">Get It!</a></li><li><a href="#thanks">Thanks</a></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
+</main>
+
+<footer class="p-2">
+    <div>e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
+    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX</div>
+</footer>
+
+      <script src="/assets/scripts/bootstrap.bundle.min.js"></script>
+      <script src="/assets/scripts/common.js"></script>
+      
+  </body>
+</html>

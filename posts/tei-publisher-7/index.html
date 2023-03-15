@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEI Publisher 7.0.0</title>
+    <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
+    
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/css/prism-diff.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    
+    
+  </head>
+  <body>
+      <header>
+    
+
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Community</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/developer/" class="nav-link">For developers</a>
+    </li><li class="nav-item">
+        <a href="/pages/memory/" class="nav-link">For memory institutions</a>
+    </li><li class="nav-item">
+        <a href="/pages/researcher/" class="nav-link">For researchers</a>
+    </li><li class="nav-item">
+        <a href="/pages/getting-started/" class="nav-link">Getting Started</a>
+    </li><li class="nav-item">
+        <a href="/pages/get-in-touch/" class="nav-link">Get in Touch</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-contribute/" class="nav-link">How to Contribute</a>
+    </li><li class="nav-item">
+        <a href="/pages/community-meetings/" class="nav-link">Community Meetings</a>
+    </li><li class="nav-item">
+        <a href="/pages/code-of-conduct/" class="nav-link">Code of Conduct</a>
+    </li></ul>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/strategy/" class="nav-link">Strategy</a>
+    </li><li class="nav-item">
+        <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+    </li><li class="nav-item">
+        <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+    </li><li class="nav-item">
+        <a href="/pages/board/" class="nav-link">Board</a>
+    </li><li class="nav-item">
+        <a href="/pages/members/" class="nav-link">Members</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+    </li></ul>
+    </li><li class="nav-item">
+        <a href="/posts/" class="nav-link">Archive</a>
+    </li><li class="nav-item">
+                    <a href="/tags/events/" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/map/" class="nav-link">Project Registry</a>
+                </li>
+            </ul>
+            <div class="icons d-flex justify-content-end">
+                <a rel="me" href="https://social.e-editiones.org/@eeditiones" class="me-4"><i class="bi bi-mastodon"></i></a>
+                <a href="https://twitter.com/EEditiones" class="me-4">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/tei-publisher-7.md">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+</header>
+<main class="container tmpl-post">
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>TEI Publisher 7.0.0</h1>
+
+            <div class="dateline">
+              <div>Wolfgang Meier</div>
+              <time datetime="2020-12-18">18 Dec 2020</time>
+            </div>
+
+            
+            
+            <blockquote>
+<p>Version 7 of the TEI Publisher released with Open API and Markdown
+support along numerous other features and bugfixes.</p>
+</blockquote>
+<h2 id="release-highlight%3A-open-api" tabindex="-1">Release Highlight: Open API</h2>
+<p>Version 7 represents the logical next step on our mission to improve
+interoperability, sustainability and long-term maintenance of editions
+created with TEI Publisher. A major redesign to the server side allowed
+us to expose a well-defined, clear <a href="https://teipublisher.com/exist/apps/tei-publisher/api.html">API specification</a>
+following the Open API standard. Integrated Swagger UI allows you to
+visualize and interact with the API’s resources. Read more in <a href="tei-publisher-70">7.0.0
+Release Candidate notice</a>.</p>
+<p>The API can be easily extended to cover project-specific functionality.</p>
+<figure><img src="../api-spec.png" alt=""></figure>
+<h2 id="release-highlight%3A-markdown-support" tabindex="-1">Release Highlight: Markdown support</h2>
+<p>In addition to various XML vocabularies, like TEI or DocBook, you can
+now use Markdown format. Markdown documents with <code>.md</code> extension will be
+correctly rendered via <a href="https://marked.js.org/">marked</a> library. This
+feature is particularly useful for static content, like introductory
+material or project news.</p>
+<h2 id="release-highlight%3A-flexible-collection-configuration" tabindex="-1">Release Highlight: Flexible collection configuration</h2>
+<p>Previous versions of TEI Publisher allowed the view configuration to be
+specified either on the app level, through default odd, template and
+related variables in <code>modules/config.xqm</code>, or on the document level via
+processing instructions. Current version extends the application
+configuration mechanism in the <code>$config:collection-config</code> allowing for
+specifying view parameters per collection or document with arbitrary
+filtering expression (e.g. only documents in a certain language or of a
+particular type) without the need to change documents themselves.</p>
+<h2 id="other-improvements" tabindex="-1">Other Improvements</h2>
+<p>The webcomponent library saw a number of important bug fixes and
+improvements. Despite the API changes, the library is fully backwards
+compatible: it first checks which version of TEI Publisher is running on
+the server and adjusts accordingly.</p>
+<p>Among other things we improved the component handling file uploads,
+introduced a way to navigate back to the parent collection of a document
+being viewed, switched to xml:id based navigation where available, fixed
+bugs in the visual ODD editor, the search component and many others.</p>
+<p>Furthermore we have fixed some issues with DocBook configuration,
+introduced more sensible defaults for indexing and sorting and
+streamlined naming conventions of commonly customized modules. Support
+for nested footnotes has been improved.</p>
+<p>Publisher 7 is available in 20 languages and we'll be happy to
+collaborate on extending the coverage for other, especially non-European
+languages. Extended FAQ section has been moved to an <a href="https://faq.teipublisher.com/">external
+site</a>, automatically generated from
+markdown files stored in
+<a href="https://github.com/eeditiones/tei-publisher-faq/tree/master/content">tei-publisher-faq</a>
+repository. Quick edits are possible via GitHub, all contributions are
+welcome.</p>
+<h2 id="upgrading" tabindex="-1">Upgrading</h2>
+<p>While version 7 tries to ensure that future updates will become much
+smoother, upgrading to 7 does still require a few manual steps, which
+are described in the
+<a href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=update6-7">documentation</a>.</p>
+<h2 id="get-it!" tabindex="-1">Get It!</h2>
+<p>TEI Publisher 7.0.0 is available as an application package on top of the
+<a href="https://exist-db.org">eXist XML Database</a>. Install it into a recent
+eXist (5.0.0 or newer) by going to the dashboard and selecting TEI
+Publisher from the package manager.</p>
+<p>For more information refer to the
+<a href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml">documentation</a>
+or visit the <a href="https://teipublisher.com">homepage</a> to play around with
+it.</p>
+<h2 id="thanks" tabindex="-1">Thanks</h2>
+<p>Again our special thanks go to the <a href="https://www.nie-ine.ch/">Swiss Nationale Infrastruktur für
+Editionen - Infrastructure nationale pour les
+éditions</a> for funding most of the redesign!</p>
+<p><a href="https://www.nie-ine.ch/">
+<img src="https://static.wixstatic.com/media/1b2bb4_a4d1727a7b92487cab792795839cfd5a~mv2_d_2362_2362_s_2.jpg/v1/crop/x_0,y_629,w_2362,h_964/fill/w_152,h_60,al_c,q_80,usm_0.66_1.00_0.01/1b2bb4_a4d1727a7b92487cab792795839cfd5a~mv2_d_2362_2362_s_2.webp" alt="">
+</a></p>
+<p>The Open API implementation was inspired by earlier work funded by
+<a href="https://uni-heidelberg.de/ecpo">Early Chinese Periodicals Online</a>
+(ECPO). A lot of bug fixes were supported by the <a href="https://www.ssrq-sds-fds.ch/home/">Sammlung
+Schweizerischer Rechtsquellen</a>.</p>
+
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
+
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/osa20/"
+                data-bs-toggle="tooltip" title="Open Source Advent">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+              <a class="btn btn-light" href="/posts/tei-publisher-7-final/"
+                data-bs-toggle="tooltip" title="TEI Publisher 7: an example of collaborative development">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
+
+            <ul class="tags mb-3">
+              <li><a href="/tags/announcements/" class="badge text-bg-light" style="color: var(--color-2) !important">announcements</a></li>
+              <li><a href="/tags/tei-publisher/" class="badge text-bg-light" style="color: var(--color-3) !important">tei-publisher</a></li>
+              <li><a href="/tags/release/" class="badge text-bg-light" style="color: var(--color-4) !important">release</a></li>
+            </ul>
+
+            <nav class="toc" >
+        <ul><li><a href="#release-highlight%3A-open-api">Release Highlight: Open API</a></li><li><a href="#release-highlight%3A-markdown-support">Release Highlight: Markdown support</a></li><li><a href="#release-highlight%3A-flexible-collection-configuration">Release Highlight: Flexible collection configuration</a></li><li><a href="#other-improvements">Other Improvements</a></li><li><a href="#upgrading">Upgrading</a></li><li><a href="#get-it!">Get It!</a></li><li><a href="#thanks">Thanks</a></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
+</main>
+
+<footer class="p-2">
+    <div>e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
+    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX</div>
+</footer>
+
+      <script src="/assets/scripts/bootstrap.bundle.min.js"></script>
+      <script src="/assets/scripts/common.js"></script>
+      
+  </body>
+</html>

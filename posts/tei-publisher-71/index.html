@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEI Publisher 7.1.0</title>
+    <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
+    
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/css/prism-diff.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    
+    
+  </head>
+  <body>
+      <header>
+    
+
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Community</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/developer/" class="nav-link">For developers</a>
+    </li><li class="nav-item">
+        <a href="/pages/memory/" class="nav-link">For memory institutions</a>
+    </li><li class="nav-item">
+        <a href="/pages/researcher/" class="nav-link">For researchers</a>
+    </li><li class="nav-item">
+        <a href="/pages/getting-started/" class="nav-link">Getting Started</a>
+    </li><li class="nav-item">
+        <a href="/pages/get-in-touch/" class="nav-link">Get in Touch</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-contribute/" class="nav-link">How to Contribute</a>
+    </li><li class="nav-item">
+        <a href="/pages/community-meetings/" class="nav-link">Community Meetings</a>
+    </li><li class="nav-item">
+        <a href="/pages/code-of-conduct/" class="nav-link">Code of Conduct</a>
+    </li></ul>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/strategy/" class="nav-link">Strategy</a>
+    </li><li class="nav-item">
+        <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+    </li><li class="nav-item">
+        <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+    </li><li class="nav-item">
+        <a href="/pages/board/" class="nav-link">Board</a>
+    </li><li class="nav-item">
+        <a href="/pages/members/" class="nav-link">Members</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+    </li></ul>
+    </li><li class="nav-item">
+        <a href="/posts/" class="nav-link">Archive</a>
+    </li><li class="nav-item">
+                    <a href="/tags/events/" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/map/" class="nav-link">Project Registry</a>
+                </li>
+            </ul>
+            <div class="icons d-flex justify-content-end">
+                <a rel="me" href="https://social.e-editiones.org/@eeditiones" class="me-4"><i class="bi bi-mastodon"></i></a>
+                <a href="https://twitter.com/EEditiones" class="me-4">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/tei-publisher-71.md">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+</header>
+<main class="container tmpl-post">
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>TEI Publisher 7.1.0</h1>
+
+            <div class="dateline">
+              <div>Wolfgang Meier</div>
+              <time datetime="2021-08-10">10 Aug 2021</time>
+            </div>
+
+            
+            
+            <blockquote>
+<p>Version 7.1.0 of the TEI Publisher boasting in-browser annotations
+support along other features and bugfixes.</p>
+</blockquote>
+<h2 id="release-highlight%3A-annotations" tabindex="-1">Release Highlight: Annotations</h2>
+<p>Answering the secret dream of many TEI users this new TEI Publisher
+version 7.1.0 incorporates a — beautifully simple to use, yet powerful —
+way to enrich existing TEI documents. Users can just select a text
+passage, click on a button and within seconds — and without a pointy
+bracket in sight! — mark it as one of many supported annotation types. A
+place or person? Sure, and with built-in connectors for external
+authority files, too. Critical apparatus entries? We got you! Dates,
+corrections, regularizations and even quick fixes for typos in your
+transcription.</p>
+<p>As usual, everything is customizable and extendable, so if you want a
+particular kind of annotation we do not support out of the box, it's not
+difficult to add your own or tinker existing ones. Read more in the
+<a href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=web-annotations">documentation</a></p>
+<figure><img src="/img/ann-madrid.png" alt=""></figure>
+<h2 id="release-highlight%3A-support-for-mathematical-formulae" tabindex="-1">Release Highlight: support for mathematical formulae</h2>
+<p>You can now use the TEI formula element with TeX notation for
+mathematical formulae, so something like</p>
+<pre class="language-xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>formula</span> <span class="token attr-name">notation</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>TeX<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>\frac{24}{20 - x}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>formula</span><span class="token punctuation">></span></span></code></pre>
+<p>can be nicely rendered in HTML thanks to the new <code>pb-formula</code> component.
+See the component's <a href="https://unpkg.com/@teipublisher/pb-components@1.24.17/dist/api.html#pb-formula.1">demo
+page</a>
+which presents some elaborate formulae.</p>
+<figure><img src="/img/ann-euler.png" alt=""></figure>
+<h2 id="other-improvements" tabindex="-1">Other Improvements</h2>
+<p>The Demo collection has several new examples, most notably a Music
+Encoding Initiative (MEI) example <em>The Italienische Madrigal</em> by Alfred
+(not Albert!) Einstein, with musical scores encoded with MEI music
+notation. It is nicely rendered with Verovio library through a dedicated
+<code>pb-mei</code> component and you can even listen to it. Other point of interest
+is the Euler's Algebra with mathematic formulas rendered via <code>pb-formula</code>
+component.</p>
+<p>Publisher 7.1.0 is available in 21 languages, now proudly boasting both
+simplified and traditional Chinese. We'll be happy to collaborate on
+extending the coverage for other, especially non-European languages.</p>
+<h2 id="upgrading" tabindex="-1">Upgrading</h2>
+<p>Version 7.1.0 is fully compatible with 7 except for some minor changes
+which are described in the
+<a href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=upgrade7">documentation</a>.</p>
+<h2 id="get-it!" tabindex="-1">Get It!</h2>
+<p>TEI Publisher 7.1.0 is available as an application package on top of the
+<a href="https://exist-db.org">eXist XML Database</a>. Install it into a recent
+eXist (5.0.0 or newer) by going to the dashboard and selecting TEI
+Publisher from the package manager.</p>
+<p>For more information refer to the
+<a href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml">documentation</a>
+or visit the <a href="https://teipublisher.com">homepage</a> to play around with
+it.</p>
+<h2 id="thanks" tabindex="-1">Thanks</h2>
+<p>It's not for the first time that our special thanks go to the <a href="https://history.state.gov/">Office of
+the Historian of the United States Department of
+State</a> - this time for spearheading and
+funding the efforts which resulted in the annotation editor.</p>
+<p>The Math support has been kindly funded by <a href="https://bez.unibas.ch/de/">Bernoulli-Euler Zentrum in
+Basel</a>.</p>
+
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
+
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/manuscript-mondays/"
+                data-bs-toggle="tooltip" title="Manuscript Mondays – Einführung in das digitale Edieren handschriftlicher Quellen">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+              <a class="btn btn-light" href="/posts/annotation-editor-released-with-new-tei-publisher-7-1-0/"
+                data-bs-toggle="tooltip" title="Annotation editor released with new TEI Publisher 7.1.0">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
+
+            <ul class="tags mb-3">
+              <li><a href="/tags/announcements/" class="badge text-bg-light" style="color: var(--color-2) !important">announcements</a></li>
+              <li><a href="/tags/tei-publisher/" class="badge text-bg-light" style="color: var(--color-3) !important">tei-publisher</a></li>
+              <li><a href="/tags/release/" class="badge text-bg-light" style="color: var(--color-4) !important">release</a></li>
+            </ul>
+
+            <nav class="toc" >
+        <ul><li><a href="#release-highlight%3A-annotations">Release Highlight: Annotations</a></li><li><a href="#release-highlight%3A-support-for-mathematical-formulae">Release Highlight: support for mathematical formulae</a></li><li><a href="#other-improvements">Other Improvements</a></li><li><a href="#upgrading">Upgrading</a></li><li><a href="#get-it!">Get It!</a></li><li><a href="#thanks">Thanks</a></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
+</main>
+
+<footer class="p-2">
+    <div>e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
+    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX</div>
+</footer>
+
+      <script src="/assets/scripts/bootstrap.bundle.min.js"></script>
+      <script src="/assets/scripts/common.js"></script>
+      
+  </body>
+</html>
