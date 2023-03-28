@@ -18,7 +18,7 @@ coverImageCredits: null
 
 ## Browser history, bookmarkable URLs
 
-The newest release of TEI Publisher involved major redesigns in the libraries used. Perhaps the biggest change – though not immediately visible – took place in web components: from the start we tried to create each component as independent, monadic entity, communicating with other components only through signals. This results in great flexibility as you can recombine and reuse components all over the place, but it also turns pages into a beehive, without a central coordination center. This is in particular problematic when we look at the navigation aspect: to put it simple, users expect that
+The newest release of TEI Publisher involved major redesigns in the libraries used. Perhaps the biggest change – though not immediately visible – took place in web components: from the start we tried to create each component as independent, monadic entity, communicating with other components only through signals. This results in great flexibility as you can recombine and reuse components all over the place, but it also turns pages into a beehive, without a central coordination center. This is in particular problematic when we look at the navigation aspect: to put it simply, users expect that
 
 1. bookmarking a page and reloading it later will result in the same display
 2. using the browser history back and forth navigation properly restores previous state
