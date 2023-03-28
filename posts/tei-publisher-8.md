@@ -13,9 +13,11 @@ coverImage: publisher8.jpg
 coverImageCredits: 
 ---
 
+> TEI Publisher 8 introduces a central URL registry, named entity recognition, print CSS and more.
+
 ![](/img/publisher8-big.jpg)
 
-> TEI Publisher 8 introduces a central URL registry, named entity recognition, print CSS and more.
+## Browser history, bookmarkable URLs
 
 The newest release of TEI Publisher combines some major redesigns in the libraries used. The maybe biggest change – though not immediately visible – took place in web components: from the start we tried to create each component as independent, monadic entity, communicating with other components only through signals. This results in great flexibility as you can recombine and reuse components all over the place, but it also turns pages into a beehive, lacking a central coordinating power. This is in particular problematic when we look at the navigation aspect: to put it simple, users expect that
 
@@ -26,6 +28,8 @@ Previously each component would handle its own state, sometimes reacting to para
 
 Please note that we follow a semantic versioning scheme: a change in the major version number indicates a breaking, i.e. not backwards compatible version. While most web components should work as before, some may need special attention (in particular `pb-facs-link` in combination with `pb-facsimile`, see below).
 
+## Paged Media CSS
+
 Breaking changes also happened in TEI Publisher's core library, `tei-publisher-lib`, the main reason for this being the added support for Print CSS as a new output mode. Print CSS – officially called: Paged Media CSS – represents an option to generate good looking printouts using just HTML and CSS. While browser support is still lacking, there are tools to fill the gap, making it possible to produce high-quality print output. TEI Publisher 8 provides interfaces to those tools. Details have already been covered in a community meetup, so please refer to the e-editiones blog for [detailed information](https://www.e-editiones.org/posts/print-css/).
 
 <figure>
@@ -35,13 +39,21 @@ Breaking changes also happened in TEI Publisher's core library, `tei-publisher-l
 
 `tei-publisher-lib` 3.0.0 also introduces two new extensions to the processing model, namely _processing modes_ and _parameter setting_. Read more about this in the [separate announcement](https://www.e-editiones.org/posts/tei-publisher-lib-3/).
 
+## Named entity recognition
+
 Thanks to yet another new library we created, TEI Publisher's web annotation editor now also includes experimental support for _detecting and tagging named entities in texts_. Even better, training your own model is tightly integrated with TEI Publisher: it will directly generate training data from already annotated TEI texts.
 
 ![NER in action](/img/wikipedia.gif)
 
 The feature requires an external service though. If you would like to give it a try, please head over to the [corresponding article](https://www.e-editiones.org/posts/names-sell-named-entity-recognition-in-tei-publisher/).
 
+## Redesigned start page
+
 The TEI Publisher application itself shows a bunch of new examples and a redesigned start page, which blurs the boundaries between browsing and search. The HTML behind the page got more modular, allowing editions to better mix and match features in the way which best fits the material presented.
+
+![New start page with integrated search](/img/publisher8-start.jpg)
+
+## JATS as first class citizen
 
 Finally, JATS (the Journal Publishing Tag Library) joins TEI and Docbook as a fully supported XML format. This means you cannot just view JATS documents, but also browse and search them.
 
