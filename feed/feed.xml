@@ -23,6 +23,43 @@
 	</entry>
 	
 	<entry>
+		<title>TEI Publisher 8.0.0</title>
+		<link href="https://e-editiones.org/posts/tei-publisher-8/"/>
+		<updated>2023-03-28T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei-publisher-8/</id>
+		<content type="html">&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/publisher8-big.jpg&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TEI Publisher 8 introduces a central URL registry, named entity recognition, print CSS and more.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The newest release of TEI Publisher combines some major redesigns in the libraries used. The maybe biggest change – though not immediately visible – took place in web components: from the start we tried to create each component as independent, monadic entity, communicating with other components only through signals. This results in great flexibility as you can recombine and reuse components all over the place, but it also turns pages into a beehive, lacking a central coordinating power. This is in particular problematic when we look at the navigation aspect: to put it simple, users expect that&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;bookmarking a page and reloading it later will result in a similar display&lt;/li&gt;
+&lt;li&gt;using the browser history back and forth navigation properly restores previous states&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Previously each component would handle its own state, sometimes reacting to parameters and browser history events, sometimes not. The new 2.x.x series of components therefore introduces a central state management, which each component uses as single source of truth. Combined with the existing flexibility of server-side URL handling via the Open API, this should result in more speaking and bookmarkable URLs.&lt;/p&gt;
+&lt;p&gt;Please note that we follow a semantic versioning scheme: a change in the major version number indicates a breaking, i.e. not backwards compatible version. While most web components should work as before, some may need special attention (in particular &lt;code&gt;pb-facs-link&lt;/code&gt; in combination with &lt;code&gt;pb-facsimile&lt;/code&gt;, see below).&lt;/p&gt;
+&lt;p&gt;Breaking changes also happened in TEI Publisher&#39;s core library, &lt;code&gt;tei-publisher-lib&lt;/code&gt;, the main reason for this being the added support for Print CSS as a new output mode. Print CSS – officially called: Paged Media CSS – represents an option to generate good looking printouts using just HTML and CSS. While browser support is still lacking, there are tools to fill the gap, making it possible to produce high-quality print output. TEI Publisher 8 provides interfaces to those tools. Details have already been covered in a community meetup, so please refer to the e-editiones blog for &lt;a href=&quot;https://www.e-editiones.org/posts/print-css/&quot;&gt;detailed information&lt;/a&gt;.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;https://e-editiones.org/img/tei-publisher-docs-printcss.png&quot; /&gt;
+    &lt;figcaption&gt;Two pages from the TEI Publisher documentation rendered with paged.js&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;code&gt;tei-publisher-lib&lt;/code&gt; 3.0.0 also introduces two new extensions to the processing model, namely &lt;em&gt;processing modes&lt;/em&gt; and &lt;em&gt;parameter setting&lt;/em&gt;. Read more about this in the &lt;a href=&quot;https://www.e-editiones.org/posts/tei-publisher-lib-3/&quot;&gt;separate announcement&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks to yet another new library we created, TEI Publisher&#39;s web annotation editor now also includes experimental support for &lt;em&gt;detecting and tagging named entities in texts&lt;/em&gt;. Even better, training your own model is tightly integrated with TEI Publisher: it will directly generate training data from already annotated TEI texts.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/wikipedia.gif&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;NER in action&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;The feature requires an external service though. If you would like to give it a try, please head over to the &lt;a href=&quot;https://www.e-editiones.org/posts/names-sell-named-entity-recognition-in-tei-publisher/&quot;&gt;corresponding article&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The TEI Publisher application itself shows a bunch of new examples and a redesigned start page, which blurs the boundaries between browsing and search. The HTML behind the page got more modular, allowing editions to better mix and match features in the way which best fits the material presented.&lt;/p&gt;
+&lt;p&gt;Finally, JATS (the Journal Publishing Tag Library) joins TEI and Docbook as a fully supported XML format. This means you cannot just view JATS documents, but also browse and search them.&lt;/p&gt;
+&lt;h2 id=&quot;compatibility-and-upgrading&quot; tabindex=&quot;-1&quot;&gt;Compatibility and Upgrading&lt;/h2&gt;
+&lt;p&gt;Due to the breaking changes in associated libraries, updating a custom edition generated with TEI Publisher 7 to 8 requires some manual steps. While the list of steps may look rather long, they are not very complex and can be applied quickly if you follow the &lt;a href=&quot;https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml#upgrade7-8&quot;&gt;instructions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Other particular changes to pay attention to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The behaviour of the &lt;code&gt;pb-facsimile&lt;/code&gt; and &lt;code&gt;pb-facs-link&lt;/code&gt; webcomponents has changed: &lt;code&gt;pb-facs-link&lt;/code&gt; must now emit to the event channel &lt;code&gt;pb-facsimile&lt;/code&gt; is listening to. Previously emitting to the default channel was enough. You should thus change all &lt;code&gt;pb-facs-link&lt;/code&gt; elements generated by your ODD to include an &lt;code&gt;@emit&lt;/code&gt; attribute targetting the correct channel.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tei-publisher-lib&lt;/code&gt; 3.x.x reassigns the &lt;code&gt;print&lt;/code&gt; output mode to generate HTML output targetted at print. In older version &lt;code&gt;print&lt;/code&gt; was defined as an alias for &lt;code&gt;fo&lt;/code&gt;. You may thus have to change your ODDs if you used the fo mode. A more elaborate explanation of the changes is presented in this &lt;a href=&quot;https://www.e-editiones.org/posts/tei-publisher-lib-3/&quot;&gt;e-editiones article&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Swiss Law Sources – Lessons learned from using TEIPublisher for &gt; 5 years</title>
 		<link href="https://e-editiones.org/posts/community-event-ssrq/"/>
 		<updated>2023-03-14T00:00:00Z</updated>

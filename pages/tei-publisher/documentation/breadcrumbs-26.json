@@ -8,7 +8,7 @@
     "odd": "docbook.odd",
     "next": "3.10.15",
     "previous": "3.10.11",
-    "nextId": "docx",
+    "nextId": "format-jats",
     "previousId": "format-tei",
     "switchView": null,
     "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">Supported XML vocabularies</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">DocBook</span></span></div></body></html>",

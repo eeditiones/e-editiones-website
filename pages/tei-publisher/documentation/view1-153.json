@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.42.7.12",
+    "rootNode": "3.42.7.12",
+    "id": null,
+    "odd": "docbook.odd",
+    "next": "3.42.7.14",
+    "previous": "3.42.7",
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"tei-section4\"><pb-observable data=\"3.42.7.12,3.42.7.12\" emit=\"transcription\">\n        <h3 class=\"tei-title7 title\">Context paths</h3>\n      <p class=\"tei-para\">If you would like the proxy to directly route traffic for a public URL to a specific application within\n        eXist, you also need to make sure that all internal application links are correctly set, depending\n        on the context in which the app operates. The link to \"Start\" (i.e. the home page of the edition) in the menu would be an\n        example. While you are developing the app, you want this link to point to\n        <span class=\"tei-code2 code\">/exist/apps/my-edition/</span> (we call this the <span class=\"tei-emphasis2\">context path</span>).\n        When deploying the app to production (i.e. behind a proxy), this link should change and just point to\n        the root of the host. The context path should therefore be empty.</p>\n      <p class=\"tei-para\">TEI Publisher based apps allow developers to control\n        this behaviour via a special variable in <span class=\"tei-code2 code\">modules/config.xqm</span> called\n        <span class=\"tei-code2 code\">$config:context-path</span>.</p>\n      <p class=\"tei-para\">The default setting for <span class=\"tei-code2 code\">$config:context-path</span> is determined as follows:</p>\n      <ol class=\"tei-procedure\"><li class=\"tei-step\">\n          <p class=\"tei-para\">if a Java system property called <span class=\"tei-code2 code\">teipublisher.context-path</span> is set, use its value as context\n          path</p>\n        </li><li class=\"tei-step\">\n          <p class=\"tei-para\">otherwise look at the HTTP request header <span class=\"tei-code2 code\">X-Forwarded-Host</span> and if present, assume that\n            we're running behind a proxy and the context path should be empty</p>\n        </li><li class=\"tei-step\">\n          <p class=\"tei-para\">finally, try to determine the context path by checking the install location of the application within\n            eXist. This will lead to a context path like <span class=\"tei-code2 code\">/exist/apps/my-edition/</span></p>\n        </li></ol>\n      <p class=\"tei-para\">This procedure should work for most cases, so manually adjusting <span class=\"tei-code2 code\">$config:context-path</span> should\n        rarely be necessary.</p>\n      </pb-observable></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

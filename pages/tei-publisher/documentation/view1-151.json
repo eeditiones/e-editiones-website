@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.42",
+    "rootNode": "3.42",
+    "id": "production",
+    "odd": "docbook.odd",
+    "next": "3.42.7",
+    "previous": "3.40.14",
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"tei-section4\" id=\"production\"><pb-observable data=\"3.42,3.42\" emit=\"transcription\"><h1 class=\"tei-title7 title\">TEI Publisher in production</h1><p class=\"tei-para\">Regardless of the installation type, TEI Publisher always runs on an <a href=\"https://exist-db.org\" class=\"tei-link4\" target=\"_new\">eXist-db database</a> and there are a\n      few things to keep in mind for a production system, i.e. one that is publicly available to\n      users. We strongly suggest following the recommendations outlined in the <a href=\"https://exist-db.org/exist/apps/doc/production_good_practice\" class=\"tei-link4\" target=\"_new\">Production Use - Good Practice</a> of the eXist-db documentation. One important point is\n      to always run eXist-db in production behind a proxy server, which serves as an intermediary to\n      control and protect access to a server on which the database runs.</p></pb-observable></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}

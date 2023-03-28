@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEI Publisher 8.0.0</title>
+    <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
+    
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/css/prism-diff.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    
+    
+  </head>
+  <body>
+      <header>
+    
+
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Community</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/developer/" class="nav-link">For developers</a>
+    </li><li class="nav-item">
+        <a href="/pages/memory/" class="nav-link">For memory institutions</a>
+    </li><li class="nav-item">
+        <a href="/pages/researcher/" class="nav-link">For researchers</a>
+    </li><li class="nav-item">
+        <a href="/pages/getting-started/" class="nav-link">Getting Started</a>
+    </li><li class="nav-item">
+        <a href="/pages/get-in-touch/" class="nav-link">Get in Touch</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-contribute/" class="nav-link">How to Contribute</a>
+    </li><li class="nav-item">
+        <a href="/pages/community-meetings/" class="nav-link">Community Meetings</a>
+    </li><li class="nav-item">
+        <a href="/pages/code-of-conduct/" class="nav-link">Code of Conduct</a>
+    </li></ul>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/strategy/" class="nav-link">Strategy</a>
+    </li><li class="nav-item">
+        <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+    </li><li class="nav-item">
+        <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+    </li><li class="nav-item">
+        <a href="/pages/board/" class="nav-link">Board</a>
+    </li><li class="nav-item">
+        <a href="/pages/members/" class="nav-link">Members</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+    </li></ul>
+    </li><li class="nav-item">
+        <a href="/posts/" class="nav-link">Archive</a>
+    </li><li class="nav-item">
+                    <a href="/tags/events/" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/map/" class="nav-link">Project Registry</a>
+                </li>
+            </ul>
+            <div class="icons d-flex justify-content-end">
+                <a rel="me" href="https://social.e-editiones.org/@eeditiones" class="me-4"><i class="bi bi-mastodon"></i></a>
+                <a href="https://twitter.com/EEditiones" class="me-4">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/tei-publisher-8.md">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+</header>
+<main class="container tmpl-post">
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>TEI Publisher 8.0.0</h1>
+
+            <div class="dateline">
+              <div>Wolfgang Meier</div>
+              <time datetime="2023-03-28">28 Mar 2023</time>
+            </div>
+
+            
+            
+            <figure><img src="/img/publisher8-big.jpg" alt=""></figure>
+<blockquote>
+<p>TEI Publisher 8 introduces a central URL registry, named entity recognition, print CSS and more.</p>
+</blockquote>
+<p>The newest release of TEI Publisher combines some major redesigns in the libraries used. The maybe biggest change – though not immediately visible – took place in web components: from the start we tried to create each component as independent, monadic entity, communicating with other components only through signals. This results in great flexibility as you can recombine and reuse components all over the place, but it also turns pages into a beehive, lacking a central coordinating power. This is in particular problematic when we look at the navigation aspect: to put it simple, users expect that</p>
+<ol>
+<li>bookmarking a page and reloading it later will result in a similar display</li>
+<li>using the browser history back and forth navigation properly restores previous states</li>
+</ol>
+<p>Previously each component would handle its own state, sometimes reacting to parameters and browser history events, sometimes not. The new 2.x.x series of components therefore introduces a central state management, which each component uses as single source of truth. Combined with the existing flexibility of server-side URL handling via the Open API, this should result in more speaking and bookmarkable URLs.</p>
+<p>Please note that we follow a semantic versioning scheme: a change in the major version number indicates a breaking, i.e. not backwards compatible version. While most web components should work as before, some may need special attention (in particular <code>pb-facs-link</code> in combination with <code>pb-facsimile</code>, see below).</p>
+<p>Breaking changes also happened in TEI Publisher's core library, <code>tei-publisher-lib</code>, the main reason for this being the added support for Print CSS as a new output mode. Print CSS – officially called: Paged Media CSS – represents an option to generate good looking printouts using just HTML and CSS. While browser support is still lacking, there are tools to fill the gap, making it possible to produce high-quality print output. TEI Publisher 8 provides interfaces to those tools. Details have already been covered in a community meetup, so please refer to the e-editiones blog for <a href="https://www.e-editiones.org/posts/print-css/">detailed information</a>.</p>
+<figure>
+    <img src="/img/tei-publisher-docs-printcss.png">
+    <figcaption>Two pages from the TEI Publisher documentation rendered with paged.js</figcaption>
+</figure>
+<p><code>tei-publisher-lib</code> 3.0.0 also introduces two new extensions to the processing model, namely <em>processing modes</em> and <em>parameter setting</em>. Read more about this in the <a href="https://www.e-editiones.org/posts/tei-publisher-lib-3/">separate announcement</a>.</p>
+<p>Thanks to yet another new library we created, TEI Publisher's web annotation editor now also includes experimental support for <em>detecting and tagging named entities in texts</em>. Even better, training your own model is tightly integrated with TEI Publisher: it will directly generate training data from already annotated TEI texts.</p>
+<figure><img src="/img/wikipedia.gif" alt=""><figcaption>NER in action</figcaption></figure>
+<p>The feature requires an external service though. If you would like to give it a try, please head over to the <a href="https://www.e-editiones.org/posts/names-sell-named-entity-recognition-in-tei-publisher/">corresponding article</a>.</p>
+<p>The TEI Publisher application itself shows a bunch of new examples and a redesigned start page, which blurs the boundaries between browsing and search. The HTML behind the page got more modular, allowing editions to better mix and match features in the way which best fits the material presented.</p>
+<p>Finally, JATS (the Journal Publishing Tag Library) joins TEI and Docbook as a fully supported XML format. This means you cannot just view JATS documents, but also browse and search them.</p>
+<h2 id="compatibility-and-upgrading" tabindex="-1">Compatibility and Upgrading</h2>
+<p>Due to the breaking changes in associated libraries, updating a custom edition generated with TEI Publisher 7 to 8 requires some manual steps. While the list of steps may look rather long, they are not very complex and can be applied quickly if you follow the <a href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml#upgrade7-8">instructions</a>.</p>
+<p>Other particular changes to pay attention to:</p>
+<ul>
+<li>The behaviour of the <code>pb-facsimile</code> and <code>pb-facs-link</code> webcomponents has changed: <code>pb-facs-link</code> must now emit to the event channel <code>pb-facsimile</code> is listening to. Previously emitting to the default channel was enough. You should thus change all <code>pb-facs-link</code> elements generated by your ODD to include an <code>@emit</code> attribute targetting the correct channel.</li>
+<li><code>tei-publisher-lib</code> 3.x.x reassigns the <code>print</code> output mode to generate HTML output targetted at print. In older version <code>print</code> was defined as an alias for <code>fo</code>. You may thus have to change your ODDs if you used the fo mode. A more elaborate explanation of the changes is presented in this <a href="https://www.e-editiones.org/posts/tei-publisher-lib-3/">e-editiones article</a>.</li>
+</ul>
+
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
+
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/building-a-political-txt-edition-with-tei-publisher/"
+                data-bs-toggle="tooltip" title="Building a political text editition with TEI Publisher. A field report">
+                <i class="bi bi-arrow-left"></i>
+              </a>
+              
+              <a class="btn btn-light" href="/posts/community-event-ssrq/"
+                data-bs-toggle="tooltip" title="Swiss Law Sources – Lessons learned from using TEIPublisher for &gt; 5 years">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
+
+            <ul class="tags mb-3">
+              <li><a href="/tags/draft/" class="badge text-bg-light" style="color: var(--color-2) !important">draft</a></li>
+              <li><a href="/tags/announcements/" class="badge text-bg-light" style="color: var(--color-3) !important">announcements</a></li>
+              <li><a href="/tags/tei-publisher/" class="badge text-bg-light" style="color: var(--color-4) !important">tei-publisher</a></li>
+              <li><a href="/tags/release/" class="badge text-bg-light" style="color: var(--color-2) !important">release</a></li>
+            </ul>
+
+            <nav class="toc" >
+        <ul><li><a href="#compatibility-and-upgrading">Compatibility and Upgrading</a></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
+</main>
+
+<footer class="p-2">
+    <div>e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
+    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX</div>
+</footer>
+
+      <script src="/assets/scripts/bootstrap.bundle.min.js"></script>
+      <script src="/assets/scripts/common.js"></script>
+      
+  </body>
+</html>
