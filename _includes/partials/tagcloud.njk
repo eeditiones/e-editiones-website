@@ -1,8 +1,8 @@
 <ul class="cloud" role="navigation" aria-label="tag cloud" data-show-value>
   {% for tag, count in collections.tagList %}
     {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-    {% set weight = count // 4 + 1 %}
-    {% set fontSize %}calc({{weight}} * 0.15rem + var(--font-size-smallest)){% endset %}
+    {% set weight = count // 4 %}
+    {% set fontSize %}calc({{weight}} * 0.1rem + var(--font-size-smallest)){% endset %}
     <li>
       <a href="{{ tagUrl | url }}" data-count="{{count}}" 
         style="font-size: {{fontSize}};" class="post-tag">{{ tag }}</a>
