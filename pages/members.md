@@ -39,7 +39,6 @@ eleventyNavigation:
 - [David Maus](https://dmaus.name/), Leiter der Abteilung Forschung und Entwicklung. Staats- und [Universitätsbibliothek Hamburg Carl von Ossietzky](https://www.sub.uni-hamburg.de/startseite.html)
 - Christopher F. Minty, Ph.D., Managing Editor, [Center for Digital Editing, University of Virginia](http://centerfordigitalediting.org/)
 - [Emmanuelle Morlock](https://www.hisoma.mom.fr/annuaire/morlock-emmanuelle), Ingénieure au CNRS – Humanités numériques & données de la recherche | Laboratoire HiSoMA (UMR 5189) – Lyon | Chargée de mission « Science ouverte » à l’Institut des Sciences humaines et sociales (InSHS) pour la politique de soutien aux revues scientifiques et données de la recherche
-- Bettina Mosca-Rau, Doktorandin in Allgemeiner und Vergleichender Literaturwissenschaft an der [Universität Zürich](http://www.uzh.ch "Universität Zürich").
 - Martin Mueller, PhD, Professor Emeritus of English & Classics, Northwestern University, project lead of [Early Print](https://earlyprint.org/)
 - Elli Mylonas, [Center for Digital Scholarship](https://library.brown.edu/cds), University Library, Brown University
 - Maria Niku, Software Developer, [Finnish Literature Society](https://www.finlit.fi/en), Helsinki; [Lea - critical edition](https://kivi.finlit.fi/lea), [Forest Finns' Letters to Gottlund](https://editiot.finlit.fi/exist/apps/gottlund/index.html)
