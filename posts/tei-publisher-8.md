@@ -1,11 +1,10 @@
 ---
 title: TEI Publisher 8.0.0
 date: 2023-03-28
-short: TEI Publisher 8.0.0
-lead: "Version 8: central URL registry, print CSS, named entity recognition and more"
+short: "TEI Publisher 8.0.0"
+lead: "Rewriting history: central URL registry, print CSS, named entity recognition and more"
 author: Wolfgang Meier
 tags:
-  - draft
   - announcements
   - tei-publisher
   - release
