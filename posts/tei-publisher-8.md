@@ -22,9 +22,11 @@ The newest release of TEI Publisher involved major redesigns in the libraries us
 1. bookmarking a page and reloading it later will result in the same display
 2. using the browser history back and forth navigation properly restores previous state
 
-Previously each component would handle its own state, sometimes reacting to parameters and browser history events, sometimes not. The new 2.x.x series of components introduces a central state management, which each component uses as single source of information about the current state. Combined with the  flexibility of server-side URL handling via the Open API, this ﻿solution gives us more informative and bookmarkable URLs. 
+Previously each component would handle its own state, sometimes reacting to parameters and browser history events, sometimes not. The new 2.x.x series of components introduces a central state management, which each component uses as single source of information about the current state. Combined with the  flexibility of server-side URL handling via the Open API, this solution gives us more informative and bookmarkable URLs. 
 
-Please note that we follow a semantic versioning scheme: an i﻿ncrease in the major version number indicates a breaking c﻿hange, i.e. not backwards compatible version. While m﻿ajority of web components will work as before, some may need special attention (in particular `pb-facs-link` in combination with `pb-facsimile`, see below).
+<div class="alert alert-warning">
+<p>Please note that we follow a semantic versioning scheme: an increase in the major version number indicates a breaking c﻿hange, i.e. not backwards compatible version. While majority of web components will work as before, some may need special attention (in particular <code>pb-facs-link</code> in combination with <code>pb-facsimile</code>, see <a href="#compatibility-and-upgrading">below</a>).</p>
+</div>
 
 ## Paged Media CSS
 
