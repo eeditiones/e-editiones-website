@@ -7,7 +7,7 @@ eleventyNavigation:
     order: 2
 ---
 
-Protokoll der Sitzung vom 5.4.2022 (deutsch) [Protokoll der 2. GV e-editiones](/resources/2022/Protokoll-der-2.-GV-e-editiones-1.pdf "Protokoll der 2. GV e-editiones")
+Protokoll der Sitzung vom 5.4.2022 (deutsch) <a href="/resources/2022/Protokoll-der-2.-GV-e-editiones-1.pdf">Protokoll der 2. GV e-editiones</a>
 
 ### Assembly 2022 5th April 2022
 
