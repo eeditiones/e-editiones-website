@@ -5,12 +5,28 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2023-04-04T00:00:00Z</updated>
+	<updated>2023-06-06T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>When XML/TEI meets Linked Open Data : the Tagebücher Anna Maria Preiswerk-Iselin Project</title>
+		<link href="https://e-editiones.org/posts/community-event-geovistory/"/>
+		<updated>2023-06-06T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/community-event-geovistory/</id>
+		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&amp;amp;iso=20230404T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;June 6, 2023&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Francesco Beretta and Morgane Pica will present the technical aspects of the &lt;em&gt;Tagebücher Anna Maria Preiswerk-Iselin project&lt;/em&gt; (Digitale Edition der Tagebücher der Anna Maria Preiswerk-Iselin, verfasst zwischen 1795 und 1839), which studied the intellectual, emotional and literary life of a 19th c. woman in Basel from her personal diaries (&lt;a href=&quot;https://www.geovistory.org/project/924033&quot;&gt;https://www.geovistory.org/project/924033&lt;/a&gt;). The project’s realisation included a simple transcription of the diaries and the semantic annotation of persons, concepts and literary references found in the text, using the virtual research environment Geovistory. The latter allows research data in the historical sciences, and more broadly in the humanities and beyond, to be produced in the form of a collaborative knowledge graph. A TEI-Publisher edition was then built, converting the transcription into an XML/TEI database, annotated with URIs from the Geovistory RDF data repository, dereferenced and persistent. From this prototype, the speakers wish to share experiences and questions with the e-editiones community on these issues:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Best practices for semantic encoding in different communities&lt;/li&gt;
+&lt;li&gt;Online XML/TEI editors (web-components) capable of providing widgets for semantic encoding of texts using RDF information sources&lt;/li&gt;
+&lt;li&gt;Guidelines to enable a minimum level of encoding and semantic annotation to enable automated data collection and re-use in the spirit of open research data&lt;/li&gt;
+&lt;li&gt;Community building to sustain and develop a long-term research infrastructure dedicated to semantically enriched text transcriptions and critical editions.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Building a political text editition with TEI Publisher. A field report</title>
