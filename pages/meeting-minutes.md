@@ -7,12 +7,19 @@ eleventyNavigation:
     order: 2
 ---
 
-Protokoll der Sitzung vom 5.4.2022 (deutsch) <a href="/resources/2022/Protokoll-der-2.-GV-e-editiones-1.pdf">Protokoll der 2. GV e-editiones</a>
+
+### Assembly 2023 2nd May 2023 (16 h CEST)
+
+-  Invitation/Agenda - 3nd AGM of e-editiones (german, english) <a href="/2023/...">PDF</a>
+- [ad 3\] Protokoll der Sitzung vom 5.4.2022 (deutsch) <a href="/resources/2022/Protokoll-der-2.-GV-e-editiones-1.pdf">Protokoll der 2. GV e-editiones</a>
+- [ad 4\] [Annual Report (english)/Newsletter 2023/1](/posts/newsletter-2023-1/)
+- [ad 5\] Annual Accounts 2022 [PDF](/resources/2023/accounting-2022.pdf) revision [PDF](/resources/2023/Revisionsbericht_e_editiones_2022.pdf)
+- [ad 6\] [Budget 2023](/resources/2023/budget-2023.pdf)
 
 ### Assembly 2022 5th April 2022
 
 - Invitation/Agenda - 2nd AGM of e-editiones (german, english) <a href="/resources/2022/Invitation_Agenda_2ndAGM e-editiones.pdf">PDF</a>
-- [ad 3\] Protokoll der Sitzung vom 1.3.2021 (deutsch) [PDF](/resources/2022/20210301-meeting_minutes.pdf "20210301-meeting_minutes")
+- [ad 3\] Protokoll der Sitzung vom 1.3.2021 (deutsch) [<a href="/resources/2022/20210301-meeting_minutes.pdf">PDF</a>]
 - [ad 4\] [Annual Report (english)/Newsletter 2022/1](/posts/newsletter-2022-1/)
 - [ad 5\] Annual Accounts 2021 [PDF](/resources/2022/05a_Bilanz_Erfolgsrechung_2021.pdf) and revision [PDF](/resources/2022/05b_2021_Revisionsbericht_e-editiones.pdf)
 - [ad 6\] Budget 2022 [PDF](/resources/2022/06_budget_e-editiones_2022.pdf)
