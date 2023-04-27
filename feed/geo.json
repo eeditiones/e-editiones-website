@@ -243,6 +243,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [10.428408060078661,55.36947046357736]
+            },
+            "properties": {
+                "name": "Hans Christian Andersen&#39;s Fairy Tales and Stories. Translated by John Irons",
+                "description": "<div>\n        <h4>Hans Christian Andersen&#39;s Fairy Tales and Stories. Translated by John Irons</h4>\n        <p>A complete edition from 2022 of all Andersen’s Fairy Tales and Stories. This the first full English edition both available free-of-charge and made by a professional translator who is fluent in English as well as in Danish. Published by the the Hans Christian Andersen Centre at the University of Southern Denmark in Andersen’s home town, Odense.</p>\n        <a href=\"https://hca.sdu.dk/tales/\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:nh@sdu.dk\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [8.670384600000002,50.12793120000001]
             },
             "properties": {
