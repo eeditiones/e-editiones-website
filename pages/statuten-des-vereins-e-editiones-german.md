@@ -17,8 +17,12 @@ Unter dem Namen «e-editiones» besteht ein Verein im Sinne von Art. 60 ff. des 
 
 (1) Der Verein leistet einen Beitrag für die Erschliessung, Erhaltung und Vermittlung des Kulturerbes, indem er den fachlichen Austausch und die Förderung der Vernetzung und Standardisierung digitaler wissenschaftlicher Editionen sowie die Interessenvertretung digitaler Editionen verfolgt. Der Verein bemüht sich um die Qualitätssicherung und Qualitätsverbesserung mittels anerkannter technischer Standards sowie um die technische Pflege der Inhalte und ermöglicht die freie Nachnutzung zu wissenschaftlichen Zwecken.
 
-(2) Der Verein hat insbesondere folgende Aufgaben:  
-a) Förderung und Koordination von Entwicklungen im Open Source Bereich für wissen-schaftliche digitale Editionen b) Betrieb einer Informations- und Kommunikationsplattform für die Mitglieder c) Unterstützung von Editionsprojekten bei der dauerhaften Speicherung digitaler Daten und Zugänglichmachung digitaler Daten d) Beratung und Unterstützung von Editionsprojekten
+(2) Der Verein hat insbesondere folgende Aufgaben:
+
+a) Förderung und Koordination von Entwicklungen im Open Source Bereich für wissen-schaftliche digitale Editionen  
+b) Betrieb einer Informations- und Kommunikationsplattform für die Mitglieder  
+c) Unterstützung von Editionsprojekten bei der dauerhaften Speicherung digitaler Daten und Zugänglichmachung digitaler Daten  
+d) Beratung und Unterstützung von Editionsprojekten  
 
 (3) Der Verein verfolgt keine kommerziellen Zwecke und erstrebt keinen Gewinn.
 
@@ -26,7 +30,8 @@ a) Förderung und Koordination von Entwicklungen im Open Source Bereich für wis
 
 (1) Zur Verfolgung des Vereinszwecks kann über folgende Mittel verfügt werden:
 
-a) Mitgliederbeiträge b) Zuwendungen, Spenden und Subventionen
+a) Mitgliederbeiträge  
+b) Zuwendungen, Spenden und Subventionen  
 
 (2) Der volle Mitgliederbeitrag beträgt CHF 500.-. Für natürliche Personen gibt es einen ermässigten Mitgliederbeitrag von CHF 50.-.
 
@@ -56,13 +61,25 @@ Der Austritt aus dem Verein ist jederzeit möglich und ist dem Vorstand schriftl
 
 Die Organe des Vereins sind:
 
-a) die Mitgliederversammlung b) der Vorstand c) die Revisionsstelle
+a) die Mitgliederversammlung  
+b) der Vorstand  
+c) die Revisionsstelle  
 
 ## Art. 9 Die Mitgliederversammlung
 
 Das oberste Organ des Vereins ist die Mitgliederversammlung. In ihre Kompetenz fallen insbesondere:
 
-a) Entscheid über die Aufnahme von Neumitgliedern b) Genehmigung des Protokolls der letzten Mitgliederversammlung c) Genehmigung des Jahresberichts des Vorstands d) Entgegennahme des Revisionsberichts und Genehmigung der Jahresrechnung e) Entlastung des Vorstandes f) Wahl des Präsidenten, der weiteren Vorstandsmitglieder sowie der Revisionsstelle g) Genehmigung des Jahresbudgets h) Genehmigung des Tätigkeitsprogramms i) Beschlussfassung über Anträge des Vorstands und der Mitglieder j) Beschlussfassung über Änderung der Statuten k) Beschlussfassung über die Auflösung des Vereins und die Verwendung des - Vereinsvermögens
+a) Entscheid über die Aufnahme von Neumitgliedern  
+b) Genehmigung des Protokolls der letzten Mitgliederversammlung  
+c) Genehmigung des Jahresberichts des Vorstands  
+d) Entgegennahme des Revisionsberichts und Genehmigung der Jahresrechnung  
+e) Entlastung des Vorstandes  
+f) Wahl des Präsidenten, der weiteren Vorstandsmitglieder sowie der Revisionsstelle  
+g) Genehmigung des Jahresbudgets  
+h) Genehmigung des Tätigkeitsprogramms  
+i) Beschlussfassung über Anträge des Vorstands und der Mitglieder  
+j) Beschlussfassung über Änderung der Statuten  
+k) Beschlussfassung über die Auflösung des Vereins und die Verwendung des - Vereinsvermögens  
 
 ## Art. 10 Einberufung der Mitgliederversammlung
 
