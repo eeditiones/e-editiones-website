@@ -7,7 +7,7 @@ author: Franziska Eggimann
 tags:
   - events
   - meetups
-coverImage: community-meeting-fischer.jpg
+coverImage: community-event-fisher1.jpg
 #coverImageCredits: 
 
 ---
