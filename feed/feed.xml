@@ -5,7 +5,7 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2023-06-06T00:00:00Z</updated>
+	<updated>2023-06-13T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
@@ -13,11 +13,21 @@
 	</author>
 	
 	<entry>
+		<title>Travel by mouse click: the digital edition of the travel journals of Johann Conrad Fischer 1794–1851</title>
+		<link href="https://e-editiones.org/posts/community-event-fischer/"/>
+		<updated>2023-06-13T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/community-event-fischer/</id>
+		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&amp;amp;iso=20230613T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;June 13, 2023&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For Fischer&#39;s 250th birthday in 2023, the Iron Library is realising a digital edition of his travel journals and is also translating the texts from the original German into English for the first time. This will make them accessible to an international readership. The edition is based on the text of Fischer&#39;s first editions. The texts are provided with itineraries and detailed index data on people, places, events and terms and enriched with numerous images.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>When XML/TEI meets Linked Open Data : the Tagebücher Anna Maria Preiswerk-Iselin Project</title>
 		<link href="https://e-editiones.org/posts/community-event-geovistory/"/>
 		<updated>2023-06-06T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/community-event-geovistory/</id>
-		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&amp;amp;iso=20230404T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;June 6, 2023&lt;/a&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&amp;amp;iso=20230606T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;June 6, 2023&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Francesco Beretta and Morgane Pica will present the technical aspects of the &lt;em&gt;Tagebücher Anna Maria Preiswerk-Iselin project&lt;/em&gt; (Digitale Edition der Tagebücher der Anna Maria Preiswerk-Iselin, verfasst zwischen 1795 und 1839), which studied the intellectual, emotional and literary life of a 19th c. woman in Basel from her personal diaries (&lt;a href=&quot;https://www.geovistory.org/project/924033&quot;&gt;https://www.geovistory.org/project/924033&lt;/a&gt;). The project’s realisation included a simple transcription of the diaries and the semantic annotation of persons, concepts and literary references found in the text, using the virtual research environment Geovistory. The latter allows research data in the historical sciences, and more broadly in the humanities and beyond, to be produced in the form of a collaborative knowledge graph. A TEI-Publisher edition was then built, converting the transcription into an XML/TEI database, annotated with URIs from the Geovistory RDF data repository, dereferenced and persistent. From this prototype, the speakers wish to share experiences and questions with the e-editiones community on these issues:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Best practices for semantic encoding in different communities&lt;/li&gt;
