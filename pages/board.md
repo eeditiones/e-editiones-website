@@ -14,7 +14,6 @@ eleventyNavigation:
 - [Prof. em. Dr. Martin Mueller](https://english.northwestern.edu/people/faculty/emeritus/martin-mueller.html), North Western University, Deparment of English
 - Dr. des. Roberta Padlina, Data Scientist, [Memoriav](https://www.memoriav.ch/)
 - lic. phil. Arman Weidenmann, [Stadtarchiv der Ortsbürgergemeinde der Stadt St.Gallen](https://stadtarchiv.ch/)
-- Dr. [Joseph Wicentowski](https://joewiz.org/), Historian, [Office of the Historian](https://history.state.gov/), U.S. Department of State
 
 ## Contact
 
