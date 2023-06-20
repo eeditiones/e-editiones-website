@@ -19,10 +19,10 @@ Unter dem Namen «e-editiones» besteht ein Verein im Sinne von Art. 60 ff. des 
 
 (2) Der Verein hat insbesondere folgende Aufgaben:
 
-a) Förderung und Koordination von Entwicklungen im Open Source Bereich für wissen-schaftliche digitale Editionen  
-b) Betrieb einer Informations- und Kommunikationsplattform für die Mitglieder  
-c) Unterstützung von Editionsprojekten bei der dauerhaften Speicherung digitaler Daten und Zugänglichmachung digitaler Daten  
-d) Beratung und Unterstützung von Editionsprojekten  
+a) Förderung und Koordination von Entwicklungen im Open Source Bereich für wissenschaftliche digitale Editionen<br />
+b) Betrieb einer Informations- und Kommunikationsplattform für die Mitglieder<br />
+c) Unterstützung von Editionsprojekten bei der dauerhaften Speicherung digitaler Daten und Zugänglichmachung digitaler Daten<br />
+d) Beratung und Unterstützung von Editionsprojekten<br />
 
 (3) Der Verein verfolgt keine kommerziellen Zwecke und erstrebt keinen Gewinn.
 
@@ -30,10 +30,10 @@ d) Beratung und Unterstützung von Editionsprojekten  
 
 (1) Zur Verfolgung des Vereinszwecks kann über folgende Mittel verfügt werden:
 
-a) Mitgliederbeiträge  
-b) Zuwendungen, Spenden und Subventionen  
+a) Mitgliederbeiträge<br />
+b) Zuwendungen, Spenden und Subventionen<br />
 
-(2) Der volle Mitgliederbeitrag beträgt CHF 500.-. Für natürliche Personen gibt es einen ermässigten Mitgliederbeitrag von CHF 50.-.
+(2) Der volle Mitgliederbeitrag beträgt CHF 500.–. Für natürliche Personen gibt es einen ermässigten Mitgliederbeitrag von CHF 50.–.
 
 (3) Das Geschäftsjahr entspricht dem Kalenderjahr.
 
@@ -61,25 +61,25 @@ Der Austritt aus dem Verein ist jederzeit möglich und ist dem Vorstand schriftl
 
 Die Organe des Vereins sind:
 
-a) die Mitgliederversammlung  
-b) der Vorstand  
-c) die Revisionsstelle  
+a) die Mitgliederversammlung<br />
+b) der Vorstand<br />
+c) die Revisionsstelle<br />
 
 ## Art. 9 Die Mitgliederversammlung
 
 Das oberste Organ des Vereins ist die Mitgliederversammlung. In ihre Kompetenz fallen insbesondere:
 
-a) Entscheid über die Aufnahme von Neumitgliedern  
-b) Genehmigung des Protokolls der letzten Mitgliederversammlung  
-c) Genehmigung des Jahresberichts des Vorstands  
-d) Entgegennahme des Revisionsberichts und Genehmigung der Jahresrechnung  
-e) Entlastung des Vorstandes  
-f) Wahl des Präsidenten, der weiteren Vorstandsmitglieder sowie der Revisionsstelle  
-g) Genehmigung des Jahresbudgets  
-h) Genehmigung des Tätigkeitsprogramms  
-i) Beschlussfassung über Anträge des Vorstands und der Mitglieder  
-j) Beschlussfassung über Änderung der Statuten  
-k) Beschlussfassung über die Auflösung des Vereins und die Verwendung des - Vereinsvermögens  
+a) Entscheid über die Aufnahme von Neumitgliedern<br />
+b) Genehmigung des Protokolls der letzten Mitgliederversammlung<br />
+c) Genehmigung des Jahresberichts des Vorstands<br />
+d) Entgegennahme des Revisionsberichts und Genehmigung der Jahresrechnung<br />
+e) Entlastung des Vorstandes<br />
+f) Wahl des Präsidenten, der weiteren Vorstandsmitglieder sowie der Revisionsstelle<br />
+g) Genehmigung des Jahresbudgets<br />
+h) Genehmigung des Tätigkeitsprogramms<br />
+i) Beschlussfassung über Anträge des Vorstands und der Mitglieder<br />
+j) Beschlussfassung über Änderung der Statuten<br />
+k) Beschlussfassung über die Auflösung des Vereins und die Verwendung des - Vereinsvermögens<br />
 
 ## Art. 10 Einberufung der Mitgliederversammlung
 
