@@ -425,6 +425,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [8.67642217116364,47.6843755677019]
+            },
+            "properties": {
+                "name": "Travel Journals of Johann Conrad Fischer 1794–1851",
+                "description": "<div>\n        <h4>Travel Journals of Johann Conrad Fischer 1794–1851</h4>\n        <p>Digital edition of the travel journals of Johann Conrad Fischer (1773–1854), Swiss scientist, entrepreneur and pioneer during the Industrial Revolution. The texts are published in the original German and in English for the first time. They are enriched with itineraries, register data on persons, companies and places as well as numerous images.</p>\n        <a href=\"https://johannconradfischer.com\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:franziska.eggimann@georgfischer.com\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [7.586746199999999,47.5550288]
             },
             "properties": {
