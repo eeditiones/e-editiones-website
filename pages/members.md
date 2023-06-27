@@ -48,6 +48,7 @@ eleventyNavigation:
 - Roberta Padlina, Dr. des., Coordinator [NIE-INE](https://www.nie-ine.ch/), Universität Basel
 - Gerold Ritter, Dr. phil., [e-hist](https://www.e-hist.ch), Zürich
 - [Antonio Rojas-Castro](https://hcommons.org/members/arojascastro1987), PhD, /Berlin-Brandenburgische Akademie der Wissenschaften and Universidad Internacional de la Rioja
+-  Gil Shalit, [DH Development](https://www.dh-dev.com/)
 - Sinai Rusinek, [Elijah Lab](https://elijahlab.haifa.ac.il/ "Elijah Lab"), Haifa University; project leader of TraveLab
 - Roman Sigg, [Stadtarchivar Stein am Rhein](https://www.steinamrhein.ch/xml_1/internet/de/application/d3/d723/d724/f346.cfm)
 - [Christian Sinn](https://www.phsg.ch/de/team/prof-dr-christian-sinn), Dr. phil., Professor, Präsident der Masterarbeitskommission Studienbereichsleiter Sprachen und Literatur, Pädagogische Hochschule St.Gallen
