@@ -7,6 +7,8 @@ author: Virginia Kinniburgh (US Department of State's Office of the Historian)
 tags:
   - events
   - meetups
+  - tei-publisher
+  - index
 coverImage: Emanuel_Gottlieb_Leutze_Westward_the_Course_of_Empire_Takes_Its_Way1.jpg
 # coverImageCredits: Emanuel Gottlieb Leutze, Westward the Course of Empire Takes Its Way, 1862. Mural, United States Capitol (public domain)
 
