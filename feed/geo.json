@@ -438,7 +438,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [35.01647,32.76328]
+                "coordinates": [35.0165,32.7633]
             },
             "properties": {
                 "name": "TraveLab",
