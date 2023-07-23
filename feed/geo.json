@@ -139,7 +139,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [,34.80445207301338]
+                "coordinates": [34.836780,32.176000]
             },
             "properties": {
                 "name": "Der Dybbuk by Josef Lateiner",
@@ -438,7 +438,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [35.016468,32.76327500000001]
+                "coordinates": [35.016468,32.7632751]
             },
             "properties": {
                 "name": "TraveLab",
