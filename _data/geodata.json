@@ -265,7 +265,7 @@
     "address": "Haifa University, Israel",
     "latitude": "32.763276",
     "longitude": "35.016468",
-    "description": "Sand and Stars (https://www.dzi.de/ueber-uns/geschichte/digitalisierungsprojekt-sand-und-sterne/), a project funded by DZI - Deutsches Zentralinstitut für soziale Fragen, builds a synoptic trilingual annotated edition of the unpublished novel by Sidonie Wronsky, (Berlin, 1882–Jerusalem, 1947) who was an notable Jewish German social reformist and social worker, active in both the German welfare system and later in the Jewish community in Mandatory Palestine.\n",
+    "description": "Sand and Stars (https://www.dzi.de/ueber-uns/geschichte/digitalisierungsprojekt-sand-und-sterne/), a project funded by DZI – Deutsches Zentralinstitut für soziale Fragen, builds a synoptic trilingual annotated edition of the unpublished novel by Sidonie Wronsky, (Berlin, 1882–Jerusalem, 1947) who was an notable Jewish German social reformist and social worker, active in both the German welfare system and later in the Jewish community in Mandatory Palestine.\n",
     "url": "https://teipublisher.info/exist/apps/Sand-and-Stars/Synoptic Version.xml",
     "email": "Sinai.Rusinek@gmail.com"
   },
@@ -299,8 +299,8 @@
   {
     "name": "TraveLab",
     "address": "Haifa University, Israel",
-    "latitude": "32.763277",
-    "longitude": "35.016468",
+    "latitude": "32.76328",
+    "longitude": "35.01647",
     "description": "TraveLab is a project that explores new ways to read Historical travelogs, combining an interactive map with aligned parallel editions. Starting with a trilingual edition of the Journey of Benjamin of Tudela, a Jewish 12th century traveler, the project will continue to integrate additional Travelogs.  XML files are available under CC BY 4.0.",
     "url": "https://teipublisher.info/exist/apps/TraveLab/index.html",
     "email": "Sinai.Rusinek@gmail.com"
