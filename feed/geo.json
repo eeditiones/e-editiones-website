@@ -390,7 +390,7 @@
             },
             "properties": {
                 "name": "Sand and Stars",
-                "description": "<div>\n        <h4>Sand and Stars</h4>\n        <p>Sand and Stars (https://www.dzi.de/ueber-uns/geschichte/digitalisierungsprojekt-sand-und-sterne/), a project funded by DZI - Deutsches Zentralinstitut für soziale Fragen, builds a synoptic trilingual annotated edition of the unpublished novel by Sidonie Wronsky, (Berlin, 1882–Jerusalem, 1947) who was an notable Jewish German social reformist and social worker, active in both the German welfare system and later in the Jewish community in Mandatory Palestine.</p>\n        <a href=\"https://teipublisher.info/exist/apps/Sand-and-Stars/Synoptic Version.xml\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:Sinai.Rusinek@gmail.com\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+                "description": "<div>\n        <h4>Sand and Stars</h4>\n        <p>Sand and Stars (https://www.dzi.de/ueber-uns/geschichte/digitalisierungsprojekt-sand-und-sterne/), a project funded by DZI – Deutsches Zentralinstitut für soziale Fragen, builds a synoptic trilingual annotated edition of the unpublished novel by Sidonie Wronsky, (Berlin, 1882–Jerusalem, 1947) who was an notable Jewish German social reformist and social worker, active in both the German welfare system and later in the Jewish community in Mandatory Palestine.</p>\n        <a href=\"https://teipublisher.info/exist/apps/Sand-and-Stars/Synoptic Version.xml\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:Sinai.Rusinek@gmail.com\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
@@ -438,7 +438,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [35.016468,32.763277]
+                "coordinates": [35.01647,32.76328]
             },
             "properties": {
                 "name": "TraveLab",
