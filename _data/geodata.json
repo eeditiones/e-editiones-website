@@ -93,8 +93,8 @@
     "name": "Der Dybbuk by Josef Lateiner",
     "address": "Tel Aviv University, Israel",
     "description": "The Dybbuk (https://dybbuk.co/) is an ERC funded 5-year research project that sets out to uncover and explore the popular theatre that made up the daily cultural reality of the Jewish masses at the turn of the 20th century. In this framework, four prompter manuscripts are used to decipher, reconstruct, analyse and finally re-enact the 1898 Yiddish play “Der Dybbuk” by Josef Lateiner. Each annotated notebook is provided with facsimile as well as in a joint synoptic edition. The project workflow included a configured annotation workspace.",
-    "latitude": "32.176000",
-    "longitude": "34.836780",
+    "latitude": "32.1133186",
+    "longitude": "34.8018128",
     "url": "https://teipublisher.info/exist/apps/Dybbuk/index.html",
     "email": "Sinai.Rusinek@gmail.com"
   },
@@ -308,8 +308,8 @@
   {
     "name": "TraveLab",
     "address": "Haifa University, Israel",
-    "latitude": " 32.76114312529942",
-    "longitude": "32.228055555556",
+    "latitude": " 32.226779",
+    "longitude": "34.997124",
     "description": "TraveLab is a project that explores new ways to read Historical travelogs, combining an interactive map with aligned parallel editions. Starting with a trilingual edition of the Journey of Benjamin of Tudela, a Jewish 12th century traveler, the project will continue to integrate additional Travelogs.  XML files are available under CC BY 4.0.",
     "url": "https://teipublisher.info/exist/apps/TraveLab/index.html",
     "email": "Sinai.Rusinek@gmail.com"
