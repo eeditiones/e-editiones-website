@@ -301,6 +301,7 @@ footer {
 }
 .card-img-top {
   position: relative;
+  min-height:10rem;
 }
 .card-img-top .tagline {
   position: absolute;
