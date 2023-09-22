@@ -20,7 +20,7 @@ The first part of the event is intended also for the non-technical audience and 
 
 The event took place on Tuesday the 8th of September from 16:00 till 17:00 CEST on Jitsi.
 
-- Slides: [Common-eXist-db-TEI-Publisher-Deployment-Scenarios](https://e-editiones.org/wp-content/uploads/2020/08/Common-eXist-db-TEI-Publisher-Deployment-Scenarios.pdf)
+- Slides: [Common-eXist-db-TEI-Publisher-Deployment-Scenarios](/resources/2020/Common-eXist-db-TEI-Publisher-Deployment-Scenarios.pdf)
 - [Workshop Recording](https://youtu.be/sA7H2f6zKmI)
 
-Thanks to [NIE-INE](https://www.nie-ine.ch/) for sponsoring this event.
+Thanks to NIE-INE for sponsoring this event.
