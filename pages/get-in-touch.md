@@ -11,7 +11,7 @@ The following channels are open for community discussions. You don't need to be 
 
 ## Mailing List
 
-The mailing list serves as general communication hub for announcements, questions, suggestions, introductions, exchange of ideas and everything else you would like to share. Please note that this should not replace existing mailing lists like tei-l or exist-open, so please consider first if your particular question would better be asked on one of the more specialized lists. However, do not hesitate to communicate and remember: there are no silly questions and our community is open and welcoming.
+The mailing list serves as general communication hub for announcements, questions, suggestions, introductions, exchange of ideas and everything else you would like to share. Please note that this should not replace existing mailing lists like TEI-L or exist-open, so please consider first if your particular question would better be asked on one of the more specialized lists. However, do not hesitate to communicate and remember: there are no silly questions and our community is open and welcoming.
 
 The list is subscription only and open to the public. Please subscribe [by filling out the form](https://admin.hostpoint.ch/mailman/listinfo/community_e-editiones.org).
 
@@ -28,17 +28,17 @@ The board will treat communications in the `#members` channel with a higher prio
 
 Please join the [slack workspace](https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg).
 
-## Twitter und LinkedIn
+## Twitter and LinkedIn
 
 We will post news via our [Twitter account](https://twitter.com/EEditiones) and [LinkedIn](https://www.linkedin.com/groups/8979185/). If you would like to share something about a project or forthcoming events, please contact the board or mention @EEditiones so we can retweet.
 
-## Github
+## GitHub
 
-You can find the source code of the TEI Publisher and many examples on [Github](https://github.com/eeditiones).
+You can find the source code of the TEI Publisher and many examples on [GitHub](https://github.com/eeditiones).
 
-## Youtube
+## YouTube
 
-On Youtube you can find some recordings of meetings and workshops: [YouTube](https://www.youtube.com/channel/UCAPhSZdBwFRCEFWNNYOC4Ww)
+On YouTube you can find some recordings of meetings and workshops: [YouTube](https://www.youtube.com/channel/UCAPhSZdBwFRCEFWNNYOC4Ww)
 
 ## Zenodo
 
