@@ -10,7 +10,7 @@ tags:
     - tei-publisher-lib
     - release
 coverImageCredits: Foto von <a href="https://unsplash.com/de/@kellysikkema?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kelly Sikkema</a> auf <a href="https://unsplash.com/de/fotos/vSNy_bWa5AE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-coverImage: /img/sneaky-elbow-h00rqvO5A-M-unsplash.jpg
+coverImage: /img/kelly-sikkema-vSNy_bWa5AE-unsplash.jpg
 --- 
 
 > Version 4.0.0 refactors the TEI output mode, making it more widely usable for transformation scenarios producing TEI
