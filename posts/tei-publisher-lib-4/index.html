@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tei-publisher-lib 4: Refactoring TEI output mode</title>
+    <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
+    
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/css/prism-diff.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    
+    
+  </head>
+  <body>
+      <header>
+    
+
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Community</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/developer/" class="nav-link">For developers</a>
+    </li><li class="nav-item">
+        <a href="/pages/memory/" class="nav-link">For memory institutions</a>
+    </li><li class="nav-item">
+        <a href="/pages/researcher/" class="nav-link">For researchers</a>
+    </li><li class="nav-item">
+        <a href="/pages/getting-started/" class="nav-link">Getting Started</a>
+    </li><li class="nav-item">
+        <a href="/pages/get-in-touch/" class="nav-link">Get in Touch</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-contribute/" class="nav-link">How to Contribute</a>
+    </li><li class="nav-item">
+        <a href="/pages/community-meetings/" class="nav-link">Community Meetings</a>
+    </li><li class="nav-item">
+        <a href="/pages/code-of-conduct/" class="nav-link">Code of Conduct</a>
+    </li></ul>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/strategy/" class="nav-link">Strategy</a>
+    </li><li class="nav-item">
+        <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+    </li><li class="nav-item">
+        <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+    </li><li class="nav-item">
+        <a href="/pages/board/" class="nav-link">Board</a>
+    </li><li class="nav-item">
+        <a href="/pages/members/" class="nav-link">Members</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+    </li></ul>
+    </li><li class="nav-item">
+        <a href="/posts/" class="nav-link">Archive</a>
+    </li><li class="nav-item">
+                    <a href="/tags/events/" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/map/" class="nav-link">Project Registry</a>
+                </li>
+            </ul>
+            <div class="icons d-flex justify-content-end">
+                <a rel="me" href="https://social.e-editiones.org/@eeditiones" class="me-4"><i class="bi bi-mastodon"></i></a>
+                <a href="https://twitter.com/EEditiones" class="me-4">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/tei-publisher-lib-4.md">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+</header>
+<main class="container tmpl-post">
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>tei-publisher-lib 4: Refactoring TEI output mode</h1>
+
+            <div class="dateline">
+              <div>Wolfgang Meier</div>
+              <time datetime="2023-10-11">11 Oct 2023</time>
+            </div>
+
+            
+            
+            <blockquote>
+<p>Version 4.0.0 refactors the TEI output mode, making it more widely usable for transformation scenarios producing TEI</p>
+</blockquote>
+<p><code>tei-publisher-lib</code> contains the code libraries used for ODD processing and the different supported output modes. It implements the TEI Processing Model as defined by the TEI guidelines.</p>
+<div class="alert alert-warning">
+    <p>We use semantic versioning for all TEI Publisher projects: a change in the first digit of the version number indicates a <strong>breaking change</strong>. You should be aware that such releases are not fully backwards compatible and may require adjustments to existing apps.</p>
+    <p><strong>Warning</strong>: custom applications generated by TEI Publisher may update `tei-publisher-lib` automatically when (re-)installed into eXist. See <a href="tei-publisher-lib-3#preventing-unwanted-updates">how to prevent this</a>.</p>
+</div>
+<p>The TEI Processing Model is not only useful for transforming TEI into some other XML output format, but it can also produce TEI from something else. For example, the MS Word import in TEI Publisher converts files in the docx format to TEI with the help of an ODD and the <code>tei</code> output mode.</p>
+<p>Recently we encountered another case which could be elegantly solved with an ODD: the task was to clean up TEI produced by a form-based editor, eliminating superfluous attributes and element hierarchies. So the input as well as the output of the transformation were TEI. Unfortunately the implementation of the tei output mode included some solutions which were specific to the processing of docx documents – and consequently those  were unnecessarily applied. We therefore had to refactor the library, cleanly separating the docx-specific processing from the general tei output mode.</p>
+<p>We also added a new behaviour, <code>copy</code>, to the mode, which will copy the current element's start/end tag and attributes before recursively processing its contents. This is useful, as the default behaviour of the TEI PM is to skip any tags it does not know how to handle.</p>
+<h1 id="other-changes" tabindex="-1">Other changes</h1>
+<p>Another new feature which was already released in 3.1.0 – but not documented: you can now access variables and functions defined in the global configuration XQuery module (<code>config.xqm</code>) within your ODD. Configuration variables and functions are exposed to XPath expressions in the ODD under the prefix <code>global</code>. So to access the current data root collection, you can simply write <code>$global:data-root</code> to refer to the corresponding variable defined in <code>config.xqm</code>.</p>
+<h1 id="upgrading" tabindex="-1">Upgrading</h1>
+<p>As indicated by the incremented major version number (4.0.0), this release is not backwards compatible. Importing Word docx documents will stop working! Other functionality should not be affected though.</p>
+<p>To fix this issue after upgrading a custom application you built, you need to add an extra import to <code>resources/odd/configuration.xml</code>:</p>
+<pre class="language-xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>modules</span><span class="token punctuation">></span></span><br>    ...<br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>output</span> <span class="token attr-name">mode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tei<span class="token punctuation">"</span></span> <span class="token attr-name">odd</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>docx<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>module</span> <span class="token attr-name">uri</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>http://www.tei-c.org/tei-simple/xquery/functions/docx<span class="token punctuation">"</span></span> <span class="token attr-name">prefix</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>ext-docx<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>output</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>modules</span><span class="token punctuation">></span></span></code></pre>
+<p>The upcoming version 8.1 of TEI Publisher will already include the required changes.</p>
+
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
+
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/community-event-airtable/"
+                data-bs-toggle="tooltip" title="How History At State uses TEI Publisher&#39;s annotation tool and Airtable">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
+
+            <ul class="tags mb-3">
+              <li><a href="/tags/announcements/" class="badge text-bg-light" style="color: var(--color-2) !important">announcements</a></li>
+              <li><a href="/tags/tei-publisher/" class="badge text-bg-light" style="color: var(--color-3) !important">tei-publisher</a></li>
+              <li><a href="/tags/tei-publisher-lib/" class="badge text-bg-light" style="color: var(--color-4) !important">tei-publisher-lib</a></li>
+              <li><a href="/tags/release/" class="badge text-bg-light" style="color: var(--color-2) !important">release</a></li>
+            </ul>
+
+            
+        </aside>
+        
+    </div>
+</main>
+
+<footer class="p-2">
+    <div>e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
+    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX</div>
+</footer>
+
+      <script src="/assets/scripts/bootstrap.bundle.min.js"></script>
+      <script src="/assets/scripts/common.js"></script>
+      
+  </body>
+</html>
