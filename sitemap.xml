@@ -417,12 +417,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/events/</loc>
-    <lastmod>2023-10-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
+    <loc>https://e-editiones.org/tags/static/</loc>
     <lastmod>2023-10-11</lastmod>
   </url>
   
@@ -437,17 +432,17 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/open-api/</loc>
-    <lastmod>2023-10-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/roaster/</loc>
-    <lastmod>2023-10-11</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/release/</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/annotations/</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/events/</loc>
     <lastmod>2023-10-11</lastmod>
   </url>
   
@@ -457,12 +452,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/conference/</loc>
-    <lastmod>2023-10-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/annotations/</loc>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2023-10-11</lastmod>
   </url>
   
@@ -473,51 +463,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/awards/</loc>
-    <lastmod>2023-10-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/mei/</loc>
-    <lastmod>2023-10-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/pb-component/</loc>
-    <lastmod>2023-10-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/tei-publisher-lib/</loc>
-    <lastmod>2023-10-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/tei/</loc>
-    <lastmod>2023-10-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/tei-vanilla/</loc>
-    <lastmod>2023-10-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/semantic-encoding/</loc>
-    <lastmod>2023-10-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/vscode/</loc>
-    <lastmod>2023-10-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/beginner/</loc>
-    <lastmod>2023-10-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/static/</loc>
     <lastmod>2023-10-11</lastmod>
   </url>
   
@@ -537,6 +482,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/beginner/</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/interoperability/</loc>
     <lastmod>2023-10-11</lastmod>
   </url>
@@ -547,12 +497,32 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/tei/</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/ukraine/</loc>
     <lastmod>2023-10-11</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/grants/</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/semantic-encoding/</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/vscode/</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei-vanilla/</loc>
     <lastmod>2023-10-11</lastmod>
   </url>
   
@@ -568,6 +538,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/hugo/</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/pb-component/</loc>
     <lastmod>2023-10-11</lastmod>
   </url>
   
@@ -593,6 +568,31 @@
   
   <url>
     <loc>https://e-editiones.org/tags/hosting/</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/open-api/</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/roaster/</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/conference/</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei-publisher-lib/</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/mei/</loc>
     <lastmod>2023-10-11</lastmod>
   </url>
   
