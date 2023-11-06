@@ -299,7 +299,7 @@
             },
             "properties": {
                 "name": "Karl Barth-Gesamtausgabe",
-                "description": "<div>\n        <h4>Karl Barth-Gesamtausgabe</h4>\n        <p>In Vorbereitung</p>\n        <a href=\"https://karlbarth.unibas.ch/de/\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:bartharchiv-theol@unibas.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+                "description": "<div>\n        <h4>Karl Barth-Gesamtausgabe</h4>\n        <p>Die digitale Karl Barth-Gesamtausgabe präsentiert erstmals frei zugänglich und digital Texte aus der Karl Barth-Gesamtausgabe. Es werden laufend weitere Bände digital aufbereitet.</p>\n        <a href=\"https://karlbarth.unibas.ch/de/\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:bartharchiv-theol@unibas.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
