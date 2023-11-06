@@ -178,11 +178,11 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [13.3942386,52.51398]
+                "coordinates": [-82.35194102976436,23.13109615077527]
             },
             "properties": {
-                "name": "Digitales Dossier: Alexander von Humboldt und Kuba (1800-1830)",
-                "description": "<div>\n        <h4>Digitales Dossier: Alexander von Humboldt und Kuba (1800-1830)</h4>\n        <p>Proyecto Humboldt Digital (ProHD) aims to publish online a multilingual collection of texts related to Alexander von Humboldt&#39;s trip to Cuba and its reception in the island in the 19th Century.</p>\n        <a href=\"\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:rojas-castro@bbaw.de\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+                "name": "Dossier Digital: Alexander von Humboldt y Cuba (1800–1830)",
+                "description": "<div>\n        <h4>Dossier Digital: Alexander von Humboldt y Cuba (1800–1830)</h4>\n        <p>Proyecto Humboldt Digital (ProHD) aims to publish online a multilingual collection of texts related to Alexander von Humboldt&#39;s trip to Cuba and its reception in the island in the 19th Century.</p>\n        <a href=\"https://dossierdigital.ohc.cu/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:eritk@dic.ohc.cu\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
