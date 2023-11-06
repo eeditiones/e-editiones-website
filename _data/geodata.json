@@ -117,13 +117,13 @@
     "email": "discholed@inria.fr"
   },
   {
-    "name": "Digitales Dossier: Alexander von Humboldt und Kuba (1800-1830)",
-    "address": "Berlin-Brandenburgische Akademie der Wissenschaften, Jägerstraße 22-23, 10117 Berlin, Germany",
-    "latitude": "52.51398",
-    "longitude": "13.3942386",
+    "name": "Dossier Digital: Alexander von Humboldt y Cuba (1800–1830)",
+    "address": "La Habana, Cuba",
+    "latitude": "23.13109615077527",
+    "longitude": "-82.35194102976436",
     "description": "Proyecto Humboldt Digital (ProHD) aims to publish online a multilingual collection of texts related to Alexander von Humboldt's trip to Cuba and its reception in the island in the 19th Century. ",
-    "url": "",
-    "email": "rojas-castro@bbaw.de"
+    "url": "https://dossierdigital.ohc.cu/index.html",
+    "email": "eritk@dic.ohc.cu"
   },
   {
     "name": "EarlyPrint",
