@@ -15,13 +15,13 @@ eleventyNavigation:
 - [Kommission für Geschichte des Parlamentarismus und der politischen Parteien e.V.](https://www.kgparl.de)
 - [Rechtsquellenstiftung des Schweizerischen Juristenvereins](https://www.ssrq-sds-fds.ch/)
 - [Schola Cantorum Basiliensis / FHNW](https://www.fhnw.ch/de/die-fhnw/hochschulen/musik/schola-cantorum-basiliensis)
+- [Schweizerische Akademie der Geistes- und Sozialwissenschaften (SAGW)](https://sagw.ch/sagw/)
+- [Staatsarchiv Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html), Zürich
 - [Stadtarchiv der Ortsbürgergemeinde](https://stadtarchiv.ch/) der Stadt St.Gallen
 - [Stiftsbibliothek St.Gallen](https://www.stiftsbezirk.ch/de/stiftsbibliothek/)
 - [Stiftung Eisenbibliothek](https://www.eisenbibliothek.ch/), Klostergut Paradies, Schlatt TG
-- [Schweizerische Akademie der Geistes- und Sozialwissenschaften (SAGW)](https://sagw.ch/sagw/)
 - [Trägerschaft Archives Online](https://www.archives-online.org)
 - [eXist Solutions GmbH](http://existsolutions.com/), Lenzkirch/Berlin
-- [GBL Gubler AG](https://gbl-gubler.ch/), Frauenfeld
 
 ## Individual Members
 
