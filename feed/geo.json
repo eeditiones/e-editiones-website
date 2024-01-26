@@ -139,6 +139,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [6.1443381552620995,46.197993468348514, ]
+            },
+            "properties": {
+                "name": "Desenrollando el cordel/Untangling the cordel",
+                "description": "<div>\n        <h4>Desenrollando el cordel/Untangling the cordel</h4>\n        <p>A digital library that provides digital editions of 19th century Spanish chapbooks and a catalogue of woodcuts</p>\n        <a href=\"https://desenrollandoelcordel.unige.ch\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:elina.leblanc@unige.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [34.8018128,32.1133186]
             },
             "properties": {

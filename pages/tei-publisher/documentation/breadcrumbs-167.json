@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "div",
+    "doc": "documentation.xml",
+    "root": "3.46.11",
+    "rootNode": "3.46.11",
+    "id": null,
+    "odd": "docbook.odd",
+    "next": null,
+    "previous": "3.46.9",
+    "nextId": null,
+    "previousId": "hosting",
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><span class=\"tei-section1\"><span class=\"tei-title3\">TEI Publisher in production</span></span><span class=\"tei-section2\"><span class=\"tei-title3\">Web components</span></span></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "breadcrumbs",
+        "webcomponents": 7
+    },
+    "collection": "doc"
+}
