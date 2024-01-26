@@ -90,6 +90,15 @@
     "email": ""
   },
   {
+    "name": "Desenrollando el cordel/Untangling the cordel",
+    "address": "Rue Saint-Ours 5, CH-1211 Genève 4",
+    "latitude": "46.197993468348514, ",
+    "longitude": "6.1443381552620995",
+    "description": "A digital library that provides digital editions of 19th century Spanish chapbooks and a catalogue of woodcuts",
+    "url": "https://desenrollandoelcordel.unige.ch",
+    "email": "elina.leblanc@unige.ch"
+  },
+  {
     "name": "Der Dybbuk by Josef Lateiner",
     "address": "Tel Aviv University, Israel",
     "description": "The Dybbuk (https://dybbuk.co/) is an ERC funded 5-year research project that sets out to uncover and explore the popular theatre that made up the daily cultural reality of the Jewish masses at the turn of the 20th century. In this framework, four prompter manuscripts are used to decipher, reconstruct, analyse and finally re-enact the 1898 Yiddish play “Der Dybbuk” by Josef Lateiner. Each annotated notebook is provided with facsimile as well as in a joint synoptic edition. The project workflow included a configured annotation workspace.",
