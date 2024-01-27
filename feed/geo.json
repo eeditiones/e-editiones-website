@@ -139,7 +139,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [6.1443381552620995,46.197993468348514, ]
+                "coordinates": [6.1443381552620995,46.197993468348514]
             },
             "properties": {
                 "name": "Desenrollando el cordel/Untangling the cordel",
@@ -157,19 +157,6 @@
             "properties": {
                 "name": "Der Dybbuk by Josef Lateiner",
                 "description": "<div>\n        <h4>Der Dybbuk by Josef Lateiner</h4>\n        <p>The Dybbuk (https://dybbuk.co/) is an ERC funded 5-year research project that sets out to uncover and explore the popular theatre that made up the daily cultural reality of the Jewish masses at the turn of the 20th century. In this framework, four prompter manuscripts are used to decipher, reconstruct, analyse and finally re-enact the 1898 Yiddish play “Der Dybbuk” by Josef Lateiner. Each annotated notebook is provided with facsimile as well as in a joint synoptic edition. The project workflow included a configured annotation workspace.</p>\n        <a href=\"https://teipublisher.info/exist/apps/Dybbuk/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:Sinai.Rusinek@gmail.com\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
-            }
-        }
-        ,
-        
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [34.866666666,32.183333333]
-            },
-            "properties": {
-                "name": "Hasidic Stories",
-                "description": "<div>\n        <h4>Hasidic Stories</h4>\n        <p>Led by prof. Gadi Sagiv and funded by the Israel Science Foundation, The project aims to study the corpus of all hasidic stories published in Hebrew and Yiddish from the emergence of Hasidism in the middle of the 18th century until 1914. Selected editions are annotated for motives, story types and named entities, and provided with a facsimile.</p>\n        <a href=\"https://www.teipub-dh-dev.com/exist/apps/HasidicStories/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:Sinai.Rusinek@gmail.com\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
@@ -287,6 +274,19 @@
             "properties": {
                 "name": "Hans Christian Andersen&#39;s Fairy Tales and Stories. Translated by John Irons",
                 "description": "<div>\n        <h4>Hans Christian Andersen&#39;s Fairy Tales and Stories. Translated by John Irons</h4>\n        <p>A complete edition from 2022 of all Andersen’s Fairy Tales and Stories. This the first full English edition both available free-of-charge and made by a professional translator who is fluent in English as well as in Danish. Published by the the Hans Christian Andersen Centre at the University of Southern Denmark in Andersen’s home town, Odense.</p>\n        <a href=\"https://hca.sdu.dk/tales/\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:nh@sdu.dk\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [34.866666666,32.183333333]
+            },
+            "properties": {
+                "name": "Hasidic Stories",
+                "description": "<div>\n        <h4>Hasidic Stories</h4>\n        <p>Led by prof. Gadi Sagiv and funded by the Israel Science Foundation, The project aims to study the corpus of all hasidic stories published in Hebrew and Yiddish from the emergence of Hasidism in the middle of the 18th century until 1914. Selected editions are annotated for motives, story types and named entities, and provided with a facsimile.</p>\n        <a href=\"https://www.teipub-dh-dev.com/exist/apps/HasidicStories/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:Sinai.Rusinek@gmail.com\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
