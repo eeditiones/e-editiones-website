@@ -8,8 +8,7 @@ tags:
   - announcements
   - tei-publisher
   - release
-  - draft
-coverImage: publisher8.jpg
+coverImage: nine-3095449_640.jpg
 coverImageCredits: null
 ---
 > Version 9 has seen a major rework of the annotation facilities and introduces local authority registers for people, places and organizations. There have been small but powerful improvements to facets, numerous minor fixes and extensions to client-side URL routing, and – last but not least – added support for IIIF manifests.
