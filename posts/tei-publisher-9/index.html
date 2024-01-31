@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEI Publisher 9.0.0</title>
+    <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
+    
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/css/prism-diff.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    
+    
+  </head>
+  <body>
+      <header>
+    
+
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Community</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/developer/" class="nav-link">For developers</a>
+    </li><li class="nav-item">
+        <a href="/pages/memory/" class="nav-link">For memory institutions</a>
+    </li><li class="nav-item">
+        <a href="/pages/researcher/" class="nav-link">For researchers</a>
+    </li><li class="nav-item">
+        <a href="/pages/getting-started/" class="nav-link">Getting Started</a>
+    </li><li class="nav-item">
+        <a href="/pages/get-in-touch/" class="nav-link">Get in Touch</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-contribute/" class="nav-link">How to Contribute</a>
+    </li><li class="nav-item">
+        <a href="/pages/community-meetings/" class="nav-link">Community Meetings</a>
+    </li><li class="nav-item">
+        <a href="/pages/code-of-conduct/" class="nav-link">Code of Conduct</a>
+    </li></ul>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/strategy/" class="nav-link">Strategy</a>
+    </li><li class="nav-item">
+        <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+    </li><li class="nav-item">
+        <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+    </li><li class="nav-item">
+        <a href="/pages/board/" class="nav-link">Board</a>
+    </li><li class="nav-item">
+        <a href="/pages/members/" class="nav-link">Members</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+    </li></ul>
+    </li><li class="nav-item">
+        <a href="/posts/" class="nav-link">Archive</a>
+    </li><li class="nav-item">
+                    <a href="/tags/events/" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/map/" class="nav-link">Project Registry</a>
+                </li>
+            </ul>
+            <div class="icons d-flex justify-content-end">
+                <a rel="me" href="https://social.e-editiones.org/@eeditiones" class="me-4"><i class="bi bi-mastodon"></i></a>
+                <a href="https://twitter.com/EEditiones" class="me-4">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/tei-publisher-9.md">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+</header>
+<main class="container tmpl-post">
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>TEI Publisher 9.0.0</h1>
+
+            <div class="dateline">
+              <div>Wolfgang Meier</div>
+              <time datetime="2024-01-04">04 Jan 2024</time>
+            </div>
+
+            
+            
+            <blockquote>
+<p>Version 9 has seen a major rework of the annotation facilities and introduces local authority registers for people, places and organizations. There have been small but powerful improvements to facets, numerous minor fixes and extensions to client-side URL routing, and – last but not least – added support for IIIF manifests.</p>
+</blockquote>
+<figure><img src="/img/publisher-9-annotations.png" alt=""><figcaption>Redesigned annotation editor with local register</figcaption></figure>
+<h1 id="iiif-manifests" tabindex="-1">IIIF manifests</h1>
+<p>As showcased in the <a href="https://tei-publisher.com/exist/apps/tei-publisher/test/F-rom.xml">Shakespeare sample</a> and app, TEI Publisher now supports generating IIIF presentation manifests and displaying them alongside the text. A presentation manifest combines a set of images together with metadata, so instead of displaying single facsimiles via the IIIF image service, we have a standardized description of all the images associated with a resource. While there are external tools for creating IIIF manifests, we can easily auto-generate them from the TEI header and page breaks as long as those have <code>@facs</code> attributes from which the image service links can be determined. This is demoed by the Shakespeare sample but should work with any other TEI meeting the requirements.</p>
+<figure><img src="/img/publisher-9-iiif.png" alt=""><figcaption>IIIF presentation manifest viewer</figcaption></figure>
+<p>The manifest viewer provided by TEI Publisher components is based on the excellent <a href="https://tify.rocks/">tify</a> project and integrates it into publisher's chain of events. This way, text and image view communicate to each other, which means that if you navigate to the next page/image in either of the two, the other reacts accordingly.</p>
+<h1 id="client-side-url-routing" tabindex="-1">Client-side URL routing</h1>
+<p>The URL routing features introduced with version 8 have been substantially improved, introducing configurable URL templates also on the client side. This means you can construct URLs which are really completely independent of the underlying data organisation, while making sure the user always sees the page in a consistent state. Previously you still needed to have the path to the document somewhere in the URL. This is no longer required. For example, the documentation app now uses an URL of the form <code>/documentation/chapter-id</code>. And if you look at one of the projects realized with TEI Publisher recently, the travel diaries of Johann Conrad Fischer, you'll see that the page URLs consists of <code>/language/year-of-diary/chapter-number</code>. To make this possible, we have to make sure server and client are &quot;on the same page&quot; all the time.</p>
+<h1 id="base-odd-refactoring" tabindex="-1">Base ODD refactoring</h1>
+<p>This version also brings the demise of the <code>teiSimplePrint</code> ODD, previously the source ODD from which  <code>teipublisher</code> ODD inherits. Models from SimplePrint, after thorough review, have been merged into the default TEI Publisher ODD. This is a first step on the road for the extended and rationalized base ODD, a project inspired by the TEI Vanilla meetups of yore and now undertaken by e-editiones in cooperation with the TEI consortium.</p>
+<h1 id="redesigned-annotation-editor" tabindex="-1">Redesigned annotation editor</h1>
+<p>The new <a href="https://tei-publisher.com/exist/apps/tei-publisher/documentation/web-annotations">annotation editor</a> boasts a new, more user friendly and ergonomic layout with additional capacity to add or edit registry entries from within the editor. Furthermore, a function to find potential matches in other documents for the current annotation and review them on the spot is a long awaited feature, which promises to speed up the editing process without compromising quality or consistency.</p>
+<figure><img src="/img/publisher-9-occurrences.png" alt=""><figcaption>Search and review occurrences of entity in other documents</figcaption></figure>
+<p>A default set up for local registers of places, people and organizations allows editors to curate these resources under the same roof and at the same time as they annotate the sources. Local registers extend the configured external authority: editors can either add information to an entity copied from the external authority, or provide information about entities not described elsewhere.</p>
+<p>A number of simple input forms is provided for people, organizations and places. They are based on a forms framework called <a href="https://jinntec.github.io/fore-docs/">fore</a>, which takes the best parts from the former XForms standard to plain HTML. This means you can modify and extend the provided forms in a purely declarative manner. All you need to do is to change the TEI/XML templates and add controls to the HTML.</p>
+<figure><img src="/img/publisher-9-annotation-edit.png" alt=""><figcaption>Edit a place entity</figcaption></figure>
+<h1 id="selecting-facets" tabindex="-1">Selecting facets</h1>
+<figure><img src="/img/publisher-9-facets.png" alt="" class="right" width="220" style="margin-left:1rem"><figcaption>Selecting a facet</figcaption></figure>
+<p>Furthermore it became easier to select less frequent facets when browsing or searching: previously only the most frequent facets where shown by default and you had to browse through a potentially long list if you wanted to find a not so common one. Now you can display a combo box in addition to the list, allowing users to type in a string and see matching facets.</p>
+<h1 id="thanks" tabindex="-1">Thanks</h1>
+<p>Special thanks for heavily sponsoring the development of this version go to the <a href="https://history.state.gov">Office of the Historian, Foreign Service Institute at the US Department of state</a>, the project <a href="https://www.hadw-bw.de/forschung/forschungsstelle/editionstools-fuer-eine-digitale-epigraphik-edep">Editionstools für eine Digitale Epigraphik</a>, the <a href="https://ihpan.edu.pl/en/">Institute of History at the Polish Academy of Science</a>, the <a href="https://kbga.karl-barth.ch/texts/">Karl Barth Gesamtausgabe</a>, and last but not least: <a href="https://e-editiones.org">e-editiones</a> and <a href="https://jinntec.de">Jinntec GmbH</a>.</p>
+
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
+
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/tei-publisher-lib-4/"
+                data-bs-toggle="tooltip" title="tei-publisher-lib 4: Refactoring TEI output mode">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
+
+            <ul class="tags mb-3">
+              <li><a href="/tags/announcements/" class="badge text-bg-light" style="color: var(--color-2) !important">announcements</a></li>
+              <li><a href="/tags/tei-publisher/" class="badge text-bg-light" style="color: var(--color-3) !important">tei-publisher</a></li>
+              <li><a href="/tags/release/" class="badge text-bg-light" style="color: var(--color-4) !important">release</a></li>
+              <li><a href="/tags/draft/" class="badge text-bg-light" style="color: var(--color-2) !important">draft</a></li>
+            </ul>
+
+            
+        </aside>
+        
+    </div>
+</main>
+
+<footer class="p-2">
+    <div>e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
+    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX</div>
+</footer>
+
+      <script src="/assets/scripts/bootstrap.bundle.min.js"></script>
+      <script src="/assets/scripts/common.js"></script>
+      
+  </body>
+</html>
