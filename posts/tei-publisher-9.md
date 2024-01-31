@@ -8,6 +8,7 @@ tags:
   - announcements
   - tei-publisher
   - release
+  - draft
 coverImage: nine-3095449_640.jpg
 coverImageCredits: null
 ---
@@ -25,7 +26,7 @@ The manifest viewer provided by TEI Publisher components is based on the excelle
 
 # Client-side URL routing
 
-The URL routing features introduced with version 8 have been substantially improved, introducing configurable URL templates also on the client side. This means you can construct URLs which are really completely independent of the underlying data organisation, while making sure the user always sees the page in a consistent state. Previously you still needed to have the path to the document somewhere in the URL. This is no longer required. For example, the documentation app now uses an URL of the form `/documentation/chapter-id`. And if you look at one of the projects realized with TEI Publisher recently, the travel diaries of Johann Conrad Fischer, you'll see that the page URLs consists of `/language/year-of-diary/chapter-number`. To make this possible, we have to make sure server and client are "on the same page" all the time.
+The URL routing features introduced with version 8 have been substantially improved, introducing configurable URL templates also on the client side. This means you can construct URLs which are really completely independent of the underlying data organisation, while making sure the user always sees the page in a consistent state. Previously you still needed to have the path to the document somewhere in the URL. This is no longer required. For example, the documentation app now uses an URL of the form `/documentation/{chapter-id}`. And if you look at one of the projects realized with TEI Publisher recently, the travel diaries of [Johann Conrad Fischer](https://johannconradfischer.com/de/), you'll see that the page URLs consists of `/{language}/{year-of-diary}/{chapter-number}`. To make this possible, we have to make sure server and client are "on the same page" all the time.
 
 # Base ODD refactoring
 
