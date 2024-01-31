@@ -432,11 +432,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
-    <lastmod>2024-01-31</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/workshop/</loc>
     <lastmod>2024-01-31</lastmod>
   </url>
@@ -458,6 +453,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/annotations/</loc>
+    <lastmod>2024-01-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2024-01-31</lastmod>
   </url>
   
