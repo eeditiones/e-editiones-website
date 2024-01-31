@@ -378,7 +378,7 @@
   
   <url>
     <loc>https://e-editiones.org/posts/tei-publisher-9/</loc>
-    <lastmod>2024-01-04</lastmod>
+    <lastmod>2024-01-31</lastmod>
   </url>
   
   <url>
@@ -437,22 +437,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/announcements/</loc>
-    <lastmod>2024-01-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/e-editiones/</loc>
-    <lastmod>2024-01-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/awards/</loc>
-    <lastmod>2024-01-31</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/workshop/</loc>
+    <lastmod>2024-01-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/announcements/</loc>
     <lastmod>2024-01-31</lastmod>
   </url>
   
@@ -468,6 +458,16 @@
   
   <url>
     <loc>https://e-editiones.org/tags/annotations/</loc>
+    <lastmod>2024-01-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/e-editiones/</loc>
+    <lastmod>2024-01-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/awards/</loc>
     <lastmod>2024-01-31</lastmod>
   </url>
   
@@ -532,11 +532,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/hosting/</loc>
-    <lastmod>2024-01-31</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/report/</loc>
     <lastmod>2024-01-31</lastmod>
   </url>
@@ -558,6 +553,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/ner/</loc>
+    <lastmod>2024-01-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/hosting/</loc>
     <lastmod>2024-01-31</lastmod>
   </url>
   

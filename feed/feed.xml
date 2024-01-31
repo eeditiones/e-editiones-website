@@ -5,7 +5,7 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2024-01-04T00:00:00Z</updated>
+	<updated>2024-01-31T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
@@ -15,7 +15,7 @@
 	<entry>
 		<title>TEI Publisher 9.0.0</title>
 		<link href="https://e-editiones.org/posts/tei-publisher-9/"/>
-		<updated>2024-01-04T00:00:00Z</updated>
+		<updated>2024-01-31T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/tei-publisher-9/</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;p&gt;Version 9 has seen a major rework of the annotation facilities and introduces local authority registers for people, places and organizations. There have been small but powerful improvements to facets, numerous minor fixes and extensions to client-side URL routing, and – last but not least – added support for IIIF manifests.&lt;/p&gt;
@@ -36,7 +36,7 @@
 &lt;p&gt;A number of simple input forms is provided for people, organizations and places. They are based on a forms framework called &lt;a href=&quot;https://jinntec.github.io/fore-docs/&quot;&gt;fore&lt;/a&gt;, which takes the best parts from the former XForms standard to plain HTML. This means you can modify and extend the provided forms in a purely declarative manner. All you need to do is to change the TEI/XML templates and add controls to the HTML.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/publisher-9-annotation-edit.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Edit a place entity&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;h1 id=&quot;selecting-facets&quot; tabindex=&quot;-1&quot;&gt;Selecting facets&lt;/h1&gt;
-&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/publisher-9-facets.png&quot; alt=&quot;&quot; class=&quot;right&quot; width=&quot;220&quot; style=&quot;margin-left:1rem&quot; /&gt;&lt;figcaption&gt;Selecting a facet&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/publisher-9-facets.png&quot; alt=&quot;&quot; class=&quot;right&quot; width=&quot;220&quot; style=&quot;margin-left:1rem&quot; /&gt;&lt;/figure&gt;
 &lt;p&gt;Furthermore it became easier to select less frequent facets when browsing or searching: previously only the most frequent facets where shown by default and you had to browse through a potentially long list if you wanted to find a not so common one. Now you can display a combo box in addition to the list, allowing users to type in a string and see matching facets.&lt;/p&gt;
 &lt;h1 id=&quot;thanks&quot; tabindex=&quot;-1&quot;&gt;Thanks&lt;/h1&gt;
 &lt;p&gt;Special thanks for heavily sponsoring the development of this version go to the &lt;a href=&quot;https://history.state.gov/&quot;&gt;Office of the Historian, Foreign Service Institute at the US Department of state&lt;/a&gt;, the project &lt;a href=&quot;https://www.hadw-bw.de/forschung/forschungsstelle/editionstools-fuer-eine-digitale-epigraphik-edep&quot;&gt;Editionstools für eine Digitale Epigraphik&lt;/a&gt;, the &lt;a href=&quot;https://ihpan.edu.pl/en/&quot;&gt;Institute of History at the Polish Academy of Science&lt;/a&gt;, the &lt;a href=&quot;https://kbga.karl-barth.ch/texts/&quot;&gt;Karl Barth Gesamtausgabe&lt;/a&gt;, and last but not least: &lt;a href=&quot;https://e-editiones.org/&quot;&gt;e-editiones&lt;/a&gt; and &lt;a href=&quot;https://jinntec.de/&quot;&gt;Jinntec GmbH&lt;/a&gt;.&lt;/p&gt;
