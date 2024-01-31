@@ -2,7 +2,7 @@
 title: TEI Publisher 9.0.0
 date: 2024-01-31
 short: "TEI Publisher 9.0.0"
-lead: ""
+lead: "Redesigned annotation editor, local authority registers, IIIF presentation manifests ..."
 author: Wolfgang Meier
 tags:
   - announcements
@@ -10,7 +10,7 @@ tags:
   - release
   - draft
 coverImage: nine-3095449_640.jpg
-coverImageCredits: null
+coverImageCredits: Photo by <a href="https://pixabay.com/users/mabelamber-1377835">Mabel Amber</a> from <a href="https://pixabay.com">Pixabay</a>
 ---
 > Version 9 has seen a major rework of the annotation facilities and introduces local authority registers for people, places and organizations. There have been small but powerful improvements to facets, extensions to client-side URL routing, numerous minor fixes and – last but not least – added support for IIIF manifests.
 
