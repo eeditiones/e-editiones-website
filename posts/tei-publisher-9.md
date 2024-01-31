@@ -1,6 +1,6 @@
 ---
 title: TEI Publisher 9.0.0
-date: 2024-01-04
+date: 2024-01-31
 short: "TEI Publisher 9.0.0"
 lead: ""
 author: Wolfgang Meier
@@ -46,7 +46,7 @@ A number of simple input forms is provided for people, organizations and places.
 
 # Selecting facets
 
-![Selecting a facet](/img/publisher-9-facets.png){.right width=220 style=margin-left:1rem}
+![](/img/publisher-9-facets.png){.right width=220 style=margin-left:1rem}
 
 Furthermore it became easier to select less frequent facets when browsing or searching: previously only the most frequent facets where shown by default and you had to browse through a potentially long list if you wanted to find a not so common one. Now you can display a combo box in addition to the list, allowing users to type in a string and see matching facets.
 
