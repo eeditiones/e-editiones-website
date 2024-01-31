@@ -12,17 +12,17 @@ tags:
 coverImage: nine-3095449_640.jpg
 coverImageCredits: null
 ---
-> Version 9 has seen a major rework of the annotation facilities and introduces local authority registers for people, places and organizations. There have been small but powerful improvements to facets, numerous minor fixes and extensions to client-side URL routing, and – last but not least – added support for IIIF manifests.
+> Version 9 has seen a major rework of the annotation facilities and introduces local authority registers for people, places and organizations. There have been small but powerful improvements to facets, extensions to client-side URL routing, numerous minor fixes and – last but not least – added support for IIIF manifests.
 
 ![Redesigned annotation editor with local register](/img/publisher-9-annotations.png)
 
 # IIIF manifests
 
-As showcased in the [Shakespeare sample](https://tei-publisher.com/exist/apps/tei-publisher/test/F-rom.xml) and app, TEI Publisher now supports generating IIIF presentation manifests and displaying them alongside the text. A presentation manifest combines a set of images together with metadata, so instead of displaying single facsimiles via the IIIF image service, we have a standardized description of all the images associated with a resource. While there are external tools for creating IIIF manifests, we can easily auto-generate them from the TEI header and page breaks as long as those have `@facs` attributes from which the image service links can be determined. This is demoed by the Shakespeare sample but should work with any other TEI meeting the requirements.
+As showcased in the [Shakespeare sample](https://tei-publisher.com/exist/apps/tei-publisher/test/F-rom.xml) and app, TEI Publisher now supports generating IIIF presentation manifests and displaying them alongside the text. A presentation manifest combines a set of images together with metadata, so instead of displaying single facsimiles via the IIIF image service, we have a standardized description of all the images associated with a resource. While there are external tools for creating IIIF manifests, we can easily auto-generate them from the TEI header and page beginnings as long as those have `@facs` attributes from which the image service links can be determined. This is demonstrated in the Shakespeare sample but should work with any other TEI meeting the requirements.
 
 ![IIIF presentation manifest viewer](/img/publisher-9-iiif.png)
 
-The manifest viewer provided by TEI Publisher components is based on the excellent [tify](https://tify.rocks/) project and integrates it into publisher's chain of events. This way, text and image view communicate to each other, which means that if you navigate to the next page/image in either of the two, the other reacts accordingly.
+The manifest viewer provided by TEI Publisher components is based on the excellent [tify](https://tify.rocks/) project and integrates it into Publisher's chain of events. This way, text and image view communicate to each other, which means that if you navigate to the next page/image in either of the two, the other reacts accordingly.
 
 # Client-side URL routing
 
@@ -38,9 +38,9 @@ The new [annotation editor](https://tei-publisher.com/exist/apps/tei-publisher/d
 
 ![Search and review occurrences of entity in other documents](/img/publisher-9-occurrences.png)
 
-A default set up for local registers of places, people and organizations allows editors to curate these resources under the same roof and at the same time as they annotate the sources. Local registers extend the configured external authority: editors can either add information to an entity copied from the external authority, or provide information about entities not described elsewhere.
+A default set up for local registers of places, people and organizations allows editors to curate these resources under the same roof and at the same time as they annotate the sources. Local registers can extend the configured external authority: editors can either add information to an entity copied from the external authority, or provide information about entities not described elsewhere.
 
-A number of simple input forms is provided for people, organizations and places. They are based on a forms framework called [fore](https://jinntec.github.io/fore-docs/), which takes the best parts from the former XForms standard to plain HTML. This means you can modify and extend the provided forms in a purely declarative manner. All you need to do is to change the TEI/XML templates and add controls to the HTML.
+A number of default input forms is provided for people, organizations and places. They are based on a forms framework called [fore](https://jinntec.github.io/fore-docs/), which takes the best parts from the former XForms standard to plain HTML. This means you can modify and extend the provided forms in a purely declarative manner. All you need to do is to change the TEI/XML templates and add controls to the HTML.
 
 ![Edit a place entity](/img/publisher-9-annotation-edit.png)
 
@@ -48,8 +48,10 @@ A number of simple input forms is provided for people, organizations and places.
 
 ![](/img/publisher-9-facets.png){.right width=220 style=margin-left:1rem}
 
-Furthermore it became easier to select less frequent facets when browsing or searching: previously only the most frequent facets where shown by default and you had to browse through a potentially long list if you wanted to find a not so common one. Now you can display a combo box in addition to the list, allowing users to type in a string and see matching facets.
+Now it became easier to select less frequent facets when browsing or searching: previously only the most frequent facets were shown by default and you had to browse through a potentially long list if you wanted to find a not so common one. Now you can easily configure the facets to display a combo box in addition to the list, allowing users to type in a query and see all the matching facets.
 
 # Thanks
 
-Special thanks for heavily sponsoring the development of this version go to the [Office of the Historian, Foreign Service Institute at the US Department of state](https://history.state.gov), the project [Editionstools für eine Digitale Epigraphik](https://www.hadw-bw.de/forschung/forschungsstelle/editionstools-fuer-eine-digitale-epigraphik-edep), the [Institute of History at the Polish Academy of Science](https://ihpan.edu.pl/en/), the [Karl Barth Gesamtausgabe](https://kbga.karl-barth.ch/texts/), and last but not least: [e-editiones](https://e-editiones.org) and [Jinntec GmbH](https://jinntec.de).
+Special thanks for contributing funding to the development of this version go to the [Office of the Historian, Foreign Service Institute at the US Department of state](https://history.state.gov), the project [Editionstools für eine Digitale Epigraphik](https://www.hadw-bw.de/forschung/forschungsstelle/editionstools-fuer-eine-digitale-epigraphik-edep), the [Institute of History at the Polish Academy of Science](https://ihpan.edu.pl/en/), the [Karl Barth Gesamtausgabe](https://kbga.karl-barth.ch/texts/), and last but not least: [e-editiones](https://e-editiones.org) and [Jinntec GmbH](https://jinntec.de).
+
+Apart from institutional support, we are gratefult to all members of e-editiones community who helped us to translate the user interface via [Crowdin](https://crowdin.com/project/tei-publisher) and keep the discussion alive on the Slack channel, often assisting each other in solving problems.
