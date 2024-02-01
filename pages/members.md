@@ -10,6 +10,7 @@ eleventyNavigation:
 ## Institutional Members
 
 - [Digital Humanities](https://www.dh.unibe.ch/)/[Walter Benjamin Kolleg](https://www.wbkolleg.unibe.ch/) der Universität Bern
+- [The Hans Christian Andersen Centre](https://www.sdu.dk/en/forskning/hca), University of Southern Denmark
 - [Institute of Slovenian Literature and Literary studies](https://isllv.zrc-sazu.si/en/predstavitev#v), Research Centre of the Slovenian Academy of Sciences and Arts, Ljubljana
 - [Karl Barth-Stiftung](https://karlbarth.unibas.ch/de/), Basel
 - [Kommission für Geschichte des Parlamentarismus und der politischen Parteien e.V.](https://www.kgparl.de)
