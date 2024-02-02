@@ -334,6 +334,32 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [-1.2623055,51.7559587]
+            },
+            "properties": {
+                "name": "Lexicon of Greek Personal Names",
+                "description": "<div>\n        <h4>Lexicon of Greek Personal Names</h4>\n        <p>In beta. LGPN aims to collect and publish with documentation all known ancient Greek personal names (including non-Greek names recorded in Greek, and Greek names in Latin), drawn from all available sources (literature, inscriptions, graffiti, papyri, coins, vases and other artefacts), within the period from the earliest Greek written records, down to, approximately, the sixth century A.D.</p>\n        <a href=\"https://search.lgpn.ox.ac.uk\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:lgpn@classics.ox.ac.uk\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [2.3376311,48.831079]
+            },
+            "properties": {
+                "name": "LGPN-Ling: Etymology and semantics of ancient Greek personal names",
+                "description": "<div>\n        <h4>LGPN-Ling: Etymology and semantics of ancient Greek personal names</h4>\n        <p>The aim is to elucidate the meaning of Greek names and to provide an essential semantical complement to the LGPN Database.</p>\n        <a href=\"https://lgpn-ling.huma-num.fr/\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:lgpnling@gmail.com\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [8.5450536,47.3804424]
             },
             "properties": {
