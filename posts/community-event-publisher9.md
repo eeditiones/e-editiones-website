@@ -7,7 +7,6 @@ author: Wolfgang Meier
 tags:
   - events
   - meetups
-  - draft
 coverImage: patti-black-3YSGBYZMvcs-unsplash.jpg
 coverImageCredits: Photo by <a href="https://unsplash.com/de/@pattib?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Patti Black</a> on <a href="https://unsplash.com/de/fotos/grun-gelbes-hangendes-dekor-3YSGBYZMvcs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
