@@ -87,6 +87,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [8.7104061,49.4118405]
+            },
+            "properties": {
+                "name": "Buddhist Stone Sutras in China",
+                "description": "<div>\n        <h4>Buddhist Stone Sutras in China</h4>\n        <p>“Linking Buddhist Stone Sutras in China to CBETA (Chinese Buddhist Electronic Text Association)” is a collaboration between the Dharma Drum Institute of Liberal Arts (DILA) and the Heidelberger Akademie der Wissenschaften</p>\n        <a href=\"https://stonesutras.org/home.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [7.149523400000001,51.24477779999999]
             },
             "properties": {

@@ -462,17 +462,17 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
-    <lastmod>2024-02-02</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/e-editiones/</loc>
     <lastmod>2024-02-02</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/awards/</loc>
+    <lastmod>2024-02-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2024-02-02</lastmod>
   </url>
   
@@ -488,11 +488,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/advanced/</loc>
-    <lastmod>2024-02-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/beginner/</loc>
     <lastmod>2024-02-02</lastmod>
   </url>
   
@@ -532,17 +527,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/hugo/</loc>
-    <lastmod>2024-02-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/pb-component/</loc>
-    <lastmod>2024-02-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/wordpress/</loc>
+    <loc>https://e-editiones.org/tags/beginner/</loc>
     <lastmod>2024-02-02</lastmod>
   </url>
   
@@ -558,6 +543,21 @@
   
   <url>
     <loc>https://e-editiones.org/tags/ner/</loc>
+    <lastmod>2024-02-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/hugo/</loc>
+    <lastmod>2024-02-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/pb-component/</loc>
+    <lastmod>2024-02-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/wordpress/</loc>
     <lastmod>2024-02-02</lastmod>
   </url>
   
