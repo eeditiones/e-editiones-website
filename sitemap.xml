@@ -497,16 +497,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/report/</loc>
-    <lastmod>2024-02-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/best-practice/</loc>
-    <lastmod>2024-02-02</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/interoperability/</loc>
     <lastmod>2024-02-02</lastmod>
   </url>
@@ -528,6 +518,16 @@
   
   <url>
     <loc>https://e-editiones.org/tags/grants/</loc>
+    <lastmod>2024-02-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/report/</loc>
+    <lastmod>2024-02-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/best-practice/</loc>
     <lastmod>2024-02-02</lastmod>
   </url>
   

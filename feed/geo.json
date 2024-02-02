@@ -464,6 +464,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [-73.890148,40.8614607]
+            },
+            "properties": {
+                "name": "Siege of Antioch Project (SAP)",
+                "description": "<div>\n        <h4>Siege of Antioch Project (SAP)</h4>\n        <p>The Siege of Antioch Project (“SAP”) presents an original digital edition of a newly edited and translated medieval Siège d’Antioche, an Old French poetic account of the First Crusade with a heavy emphasis on the taking of Antioch and the subsequent battle. It is a collaborative effort currently being undertaken by U.K. scholars and graduate students in the Fordham Medieval Studies program.</p>\n        <a href=\"https://medievaldigital.ace.fordham.edu/siegeofantioch/503-2/about-the-siege-of-antioch-project/\" class=\"badge bg-light text-dark\">Link</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [-1.4884229,53.3813502]
             },
             "properties": {
