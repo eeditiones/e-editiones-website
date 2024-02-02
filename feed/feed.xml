@@ -5,12 +5,22 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2024-01-31T00:00:00Z</updated>
+	<updated>2024-02-02T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Dive into TEI Publisher 9</title>
+		<link href="https://e-editiones.org/posts/community-event-publisher9/"/>
+		<updated>2024-02-02T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/community-event-publisher9/</id>
+		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;amp;iso=20240206T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;February 6, 2024&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Let&#39;s celebrate the new edition of TEI Publisher, version 9. We&#39;ll give you a guided tour around some of the new features, including creating and consuming IIIF manifests, the redesigned annotation editor, register data entry, improved facet selection etc. This will be a hands-on session, showing how to configure, customize and extend those new goodies.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>TEI Publisher 9.0.0</title>
