@@ -226,6 +226,24 @@
     "email": "tuurma@gmail.com"
   },
   {
+    "name": "Lexicon of Greek Personal Names",
+    "address": "Faculty of Classics, Ioannou Centre for Classical & Byzantine Studies, 66, St. Giles', Oxford, OX1 3LU",
+    "latitude": "51.7559587",
+    "longitude": "-1.2623055",
+    "description": "In beta. LGPN aims to collect and publish with documentation all known ancient Greek personal names (including non-Greek names recorded in Greek, and Greek names in Latin), drawn from all available sources (literature, inscriptions, graffiti, papyri, coins, vases and other artefacts), within the period from the earliest Greek written records, down to, approximately, the sixth century A.D.",
+    "url": "https://search.lgpn.ox.ac.uk",
+    "email": "lgpn@classics.ox.ac.uk"
+  },
+  {
+    "name": "LGPN-Ling: Etymology and semantics of ancient Greek personal names",
+    "address": "EPHE, PSL/IUF, ANHIMA, Paris",
+    "latitude": "48.831079",
+    "longitude": "2.3376311",
+    "description": "The aim is to elucidate the meaning of Greek names and to provide an essential semantical complement to the LGPN Database.",
+    "url": "https://lgpn-ling.huma-num.fr/",
+    "email": "lgpnling@gmail.com"
+  },
+  {
     "name": "Louis Ginzberg: Legenden der Juden",
     "address": "ETH Zürich, Professur für Literatur- und Kulturwissenschaften, Clausiusstrasse 59, Zürich, Switzerland",
     "latitude": "47.3804424",
