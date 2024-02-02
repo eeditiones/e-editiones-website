@@ -7,8 +7,8 @@ author: Wolfgang Meier
 tags:
   - events
   - meetups
-coverImage: patti-black-3YSGBYZMvcs-unsplash.jpg
-coverImageCredits: Photo by <a href="https://unsplash.com/de/@pattib?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Patti Black</a> on <a href="https://unsplash.com/de/fotos/grun-gelbes-hangendes-dekor-3YSGBYZMvcs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+coverImage: img/ai-generated-8544595_640.png
+coverImageCredits: Image by <a href="https://pixabay.com/users/iffany-6128830/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8544595">Ivana Tomášková</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8544595">Pixabay</a>
 
 ---
 
