@@ -1,6 +1,6 @@
 ---
 title: TEI Publisher 9.0.0
-date: 2024-01-31
+date: 2024-02-05
 short: "TEI Publisher 9.0.0"
 lead: "Redesigned annotation editor, local authority registers, IIIF presentation manifests ..."
 author: Wolfgang Meier
