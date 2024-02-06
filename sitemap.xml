@@ -467,16 +467,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/e-editiones/</loc>
-    <lastmod>2024-02-06</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/awards/</loc>
-    <lastmod>2024-02-06</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/feature/</loc>
     <lastmod>2024-02-06</lastmod>
   </url>
@@ -488,6 +478,16 @@
   
   <url>
     <loc>https://e-editiones.org/tags/advanced/</loc>
+    <lastmod>2024-02-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/e-editiones/</loc>
+    <lastmod>2024-02-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/awards/</loc>
     <lastmod>2024-02-06</lastmod>
   </url>
   
@@ -508,16 +508,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/tei/</loc>
-    <lastmod>2024-02-06</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/ukraine/</loc>
-    <lastmod>2024-02-06</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/grants/</loc>
     <lastmod>2024-02-06</lastmod>
   </url>
   
@@ -558,6 +548,16 @@
   
   <url>
     <loc>https://e-editiones.org/tags/ner/</loc>
+    <lastmod>2024-02-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <lastmod>2024-02-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/grants/</loc>
     <lastmod>2024-02-06</lastmod>
   </url>
   
