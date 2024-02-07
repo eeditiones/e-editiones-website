@@ -59,7 +59,7 @@ eleventyNavigation:
 - Pascale Sutter, Dr., Leiterin der [Rechtsquellenstiftung des Schweizerischen Juristenvereins](https://www.ssrq-sds-fds.ch), c/o Universität St. Gallen
 - Cristina Vertan, Dr., Projektleiterin von [Annotation und Analyse von historischen Dokumenten](https://www.inf.uni-hamburg.de/inst/dmp/hercore/projects.html), Arbeitsstelle Computerphilologie, Universität Hamburg
 - [Georg Vogeler](https://online.uni-graz.at/kfu_online/wbForschungsportal.cbShowPortal?pPersonNr=80075), Dr. phil., Professor Digital Humanities, Zentrum für Informationsmodellierung, Universität Graz
-- Andreas Wagner, Dr., [Max Planck Institute for Legal History and Legal Theory](https://www.lhlt.mpg.de/en)
+- [Andreas Wagner](https://www.lhlt.mpg.de/wagner/en), Dr., Max Planck Institute for Legal History and Legal Theory
 - Arman Weidenmann, [Stadtarchiv der Ortsbürgergemeinde St. Gallen](https://www.stadtarchiv.ch/)
 - [Joseph Wicentowski](https://joewiz.org/), PhD, Historian, [Office of the Historian](https://history.state.gov/), U.S. Department of State
 - [Rolf Wissmann](https://www.forschung.schola-cantorum-basiliensis.ch/de/uber-uns/personen.html?detail=c4d55c87-d6ba-444b-884f-b1d92de517ea), M.A, Wissenschaftlicher Mitarbeiter SNF-Forschungsprojekt: «Vicentino21», Fachhochschule Nordwestschweiz | Musik-Akademie Basel, Hochschule für Musik | [Schola Cantorum Basiliensis](https://www.fhnw.ch/schola-cantorum-basiliensis)
