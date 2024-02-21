@@ -51,7 +51,7 @@ Now it became easier to select less frequent facets when browsing or searching: 
 
 # Thanks
 
-Special thanks for contributing funding to the development of this version go to the [Office of the Historian at the US Department of State](https://history.state.gov), the project [Editionstools für eine Digitale Epigraphik](https://www.hadw-bw.de/forschung/forschungsstelle/editionstools-fuer-eine-digitale-epigraphik-edep), the [Institute of History at the Polish Academy of Science](https://ihpan.edu.pl/en/), the [Karl Barth Gesamtausgabe](https://kbga.karl-barth.ch/texts/), and last but not least: [e-editiones](https://e-editiones.org) and [Jinntec GmbH](https://jinntec.de).
+Special thanks for contributing funding to the development of this version go to the [Office of the Historian at the US Department of State](https://history.state.gov), the project [Editionstools für eine Digitale Epigraphik](https://www.hadw-bw.de/forschung/forschungsstelle/editionstools-fuer-eine-digitale-epigraphik-edep), the [Institute of History at the Polish Academy of Science](https://ihpan.edu.pl/en/), the [Karl Barth Gesamtausgabe](https://kbga.karl-barth.ch/texts/), the project [https://www.hadw-bw.de/forschung/forschungsstelle/buddhistische-steininschriften-nordchina](Buddhistische Steininschriften in Nordchina), and last but not least: [e-editiones](https://e-editiones.org) and [Jinntec GmbH](https://jinntec.de).
 
 Apart from institutional support, we are grateful to all members of e-editiones community who helped us to translate the user interface via [Crowdin](https://crowdin.com/project/tei-publisher) and keep the discussion alive on the Slack channel, often assisting each other in solving problems.
 
