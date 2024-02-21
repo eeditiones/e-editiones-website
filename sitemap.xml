@@ -462,17 +462,17 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
+    <lastmod>2024-02-21</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/e-editiones/</loc>
     <lastmod>2024-02-21</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/awards/</loc>
-    <lastmod>2024-02-21</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2024-02-21</lastmod>
   </url>
   
@@ -497,17 +497,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/interoperability/</loc>
+    <loc>https://e-editiones.org/tags/ukraine/</loc>
     <lastmod>2024-02-21</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/osa20/</loc>
-    <lastmod>2024-02-21</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/tei/</loc>
+    <loc>https://e-editiones.org/tags/grants/</loc>
     <lastmod>2024-02-21</lastmod>
   </url>
   
@@ -522,12 +517,17 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <loc>https://e-editiones.org/tags/interoperability/</loc>
     <lastmod>2024-02-21</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/grants/</loc>
+    <loc>https://e-editiones.org/tags/osa20/</loc>
+    <lastmod>2024-02-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei/</loc>
     <lastmod>2024-02-21</lastmod>
   </url>
   
@@ -547,11 +547,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/hosting/</loc>
-    <lastmod>2024-02-21</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/intermediate/</loc>
     <lastmod>2024-02-21</lastmod>
   </url>
@@ -567,7 +562,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/conference/</loc>
+    <loc>https://e-editiones.org/tags/hosting/</loc>
     <lastmod>2024-02-21</lastmod>
   </url>
   
@@ -578,6 +573,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/roaster/</loc>
+    <lastmod>2024-02-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/conference/</loc>
     <lastmod>2024-02-21</lastmod>
   </url>
   
