@@ -197,12 +197,30 @@ Basel</a>.</p>
 </main>
 
 <footer class="p-2">
-    <div>e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
-    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX</div>
+    <div class="col-8">e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
+    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX<br/>
+    <a href="/pages/imprint">Imprint</a> | <a href="/pages/gdpr">Data Protection</a>
+    </div>
 </footer>
 
       <script src="/assets/scripts/bootstrap.bundle.min.js"></script>
       <script src="/assets/scripts/common.js"></script>
       
+      <!-- Matomo -->
+      <script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setDoNotTrack", true]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+          var u="//stats.existsolutions.com/";
+          _paq.push(['setTrackerUrl', u+'matomo.php']);
+          _paq.push(['setSiteId', '1']);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+          g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+      </script>
+      <!-- End Matomo Code -->
   </body>
 </html>
