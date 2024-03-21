@@ -12,7 +12,7 @@ tags:
 
 ---
 
-Upcoming community meetup on [April 14, 2024](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&iso=20230613T17&p1=1425&ah=1)
+Upcoming community meetup on [April 16, 2024](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&iso=20230613T17&p1=1425&ah=1)
 
 Annotation of entities has been commonplace in editions for a long time. But the common methods to do so do not acknowledge the potentials which are provided by todays technologies. In this talk I will present a modern annotation system as well as the possibilities it brings forward in combination with machine learning-based methods of information extraction. By embracing these advancements, we can significantly enhance access to the edition, transforming it into a rich source of data for researchers in fields such as history, linguistics, and sociology.
 
