@@ -77,8 +77,8 @@
                 "coordinates": [9.382042300000002,47.4291336]
             },
             "properties": {
-                "name": "Briefverkehr der Stadt St. Gallen 1400–1800",
-                "description": "<div>\n        <h4>Briefverkehr der Stadt St. Gallen 1400–1800</h4>\n        <p>In Vorbereitung. Edition der Missiven aus dem Stadtarchiv der Ortsbürgergemeinde St. Gallen (1400–1650)</p>\n        <a href=\"https://stadtarchiv.ch/forschungsprojekte/missivenedition/\" class=\"badge bg-light text-dark\">Link</a>\n        \n    </div>\n"
+                "name": "Briefverkehr der Stadt St. Gallen 1400–1650",
+                "description": "<div>\n        <h4>Briefverkehr der Stadt St. Gallen 1400–1650</h4>\n        <p>Edition der Missiven aus dem Stadtarchiv der Ortsbürgergemeinde St. Gallen (1400–1650)</p>\n        <a href=\"https://missiven.stadtarchiv.ch\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:stadtarchiv@ortsbuerger.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
