@@ -7,7 +7,7 @@ eleventyNavigation:
     order: 2
 ---
 
-### Assembly 2023 16th April 2024 (16 h CEST)
+### Assembly 2024 16th April 2024 (16 h CEST)
 
 -  Invitation/Agenda - 4nd AGM of e-editiones (german, english) <a href="/resources/2024/Invitation_Agenda_4rdAGM e-editiones.pdf">PDF</a>
 - [ad 3\] Protokoll der Sitzung vom 2.5.2023 (german) <a href="/resources/2024/Protokoll der 3. GV e-editiones.pdf">Protokoll der 3. GV e-editiones</a>
