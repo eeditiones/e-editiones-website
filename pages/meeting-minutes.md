@@ -11,9 +11,8 @@ eleventyNavigation:
 
 [MS Teams](https://teams.microsoft.com/l/meetup-join/19:meeting_YjY3YThmN2MtMWE2ZC00NDAyLWEwMzctMTRmYWY1NWMzNDM2@thread.v2/0?context=%7B%22Tid%22:%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22,%22Oid%22:%2218e49f65-fe7e-42be-99f1-a8fb561fb3e8%22%7D)
 
--  Invitation/Agenda - 4nd AGM of e-editiones (german, english) <a href="/resources/2024/Invitation_Agenda_4rdAGM e-editiones.pdf">PDF</a>
+-  Invitation/Agenda - 4nd AGM of e-editiones (german, english) <a href="/resources/2024/Einladung_Traktanden 4. GV e-editiones.pdf">PDF</a>
 - [ad 3\] Protokoll der Sitzung vom 2.5.2023 (german) <a href="/resources/2024/Protokoll der 3. GV e-editiones.pdf">Protokoll der 3. GV e-editiones</a>
-- [ad 4\] Annual Report
 - [ad 5\] Annual Accounts 2023 [PDF](/resources/2024/e-editiones-Kassenbuch-2023.pdf)), bilance [PDF](/resources/2024/e-editiones-bilanz-2023.pdf) revision [PDF](/resources/2024/Revisionsbericht_e_editiones_2023.pdf)
 - [ad 6\] [Budget 2024](/resources/2024/e-editiones-budget_2024.pdf)
 
