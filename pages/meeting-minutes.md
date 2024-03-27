@@ -9,6 +9,8 @@ eleventyNavigation:
 
 ### Assembly 2024 16th April 2024 (16 h CEST)
 
+[MS Teams](https://teams.microsoft.com/l/meetup-join/19:meeting_YjY3YThmN2MtMWE2ZC00NDAyLWEwMzctMTRmYWY1NWMzNDM2@thread.v2/0?context=%7B%22Tid%22:%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22,%22Oid%22:%2218e49f65-fe7e-42be-99f1-a8fb561fb3e8%22%7D)
+
 -  Invitation/Agenda - 4nd AGM of e-editiones (german, english) <a href="/resources/2024/Invitation_Agenda_4rdAGM e-editiones.pdf">PDF</a>
 - [ad 3\] Protokoll der Sitzung vom 2.5.2023 (german) <a href="/resources/2024/Protokoll der 3. GV e-editiones.pdf">Protokoll der 3. GV e-editiones</a>
 - [ad 4\] Annual Report
