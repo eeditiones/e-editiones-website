@@ -467,12 +467,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/workshop/</loc>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2024-03-27</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
+    <loc>https://e-editiones.org/tags/workshop/</loc>
     <lastmod>2024-03-27</lastmod>
   </url>
   
@@ -502,27 +502,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/interoperability/</loc>
-    <lastmod>2024-03-27</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/osa20/</loc>
-    <lastmod>2024-03-27</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/tei/</loc>
-    <lastmod>2024-03-27</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/ukraine/</loc>
-    <lastmod>2024-03-27</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/grants/</loc>
+    <loc>https://e-editiones.org/tags/beginner/</loc>
     <lastmod>2024-03-27</lastmod>
   </url>
   
@@ -537,7 +517,27 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/beginner/</loc>
+    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <lastmod>2024-03-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/grants/</loc>
+    <lastmod>2024-03-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/interoperability/</loc>
+    <lastmod>2024-03-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/osa20/</loc>
+    <lastmod>2024-03-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei/</loc>
     <lastmod>2024-03-27</lastmod>
   </url>
   
