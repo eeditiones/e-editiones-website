@@ -22,6 +22,7 @@ eleventyNavigation:
 - [Stiftsbibliothek St.Gallen](https://www.stiftsbezirk.ch/de/stiftsbibliothek/)
 - [Stiftung Eisenbibliothek](https://www.eisenbibliothek.ch/), Klostergut Paradies, Schlatt TG
 - [Trägerschaft Archives Online](https://www.archives-online.org)
+- [Zentrum Digitale Editionen & Editionsanalytik](https://www.zde.uzh.ch), Universität Zürich 
 - [eXist Solutions GmbH](http://existsolutions.com/), Lenzkirch/Berlin
 
 ## Individual Members

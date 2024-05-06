@@ -13,7 +13,6 @@ eleventyNavigation:
 - dipl. soz. Wolfgang Meier, [eXist Solutions GmbH](http://existsolutions.com/index.html), Lenzkirch/Berlin
 - [Prof. em. Dr. Martin Mueller](https://english.northwestern.edu/people/faculty/emeritus/martin-mueller.html), North Western University, Deparment of English
 - Dr. des. Roberta Padlina, Data Scientist, [Memoriav](https://www.memoriav.ch/)
-- lic. phil. Arman Weidenmann, [Stadtarchiv der Ortsbürgergemeinde der Stadt St.Gallen](https://stadtarchiv.ch/)
 
 ## Contact
 
@@ -21,7 +20,7 @@ eleventyNavigation:
 
 ### Postal Address
 
-e-editiones  
-c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen  
-Notkerstrasse 22  
+e-editiones<br>
+c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen<br>
+Notkerstrasse 22<br>
 CH-9000 St. Gallen
