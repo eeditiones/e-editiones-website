@@ -507,6 +507,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/beginner/</loc>
+    <lastmod>2024-05-08</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/interoperability/</loc>
     <lastmod>2024-05-08</lastmod>
   </url>
@@ -522,7 +527,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/beginner/</loc>
+    <loc>https://e-editiones.org/tags/report/</loc>
+    <lastmod>2024-05-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/best-practice/</loc>
     <lastmod>2024-05-08</lastmod>
   </url>
   
@@ -552,21 +562,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/report/</loc>
-    <lastmod>2024-05-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/best-practice/</loc>
-    <lastmod>2024-05-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/hosting/</loc>
-    <lastmod>2024-05-08</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/intermediate/</loc>
     <lastmod>2024-05-08</lastmod>
   </url>
@@ -578,6 +573,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/ner/</loc>
+    <lastmod>2024-05-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/hosting/</loc>
     <lastmod>2024-05-08</lastmod>
   </url>
   

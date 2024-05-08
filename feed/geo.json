@@ -542,6 +542,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [8.049281349817882,47.38814588337196]
+            },
+            "properties": {
+                "name": "Die Urkunden und Akten des Klosters und des Oberamts Königsfelden. 1308-1662",
+                "description": "<div>\n        <h4>Die Urkunden und Akten des Klosters und des Oberamts Königsfelden. 1308-1662</h4>\n        <p>Die digitale Edition «Die Urkunden und Akten des Klosters und des Oberamts Königsfelden», herausgegeben von Colette Halter-Pernet, Tobias Hodel und Simon Teuscher, wird von Bibliothek und Archiv Aargau gepflegt und präsentiert die Dokumente nicht nur als hochauflösende Digitalisate, sondern gibt auch den lateinischen oder frühneuhochdeutschen Wortlaut wieder.</p>\n        <a href=\"https://koenigsfelden.sources-online.org\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:staatsarchiv@ag.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [7.586746199999999,47.5550288]
             },
             "properties": {
