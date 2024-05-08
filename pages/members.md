@@ -22,7 +22,7 @@ eleventyNavigation:
 - [Stiftsbibliothek St.Gallen](https://www.stiftsbezirk.ch/de/stiftsbibliothek/)
 - [Stiftung Eisenbibliothek](https://www.eisenbibliothek.ch/), Klostergut Paradies, Schlatt TG
 - [Trägerschaft Archives Online](https://www.archives-online.org)
-- [Zentrum Digitale Editionen & Editionsanalytik](https://www.zde.uzh.ch), Universität Zürich 
+- [Zentrum Digitale Editionen & Editionsanalytik](https://www.zde.uzh.ch), Universität Zürich
 - [eXist Solutions GmbH](http://existsolutions.com/), Lenzkirch/Berlin
 
 ## Individual Members
@@ -65,3 +65,4 @@ eleventyNavigation:
 - [Joseph Wicentowski](https://joewiz.org/), PhD, Historian, [Office of the Historian](https://history.state.gov/), U.S. Department of State
 - [Rolf Wissmann](https://www.forschung.schola-cantorum-basiliensis.ch/de/uber-uns/personen.html?detail=c4d55c87-d6ba-444b-884f-b1d92de517ea), M.A, Wissenschaftlicher Mitarbeiter SNF-Forschungsprojekt: «Vicentino21», Fachhochschule Nordwestschweiz | Musik-Akademie Basel, Hochschule für Musik | [Schola Cantorum Basiliensis](https://www.fhnw.ch/schola-cantorum-basiliensis)
 - Christian von Zimmermann, Dr. phil., Privatdozent, Leiter [Forschungsstelle Jeremias Gotthelf](https://www.gotthelf.unibe.ch/), Bern
+- Elias Zimmermann,  Elias Zimmermann, Dr., wissenschaftlicher Mitarbeiter <a href="https://www.zde.uzh.ch/de/projects/proto4diged.html">Proto4DigEd</a>, and <a href="https://www.zde.uzh.ch/de/news/2024/schwarzenbach.html">Digitale Edition Annemarie Schwarzenbach</a>
