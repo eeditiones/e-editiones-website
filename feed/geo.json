@@ -178,6 +178,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [2.3376257,48.8310755]
+            },
+            "properties": {
+                "name": "Digital Mishnah",
+                "description": "<div>\n        <h4>Digital Mishnah</h4>\n        <p>Nous créons des transcriptions open source des manuscrits principaux des tous les grands traités de la littérature rabbinique tannaïtique grâce à la plateforme eScriptorium et à l&#39;interface de publication TEI-Publisher.</p>\n        <a href=\"https://editions.erabbinica.org/S07326.xml\" class=\"badge bg-light text-dark\">Link</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [2.3846547,48.8414464]
             },
             "properties": {
@@ -386,6 +399,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [19.9303179,50.0610645]
+            },
+            "properties": {
+                "name": "Neolatina Sarmatica",
+                "description": "<div>\n        <h4>Neolatina Sarmatica</h4>\n        <p>Neolatina Sarmatica is a repository of critical editions of Latin texts created by authors associated with the former Polish-Lithuanian Commonwealth (Res Publica Utriusque Nationis) consisting of the Kingdom of Poland, Grand Duchy of Lithuania, Royal Prussia, and Duchy of Prussia. Established by the Renaissance Literature Lab at the Faculty of Polish Studies of the Jagiellonian University.</p>\n        <a href=\"https://dh-lab.teipublisher.com/exist/apps/neolatina/home\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:grazyna.urban-godziek@uj.edu.pl\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [11.0168996,49.6003799]
             },
             "properties": {
@@ -430,6 +456,19 @@
             "properties": {
                 "name": "Register of Older Slovenian Manuscripts",
                 "description": "<div>\n        <h4>Register of Older Slovenian Manuscripts</h4>\n        <p>Descriptions of manuscripts in Slovenian language from early modern period, some of them with a digital facsimile.</p>\n        <a href=\" https://rrss.manuscripta.zrc-sazu.si\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:matija.ogrin@zrc-sazu.si\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-3.6969422,40.5466983]
+            },
+            "properties": {
+                "name": "Thebarum Fabula",
+                "description": "<div>\n        <h4>Thebarum Fabula</h4>\n        <p>Biblioteca digital del mito tebano con editiones criticas y traducciones. Un sitio Web de acceso libre que sirva de repositorio exhaustivo de recursos, ediciones críticas estándares y traducciones recientes de las obras griegas y romanas que versan sobre las luchas fratricidas de los Terrigenae y de los hijos de Edipo, Eteocles y Polinices.</p>\n        <a href=\"http://thebarumfabula.usc.es/\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:sandra.romano@uam.es\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
