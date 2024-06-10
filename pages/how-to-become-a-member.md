@@ -4,7 +4,7 @@ date: "2020-06-08"
 eleventyNavigation:
     parent: Society
     key: How to become a member
-    order: 5
+    order: 6
 ---
 > re-using components, pooling resources and sharing best practices benefits everyone in the community and ensures our projects remain online and maintained for the decades to come
 

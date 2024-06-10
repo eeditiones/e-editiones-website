@@ -44,4 +44,4 @@ The e-editiones Projects and Finances Group is essential for those interested in
 - Budget and Financial Oversight: Prepare annual budgets for board review and handle the society’s financial accounting to ensure transparency and accountability.
 
 ### Get Involved
-This group offers a unique opportunity to influence both the financial health and the project success of e-editiones. If you have a knack for finance and project management, and wish to contribute to the growth of our academic community, please contact us at andreas@e-editiones.org. We look forward to welcoming new members who are eager to drive our initiatives forward.
+This group offers a unique opportunity to influence both the financial health and the project success of e-editiones. If you have a knack for finance and project management, and wish to contribute to the growth of our academic community, please contact us at lars@e-editiones.org. We look forward to welcoming new members who are eager to drive our initiatives forward.
