@@ -14,6 +14,6 @@ Upcoming community meetup on [June 18, 2024](https://www.timeanddate.com/worldcl
 
 This event presents an editor and toolbox for epigraphic data, developed by the EDEp project: it allows users to enter all the details related to an inscription via a form-based interface, closely following the EpiDoc specialization of TEI. Convenient tools are provided for transcribing, translating or commenting on inscriptions. To not stop users from entering rich, interconnected data, most free form fields support inline XML via context-sensitive micro editors.
 
-The toolbox was designed with customizability and extensibility in mind. The underlying components and their orchestration open up new possibilities within TEI Publisher, therefore reaching beyond the field of epigraphy. So even if you're not an epigrapher, you might not want to miss the talk.
+The toolbox was designed with customizability and extensibility in mind. The underlying components and their orchestration open up new possibilities within TEI Publisher, therefore reaching beyond the field of epigraphy. They mark another important step forward towards a complete edition creation workflow. So even if you're not an epigrapher, you might not want to miss the talk.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/Bcr0a-obD8I?si=QLF55FoOB5NuG2AR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
