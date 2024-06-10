@@ -407,6 +407,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/posts/community-event-edep/</loc>
+    <lastmod>2024-06-10</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/admin/</loc>
     <lastmod>2024-06-10</lastmod>
   </url>
@@ -462,12 +467,27 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
+    <loc>https://e-editiones.org/tags/announcements/</loc>
     <lastmod>2024-06-10</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/announcements/</loc>
+    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
+    <lastmod>2024-06-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/release/</loc>
+    <lastmod>2024-06-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/annotations/</loc>
+    <lastmod>2024-06-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2024-06-10</lastmod>
   </url>
   
@@ -487,11 +507,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
-    <lastmod>2024-06-10</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/tutorial/</loc>
     <lastmod>2024-06-10</lastmod>
   </url>
@@ -502,17 +517,22 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/release/</loc>
-    <lastmod>2024-06-10</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/annotations/</loc>
-    <lastmod>2024-06-10</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/beginner/</loc>
+    <lastmod>2024-06-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/interoperability/</loc>
+    <lastmod>2024-06-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/osa20/</loc>
+    <lastmod>2024-06-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei/</loc>
     <lastmod>2024-06-10</lastmod>
   </url>
   
@@ -533,21 +553,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/best-practice/</loc>
-    <lastmod>2024-06-10</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/interoperability/</loc>
-    <lastmod>2024-06-10</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/osa20/</loc>
-    <lastmod>2024-06-10</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/tei/</loc>
     <lastmod>2024-06-10</lastmod>
   </url>
   
@@ -587,6 +592,16 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/open-api/</loc>
+    <lastmod>2024-06-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/roaster/</loc>
+    <lastmod>2024-06-10</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/conference/</loc>
     <lastmod>2024-06-10</lastmod>
   </url>
@@ -603,16 +618,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/tei-vanilla/</loc>
-    <lastmod>2024-06-10</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/open-api/</loc>
-    <lastmod>2024-06-10</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/roaster/</loc>
     <lastmod>2024-06-10</lastmod>
   </url>
   
