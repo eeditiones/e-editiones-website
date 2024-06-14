@@ -412,6 +412,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/posts/edep/</loc>
+    <lastmod>2024-06-10</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/admin/</loc>
     <lastmod>2024-06-14</lastmod>
   </url>
@@ -522,26 +527,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/report/</loc>
-    <lastmod>2024-06-14</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/best-practice/</loc>
-    <lastmod>2024-06-14</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/ukraine/</loc>
-    <lastmod>2024-06-14</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/grants/</loc>
-    <lastmod>2024-06-14</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/interoperability/</loc>
     <lastmod>2024-06-14</lastmod>
   </url>
@@ -553,6 +538,16 @@
   
   <url>
     <loc>https://e-editiones.org/tags/tei/</loc>
+    <lastmod>2024-06-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/report/</loc>
+    <lastmod>2024-06-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/best-practice/</loc>
     <lastmod>2024-06-14</lastmod>
   </url>
   
@@ -572,6 +567,21 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <lastmod>2024-06-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/grants/</loc>
+    <lastmod>2024-06-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/hosting/</loc>
+    <lastmod>2024-06-14</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/intermediate/</loc>
     <lastmod>2024-06-14</lastmod>
   </url>
@@ -583,11 +593,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/ner/</loc>
-    <lastmod>2024-06-14</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/hosting/</loc>
     <lastmod>2024-06-14</lastmod>
   </url>
   
