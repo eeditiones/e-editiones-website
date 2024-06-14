@@ -10,7 +10,7 @@ coverImage: /img/edep.png
 
 ---
 
-Upcoming community meetup on [June 18, 2024](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&iso=20230718T17&p1=1425&ah=1)
+Upcoming community meetup on [June 18, 2024](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&iso=20240618T17&p1=1425&ah=1)
 
 This event presents a toolbox for epigraphy, developed by the EDEp project: it allows users to enter all inscription metadata and text via a form-based interface, closely following the EpiDoc customization of TEI. Convenient tools are provided for transcribing, translating or commenting on inscriptions. To not prevent users from entering rich, interconnected data, most free form fields support inline XML via context-sensitive micro editors.
 
