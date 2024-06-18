@@ -5,7 +5,7 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2024-06-10T00:00:00Z</updated>
+	<updated>2024-06-18T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
@@ -13,11 +13,11 @@
 	</author>
 	
 	<entry>
-		<title>Transcript: EDEp – Editing Tools for Digital Epigraphy</title>
+		<title>EDEp – Editing Tools for Digital Epigraphy</title>
 		<link href="https://e-editiones.org/posts/edep/"/>
-		<updated>2024-06-10T00:00:00Z</updated>
+		<updated>2024-06-18T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/edep/</id>
-		<content type="html">&lt;p&gt;The EDEp project, funded by the DFG from 2022 to 2024, researches the possibilities and demands of digital epigraphy and develops corresponding editing tools. Rather than aiming at yet another project-specific solution, the goal was to create a versatile toolbox, designed for customizability and extensibility.&lt;/p&gt;
+		<content type="html">&lt;p&gt;The &lt;a href=&quot;https://www.hadw-bw.de/forschung/forschungsstelle/editionstools-fuer-eine-digitale-epigraphik-edep&quot;&gt;EDEp&lt;/a&gt; project, funded by the DFG from 2022 to 2024, researches the possibilities and demands of digital epigraphy and develops corresponding editing tools. Rather than aiming at yet another project-specific solution, the goal was to create a versatile toolbox, designed for customizability and extensibility.&lt;/p&gt;
 &lt;p&gt;In a nutshell, EDEp adds a convenient editor for epigraphic material encoded in &lt;a href=&quot;https://epidoc.stoa.org/&quot;&gt;EpiDoc&lt;/a&gt; to TEI Publisher. But it’s more than that: it’s a collection of tools and technologies, which can be used to support editors in creating any kind of metadata in TEI. In this respect it is following TEI Publisher’s concept of providing a box of modular “Lego” blocks rather than a monolithic one-size-fits-all framework. The EDEp toolbox includes&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;a declarative forms framework in modern HTML, which operates directly on the actual TEI XML: no data mapping or conversion required&lt;/li&gt;
@@ -29,7 +29,7 @@
 &lt;p&gt;As a customization of TEI, &lt;a href=&quot;https://epidoc.stoa.org/&quot;&gt;EpiDoc&lt;/a&gt; is not a rigid standard in the sense that there’s only one way to encode things. Epigraphic projects cover a wide range of fields and will necessarily differ in the details to be encoded. Furthermore, EpiDoc documents feature a mix of structured and unstructured data, posing challenges for conventional data modeling, such as that required by relational databases.&lt;/p&gt;
 &lt;p&gt;EDEp operates directly on the EpiDoc TEI, therefore avoiding the need to establish and maintain a data mapping between user input, database and the resulting XML. Adding a feature then simply becomes a matter of extending the EpiDoc XML template and binding a form control to the new nodes to allow editing. For sure this still requires certain skills and a good understanding of the EpiDocTEI, basic HTML and XPath, but no actual programming.&lt;/p&gt;
 &lt;h2 id=&quot;the-application&quot; tabindex=&quot;-1&quot;&gt;The Application&lt;/h2&gt;
-&lt;p&gt;To see the EDEp application in action, log in as user “edep” with password “edep”. To get to the editor, click on the pencil icon below the document title. Full instructions concerning installation and customization are available on GitHub.&lt;/p&gt;
+&lt;p&gt;To see the &lt;a href=&quot;https://edep.adw.uni-heidelberg.de/index.html&quot;&gt;EDEp application&lt;/a&gt; in action, log in as user “edep” with password “edep”. To get to the editor, click on the pencil icon below the document title. Full instructions concerning installation and customization are available on GitHub.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://raw.githubusercontent.com/eeditiones/edep/master/doc/edep-start.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;Start page&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;The current state of the application itself should be considered an early beta, i.e. fully usable, but still under development. For sure the visual aspects of the form could be improved, but our focus so far was on functionality, not design, and most of the development time went into preparing the foundations upon which others can hopefully build in the future.&lt;/p&gt;
 &lt;h2 id=&quot;the-forms&quot; tabindex=&quot;-1&quot;&gt;The Forms&lt;/h2&gt;
@@ -57,18 +57,14 @@
 &lt;p&gt;Many parts of EDEp already found their way into TEI Publisher 9: the custom entity editing forms in the web-based annotation editor are based on Fore, also featuring the context-sensitive XML editor component for entering notes.&lt;/p&gt;
 &lt;p&gt;Extending EDEp, we would also like to see a well-documented, more generic – i.e. less focused on epigraphy – &lt;code&gt;teiHeader&lt;/code&gt; editing environment in TEI Publisher to serve as a blueprint for other projects, allowing users to copy and paste the bits and pieces they need to support their particular workflow. But as always we would need to find some funding for this.&lt;/p&gt;
 &lt;p&gt;This would well fit into our plans for TEI Publisher 10, which will introduce the concept of “application profiles”, i.e. a collection of modular templates covering typical features of an edition project. This would include ready-to-use blueprints for specific edition types like correspondence, monography, dictionaries etc., but also workflow modules, which can be imported, e.g. the annotation editor. The goal is that users will be able to click together a digital edition in a Fore-based interface, choosing from the available blueprints, templates and modules without having to dive into the source code. An EDEp-like &lt;code&gt;teiHeader&lt;/code&gt; editor would make a perfect new component, which can be customized to match the type of edition that is being created.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>EDEp – Editing Tools for Digital Epigraphy</title>
-		<link href="https://e-editiones.org/posts/community-event-edep/"/>
-		<updated>2024-06-10T00:00:00Z</updated>
-		<id>https://e-editiones.org/posts/community-event-edep/</id>
-		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&amp;amp;iso=20240618T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;June 18, 2024&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This event presents a toolbox for epigraphy, developed by the EDEp project: it allows users to enter all inscription metadata and text via a form-based interface, closely following the EpiDoc customization of TEI. Convenient tools are provided for transcribing, translating or commenting on inscriptions. To not prevent users from entering rich, interconnected data, most free form fields support inline XML via context-sensitive micro editors.&lt;/p&gt;
-&lt;p&gt;The toolbox was designed with customizability and extensibility in mind. The underlying components and their orchestration open up new possibilities within TEI Publisher, reaching beyond the field of epigraphy. They mark another important step forward towards a complete edition creation workflow. So even if you&#39;re not an epigrapher, you might be interested to hear the talk.&lt;/p&gt;
-&lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Bcr0a-obD8I?si=QLF55FoOB5NuG2AR&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;h1 id=&quot;links&quot; tabindex=&quot;-1&quot;&gt;Links&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.hadw-bw.de/forschung/forschungsstelle/editionstools-fuer-eine-digitale-epigraphik-edep&quot;&gt;EDEp project description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://edep.adw.uni-heidelberg.de/index.html&quot;&gt;EDEp editor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/eeditiones/edep&quot;&gt;Application code&lt;/a&gt; with installation instructions&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/JinnElements/jinn-codemirror&quot;&gt;XML and Leiden editors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Jinntec/Fore&quot;&gt;Fore declarative forms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
 	</entry>
 	
