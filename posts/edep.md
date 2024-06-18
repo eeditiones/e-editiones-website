@@ -1,17 +1,17 @@
 ---
-title: "Transcript: EDEp – Editing Tools for Digital Epigraphy"
+title: "EDEp – Editing Tools for Digital Epigraphy"
 lead: "New possibilities for complex form-based editing in TEI Publisher. Not only for epigraphers."
-date: 2024-06-10
+date: 2024-06-18
 author: Wolfgang Meier
 tags:
-  - events
-  - meetups
-  - draft
+  - report
+  - epidoc
+  - fore
 coverImage: /img/edep.png
 
 ---
 
-The EDEp project, funded by the DFG from 2022 to 2024, researches the possibilities and demands of digital epigraphy and develops corresponding editing tools. Rather than aiming at yet another project-specific solution, the goal was to create a versatile toolbox, designed for customizability and extensibility.
+The [EDEp](https://www.hadw-bw.de/forschung/forschungsstelle/editionstools-fuer-eine-digitale-epigraphik-edep) project, funded by the DFG from 2022 to 2024, researches the possibilities and demands of digital epigraphy and develops corresponding editing tools. Rather than aiming at yet another project-specific solution, the goal was to create a versatile toolbox, designed for customizability and extensibility.
 
 In a nutshell, EDEp adds a convenient editor for epigraphic material encoded in [EpiDoc](https://epidoc.stoa.org/) to TEI Publisher. But it’s more than that: it’s a collection of tools and technologies, which can be used to support editors in creating any kind of metadata in TEI. In this respect it is following TEI Publisher’s concept of providing a box of modular “Lego” blocks rather than a monolithic one-size-fits-all framework. The EDEp toolbox includes
 
@@ -22,12 +22,14 @@ In a nutshell, EDEp adds a convenient editor for epigraphic material encoded in 
 The project demonstrates how these components can be assembled to support a complex editing workflow. Combined with TEI Publisher’s ODD-based transformations for the presentation part, these features mark another important step forward towards a complete edition creation workflow within a single application.
 
 ## EpiDoc
+
 As a customization of TEI, [EpiDoc](https://epidoc.stoa.org/) is not a rigid standard in the sense that there’s only one way to encode things. Epigraphic projects cover a wide range of fields and will necessarily differ in the details to be encoded. Furthermore, EpiDoc documents feature a mix of structured and unstructured data, posing challenges for conventional data modeling, such as that required by relational databases.
 
 EDEp operates directly on the EpiDoc TEI, therefore avoiding the need to establish and maintain a data mapping between user input, database and the resulting XML. Adding a feature then simply becomes a matter of extending the EpiDoc XML template and binding a form control to the new nodes to allow editing. For sure this still requires certain skills and a good understanding of the EpiDocTEI, basic HTML and XPath, but no actual programming.
 
 ## The Application
-To see the EDEp application in action, log in as user “edep” with password “edep”. To get to the editor, click on the pencil icon below the document title. Full instructions concerning installation and customization are available on GitHub.
+
+To see the [EDEp application](https://edep.adw.uni-heidelberg.de/index.html) in action, log in as user “edep” with password “edep”. To get to the editor, click on the pencil icon below the document title. Full instructions concerning installation and customization are available on GitHub.
 
 ![Start page](https://raw.githubusercontent.com/eeditiones/edep/master/doc/edep-start.png)
 
@@ -71,6 +73,7 @@ The video above shows the transcription using Leiden on top and the generated TE
 The editor is fully customizable with code snippets, toolbar buttons and keyboard shortcuts.
 
 # Inline Markup: XML Editors
+
 When encoding the translation, commentary or apparatus, users would obviously like to include rich markup, e.g. for bibliographic references, semantic annotations etc., so a plain text editor would not be sufficient. In fact, users quickly expressed the wish to be able to use inline markup for basically all free text inputs.
 
 EDEp therefore adds a powerful XML editing component, providing a micro-environment for specific subparts of the EpiDoc. The editor features context-sensitive suggestions: if a user edits, for example, a note attached to a bibliographic entry, the editor “knows” the tags which may appear in this exact context and displays corresponding suggestions when the user types.
@@ -80,6 +83,7 @@ Toolbar buttons, code snippets and a selection of keyboard shortcuts, e.g. to wr
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/AA5RjIUxC7U?si=9qDQjzYdiaMpMDH3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Outlook
+
 Beyond the specialized field of epigraphy, EDEp provides a foundation for building more complex editing environments, using a mix of form-based entry, XML micro editors and plain text markup conventions like Leiden. It should be easy to see how this concept could be expanded to many other use cases. For sure some rough edges still need to be smoothed out, but thanks to EDEp, we consider the underlying components to be close to production-ready state.
 
 Many parts of EDEp already found their way into TEI Publisher 9: the custom entity editing forms in the web-based annotation editor are based on Fore, also featuring the context-sensitive XML editor component for entering notes.
@@ -87,3 +91,11 @@ Many parts of EDEp already found their way into TEI Publisher 9: the custom enti
 Extending EDEp, we would also like to see a well-documented, more generic – i.e. less focused on epigraphy – `teiHeader` editing environment in TEI Publisher to serve as a blueprint for other projects, allowing users to copy and paste the bits and pieces they need to support their particular workflow. But as always we would need to find some funding for this.
 
 This would well fit into our plans for TEI Publisher 10, which will introduce the concept of “application profiles”, i.e. a collection of modular templates covering typical features of an edition project. This would include ready-to-use blueprints for specific edition types like correspondence, monography, dictionaries etc., but also workflow modules, which can be imported, e.g. the annotation editor. The goal is that users will be able to click together a digital edition in a Fore-based interface, choosing from the available blueprints, templates and modules without having to dive into the source code. An EDEp-like `teiHeader` editor would make a perfect new component, which can be customized to match the type of edition that is being created.
+
+# Links
+
+* [EDEp project description](https://www.hadw-bw.de/forschung/forschungsstelle/editionstools-fuer-eine-digitale-epigraphik-edep)
+* [EDEp editor](https://edep.adw.uni-heidelberg.de/index.html)
+* [Application code](https://github.com/eeditiones/edep) with installation instructions
+* [XML and Leiden editors](https://github.com/JinnElements/jinn-codemirror)
+* [Fore declarative forms](https://github.com/Jinntec/Fore)
