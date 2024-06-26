@@ -7,6 +7,8 @@ tags:
   - report
   - epidoc
   - fore
+  - events
+  - meetups
 coverImage: /img/edep.png
 
 ---
