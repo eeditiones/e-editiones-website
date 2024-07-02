@@ -25,3 +25,7 @@ In this community meet-up we will talk about ODD, a specification format that en
 
 
 <b>The meeting will take place on <a class="alert-link" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGI2N2I1NWEtZmVkNy00MGI0LWEzZjgtNzU4YzlhY2I1M2Rj%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%2210b0f60b-ba0a-446b-81af-8ba3b4070d61%22%7d">Teams</a>.</b>
+
+
+- Presentation: [PDF](/img/TEI_schema_customization.pdf)
+- Recording: [Youtube](https://www.youtube.com/watch?v=e7P-YiYgKlc)
