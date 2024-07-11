@@ -13,7 +13,7 @@ The following channels are open for community discussions. You don't need to be 
 
 The mailing list serves as general communication hub for announcements, questions, suggestions, introductions, exchange of ideas and everything else you would like to share. Please note that this should not replace existing mailing lists like TEI-L or exist-open, so please consider first if your particular question would better be asked on one of the more specialized lists. However, do not hesitate to communicate and remember: there are no silly questions and our community is open and welcoming.
 
-The list is subscription only and open to the public. Please subscribe [by filling out the form](https://admin.hostpoint.ch/mailman/listinfo/community_e-editiones.org).
+The list is subscription only and open to the public. Please subscribe [by filling out the form]( https://lists.hostpoint.ch/mailman3/lists/community.e-editiones.org/).
 
 To post a message to all the list members, send email to: community@e-editiones.org.
 
