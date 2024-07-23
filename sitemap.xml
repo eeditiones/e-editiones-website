@@ -492,12 +492,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/workshop/</loc>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2024-07-23</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
+    <loc>https://e-editiones.org/tags/workshop/</loc>
     <lastmod>2024-07-23</lastmod>
   </url>
   
@@ -508,6 +508,16 @@
   
   <url>
     <loc>https://e-editiones.org/tags/awards/</loc>
+    <lastmod>2024-07-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/odd/</loc>
+    <lastmod>2024-07-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/schema/</loc>
     <lastmod>2024-07-23</lastmod>
   </url>
   
@@ -527,17 +537,17 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/odd/</loc>
-    <lastmod>2024-07-23</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/schema/</loc>
-    <lastmod>2024-07-23</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/beginner/</loc>
+    <lastmod>2024-07-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <lastmod>2024-07-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/grants/</loc>
     <lastmod>2024-07-23</lastmod>
   </url>
   
@@ -553,16 +563,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/tei/</loc>
-    <lastmod>2024-07-23</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/ukraine/</loc>
-    <lastmod>2024-07-23</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/grants/</loc>
     <lastmod>2024-07-23</lastmod>
   </url>
   
