@@ -462,12 +462,27 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/announcements/</loc>
+    <lastmod>2024-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/e-editiones/</loc>
+    <lastmod>2024-07-24</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/static/</loc>
     <lastmod>2024-07-24</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/announcements/</loc>
+    <loc>https://e-editiones.org/tags/events/</loc>
+    <lastmod>2024-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/workshop/</loc>
     <lastmod>2024-07-24</lastmod>
   </url>
   
@@ -487,22 +502,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/events/</loc>
-    <lastmod>2024-07-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/workshop/</loc>
-    <lastmod>2024-07-24</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/meetups/</loc>
-    <lastmod>2024-07-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/e-editiones/</loc>
     <lastmod>2024-07-24</lastmod>
   </url>
   
@@ -542,6 +542,16 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <lastmod>2024-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/grants/</loc>
+    <lastmod>2024-07-24</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/interoperability/</loc>
     <lastmod>2024-07-24</lastmod>
   </url>
@@ -557,32 +567,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/ukraine/</loc>
-    <lastmod>2024-07-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/grants/</loc>
-    <lastmod>2024-07-24</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/report/</loc>
     <lastmod>2024-07-24</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/best-practice/</loc>
-    <lastmod>2024-07-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/epidoc/</loc>
-    <lastmod>2024-07-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/fore/</loc>
     <lastmod>2024-07-24</lastmod>
   </url>
   
@@ -598,6 +588,16 @@
   
   <url>
     <loc>https://e-editiones.org/tags/wordpress/</loc>
+    <lastmod>2024-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/epidoc/</loc>
+    <lastmod>2024-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/fore/</loc>
     <lastmod>2024-07-24</lastmod>
   </url>
   
