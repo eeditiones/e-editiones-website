@@ -467,21 +467,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/events/</loc>
-    <lastmod>2024-07-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/workshop/</loc>
-    <lastmod>2024-07-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
-    <lastmod>2024-07-24</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/announcements/</loc>
     <lastmod>2024-07-24</lastmod>
   </url>
@@ -498,6 +483,21 @@
   
   <url>
     <loc>https://e-editiones.org/tags/annotations/</loc>
+    <lastmod>2024-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/events/</loc>
+    <lastmod>2024-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/workshop/</loc>
+    <lastmod>2024-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2024-07-24</lastmod>
   </url>
   
@@ -542,6 +542,21 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/interoperability/</loc>
+    <lastmod>2024-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/osa20/</loc>
+    <lastmod>2024-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei/</loc>
+    <lastmod>2024-07-24</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/ukraine/</loc>
     <lastmod>2024-07-24</lastmod>
   </url>
@@ -557,27 +572,17 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/best-practice/</loc>
+    <lastmod>2024-07-24</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/epidoc/</loc>
     <lastmod>2024-07-24</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/fore/</loc>
-    <lastmod>2024-07-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/interoperability/</loc>
-    <lastmod>2024-07-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/osa20/</loc>
-    <lastmod>2024-07-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/tei/</loc>
     <lastmod>2024-07-24</lastmod>
   </url>
   
@@ -597,16 +602,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/best-practice/</loc>
-    <lastmod>2024-07-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/hosting/</loc>
-    <lastmod>2024-07-24</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/intermediate/</loc>
     <lastmod>2024-07-24</lastmod>
   </url>
@@ -618,6 +613,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/ner/</loc>
+    <lastmod>2024-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/hosting/</loc>
     <lastmod>2024-07-24</lastmod>
   </url>
   
