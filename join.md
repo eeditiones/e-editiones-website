@@ -10,13 +10,13 @@ tags:
     - e-editiones
 ---
 
-## rooted in standards -  built by the community - meant to last
+## Rooted in standards -  built by the community - meant to last
 
 e-editiones is an international non-profit society bringing together edition projects, cultural heritage institutions, scholars, and developers to empower digital projects by promoting open standards and community collaboration— with the ultimate goal of helping to sustain editions far into the future. We 
 
-* Foster the development of open source software for digital scholarly editions and related projects.
-* Provide a meeting place and think tank for researchers, memory institutions, and developers alike.
-* Organize regular workshops and community meetings.
+* foster the development of open source software for digital scholarly editions and related projects.
+* provide a meeting place and think tank for researchers, memory institutions, and developers alike.
+* organize regular workshops and community meetings.
 
 #### Join our open community
 Get in contact with us via [email](mailto:info@e-editiones.org), [mailing list](https://www.e-editiones.org/pages/get-in-touch/#mailing-list), [Mastodon](https://social.e-editiones.org/@eeditiones), [Slack](https://www.e-editiones.org/pages/get-in-touch/#slack-community), [GitHub](https://github.com/eeditiones/), [LinkedIn](https://www.linkedin.com/company/e-editiones/) or [Twitter](https://x.com/eeditiones).
