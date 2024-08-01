@@ -542,16 +542,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/ukraine/</loc>
-    <lastmod>2024-08-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/grants/</loc>
-    <lastmod>2024-08-01</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/interoperability/</loc>
     <lastmod>2024-08-01</lastmod>
   </url>
@@ -567,17 +557,17 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <lastmod>2024-08-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/grants/</loc>
+    <lastmod>2024-08-01</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/report/</loc>
-    <lastmod>2024-08-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/epidoc/</loc>
-    <lastmod>2024-08-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/fore/</loc>
     <lastmod>2024-08-01</lastmod>
   </url>
   
@@ -598,6 +588,16 @@
   
   <url>
     <loc>https://e-editiones.org/tags/wordpress/</loc>
+    <lastmod>2024-08-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/epidoc/</loc>
+    <lastmod>2024-08-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/fore/</loc>
     <lastmod>2024-08-01</lastmod>
   </url>
   
