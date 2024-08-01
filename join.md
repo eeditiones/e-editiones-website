@@ -29,7 +29,7 @@ tags:
 * [Whova Link](https://whova.com/portal/webapp/dh_202407/Artifact/107777)
 
 ##### New Generation of Electronic Edition for Neo-Latin Literature – Rescue from Oblivion, Stage Two
-* Who: Grabska-Gradzinska, Iwona (1,2); Urban-Godziek Grażyna (1)
+* Who: Iwona Grabska-Gradzinska, Grażyna Urban-Godziek
 * [Whova Link](https://whova.com/portal/webapp/dh_202407/Artifact/108318)
 
 #### E-Editiones / TEI Publisher Get Together
