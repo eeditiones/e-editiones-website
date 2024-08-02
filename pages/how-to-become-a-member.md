@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 > re-using components, pooling resources and sharing best practices benefits everyone in the community and ensures our projects remain online and maintained for the decades to come
 
-To become a member please contact [info@e-editiones.org](mailto:info@e-editiones.org).
+To become a member please contact [board@e-editiones.org](mailto:board@e-editiones.org).
 
 ### Institutional membership
 
