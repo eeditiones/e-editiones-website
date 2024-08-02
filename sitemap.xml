@@ -467,17 +467,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/announcements/</loc>
-    <lastmod>2024-08-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/e-editiones/</loc>
-    <lastmod>2024-08-02</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/static/</loc>
+    <lastmod>2024-08-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/announcements/</loc>
     <lastmod>2024-08-02</lastmod>
   </url>
   
@@ -508,6 +503,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/meetups/</loc>
+    <lastmod>2024-08-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/e-editiones/</loc>
     <lastmod>2024-08-02</lastmod>
   </url>
   
