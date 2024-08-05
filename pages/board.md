@@ -9,8 +9,8 @@ eleventyNavigation:
 
 - Dr. [Andreas Kränzle](https://k-r.ch), [Karl Barth-Archiv](https://karlbarth.unibas.ch/de/), Basel
 - Dr. Pascale Sutter, [Rechtsquellenstiftung des Schweizerischen Juristenvereins](https://www.ssrq-sds-fds.ch/home/)
-- [Dr. des. Anne Diekjobst](https://www.histsem.uni-kiel.de/de/das-institut-1/abteilungen/professur-fuer-geschichte-des-spaeten-mittelalters-sowie-wirtschafts-und-sozialgeschichte/team/anne-diekjobst), Christian-Albrechts-Universität zu Kiel, Historisches Seminar
-- dipl. soz. Wolfgang Meier, [eXist Solutions GmbH](http://existsolutions.com/index.html), Lenzkirch/Berlin
+- Dr. des. Anne Diekjobst, Gottfried Wilhelm Leibniz Bibliothek
+- Wolfgang Meier, [eXist Solutions GmbH](http://existsolutions.com/index.html), Lenzkirch/Berlin, Heidelberger Akademie der Wissenschaften, Heidelberg
 - [Prof. em. Dr. Martin Mueller](https://english.northwestern.edu/people/faculty/emeritus/martin-mueller.html), North Western University, Deparment of English
 - Dr. des. Roberta Padlina, Data Scientist, [Memoriav](https://www.memoriav.ch/)
 
