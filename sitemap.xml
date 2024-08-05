@@ -477,27 +477,17 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
-    <lastmod>2024-08-05</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/workshop/</loc>
     <lastmod>2024-08-05</lastmod>
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
+    <lastmod>2024-08-05</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/announcements/</loc>
-    <lastmod>2024-08-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/e-editiones/</loc>
-    <lastmod>2024-08-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/awards/</loc>
     <lastmod>2024-08-05</lastmod>
   </url>
   
@@ -513,6 +503,16 @@
   
   <url>
     <loc>https://e-editiones.org/tags/annotations/</loc>
+    <lastmod>2024-08-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/e-editiones/</loc>
+    <lastmod>2024-08-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/awards/</loc>
     <lastmod>2024-08-05</lastmod>
   </url>
   
@@ -542,11 +542,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/beginner/</loc>
-    <lastmod>2024-08-05</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/interoperability/</loc>
     <lastmod>2024-08-05</lastmod>
   </url>
@@ -562,27 +557,17 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/beginner/</loc>
+    <lastmod>2024-08-05</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/ukraine/</loc>
     <lastmod>2024-08-05</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/grants/</loc>
-    <lastmod>2024-08-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/hugo/</loc>
-    <lastmod>2024-08-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/pb-component/</loc>
-    <lastmod>2024-08-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/wordpress/</loc>
     <lastmod>2024-08-05</lastmod>
   </url>
   
@@ -603,6 +588,21 @@
   
   <url>
     <loc>https://e-editiones.org/tags/fore/</loc>
+    <lastmod>2024-08-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/hugo/</loc>
+    <lastmod>2024-08-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/pb-component/</loc>
+    <lastmod>2024-08-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/wordpress/</loc>
     <lastmod>2024-08-05</lastmod>
   </url>
   
