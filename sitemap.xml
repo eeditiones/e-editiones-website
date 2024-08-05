@@ -472,21 +472,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/events/</loc>
-    <lastmod>2024-08-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/workshop/</loc>
-    <lastmod>2024-08-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
-    <lastmod>2024-08-05</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/announcements/</loc>
     <lastmod>2024-08-05</lastmod>
   </url>
@@ -503,6 +488,21 @@
   
   <url>
     <loc>https://e-editiones.org/tags/annotations/</loc>
+    <lastmod>2024-08-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/events/</loc>
+    <lastmod>2024-08-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/workshop/</loc>
+    <lastmod>2024-08-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2024-08-05</lastmod>
   </url>
   
@@ -542,6 +542,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/beginner/</loc>
+    <lastmod>2024-08-05</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/interoperability/</loc>
     <lastmod>2024-08-05</lastmod>
   </url>
@@ -553,11 +558,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/tei/</loc>
-    <lastmod>2024-08-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/beginner/</loc>
     <lastmod>2024-08-05</lastmod>
   </url>
   
