@@ -1,4 +1,5 @@
-_site/
-.cache
-node_modules/
-package-lock.json
+repo.xml
+build
+node_modules
+.idea
+.DS_Store
