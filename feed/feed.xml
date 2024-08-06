@@ -5,12 +5,23 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2024-07-02T00:00:00Z</updated>
+	<updated>2024-08-06T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>e-editiones at DH2024</title>
+		<link href="https://e-editiones.org/posts/dh2024/"/>
+		<updated>2024-08-06T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/dh2024/</id>
+		<content type="html">&lt;p&gt;From August 6 till 9, 2024 several e-editiones members are joining the annual conference of the Alliance of Digital Humanities Organizations: &lt;a href=&quot;https://dh2024.adho.org/&quot;&gt;DH2024 - Reinvention &amp;amp; Responsibility&lt;/a&gt; at Washington, D.C., 🇺🇸.&lt;/p&gt;
+&lt;p&gt;To easily find e-editiones / TEI Publisher related content at the conference we compiled this &lt;a href=&quot;https://e-editiones.org/dh2024&quot;&gt;list of e-editiones / TEI Publisher related activieties&lt;/a&gt; and created a public #DH2024 channel in the &lt;a href=&quot;https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg&quot;&gt;e-editiones Slack workspace&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We wish all participants a wonderful DH2024!&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Dos and don’ts in TEI schema customization. An introduction to the ODD specification </title>

@@ -10,6 +10,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://e-editiones.org/posts/dh2024/",
+      "url": "https://e-editiones.org/posts/dh2024/",
+      "title": "e-editiones at DH2024",
+      "content_html": "<p>From August 6 till 9, 2024 several e-editiones members are joining the annual conference of the Alliance of Digital Humanities Organizations: <a href=\"https://dh2024.adho.org/\">DH2024 - Reinvention &amp; Responsibility</a> at Washington, D.C., 🇺🇸.</p>\n<p>To easily find e-editiones / TEI Publisher related content at the conference we compiled this <a href=\"https://e-editiones.org/dh2024\">list of e-editiones / TEI Publisher related activieties</a> and created a public #DH2024 channel in the <a href=\"https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg\">e-editiones Slack workspace</a>.</p>\n<p>We wish all participants a wonderful DH2024!</p>\n",
+      "date_published": "2024-08-06T00:00:00Z"
+    },{
       "id": "https://e-editiones.org/posts/community-event-dos-donts-odd/",
       "url": "https://e-editiones.org/posts/community-event-dos-donts-odd/",
       "title": "Dos and don’ts in TEI schema customization. An introduction to the ODD specification ",
