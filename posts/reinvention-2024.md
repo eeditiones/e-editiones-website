@@ -1,8 +1,8 @@
 ---
 title: "Reinvention, Responsibility & Resurrection: how to future-proof an edition"
 short: "Reinvention, Responsibility & Resurrection"
-lead: "several e-editiones members will join the DH2024 - Reinvention & Responsibility conference at Washington, D.C."
-date: 2024-08-06
+lead: "As the time passes, many of the digital editorial projects struggle to remain available to the public..."
+date: 2024-08-09
 author: Magdalena Turska, Helena Bermudez Sabel
 tags:  
   - conference
