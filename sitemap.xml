@@ -507,12 +507,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/workshop/</loc>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2024-08-09</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
+    <loc>https://e-editiones.org/tags/workshop/</loc>
     <lastmod>2024-08-09</lastmod>
   </url>
   
@@ -667,17 +667,17 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/tei-vanilla/</loc>
-    <lastmod>2024-08-09</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/semantic-encoding/</loc>
     <lastmod>2024-08-09</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/vscode/</loc>
+    <lastmod>2024-08-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei-vanilla/</loc>
     <lastmod>2024-08-09</lastmod>
   </url>
   
