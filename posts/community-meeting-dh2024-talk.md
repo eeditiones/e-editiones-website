@@ -1,6 +1,6 @@
 ---
 title: "e-editiones community meeting: September 3 at 17:00 CEST"
-lead: "Discover how TEI Publisher transformed from a publishing software into a generic research environment for DH projects."
+lead: "Evolution of the TEI Publisher from a publishing tool into a flexible editing, research and publication environment for DH projects."
 author: Magdalena Turska, Wolfgang Meier
 date: 2024-08-22
 tags:
