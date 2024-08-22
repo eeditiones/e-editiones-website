@@ -10,6 +10,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://e-editiones.org/posts/community-meeting-dh2024-talk/",
+      "url": "https://e-editiones.org/posts/community-meeting-dh2024-talk/",
+      "title": "e-editiones community meeting: September 3 at 17:00 CEST",
+      "content_html": "<p>Upcoming remote community meetup on September 03, 2024 at 17:00 CEST</p>\n<p>«From a publishing tool to a virtual research environment: producing scholarly editions with TEI Publisher» was the name of the presentation by Joe Wicentowski, Magdalena Turska and Helena Bermudez-Sabel at <a href=\"https://dh2024.adho.org/\">DH2024 Reinvention &amp; Responsibility</a> in Washington D.C. Due to <a href=\"https://social.e-editiones.org/@eeditiones/112921400019070395\">technical glitches</a> the talk was not recorded at DH2024 which is why e-editiones asked Magda to repeat the talk in the upcoming e-edtiones community meeting on September 03.</p>\n<p>The talk will be given by Magdalena Turska who will showcase that TEI Publisher provides the means for data storage, modelling, curation, analysis and visualisation while enabling collaborative work. The recent additions to it include form-based editing for metadata and curation of authority files as well as NER support, including training the model and a visual editor for adding semantic markup. Magdalena will show us how TEI Publisher is utilised over the whole digital edition lifecycle.</p>\n<p>Participation is free of charge and open to anyone interested. No registration is required to attend. We will meet Tuesday, the 3rd of September at 17:00 CEST in our <a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzY5NWQ1YjEtZGMwZi00Y2NkLTg3ZmQtMjcyOTljOWQ4NGVi%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%2210b0f60b-ba0a-446b-81af-8ba3b4070d61%22%7d\">e-editiones community Teams channel</a>.</p>\n<a href=\"https://e-editiones.org/img/community-event-dh2024-vre.png\">\n    <img src=\"https://e-editiones.org/img/community-event-dh2024-vre.png\" width=\"100%\" />\n</a>    \n",
+      "date_published": "2024-08-22T00:00:00Z"
+    },{
       "id": "https://e-editiones.org/posts/reinvention-2024/",
       "url": "https://e-editiones.org/posts/reinvention-2024/",
       "title": "Reinvention, Responsibility &amp; Resurrection: how to future-proof an edition",
