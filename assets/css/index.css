@@ -323,7 +323,7 @@ footer {
 .blog {
 }
 
-/* Make sure the navbar height is taken into account when 
+/* Make sure the navbar height is taken into account when
  * scrolling
  */
 :target {

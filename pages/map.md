@@ -1,5 +1,5 @@
 ---
-title: "TEI Publisher Registry"
+title: "TEI Publisher Registry neu"
 date: "2021-06-23"
 ---
 

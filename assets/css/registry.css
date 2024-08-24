@@ -1,0 +1,108 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+
+        #list-container {
+            padding: 20px;
+        }
+
+        #list-container h2 {
+            margin-top: 0;
+        }
+
+        #filter-container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        #info-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            font-size: 16px; /* Normale Schriftgröße */
+            line-height: 1.6;
+        }
+
+        #info-box a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        #info-box a:hover {
+            text-decoration: underline;
+        }
+
+        #search {
+            width: 300px;
+            padding: 8px 16px 8px 36px;
+            font-size: 16px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            background-image: url('https://img.icons8.com/ios-glyphs/30/000000/search--v1.png');
+            background-size: 20px;
+            background-position: 10px center;
+            background-repeat: no-repeat;
+            margin-right: 10px; /* Abstand zwischen Suchfeld und Reset-Button */
+        }
+
+        #reset {
+            padding: 6px 12px;
+            font-size: 14px;
+            background-color: #ff8c00;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #reset:hover {
+            background-color: #e67e00;
+        }
+
+        #entries {
+            list-style: none;
+            padding: 0;
+        }
+
+        .list-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .list-item h3 {
+            margin: 0 0 5px 0;
+        }
+
+        .list-item p {
+            margin: 5px 0;
+        }
+
+        .list-item a {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 4px 8px; /* Kleinere Buttons */
+            font-size: 14px; /* Kleinere Schriftgröße */
+            background-color: #ff8c00;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .list-item a:hover {
+            background-color: #e67e00;
+        }

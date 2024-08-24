@@ -1,0 +1,153 @@
+---
+layout: layouts/base.njk
+permalink: /map/
+templateClass: 'registry'
+---
+{% block scripts %}
+<script src="/assets/scripts/leaflet.js"></script>
+<script src="/assets/scripts/leaflet.markercluster.js"></script>
+<script src="{{ '/assets/scripts/map.js' | url }}"></script>
+{% endblock %}
+{% block styles %}
+<link rel="stylesheet" href="/assets/css/leaflet.css">
+<link rel="stylesheet" href="/assets/css/MarkerCluster.css">
+<link rel="stylesheet" href="/assets/css/MarkerCluster.Default.css">
+{% endblock %}
+
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+
+        #list-container {
+            padding: 20px;
+        }
+
+        #list-container h2 {
+            margin-top: 0;
+        }
+
+        #filter-container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        #info-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            font-size: 16px; /* Normale Schriftgröße */
+            line-height: 1.6;
+        }
+
+        #info-box a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        #info-box a:hover {
+            text-decoration: underline;
+        }
+
+        #search {
+            width: 300px;
+            padding: 8px 16px 8px 36px;
+            font-size: 16px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            background-image: url('https://img.icons8.com/ios-glyphs/30/000000/search--v1.png');
+            background-size: 20px;
+            background-position: 10px center;
+            background-repeat: no-repeat;
+            margin-right: 10px; /* Abstand zwischen Suchfeld und Reset-Button */
+        }
+
+        #reset {
+            padding: 6px 12px;
+            font-size: 14px;
+            background-color: #ff8c00;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #reset:hover {
+            background-color: #e67e00;
+        }
+
+        #entries {
+            list-style: none;
+            padding: 0;
+        }
+
+        .list-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .list-item h3 {
+            margin: 0 0 5px 0;
+        }
+
+        .list-item p {
+            margin: 5px 0;
+        }
+
+        .list-item a {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 4px 8px; /* Kleinere Buttons */
+            font-size: 14px; /* Kleinere Schriftgröße */
+            background-color: #ff8c00;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .list-item a:hover {
+            background-color: #e67e00;
+        }
+    </style>
+
+<header>
+    {% include "partials/menu.njk" %}
+</header>
+
+<main class="{{ templateClass }}">
+    <section>
+        <h1>TEI Publisher Registry</h1>
+
+        <p>If your are using TEI Publisher, please let us know. Send us the title of your edition,
+        a postal address, url, email and a very short description:
+        <a href="mailto:info@e-editiones.org">info@e-editiones.org</a>.</p>
+
+        <ul>
+        {% for place in geodata %}
+            <li>
+                <h3>{{place.name}} <small><i class="bi bi-geo geoplace" data-coordinates="{{place.latitude}},{{place.longitude}}"></i></small></h3>
+                <div>{{place.description}}</div>
+                <a href="{{place.url}}" class="badge bg-light text-dark">Link</a>
+                {% if place.email %}
+                <a href="mailto:{{place.email}}" class="badge bg-light text-dark">Contact</a>
+                {% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+    </section>
+    <div id="map" data-zoom="6"></div>
+</main>
