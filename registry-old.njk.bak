@@ -1,0 +1,43 @@
+---
+layout: layouts/base.njk
+permalink: /map/
+templateClass: 'registry'
+---
+{% block scripts %}
+<script src="/assets/scripts/leaflet.js"></script>
+<script src="/assets/scripts/leaflet.markercluster.js"></script>
+<script src="{{ '/assets/scripts/map.js' | url }}"></script>
+{% endblock %}
+{% block styles %}
+<link rel="stylesheet" href="/assets/css/leaflet.css">
+<link rel="stylesheet" href="/assets/css/MarkerCluster.css">
+<link rel="stylesheet" href="/assets/css/MarkerCluster.Default.css">
+{% endblock %}
+
+<header>
+    {% include "partials/menu.njk" %}
+</header>
+
+<main class="{{ templateClass }}">
+    <section>
+        <h1>TEI Publisher Registry</h1>
+
+        <p>If your are using TEI Publisher, please let us know. Send us the title of your edition,
+        a postal address, url, email and a very short description:
+        <a href="mailto:info@e-editiones.org">info@e-editiones.org</a>.</p>
+
+        <ul>
+        {% for place in geodata %}
+            <li>
+                <h3>{{place.name}} <small><i class="bi bi-geo geoplace" data-coordinates="{{place.latitude}},{{place.longitude}}"></i></small></h3>
+                <div>{{place.description}}</div>
+                <a href="{{place.url}}" class="badge bg-light text-dark">Link</a>
+                {% if place.email %}
+                <a href="mailto:{{place.email}}" class="badge bg-light text-dark">Contact</a>
+                {% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+    </section>
+    <div id="map" data-zoom="6"></div>
+</main>
