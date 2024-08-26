@@ -2,12 +2,20 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
+        }
+
+        h4 {
+            margin-top: 0;
+            margin-bottom: 0px;
         }
 
         #map {
             height: 500px;
             width: 100%;
+        }
+
+        main {
+          margin-top: 0;
         }
 
         #list-container {
@@ -23,20 +31,21 @@
             justify-content: flex-end;
             align-items: center;
             margin-bottom: 15px;
+            margin-top: -75px;
         }
 
         #info-box {
             background-color: #f9f9f9;
             border: 1px solid #ddd;
             border-radius: 5px;
-            padding: 15px;
+            padding: 10px;
             margin-bottom: 20px;
             font-size: 16px; /* Normale Schriftgröße */
             line-height: 1.6;
         }
 
         #info-box a {
-            color: #007bff;
+            color: #ff8c00;
             text-decoration: none;
         }
 
@@ -105,4 +114,9 @@
 
         .list-item a:hover {
             background-color: #e67e00;
+        }
+
+        .leaflet-popup-content > a {
+            color: #ff8c00;
+            text-decoration: none;
         }
