@@ -19,28 +19,35 @@ templateClass: 'registry'
     {% include "partials/menu.njk" %}
 </header>
 
-<main>
-    <div id="map"></div>
+<main class="{{ templateClass }}">
+    <section id="map" class="panel map-panel"></section>
 
-    <div id="list-container">
-        <div id="header-container">
-          <h2>TEI Publisher Registry</h2>
-        </div>
-        <!-- Flexbox-Container für Suchfeld und Reset-Button -->
-        <div id="filter-container">
-            <input type="text" id="search" placeholder="Filter list" />
-            <button id="reset">Reset Filters</button>
+    <search id="list-container" class="panel list-panel half">
+        <div class="divider">
+          <span class="handle"></span>
         </div>
 
-        <!-- Infokasten -->
-        <div id="info-box">
-            If you are using TEI Publisher, please let us know. Send us the title of your edition, a postal address, url, email and a very short description:
-            <a href="mailto:info@e-editiones.org">info@e-editiones.org</a>
-        </div>
+        <section class="scroll-container">
+          <div id="header-container">
+            <h1>TEI Publisher Registry</h1>
+          </div>
+          <!-- Flexbox-Container für Suchfeld und Reset-Button -->
+          <div id="filter-container">
+              <input type="search" id="search" placeholder="Filter list" />
+              <button id="reset">&#x2715;</button>
+          </div>
 
-        <ul id="entries"></ul>
+          <!-- Infokasten -->
+          <div id="info-box">
+              If you are using TEI Publisher, please let us know. Send us the title of your edition, a postal address, url, email and a very short description:
+              <a href="mailto:info@e-editiones.org">info@e-editiones.org</a>
+          </div>
+
+          <ul id="entries"></ul>
+        </section>
     </div>
 
     <script src="/assets/scripts/registry.js"></script>
+    <script src="/assets/scripts/registry-panels.js"></script>
 
 </main>

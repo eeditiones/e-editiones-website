@@ -26,6 +26,7 @@ function updateMap() {
   // Clear all Marker
   markerClusterGroup.clearLayers();
   markers.length = 0;
+  map.invalidateSize();
 
   // Add new Marker
   filteredData.forEach((item) => {
@@ -83,7 +84,7 @@ function createListItem(item) {
   listItem.className = "list-item";
 
   listItem.innerHTML = `
-                <h4>${item.name}</h4>
+                <h2>${item.name}</h2>
                 <p>${item.description}</p>
                 <a href="${item.url}" target="_blank">Link</a>
                 <a href="mailto:${item.email}">Contact</a>
@@ -123,3 +124,6 @@ document.getElementById("reset").addEventListener("click", function () {
   updateMap();
   updateList();
 });
+
+
+

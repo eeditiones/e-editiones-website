@@ -4,7 +4,8 @@
 :root {
   --font-family-headings: "Zilla Slab", serif;
   --font-family-body: "Lato", sans-serif;
-  --font-size-h1: 2.488rem;
+  /*--font-size-h1: 2.488rem;*/
+  --font-size-h1: clamp(1.5rem, 8vw, 2.488rem);;
   --font-size-h2: 2.074rem;
   --font-size-h3: 1.728rem;
   --font-size-h4: 1.44rem;
@@ -484,10 +485,12 @@ ul.cloud li:nth-child(5n+1) a { --color: var(--color-4); }
   font-family: var(--font-family-body);
 }
 
-/* TEI Publisher registry */
+/*
+!* TEI Publisher registry *!
 .registry {
-  display: grid;
-  grid-template-columns: 1fr minmax(50vw, auto);
+  display: flex;
+  flex-direction: column;
+  position: relative;
   height: 100vh;
   padding: var(--header-height) 0 0 0;
   margin-top: 0;
@@ -510,6 +513,7 @@ ul.cloud li:nth-child(5n+1) a { --color: var(--color-4); }
   font-family: var(--font-family-body);
 }
 
+*/
 #map h4 {
   margin-top: 0;
   margin-bottom: 1rem;
