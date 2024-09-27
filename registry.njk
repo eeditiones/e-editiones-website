@@ -20,22 +20,24 @@ templateClass: 'registry'
 </header>
 
 <main class="{{ templateClass }}">
+    <!-- Flexbox-Container für Suchfeld und Reset-Button -->
+    <div id="filter-container">
+        <input type="search" id="search" placeholder="Filter list" />
+        <button id="reset">&#x2715;</button>
+    </div>
     <section id="map" class="panel map-panel"></section>
+    <section class="panel dummy"></section>
+
 
     <search id="list-container" class="panel list-panel half">
-        <div class="divider">
-          <span class="handle"></span>
+        <div id="header-container">
+          <div class="divider">
+            <span class="handle"></span>
+          </div>
+          <h1>TEI Publisher Registry</h1>
         </div>
 
         <section class="scroll-container">
-          <div id="header-container">
-            <h1>TEI Publisher Registry</h1>
-          </div>
-          <!-- Flexbox-Container für Suchfeld und Reset-Button -->
-          <div id="filter-container">
-              <input type="search" id="search" placeholder="Filter list" />
-              <button id="reset">&#x2715;</button>
-          </div>
 
           <!-- Infokasten -->
           <div id="info-box">
@@ -45,7 +47,7 @@ templateClass: 'registry'
 
           <ul id="entries"></ul>
         </section>
-    </div>
+    </search>
 
     <script src="/assets/scripts/registry.js"></script>
     <script src="/assets/scripts/registry-panels.js"></script>

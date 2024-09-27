@@ -2,6 +2,7 @@
 body{
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 main{
   margin:0;
@@ -77,11 +78,13 @@ button#reset {
   main:has(.full) .map-panel{
     height: 10vh;
   }
+  /*
   main:has(.full) #filter-container{
     display: none;
   }
+  */
   main:has(.half) .map-panel{
-    height: 40vh;
+    height: 50vh;
   }
   main:has(.minimal) .map-panel{
     height: 80vh;
@@ -92,13 +95,19 @@ button#reset {
   main:has(.leaflet-popup) #filter-container{
     z-index: -1;
   }
+  .leaflet-popup{
+    overflow: hidden;
+    text-overflow: hidden;
+  }
+  /*
   map:has(.leaflet-popup) .leaflet-top{
     z-index: -1;
   }
+  */
   p {
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: clamp(0.9rem, 2vw, 1rem);
+    font-size: clamp(0.8rem, 2vw, 1rem);
     line-height: 1.3rem;
   }
   #filter-container{
@@ -110,23 +119,30 @@ button#reset {
     overflow: hidden;
   }
   .divider{
-    position: absolute;
-    top:0;
-    left:0;
     width: 100vw;
     height: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -0.5rem;
+    background: transparent;
   }
   .map-panel {
     height: calc(50vh - 4.25rem); /* Adjust for header height and list panel */
   }
 
   .list-panel {
-    position: relative;
-    height: calc(50vh - 50px); /* Adjust for header height */
-    /*overflow-y: scroll;*/
+    position: fixed;
+    height: calc(100vh - 4.25rem);
+    /*top: 4.25rem;*/
+    top: 50%;
+    z-index: 1000;
+    background: white;
+    width: 100vw;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    overflow: hidden;
+    padding: 0.25rem 0.5rem;
   }
   panel{
     padding: 0.25rem;
@@ -136,6 +152,7 @@ button#reset {
     height: 100vh;
     width:100vw;
     padding:0 0.5rem;
+    padding-bottom:22rem;
   }
 
   /*
@@ -182,12 +199,11 @@ button#reset {
 
   .divider{
     display: none;
-/*    position: fixed;
+    position: fixed;
     left:50vw;
     width: 1rem;
-    height:100vh;*/
+    height:100vh;
   }
-  /*
   .map-panel {
     flex: 1;
   }
@@ -196,6 +212,5 @@ button#reset {
     flex: 1;
     position: relative;
   }
-  */
 
 }
