@@ -76,7 +76,10 @@ button#reset {
     padding: 0;
   }
   main:has(.full) .map-panel{
-    height: 10vh;
+    height: 15vh;
+  }
+  main:has(.full) #list-container{
+    top:8.5rem;
   }
   /*
   main:has(.full) #filter-container{
@@ -87,7 +90,10 @@ button#reset {
     height: 50vh;
   }
   main:has(.minimal) .map-panel{
-    height: 80vh;
+    height: 100vh;
+  }
+  main:has(.minimal) #list-container{
+    top:83vh;
   }
   main:has(.minimal) .scroll-container{
     overflow: hidden;
@@ -120,7 +126,7 @@ button#reset {
   }
   .divider{
     width: 100vw;
-    height: 1rem;
+    height: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,7 +134,7 @@ button#reset {
     background: transparent;
   }
   .map-panel {
-    height: calc(50vh - 4.25rem); /* Adjust for header height and list panel */
+    height: calc(50vh); /* map is overlapped a bit by list-container to show it border-radius */
   }
 
   .list-panel {

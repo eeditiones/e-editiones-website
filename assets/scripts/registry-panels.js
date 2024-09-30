@@ -1,45 +1,76 @@
+function _applyClasses(endY, initialY, listPanel) {
+
+  const diff = Math.abs(initialY - endY);
+  console.log('diff', diff);
+  if(diff <= 50) return;
+  if (endY >= initialY) {
+    if (listPanel.classList.contains('half')) {
+      listPanel.classList.remove('half');
+      listPanel.classList.add('minimal');
+    }
+    if (listPanel.classList.contains('full')) {
+      listPanel.classList.remove('full');
+      listPanel.classList.add('half');
+    }
+
+  }
+  if (endY <= initialY) {
+    if (listPanel.classList.contains('full')) {
+      listPanel.classList.remove('full');
+      listPanel.classList.add('half');
+    }
+    if (listPanel.classList.contains('half')) {
+      listPanel.classList.remove('half');
+      listPanel.classList.add('full');
+    }
+    if (listPanel.classList.contains('minimal')) {
+      listPanel.classList.remove('minimal');
+      listPanel.classList.add('half');
+    }
+  }
+
+  listPanel.style.top = null;
+
+}
+
 window.addEventListener('DOMContentLoaded', () => {
   const divider = document.querySelector('.divider');
-  let listPanel = document.querySelector('.list-panel');
+  const mapPanel = document.querySelector('#map');
+  const listPanel = document.querySelector('#list-container');
+
   const main = document.querySelector('main');
 
   let isDragging = false;
   let initialX = 0;
+  let initialY = 0;
   let panelWidth = 0;
+  let panelHeight = 0;
 
   divider.addEventListener('mousedown', (event) => {
-    isDragging = true;
     initialX = event.clientX;
+    initialY = event.clientY;
     panelWidth = listPanel.offsetWidth;
+    panelHeight = listPanel.offsetHeight;
+    isDragging=true;
   });
 
   document.addEventListener('mousemove', (event) => {
     if (isDragging) {
-      const deltaX = event.clientX - initialX;
-      const newWidth = panelWidth + deltaX;
-
-      // Snap to 100%, 50%, or minimal width
-      const snappedWidth = snapTo(newWidth, [0, panelWidth / 2, panelWidth]);
-
-      listPanel.style.width = `${snappedWidth}px`;
-
-    // Update class based on snapped width
-    if (snappedWidth === panelWidth) {
-      listPanel.classList.remove('half-width', 'minimal-width');
-      listPanel.classList.add('full-width');
-    } else if (snappedWidth === panelWidth / 2) {
-      listPanel.classList.remove('full-width', 'minimal-width');
-      listPanel.classList.add('half-width');
-    } else {
-      listPanel.classList.remove('full-width', 'half-width');
-      listPanel.classList.add('minimal-width');
-    }
+      listPanel.style.top = `${event.clientY}px`;
     }
   });
 
-  document.addEventListener('mouseup', () => {
+  document.addEventListener('mouseup', (event) => {
     isDragging = false;
+    endY = event.clientY;
+    console.log('initialY', initialY)
+    console.log('endY', endY)
+    // listPanel.style.top = null;
+    _applyClasses(endY, initialY, listPanel);
+    // listPanel.style.top = 'initial';
+    // handleSwipe();
   });
+
 
   function snapTo(value, targets) {
     let closestTarget = targets[0];
@@ -62,11 +93,11 @@ window.addEventListener('DOMContentLoaded', () => {
   let endY = 0; // To track the end touch point
 
   // const listPanel = document.querySelector('.list-panel');
-  const handle = document.querySelector('.handle');
+  const handle = document.querySelector('#header-container');
 
   function handleSwipe() {
     const swipeDistance = startY - endY; // Calculate swipe distance
-    if (swipeDistance > 30) {
+    if (swipeDistance > 10) {
       if (panelState === 'minimal') {
         listPanel.classList.remove('minimal');
         listPanel.classList.add('half');
@@ -78,7 +109,7 @@ window.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    if (swipeDistance < -30) {
+    if (swipeDistance < -10) {
       if (panelState === 'full') {
         listPanel.classList.remove('full');
         listPanel.classList.add('half');
@@ -89,18 +120,25 @@ window.addEventListener('DOMContentLoaded', () => {
         panelState = 'minimal';
       }
     }
+    map.invalidateSize();
   }
 
   handle.addEventListener('touchstart', (event) => {
     console.log('touchstart',event);
     startY = event.touches[0].clientY; // Record the starting Y position
+    isDragging=true;
   });
+  handle.addEventListener('touchmove', (event) => {
+    listPanel.style.top = `${event.touches[0].clientY}px`;
 
+  });
   handle.addEventListener('touchend', (event) => {
     console.log('touchend',event);
     endY = event.changedTouches[0].clientY; // Record the ending Y position
     handleSwipe(); // Handle the swipe after touch ends
     map.invalidateSize();
+    listPanel.style.top = null;
+    isDragging=false;
   });
 
 });
