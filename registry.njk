@@ -22,13 +22,13 @@ templateClass: 'registry'
 <main class="{{ templateClass }}">
     <!-- Flexbox-Container für Suchfeld und Reset-Button -->
     <div id="filter-container">
-        <input type="search" id="search" placeholder="Filter list" />
-        <button id="reset">&#x2715;</button>
+        <input type="search" id="search" placeholder="Filter list" autocomplete="false" />
+        <button id="reset" title="reset search">&#x2715;</button>
     </div>
     <section id="map" class="panel map-panel"></section>
 
 
-    <search id="list-container" class="panel list-panel half">
+    <search id="list-container" class="panel list-panel minimal">
         <div id="header-container">
           <div class="divider">
             <span class="handle"></span>
@@ -43,6 +43,7 @@ templateClass: 'registry'
               If you are using TEI Publisher, please let us know. Send us the title of your edition, a postal address, url, email and a very short description:
               <a href="mailto:info@e-editiones.org">info@e-editiones.org</a>
           </div>
+          <!-- span class="more"></span -->
 
           <ul id="entries"></ul>
         </section>

@@ -1,31 +1,47 @@
+function removeSizingClasses(){
+  const listPanel = document.querySelector('#list-container');
+  listPanel.classList.remove('minimal');
+  listPanel.classList.remove('half');
+  listPanel.classList.remove('full');
+}
+
 function _applyClasses(endY, initialY, listPanel) {
 
   const diff = Math.abs(initialY - endY);
-  console.log('diff', diff);
+  // console.log('diff', diff);
   if(diff <= 50) return;
   if (endY >= initialY) {
+    // console.log('smaller')
     if (listPanel.classList.contains('half')) {
-      listPanel.classList.remove('half');
+      removeSizingClasses();
       listPanel.classList.add('minimal');
+      panelState = 'minimal';
     }
     if (listPanel.classList.contains('full')) {
-      listPanel.classList.remove('full');
+      removeSizingClasses();
       listPanel.classList.add('half');
+      panelState = 'half';
     }
 
   }
   if (endY <= initialY) {
     if (listPanel.classList.contains('full')) {
-      listPanel.classList.remove('full');
+      removeSizingClasses();
       listPanel.classList.add('half');
+      panelState = 'half';
+
     }
     if (listPanel.classList.contains('half')) {
-      listPanel.classList.remove('half');
+      removeSizingClasses();
       listPanel.classList.add('full');
+      panelState = 'full';
+
     }
     if (listPanel.classList.contains('minimal')) {
-      listPanel.classList.remove('minimal');
+      removeSizingClasses();
       listPanel.classList.add('half');
+      panelState = 'half';
+
     }
   }
 
@@ -37,6 +53,8 @@ window.addEventListener('DOMContentLoaded', () => {
   const divider = document.querySelector('.divider');
   const mapPanel = document.querySelector('#map');
   const listPanel = document.querySelector('#list-container');
+  const search = document.querySelector('#search');
+
 
   const main = document.querySelector('main');
 
@@ -65,11 +83,17 @@ window.addEventListener('DOMContentLoaded', () => {
     endY = event.clientY;
     console.log('initialY', initialY)
     console.log('endY', endY)
-    // listPanel.style.top = null;
+    if(initialY == 0) return;
     _applyClasses(endY, initialY, listPanel);
-    // listPanel.style.top = 'initial';
-    // handleSwipe();
+    setTimeout(function(){ map.invalidateSize()}, 400);
   });
+
+  search.addEventListener('focus', event => {
+    // listPanel.classList.remove(...listPanel.classList);
+    removeSizingClasses();
+    listPanel.classList.add('full');
+  });
+
 
 
   function snapTo(value, targets) {
@@ -97,25 +121,25 @@ window.addEventListener('DOMContentLoaded', () => {
 
   function handleSwipe() {
     const swipeDistance = startY - endY; // Calculate swipe distance
-    if (swipeDistance > 10) {
+    if (swipeDistance > 50) {
       if (panelState === 'minimal') {
-        listPanel.classList.remove('minimal');
+        removeSizingClasses();
         listPanel.classList.add('half');
         panelState = 'half';
       } else if (panelState === 'half') {
-        listPanel.classList.remove('half');
+        removeSizingClasses();
         listPanel.classList.add('full');
         panelState = 'full';
       }
     }
 
-    if (swipeDistance < -10) {
+    if (swipeDistance < -50) {
       if (panelState === 'full') {
-        listPanel.classList.remove('full');
+        removeSizingClasses();
         listPanel.classList.add('half');
         panelState = 'half';
       } else if (panelState === 'half') {
-        listPanel.classList.remove('half');
+        removeSizingClasses();
         listPanel.classList.add('minimal');
         panelState = 'minimal';
       }

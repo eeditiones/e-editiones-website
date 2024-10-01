@@ -4,24 +4,37 @@ body{
   width: 100vw;
   overflow: hidden;
 }
+.more{
+  display: inline-block;
+  width:1rem;
+  height: 0.5rem;
+  border:thin solid;
+}
 main{
   margin:0;
 
   h1{
-    font-size: clamp(1.4rem, 3.5vw, 2.488rem);;
+    font-size: clamp(1rem, 3.5vw, 2.488rem);;
     margin:0;
-    padding: 0.5rem 0;
+    padding: 0 0 1rem 0;
   }
 
   h2{
-    font-size: clamp(1.2rem, 7vw, 1.8rem);
+    font-size: clamp(1rem, 3vw, 1.8rem);
     margin:0;
     padding: 0.75rem 0;
+    cursor: pointer;
   }
 
 }
+ul{
+  padding: 0;
+  list-style: none;
+}
 
-
+#header-container{
+  border-bottom: thin solid lightgrey;
+}
 button#reset {
   border-radius: 50%;
   width: 1.5rem;
@@ -38,7 +51,9 @@ button#reset {
 .panel {
   padding: 1rem 0;
 }
-
+.map-panel{
+  background: white;
+}
 .divider {
   background-color: white;
   cursor: ew-resize; /* Resize cursor for dragging */
@@ -60,10 +75,23 @@ button#reset {
   border:thin solid;
 }
 
-#info-box{
-  font-size: 0.9rem;
-  font-style:italic;
+#info-box {
+  font-size: 0.8rem;
+  font-style: italic;
+  line-height: 1.2;
+  width: calc(100% - 1rem);
 }
+.scroll-container{
+  overflow-y:scroll;
+  height: 100vh;
+  /*width:100vw;*/
+  padding:0 0.5rem;
+  padding-bottom:22rem;
+}
+#list-container{
+  padding: 1rem;
+}
+
 /* Mobile portrait */
 /* Mobile portrait */
 /* Mobile portrait */
@@ -75,11 +103,20 @@ button#reset {
     margin-top:4.25rem;
     padding: 0;
   }
+  h1{
+    text-align: center;
+  }
   main:has(.full) .map-panel{
     height: 15vh;
+    visibility: hidden;
   }
+  main:has(.full) #info-box{
+    display: none;
+  }
+
   main:has(.full) #list-container{
-    top:8.5rem;
+    /*top:8.5rem;*/
+    top:166px;
   }
   /*
   main:has(.full) #filter-container{
@@ -90,16 +127,34 @@ button#reset {
     height: 50vh;
   }
   main:has(.minimal) .map-panel{
-    height: 100vh;
+    height: 80vh;
+  }
+  main:has(.minimal) .leaflet-map-pane{
+    /*
+    top:-2.25rem;
+    position: fixed;
+    */
+    position: absolute;
+    top:0;
+    background: lightgrey;
   }
   main:has(.minimal) #list-container{
-    top:83vh;
+    top:calc(100vh - 10rem);
+  }
+  main:has(.minimal) #entries{
+    display: none;
+  }
+  main:has(.minimal) #header-container{
+    border:none;
   }
   main:has(.minimal) .scroll-container{
     overflow: hidden;
   }
   main:has(.leaflet-popup) #filter-container{
     z-index: -1;
+  }
+  .leaflet-control-container{
+    display: none;
   }
   .leaflet-popup{
     overflow: hidden;
@@ -114,30 +169,32 @@ button#reset {
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: clamp(0.8rem, 2vw, 1rem);
-    line-height: 1.3rem;
+    line-height: 1;
+    max-width: calc(100% - 1rem);
   }
   #filter-container{
     position: fixed;
-    z-index: 500;
+    z-index: 700;
     top: 5rem;
-    right: 0.5rem;
+    left:50%;
+    transform:translateX(-50%);
     width: calc(100vw - 3rem);
     overflow: hidden;
   }
   .divider{
     width: 100vw;
-    height: 2rem;
+    height: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -0.5rem;
     background: transparent;
   }
   .map-panel {
     height: calc(50vh); /* map is overlapped a bit by list-container to show it border-radius */
   }
 
-  .list-panel {
+  /*.list-panel {*/
+  #list-container{
     position: fixed;
     height: calc(100vh - 4.25rem);
     /*top: 4.25rem;*/
@@ -147,19 +204,24 @@ button#reset {
     width: 100vw;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+
     overflow: hidden;
     padding: 0.25rem 0.5rem;
+    transition: top 0.4s;
+    box-shadow: 0.1rem 0.2rem .5rem #999999;
   }
   panel{
     padding: 0.25rem;
   }
+  /*
   .scroll-container{
     overflow-y:scroll;
     height: 100vh;
-    width:100vw;
+    !*width:100vw;*!
     padding:0 0.5rem;
     padding-bottom:22rem;
   }
+  */
 
   /*
   .list-panel.full-height {
@@ -174,10 +236,6 @@ button#reset {
     height: calc(20vh - 50px); !* Adjust minimal height as needed *!
   }
   */
-  ul{
-    padding: 0;
-    list-style: none;
-  }
 
   /*
   .divider {
@@ -196,8 +254,8 @@ button#reset {
     position:fixed;
     z-index:500;
     top: 5rem;
-    right: 0;
-    width:calc(50vw - 3rem);
+    right: 1rem;
+    width:calc(50vw - 5rem);
   }
   #search{
 

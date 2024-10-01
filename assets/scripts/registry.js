@@ -93,8 +93,14 @@ function createListItem(item) {
     const selectedMarker = markers.find(
       (markerObj) => markerObj.data === item
     ).marker;
+
+    // setTimeout(function(){
+      removeSizingClasses();
+      document.querySelector('#list-container').classList.add('minimal');
+    // },400);
+
     map.setView(selectedMarker.getLatLng(), 14);
-    selectedMarker.openPopup();
+    setTimeout(function(){selectedMarker.openPopup()}, 600);
   });
 
   return listItem;
@@ -121,8 +127,17 @@ map.on("moveend", function () {
 document.getElementById("reset").addEventListener("click", function () {
   document.getElementById("search").value = "";
   filteredData = data;
+/*
   updateMap();
   updateList();
+*/
+  setTimeout(function(){updateMap()}, 600);
+  setTimeout(function(){updateList()}, 600);
+  setTimeout(function(){ map.invalidateSize()}, 600);
+
+  document.querySelector('#list-container').classList.remove('full');
+  document.querySelector('#list-container').classList.remove('half');
+  document.querySelector('#list-container').classList.add('minimal');
 });
 
 
