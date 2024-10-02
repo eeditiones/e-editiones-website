@@ -101,6 +101,8 @@ function createListItem(item) {
 
     map.setView(selectedMarker.getLatLng(), 14);
     setTimeout(function(){selectedMarker.openPopup()}, 600);
+    setTimeout(function(){ map.invalidateSize()}, 600);
+
   });
 
   return listItem;
@@ -116,8 +118,13 @@ document.getElementById("search").addEventListener("input", function () {
       item.url.toLowerCase().includes(searchTerm) ||
       item.email.toLowerCase().includes(searchTerm)
   );
+/*
   updateMap();
   updateList();
+*/
+  setTimeout(function(){updateMap()}, 600);
+  setTimeout(function(){updateList()}, 600);
+
 });
 
 map.on("moveend", function () {
