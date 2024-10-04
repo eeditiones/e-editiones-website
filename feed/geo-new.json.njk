@@ -1,0 +1,19 @@
+---
+# Metadata comes from _data/metadata.json
+permalink: "/feed/geo-new.json"
+eleventyExcludeFromCollections: true
+---
+
+[
+  {% for place in geodata %}
+  {
+    "name": "{{place.name}}",
+    "address": "{{place.address}}",
+    "latitude": "{{place.latitude}}",
+    "longitude": "{{place.longitude}}",
+    "description": "{{place.description | nl2br | striptags}}",
+    "url": "{{place.url}}",
+    "email": "{{place.email}}"
+  }{% if loop.index < loop.length %},{% endif %}
+  {% endfor %}
+]
