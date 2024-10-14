@@ -11,9 +11,9 @@ If you want to dive in straight away go to the [TEI Publisher Documentation](htt
 
 ## TEI Publisher From Scratch
 
-To get started you can work through our workshop «TEI Publisher From Scratch». It is recommended to first view the instructions by Wolfgang Meier. If you have to catch up with some technologies or standards you will find helpful links and literature below.
+We collect the materials prepared for different training events in [this Github repository](https://github.com/eeditiones/workshop/). To get started, you can work through our most comprehensive workshop: «TEI Publisher From Scratch». It is recommended to first view the instructions by Wolfgang Meier. If you have to catch up with some technologies or standards you will find helpful links and literature below.
 
-[GitHub repository of the workshop](https://github.com/eeditiones/workshop/)
+[Workshop instructions](https://github.com/eeditiones/workshop/blob/master/2020-06_tp-from-scratch.md)
 
 ### Part 1
 
