@@ -76,6 +76,9 @@ a[href]:link {
 a[href]:hover {
   text-decoration: underline;
 }
+a:focus{
+  outline: none;
+}
 
 .badge {
   --bs-badge-font-size: var(--font-size-small);

@@ -3,6 +3,9 @@ html {
   --menu-icon: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+.navbar{
+  height: 100%;
+}
 .navbar-toggler {
   padding: 0.1rem;
   margin: 3px;
@@ -40,14 +43,18 @@ body {
   border: thin solid;
 }
 
+/*
 .navbar {
   padding: 0.1rem;
   height: auto;
 }
+*/
 
+/*
 nav.navbar.navbar-expand-lg {
   overflow: auto;
 }
+*/
 
 .navbar-brand {
   height: 2rem;
@@ -56,7 +63,7 @@ nav.navbar.navbar-expand-lg {
 
 main {
   margin: 0;
-  margin-top: 55px;
+  margin-top: 75px;
   padding: 0;
 
   h1 {
@@ -81,7 +88,9 @@ ul {
   padding: 0;
   list-style: none;
 }
-
+header{
+  height: 75px;
+}
 #header-container {
   border-bottom: thin solid lightgrey;
 }
@@ -294,7 +303,7 @@ button#reset {
   #filter-container {
     position: fixed;
     z-index: 500;
-    top: 3.5rem;
+    top: 4.5rem;
     right: 1rem;
     width: calc(50vw - 5rem);
   }
