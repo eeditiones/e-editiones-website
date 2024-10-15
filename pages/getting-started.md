@@ -24,7 +24,7 @@ We collect the materials prepared for different training events in [this Github 
 - Using modelSequence
 - Showing Metadata from the teiHeader
 
-[Workshop Live recording (Video)](https://www.youtube.com/watch?v=QuWrfAS2SWM) [Slides](https://github.com/eeditiones/workshop/blob/master/e-editiones-workshop-20200608.pdf) [Assignments](https://github.com/eeditiones/workshop/blob/master/assignments/A1.md)  
+[Workshop Live recording (Video)](https://www.youtube.com/watch?v=QuWrfAS2SWM) [Slides](https://github.com/eeditiones/workshop/blob/master/slides/e-editiones-workshop-20200608.pdf) [Assignments](https://github.com/eeditiones/workshop/blob/master/assignments/A1.md)  
 [Solutions (Video)](https://www.youtube.com/watch?v=WhcDzCaVzYs&feature=youtu.be)
 
 ### Part 2
@@ -33,7 +33,7 @@ We collect the materials prepared for different training events in [this Github 
 - Output metadata in a separate column
 - Display additional metadata
 
-[Workshop Live recording (Video)](https://www.youtube.com/watch?v=5qu94bhftpk) [Slides](https://github.com/eeditiones/workshop/blob/master/e-editiones-workshop-20200614.pdf)  
+[Workshop Live recording (Video)](https://www.youtube.com/watch?v=5qu94bhftpk) [Slides](https://github.com/eeditiones/workshop/blob/master/slides/e-editiones-workshop-20200614.pdf)  
 [Assignments](https://github.com/eeditiones/workshop/blob/master/assignments/A2.md)  
 [Solutions (Video)](https://www.youtube.com/watch?v=8JUAwjvDCGw)
 
@@ -44,7 +44,7 @@ We collect the materials prepared for different training events in [this Github 
 - Global document styles
 - Download the application to local disk
 
-[Workshop Live recording (Video)](https://www.youtube.com/watch?v=FS36nYFlTbE) [Slides](https://github.com/eeditiones/workshop/blob/master/e-editiones-workshop-20200622.pdf) [Assignements](https://github.com/eeditiones/workshop/blob/master/assignments/A3.md) [Solutions (Video)](https://youtu.be/HxCo303tgOk)
+[Workshop Live recording (Video)](https://www.youtube.com/watch?v=FS36nYFlTbE) [Slides](https://github.com/eeditiones/workshop/blob/master/slides/e-editiones-workshop-20200622.pdf) [Assignements](https://github.com/eeditiones/workshop/blob/master/assignments/A3.md) [Solutions (Video)](https://youtu.be/HxCo303tgOk)
 
 ## Helpful Literature and Websites
 
