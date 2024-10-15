@@ -482,17 +482,27 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/static/</loc>
+    <lastmod>2024-10-15</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/announcements/</loc>
     <lastmod>2024-10-15</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/e-editiones/</loc>
+    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
     <lastmod>2024-10-15</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/static/</loc>
+    <loc>https://e-editiones.org/tags/release/</loc>
+    <lastmod>2024-10-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/annotations/</loc>
     <lastmod>2024-10-15</lastmod>
   </url>
   
@@ -512,6 +522,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/e-editiones/</loc>
+    <lastmod>2024-10-15</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/awards/</loc>
     <lastmod>2024-10-15</lastmod>
   </url>
@@ -523,21 +538,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/schema/</loc>
-    <lastmod>2024-10-15</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
-    <lastmod>2024-10-15</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/release/</loc>
-    <lastmod>2024-10-15</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/annotations/</loc>
     <lastmod>2024-10-15</lastmod>
   </url>
   
@@ -582,6 +582,16 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <lastmod>2024-10-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/grants/</loc>
+    <lastmod>2024-10-15</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/conference/</loc>
     <lastmod>2024-10-15</lastmod>
   </url>
@@ -598,16 +608,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/best-practice/</loc>
-    <lastmod>2024-10-15</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/ukraine/</loc>
-    <lastmod>2024-10-15</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/grants/</loc>
     <lastmod>2024-10-15</lastmod>
   </url>
   
@@ -637,11 +637,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/hosting/</loc>
-    <lastmod>2024-10-15</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/intermediate/</loc>
     <lastmod>2024-10-15</lastmod>
   </url>
@@ -653,6 +648,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/ner/</loc>
+    <lastmod>2024-10-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/hosting/</loc>
     <lastmod>2024-10-15</lastmod>
   </url>
   
