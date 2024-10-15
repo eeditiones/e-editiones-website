@@ -11,9 +11,9 @@ If you want to dive in straight away go to the [TEI Publisher Documentation](htt
 
 ## TEI Publisher From Scratch
 
-To get started you can work through our workshop «TEI Publisher From Scratch». It is recommended to first view the instructions by Wolfgang Meier. If you have to catch up with some technologies or standards you will find helpful links and literature below.
+We collect the materials prepared for different training events in [this Github repository](https://github.com/eeditiones/workshop/). To get started, you can work through our most comprehensive workshop: «TEI Publisher From Scratch». It is recommended to first view the instructions by Wolfgang Meier. If you have to catch up with some technologies or standards you will find helpful links and literature below.
 
-[GitHub repository of the workshop](https://github.com/eeditiones/workshop/)
+[Workshop instructions](https://github.com/eeditiones/workshop/blob/master/2020-06_tp-from-scratch.md)
 
 ### Part 1
 
@@ -24,7 +24,7 @@ To get started you can work through our workshop «TEI Publisher From Scratch».
 - Using modelSequence
 - Showing Metadata from the teiHeader
 
-[Workshop Live recording (Video)](https://www.youtube.com/watch?v=QuWrfAS2SWM) [Slides](https://github.com/eeditiones/workshop/blob/master/e-editiones-workshop-20200608.pdf) [Assignments](https://github.com/eeditiones/workshop/blob/master/assignments/A1.md)  
+[Workshop Live recording (Video)](https://www.youtube.com/watch?v=QuWrfAS2SWM) [Slides](https://github.com/eeditiones/workshop/blob/master/slides/e-editiones-workshop-20200608.pdf) [Assignments](https://github.com/eeditiones/workshop/blob/master/assignments/A1.md)  
 [Solutions (Video)](https://www.youtube.com/watch?v=WhcDzCaVzYs&feature=youtu.be)
 
 ### Part 2
@@ -33,7 +33,7 @@ To get started you can work through our workshop «TEI Publisher From Scratch».
 - Output metadata in a separate column
 - Display additional metadata
 
-[Workshop Live recording (Video)](https://www.youtube.com/watch?v=5qu94bhftpk) [Slides](https://github.com/eeditiones/workshop/blob/master/e-editiones-workshop-20200614.pdf)  
+[Workshop Live recording (Video)](https://www.youtube.com/watch?v=5qu94bhftpk) [Slides](https://github.com/eeditiones/workshop/blob/master/slides/e-editiones-workshop-20200614.pdf)  
 [Assignments](https://github.com/eeditiones/workshop/blob/master/assignments/A2.md)  
 [Solutions (Video)](https://www.youtube.com/watch?v=8JUAwjvDCGw)
 
@@ -44,7 +44,7 @@ To get started you can work through our workshop «TEI Publisher From Scratch».
 - Global document styles
 - Download the application to local disk
 
-[Workshop Live recording (Video)](https://www.youtube.com/watch?v=FS36nYFlTbE) [Slides](https://github.com/eeditiones/workshop/blob/master/e-editiones-workshop-20200622.pdf) [Assignements](https://github.com/eeditiones/workshop/blob/master/assignments/A3.md) [Solutions (Video)](https://youtu.be/HxCo303tgOk)
+[Workshop Live recording (Video)](https://www.youtube.com/watch?v=FS36nYFlTbE) [Slides](https://github.com/eeditiones/workshop/blob/master/slides/e-editiones-workshop-20200622.pdf) [Assignements](https://github.com/eeditiones/workshop/blob/master/assignments/A3.md) [Solutions (Video)](https://youtu.be/HxCo303tgOk)
 
 ## Helpful Literature and Websites
 
