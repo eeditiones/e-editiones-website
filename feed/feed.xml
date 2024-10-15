@@ -5,12 +5,54 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2024-08-22T00:00:00Z</updated>
+	<updated>2024-10-15T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Register of Older Slovenian Manuscripts</title>
+		<link href="https://e-editiones.org/posts/register-slovenian-manuscripts/"/>
+		<updated>2024-10-15T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/register-slovenian-manuscripts/</id>
+		<content type="html">&lt;p&gt;Slovenian literature in the long period between the Reformation in the 16th century and
+Romanticism in the 19th century appears in a new light when viewed through manuscripts. As in
+the case of other literatures, we have known Slovenian literature of the modern period only
+through the prism of printed books. Manuscripts have been neglected by older literary scholars.
+As a result, many Slovenian manuscripts from previous centuries are completely unknown.&lt;/p&gt;
+&lt;p&gt;That&#39;s why at the Research Centre of the Slovenian Academy of Sciences and Arts, we have
+created the &lt;a href=&quot;https://rrss.manuscripta.zrc-sazu.si/&quot;&gt;Register of Older Slovenian Manuscripts&lt;/a&gt;, using TEI Publisher to display our TEI
+encoded data. Each &lt;msDesc&gt; description combines four separate blocks of data according to the
+guidelines: identifier, manuscript content, codicological description and manuscript history.&lt;/msDesc&gt;&lt;/p&gt;
+&lt;p&gt;This is a small but long-term project begun in 2011 that we are working on here and there, but
+it is an important support for other research. So far we have described 200 manuscripts in the
+register, for a half of them, digital images are provided (14.000 pages).&lt;/p&gt;
+&lt;p&gt;Most of the manuscripts are anonymous, but it has almost always been possible to determine
+whether a manuscript was written in a monastery, or by a diocesan priest, or in a bourgeois
+environment, or among peasants in a village, or by a churchwarden, or a schoolteacher, etc. We
+have therefore created a typology of these social contexts in which the manuscripts came into
+existence, and labelled our &lt;msDesc&gt; according to this typology. The TEI Publisher has shown
+excellent agility and speed in this and similar requests.&lt;/msDesc&gt;&lt;/p&gt;
+&lt;p&gt;Our manuscript descriptions and digital facsimiles reveal a hitherto unknown reality: from the
+17th to the 19th century, many texts were produced in Slovenian which, for economic and
+ideological reasons, could not be printed but were circulated only in transcript form. This has led
+to the discovery of a new phenomenon: the Slovenian manuscript culture of the Baroque period
+and its long-lived extensions into the 19th century.&lt;/p&gt;
+&lt;p&gt;If the printed book was the fundamental form of existence of Slovenian literature in the 16th
+century (or print coexisted with manuscripts, but the manuscripts perished), then in the 17th and
+18th centuries it was the other way round: for a long time the manuscript was the fundamental
+form of existence of Slovenian literature, the book sometimes accompanied the manuscript,
+sometimes not. Our Register faithfully records the complicated relationships between printed
+books, which were no longer available in later times, and manuscripts, which restored and
+transmitted the texts of these inaccessible books.&lt;/p&gt;
+&lt;p&gt;Manuscript culture made writing and reading possible for both peasant writers and educated
+writers in the cities and in monasteries. It adapted flexibly to Slovenian dialects and to the wishes
+of people in small communities, which is why manuscript copying persisted stubbornly even into
+the 19th century.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>e-editiones community meeting: September 3 at 17:00 CEST</title>
