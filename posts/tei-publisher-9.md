@@ -17,7 +17,7 @@ coverImageCredits: Photo by <a href="https://pixabay.com/users/mabelamber-137783
 
 # IIIF manifests
 
-As showcased in the [Shakespeare sample](https://tei-publisher.com/exist/apps/tei-publisher/test/F-rom.xml) and app, TEI Publisher now supports generating IIIF presentation manifests and displaying them alongside the text. A presentation manifest combines a set of images together with metadata, so instead of displaying single facsimiles via the IIIF image service, we have a standardized description of all the images associated with a resource. While there are external tools for creating IIIF manifests, we can easily auto-generate them from the TEI header and page beginnings as long as those have `@facs` attributes from which the image service links can be determined. This is demonstrated in the Shakespeare sample but should work with any other TEI meeting the requirements.
+As showcased in the [Shakespeare sample](https://tei-publisher.org/exist/apps/tei-publisher/test/F-rom.xml) and app, TEI Publisher now supports generating IIIF presentation manifests and displaying them alongside the text. A presentation manifest combines a set of images together with metadata, so instead of displaying single facsimiles via the IIIF image service, we have a standardized description of all the images associated with a resource. While there are external tools for creating IIIF manifests, we can easily auto-generate them from the TEI header and page beginnings as long as those have `@facs` attributes from which the image service links can be determined. This is demonstrated in the Shakespeare sample but should work with any other TEI meeting the requirements.
 
 ![IIIF presentation manifest viewer](/img/publisher-9-iiif.png)
 
@@ -33,7 +33,7 @@ This version also brings the demise of the `teiSimplePrint` ODD, previously the 
 
 # Redesigned annotation editor
 
-The new [annotation editor](https://tei-publisher.com/exist/apps/tei-publisher/documentation/web-annotations) boasts a new, more user friendly and ergonomic layout with additional capacity to add or edit registry entries from within the editor. Furthermore, a function to find potential matches in other documents for the current annotation and review them on the spot is a long awaited feature, which promises to speed up the editing process without compromising quality or consistency.
+The new [annotation editor](https://tei-publisher.org/exist/apps/tei-publisher/documentation/web-annotations) boasts a new, more user friendly and ergonomic layout with additional capacity to add or edit registry entries from within the editor. Furthermore, a function to find potential matches in other documents for the current annotation and review them on the spot is a long awaited feature, which promises to speed up the editing process without compromising quality or consistency.
 
 ![Search and review occurrences of entity in other documents](/img/publisher-9-occurrences.png)
 
@@ -57,4 +57,4 @@ Apart from institutional support, we are grateful to all members of e-editiones 
 
 # Try it ...
 
-As usual you can try the latest version on the [TEI Publisher homepage](https://tei-publisher.com). Note that **write access is limited** on this server. To get the full experience, we suggest to install TEI Publisher locally. The easiest way is probably to use our [docker images](https://tei-publisher.com/exist/apps/tei-publisher/documentation/docker).
+As usual you can try the latest version on the [TEI Publisher homepage](https://tei-publisher.org). Note that **write access is limited** on this server. To get the full experience, we suggest to install TEI Publisher locally. The easiest way is probably to use our [docker images](https://tei-publisher.org/exist/apps/tei-publisher/documentation/docker).

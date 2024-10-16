@@ -24,23 +24,23 @@ With TEI Publisher 7, the entire server-side API can be viewed on a single docum
 
 ## The new API
 
-Looking at the first route of the _documents_ section [in the API](https://teipublisher.com/exist/apps/tei-publisher/api.html "in the API") (see screenshot below), it is easy to construct a URL which returns the source XML: the path template to use is `/api/document/{id}` and `{id}` should contain the path to a document - relative to the data root of TEI Publisher.
+Looking at the first route of the _documents_ section [in the API](https://tei-publisher.org/exist/apps/tei-publisher/api.html "in the API") (see screenshot below), it is easy to construct a URL which returns the source XML: the path template to use is `/api/document/{id}` and `{id}` should contain the path to a document - relative to the data root of TEI Publisher.
 
 ![Documents API screenshot](/img/documents-1024x359.png)
 
 So to retrieve the TEI/XML for _Graves' letter_, located in the file path `test/graves6.xml`, we can use the following URL:
 
-[https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml](https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml)
+[https://tei-publisher.org/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml](https://tei-publisher.org/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml)
 
 Note that the / in the path needs to be URL encoded with `%2F`. This is a requirement of the Open API specification.
 
 If instead of the TEI/XML we would like to see the letter rendered to HTML, we can use the third route in the list and simply add `/html` to the end of the URL:
 
-[https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml/html](https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml/html)
+[https://tei-publisher.org/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml/html](https://tei-publisher.org/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml/html)
 
 or if we prefer a PDF:
 
-[https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml/pdf](https://teipublisher.com/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml/pdf)
+[https://tei-publisher.org/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml/pdf](https://tei-publisher.org/exist/apps/tei-publisher/api/document/test%2Fgraves6.xml/pdf)
 
 For sure, as an ordinary user, you don't need to know any of this: using the web interface of TEI Publisher, the web components on the page take care of constructing and calling above URLs for you. But if you are a developer, having a well-defined API is a game changer. Just imagine that you want to support your co-workers with a script which allows them to preview a local TEI document as HTML on the fly: sending the content of the document with an HTTP POST request to `/api/preview` is all you need! Our [Visual Studio Code plugin](https://e-editiones.org/vscode/) does it like this.
 

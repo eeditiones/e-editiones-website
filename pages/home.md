@@ -5,7 +5,7 @@ date: "2019-09-07"
 
 e-editiones is an international non profit society consisting of owners of smaller and larger edition projects, cultural heritage institutions, and individual researchers. Its goal is to empower digital editions of cultural, scientific, and artistic works by promoting open standards related to digital editions and advancing open source applications based on them.
 
-While digital editions may differ considerably in structure and content, there is a large overlap in terms of the basic technical functionality that each edition must offer. Starting point for the initiators of the Society is their shared use of [TEI Publisher](https://teipublisher.com/index.html) – which originated from a project of the TEI community. This toolbox allows editions to reuse existing building blocks in a modular way.
+While digital editions may differ considerably in structure and content, there is a large overlap in terms of the basic technical functionality that each edition must offer. Starting point for the initiators of the Society is their shared use of [TEI Publisher](https://tei-publisher.org/index.html) – which originated from a project of the TEI community. This toolbox allows editions to reuse existing building blocks in a modular way.
 
 However, such software requires a constant exchange between developers and users, who are familiar with the technical requirements of their respective edition projects. The Society would like to put this exchange of information as well as the communication between edition projects on a firm footing.
 

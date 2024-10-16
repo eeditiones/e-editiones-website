@@ -82,7 +82,7 @@ eXist (5.0.0 or newer) by going to the dashboard and selecting TEI
 Publisher from the package manager.
 
 For more information refer to the
-[documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml)
-or visit the [homepage](https://teipublisher.com) to play around with
+[documentation](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml)
+or visit the [homepage](https://tei-publisher.org) to play around with
 it.
 

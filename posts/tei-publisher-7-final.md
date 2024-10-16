@@ -23,4 +23,4 @@ TEI Publisher 7 is thus more than just another technological milestone - it is t
 
 We're looking forward to continue this success story next year and would again like to invite everybody to become part of it. Support the common cause by becoming a member, convince your institutions to take part, and contribute in one of the many possible ways.
 
-Read the full release notes on the [TEI Publisher website](https://teipublisher.com/exist/apps/tei-publisher/doc/blog/tei-publisher-700.xml).
+Read the full release notes on the [TEI Publisher website](https://tei-publisher.org/exist/apps/tei-publisher/doc/blog/tei-publisher-700.xml).

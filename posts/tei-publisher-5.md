@@ -28,7 +28,7 @@ eXist will create them when indexing the document. No extra computation
 is needed when the user clicks on a facet to drill down into a displayed
 set: all information is already available in the index. By default TEI
 Publisher configures two facets: *Genre* and *Language* while [Van Gogh
-demo](https://teipublisher.com/exist/apps/vangogh/index.html) presents a
+demo](https://tei-publisher.org/exist/apps/vangogh/index.html) presents a
 more elaborate example of facets in action.
 
 ## Van Gogh demo
@@ -101,8 +101,8 @@ eXist (5.0.0 RC8 or newer) by going to the dashboard and selecting TEI
 Publisher from the package manager.
 
 For more information refer to the
-[documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml)
-or visit the [homepage](https://teipublisher.com) to play around with
+[documentation](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml)
+or visit the [homepage](https://tei-publisher.org) to play around with
 it.
 
 ## Thanks

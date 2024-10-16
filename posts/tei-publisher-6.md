@@ -24,7 +24,7 @@ This version also brings extended internationalization and full localization int
 
 ![Demo page of the pb-mei component](/img/mei-demo-1024x523.png)
 
-More information about this release can be found on the [TEI Publisher blog.](https://teipublisher.com/exist/apps/tei-publisher/doc/blog/tei-publisher-60.xml)
+More information about this release can be found on the [TEI Publisher blog.](https://tei-publisher.org/exist/apps/tei-publisher/doc/blog/tei-publisher-60.xml)
 
 A 3-part online course on TEI Publisher 6 has been led by Wolfgang Meier in June 2020. Video recordings of all the sessions, and a walk-through for the assignments are available for [self-study](https://github.com/eeditiones/workshop).
 

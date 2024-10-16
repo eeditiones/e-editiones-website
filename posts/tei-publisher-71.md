@@ -29,7 +29,7 @@ transcription.
 As usual, everything is customizable and extendable, so if you want a
 particular kind of annotation we do not support out of the box, it's not
 difficult to add your own or tinker existing ones. Read more in the
-[documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=web-annotations)
+[documentation](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml?id=web-annotations)
 
 ![](/img/ann-madrid.png)
 
@@ -67,7 +67,7 @@ extending the coverage for other, especially non-European languages.
 
 Version 7.1.0 is fully compatible with 7 except for some minor changes
 which are described in the
-[documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=upgrade7).
+[documentation](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml?id=upgrade7).
 
 ## Get It!
 
@@ -77,8 +77,8 @@ eXist (5.0.0 or newer) by going to the dashboard and selecting TEI
 Publisher from the package manager.
 
 For more information refer to the
-[documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml)
-or visit the [homepage](https://teipublisher.com) to play around with
+[documentation](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml)
+or visit the [homepage](https://tei-publisher.org) to play around with
 it.
 
 ## Thanks

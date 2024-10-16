@@ -19,7 +19,7 @@ coverImageCredits:
 Version 7 represents the logical next step on our mission to improve
 interoperability, sustainability and long-term maintenance of editions
 created with TEI Publisher. A major redesign to the server side allowed
-us to expose a well-defined, clear [API specification](https://teipublisher.com/exist/apps/tei-publisher/api.html)
+us to expose a well-defined, clear [API specification](https://tei-publisher.org/exist/apps/tei-publisher/api.html)
 following the Open API standard. Integrated Swagger UI allows you to
 visualize and interact with the API’s resources. Read more in [7.0.0
 Release Candidate notice](tei-publisher-70).
@@ -78,7 +78,7 @@ welcome.
 While version 7 tries to ensure that future updates will become much
 smoother, upgrading to 7 does still require a few manual steps, which
 are described in the
-[documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=update6-7).
+[documentation](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml?id=update6-7).
 
 ## Get It!
 
@@ -88,8 +88,8 @@ eXist (5.0.0 or newer) by going to the dashboard and selecting TEI
 Publisher from the package manager.
 
 For more information refer to the
-[documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml)
-or visit the [homepage](https://teipublisher.com) to play around with
+[documentation](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml)
+or visit the [homepage](https://tei-publisher.org) to play around with
 it.
 
 ## Thanks

@@ -32,7 +32,7 @@ arranged, recombined and extended.
 Earlier versions of TEI Publisher were limited to showing a single text
 view by default. Creating more complex layouts required at least basic
 XQuery, HTML and CSS skills. As
-[showcased](https://teipublisher.com/exist/apps/tei-publisher/index.html)
+[showcased](https://tei-publisher.org/exist/apps/tei-publisher/index.html)
 by the example documents, the new version allows users to realize custom
 views without actually writing code. Users can pick from a toolbox of
 ready-made components, including text views based on an ODD
@@ -40,7 +40,7 @@ transformation, IIIF-powered image viewers, maps and many more. All
 those building blocks come as custom HTML elements, which are easy to
 write and configure. Each of them encapsulates a certain functionality
 and appearance. Have a look at the
-[documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=webcomponents)
+[documentation](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml?id=webcomponents)
 and the web components API to see how to use components.
 
 ## Open Source
@@ -59,8 +59,8 @@ eXist (4.x.x series) by going to the dashboard and selecting TEI
 Publisher from the package manager.
 
 For more information refer to the
-[documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml)
-or visit the [homepage](https://teipublisher.com) to play around with
+[documentation](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml)
+or visit the [homepage](https://tei-publisher.org) to play around with
 it.
 
 ## Thanks

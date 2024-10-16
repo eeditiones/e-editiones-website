@@ -59,7 +59,7 @@ Finally, JATS (the Journal Publishing Tag Library) joins TEI and Docbook as a fu
 
 ## Compatibility and Upgrading
 
-Due to the breaking changes in associated libraries, updating a custom edition generated with TEI Publisher 7 to 8 requires several manual steps. While the list may look rather long, they are not very complex and can be applied quickly if you follow the [instructions](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml#upgrade7-8).
+Due to the breaking changes in associated libraries, updating a custom edition generated with TEI Publisher 7 to 8 requires several manual steps. While the list may look rather long, they are not very complex and can be applied quickly if you follow the [instructions](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml#upgrade7-8).
 
 Other particular changes to pay attention to:
 

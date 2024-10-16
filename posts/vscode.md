@@ -16,7 +16,7 @@ Enhancing TEI documents with semantic markup, i.e. encode places, people or term
 
 ## Where it all started: a Word plugin
 
-Within the Karl Barth edition, texts to be published in new volumes are encoded in Microsoft Word and transformed to TEI using TEI Publisher's powerful [docx2TEI conversion](https://teipublisher.com/exist/apps/tei-publisher/test/test.docx.xml) feature based on the TEI processing model.
+Within the Karl Barth edition, texts to be published in new volumes are encoded in Microsoft Word and transformed to TEI using TEI Publisher's powerful [docx2TEI conversion](https://tei-publisher.org/exist/apps/tei-publisher/test/test.docx.xml) feature based on the TEI processing model.
 
 To simplify semantic encoding, eXist Solutions created a **Word plugin** for the project, which allows editors to easily encode entities occurring within the text: select a string representing an entity, click a button and the plugin will run a query against the database of the Karl Barth Gesamtausgabe, showing potential matches for each possible category.
 

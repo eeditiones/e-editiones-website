@@ -24,7 +24,7 @@ e-editiones is an international non-profit society bringing together edition pro
 Get in contact with us via [email](mailto:info@e-editiones.org), [mailing list](https://www.e-editiones.org/pages/get-in-touch/#mailing-list), [Mastodon](https://social.e-editiones.org/@eeditiones), [Slack](https://www.e-editiones.org/pages/get-in-touch/#slack-community), [GitHub](https://github.com/eeditiones/), [LinkedIn](https://www.linkedin.com/company/e-editiones/) or [Twitter](https://x.com/eeditiones).
 
 ##### Become a Member
-Gain access to our knowledge hub and influence the future of the open-source tools we develop like [TEI Publisher](https://tei-publisher.com/) and [Roaster](https://github.com/eeditiones/roaster?tab=readme-ov-file#roaster). 
+Gain access to our knowledge hub and influence the future of the open-source tools we develop like [TEI Publisher](https://tei-publisher.org/) and [Roaster](https://github.com/eeditiones/roaster?tab=readme-ov-file#roaster). 
 
 Get advice for all steps in your edition project life-cycle:
 

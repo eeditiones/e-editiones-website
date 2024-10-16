@@ -7,7 +7,7 @@ eleventyNavigation:
     order: 1
 ---
 
-If you want to dive in straight away go to the [TEI Publisher Documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=odd-customization).
+If you want to dive in straight away go to the [TEI Publisher Documentation](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml?id=odd-customization).
 
 ## TEI Publisher From Scratch
 
@@ -52,7 +52,7 @@ Working with TEI Publisher requires some knowledge of TEI, basic XPath and a lit
 
 ### TEI Publisher Documentation
 
-- [TEI Publisher documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?odd=docbook.odd)
+- [TEI Publisher documentation](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml?odd=docbook.odd)
 
 ### XML
 
@@ -79,7 +79,7 @@ Working with TEI Publisher requires some knowledge of TEI, basic XPath and a lit
 ### TEI Processing Model
 
 - [Section 22.5.4.1 of the TEI Guidelines](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/TD.html#TDPMPM): the official specification of the TEI Processing Model
-- [TEI Publisher Documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=odd-customization)
+- [TEI Publisher Documentation](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml?id=odd-customization)
 
 ## TEI Publisher Hands on Workshop
 

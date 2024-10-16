@@ -25,10 +25,10 @@ In the simplest case, the texts may be aligned on the level of divisions
 or page breaks. Unfortunately things are not always as simple as that.
 TEI allows a wide variety of alignment mechanisms, some more complex
 than others. TEI Publisher 4.1.0 thus implements a generic mechanism to
-define a [mapping function](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=alignment) written
+define a [mapping function](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml?id=alignment) written
 in XQuery. This is a simple, yet powerful approach. The letter from
 [Cortés to Dantiscus
-(Mexico)](https://teipublisher.com/exist/apps/tei-publisher/test/cortes_to_dantiscus_Mexico.xml) showcases a rather
+(Mexico)](https://tei-publisher.org/exist/apps/tei-publisher/test/cortes_to_dantiscus_Mexico.xml) showcases a rather
 complex mapping.
 
 ## Van Gogh: Dynamic, Multi Column Example
@@ -67,7 +67,7 @@ eXist (4.x.x series) by going to the dashboard and selecting TEI
 Publisher from the package manager.
 
 For more information refer to the
-[documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml)
-or visit the [homepage](https://teipublisher.com) to play around with
+[documentation](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml)
+or visit the [homepage](https://tei-publisher.org) to play around with
 it.
 
