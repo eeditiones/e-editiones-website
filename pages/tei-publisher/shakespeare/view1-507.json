@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.16.29.27.11.25.83.33.395.51.102",
+    "rootNode": "3.5.4.16.29.27.11.25.83.33.395.51.102",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.16.29.27.11.25.83.33.403",
+    "previous": "3.5.4.16.29.27.11.25.83.33.395.51.36",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.16",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-div3\"><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0514_800px.jpg\"></pb-facs-link>\n                                                <span class=\"tei-fw2\">Elementarl. <span class=\"tei-hi document_aq\">II.</span> Th. <span class=\"tei-hi document_aq\">II.</span> Abth. <span class=\"tei-hi document_aq\">II.</span> Buch.\n                                                  <span class=\"tei-hi document_aq\">II.</span> Hauptſt.</span>\n                                                <br class=\"tei-lb3\"> einem abſoluten Ganzen zuſammengenommen, iſt\n                                                ſelbſt<br class=\"tei-lb3\"> eine Wahrnehmung. Dieſes All aber iſt es\n                                                eigentlich, deſſen<br class=\"tei-lb3\"> Erklaͤrung in den\n                                                transſcendentalen Vernunftaufgaben ge<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">fodert wird.</p>\n                                            \n                                            <p class=\"tei-p2\">Da alſo ſelbſt die Aufloͤſung dieſer Aufgaben\n                                                niemals<br class=\"tei-lb3\"> in der Erfahrung vorkommen kan, ſo\n                                                koͤnnet ihr nicht<br class=\"tei-lb3\"> ſagen: daß es ungewiß ſey,\n                                                was hieruͤber dem Gegen<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſtande\n                                                beyzulegen ſey. Denn euer Gegenſtand iſt blos in\n                                                  eu<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">rem Gehirne und kan auſſer\n                                                demſelben gar nicht gegeben<br class=\"tei-lb3\"> werden, daher ihr\n                                                nur davor zu ſorgen habt, mit euch<br class=\"tei-lb3\"> ſelbſt einig\n                                                zu werden und die Amphibolie zu verhuͤten,<br class=\"tei-lb3\"> die\n                                                eure Idee zu einer vermeintlichen Vorſtellung\n                                                eines<br class=\"tei-lb3\"> empiriſch Gegebenen und alſo auch nach\n                                                  Erfahrungsgeſe<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">tzen zu erkennenden\n                                                Obiects macht. Die dogmatiſche<br class=\"tei-lb3\"> Aufloͤſung iſt\n                                                alſo nicht etwa ungewiß, ſondern unmoͤg<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">lich. Die critiſche aber, welche\n                                                voͤllig gewiß ſeyn kan,<br class=\"tei-lb3\"> betrachtet die Frage\n                                                gar nicht obiectiv, ſondern nach dem<br class=\"tei-lb3\"> Fundamente\n                                                der Erkentniß, worauf ſie gegruͤndet iſt.</p>\n                                        </div>\n                                        <br class=\"tei-lb3\">\n                                        <div class=\"tei-fw5 catch\">Der</div>\n                                        <br class=\"tei-lb3\">\n                                        </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

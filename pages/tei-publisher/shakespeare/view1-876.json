@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.24.73.11.32",
+    "rootNode": "3.5.4.24.73.11.32",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.73.19.30",
+    "previous": "3.5.4.24.67",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_fr {\n   border:1px dotted silver\n}\n\n</style><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0883_800px.jpg\"></pb-facs-link>\n                        <span class=\"tei-fw2\">Die Geſchichte der reinen Vernunft.</span>\n                        <br class=\"tei-lb3\"> Welt gluͤcklich zu ſeyn, als den guten Lebenswandel. Da<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">her waren Theologie und Moral, die zwey Triebfedern,<br class=\"tei-lb3\"> oder beſſer,\n                        Beziehungspuncte zu allen abgezogenen Ver<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nunftforſchungen,\n                        denen man ſich nachher iederzeit gewid<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">met hat. Die erſtere\n                        war indeſſen eigentlich das, was die<br class=\"tei-lb3\"> blos ſpeculative Vernunft nach und\n                        nach in das Geſchaͤfte<br class=\"tei-lb3\"> zog, welches in der Folge unter dem Nahmen der\n                            Meta<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">phyſik ſo beruͤhmt geworden.</p>\n                    \n                    <p class=\"tei-p2\">Ich will iezt die Zeiten nicht unterſcheiden, auf wel<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">che\n                        dieſe oder iene Veraͤnderung der Metaphyſik traf, ſon<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">dern\n                        nur die Verſchiedenheit der Idee, welche die haupt<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſaͤchlichſte Revolutionen veranlaßte, in einem fluͤchtigen<br class=\"tei-lb3\"> Abriſſe\n                        darſtellen. Und da finde ich eine dreifache Abſicht,<br class=\"tei-lb3\"> in welcher die\n                        nahmhafteſte Veraͤnderungen auf dieſer Buͤh<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ne des Streits\n                        geſtiftet worden.</p>\n                    \n                    <p class=\"tei-p2\">1. In Anſehung des Gegenſtandes aller unſerer<br class=\"tei-lb3\"> Vernunfterkentniſſe, waren\n                        einige blos <span class=\"tei-hi document_fr\">Senſual</span>- andere<br class=\"tei-lb3\"> blos\n                        Intellectualphiloſophen. Epikur kan der vornehm<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſte Philoſoph\n                        der Sinnlichkeit, Plato des Intellectuellen<br class=\"tei-lb3\"> genant werden. Dieſer\n                        Unterſchied der Schulen aber, ſo<br class=\"tei-lb3\"> ſubtil er auch iſt, hatte ſchon in den\n                        fruͤheſten Zeiten an<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">gefangen und hat ſich lange\n                        ununterbrochen erhalten. Die<br class=\"tei-lb3\"> von der erſteren behaupteten: in den\n                        Gegenſtaͤnden der<br class=\"tei-lb3\"> Sinne ſey allein Wirklichkeit, alles uͤbrige ſey\n                        Einbildung;<br class=\"tei-lb3\"> die von der zweiten ſagten dagegen: in den Sinnen iſt<br class=\"tei-lb3\">\n                        </p><div class=\"tei-fw3\"><div class=\"catch\">nichts</div><div class=\"sig\">H h h 3</div></div>\n                        \n                        <br class=\"tei-lb3\">\n                        <p></p></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

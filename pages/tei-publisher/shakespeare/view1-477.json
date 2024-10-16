@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.16.29.27.11.25.83.33.307",
+    "rootNode": "3.5.4.16.29.27.11.25.83.33.307",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.16.29.27.11.25.83.33.317",
+    "previous": "3.5.4.16.29.27.11.25.83.33.297",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.16",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"tei-div3\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0484_800px.jpg\"></pb-facs-link>\n                                        <div class=\"tei-div3\" id=\"f0484\">\n                                            <div class=\"tei-div3\">\n                                                <div class=\"tei-div3\">\n                                                  <p class=\"tei-p2\">daß doch dieſe nothwendige\n                                                  Urſache ſelbſt zur Sinnenwelt<br class=\"tei-lb3\"> gehoͤrete. Nun\n                                                  iſt dieſes unmoͤglich. Denn, da der An<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">fang einer Zeitreihe nur durch\n                                                  dasienige, was der Zeit<br class=\"tei-lb3\"> nach vorhergeht,\n                                                  beſtimt werden kan: ſo muß die oberſte<br class=\"tei-lb3\">\n                                                  Bedingung des Anfangs einer Reihe von\n                                                  Veraͤnderungen<br class=\"tei-lb3\"> in der Zeit exiſtiren, da\n                                                  dieſe noch nicht war, (denn der<br class=\"tei-lb3\"> Anfang iſt\n                                                  ein Daſeyn, vor welchem eine Zeit vorhergeht,<br class=\"tei-lb3\">\n                                                  darin das Ding, welches anfaͤngt, noch nicht war).\n                                                  Alſo<br class=\"tei-lb3\"> gehoͤret die Cauſſalitaͤt der\n                                                  nothwendigen Urſache der Veraͤn<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">derungen, mithin auch die Urſache ſelbſt, zu der\n                                                  Zeit, mithin<br class=\"tei-lb3\"> zur Erſcheinung (an welcher die\n                                                  Zeit allein als deren Form<br class=\"tei-lb3\"> moͤglich iſt),\n                                                  folglich kan ſie von der Sinnenwelt, als dem<br class=\"tei-lb3\">\n                                                  Inbegriff aller Erſcheinungen, nicht abgeſondert\n                                                  gedacht<br class=\"tei-lb3\"> werden. Alſo iſt in der Welt ſelbſt\n                                                  etwas Schlechthinnoth<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">wendiges\n                                                  enthalten (es mag nun dieſes die ganze Welt<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">reihe ſelbſt, oder ein Theil derſelben\n                                                  ſeyn).</p>\n                                                </div>\n                                            </div>\n                                        </div>\n                                        <br class=\"tei-lb3\">\n                                        <div class=\"tei-fw5 catch\">\n                                            <span class=\"tei-supplied3\">An</span>\n                                        </div>\n                                        <br class=\"tei-lb3\">\n                                        </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

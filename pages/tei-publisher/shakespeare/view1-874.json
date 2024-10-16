@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.24.55.139.9",
+    "rootNode": "3.5.4.24.55.139.9",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.67",
+    "previous": "3.5.4.24.55.131.42",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_fr {\n   border:1px dotted silver\n}\n\n</style><div class=\"tei-div3\"><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0881_800px.jpg\"></pb-facs-link>\n                        <span class=\"tei-fw2\">Die Architectonik der reinen Vernunft.</span>\n                        <br class=\"tei-lb3\"> lich iſt, wenn man gleich ihren Einfluß, als Wiſſenſchaft,<br class=\"tei-lb3\"> auf\n                        gewiſſe beſtimte Zwecke bey Seite ſezt. Denn ſie be<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">trachtet\n                        die Vernunft nach ihren Elementen und oberſten<br class=\"tei-lb3\"> Maximen, die ſelbſt der\n                            <span class=\"tei-hi document_fr\">Moͤglichkeit</span> einiger Wiſſenſchaf<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ten und dem Gebrauche aller, zum Grunde liegen muͤſſen.<br class=\"tei-lb3\"> Daß ſie, als\n                        bloſſe Speculation, mehr dazu dient, Irr<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">thuͤmer abzuhalten,\n                        als Erkentniß zu erweitern, thut ih<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">rem Werthe keinen\n                        Abbruch, ſondern giebt ihr vielmehr<br class=\"tei-lb3\"> Wuͤrde und Anſehen durch das\n                        Cenſoramt, welches die<br class=\"tei-lb3\"> allgemeine Ordnung und Eintracht, ia den\n                        Wolſtand des<br class=\"tei-lb3\"> wiſſenſchaftlichen gemeinen Weſens ſichert und deſſen\n                            mu<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">thige und fruchtbare Bearbeitungen abhaͤlt, ſich nicht\n                        von<br class=\"tei-lb3\"> dem Hauptzwecke, der allgemeinen Gluͤckſeligkeit, zu ent<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">fernen.</p>\n                </div>\n                <br class=\"tei-lb3\">\n                \n                <div class=\"tei-fw3\"><div class=\"catch\">Der</div><div class=\"sig\">H h <span class=\"tei-gap3\"></span>\n                </div></div>\n                \n                <br class=\"tei-lb3\">\n                </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

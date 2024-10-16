@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.16.29.27.11.25.83.33.193",
+    "rootNode": "3.5.4.16.29.27.11.25.83.33.193",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.16.29.27.11.25.83.33.203",
+    "previous": "3.5.4.16.29.27.11.25.83.33.181",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.16",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-div3\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0472_800px.jpg\"></pb-facs-link>\n                                        <div class=\"tei-div3\" id=\"f0472\">\n                                            <div class=\"tei-div3\">\n                                                <div class=\"tei-div3\">\n                                                  <p class=\"tei-p2\">nas (nach Leibnitzens Gebrauch)\n                                                  ſolte wol nur auf das<br class=\"tei-lb3\"> Einfache gehen, welches\n                                                  unmittelbar als einfache Sub<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſtanz\n                                                  gegeben iſt (z. B. im Selbſtbewuſtſeyn) und nicht\n                                                  als<br class=\"tei-lb3\"> Element des Zuſammengeſezten, welches man\n                                                  beſſer den<br class=\"tei-lb3\"> Atomus nennen koͤnte. Und da ich\n                                                  nur in Anſehung des<br class=\"tei-lb3\"> Zuſammengeſezten die\n                                                  einfache Subſtanzen, als deren Ele<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">mente, beweiſen will, ſo koͤnte ich die\n                                                  Antitheſe der zwei<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ten Antinomie,\n                                                  die transſcendentale Atomiſtik nennen.<br class=\"tei-lb3\"> Weil\n                                                  aber dieſes Wort ſchon vorlaͤngſt zur\n                                                  Bezeichnung<br class=\"tei-lb3\"> einer beſondern Erklaͤrungsart\n                                                  coͤrperlicher Erſcheinungen<br class=\"tei-lb3\"> (<span class=\"tei-hi document_aq\">molecularum</span>) gebraucht\n                                                  worden, und alſo empiriſche<br class=\"tei-lb3\"> Begriffe\n                                                  vorausſezt, ſo mag er der dialectiſche\n                                                  Grundſatz<br class=\"tei-lb3\"> der Monadologie heiſſen.</p>\n                                                </div>\n                                            </div>\n                                        </div>\n                                        <br class=\"tei-lb3\">\n                                        <div class=\"tei-fw5 catch\">Der</div>\n                                        <br class=\"tei-lb3\">\n                                        </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

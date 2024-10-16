@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.24.39.23.123.36",
+    "rootNode": "3.5.4.24.39.23.123.36",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.39.35",
+    "previous": "3.5.4.24.39.23.119.41",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"tei-div3\"><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0849_800px.jpg\"></pb-facs-link>\n                            <span class=\"tei-fw2\">Vom Ideal des hoͤchſten Guts.</span>\n                            <br class=\"tei-lb3\"> wir gar keinen Begriff haben wuͤrden, wenn wir ihn nicht ie<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nen Geſetzen gemaͤß gebildet haͤtten. Wir werden, ſo\n                            weit<br class=\"tei-lb3\"> practiſche Vernunft uns zu fuͤhren das Recht hat, Hand<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">lungen nicht darum vor verbindlich halten, weil ſie\n                                Ge<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">bote Gottes ſind, ſondern ſie als goͤttliche\n                            Gebote anſehen,<br class=\"tei-lb3\"> darum, weil wir dazu innerlich verbindlich ſeyn.\n                            Wir<br class=\"tei-lb3\"> werden die Freiheit, unter der zweckmaͤſſigen Einheit nach<br class=\"tei-lb3\">\n                            Principien der Vernunft, ſtudiren, und nur ſo fern glau<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ben, dem goͤttlichen Willen gemaͤß zu ſeyn, als wir das<br class=\"tei-lb3\">\n                            Sittengeſetz, welches uns die Vernunft aus der Natur der<br class=\"tei-lb3\"> Handlungen\n                            ſelbſt lehrt, heilig halten, ihm dadurch allein<br class=\"tei-lb3\"> zu dienen glauben,\n                            daß wir das Weltbeſte an uns und an an<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">dern befoͤrdern.\n                            Die Moraltheologie iſt alſo nur von im<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">manentem\n                            Gebrauche, nemlich unſere Beſtimmung hier<br class=\"tei-lb3\"> in der Welt zu erfuͤllen,\n                            indem wir in das Syſtem aller<br class=\"tei-lb3\"> Zwecke paſſen und nicht\n                            ſchwaͤrmeriſch, oder wol gar fre<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">velhaft den Leitfaden\n                            einer moraliſchgeſetzgebenden Ver<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nunft im guten\n                            Lebenswandel zu verlaſſen, um ihn unmit<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">telbar an die\n                            Idee des hoͤchſten Weſens zu knuͤpfen, wel<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ches einen\n                            transſcendenten Gebrauch geben wuͤrde, aber<br class=\"tei-lb3\"> eben ſo, wie der, der\n                            bloſſen Speculation, die lezte Zwecke<br class=\"tei-lb3\"> der Vernunft verkehren und\n                            vereiteln muß.</p>\n                    </div>\n                    <br class=\"tei-lb3\">\n                    \n                    <div class=\"tei-fw3\"><div class=\"catch\">Des</div><div class=\"sig\">F f f 2</div></div>\n                    \n                    <br class=\"tei-lb3\">\n                    </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

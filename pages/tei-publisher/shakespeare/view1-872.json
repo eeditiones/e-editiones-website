@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.24.55.127.40",
+    "rootNode": "3.5.4.24.55.127.40",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.55.131.42",
+    "previous": "3.5.4.24.55.123.19",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0879_800px.jpg\"></pb-facs-link>\n                        <span class=\"tei-fw2\">Die Architectonik der reinen Vernunft.</span>\n                        <br class=\"tei-lb3\"> verſtatten muͤſſen und zwar aus oͤconomiſchen Bewegurſa<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">chen, weil ſie noch nicht ſo reich iſt, daß ſie allein ein Stu<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">dium ausmachen und doch zu wichtig, als daß man ſie<br class=\"tei-lb3\">\n                        ganz ausſtoſſen, oder anderwerts anheften ſolte, wo ſie<br class=\"tei-lb3\"> noch weniger\n                        Verwandſchaft als in der Metaphyſik antref<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">fen duͤrfte. Es\n                        iſt alſo blos ein ſo lange aufgenommener<br class=\"tei-lb3\"> Fremdling, dem man auf einige\n                        Zeit einen Aufenthalt<br class=\"tei-lb3\"> vergoͤnt, bis er in einer ausfuͤhrlichen\n                        Anthropologie (dem<br class=\"tei-lb3\"> Pendant zu der empiriſchen Naturlehre) ſeine eigene\n                            Be<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">hauſung wird beziehen koͤnnen.</p>\n                    \n                    <p class=\"tei-p2\">Das iſt alſo die allgemeine Idee der Metaphyſik,<br class=\"tei-lb3\"> welche, da man ihr\n                        anfaͤnglich mehr zumuthete, als billiger<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">weiſe verlangt\n                        werden kan und ſich eine zeitlang mit ange<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nehmen Erwartungen\n                        ergoͤtzte, zulezt in allgemeine Ver<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">achtung gefallen iſt da\n                        man ſich in ſeiner Hoffnung betro<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">gen fand. Aus dem ganzen\n                        Verlauf unſerer Critik wird<br class=\"tei-lb3\"> man ſich hinlaͤnglich uͤberzeugt haben:\n                        daß, wenn gleich<br class=\"tei-lb3\"> Metaphyſik nicht die Grundveſte der Religion ſeyn\n                        kan,<br class=\"tei-lb3\"> ſo muͤſſe ſie doch iederzeit als die Schutzwehr derſelben ſte<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">hen bleiben und daß die menſchliche Vernunft, welche\n                        ſchon<br class=\"tei-lb3\"> durch die Richtung ihrer Natur dialectiſch iſt, einer\n                        ſolchen<br class=\"tei-lb3\"> Wiſſenſchaft niemals entbehren koͤnne, die ſie zuͤgelt\n                        und,<br class=\"tei-lb3\"> durch ein ſcientifiſches und voͤllig einleuchtendes Selbſter<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">kentniß, die Verwuͤſtungen abhaͤlt, welche eine\n                        geſetzloſe<br class=\"tei-lb3\"> ſpeculative Vernunft ſonſt ganz unfehlbar, in Moral\n                        ſowol<br class=\"tei-lb3\"> als Religion, anrichten wuͤrde. Man kan alſo ſicher ſeyn,<br class=\"tei-lb3\"> ſo\n                        ſproͤde, oder geringſchaͤtzend auch dieienige thun, die<br class=\"tei-lb3\">\n                        </p><div class=\"tei-fw3\"><div class=\"catch\">eine</div><div class=\"sig\">H h h</div></div>\n                        \n                        <br class=\"tei-lb3\">\n                        <p></p></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

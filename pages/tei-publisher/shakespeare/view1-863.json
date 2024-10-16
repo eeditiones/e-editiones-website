@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.24.55.55.34",
+    "rootNode": "3.5.4.24.55.55.34",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.55.75",
+    "previous": "3.5.4.24.55.51.27",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0870_800px.jpg\"></pb-facs-link>\n                        <span class=\"tei-fw2\">Methodenlehre <span class=\"tei-hi document_aq\">III.</span>\n                            Hauptſt.</span>\n                        <br class=\"tei-lb3\"> ſyſtematiſche Einheit aus dem Standpuncte der Zwecke<br class=\"tei-lb3\">\n                        vorſchreibe.</p>\n                    \n                    <p class=\"tei-p2\">Weſentliche Zwecke ſind darum noch nicht die hoͤch<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſten, deren\n                        (bey vollkommener ſyſtematiſcher Einheit der<br class=\"tei-lb3\"> Vernunft) nur ein einziger\n                        ſeyn kan. Daher ſind ſie ent<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">weder der Endzweck, oder\n                        ſubalterne Zwecke, die zu ienem<br class=\"tei-lb3\"> als Mittel nothwendig gehoͤren. Der\n                        erſtere iſt kein an<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">derer, als di<span class=\"tei-supplied3\">e</span> ganze\n                        Beſtimmung des Menſchen und die<br class=\"tei-lb3\"> Philoſophie <span class=\"tei-supplied3\">uͤb</span>er\n                        dieſelbe heißt Moral. Um dieſes Vor<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">zugs willen, den die\n                        Moralphiloſophie vor aller anderen<br class=\"tei-lb3\"> Vernunftbewerbung hat, verſtand man\n                        auch bey den Alten<br class=\"tei-lb3\"> unter dem Nahmen des Philoſophen iederzeit zugleich\n                        und<br class=\"tei-lb3\"> vorzuͤglich den Moraliſt und ſelbſt macht der aͤuſſere Schein<br class=\"tei-lb3\">\n                        der Selbſtbeherrſchung durch Vernunft, daß man iemanden<br class=\"tei-lb3\"> noch iezt, bey\n                        ſeinem eingeſchraͤnkten Wiſſen, nach einer<br class=\"tei-lb3\"> gewiſſen Analogie, Philoſoph\n                        nent.</p>\n                    \n                    <p class=\"tei-p2\">Die Geſezgebung der menſchlichen Vernunft (Phi<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">loſophie)\n                            h<span class=\"tei-supplied3\">a</span>t nun zwey Gegenſtaͤnde: Natur und Freiheit<br class=\"tei-lb3\">\n                        und enthaͤlt alſo ſowol das Naturgeſetz, als auch das Sit<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">tengeſetz, anfangs in zwey beſondern, zulezt aber in einem<br class=\"tei-lb3\"> einzigen\n                        philoſophiſchen Syſtem. Die Philoſophie der<br class=\"tei-lb3\"> Natur geht auf alles, was\n                        da iſt, die der Sitten nur auf<br class=\"tei-lb3\"> das, was da ſeyn ſoll.</p>\n                    \n                    <p class=\"tei-p2\">Alle Philoſophie aber iſt entweder Erkentniß aus rei<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ner\n                        Vernunft, oder Vernunfterkentniß aus empiriſchen<br class=\"tei-lb3\"> Principien. Die\n                        erſtere heißt reine, die zweite empiriſche<br class=\"tei-lb3\"> Philoſophie.</p>\n                    <br class=\"tei-lb3\">\n                    <div class=\"tei-fw5 catch\">Die</div>\n                    <br class=\"tei-lb3\">\n                    </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

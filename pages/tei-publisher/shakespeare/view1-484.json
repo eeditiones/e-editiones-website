@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.16.29.27.11.25.83.33.375",
+    "rootNode": "3.5.4.16.29.27.11.25.83.33.375",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.16.29.27.11.25.83.33.385",
+    "previous": "3.5.4.16.29.27.11.25.83.33.371",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.16",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_fr {\n   border:1px dotted silver\n}\n\n</style><div class=\"tei-div3\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0491_800px.jpg\"></pb-facs-link>\n                                        <div class=\"tei-div3\" id=\"f0491\">\n                                            <div class=\"tei-div3\">\n                                                <div class=\"tei-div3\">\n                                                  <p class=\"tei-p2\">und alle abſolute\n                                                  Nothwendigkeit, gaͤnzlich wegfaͤllt. In<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">deſſen iſt die Schlußart in beiden,\n                                                  ſelbſt der gemeinen<br class=\"tei-lb3\"> Menſchenvernunft ganz\n                                                  angemeſſen, welche mehrmalen in<br class=\"tei-lb3\"> den Fall\n                                                  geraͤth, ſich mit ſich ſelbſt zu entzweien,\n                                                  nach<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">dem ſie ihren Gegenſtand aus\n                                                  zwey verſchiedenen Stand<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">puncten\n                                                  erwaͤgt. Herr <span class=\"tei-hi document_fr\">von Mairan</span>\n                                                  hielt den Streit<br class=\"tei-lb3\"> zweier beruͤhmter\n                                                  Aſtronomen, der aus einer aͤhnlichen<br class=\"tei-lb3\">\n                                                  Schwierigkeit uͤber die Wahl des Standpuncts\n                                                  entſprang,<br class=\"tei-lb3\"> vor ein gnugſam merkwuͤrdiges\n                                                  Phaͤnomen, um daruͤber<br class=\"tei-lb3\"> eine beſondere\n                                                  Abhandlung abzufaſſen. Der eine ſchloß<br class=\"tei-lb3\">\n                                                  nemlich ſo: der Mond drehet ſich um ſeine Achſe,\n                                                  dar<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">um, weil er der Erde beſtaͤndig\n                                                  dieſelbe Seite zukehrt, der<br class=\"tei-lb3\"> andere: der Mond\n                                                  drehet ſich nicht um ſeine Achſe,<br class=\"tei-lb3\"> eben darum,\n                                                  weil er der Erde beſtaͤndig dieſelbe Seite zu<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">kehrt. Beide Schluͤſſe waren richtig,\n                                                  nachdem man den<br class=\"tei-lb3\"> Standpunct nahm, aus dem man\n                                                  die Mondsbewegung<br class=\"tei-lb3\"> beobachten wollte.</p>\n                                                </div>\n                                            </div>\n                                        </div>\n                                        <br class=\"tei-lb3\">\n                                        <div class=\"tei-fw5 catch\">Dei</div>\n                                        <br class=\"tei-lb3\">\n                                        </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

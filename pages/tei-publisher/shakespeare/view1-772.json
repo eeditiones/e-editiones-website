@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.24.25.47.73.16",
+    "rootNode": "3.5.4.24.25.47.73.16",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.25.47.73.79",
+    "previous": "3.5.4.24.25.47.69.10",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0779_800px.jpg\"></pb-facs-link>\n                            <span class=\"tei-fw2\">Die Diſciplin der reinen Vernunft im\n                                polem. ꝛc.</span>\n                            <br class=\"tei-lb3\"> gar keinen Vortheil haben. Denn was kan den Einſichten<br class=\"tei-lb3\">\n                            nachtheiliger ſeyn, als ſo gar bloſſe Gedanken verfaͤlſcht<br class=\"tei-lb3\"> einander\n                            mitzutheilen, Zweifel, die wir wider unſere ei<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">gene\n                            Behauptungen fuͤhlen, zu verheelen, oder Beweis<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">gruͤnden,\n                            die uns ſelbſt nicht gnug thun, einen Anſtrich<br class=\"tei-lb3\"> von Evidenz zu\n                            geben. So lange indeſſen blos die Pri<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">vateitelkeit dieſe\n                            geheime Raͤnke anſtiftet (welches in ſpecu<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">lativen\n                            Urtheilen, die kein beſonderes Intereſſe haben und<br class=\"tei-lb3\"> nicht leicht\n                            einer apodictiſchen Gewißheit faͤhig ſind, ge<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">meiniglich\n                            der Fall iſt), ſo widerſteht denn doch die Eitelkeit<br class=\"tei-lb3\"> anderer mit\n                            oͤffentlicher Genehmigung und die Sachen<br class=\"tei-lb3\"> kommen zulezt dahin, wo\n                            die lauterſte Geſinnung und<br class=\"tei-lb3\"> Aufrichtigkeit, obgleich weit fruͤher,\n                            ſie gebracht haben<br class=\"tei-lb3\"> wuͤrde. Wo aber das gemeine Weſen davor haͤlt:\n                            daß<br class=\"tei-lb3\"> ſpitzfindige Vernuͤnftler mit nichts minderem umgehen, als<br class=\"tei-lb3\">\n                            die Grundveſte der oͤffentlichen Wolfahrt wankend zu ma<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">chen, da ſcheint es nicht allein der Klugheit gemaͤß, ſon<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">dern auch erlaubt und wol gar ruͤhmlich, der guten\n                            Sache<br class=\"tei-lb3\"> eher durch Scheingruͤnde zu Huͤlfe zu kommen, als den<br class=\"tei-lb3\">\n                            vermeintlichen Gegnern derſelben auch nur den Vortheil zu<br class=\"tei-lb3\"> laſſen,\n                            unſeren Ton zur Maͤſſigung einer blos practiſchen<br class=\"tei-lb3\"> Ueberzeugung\n                            herabzuſtimmen, und uns zu noͤthigen, den<br class=\"tei-lb3\"> Mangel der ſpeculativen\n                            und apodictiſchen Gewißheit zu<br class=\"tei-lb3\"> geſtehen. Indeſſen ſolte ich denken:\n                            daß ſich mit der Ab<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſicht, eine gute Sache zu behaupten,\n                            in der Welt wol<br class=\"tei-lb3\"> nichts uͤbler, als Hinterliſt, Verſtellung und\n                            Betrug ver<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">einigen laſſe. Daß es in der Abwiegung der\n                                Vernunft<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">\n                            <br class=\"tei-lb3\">\n                            </p></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

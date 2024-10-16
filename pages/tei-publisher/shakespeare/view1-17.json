@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.2.24.65.15",
+    "rootNode": "3.5.2.24.65.15",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.2.24.65.83",
+    "previous": "3.5.2.24.61.41",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.2.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_fr {\n   border:1px dotted silver\n}\n\n .document_g {\n   letter-spacing:0.125em\n}\n\n .document_b {\n   font-weight:bold\n}\n\n .document_aq {\n   font-family:sans-serif\n}\n\n</style><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0024_800px.jpg\"></pb-facs-link>\n                    <span class=\"tei-fw2\">\n                        <span class=\"tei-hi document_b\">\n                            <span class=\"tei-hi document_g\">Vorrede</span>.</span>\n                    </span>\n                    <br class=\"tei-lb3\"> tuitive (aͤſthetiſche) <span class=\"tei-hi document_fr\">Deutlichkeit</span>, durch <span class=\"tei-hi document_fr\">Anſchau<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ungen</span>, d. i. Beiſpiele oder\n                    andere Erlaͤuterungen,<br class=\"tei-lb3\">\n                    <span class=\"tei-hi document_aq\">in concreto</span> zu fodern. Vor die erſte habe ich hinrei<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">chend geſorgt. Das betraf das Weſen meines Vor<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">habens, war aber auch die zufaͤllige Urſache, daß ich<br class=\"tei-lb3\"> der zweiten, obzwar\n                    nicht ſo ſtrengen, aber doch bil<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ligen Foderung nicht habe Gnuͤge\n                    leiſten koͤnnen. Ich<br class=\"tei-lb3\"> bin faſt beſtaͤndig im Fortgange meiner Arbeit\n                        unſchlieſ<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſig geweſen, wie ich es hiemit halten ſolte.\n                    Beiſpiele<br class=\"tei-lb3\"> und Erlaͤuterungen ſchienen mir immer noͤthig und<br class=\"tei-lb3\"> floſſen\n                    daher auch wirklich im erſten Entwurfe an ih<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ren Stellen gehoͤrig\n                    ein. Ich ſahe aber die Groͤſſe<br class=\"tei-lb3\"> meiner Aufgabe und die Menge der\n                    Gegenſtaͤnde,<br class=\"tei-lb3\"> womit ich es zu thun haben wuͤrde, gar bald ein und,<br class=\"tei-lb3\"> da\n                    ich gewahr ward, daß dieſe ganz allein, im trocke<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nen, blos <span class=\"tei-hi document_fr\">ſcholaſtiſchen</span> Vortrage, das Werk ſchon<br class=\"tei-lb3\"> gnug\n                    ausdehnen wuͤrden, ſo fand ich es unrathſam,<br class=\"tei-lb3\"> es durch Beiſpiele und\n                    Erlaͤuterungen, die nur in <span class=\"tei-hi document_fr\">po<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">pulaͤrer</span>\n                    Abſicht nothwendig ſind, noch mehr anzu<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſchwellen, zumal dieſe\n                    Arbeit keinesweges dem popu<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">laͤren Gebrauche angemeſſen werden\n                    koͤnte und die ei<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">gentliche Kenner der Wiſſenſchaft dieſe\n                    Erleichterung<br class=\"tei-lb3\"> nicht ſo noͤthig haben, ob ſie zwar iederzeit angenehm<br class=\"tei-lb3\">\n                    iſt, hier aber ſogar etwas zweckwidriges nach ſich zie<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">hen konte.\n                    Abt <span class=\"tei-hi document_fr\">Terraſſon</span> ſagt zwar: wenn man<br class=\"tei-lb3\">\n                    \n                    <br class=\"tei-lb3\">\n                    </p></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.2.24.15.28",
+    "rootNode": "3.5.2.24.15.28",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.2.24.19.63",
+    "previous": "3.5.2.24.11.20",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.2.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_fr {\n   border:1px dotted silver\n}\n\n .document_g {\n   letter-spacing:0.125em\n}\n\n .document_b {\n   font-weight:bold\n}\n\n .document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0015_800px.jpg\"></pb-facs-link>\n                    <span class=\"tei-fw2\">\n                        <span class=\"tei-hi document_b\">\n                            <span class=\"tei-hi document_g\">Vorrede</span>.</span>\n                    </span>\n                    <br class=\"tei-lb3\">\n                    <span class=\"tei-hi document_aq\">tot generis natisque potens — nunc trahor exul,<br class=\"tei-lb3\"> inops —\n                        Ovid. Metam</span>.</p>\n                \n                <p class=\"tei-p2\">Anfaͤnglich war ihre Herrſchaft, unter der Ver<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">waltung der <span class=\"tei-hi document_fr\">Dogmatiker, deſpotiſch.</span> Allein, weil<br class=\"tei-lb3\"> die\n                    Geſetzgebung noch die Spur der alten Barbarey<br class=\"tei-lb3\"> an ſich hatte, ſo artete ſie\n                    durch innere Kriege nach<br class=\"tei-lb3\"> und nach in voͤllige <span class=\"tei-hi document_fr\">Anarchie</span> aus und die <span class=\"tei-hi document_fr\">Sceptiker</span>,<br class=\"tei-lb3\"> eine Art\n                    Nomaden, die allen beſtaͤndigen Anbau des<br class=\"tei-lb3\"> Bodens verabſcheuen, zertrenneten\n                    von Zeit zu Zeit die<br class=\"tei-lb3\"> buͤrgerliche Vereinigung. Da ihrer aber zum\n                    Gluͤck<br class=\"tei-lb3\"> nur wenige waren, ſo konten ſie nicht hindern, daß<br class=\"tei-lb3\"> iene ſie\n                    nicht immer aufs neue, obgleich nach keinem<br class=\"tei-lb3\"> unter ſich einſtimmigen Plane,\n                    wieder anzubauen ver<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſuchten. In neueren Zeiten ſchien es zwar\n                    einmal,<br class=\"tei-lb3\"> als ſolte allen dieſen Streitigkeiten durch eine gewiſſe<br class=\"tei-lb3\">\n                    <span class=\"tei-hi document_fr\">Phyſiologie</span> des menſchlichen Verſtandes (von dem<br class=\"tei-lb3\">\n                    beruͤhmten <span class=\"tei-hi document_fr\">Locke</span>) ein Ende gemacht und die Recht<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">maͤſſigkeit iener Anſpruͤche voͤllig entſchieden werden;<br class=\"tei-lb3\"> es\n                    fand ſich aber, daß, obgleich die Geburt iener vor<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">gegebenen\n                    Koͤnigin, aus dem Poͤbel der gemeinen Er<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">fahrung abgeleitet wurde\n                    und dadurch ihre Anmaſſung<br class=\"tei-lb3\"> mit Recht haͤtte verdaͤchtig werden muͤſſen,\n                    dennoch,<br class=\"tei-lb3\"> weil dieſe <span class=\"tei-hi document_fr\">Genealogie</span> ihr in der That\n                    faͤlſchlich ange<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">dichtet war, ſie ihre Anſpruͤche noch immer\n                        behaupte<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\"></p><div class=\"tei-fw3\"><div class=\"catch\">te,</div><div class=\"sig\">a 5</div></div>\n                    \n                    <br class=\"tei-lb3\">\n                    <p></p></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.4",
+    "rootNode": "3.5.4.4",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.8.7.7.40",
+    "previous": "3.5.2.26.7.38",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.8",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_g {\n   letter-spacing:0.125em\n}\n\n .document_b {\n   font-weight:bold\n}\n\n .document_in {\n   font-size:150%\n}\n\n .document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-body2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0031_800px.jpg\"></pb-facs-link>\n            <span class=\"tei-figure2\"></span>\n            <section class=\"tei-div2\">\n                <h1 class=\"tei-head6\">\n                    <span class=\"tei-hi document_b\">\n                        <span class=\"tei-hi document_g\">Einleitung</span>.</span>\n                </h1>\n                \n                <div class=\"tei-div3\">\n                    <h2 class=\"tei-head6\">\n                        <span class=\"tei-hi document_b\">\n                            <span class=\"tei-hi document_aq\">I.</span>\n                            <br class=\"tei-lb3\"> Idee der Transſcendental-Philoſophie.</span>\n                    </h2>\n                    \n                    <p class=\"tei-p2\">\n                        <span class=\"tei-hi document_in\">E</span>rfahrung iſt ohne Zweifel das erſte Product,<br class=\"tei-lb3\">\n                        welches unſer Verſtand hervorbringt, indem<br class=\"tei-lb3\"> er den rohen Stoff\n                        ſinnlicher Empfindungen<br class=\"tei-lb3\"> bearbeitet. Sie iſt eben dadurch die erſte\n                        Belehrung, und<br class=\"tei-lb3\"> im Fortgange ſo unerſchoͤpflich an neuem Unterricht,\n                        daß<br class=\"tei-lb3\"> das zuſammengekettete Leben aller kuͤnftigen Zeugungen<br class=\"tei-lb3\"> an\n                        neuen Kentniſſen, die auf dieſem Boden geſammlet<br class=\"tei-lb3\"> werden koͤnnen,\n                        niemals Mangel haben wird. Gleich<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">wohl iſt ſie bey weitem\n                        nicht das einzige Feld, darinn ſich<br class=\"tei-lb3\"> unſer Verſtand einſchraͤnken laͤßt.\n                        Sie ſagt uns zwar,<br class=\"tei-lb3\"> was da ſey, aber nicht, daß es nothwendiger Weiſe,\n                        ſo<br class=\"tei-lb3\"> und nicht anders, ſeyn muͤſſe. Eben darum giebt ſie<br class=\"tei-lb3\">\n                            u<span class=\"tei-supplied3\">n</span>s auch keine wahre Allgemeinheit, und die\n                        Vernunft,<br class=\"tei-lb3\"> welche nach dieſer Art von Erkentniſſen ſo begierig iſt,<br class=\"tei-lb3\">\n                        </p><div class=\"tei-fw3\"><div class=\"catch\">wird</div><div class=\"sig\">A</div></div>\n                        \n                        <br class=\"tei-lb3\">\n                        <p></p></div></section></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

@@ -1,0 +1,21 @@
+{
+    "format": "json",
+    "view": "single",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": null,
+    "rootNode": "3.3.2.2",
+    "id": null,
+    "odd": "dta.odd",
+    "next": null,
+    "previous": null,
+    "nextId": null,
+    "previousId": null,
+    "switchView": null,
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><h5 class=\"tei-titleStmt3\"></h5></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "mode": "title",
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.24.55.131.42",
+    "rootNode": "3.5.4.24.55.131.42",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.55.139.9",
+    "previous": "3.5.4.24.55.127.40",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0880_800px.jpg\"></pb-facs-link>\n                        <span class=\"tei-fw2\">Methodenlehre <span class=\"tei-hi document_aq\">III.</span>\n                            Hauptſt.</span>\n                        <br class=\"tei-lb3\"> eine Wiſſenſchaft nicht nach ihrer Natur, ſondern allein aus<br class=\"tei-lb3\">\n                        ihren zufaͤlligen Wirkungen zu beurtheilen wiſſen, man wer<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">de\n                        iederzeit zu ihr, wie zu einer mit uns entzweiten Ge<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">liebten\n                        zuruͤckkehren, weil die Vernunft, da es hier we<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſentliche\n                        Zwecke betrift, raſtlos, entweder auf gruͤndliche<br class=\"tei-lb3\"> Einſicht oder\n                        Zerſtoͤhrung ſchon vorhandener guten Einſich<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ten arbeiten\n                        muß.</p>\n                    \n                    <p class=\"tei-p2\">Metaphyſik alſo, ſowol der Natur, als der Sitten,<br class=\"tei-lb3\"> vornemlich die Critik\n                        der ſich auf eigenen Fluͤgeln wagen<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">den Vernunft, welche\n                        voruͤbend (propaͤdevtiſch) vorher<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">geht, machen eigentlich\n                        allein dasienige aus, was wir im<br class=\"tei-lb3\"> aͤchten Verſtande Philoſophie nennen\n                        koͤnnen. Dieſe be<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">zieht alles auf Weisheit, aber durch den\n                        Weg der Wiſſen<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſchaft, den einzigen, der, wenn er einmal\n                        gebahnt iſt, nie<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">mals verwaͤchſt und keine Verirrungen\n                        verſtattet. Ma<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">thematik, Naturwiſſenſchaft, ſelbſt die\n                        empiriſche Kent<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">niß des Menſchen, haben einen hohen Werth als\n                            Mit<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">tel, groͤßtentheils zu zufaͤlligen, am Ende aber\n                        doch<br class=\"tei-lb3\"> zu nothwendigen und weſentlichen Zwecken der Menſchheit,<br class=\"tei-lb3\"> aber\n                        alsdenn nur durch Vermittelung einer Vernunft<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">erkentniß aus\n                        bloſſen Begriffen, die, man mag ſie be<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nennen wie man will,\n                        eigentlich nichts als Metaphy<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſik iſt.</p>\n                    \n                    <p class=\"tei-p2\">Eben deswegen iſt Metaphyſik auch die Vollendung<br class=\"tei-lb3\"> aller Cultur der\n                        menſchlichen Vernunft, die unentbehr<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\"></p><div class=\"tei-fw5 catch\">lich</div>\n                        <br class=\"tei-lb3\">\n                        <p></p></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

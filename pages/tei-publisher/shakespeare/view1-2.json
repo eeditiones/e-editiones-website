@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.2.8",
+    "rootNode": "3.5.2.8",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.2.14",
+    "previous": "3.5.2.2",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.2.10",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_fr {\n   border:1px dotted silver\n}\n\n .document_c {\n   display:block; text-align:center\n}\n\n</style><div class=\"tei-front\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0009_800px.jpg\"></pb-facs-link>\n            <section class=\"tei-div2\">\n                <p class=\"tei-p2 document_c\">Sr. Excellenz,<br class=\"tei-lb3\">\n                    <span class=\"tei-hi document_fr\">dem Koͤnigl. Staatsminiſter</span>\n                    <br class=\"tei-lb3\"> Freiherrn von <span class=\"tei-hi document_fr\">Zedlitz.</span>\n                </p>\n            </section>\n            <br class=\"tei-lb3\">\n            </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

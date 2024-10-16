@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.2.16.15.13",
+    "rootNode": "3.5.2.16.15.13",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.2.20",
+    "previous": "3.5.2.16.7.34",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.2.16",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_sup {\n   vertical-align:super;\n                    font-size:.7em\n}\n\n .document_fr {\n   border:1px dotted silver\n}\n\n .document_et {\n   display:block; margin-left:2em;\n                    text-indent:0\n}\n\n</style><div class=\"tei-front\"><section class=\"tei-div2\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0012_800px.jpg\"></pb-facs-link> ge Angelegenheit meiner literaͤriſchen Be<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſtimmung und bin mit der tiefſten Ver<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ehrung</p>\n                <br class=\"tei-lb3\">\n                <div class=\"tei-closer\">\n                    <span class=\"tei-salute1\">\n                        <span class=\"tei-hi document_et\">\n                            <span class=\"tei-hi document_fr\">Ew. Excellenz</span>\n                        </span>\n                    </span>\n                    <br class=\"tei-lb3\">\n                    <br class=\"tei-cb\">\n                    <div class=\"tei-dateline\">Koͤnigsberg<br class=\"tei-lb3\"> den 29<span class=\"tei-hi document_sup\">ſten</span> Merz<br class=\"tei-lb3\">\n                        1781.</div>\n                    <br class=\"tei-lb3\">\n                    <br class=\"tei-cb\">\n                    <span class=\"tei-salute1\">unterthaͤniggehorſamſter<br class=\"tei-lb3\"> Diener<br class=\"tei-lb3\">\n                        <span class=\"tei-hi document_fr\">Immanuel Kant.</span>\n                    </span>\n                </div>\n            </section>\n            <br class=\"tei-lb3\">\n            </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

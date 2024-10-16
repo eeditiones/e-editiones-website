@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-editiones</title>
+    <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
+    
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/css/prism-diff.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    
+    
+  </head>
+  <body>
+      
+<script src="/assets/scripts/rellax.min.js"></script>
+<script src="/assets/scripts/leaflet.js"></script>
+<script src="/assets/scripts/leaflet.markercluster.js"></script>
+<script src="/assets/scripts/map.js"></script>
+
+
+<link rel="stylesheet" href="/assets/css/leaflet.css">
+<link rel="stylesheet" href="/assets/css/MarkerCluster.css">
+<link rel="stylesheet" href="/assets/css/MarkerCluster.Default.css">
+
+
+<header>
+    
+
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Community</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/developer/" class="nav-link">For developers</a>
+    </li><li class="nav-item">
+        <a href="/pages/memory/" class="nav-link">For memory institutions</a>
+    </li><li class="nav-item">
+        <a href="/pages/researcher/" class="nav-link">For researchers</a>
+    </li><li class="nav-item">
+        <a href="/pages/getting-started/" class="nav-link">Getting Started</a>
+    </li><li class="nav-item">
+        <a href="/pages/get-in-touch/" class="nav-link">Get in Touch</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-contribute/" class="nav-link">How to Contribute</a>
+    </li><li class="nav-item">
+        <a href="/pages/community-meetings/" class="nav-link">Community Meetings</a>
+    </li><li class="nav-item">
+        <a href="/pages/code-of-conduct/" class="nav-link">Code of Conduct</a>
+    </li></ul>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/strategy/" class="nav-link">Strategy</a>
+    </li><li class="nav-item">
+        <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+    </li><li class="nav-item">
+        <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+    </li><li class="nav-item">
+        <a href="/pages/board/" class="nav-link">Board</a>
+    </li><li class="nav-item">
+        <a href="/pages/members/" class="nav-link">Members</a>
+    </li><li class="nav-item">
+        <a href="/pages/groups/" class="nav-link">Groups</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+    </li></ul>
+    </li><li class="nav-item">
+        <a href="/posts/" class="nav-link">Archive</a>
+    </li><li class="nav-item">
+                    <a href="/tags/events/" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/map/" class="nav-link">Project Registry</a>
+                </li>
+            </ul>
+            <div class="icons d-flex justify-content-end">
+                <a rel="me" href="https://social.e-editiones.org/@eeditiones" class="me-4"><i class="bi bi-mastodon"></i></a>
+                <a href="https://twitter.com/EEditiones" class="me-4">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./page-list.njk">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+</header>
+<div class="banner" data-rellax-speed="-7">
+    <div>
+        <div class="hero">
+            <h1><span class="initial">e</span>ditions with <span class="initial">f</span>uture</h1>
+            <p class="m-2">rooted in standards, built by the community, meant to last</p>
+            <div>
+                <a href="/join" class="btn btn-warning">Join</a>
+                <a href="https://paypal.me/eeditiones" class="btn btn-warning">Donate</a>
+            </div>
+        </div>
+        <div class="container d-none d-lg-block">
+        <div class="intro-text container mt-2">
+    <div class="row justify-content-md-center">
+        <p>We are an <strong>international non profit society</strong> bringing together edition projects, cultural heritage institutions, scholars, and developers to <strong>empower</strong> digital projects by promoting <strong>open standards</strong> and <strong>community collaboration</strong> – with the ultimate goal of helping to sustain editions far into the future.</p>
+    </div>
+    <div class="row justify-content-md-center m-2 gx-lg-2 gy-2">
+        <div class="col">
+            <a href="pages/researcher/" class="shortcut btn">
+            <img src="img/poet-svgrepo-com.svg" height="32">
+            <span>Researchers</span>
+            </a>
+        </div>
+        <div class="col">
+            <a href="pages/memory/" class="shortcut btn">
+                <img src="img/university-svgrepo-com.svg" height="32">
+                <span>Cultural heritage institutions</span>
+            </a>
+        </div>
+        <div class="col">
+            <a href="pages/developer/" class="shortcut btn">
+                <img src="img/school-material-svgrepo-com.svg" height="32">
+                <span>Developers</span>
+            </a>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+<main class="home">
+    <div class="container">
+        <div class="row d-lg-none">
+            <div class="intro-text container mt-2">
+    <div class="row justify-content-md-center">
+        <p>We are an <strong>international non profit society</strong> bringing together edition projects, cultural heritage institutions, scholars, and developers to <strong>empower</strong> digital projects by promoting <strong>open standards</strong> and <strong>community collaboration</strong> – with the ultimate goal of helping to sustain editions far into the future.</p>
+    </div>
+    <div class="row justify-content-md-center m-2 gx-lg-2 gy-2">
+        <div class="col">
+            <a href="pages/researcher/" class="shortcut btn">
+            <img src="img/poet-svgrepo-com.svg" height="32">
+            <span>Researchers</span>
+            </a>
+        </div>
+        <div class="col">
+            <a href="pages/memory/" class="shortcut btn">
+                <img src="img/university-svgrepo-com.svg" height="32">
+                <span>Cultural heritage institutions</span>
+            </a>
+        </div>
+        <div class="col">
+            <a href="pages/developer/" class="shortcut btn">
+                <img src="img/school-material-svgrepo-com.svg" height="32">
+                <span>Developers</span>
+            </a>
+        </div>
+    </div>
+</div>
+        </div>
+        <div class="row gx-lg-5">
+            <div class="col-md-8"><table>
+  <thead>
+    <tr>
+      <th>URL</th>
+      <th>Page Title</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><a href="/tags/semantic-encoding/"><code>/tags/semantic-encoding/</code></a></td>
+    <td>Tagged “semantic-encoding”</td>
+  </tr>
+  <tr>
+    <td><a href="/tags/vscode/"><code>/tags/vscode/</code></a></td>
+    <td>Tagged “vscode”</td>
+  </tr>
+  <tr>
+    <td><a href="/tags/markdown/"><code>/tags/markdown/</code></a></td>
+    <td>Tagged “markdown”</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+            <aside class="col-md-4">
+                <form action="/search" class="search-form">
+    <div class="input-group">
+        <input type="text" class="form-control" aria-label="Query"
+            aria-describedby="search-addon" name="query">
+        <button id="search-button" class="btn btn-primary" type="submit">Search</button>
+    </div>
+</form>
+
+<h3>Tags</h3>
+<ul class="cloud" role="navigation" aria-label="tag cloud" data-show-value>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/announcements/" data-count="31" 
+        style="font-size: calc(7 * 0.1rem + var(--font-size-smallest));" class="post-tag">announcements</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/tei-publisher/" data-count="28" 
+        style="font-size: calc(7 * 0.1rem + var(--font-size-smallest));" class="post-tag">tei-publisher</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/release/" data-count="17" 
+        style="font-size: calc(4 * 0.1rem + var(--font-size-smallest));" class="post-tag">release</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/annotations/" data-count="2" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">annotations</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/events/" data-count="30" 
+        style="font-size: calc(7 * 0.1rem + var(--font-size-smallest));" class="post-tag">events</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/workshop/" data-count="4" 
+        style="font-size: calc(1 * 0.1rem + var(--font-size-smallest));" class="post-tag">workshop</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/meetups/" data-count="25" 
+        style="font-size: calc(6 * 0.1rem + var(--font-size-smallest));" class="post-tag">meetups</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/e-editiones/" data-count="11" 
+        style="font-size: calc(2 * 0.1rem + var(--font-size-smallest));" class="post-tag">e-editiones</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/awards/" data-count="2" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">awards</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/odd/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">ODD</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/schema/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">Schema</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/feature/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">feature</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/tutorial/" data-count="3" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">tutorial</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/advanced/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">advanced</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/talk/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">talk</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/beginner/" data-count="2" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">beginner</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/interoperability/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">interoperability</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/osa20/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">osa20</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/tei/" data-count="4" 
+        style="font-size: calc(1 * 0.1rem + var(--font-size-smallest));" class="post-tag">tei</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/conference/" data-count="4" 
+        style="font-size: calc(1 * 0.1rem + var(--font-size-smallest));" class="post-tag">conference</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/dh2024/" data-count="2" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">DH2024</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/ukraine/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">ukraine</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/grants/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">grants</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/report/" data-count="2" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">report</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/best-practice/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">best practice</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/epidoc/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">epidoc</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/fore/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">fore</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/hugo/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">hugo</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/pb-component/" data-count="2" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">pb-component</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/wordpress/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">wordpress</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/intermediate/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">intermediate</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/nlp/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">NLP</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/ner/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">NER</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/hosting/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">hosting</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/projects/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">projects</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/open-api/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">open-api</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/roaster/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">roaster</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/mei/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">mei</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/tei-publisher-lib/" data-count="2" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">tei-publisher-lib</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/tei-vanilla/" data-count="2" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">tei vanilla</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/semantic-encoding/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">semantic-encoding</a>
+    </li>
+  
+    
+    
+    
+    <li>
+      <a href="/tags/vscode/" data-count="1" 
+        style="font-size: calc(0 * 0.1rem + var(--font-size-smallest));" class="post-tag">vscode</a>
+    </li>
+  
+</ul>
+
+                <h3>Projects Map <small class="text-muted"><a href="/map/">Expand</a></small></h3>
+                <div id="map" data-zoom="5"></div>
+
+                
+            </aside>
+        </div>
+    </div>
+</main>
+
+<footer class="p-2">
+    <div class="col-8">e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
+    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX<br/>
+    <a href="/pages/imprint">Imprint</a> | <a href="/pages/gdpr">Data Protection</a>
+    </div>
+</footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const main = document.querySelector('.banner');
+        const observer = new IntersectionObserver((entries) => {
+            if (!entries[0].isIntersecting) {
+                document.body.classList.remove('banner-visible');
+            } else {
+                document.body.classList.add('banner-visible');
+            }
+        }, { threshold: 0.5 });
+        observer.observe(main);
+
+        const rellax = new Rellax('.banner');
+    });
+</script>
+<!-- Current page: /page-list/7/ -->
+
+      <script src="/assets/scripts/bootstrap.bundle.min.js"></script>
+      <script src="/assets/scripts/common.js"></script>
+      
+      <!-- Matomo -->
+      <script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setDoNotTrack", true]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+          var u="//stats.existsolutions.com/";
+          _paq.push(['setTrackerUrl', u+'matomo.php']);
+          _paq.push(['setSiteId', '2']);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+          g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+      </script>
+      <!-- End Matomo Code -->
+  </body>
+</html>

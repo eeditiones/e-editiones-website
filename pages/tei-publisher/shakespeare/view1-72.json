@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.16.15.51.41.168",
+    "rootNode": "3.5.4.16.15.51.41.168",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.16.23",
+    "previous": "3.5.4.16.15.51.41.93",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.16",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-div3\"><div class=\"tei-div3\"><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0079_800px.jpg\"></pb-facs-link>\n                            <span class=\"tei-fw2\">\n                                <span class=\"tei-hi document_aq\">II.</span> Abſchnitt. Von der Zeit.</span>\n                            <br class=\"tei-lb3\"> lich, daß Raum und Zeit, als die nothwendige Bedin<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">gungen aller (aͤuſſern und innern) Erfahrung, blos ſub<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">iective Bedingungen aller unſrer Anſchauung ſind, im Ver<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">haͤltniß auf welche daher alle Gegenſtaͤnde bloſſe Erſchei<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nungen und nicht vor ſich in dieſer Art gegebene\n                            Dinge<br class=\"tei-lb3\"> ſind, von denen ſich auch um deswillen, was die Form<br class=\"tei-lb3\">\n                            derſelben betrift, vieles <span class=\"tei-hi document_aq\">a priori</span> ſagen laͤßt,\n                            niemals aber<br class=\"tei-lb3\"> das Mindeſte von dem Dinge an ſich ſelbſt, das dieſen\n                                Er<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſcheinungen zum Grunde liegen mag.</p>\n                        <br class=\"tei-lb3\">\n                        <span class=\"tei-figure2\"></span>\n                    </div>\n                </div>\n                <div class=\"tei-fw3\"><div class=\"catch\">Der</div><div class=\"sig\">D</div></div>\n                \n                <br class=\"tei-lb3\">\n                </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

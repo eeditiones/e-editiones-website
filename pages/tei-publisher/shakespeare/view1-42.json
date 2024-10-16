@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.16.13",
+    "rootNode": "3.5.4.16.13",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.16.15.11.12",
+    "previous": "3.5.4.16.11",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.16",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_g {\n   letter-spacing:0.125em\n}\n\n .document_b {\n   font-weight:bold\n}\n\n .document_in {\n   font-size:150%\n}\n\n .document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-div3\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0049_800px.jpg\"></pb-facs-link>\n                <div class=\"tei-div3\">\n                    <h2 class=\"tei-head6\">\n                        <span class=\"tei-hi document_g\">Der</span>\n                        <br class=\"tei-lb3\">\n                        <span class=\"tei-hi document_b\">Transſcendentalen Elementarlehre<br class=\"tei-lb3\">\n                            <span class=\"tei-hi document_g\">Erſter Theil</span>.</span>\n                        <br class=\"tei-lb3\">\n                        <span class=\"tei-hi document_g\">Die</span>\n                        <br class=\"tei-lb3\">\n                        <span class=\"tei-hi document_b\">Transſcendentale Aeſthetik.</span>\n                    </h2>\n                    \n                    <p class=\"tei-p2\">\n                        <span class=\"tei-hi document_in\">A</span>uf welche Art und durch welche Mittel ſich\n                        auch<br class=\"tei-lb3\"> immer eine Erkentniß auf Gegenſtaͤnde beziehen<br class=\"tei-lb3\"> mag, ſo iſt\n                        doch dieienige, wodurch ſie ſich auf dieſelbe<br class=\"tei-lb3\"> unmittelbar bezieht, und\n                        worauf alles Denken als Mittel<br class=\"tei-lb3\"> abzwekt, die Anſchauung. Dieſe findet\n                        aber nur ſtatt,<br class=\"tei-lb3\"> ſo fern uns der Gegenſtand gegeben wird; dieſes\n                        aber<br class=\"tei-lb3\"> iſt wiederum nur dadurch moͤglich, daß er das Gemuͤth<br class=\"tei-lb3\"> auf\n                        gewiſſe Weiſe afficire. Die Faͤhigkeit, (Receptivitaͤt)<br class=\"tei-lb3\"> Vorſtellungen\n                        durch die Art, wie wir von Gegenſtaͤnden<br class=\"tei-lb3\"> afficirt werden, zu bekommen,\n                        heißt Sinnlichkeit. Vermit<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">telſt der Sinnlichkeit alſo werden\n                        uns Gegenſtaͤnde gegeben,<br class=\"tei-lb3\"> und ſie allein liefert uns Anſchauungen,\n                        durch den Ver<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſtand aber werden ſie gedacht, und von ihm\n                        entſpringen<br class=\"tei-lb3\"> Begriffe. Alles Denken aber muß ſich, es ſey gerade zu<br class=\"tei-lb3\">\n                            (<span class=\"tei-hi document_aq\">directe</span>) oder im Umſchweife (<span class=\"tei-hi document_aq\">indirecte</span>) zulezt auf An<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſchauungen,\n                        mithin, bey uns, auf Sinnlichkeit beziehen,<br class=\"tei-lb3\"> weil uns auf andere Weiſe\n                        kein Gegenſtand gegeben wer<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">den kan.</p>\n                    \n                    <p class=\"tei-p2\">Die Wirkung eines Gegenſtandes auf die Vorſtellungs<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">faͤhigkeit, ſo fern wir von demſelben afficirt werden, iſt<br class=\"tei-lb3\">\n                        </p><div class=\"tei-fw3\"><div class=\"catch\">Em</div><div class=\"sig\">B 2</div></div>\n                        \n                        <br class=\"tei-lb3\">\n                        <p></p></div></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.8.11.7.37",
+    "rootNode": "3.5.4.8.11.7.37",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.8.11.15.22",
+    "previous": "3.5.4.8.7.27.37.153",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.8",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_g {\n   letter-spacing:0.125em\n}\n\n .document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0044_800px.jpg\"></pb-facs-link>\n                        <span class=\"tei-fw2\">\n                            <span class=\"tei-hi document_g\">Einleitung</span>.</span>\n                        <br class=\"tei-lb3\"> maͤßig waͤre, indem ſie die Bedenklichkeit nicht hat, wel<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">che bey der Syntheſis angetroffen wird, um deren willen<br class=\"tei-lb3\">\n                        eigentlich die ganze Critik da iſt, theils, weil es der Ein<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">heit des Plans zuwider waͤre, ſich mit der Verantwortung<br class=\"tei-lb3\"> der\n                        Vollſtaͤndigkeit einer ſolchen Analyſis und Ableitung<br class=\"tei-lb3\"> zu befaſſen,\n                        deren man in Anſehung ſeiner Abſicht doch<br class=\"tei-lb3\"> uͤberhoben ſeyn konte. Dieſe\n                        Vollſtaͤndigkeit der Zerglie<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">derung ſo wohl, als der\n                        Ableitung aus den kuͤnftig zu<br class=\"tei-lb3\"> liefernden Begriffen <span class=\"tei-hi document_aq\">a priori,</span> iſt indeſſen leicht zu ergaͤn<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">zen, wenn\n                        ſie nur allererſt als ausfuͤhrliche Principien der<br class=\"tei-lb3\"> Syntheſis da ſind,\n                        und ihnen in Anſehung dieſer weſent<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">lichen Abſicht nichts\n                        ermangelt.</p>\n                    \n                    <p class=\"tei-p2\">Zur Critik der reinen Vernunft gehoͤrt demnach alles,<br class=\"tei-lb3\"> was die\n                        Transſcendental-Philoſophie ausmacht, und ſie<br class=\"tei-lb3\"> iſt die vollſtaͤndige\n                        Idee der Transſcendental-Philoſophie,<br class=\"tei-lb3\"> aber dieſe Wiſſenſchaft noch\n                        nicht ſelbſt, weil ſie in der<br class=\"tei-lb3\"> Analyſis nur ſo weit geht, als es zur\n                        vollſtaͤndigen Beur<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">theilung der ſynthetiſchen Erkentniß <span class=\"tei-hi document_aq\">a priori</span> erforder<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">lich iſt.</p>\n                    \n                    <p class=\"tei-p2\">Das vornehmſte Augenmerk bey der Eintheilung<br class=\"tei-lb3\"> einer ſolchen Wiſſenſchaft\n                        iſt: daß gar keine Begriffe hin<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">einkommen muͤſſen, die irgend\n                        etwas Empiriſches in ſich<br class=\"tei-lb3\"> enthalten, oder daß die Erkentnis <span class=\"tei-hi document_aq\">a priori</span> voͤllig rein ſey.<br class=\"tei-lb3\"> Daher, ob zwar die\n                        oberſten Grundſaͤtze der Moralitaͤt,<br class=\"tei-lb3\"> und die Grundbegriffe derſelben,\n                        Erkentniſſe <span class=\"tei-hi document_aq\">a priori</span> ſind,<br class=\"tei-lb3\">\n                        </p><div class=\"tei-fw5 catch\">ſo</div>\n                        <br class=\"tei-lb3\">\n                        <p></p></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

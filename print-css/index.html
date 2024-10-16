@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generating CSS for print</title>
+    <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
+    
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/css/prism-diff.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    
+    
+  </head>
+  <body>
+      
+<header>
+    
+
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Community</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/developer/" class="nav-link">For developers</a>
+    </li><li class="nav-item">
+        <a href="/pages/memory/" class="nav-link">For memory institutions</a>
+    </li><li class="nav-item">
+        <a href="/pages/researcher/" class="nav-link">For researchers</a>
+    </li><li class="nav-item">
+        <a href="/pages/getting-started/" class="nav-link">Getting Started</a>
+    </li><li class="nav-item">
+        <a href="/pages/get-in-touch/" class="nav-link">Get in Touch</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-contribute/" class="nav-link">How to Contribute</a>
+    </li><li class="nav-item">
+        <a href="/pages/community-meetings/" class="nav-link">Community Meetings</a>
+    </li><li class="nav-item">
+        <a href="/pages/code-of-conduct/" class="nav-link">Code of Conduct</a>
+    </li></ul>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/strategy/" class="nav-link">Strategy</a>
+    </li><li class="nav-item">
+        <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+    </li><li class="nav-item">
+        <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+    </li><li class="nav-item">
+        <a href="/pages/board/" class="nav-link">Board</a>
+    </li><li class="nav-item">
+        <a href="/pages/members/" class="nav-link">Members</a>
+    </li><li class="nav-item">
+        <a href="/pages/groups/" class="nav-link">Groups</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+    </li></ul>
+    </li><li class="nav-item">
+        <a href="/posts/" class="nav-link">Archive</a>
+    </li><li class="nav-item">
+                    <a href="/tags/events/" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/map/" class="nav-link">Project Registry</a>
+                </li>
+            </ul>
+            <div class="icons d-flex justify-content-end">
+                <a rel="me" href="https://social.e-editiones.org/@eeditiones" class="me-4"><i class="bi bi-mastodon"></i></a>
+                <a href="https://twitter.com/EEditiones" class="me-4">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./print-css.md">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+</header>
+
+<main class="container ">
+    
+    <div class="row gx-lg-5 gx-2">
+        <div class="">
+            <h1>Generating CSS for print</h1>
+            <blockquote>
+<p>TEI Publisher 8 will support creating print output using CSS Paged Media. This feature supplements the existing FO and LaTeX output modes. While FO and LaTeX require quite some customization in the ODD, Print CSS extends the existing HTML view and CSS styles to layout the text on the printed page.</p>
+</blockquote>
+<p>Though it has improved, browser support for CSS Paged Media (often also called <em>Print CSS</em>) is still insufficient. However, there are tools to fill the gap. The starting point for my recent exploration into this technology was an edition of medieval hagiography. The editors requested a printout, which should ideally resemble the future website as closely as possible, so corrections could be done on paper. While LaTeX does provide all the fancy features needed (e.g. an aligned parallel layout of transcription and translation using the powerful reledpar package), the result would quickly diverge from the web version, hence would not be suitable for the review process.</p>
+<p>Looking into CSS Paged Media as an alternative, I was surprised by what is possible by now in the browser. The book had quite a complex layout, using different types of marginal notes, text critical apparatus etc. Even though I could not realize every feature just within the browser and had to switch to an external utility (see below), the results were satisfactory and would certainly be sufficient for a slightly simpler edition.</p>
+<h2 id="a-print-preview-for-tei-publisher" tabindex="-1">A print preview for TEI Publisher</h2>
+<figure class="right-margin">
+    <img src="/img/serafin-print.png">
+    <figcaption>Page from the TP demo with margin notes and running head rendered with paged.js</figcaption>
+</figure>
+<p>We have therefore decided to integrate this approach more tightly into TEI Publisher, providing a separate print preview page for those sample documents for which it makes sense, as well as an API endpoint to retrieve the complete HTML of a document targeted at print.</p>
+<p>The new feature will become available with the TEI Publisher 8 release. If you would like to experiment with it right now, feel free to use one of the <a href="https://github.com/eeditiones/tei-publisher-app/pkgs/container/tei-publisher-app%2Fteipublisher">docker images</a> - which always reflect the current state of development - or build TEI Publisher yourself.</p>
+<p>The new print preview page includes a brilliant javascript library, <a href="https://pagedjs.org/">paged.js</a>, which fills many of the gaps in browsers concerning CSS Print support. Without this library, web browsers would ignore most parts of the page layout and just generate a very basic printout. With paged.js though, you can use the browser's default print dialog to get a pretty fancy printed version.</p>
+<p>paged.js is open source and still under development, so there are limitations (see below). For linear documents like the TEI Publisher documentation it does produce very good results though.</p>
+<h2 id="new-print-output-mode-in-tei-publisher-lib" tabindex="-1">New print output mode in tei-publisher-lib</h2>
+<p>Obviously not everything you can do on a screen will work on paper. For example, the <code>alternate</code> behaviour defined in the TEI guidelines will by default generate a popup if you use the <code>web</code> output mode in TEI Publisher. We can't do that on paper. Therefore we need a way to distinguish between HTML targeted at the screen and HTML for print by using a different output mode in the ODD. This requires a change in the underlying core library of TEI Publisher, called <code>tei-publisher-lib</code>.</p>
+<p>The newly released <code>tei-publisher-lib</code> version 3.0.0 reassigns the <code>print</code> output mode to generate HTML for print. <code>print</code> extends <code>web</code>, overwriting the two behaviours, which would fail on paper: <code>note</code> and <code>alternate</code>. Both involve popups. <code>print</code> just outputs them as plain HTML to be processed by print CSS styles.</p>
+<p>You'll need to <a href="/posts/tei-publisher-lib-3">update</a> <code>tei-publisher-lib</code> to benefit from the newly added features. <code>print</code> was previously defined as a synonym for <code>fo</code> and generated XML output to be further processed by an XSL/FO engine like Apache fop. Reassigning it constitutes a breaking change (hence the major 3.0.0 version, which indicates: not backwards compatible), though the <code>fo</code> mode will still work as before. Please keep this in mind when you decide to upgrade and read the <a href="/posts/tei-publisher-lib-3">instructions</a>.</p>
+<h2 id="adding-css-for-print" tabindex="-1">Adding CSS for print</h2>
+<p>TEI Publisher 8 will include a default CSS stylesheet for print, residing in <code>resources/css/print.css</code>. The API endpoint, which generates HTML for print, automatically injects this. The default stylesheet sets the paper size to 'A4', adds margins for recto and verso pages, page numbers in the respective bottom corners, and most important: a footnote area at the bottom. HTML elements with class <em>footnote</em> will be output there.</p>
+<p>You can extend this by adding your own print styles as follows: if you have not done that yet, create an empty CSS file next to the location in which your ODD is stored (<code>odd</code> in TEI Publisher or <code>resources/odd</code> in a generated app). Associate this with your ODD by adding a corresponding <code>&lt;rendition&gt;</code> element to the <code>&lt;teiHeader&gt;</code>:</p>
+<pre class="language-xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>encodingDesc</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tagsDecl</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>rendition</span> <span class="token attr-name">source</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>shakespeare.css<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tagsDecl</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>encodingDesc</span><span class="token punctuation">></span></span></code></pre>
+<p>Note that you need to recompile your ODD whenever you change the associated CSS. This is needed as TEI Publisher combines the stylesheet with any <code>&lt;outputRendition&gt;</code> styles defined in the ODD.</p>
+<h2 id="writing-css" tabindex="-1">Writing CSS</h2>
+<p>All CSS rules targeted at print should go into a <code>@media print</code> section. To start with, we could add a running head to the left and right pages:</p>
+<pre class="language-css"><code class="language-css"><span class="token atrule"><span class="token rule">@media</span> print</span> <span class="token punctuation">{</span><br><br>    <span class="token atrule"><span class="token rule">@page</span><span class="token punctuation">:</span>left</span> <span class="token punctuation">{</span><br>        <span class="token property">margin-left</span><span class="token punctuation">:</span> 1cm<span class="token punctuation">;</span><br>        <span class="token property">margin-right</span><span class="token punctuation">:</span> 1cm<span class="token punctuation">;</span><br><br>        <span class="token atrule"><span class="token rule">@top-left</span></span> <span class="token punctuation">{</span><br>            <span class="token property">content</span><span class="token punctuation">:</span> <span class="token function">string</span><span class="token punctuation">(</span>runningHead<span class="token punctuation">)</span><span class="token punctuation">;</span><br>            <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--pb-heading-font-family<span class="token punctuation">)</span><span class="token punctuation">;</span><br>        <span class="token punctuation">}</span><br><br>        <span class="token atrule"><span class="token rule">@bottom-left-corner</span></span> <span class="token punctuation">{</span><br>            <span class="token property">content</span><span class="token punctuation">:</span> <span class="token function">counter</span><span class="token punctuation">(</span>page<span class="token punctuation">)</span><span class="token punctuation">;</span><br>            <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--pb-heading-font-family<span class="token punctuation">)</span><span class="token punctuation">;</span><br>        <span class="token punctuation">}</span><br>    <span class="token punctuation">}</span><br><br>    <span class="token atrule"><span class="token rule">@page</span><span class="token punctuation">:</span>right</span> <span class="token punctuation">{</span><br>        <span class="token property">margin-left</span><span class="token punctuation">:</span> 1cm<span class="token punctuation">;</span><br>        <span class="token property">margin-right</span><span class="token punctuation">:</span> 1cm<span class="token punctuation">;</span><br><br>        <span class="token atrule"><span class="token rule">@top-right</span></span> <span class="token punctuation">{</span><br>            <span class="token property">content</span><span class="token punctuation">:</span> <span class="token function">string</span><span class="token punctuation">(</span>runningHead<span class="token punctuation">)</span><span class="token punctuation">;</span><br>            <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--pb-heading-font-family<span class="token punctuation">)</span><span class="token punctuation">;</span><br>        <span class="token punctuation">}</span><br><br>        <span class="token atrule"><span class="token rule">@bottom-right-corner</span></span> <span class="token punctuation">{</span><br>            <span class="token property">content</span><span class="token punctuation">:</span> <span class="token function">counter</span><span class="token punctuation">(</span>page<span class="token punctuation">)</span><span class="token punctuation">;</span><br>            <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--pb-heading-font-family<span class="token punctuation">)</span><span class="token punctuation">;</span><br>        <span class="token punctuation">}</span><br>    <span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
+<p>Key here are the added <code>@top-left</code> and <code>@top-right</code> sections, which take their content from a - so called - <em>named string</em>, in this case: <code>runningHead</code>. We'll set this <em>named string</em> using the content of each <code>&lt;h1&gt;</code> heading output by our ODD transformation:</p>
+<pre class="language-css"><code class="language-css"><span class="token atrule"><span class="token rule">@media</span> print</span> <span class="token punctuation">{</span><br>    <span class="token selector">...<br>    h1</span> <span class="token punctuation">{</span><br>        <span class="token property">string-set</span><span class="token punctuation">:</span> runningHead <span class="token function">content</span><span class="token punctuation">(</span>text<span class="token punctuation">)</span><span class="token punctuation">;</span><br>        <span class="token property">break-before</span><span class="token punctuation">:</span> page<span class="token punctuation">;</span><br>    <span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
+<p>We also request that a page break is inserted before every title. As you have full control over the ODD which generates the HTML, you could also decide to use a different element or a given class name. You can even combine multiple named strings into one running head (as demonstrated by the TEI Publisher documentation).</p>
+<p>The chapter on <a href="https://pagedjs.org/documentation/7-generated-content-in-margin-boxes/">generated content and margin boxes</a> in the <em>paged.js</em> documentation explains the concepts very well, so please refer there for further information.</p>
+<p>Another feature working nicely with the <em>paged.js</em> library behind TEI Publisher's print preview page is a multi-column layout. To enable two columns, simply add <code>columns: 2</code> to the enclosing parent element. You can also specify that headings should span across both columns as shown before:</p>
+<pre class="language-css"><code class="language-css"><span class="token atrule"><span class="token rule">@media</span> print</span> <span class="token punctuation">{</span><br>    <span class="token selector">...<br>    section</span> <span class="token punctuation">{</span><br>        <span class="token property">columns</span><span class="token punctuation">:</span> 2<span class="token punctuation">;</span><br>    <span class="token punctuation">}</span><br><br>    <span class="token selector">h1, h2, h3</span> <span class="token punctuation">{</span><br>        <span class="token property">column-span</span><span class="token punctuation">:</span> all<span class="token punctuation">;</span><br>        <span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span><br>    <span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
+<h2 id="limitations-and-alternatives" tabindex="-1">Limitations and alternatives</h2>
+<figure class="right-margin">
+    <img src="/img/serafin-prince.png">
+    <figcaption>Parallel display of transcription and translation rendered via Prince XML</figcaption>
+</figure>
+<p>The <em>paged.js</em> library is still under development and has its limitations. For example, I have not been able to create a two column layout with aligned transcription and translation, though I tried various approaches. Using a table worked as long as both parallel paragraphs would fit on the page, but longer paragraphs were separated.</p>
+<p>Fortunately there are several tools which run outside the browser and provide better coverage for Print CSS, though the majority of them is commercial. A list can be found on <a href="https://www.print-css.rocks/tools">print-css.rocks</a>.</p>
+<figure class="left">
+    <img src="/img/print-preview-copy.png" height="196px">
+    <figcaption>Toolbar</figcaption>
+</figure>
+<p>Most of those tools operate on the command line and expect an HTML file as input. To simplify this task we created an API endpoint in TEI Publisher, which retrieves the print optimized HTML for an entire document and injects the necessary stylesheets. You can copy the endpoint URL for a given document by using the corresponding button in the print preview interface.</p>
+<p>For example, using Prince XML on windows, one can paste this URL directly into the application's dialog. The endpoint URL has the following structure:</p>
+<p><code>/api/document/test%2Forlik_to_serafin.xml/print?odd=serafin.odd &amp;base=%2Fexist%2Fapps%2Ftei-publisher%2Ftest%2F &amp;style=resources%2Ffonts%2Ffont.css &amp;style=resources%2Fcss%2Fprint.css</code></p>
+<p>Here <code>odd</code> defines the ODD to use for the transformation, <code>base</code> is the base URI from which additional stylesheets or images are loaded, and <code>style</code> lists one or more additional CSS stylesheets.</p>
+<h2 id="conclusion" tabindex="-1">Conclusion</h2>
+<p>While I have many years of experience with FO and worked on some LaTeX-based projects, I did not really look into Paged Media CSS until recently. Though browser support is still lacking, a library like paged.js definitely fills the gap, at least for documents not requiring parallel layout or huge tables (see the TEI Publisher documentation for example). For complex layouts, commercial software like <a href="https://www.antennahouse.com/">Antennahouse</a> or <a href="https://www.princexml.com/">PrinceXML</a> (to just name two) can provide high quality print.</p>
+<figure>
+    <img src="/img/tei-publisher-docs-printcss.png">
+    <figcaption>Two pages from the TEI Publisher documentation rendered with paged.js</figcaption>
+</figure>
+<p>The one great advantage of using Print CSS instead of FO or LaTeX is that you can work on the web and the print version at the same time and generate both from the same ODD, distinguishing the output mode in a few places only. This allows for rapid prototyping and quick review cycles.</p>
+<p>We'd like to ask the community to support us in this area by contributing further examples. Help us push the limits of what can be done.</p>
+
+        </div>
+        
+    </div>
+</main>
+
+<footer class="p-2">
+    <div class="col-8">e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
+    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX<br/>
+    <a href="/pages/imprint">Imprint</a> | <a href="/pages/gdpr">Data Protection</a>
+    </div>
+</footer>
+
+      <script src="/assets/scripts/bootstrap.bundle.min.js"></script>
+      <script src="/assets/scripts/common.js"></script>
+      
+      <!-- Matomo -->
+      <script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setDoNotTrack", true]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+          var u="//stats.existsolutions.com/";
+          _paq.push(['setTrackerUrl', u+'matomo.php']);
+          _paq.push(['setSiteId', '2']);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+          g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+      </script>
+      <!-- End Matomo Code -->
+  </body>
+</html>

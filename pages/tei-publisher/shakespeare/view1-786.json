@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.24.25.47.125.27.34",
+    "rootNode": "3.5.4.24.25.47.125.27.34",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.25.47.125.31.22",
+    "previous": "3.5.4.24.25.47.125.19.97",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0793_800px.jpg\"></pb-facs-link>\n                                <span class=\"tei-fw2\">Die Diſciplin der reinen Vernunft im\n                                    polem. ꝛc.</span>\n                                <br class=\"tei-lb3\"> ſind alle Behauptungen der lezten blindlings gewagt. Und<br class=\"tei-lb3\">\n                                auf ſolche Weiſe waͤre ein durchgaͤngiger Zweifel an alle<br class=\"tei-lb3\">\n                                dogmatiſche Philoſophie, die ohne Critik der Vernunft<br class=\"tei-lb3\"> ſelbſt\n                                ihren Gang geht, ganz wol gegruͤndet; allein darum<br class=\"tei-lb3\"> koͤnte doch\n                                der Vernunft nicht ein ſolcher Fortgang, wenn<br class=\"tei-lb3\"> er durch beſſere\n                                Grundlegung vorbereitet und geſichert wuͤr<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">de,\n                                gaͤnzlich abgeſprochen werden. Denn, einmal liegen<br class=\"tei-lb3\"> alle\n                                Begriffe, ia alle Fragen, welche uns die reine Ver<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nunft vorlegt, nicht etwa in der Erfahrung, ſondern ſelbſt<br class=\"tei-lb3\">\n                                wiederum nur in der Vernunft und muͤſſen daher koͤn<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nen aufgeloͤſet und ihrer Guͤltigkeit oder Nichtigkeit nach<br class=\"tei-lb3\">\n                                begriffen werden koͤnnen. Wir ſind auch nicht berechtigt,<br class=\"tei-lb3\"> dieſe\n                                Aufgaben, als laͤge ihre Aufloͤſung wirklich in der<br class=\"tei-lb3\"> Natur der\n                                Dinge, doch unter dem Vorwande unſeres Un<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">vermoͤgens\n                                abzuweiſen und uns ihrer weiteren Nachfor<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſchung zu\n                                weigern, da die Vernunft in ihrem Schoße<br class=\"tei-lb3\"> allein dieſe Ideen\n                                ſelbſt erzeugt hat, von deren Guͤltigkeit<br class=\"tei-lb3\"> oder dialectiſchen\n                                Scheine ſie alſo Rechenſchaft zu geben<br class=\"tei-lb3\"> gehalten iſt.</p>\n                            \n                            <p class=\"tei-p2\">Alles ſceptiſche Polemiſiren iſt eigentlich nur wider<br class=\"tei-lb3\"> den\n                                Dogmatiker gekehrt, der, ohne ein Mißtrauen auf<br class=\"tei-lb3\"> ſeine\n                                urſpruͤngliche obiective Principien zu ſetzen, d. i. ohne<br class=\"tei-lb3\">\n                                Critik gravitaͤtiſch ſeinen Gang fortſezt, blos um ihm<br class=\"tei-lb3\"> das\n                                Concept zu verruͤcken und zur Selbſterkentniß zu brin<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">gen. An ſich macht ſie in Anſehung deſſen, was wir wiſ<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſen und was wir dagegen nicht wiſſen koͤnnen, ganz\n                                und<br class=\"tei-lb3\"> gar nichts aus. Alle fehlgeſchlagene dogmatiſche Verſuche<br class=\"tei-lb3\">\n                                </p><div class=\"tei-fw5 catch\">der</div>\n                                <br class=\"tei-lb3\">\n                                <p></p></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

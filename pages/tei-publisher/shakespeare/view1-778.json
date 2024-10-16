@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.24.25.47.97.42",
+    "rootNode": "3.5.4.24.25.47.97.42",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.25.47.101.40",
+    "previous": "3.5.4.24.25.47.89.101",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0785_800px.jpg\"></pb-facs-link>\n                            <span class=\"tei-fw2\">Die Diſciplin der reinen Vernunft im\n                                polem. ꝛc.</span>\n                            <br class=\"tei-lb3\"> in ſeinem eigenen Buſen, als in dem des Gegentheils liegt,<br class=\"tei-lb3\">\n                            nicht zu entwickeln weis, ſieht Scheingruͤnde, die den Vor<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">zug der Neuigkeit haben, gegen Scheingruͤnde, welche der<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">gleichen nicht mehr haben, ſondern vielmehr den Verdacht<br class=\"tei-lb3\"> einer\n                            mißbrauchten Leichtglaͤubigkeit der Jugend erregen,<br class=\"tei-lb3\"> auftreten. Er\n                            glaubt nicht beſſer zeigen zu koͤnnen, daß<br class=\"tei-lb3\"> er der Kinderzucht\n                            entwachſen ſey, als wenn er ſich uͤber<br class=\"tei-lb3\"> iene wolgemeinte Warnungen\n                            wegſezt und, dogmatiſch<br class=\"tei-lb3\"> gewohnt, trinkt er das Gift, das ſeine\n                            Grundſaͤtze dog<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">matiſch verdirbt, in langen Zuͤgen in\n                            ſich.</p>\n                        \n                        <p class=\"tei-p2\">Gerade das Gegentheil von dem, was man hier an<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">raͤth, muß\n                            in der academiſchen Unterweiſung geſchehen,<br class=\"tei-lb3\"> aber freilich nur unter\n                            der Vorausſetzung eines gruͤndlichen<br class=\"tei-lb3\"> Unterrichts in der Critik der\n                            reinen Vernunft. Denn, um<br class=\"tei-lb3\"> die Principien derſelben ſo fruͤh als\n                            moͤglich in Ausuͤbung<br class=\"tei-lb3\"> zu bringen und ihre Zulaͤnglichkeit, bey dem\n                            groͤßten dia<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">lectiſchen Scheine, zu zeigen, iſt es\n                            durchaus noͤthig, die<br class=\"tei-lb3\"> vor den Dogmatiker ſo furchtbare Angriffe\n                            wider ſeine,<br class=\"tei-lb3\"> obzwar noch ſchwache, aber durch Critik aufgeklaͤrte\n                                Ver<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nunft zu richten und ihn den Verſuch machen zu\n                            laſſen, die<br class=\"tei-lb3\"> grundloſe Behauptungen des Gegners Stuͤck vor Stuͤck\n                            an<br class=\"tei-lb3\"> ienen Grundſaͤtzen zu pruͤfen. Es kan ihm gar nicht ſchwer<br class=\"tei-lb3\">\n                            werden, ſie in lauter Dunſt aufzuloͤſen, und ſo fuͤhlt er<br class=\"tei-lb3\">\n                            fruͤhzeitig ſeine eigene Kraft, ſich wider dergleichen ſchaͤd<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">liche Blendwerke, die vor ihn zulezt allen Schein\n                                verlieh<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ren muͤſſen, voͤllig zu ſichern. Ob nun zwar\n                            eben dieſelbe<br class=\"tei-lb3\">\n                            </p><div class=\"tei-fw3\"><div class=\"catch\">Strei</div><div class=\"sig\">B b b 2</div></div>\n                            \n                            <br class=\"tei-lb3\">\n                            <p></p></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

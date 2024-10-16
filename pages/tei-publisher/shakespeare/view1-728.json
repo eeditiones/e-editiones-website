@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.22",
+    "rootNode": "3.5.4.22",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.11",
+    "previous": "3.5.4.16.29.27.11.25.83.37.65.81.151.100",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_g {\n   letter-spacing:0.125em\n}\n\n .document_b {\n   font-weight:bold\n}\n\n .document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-body2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0735_800px.jpg\"></pb-facs-link>\n            <section class=\"tei-div2\">\n                <h1 class=\"tei-head6\">\n                    <span class=\"tei-hi document_b\">\n                        <span class=\"tei-hi document_aq\">II.</span>\n                        <br class=\"tei-lb3\">\n                        <span class=\"tei-hi document_g\">Transſcendentale<br class=\"tei-lb3\"> Methodenlehre</span>.</span>\n                </h1>\n                <br class=\"tei-lb3\">\n                <div class=\"tei-fw3\"><div class=\"catch\"></div><div class=\"sig\">Y y</div></div>\n                <br class=\"tei-lb3\">\n                </section></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

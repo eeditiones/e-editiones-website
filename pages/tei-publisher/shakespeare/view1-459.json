@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.16.29.27.11.25.83.33.129",
+    "rootNode": "3.5.4.16.29.27.11.25.83.33.129",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.16.29.27.11.25.83.33.139",
+    "previous": "3.5.4.16.29.27.11.25.83.33.119",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.16",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"tei-div3\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0466_800px.jpg\"></pb-facs-link>\n                                        <div class=\"tei-div3\" id=\"f0466\">\n                                            <div class=\"tei-div3\">\n                                                <div class=\"tei-div3\">\n                                                  <p class=\"tei-p2\">dieſer Fall der Vorausſetzung\n                                                  widerſpricht, ſo bleibt nur<br class=\"tei-lb3\"> der zweite\n                                                  uͤbrig: daß nemlich das ſubſtanzielle Zuſam<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">mengeſezte in der Welt aus einfachen\n                                                  Theilen beſtehe.</p>\n                                                  \n                                                  <p class=\"tei-p2\">Hieraus folgt unmittelbar: daß die Dinge der\n                                                  Welt<br class=\"tei-lb3\"> insgeſamt einfache Weſen ſind, daß die\n                                                  Zuſammenſetzung<br class=\"tei-lb3\"> nur ein aͤuſſerer Zuſtand\n                                                  derſelben ſey, und daß, wenn<br class=\"tei-lb3\"> wir die\n                                                  Elementarſubſtanzen gleich niemals voͤllig aus\n                                                  die<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſem Zuſtande der Verbindung\n                                                  ſetzen und iſoliren koͤnnen,<br class=\"tei-lb3\"> doch die\n                                                  Vernunft ſie als die erſte Subiecte aller\n                                                  Compoſi<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">tion und mithin, vor\n                                                  derſelben, als einfache Weſen den<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ken muͤſſe.</p>\n                                                </div>\n                                            </div>\n                                        </div>\n                                        <br class=\"tei-lb3\">\n                                        <div class=\"tei-fw5 catch\">An</div>\n                                        <br class=\"tei-lb3\">\n                                        </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

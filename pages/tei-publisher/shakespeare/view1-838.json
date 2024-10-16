@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.24.39.23.107.25",
+    "rootNode": "3.5.4.24.39.23.107.25",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.39.23.111.26",
+    "previous": "3.5.4.24.39.23.99.46",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0845_800px.jpg\"></pb-facs-link>\n                            <span class=\"tei-fw2\">Vom Ideal des hoͤchſten Guts.</span>\n                            <br class=\"tei-lb3\"> men, welches wir allen Natururſachen vorſetzen und von dem<br class=\"tei-lb3\">\n                            wir zugleich dieſe in allen Stuͤcken abhaͤngend zu machen, hin<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">reichende Urſache haͤtten. Dagegen, wenn wir aus\n                            dem<br class=\"tei-lb3\"> Geſichtspuncte der ſittlichen Einheit, als einem nothwen<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">digen Weltgeſetze, die Urſache erwaͤgen, die dieſem\n                            allein<br class=\"tei-lb3\"> den angemeſſenen Effect, mithin auch vor uns\n                            verbindende<br class=\"tei-lb3\"> Kraft geben kan, ſo muß es ein einiger oberſter Wille\n                            ſeyn,<br class=\"tei-lb3\"> der alle dieſe Geſetze in ſich befaßt. Denn, wie wolten\n                            wir<br class=\"tei-lb3\"> unter verſchiedenen Willen vollkommene Einheit der Zwecke<br class=\"tei-lb3\">\n                            finden? Dieſer Wille muß allgewaltig ſeyn, damit die gan<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ze Natur und deren Beziehung auf Sittlichkeit in der Welt<br class=\"tei-lb3\"> ihm\n                            unterworfen ſey, allwiſſend, damit er das Innerſte<br class=\"tei-lb3\"> der Geſinnungen\n                            und deren moraliſchen Werth erkenne,<br class=\"tei-lb3\"> allgegenwaͤrtig, damit er\n                            unmittelbar allem Beduͤrfniſſe,<br class=\"tei-lb3\"> welche das hoͤchſte Weltbeſte\n                            erfodert, nahe ſey, ewig,<br class=\"tei-lb3\"> damit in keiner Zeit dieſe\n                            Uebereinſtimmung der Natur und<br class=\"tei-lb3\"> Freiheit ermangele, u. ſ. w.</p>\n                        \n                        <p class=\"tei-p2\">Aber dieſe ſyſtematiſche Einheit der Zwecke in die<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſer\n                            Welt der Intelligenzen, welche, obzwar, als bloſſe<br class=\"tei-lb3\"> Natur, nur\n                            Sinnenwelt, als ein Syſtem der Freiheit<br class=\"tei-lb3\"> aber, intelligibele, d. i.\n                            moraliſche Welt <span class=\"tei-hi document_aq\">(regnum gra<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">tiae)</span> genant werden kan, fuͤhret unausbleiblich auch auf<br class=\"tei-lb3\">\n                            die zweckmaͤſſige Einheit aller Dinge, die dieſes groſſe<br class=\"tei-lb3\"> Ganze\n                            ausmachen, nach allgemeinen Naturgeſetzen, ſo<br class=\"tei-lb3\"> wie die erſtere nach\n                            allgemeinen und nothwendigen Sitten<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">geſetzen und\n                            vereinigt die practiſche Vernunft mit der ſpe<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">culativen.\n                            Die Welt muß als aus einer Idee entſprungen<br class=\"tei-lb3\">\n                            </p><div class=\"tei-fw5 catch\">vor</div>\n                            <br class=\"tei-lb3\">\n                            <p></p></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

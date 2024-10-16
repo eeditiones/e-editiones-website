@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.2.16.7.34",
+    "rootNode": "3.5.2.16.7.34",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.2.16.15.13",
+    "previous": "3.5.2.14",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.2.16",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0011_800px.jpg\"></pb-facs-link> beehren, als koͤnte ich zu dieſer Abſicht<br class=\"tei-lb3\"> etwas\n                    beitragen.</p>\n                \n                <p class=\"tei-p2\">Wen das ſpeculative Leben vergnuͤgt,<br class=\"tei-lb3\"> dem iſt, unter maͤſſigen Wuͤnſchen,\n                    der<br class=\"tei-lb3\"> Beifall eines aufgeklaͤrten, guͤltigen Rich<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ters eine\n                    kraͤftige Aufmunterung zu Be<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">muͤhungen, deren Nutze groß, obzwar\n                        ent<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">fernt iſt, und daher von gemeinen Au<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">gen\n                    gaͤnzlich verkant wird.</p>\n                \n                <p class=\"tei-p2\">Einem Solchen und Deſſen gnaͤdi<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">gem Augenmerke widme ich nun\n                    dieſe<br class=\"tei-lb3\"> Schrift und, Seinem Schutze, alle uͤbri<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\"></p><div class=\"tei-fw3\"><div class=\"catch\">ge</div><div class=\"sig\">a 3</div></div>\n                    \n                    <br class=\"tei-lb3\">\n                    <p></p></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

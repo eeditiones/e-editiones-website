@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.24.55.85.43",
+    "rootNode": "3.5.4.24.55.85.43",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.55.89.44",
+    "previous": "3.5.4.24.55.75",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0872_800px.jpg\"></pb-facs-link>\n                        <span class=\"tei-fw2\">Methodenlehre <span class=\"tei-hi document_aq\">III.</span>\n                            Hauptſt.</span>\n                        <br class=\"tei-lb3\"> gung) zum Grunde gelegt wird. Die Metaphyſik der<br class=\"tei-lb3\"> ſpeculativen\n                        Vernunft iſt nun das, was man im engeren<br class=\"tei-lb3\"> Verſtande Metaphyſik zu nennen\n                        pflegt; ſo fern aber reine<br class=\"tei-lb3\"> Sittenlehre doch gleichwol zu dem beſonderen\n                        Stamme<br class=\"tei-lb3\"> menſchlicher und zwar philoſophiſcher Erkentniß aus reiner<br class=\"tei-lb3\">\n                        Vernunft gehoͤret, ſo wollen wir ihr iene Benennung er<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">halten, obgleich wir ſie, als zu unſerm Zwecke iezt nicht<br class=\"tei-lb3\"> gehoͤrig,\n                        hier bey Seite ſetzen.</p>\n                    \n                    <p class=\"tei-p2\">Es iſt von der aͤuſſerſten Erheblichkeit, Erkentniſſe,<br class=\"tei-lb3\"> die ihrer Gattung\n                        und Urſprunge nach von andern unter<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſchieden ſind, zu\n                        iſoliren und ſorgfaͤltig zu verhuͤten,<br class=\"tei-lb3\"> daß ſie nicht mit andern, mit\n                        welchen ſie im Gebrauche<br class=\"tei-lb3\"> gewoͤhnlich verbunden ſind, in ein Gemiſche\n                            zuſammen<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">flieſſen. Was Chemiker beim Scheiden der\n                        Materien,<br class=\"tei-lb3\"> was Mathematiker in ihrer reinen Groͤſſenlehre thun, das<br class=\"tei-lb3\">\n                        liegt noch weit mehr dem Philoſophen ob, damit er den<br class=\"tei-lb3\"> Antheil, den eine\n                        beſondere Art der Erkentniß am her<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">umſchweifenden\n                        Verſtandesgebrauch hat, ihren eigenen<br class=\"tei-lb3\"> Werth und Einfluß ſicher\n                        beſtimmen koͤnne. Daher hat<br class=\"tei-lb3\"> die menſchliche Vernunft ſeitdem, daß ſie\n                        gedacht, oder<br class=\"tei-lb3\"> vielmehr nachgedacht hat, niemals einer Metaphyſik ent<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">behren, aber gleichwol ſie nicht, genugſam gelaͤutert\n                        von<br class=\"tei-lb3\"> allem Fremdartigen, darſtellen koͤnnen. Die Idee einer<br class=\"tei-lb3\"> ſolchen\n                        Wiſſenſchaft iſt eben ſo alt, als ſpeculative Men<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſchenvernunft und welche Vernunft ſpeculirt nicht, es mag<br class=\"tei-lb3\"> nun auf\n                        ſcholaſtiſche, oder populaͤre Art geſchehen? Man<br class=\"tei-lb3\"> muß indeſſen geſtehen:\n                        daß die Unterſcheidung der zwey<br class=\"tei-lb3\">\n                        </p><div class=\"tei-fw5 catch\">Ele</div>\n                        <br class=\"tei-lb3\">\n                        <p></p></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

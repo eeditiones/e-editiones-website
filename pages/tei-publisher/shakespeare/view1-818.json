@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.24.35",
+    "rootNode": "3.5.4.24.35",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.39.11.12",
+    "previous": "3.5.4.24.25.55.59.30",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_g {\n   letter-spacing:0.125em\n}\n\n .document_b {\n   font-weight:bold\n}\n\n .document_in {\n   font-size:150%\n}\n\n</style><div class=\"tei-div3\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0825_800px.jpg\"></pb-facs-link>\n                \n                <div class=\"tei-div3\">\n                    <h2 class=\"tei-head6\">\n                        <span class=\"tei-hi document_b\">\n                            <span class=\"tei-hi document_g\">Der</span>\n                            <br class=\"tei-lb3\"> Transſcendentalen Methodenlehre<br class=\"tei-lb3\">\n                            <span class=\"tei-hi document_g\">Zweites Hauptſtuͤck</span>.<br class=\"tei-lb3\"> Der Canon der reinen\n                            Vernunft.</span>\n                    </h2>\n                    \n                    <p class=\"tei-p2\">\n                        <span class=\"tei-hi document_in\">E</span>s iſt demuͤthigend vor die menſchliche Vernunft,\n                        daß<br class=\"tei-lb3\"> ſie in ihrem reinen Gebrauche nichts ausrichtet, und<br class=\"tei-lb3\"> ſo gar\n                        noch einer Diſciplin bedarf, um ihre Ausſchwei<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">fungen zu\n                        baͤndigen und die Blendwerke, die ihr daher<br class=\"tei-lb3\"> kommen, zu verhuͤten.\n                        Allein anderer Seits erhebt es<br class=\"tei-lb3\"> ſie wiederum und giebt ihr ein Zutrauen\n                        zu ſich ſelbſt, daß<br class=\"tei-lb3\"> ſie dieſe Diſciplin ſelbſt ausuͤben kan und muß,\n                        ohne eine<br class=\"tei-lb3\"> andere Cenſur uͤber ſich zu geſtatten, imgleichen, daß\n                        die<br class=\"tei-lb3\"> Graͤnzen, die ſie ihrem ſpeculativen Gebrauche zu ſetzen<br class=\"tei-lb3\">\n                        genoͤthigt iſt, zugleich die vernuͤnftelnde Anmaſſungen iedes<br class=\"tei-lb3\"> Gegners\n                        einſchraͤnken und mithin alles, was ihr noch von<br class=\"tei-lb3\"> ihren vorher\n                        uͤbertriebenen Foderungen uͤbrig bleiben moͤch<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">te, gegen alle\n                        Angriffe ſicher ſtellen koͤnne. Der groͤßte<br class=\"tei-lb3\"> und vielleicht einzige\n                        Nutze aller Philoſophie der reinen Ver<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nunft iſt alſo wol nur\n                        negativ; da ſie nemlich nicht, als<br class=\"tei-lb3\"> Organon, zur Erweiterung, ſondern,\n                        als Diſciplin, zur<br class=\"tei-lb3\"> Graͤnzbeſtimmung dient und, anſtatt Wahrheit zu\n                            entde<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">cken, nur das ſtille Verdienſt hat, Irrthuͤmer zu\n                            ver<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">huͤten.</p>\n                    \n                    <p class=\"tei-p2\">Indeſſen muß es doch irgendwo einen Quell von po<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſitiven\n                        Erkentniſſen geben, welche ins Gebiete der reinen<br class=\"tei-lb3\"> Vernunft gehoͤren und\n                        die vielleicht nur durch Mißverſtand<br class=\"tei-lb3\">\n                        </p><div class=\"tei-fw5 catch\">zu</div>\n                        <br class=\"tei-lb3\">\n                        <p></p></div></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

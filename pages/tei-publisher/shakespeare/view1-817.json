@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.24.25.55.59.30",
+    "rootNode": "3.5.4.24.25.55.59.30",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.35",
+    "previous": "3.5.4.24.25.55.55.62",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-div3\"><div class=\"tei-div3\"><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0824_800px.jpg\"></pb-facs-link>\n                            <span class=\"tei-fw2\">Methodenlehre <span class=\"tei-hi document_aq\">I.</span>\n                                Hauptſt. <span class=\"tei-hi document_aq\">IV.</span> Abſch. ꝛc.</span>\n                            <br class=\"tei-lb3\"> in ſeiner Reihe bald Sieger iſt, bald unterliegt, nehmen<br class=\"tei-lb3\">\n                            oftmals daraus Anlaß, das Obiect des Streits ſelbſt ſceptiſch<br class=\"tei-lb3\"> zu\n                            bezweifeln. Aber ſie haben nicht Urſache dazu und es<br class=\"tei-lb3\"> iſt gnug,\n                            ihnen zuzurufen: <span class=\"tei-hi document_aq\">non defenſoribus iſtis tem<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">pus eger</span>. Ein ieder muß ſeine Sache vermittelſt\n                            eines,<br class=\"tei-lb3\"> durch transſcendentale Deduction der Beweisgruͤnde ge<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">fuͤhrten rechtlichen Beweiſes, d. i. direct fuͤhren,\n                            damit<br class=\"tei-lb3\"> man ſehe, was ſeine Vernunftanſpruͤche vor ſich ſelbſt\n                                anzu<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">fuͤhren haben. Denn fuſſet ſich ſein Gegner auf\n                            ſubiective<br class=\"tei-lb3\"> Gruͤnde, ſo iſt er freilich leicht zu widerlegen, aber\n                            ohne<br class=\"tei-lb3\"> Vortheil vor den Dogmatiker, der gemeiniglich eben ſo<br class=\"tei-lb3\"> den\n                            ſubiectiven Urſachen des Urtheils anhaͤngt und gleicher<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">geſtalt von ſeinem Gegner in die Enge getrieben werden<br class=\"tei-lb3\"> kan.\n                            Verfahren aber be<span class=\"tei-supplied3\">i</span>de Theile blos direct, ſo wer<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">den ſie entweder die Schwierigkeit, ia Unmoͤglichkeit,\n                            den<br class=\"tei-lb3\"> Titel ihrer Behauptungen auszufinden, von ſelbſt bemerken,<br class=\"tei-lb3\">\n                            und ſich zulezt nur auf Veriaͤhrung berufen koͤnnen, oder<br class=\"tei-lb3\"> die\n                            Critik wird den dogmatiſchen Schein leicht entdecken<br class=\"tei-lb3\"> und die reine\n                            Vernunft noͤthigen, ihre zu hoch getriebene<br class=\"tei-lb3\"> Anmaſſungen im\n                            ſpeculativen Gebrauch aufzugeben und ſich<br class=\"tei-lb3\"> innerhalb die Graͤnzen\n                            ihres eigenthuͤmlichen Bodens,<br class=\"tei-lb3\"> nemlich practiſcher Grundſaͤtze,\n                            zuruͤck zu ziehen.</p>\n                    </div>\n                </div>\n                <br class=\"tei-lb3\">\n                \n                <div class=\"tei-fw5 catch\">Der</div>\n                <br class=\"tei-lb3\">\n                </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

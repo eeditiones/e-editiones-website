@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.24.73.23.39",
+    "rootNode": "3.5.4.24.73.23.39",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.73.27.51",
+    "previous": "3.5.4.24.73.19.30",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_i {\n   font-style:italic\n}\n\n .document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0885_800px.jpg\"></pb-facs-link>\n                        <span class=\"tei-fw2\">Die Geſchichte der reinen Vernunft.</span>\n                        <br class=\"tei-lb3\"> zen moͤglicher Erfahrung liegen), eben ſo evident beweiſen,<br class=\"tei-lb3\"> als\n                        irgend einen mathematiſchen Lehrſatz.</p>\n                    \n                    <p class=\"tei-p2\">3. In Anſehung der Methode. Wenn man et<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">was Methode nennen\n                        ſoll, ſo muß es ein Verfahren nach<br class=\"tei-lb3\"> Grundſaͤtzen ſeyn. Nun kan man die\n                        iezt in dieſem Fache<br class=\"tei-lb3\"> der Nachforſchung herrſchende Methode in die\n                            naturaliſti<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſche und ſcientifiſche eintheilen. Der\n                        Naturaliſt der rei<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nen Vernunft nimt es ſich zum Grundſatze:\n                        daß durch ge<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">meine Vernunft ohne Wiſſenſchaft (welche er die\n                        geſunde<br class=\"tei-lb3\"> Vernunft nent), ſich in Anſehung der erhabenſten Fragen,<br class=\"tei-lb3\">\n                        die die Aufgabe der Metaphyſik ausmachen, mehr ausrich<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ten\n                        laſſe, als durch Speculation. Er behauptet alſo:<br class=\"tei-lb3\"> daß man die Groͤſſe\n                        und Weite des Mondes ſicherer nach<br class=\"tei-lb3\"> dem Augenmaaſſe, als durch\n                        mathematiſche Umſchweife<br class=\"tei-lb3\"> beſtimmen koͤnne. Es iſt bloſſe Miſologie auf\n                        Grundſaͤtze<br class=\"tei-lb3\"> gebracht und, welches das ungereimteſte iſt, die Vernach<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">laͤſſigung aller kuͤnſtlichen Mittel als eine eigene\n                        Methode<br class=\"tei-lb3\"> angeruͤhmt, ſeine, Erkentniß zu erweitern. Denn<br class=\"tei-lb3\"> was die\n                        Naturaliſten aus Mangel mehrer Einſicht betrift,<br class=\"tei-lb3\"> ſo kan man ihnen mit\n                        Grunde nichts zur Laſt legen. Sie<br class=\"tei-lb3\"> folgen der gemeinen Vernunft, ohne\n                        ſich ihrer Unwiſſen<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">heit als einer Methode zu ruͤhmen, die\n                        das Geheimniß<br class=\"tei-lb3\"> enthalten ſolle, die Wahrheit aus Democrits tiefen\n                            Brun<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nen heraus zu hohlen. <span class=\"tei-hi document_aq\">Quod ſapio\n                            ſatis eſt mihi, non<br class=\"tei-lb3\"> ego curo, eſſe quod Arceſilas aerumnoſique Solones,<br class=\"tei-lb3\">\n                            <span class=\"tei-hi document_i\">Perſ.</span>\n                        </span> iſt ihr Wahlſpruch, bey dem ſie vergnuͤgt und beifalls<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\"></p><div class=\"tei-fw5 catch\">wuͤrdig</div>\n                        <br class=\"tei-lb3\">\n                        <p></p></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

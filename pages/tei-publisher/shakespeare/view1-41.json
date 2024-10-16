@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.16.11",
+    "rootNode": "3.5.4.16.11",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.16.13",
+    "previous": "3.5.4.14",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.16",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><div class=\"tei-div3\"><span class=\"tei-pb2\">[Empty page]</span>\n                </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

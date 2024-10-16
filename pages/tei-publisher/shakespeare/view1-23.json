@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.2.26.7.38",
+    "rootNode": "3.5.2.26.7.38",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.4",
+    "previous": "3.5.2.24.97",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.2.26",
+    "content": "<!DOCTYPE html><html><head></head><body class=\"tei-text\"><div class=\"content \"><style type=\"text/css\">.document_fr {\n   border:1px dotted silver\n}\n\n .document_right {\n   display:block; text-align:right\n}\n\n .document_g {\n   letter-spacing:0.125em\n}\n\n .document_b {\n   font-weight:bold\n}\n\n .document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-front\"><section class=\"tei-div2\"><ul class=\"tei-list\"><li class=\"tei-item\">\n                        <span class=\"tei-hi document_right\">Seite</span>\n                    </li><li class=\"tei-item\">\n                        <span class=\"tei-hi document_aq\">II.</span> Transſcendentale <span class=\"tei-hi document_fr\">Methodenlehre</span>. <span class=\"tei-ref3\">705</span>\n                        <br class=\"tei-lb3\">\n                        <ul class=\"tei-list\"><li class=\"tei-item\">1. Hauptſtuͤck. Die Diſciplin der reinen Vernunft. <span class=\"tei-ref3\">708</span>\n                            </li><li class=\"tei-item\">2. 〃〃〃 Der Canon der reinen Vernunft. <span class=\"tei-ref3\">795</span>\n                            </li><li class=\"tei-item\">3. 〃〃〃 Die Architectonik der reinen Ver<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nunft.\n                                    <span class=\"tei-ref3\">832</span>\n                            </li><li class=\"tei-item\">4. 〃〃〃 Die Geſchichte der reinen Vernunft. <span class=\"tei-ref3\">852</span>\n                            </li></ul>\n                    </li></ul>\n            </section>\n            <br class=\"tei-lb3\">\n            <span class=\"tei-figure2\"></span>\n            <div class=\"tei-fw5 catch\">Einlei</div>\n        </div>\n        <div class=\"tei-body2\">\n            <br class=\"tei-lb3\">\n            </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

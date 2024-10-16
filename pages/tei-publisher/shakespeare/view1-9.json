@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.2.24.19.63",
+    "rootNode": "3.5.2.24.19.63",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.2.24.23.35",
+    "previous": "3.5.2.24.15.28",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.2.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_fr {\n   border:1px dotted silver\n}\n\n .document_g {\n   letter-spacing:0.125em\n}\n\n .document_b {\n   font-weight:bold\n}\n\n</style><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0016_800px.jpg\"></pb-facs-link>\n                    <span class=\"tei-fw2\">\n                        <span class=\"tei-hi document_b\">\n                            <span class=\"tei-hi document_g\">Vorrede</span>.</span>\n                    </span>\n                    <br class=\"tei-lb3\"> te, wodurch alles wiederum in den veralteten wurm<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſtichigen\n                        <span class=\"tei-hi document_fr\">Dogmatism</span> und daraus in die Geringſchaͤ<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">tzung verfiel, daraus man die Wiſſenſchaft hatte zie<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">hen wollen. Jezt, nachdem alle Wege (wie man ſich<br class=\"tei-lb3\">\n                    uͤberredet) vergeblich verſucht ſind, herrſcht Ueber<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">druß und\n                    gaͤnzlicher <span class=\"tei-hi document_fr\">Indifferentism</span>, die Mutter des<br class=\"tei-lb3\"> Chaos\n                    und der Nacht, in Wiſſenſchaften, aber doch<br class=\"tei-lb3\"> zugleich der Urſprung,\n                    wenigſtens das Vorſpiel einer<br class=\"tei-lb3\"> nahen Umſchaffung und Aufklaͤrung derſelben,\n                    wenn<br class=\"tei-lb3\"> ſie durch uͤbel angebrachten Fleiß dunkel, verwirrt und<br class=\"tei-lb3\">\n                    unbrauchbar geworden.</p>\n                \n                <p class=\"tei-p2\">Es iſt n<span class=\"tei-supplied3\">em</span>lich umſonſt, <span class=\"tei-hi document_fr\">Gleichguͤltigkeit</span> in<br class=\"tei-lb3\"> Anſehung ſolcher Nachforſchungen erkuͤnſteln\n                    zu wollen,<br class=\"tei-lb3\"> deren Gegenſtand der menſchlichen Natur <span class=\"tei-hi document_fr\">nicht gleich<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">guͤltig</span> ſeyn kan. Auch fallen iene\n                    vorgebliche <span class=\"tei-hi document_fr\">In<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">differentiſten</span>, ſo ſehr\n                    ſie ſich auch durch die Veraͤn<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">derung der Schulſprache in einem\n                    populaͤren Ton un<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">kentlich zu machen gedenken, wofern ſie nur\n                    uͤberall<br class=\"tei-lb3\"> etwas denken, in metaphyſiſche Behauptungen unver<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">meidlich zuruͤck, gegen die ſie doch ſo viel Verachtung<br class=\"tei-lb3\"> vorgaben.\n                    Indeſſen iſt dieſe Gleichguͤltigkeit, die ſich<br class=\"tei-lb3\"> mitten in dem Flor aller\n                    Wiſſenſchaften eraͤugnet und<br class=\"tei-lb3\"> gerade dieienige trift, auf deren Kentniſſe,\n                    wenn der<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">gleichen zu haben waͤren, man unter allen am wenig<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\"></p><div class=\"tei-fw5 catch\">ſten</div>\n                    <br class=\"tei-lb3\">\n                    <p></p></div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

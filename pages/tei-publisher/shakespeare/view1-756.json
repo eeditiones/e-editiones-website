@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.24.25.43.97.37",
+    "rootNode": "3.5.4.24.25.43.97.37",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.24.25.43.97.101",
+    "previous": "3.5.4.24.25.43.93.28",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_aq {\n   font-family:sans-serif\n}\n\n</style><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0763_800px.jpg\"></pb-facs-link>\n                            <span class=\"tei-fw2\">Die Diſciplin der reinen Vernunft im dogm.\n                                ꝛc.</span>\n                            <br class=\"tei-lb3\"> gen kan ein ſynthetiſcher Grundſatz blos aus Begriffen<br class=\"tei-lb3\">\n                            niemals unmittelbar gewiß ſeyn, z. B. der Satz: alles<br class=\"tei-lb3\"> was geſchieht\n                            hat ſeine Urſache, da ich mich nach einem<br class=\"tei-lb3\"> dritten herumſehen muß,\n                            nemlich der Bedingung der Zeit<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">beſtimmung in einer\n                            Erfahrung und nicht direct unmittel<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">bar aus den Begriffen\n                            allein einen ſolchen Grundſatz er<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">kennen konte.\n                            Discurſive Grundſaͤtze ſind alſo ganz etwas<br class=\"tei-lb3\"> anderes, als intuitive,\n                            d. i. Axiomen. Jene erfodern<br class=\"tei-lb3\"> iederzeit noch eine Deduction, deren\n                            die leztere ganz und<br class=\"tei-lb3\"> gar entbehren koͤnnen und, da dieſe eben um\n                            deſſelben<br class=\"tei-lb3\"> Grundes wegen evident ſind, welches die\n                            philoſophiſche<br class=\"tei-lb3\"> Grundſaͤtze, bey aller ihrer Gewißheit, doch niemals\n                                vor<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">geben koͤnnen, ſo fehlt unendlich viel daran: daß\n                            irgend<br class=\"tei-lb3\"> ein ſynthetiſcher Satz der reinen und transſcendentalen<br class=\"tei-lb3\">\n                            Vernunft ſo augenſcheinlich ſey (wie man ſich trotzig aus<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">zudruͤcken pflegt), als der Satz: daß zweymal zwey vier<br class=\"tei-lb3\"> geben.\n                            Ich habe zwar in der Analytik, bey der Tafel<br class=\"tei-lb3\"> der Grundſaͤtze des\n                            reinen Verſtandes, auch gewiſſer Axio<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">men der Anſchauung\n                            gedacht, allein der daſelbſt angefuͤhr<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">te Grundſatz war\n                            ſelbſt kein Axiom, ſondern diente nur<br class=\"tei-lb3\"> dazu, das Principium der\n                            Moͤglichkeit der Axiomen uͤber<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">haupt anzugeben, und\n                            ſelbſt nur ein Grundſatz aus Be<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">griffen. Denn ſo gar die\n                            Moͤglichkeit der Mathematik<br class=\"tei-lb3\"> muß in der Transſcendentalphiloſophie\n                            gezeigt werden. Die<br class=\"tei-lb3\"> Philoſophie hat alſo keine Axiomen und darf\n                            niemals ihre<br class=\"tei-lb3\"> Grundſaͤtze <span class=\"tei-hi document_aq\">a priori</span> ſo\n                            ſchlechthin gebieten, ſondern muß<br class=\"tei-lb3\">\n                            \n                            <br class=\"tei-lb3\">\n                            </p></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

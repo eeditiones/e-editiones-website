@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.4.16.29.11.15.27.29.34",
+    "rootNode": "3.5.4.16.29.11.15.27.29.34",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.4.16.29.11.15.33",
+    "previous": "3.5.4.16.29.11.15.27.19",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.4.16",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_fr {\n   border:1px dotted silver\n}\n\n .document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-div3\"><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0166_800px.jpg\"></pb-facs-link>\n                                    <span class=\"tei-fw2\">Elementarl. <span class=\"tei-hi document_aq\">II.</span> Th. <span class=\"tei-hi document_aq\">I.</span> Abth. <span class=\"tei-hi document_aq\">II.</span> Buch.</span>\n                                    <br class=\"tei-lb3\">\n                                    <span class=\"tei-hi document_aq\">riori</span> dargethan werden; denn das wuͤrde\n                                    iene Dignitaͤt der<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſelben ganz unberuͤhrt laſſen,\n                                    ſondern ſie muß zugleich die Be<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">dingungen, unter\n                                    welchen Gegenſtaͤnde in Uebereinſtimmung<br class=\"tei-lb3\"> mit ienen\n                                    Begriffen gegeben werden koͤnnen, in allgemei<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nen\n                                    aber hinreichenden Kennzeichen darlegen, widrigenfals<br class=\"tei-lb3\"> ſie\n                                    ohne allen Inhalt, mithin bloſſe logiſche Formen und<br class=\"tei-lb3\"> nicht\n                                    reine Verſtandesbegriffe ſeyn wuͤrden.</p>\n                                \n                                <p class=\"tei-p2\">Dieſe transſcendentale <span class=\"tei-hi document_fr\">Doctrin</span> der <span class=\"tei-hi document_fr\">Urtheils<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">kraft</span> wird nun\n                                    zwey Hauptſtuͤcke enthalten: das erſte,<br class=\"tei-lb3\"> welches von der\n                                    ſinnlichen Bedingung handelt, unter wel<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">cher\n                                    reine Verſtandesbegriffe allein gebraucht werden koͤn<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">nen, d. i. von dem Schematismus des reinen\n                                    Verſtandes;<br class=\"tei-lb3\"> das zweyte aber von denen ſynthetiſchen\n                                    Urtheilen, wel<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">che aus reinen\n                                    Verſtandesbegriffen, unter dieſen Bedingun<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">gen\n                                        <span class=\"tei-hi document_aq\">a priori</span> herflieſſen, und allen\n                                    uͤbrigen Erkentniſſen <span class=\"tei-hi document_aq\">a<br class=\"tei-lb3\"> priori</span> zum\n                                    Grunde liegen, d. i. von den Grundſaͤtzen des<br class=\"tei-lb3\"> reinen\n                                    Verſtandes.</p>\n                                <br class=\"tei-lb3\">\n                                <span class=\"tei-figure2\"></span>\n                            </div>\n                            <div class=\"tei-fw5 catch\">Der</div>\n                            <br class=\"tei-lb3\">\n                            </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}

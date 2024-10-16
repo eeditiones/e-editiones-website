@@ -1,0 +1,20 @@
+{
+    "format": "json",
+    "view": "page",
+    "doc": "kant_rvernunft_1781.TEI-P5.xml",
+    "root": "3.5.2.24.69.18",
+    "rootNode": "3.5.2.24.69.18",
+    "id": null,
+    "odd": "dta.odd",
+    "next": "3.5.2.24.77",
+    "previous": "3.5.2.24.65.83",
+    "nextId": null,
+    "previousId": null,
+    "switchView": "3.5.2.24",
+    "content": "<!DOCTYPE html><html><head></head><body><div class=\"content \"><style type=\"text/css\">.document_fr {\n   border:1px dotted silver\n}\n\n .document_i {\n   font-style:italic\n}\n\n .document_g {\n   letter-spacing:0.125em\n}\n\n .document_b {\n   font-weight:bold\n}\n\n .document_aq {\n   font-family:sans-serif\n}\n\n</style><div class=\"tei-div3\"><p class=\"tei-p2\"><pb-facs-link class=\"tei-pb3\" emit=\"transcription\" facs=\"kant_rvernunft_1781/kant_rvernunft_1781_0026_800px.jpg\"></pb-facs-link>\n                    <span class=\"tei-fw2\">\n                        <span class=\"tei-hi document_b\">\n                            <span class=\"tei-hi document_g\">Vorrede</span>.</span>\n                    </span>\n                    <br class=\"tei-lb3\"> Nun iſt Metaphyſik, nach den Begriffen, die wir<br class=\"tei-lb3\"> hier davon geben\n                    werden, die einzige aller Wiſſen<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſchaften, die ſich eine ſolche\n                    Vollendung und zwar in<br class=\"tei-lb3\"> kurzer Zeit, und mit nur weniger, aber\n                    vereinigter<br class=\"tei-lb3\"> Bemuͤhung, verſprechen darf, ſo daß nichts vor die<br class=\"tei-lb3\">\n                    Nachkommenſchaft uͤbrig bleibt, als in der <span class=\"tei-hi document_fr\">didacti<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſchen</span> Manier alles nach ihren Abſichten\n                    einzurichten,<br class=\"tei-lb3\"> ohne darum den Inhalt im mindeſten vermehren zu<br class=\"tei-lb3\"> koͤnnen.\n                    Denn es iſt nichts als das <span class=\"tei-hi document_fr\">Inventarium</span>\n                    <br class=\"tei-lb3\"> aller unſerer Beſitze durch <span class=\"tei-hi document_fr\">reine Vernunft</span>,\n                        ſyſte<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">matiſch geordnet. Es kan uns hier nichts entgehen,<br class=\"tei-lb3\">\n                    weil, was Vernunft gaͤnzlich aus ſich ſelbſt hervor<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">bringt, ſich\n                    nicht verſtecken kan, ſondern ſelbſt durch<br class=\"tei-lb3\"> Vernunft ans Licht gebracht\n                    wird, ſobald man nur<br class=\"tei-lb3\"> das gemeinſchaftliche Princip deſſelben entdeckt\n                    hat.<br class=\"tei-lb3\"> Die vollkommene Einheit dieſer Art Erkentniſſe, und<br class=\"tei-lb3\"> zwar aus\n                    lauter reinen Begriffen, ohne daß irgend<br class=\"tei-lb3\"> etwas von Erfahrung, oder auch nur\n                    beſondere An<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">ſchauung, die zur beſtimten Erfahrung leiten\n                    ſolte,<br class=\"tei-lb3\"> auf ſie einigen Einfluß haben kan, ſie zu erweitern<br class=\"tei-lb3\"> und zu\n                    vermehren, machen dieſe unbedingte Vollſtaͤn<span class=\"tei-lb1\">-</span><br class=\"tei-lb2\">digkeit nicht allein\n                    thunlich, ſondern auch nothwendig.<br class=\"tei-lb3\">\n                    <span class=\"tei-hi document_aq\">Tecum habita et noris, quam ſit tibi curta ſupellex.<br class=\"tei-lb3\">\n                        <span class=\"tei-hi document_i\">Perſ<span class=\"tei-supplied3\">iu</span>s</span>\n                    </span>.</p>\n                <br class=\"tei-lb3\">\n                <div class=\"tei-fw5 catch\">Ein</div>\n                <br class=\"tei-lb3\">\n                </div></div></body></html>",
+    "footnotes": "",
+    "userParams": {
+        "webcomponents": 7
+    },
+    "collection": "test"
+}
