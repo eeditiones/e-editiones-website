@@ -8,7 +8,7 @@ author: Matija Ogrin
 tags:
   - projects
 coverImage: banner_rrss_Slo.png
-#coverImageCredits: 
+#coverImageCredits:
 
 ---
 
@@ -20,7 +20,7 @@ As a result, many Slovenian manuscripts from previous centuries are completely u
 
 That's why at the Research Centre of the Slovenian Academy of Sciences and Arts, we have
 created the [Register of Older Slovenian Manuscripts](https://rrss.manuscripta.zrc-sazu.si), using TEI Publisher to display our TEI
-encoded data. Each <msDesc> description combines four separate blocks of data according to the
+encoded data. Each `<msDesc>` description combines four separate blocks of data according to the
 guidelines: identifier, manuscript content, codicological description and manuscript history.
 
 This is a small but long-term project begun in 2011 that we are working on here and there, but
@@ -31,7 +31,7 @@ Most of the manuscripts are anonymous, but it has almost always been possible to
 whether a manuscript was written in a monastery, or by a diocesan priest, or in a bourgeois
 environment, or among peasants in a village, or by a churchwarden, or a schoolteacher, etc. We
 have therefore created a typology of these social contexts in which the manuscripts came into
-existence, and labelled our <msDesc> according to this typology. The TEI Publisher has shown
+existence, and labelled our `<msDesc>` according to this typology. The TEI Publisher has shown
 excellent agility and speed in this and similar requests.
 
 Our manuscript descriptions and digital facsimiles reveal a hitherto unknown reality: from the
