@@ -51,8 +51,8 @@ through the prism of printed books. Manuscripts have been neglected by older lit
 As a result, many Slovenian manuscripts from previous centuries are completely unknown.&lt;/p&gt;
 &lt;p&gt;That&#39;s why at the Research Centre of the Slovenian Academy of Sciences and Arts, we have
 created the &lt;a href=&quot;https://rrss.manuscripta.zrc-sazu.si/&quot;&gt;Register of Older Slovenian Manuscripts&lt;/a&gt;, using TEI Publisher to display our TEI
-encoded data. Each &lt;msDesc&gt; description combines four separate blocks of data according to the
-guidelines: identifier, manuscript content, codicological description and manuscript history.&lt;/msDesc&gt;&lt;/p&gt;
+encoded data. Each &lt;code&gt;&amp;lt;msDesc&amp;gt;&lt;/code&gt; description combines four separate blocks of data according to the
+guidelines: identifier, manuscript content, codicological description and manuscript history.&lt;/p&gt;
 &lt;p&gt;This is a small but long-term project begun in 2011 that we are working on here and there, but
 it is an important support for other research. So far we have described 200 manuscripts in the
 register, for a half of them, digital images are provided (14.000 pages).&lt;/p&gt;
@@ -60,8 +60,8 @@ register, for a half of them, digital images are provided (14.000 pages).&lt;/p&
 whether a manuscript was written in a monastery, or by a diocesan priest, or in a bourgeois
 environment, or among peasants in a village, or by a churchwarden, or a schoolteacher, etc. We
 have therefore created a typology of these social contexts in which the manuscripts came into
-existence, and labelled our &lt;msDesc&gt; according to this typology. The TEI Publisher has shown
-excellent agility and speed in this and similar requests.&lt;/msDesc&gt;&lt;/p&gt;
+existence, and labelled our &lt;code&gt;&amp;lt;msDesc&amp;gt;&lt;/code&gt; according to this typology. The TEI Publisher has shown
+excellent agility and speed in this and similar requests.&lt;/p&gt;
 &lt;p&gt;Our manuscript descriptions and digital facsimiles reveal a hitherto unknown reality: from the
 17th to the 19th century, many texts were produced in Slovenian which, for economic and
 ideological reasons, could not be printed but were circulated only in transcript form. This has led
