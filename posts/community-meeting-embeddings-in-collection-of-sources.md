@@ -1,6 +1,7 @@
 ---
 title: "How to work with embeddings in a digital collection of sources?"
 lead: "Community meetup on December 10, 2024"
+room: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Nzk1NDMyNjUtYjEzYi00NzA5LTgwNGMtMjFiZTg5MjdjYmJh%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d"
 author: Andreas Wagner 
 date: 2024-12-02
 tags:
