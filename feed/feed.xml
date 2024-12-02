@@ -5,12 +5,27 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2024-11-12T00:00:00Z</updated>
+	<updated>2024-12-02T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>How to work with embeddings in a digital collection of sources?</title>
+		<link href="https://e-editiones.org/posts/community-meeting-embeddings-in-collection-of-sources/"/>
+		<updated>2024-12-02T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/community-meeting-embeddings-in-collection-of-sources/</id>
+		<content type="html">&lt;p&gt;Community meetup on December 10, 2024 at 17:00 CEST by Andreas Wagner from the Max Planck Institute for Legal History and Legal Theory / Academy of Sciences and Literature, Mainz&lt;/p&gt;
+&lt;p&gt;Digital collections of historical sources often feature texts that are comprised in one collection for a reason. Exploring this reason means investigating commonalities and differences between the texts contained in the collection. In one example - the project &lt;a href=&quot;https://salamanca.school/&quot;&gt;The School of Salamanca&lt;/a&gt; of the Academy of Sciences and Literature in Mainz - the relation between the texts is precisely one of the things the exploration of which the project intends to facilitate. For would understanding this relation not help us understand what the &amp;quot;school&amp;quot; might have been? In what ways?&lt;/p&gt;
+&lt;p&gt;For reasons of path dependencies, the platform of the project is not based on TEI Publisher, but it may serve as an example of what working with embeddings in such a context might involve anyway: For which parts of texts would you create embeddings, how and where would you store them, how would you access and process them, and what information would you want to provide to users of the platform based on these embeddings? The presentation reports on an ongoing experiment the core of which is the definition of an API handling the storage, comparison, and delivery of embeddings (the API of a vector store, then) on the one hand, and a proposal of how to extend APIs for handling (lists or passages of) texts with affordances based on embeddings (the API of a digital collection of sources, that is).&lt;/p&gt;
+&lt;p&gt;Participation is free of charge and open to anyone interested. No registration is required to attend. We will meet Tuesday, the 10th of December at 17:00 CEST in our e-editiones community Teams channel. The link can be found at the top of the page.&lt;/p&gt;
+&lt;a href=&quot;https://e-editiones.org/img/community-talk-embeddings1.jpg&quot;&gt;
+    &lt;img src=&quot;https://e-editiones.org/img/community-talk-embeddings1.jpg&quot; width=&quot;100%&quot; /&gt;
+&lt;/a&gt;    
+</content>
+	</entry>
 	
 	<entry>
 		<title>Proto4DigEd: How to write a DSE-handbook for different use cases and communities?</title>
