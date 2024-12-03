@@ -10,6 +10,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://e-editiones.org/posts/workshop-25-01/",
+      "url": "https://e-editiones.org/posts/workshop-25-01/",
+      "title": "Einführung in (TEI-)XML",
+      "content_html": "<p>Im Januar 2025 bietet e-editiones einen dreitägigen Workshop &quot;Einführung in (TEI-)XML&quot; gehalten von Christian Sonder (Sammlung Schweizerischer Rechtsquellen (SSRQ), Universität St. Gallen) an. Die Workshoptermine sind immer Mittwochs, am 08., 15. und 22. Januar 2025, jeweils von 16:30 - 18:00 Uhr. Die Teilnahmegebühren betragen CHF 100,00, für e-editiones Mitglieder ist die Teilnahme kostenlos.</p>\n<p>In diesem Workshop werden an drei Abenden die Grundlagen der  Auszeichnungssprache XML erläutert und eine kurze Einführung in\ndie Richtlinien der Text Encoding Initiative gegeben. Der Workshop richtet sich an Anfänger, es werden keine Vorkenntnisse im Bereich von Auszeichnungssprachen oder Programmierung erwartet. Der Fokus liegt daher auf der Syntax von XML, die an praxisnahen Beispielen vorgeführt wird.\nZum Mitmachen wird der Oxygen XML-Editor empfohlen, für den es\neine 30-tägige kostenlose Probelizenz gibt: <a href=\"https://www.oxygenxml.com/xml_editor.html\">https://www.oxygenxml.com/xml_editor.html</a></p>\n<p>Anmeldungen zum Workshop bitte an <a href=\"mailto:christian.sonder@unisg.ch\">christian.sonder@unisg.ch</a> schicken.</p>\n",
+      "date_published": "2024-12-02T00:00:00Z"
+    },{
       "id": "https://e-editiones.org/posts/community-meeting-embeddings-in-collection-of-sources/",
       "url": "https://e-editiones.org/posts/community-meeting-embeddings-in-collection-of-sources/",
       "title": "How to work with embeddings in a digital collection of sources?",
