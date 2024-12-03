@@ -19,5 +19,5 @@ die Richtlinien der Text Encoding Initiative gegeben. Der Workshop richtet sich 
 Zum Mitmachen wird der Oxygen XML-Editor empfohlen, für den es 
 eine 30-tägige kostenlose Probelizenz gibt: https://www.oxygenxml.com/xml_editor.html
 
-Anmeldungen zum Workshop bitte an [info@e-editiones.org](mailto:info@e-editiones.org) schicken. 
+Anmeldungen zum Workshop bitte an [christian.sonder@unisg.ch](mailto:christian.sonder@unisg.ch) schicken. 
 
