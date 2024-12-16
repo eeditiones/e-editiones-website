@@ -225,6 +225,15 @@
     "email": "wagner@lhlt.mpg.de"
   },
   {
+    "name": "J. K. Harju: Folklore of Marginalised People",
+    "address": "Hallituskatu 1, 00170 Helsinki, Finland",
+    "latitude": "60.17019320000001",
+    "longitude": "24.956264",
+    "description": "A Finnish-only edition of c. 10 000 archival cards recording the lives and traditions of marginalised people in the society, collected by Johan Knut Harju in the 1960s and 1970s: personal accounts of experiencing homelessness and alcohol substitutes, local stories from Helsinki inner city districts, interviews conducted at night shelters, prison and sanatorium traditions, jokes, and youth and wartime reminiscences. Images of archival cards with OCR transcriptions,  XML data available under CC BY 4.0.",
+    "url": "https://aineistot.finlit.fi/exist/apps/harju",
+    "email": "maria.niku@finlit.fi"
+  },
+  {
     "name": "Karl Barth-Gesamtausgabe",
     "address": "Karl Barth Archiv, Bruderholzallee 26, Basel, Switzerland",
     "latitude": "47.5345555",
@@ -358,6 +367,15 @@
     "description": "The Siege of Antioch Project (“SAP”) presents an original digital edition of a newly edited and translated medieval Siège d’Antioche, an Old French poetic account of the First Crusade with a heavy emphasis on the taking of Antioch and the subsequent battle. It is a collaborative effort currently being undertaken by U.K. scholars and graduate students in the Fordham Medieval Studies program.",
     "url": "https://medievaldigital.ace.fordham.edu/siegeofantioch/503-2/about-the-siege-of-antioch-project/",
     "email": ""
+  },
+  {
+    "name": "SKVR: Database of Karelian, Ingrian and Finnish Folk Poems",
+    "address": "Hallituskatu 1, 00170 Helsinki, Finland",
+    "latitude": "60.17019320000001",
+    "longitude": "24.956264",
+    "description": "A database of c. 90 000 Karelian, Ingrian and Finnish folk poems, originally published by the Finnish Literature Society in 34 volumes in 1908–1948 and 1997. Another c. 80 000 previously unpublished poems will be added by the end of 2024. XML data is available under CC BY 4.0.",
+    "url": "https://aineistot.finlit.fi/exist/apps/skvr",
+    "email": "maria.niku@finlit.fi"
   },
   {
     "name": "The Digital Cassirer Collection",
