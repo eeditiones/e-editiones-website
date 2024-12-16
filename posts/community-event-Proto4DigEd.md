@@ -28,4 +28,6 @@ It focuses mainly on three solutions for the main phases of a DSE project (trans
 We are organising workshops, in which we discuss and compare workflows of different projects and ask them for their best practices. The focus is on the question of how projects can learn from each other, despite their differences. Sharing experiences when deciding on certain workflows and the use of tools is proving to be particularly promising. It is particularly important to consciously reflect on which functionalities are necessary and which are ‘just’ nice to have.
 Our community driven handbook is based on MkDocs and will be made available on the GitLab instance of the University of Zurich from autumn 2024. The Center Digital Editions & Edition Analytics, ZDE UZH, helps in sharing the workflow and offers discussion and training to any interested project.
 
-**The meeting will take place on [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzY5NWQ1YjEtZGMwZi00Y2NkLTg3ZmQtMjcyOTljOWQ4NGVi%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%2210b0f60b-ba0a-446b-81af-8ba3b4070d61%22%7d).**
+The event took place on Tuesday the 12th of November from 17:00 till 18:00 CET on Jitsi.
+
+- [Workshop Recording](https://www.youtube.com/watch?v=9q01a2e7EnQ)
