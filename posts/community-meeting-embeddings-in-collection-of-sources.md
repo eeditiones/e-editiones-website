@@ -20,6 +20,10 @@ For reasons of path dependencies, the platform of the project is not based on TE
 
 Participation is free of charge and open to anyone interested. No registration is required to attend. We will meet Tuesday, the 10th of December at 17:00 CEST in our e-editiones community Teams channel. The link can be found at the top of the page. 
 
+The event took place on Tuesday the 10th of December from 17:00 till 18:00 CET on Jitsi.
+
+- [Workshop Recording](https://www.youtube.com/watch?v=tPyf4axZqQk)
+
 
 <a href='../../img/community-talk-embeddings1.jpg'>
     <img src='../../img/community-talk-embeddings1.jpg' width='100%'>
