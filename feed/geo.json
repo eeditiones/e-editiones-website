@@ -334,6 +334,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [24.956264,60.17019320000001]
+            },
+            "properties": {
+                "name": "J. K. Harju: Folklore of Marginalised People",
+                "description": "<div>\n        <h4>J. K. Harju: Folklore of Marginalised People</h4>\n        <p>A Finnish-only edition of c. 10 000 archival cards recording the lives and traditions of marginalised people in the society, collected by Johan Knut Harju in the 1960s and 1970s: personal accounts of experiencing homelessness and alcohol substitutes, local stories from Helsinki inner city districts, interviews conducted at night shelters, prison and sanatorium traditions, jokes, and youth and wartime reminiscences. Images of archival cards with OCR transcriptions, XML data available under CC BY 4.0.</p>\n        <a href=\"https://aineistot.finlit.fi/exist/apps/harju\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:maria.niku@finlit.fi\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [7.587217099999997,47.5345555]
             },
             "properties": {
@@ -521,6 +534,19 @@
             "properties": {
                 "name": "Siege of Antioch Project (SAP)",
                 "description": "<div>\n        <h4>Siege of Antioch Project (SAP)</h4>\n        <p>The Siege of Antioch Project (“SAP”) presents an original digital edition of a newly edited and translated medieval Siège d’Antioche, an Old French poetic account of the First Crusade with a heavy emphasis on the taking of Antioch and the subsequent battle. It is a collaborative effort currently being undertaken by U.K. scholars and graduate students in the Fordham Medieval Studies program.</p>\n        <a href=\"https://medievaldigital.ace.fordham.edu/siegeofantioch/503-2/about-the-siege-of-antioch-project/\" class=\"badge bg-light text-dark\">Link</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [24.956264,60.17019320000001]
+            },
+            "properties": {
+                "name": "SKVR: Database of Karelian, Ingrian and Finnish Folk Poems",
+                "description": "<div>\n        <h4>SKVR: Database of Karelian, Ingrian and Finnish Folk Poems</h4>\n        <p>A database of c. 90 000 Karelian, Ingrian and Finnish folk poems, originally published by the Finnish Literature Society in 34 volumes in 1908–1948 and 1997. Another c. 80 000 previously unpublished poems will be added by the end of 2024. XML data is available under CC BY 4.0.</p>\n        <a href=\"https://aineistot.finlit.fi/exist/apps/skvr\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:maria.niku@finlit.fi\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
