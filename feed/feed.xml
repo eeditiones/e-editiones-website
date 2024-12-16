@@ -35,6 +35,10 @@ eine 30-tägige kostenlose Probelizenz gibt: &lt;a href=&quot;https://www.oxygen
 &lt;p&gt;Digital collections of historical sources often feature texts that are comprised in one collection for a reason. Exploring this reason means investigating commonalities and differences between the texts contained in the collection. In one example - the project &lt;a href=&quot;https://salamanca.school/&quot;&gt;The School of Salamanca&lt;/a&gt; of the Academy of Sciences and Literature in Mainz - the relation between the texts is precisely one of the things the exploration of which the project intends to facilitate. For would understanding this relation not help us understand what the &amp;quot;school&amp;quot; might have been? In what ways?&lt;/p&gt;
 &lt;p&gt;For reasons of path dependencies, the platform of the project is not based on TEI Publisher, but it may serve as an example of what working with embeddings in such a context might involve anyway: For which parts of texts would you create embeddings, how and where would you store them, how would you access and process them, and what information would you want to provide to users of the platform based on these embeddings? The presentation reports on an ongoing experiment the core of which is the definition of an API handling the storage, comparison, and delivery of embeddings (the API of a vector store, then) on the one hand, and a proposal of how to extend APIs for handling (lists or passages of) texts with affordances based on embeddings (the API of a digital collection of sources, that is).&lt;/p&gt;
 &lt;p&gt;Participation is free of charge and open to anyone interested. No registration is required to attend. We will meet Tuesday, the 10th of December at 17:00 CEST in our e-editiones community Teams channel. The link can be found at the top of the page.&lt;/p&gt;
+&lt;p&gt;The event took place on Tuesday the 10th of December from 17:00 till 18:00 CET on Jitsi.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=tPyf4axZqQk&quot;&gt;Workshop Recording&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;a href=&quot;https://e-editiones.org/img/community-talk-embeddings1.jpg&quot;&gt;
     &lt;img src=&quot;https://e-editiones.org/img/community-talk-embeddings1.jpg&quot; width=&quot;100%&quot; /&gt;
 &lt;/a&gt;    
@@ -70,7 +74,10 @@ eine 30-tägige kostenlose Probelizenz gibt: &lt;a href=&quot;https://www.oxygen
 &lt;/ul&gt;
 &lt;p&gt;We are organising workshops, in which we discuss and compare workflows of different projects and ask them for their best practices. The focus is on the question of how projects can learn from each other, despite their differences. Sharing experiences when deciding on certain workflows and the use of tools is proving to be particularly promising. It is particularly important to consciously reflect on which functionalities are necessary and which are ‘just’ nice to have.
 Our community driven handbook is based on MkDocs and will be made available on the GitLab instance of the University of Zurich from autumn 2024. The Center Digital Editions &amp;amp; Edition Analytics, ZDE UZH, helps in sharing the workflow and offers discussion and training to any interested project.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The meeting will take place on &lt;a href=&quot;https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzY5NWQ1YjEtZGMwZi00Y2NkLTg3ZmQtMjcyOTljOWQ4NGVi%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%2210b0f60b-ba0a-446b-81af-8ba3b4070d61%22%7d&quot;&gt;Teams&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The event took place on Tuesday the 12th of November from 17:00 till 18:00 CET on Jitsi.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=9q01a2e7EnQ&quot;&gt;Workshop Recording&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
 	</entry>
 	
