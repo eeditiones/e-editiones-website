@@ -297,6 +297,15 @@
     "email": "projekt-briefbuecher@lists.fau.de"
   },
   {
+    "name": "Progetto Mambrino Digital Library",
+    "address": "Via S. Francesco, n. 22, 37129 Verona VR (Italy)",
+    "latitude": "45.43817421629587",
+    "longitude": "11.00336552050643",
+    "description": "A database of digital editions of Italian Romances of Chivalry derived from the famous Spanish genre of libros de caballerías. Each edition of the most famous chivalric cycles (Amadis di Gaula 1546-1568; Palmerino 1544-1566) is integrated within a bibliographic database and accompanied by IIIF source images and semantic lists of characters, places and narrative motifs. The TEI Publisher customized 3-columns visualizer dynamically gather all these materials together. XML data and ODD available under CC BY 4.0, Zenodo community: Progetto Mambrino Digital Library (U. of Verona).",
+    "url": "https://mambrino.mappingchivalry.dlls.univr.it",
+    "email": "info@mambrino.it"
+  },
+  {
     "name": "Quellen zur Zürcher Geschichte (QZH)",
     "address": "Staatsarchiv des Kantons Zürich, Winterthurerstrasse 170, Zürich, Zürich, Switzerland",
     "latitude": "47.3973245",
