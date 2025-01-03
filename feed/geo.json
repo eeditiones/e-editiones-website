@@ -438,6 +438,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [11.00336552050643,45.43817421629587]
+            },
+            "properties": {
+                "name": "Progetto Mambrino Digital Library",
+                "description": "<div>\n        <h4>Progetto Mambrino Digital Library</h4>\n        <p>A database of digital editions of Italian Romances of Chivalry derived from the famous Spanish genre of libros de caballerías. Each edition of the most famous chivalric cycles (Amadis di Gaula 1546-1568; Palmerino 1544-1566) is integrated within a bibliographic database and accompanied by IIIF source images and semantic lists of characters, places and narrative motifs. The TEI Publisher customized 3-columns visualizer dynamically gather all these materials together. XML data and ODD available under CC BY 4.0, Zenodo community: Progetto Mambrino Digital Library (U. of Verona).</p>\n        <a href=\"https://mambrino.mappingchivalry.dlls.univr.it\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:info@mambrino.it\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [8.547105400000001,47.3973245]
             },
             "properties": {
