@@ -269,6 +269,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [7.625907055420351,51.958750846182724]
+            },
+            "properties": {
+                "name": "Exile Letters",
+                "description": "<div>\n        <h4>Exile Letters</h4>\n        <p>Das Editionsprojekt „Exile Letters“ erschließt, ediert und kommentiert Ego-Dokumente jüdisch-deutscher Geschichte in ihrer regionalen Ausprägung. Im Mittelpunkt stehen die Korrespondenzen jüdischer Familien aus Münster, in denen sich emigrierte und geflohene Familienmitglieder bemühten, den Kontakt zu ihren Angehörigen in Deutschland aufrechtzuerhalten.</p>\n        <a href=\"https://www.exileletters.de\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:istg@uni-muenster.de \" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [-77.0368707,38.9071923]
             },
             "properties": {
