@@ -180,6 +180,15 @@
     "email": "a.l.roberts@swansea.ac.uk"
   },
   {
+    "name": "Exile Letters",
+    "address": "Institut für vergleichende Städtegeschichte (IStG), Königsstraße 46, 48143 Münster",
+    "latitude": "51.958750846182724",
+    "longitude": "7.625907055420351",
+    "description": "Das Editionsprojekt „Exile Letters“ erschließt, ediert und kommentiert Ego-Dokumente jüdisch-deutscher Geschichte in ihrer regionalen Ausprägung. Im Mittelpunkt stehen die Korrespondenzen jüdischer Familien aus Münster, in denen sich emigrierte und geflohene Familienmitglieder bemühten, den Kontakt zu ihren Angehörigen in Deutschland aufrechtzuerhalten.",
+    "url": "https://www.exileletters.de",
+    "email": "istg@uni-muenster.de "
+  },
+  {
     "name": "Foreign Relations of the United States (FRUS)",
     "address": "Washington D.C., DC, USA",
     "latitude": "38.9071923",
