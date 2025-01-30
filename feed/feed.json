@@ -10,6 +10,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://e-editiones.org/posts/community-event-tei-publisher-10-preview/",
+      "url": "https://e-editiones.org/posts/community-event-tei-publisher-10-preview/",
+      "title": "A preview of TEI Publisher 10",
+      "content_html": "<p>Upcoming community meetup on <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;iso=20250204T17&amp;p1=1425&amp;ah=1\">February 04, 2025 at 17:00 CET</a>.</p>\n<p>TEI Publisher Version 10 represents a radical redesign by deconstructing TEI Publisher into an ensemble of combinable, interoperable profiles, each of which targets a particular aspect of a digital edition. Profiles can be rearranged and adjusted via configuration files (in the future: via form-based interface).</p>\n<p>This reduces the need to touch actual code or copy and paste code snippets between projects (as we currently often do). Generating a custom app is no longer a one time task, but becomes an iterative process. This also means that updates to newer versions of publisher can be done largely automatic, further reducing long term maintenance costs.</p>\n<p>In addition, TP 10 includes an option to generate static versions of an entire application or parts thereof, as well as a completely new HTML templating engine.</p>\n<p>The goal of this first presentation is to give you an overview of the overall design and enable all members of the community to bring in their own ideas and contributions. Each profile in TP 10 and beyond should ideally serve as a best practice example, which means that if you follow the specs laid out, you can be sure your data will display nicely out of the box. To achieve this goal we´ll need everyone in the community, not just those who can code!</p>\n",
+      "date_published": "2025-02-04T00:00:00Z"
+    },{
       "id": "https://e-editiones.org/posts/community-event-tei-processing-model-20250121/",
       "url": "https://e-editiones.org/posts/community-event-tei-processing-model-20250121/",
       "title": "Extending (and reorganizing?) the TEI Processing Model",

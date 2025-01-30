@@ -5,12 +5,25 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2025-01-21T00:00:00Z</updated>
+	<updated>2025-02-04T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>A preview of TEI Publisher 10</title>
+		<link href="https://e-editiones.org/posts/community-event-tei-publisher-10-preview/"/>
+		<updated>2025-02-04T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/community-event-tei-publisher-10-preview/</id>
+		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;amp;iso=20250204T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;February 04, 2025 at 17:00 CET&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;TEI Publisher Version 10 represents a radical redesign by deconstructing TEI Publisher into an ensemble of combinable, interoperable profiles, each of which targets a particular aspect of a digital edition. Profiles can be rearranged and adjusted via configuration files (in the future: via form-based interface).&lt;/p&gt;
+&lt;p&gt;This reduces the need to touch actual code or copy and paste code snippets between projects (as we currently often do). Generating a custom app is no longer a one time task, but becomes an iterative process. This also means that updates to newer versions of publisher can be done largely automatic, further reducing long term maintenance costs.&lt;/p&gt;
+&lt;p&gt;In addition, TP 10 includes an option to generate static versions of an entire application or parts thereof, as well as a completely new HTML templating engine.&lt;/p&gt;
+&lt;p&gt;The goal of this first presentation is to give you an overview of the overall design and enable all members of the community to bring in their own ideas and contributions. Each profile in TP 10 and beyond should ideally serve as a best practice example, which means that if you follow the specs laid out, you can be sure your data will display nicely out of the box. To achieve this goal we´ll need everyone in the community, not just those who can code!&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Extending (and reorganizing?) the TEI Processing Model</title>
