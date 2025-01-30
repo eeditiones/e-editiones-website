@@ -377,7 +377,17 @@
     "latitude": "46.0478073",
     "longitude": "14.5047253",
     "description": "Descriptions of manuscripts in Slovenian language from early modern period, some of them with a digital facsimile.",
-    "url": " https://rrss.manuscripta.zrc-sazu.si",
+    "url": "https://rrss.manuscripta.zrc-sazu.si",
+    "email": "matija.ogrin@zrc-sazu.si"
+  },
+  
+  {
+    "name": "Slovenian Baroque Literature",
+    "address": "Research Centre of the Slovenian Academy of Sciences and Arts, Novi trg 2, 1000 Ljubljana, Slovenia",
+    "latitude": "46.0478076",
+    "longitude": "14.5047256",
+    "description": "A collection of diplomatic editions of Slovenian manuscripts from the Baroque period, largely unknown until recently. The time span ranges from the 17th century with extensions into the early 19th century.",
+    "url": "https://sbs.manuscripta.zrc-sazu.si ",
     "email": "matija.ogrin@zrc-sazu.si"
   },
   

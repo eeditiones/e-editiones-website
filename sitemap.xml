@@ -622,6 +622,16 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <lastmod>2025-01-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/grants/</loc>
+    <lastmod>2025-01-30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/conference/</loc>
     <lastmod>2025-01-30</lastmod>
   </url>
@@ -637,17 +647,17 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/best-practice/</loc>
+    <lastmod>2025-01-30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/epidoc/</loc>
     <lastmod>2025-01-30</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/fore/</loc>
-    <lastmod>2025-01-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/best-practice/</loc>
     <lastmod>2025-01-30</lastmod>
   </url>
   
@@ -667,12 +677,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/ukraine/</loc>
-    <lastmod>2025-01-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/grants/</loc>
+    <loc>https://e-editiones.org/tags/hosting/</loc>
     <lastmod>2025-01-30</lastmod>
   </url>
   
@@ -692,7 +697,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/hosting/</loc>
+    <loc>https://e-editiones.org/tags/projects/</loc>
     <lastmod>2025-01-30</lastmod>
   </url>
   
@@ -703,11 +708,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/roaster/</loc>
-    <lastmod>2025-01-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/projects/</loc>
     <lastmod>2025-01-30</lastmod>
   </url>
   

@@ -494,7 +494,20 @@
             },
             "properties": {
                 "name": "Register of Older Slovenian Manuscripts",
-                "description": "<div>\n        <h4>Register of Older Slovenian Manuscripts</h4>\n        <p>Descriptions of manuscripts in Slovenian language from early modern period, some of them with a digital facsimile.</p>\n        <a href=\" https://rrss.manuscripta.zrc-sazu.si\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:matija.ogrin@zrc-sazu.si\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+                "description": "<div>\n        <h4>Register of Older Slovenian Manuscripts</h4>\n        <p>Descriptions of manuscripts in Slovenian language from early modern period, some of them with a digital facsimile.</p>\n        <a href=\"https://rrss.manuscripta.zrc-sazu.si\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:matija.ogrin@zrc-sazu.si\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [14.5047256,46.0478076]
+            },
+            "properties": {
+                "name": "Slovenian Baroque Literature",
+                "description": "<div>\n        <h4>Slovenian Baroque Literature</h4>\n        <p>A collection of diplomatic editions of Slovenian manuscripts from the Baroque period, largely unknown until recently. The time span ranges from the 17th century with extensions into the early 19th century.</p>\n        <a href=\"https://sbs.manuscripta.zrc-sazu.si \" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:matija.ogrin@zrc-sazu.si\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
