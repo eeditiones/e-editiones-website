@@ -283,7 +283,7 @@
     "address": "ETH Zürich, Professur für Literatur- und Kulturwissenschaften, Clausiusstrasse 59, Zürich, Switzerland",
     "latitude": "47.3804424",
     "longitude": "8.5450536",
-    "description": "In Vorbereitung. Erstmalige Edition des deutschen Urmanuskripts von Louis Ginzbergs Sammlung jüdischen Erzählguts, deren englische Bearbeitung international weit verbreitet ist\n",
+    "description": "Erstmalige Edition des deutschen Urmanuskripts von Louis Ginzbergs Sammlung jüdischen Erzählguts, deren englische Bearbeitung international weit verbreitet ist\n",
     "url": "https://www.ginzberg.ethz.ch/index.html",
     "email": "joanna.nowotny@lit.gess.ethz.ch"
   },
@@ -319,7 +319,7 @@
     "address": "Staatsarchiv des Kantons Zürich, Winterthurerstrasse 170, Zürich, Zürich, Switzerland",
     "latitude": "47.3973245",
     "longitude": "8.547105400000001",
-    "description": "In Vorbereitung: Die Plattform Quellen zur Zürcher Geschichte (QZH) ist der Publikationskanal für Transkriptionen und Digitalisate ausgewählter Quellenstücke aus den Beständen des Staatsarchivs des Kantons Zürich. Sie steht auch für Transkriptionen anderer Institutionen und Kollaborationspartner offen.",
+    "description": "Die Plattform Quellen zur Zürcher Geschichte (QZH) ist der Publikationskanal für Transkriptionen und Digitalisate ausgewählter Quellenstücke aus den Beständen des Staatsarchivs des Kantons Zürich. Sie steht auch für Transkriptionen anderer Institutionen und Kollaborationspartner offen.",
     "url": "https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html",
     "email": "christian.sieber@ji.zh.ch"
   },
@@ -330,6 +330,15 @@
     "longitude": "8.547105400000001",
     "description": "Historische Quellen aus dem Gebiet des heutigen Kantons Zürich aus der Zeit bis 1798",
     "url": "https://rechtsquellen.sources-online.org/index.html",
+    "email": "christian.sieber@ji.zh.ch"
+  },
+  {
+    "name": "Zentrale Serien des Kantons Zürich (19. und 20. Jahrhundert)",
+    "address": "Staatsarchiv des Kantons Zürich, Winterthurerstrasse 170, Zürich, Zürich, Switzerland",
+    "latitude": "47.3973245",
+    "longitude": "8.547105400000001",
+    "description": "Die zentralen Serien des Kantons Zürich (ZSZH) umfassen die Offizielle Gesetzessammlung, das Amtsblatt, die Protokolle des Kantonsrats und die Beschlüsse des Regierungsrats.",
+    "url": "https://www.zentraleserien.zh.ch",
     "email": "christian.sieber@ji.zh.ch"
   },
   {
