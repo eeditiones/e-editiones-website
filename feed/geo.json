@@ -416,7 +416,7 @@
             },
             "properties": {
                 "name": "Louis Ginzberg: Legenden der Juden",
-                "description": "<div>\n        <h4>Louis Ginzberg: Legenden der Juden</h4>\n        <p>In Vorbereitung. Erstmalige Edition des deutschen Urmanuskripts von Louis Ginzbergs Sammlung jüdischen Erzählguts, deren englische Bearbeitung international weit verbreitet ist</p>\n        <a href=\"https://www.ginzberg.ethz.ch/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:joanna.nowotny@lit.gess.ethz.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+                "description": "<div>\n        <h4>Louis Ginzberg: Legenden der Juden</h4>\n        <p>Erstmalige Edition des deutschen Urmanuskripts von Louis Ginzbergs Sammlung jüdischen Erzählguts, deren englische Bearbeitung international weit verbreitet ist</p>\n        <a href=\"https://www.ginzberg.ethz.ch/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:joanna.nowotny@lit.gess.ethz.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
@@ -468,7 +468,7 @@
             },
             "properties": {
                 "name": "Quellen zur Zürcher Geschichte (QZH)",
-                "description": "<div>\n        <h4>Quellen zur Zürcher Geschichte (QZH)</h4>\n        <p>In Vorbereitung: Die Plattform Quellen zur Zürcher Geschichte (QZH) ist der Publikationskanal für Transkriptionen und Digitalisate ausgewählter Quellenstücke aus den Beständen des Staatsarchivs des Kantons Zürich. Sie steht auch für Transkriptionen anderer Institutionen und Kollaborationspartner offen.</p>\n        <a href=\"https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:christian.sieber@ji.zh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+                "description": "<div>\n        <h4>Quellen zur Zürcher Geschichte (QZH)</h4>\n        <p>Die Plattform Quellen zur Zürcher Geschichte (QZH) ist der Publikationskanal für Transkriptionen und Digitalisate ausgewählter Quellenstücke aus den Beständen des Staatsarchivs des Kantons Zürich. Sie steht auch für Transkriptionen anderer Institutionen und Kollaborationspartner offen.</p>\n        <a href=\"https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:christian.sieber@ji.zh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
@@ -482,6 +482,19 @@
             "properties": {
                 "name": "Rechtsquellen-Edition des Kantons Zürich",
                 "description": "<div>\n        <h4>Rechtsquellen-Edition des Kantons Zürich</h4>\n        <p>Historische Quellen aus dem Gebiet des heutigen Kantons Zürich aus der Zeit bis 1798</p>\n        <a href=\"https://rechtsquellen.sources-online.org/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:christian.sieber@ji.zh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.547105400000001,47.3973245]
+            },
+            "properties": {
+                "name": "Zentrale Serien des Kantons Zürich (19. und 20. Jahrhundert)",
+                "description": "<div>\n        <h4>Zentrale Serien des Kantons Zürich (19. und 20. Jahrhundert)</h4>\n        <p>Die zentralen Serien des Kantons Zürich (ZSZH) umfassen die Offizielle Gesetzessammlung, das Amtsblatt, die Protokolle des Kantonsrats und die Beschlüsse des Regierungsrats.</p>\n        <a href=\"https://www.zentraleserien.zh.ch\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:christian.sieber@ji.zh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
