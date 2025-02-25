@@ -1,7 +1,7 @@
 ---
 title: "Digital editions of the works by Hans Christian Andersen with a particular focus on genetic editing"
 short: "Digital editions of the works by Hans Christian Andersen with a particular focus on genetic editing"
-lead: ""
+lead: "Hans Christian Andersen died 150 years ago, but his legacy is thriving."
 date: 2025-03-04
 room: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2I4YWRkYWMtNDI1ZC00YWJmLWI0YWItNDc3NGY2NDUxMjQz%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d"
 author: Holger Berg
