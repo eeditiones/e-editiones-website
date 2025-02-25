@@ -22,9 +22,6 @@ Participation is free of charge and open to anyone interested. No registration i
 
 The event took place on Tuesday the 10th of December from 17:00 till 18:00 CET on Jitsi.
 
-- [Workshop Recording](https://www.youtube.com/watch?v=tPyf4axZqQk)
+<iframe width="1117" height="628" src="https://www.youtube.com/embed/tPyf4axZqQk" title="How to work with embeddings in a digital collection of sources?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-<a href='../../img/community-talk-embeddings1.jpg'>
-    <img src='../../img/community-talk-embeddings1.jpg' width='100%'>
-</a>    
+- Recording: [Youtube](https://www.youtube.com/watch?v=tPyf4axZqQk)

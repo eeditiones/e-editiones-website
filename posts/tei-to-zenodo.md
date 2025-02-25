@@ -15,3 +15,8 @@ Dr. Andreas Wagner, Digital Humanities, Max Planck Institute for Legal History a
 How can I get Persistent Identifiers for the works of my digital edition? How can I deposit their TEI XML sources at a long-time archival repository? And how can I do all this when I don't have an affiliated institution/library taking care of it all? It's in response to questions as these that the "TEI2Zenodo"-Service offers a software (and, for the time being, a platform) that can facilitate archival and sustainable citation of your data. This workshop will introduce the platforms github and zenodo, and discuss the roles that they can play in such an endeavour. We will see and experiment with configurations for various ways of connecting them, particularly ones making use of the TEI2Zenodo service. After the workshop, participants should be capable of sustainably depositing the data of their digital edition, taking profit of free and open services and platforms.
 
 The workshop is **free**. A registration is not required. Just join the [meeting room](https://meet.existsolutions.com/workshop).
+
+
+<iframe width="1117" height="628" src="https://www.youtube.com/embed/aYk6RAho9Ws" title="TEI source files and the Zenodo archive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- Recording: [Youtube](https://www.youtube.com/watch?v=aYk6RAho9Ws)

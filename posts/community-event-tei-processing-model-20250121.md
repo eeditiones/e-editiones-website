@@ -12,7 +12,6 @@ coverImage: eeditiones-ce-20250121-small.png
 coverImageCredits: Image by Lars Windauer
 
 ---
-
 Upcoming community meetup on [January 21, 2025 at 17:00 CET](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&iso=20250121T17&p1=1425&ah=1).
 
 
@@ -24,3 +23,6 @@ In my talk I will focus on two aspects of this. First I will discuss situations 
 
 I have implemented some of these ideas in proof-of-concept coding. In the talk I will show how this could work and, as this is very much work in progress, I look forward to suggestions and ideas from the audience.
 
+<iframe width="1117" height="628" src="https://www.youtube.com/embed/S71Ntbt2rs0" title="Peter Boot: Extending (and reorganizing?) the TEI Processing Model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+* Recording: [Youtube](https://www.youtube.com/watch?v=S71Ntbt2rs0)

@@ -40,6 +40,8 @@ The Alfred Escher correspondence represents a prominent edition, which has recen
 
 In this talk we'll have a close look at how this task was undertaken and hope to provide some hints for others who may find themselves confronted with similar challenges. On the way we'll also meet some of the new features coming to Publisher 8.
 
+Recording: [Youtube](https://www.youtube.com/watch?v=ZxdeVkwT0DY)
+
 ##### 2022-03-01 Orchestrating TEI Publisher and Fore to edit and publish LGPN-Ling
 
 Magdalena Turska
