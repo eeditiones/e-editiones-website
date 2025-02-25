@@ -30,4 +30,7 @@ Our community driven handbook is based on MkDocs and will be made available on t
 
 The event took place on Tuesday the 12th of November from 17:00 till 18:00 CET on Jitsi.
 
-- [Workshop Recording](https://www.youtube.com/watch?v=9q01a2e7EnQ)
+
+<iframe width="1117" height="628" src="https://www.youtube.com/embed/9q01a2e7EnQ" title="Proto4DigEd: How to write a DSE-handbook for different use cases and communities?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- Recording: [Youtube](https://www.youtube.com/watch?v=--_RAW9SbY8)
