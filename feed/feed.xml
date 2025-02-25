@@ -5,12 +5,39 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2025-02-04T00:00:00Z</updated>
+	<updated>2025-03-04T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Genetic editions of Hans Christian Andersen&#39;s oeuvre</title>
+		<link href="https://e-editiones.org/posts/community-event-hans-christian-andersen-genetic-editing/"/>
+		<updated>2025-03-04T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/community-event-hans-christian-andersen-genetic-editing/</id>
+		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;amp;iso=20250304T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;March 04, 2025 at 17:00 CET&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hans Christian Andersen died 150 years ago, but his legacy is thriving. The research center in Andersen´s native town Odense aids readers and researchers alike who want to explore this rich oeuvre. To this aim, we have over the course of just four years launched three digital editions. All three have been produced with TEI Publisher.&lt;/p&gt;
+&lt;p&gt;In the talk at the community meetup, I first outline the process that helped us at the centre to reach to the current state.&lt;/p&gt;
+&lt;p&gt;Secondly, I then single out three building blocks that are either new additions to TEI Publisher or could become such:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fast search through tables, e.g., on the main landing page (via zing-grid adapted by Magdalena Turska).&lt;/li&gt;
+&lt;li&gt;Draggable panels with display of, e.g., facsimiles (jsPanel adapted by Jörn Turner).&lt;/li&gt;
+&lt;li&gt;Synoptic visualizations of two, three or more textual variants (via CollateX customized by Karsten Kynde).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As the names in the parentheses indicate, the modules have been crafted by experts within our community. The talk should thereby demonstrate how TEI Publisher delivers one of its main promises: Empowering academics (like myself) to model and build digital scholarly editions without having to become programmers.&lt;/p&gt;
+&lt;p&gt;In the final dialogue we might discuss whether the two latter building blocks could be bundled with related elements to form a distinct genetic profile in future versions of TEI Publisher? This might aid the creation of coming genetic digital scholarly editions.&lt;/p&gt;
+&lt;h3 id=&quot;references&quot; tabindex=&quot;-1&quot;&gt;References&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The Fairy Tales and Stories of Hans Christian Andersen translated by John Irons, &lt;a href=&quot;https://hca.sdu.dk/tales&quot;&gt;https://hca.sdu.dk/tales&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;H.C. Andersens samlede værker, &lt;a href=&quot;https://hca.sdu.dk/sv&quot;&gt;https://hca.sdu.dk/sv&lt;/a&gt; (Danish study edition printed in 18 volumes from 2003 to 2007; digitized in 18 months 2023-24; main address &lt;a href=&quot;http://www.hcandersen.dk/&quot;&gt;www.hcandersen.dk&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Hans Christian Andersen’s Fairy Tales and Stories – The digital manuscript edition, &lt;a href=&quot;https://hca.sdu.dk/manus&quot;&gt;https://hca.sdu.dk/manus&lt;/a&gt; (genetic DSE in Danish; current stage 2020-2026; planned final stage 2026-32).&lt;/li&gt;
+&lt;li&gt;All three editions are currently in TEI Publisher 9.0. The source code for the manuscript edition will be released later during 2025.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/eeditiones-ce-20250304.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>A preview of TEI Publisher 10</title>
@@ -22,6 +49,10 @@
 &lt;p&gt;This reduces the need to touch actual code or copy and paste code snippets between projects (as we currently often do). Generating a custom app is no longer a one time task, but becomes an iterative process. This also means that updates to newer versions of publisher can be done largely automatic, further reducing long term maintenance costs.&lt;/p&gt;
 &lt;p&gt;In addition, TP 10 includes an option to generate static versions of an entire application or parts thereof, as well as a completely new HTML templating engine.&lt;/p&gt;
 &lt;p&gt;The goal of this first presentation is to give you an overview of the overall design and enable all members of the community to bring in their own ideas and contributions. Each profile in TP 10 and beyond should ideally serve as a best practice example, which means that if you follow the specs laid out, you can be sure your data will display nicely out of the box. To achieve this goal we´ll need everyone in the community, not just those who can code!&lt;/p&gt;
+&lt;iframe width=&quot;1117&quot; height=&quot;628&quot; src=&quot;https://www.youtube.com/embed/--_RAW9SbY8&quot; title=&quot;A preview of TEI Publisher 10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://www.youtube.com/watch?v=--_RAW9SbY8&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
 	</entry>
 	
@@ -34,6 +65,10 @@
 &lt;p&gt;The TEI Processing Model (PM) is a TEI facility that can be used to give a declarative description of the expected behaviour associated with TEI XML elements. As such it can become an important ingredient for a fully declarative specification of TEI output, even though a declarative output specification would need much more than the PM (such as page layout specifications, search specifications, specification of interaction). However, there are a number of limitations that one runs into when trying to define output using the TEI PM. For some of these, TEI publisher has already implemented extensions to the model.&lt;/p&gt;
 &lt;p&gt;In my talk I will focus on two aspects of this. First I will discuss situations where we need to associate multiple, nested, behaviours with one element (such as an image that should also be a link or a text section that should have a generated header). Second, I will look at the way the processing model is now specified at element level within the TEI schema specification. I will argue that from the perspective of reusability this is an unfortunate choice, and that we should be able to define named rule blocks containing TEI PM elements. It should be possible to call these rule blocks from the interface definition. In the situation where an edition consists of multiple components, it should also be possible for a rule block from one component to activate a rule block in another component.&lt;/p&gt;
 &lt;p&gt;I have implemented some of these ideas in proof-of-concept coding. In the talk I will show how this could work and, as this is very much work in progress, I look forward to suggestions and ideas from the audience.&lt;/p&gt;
+&lt;iframe width=&quot;1117&quot; height=&quot;628&quot; src=&quot;https://www.youtube.com/embed/S71Ntbt2rs0&quot; title=&quot;Peter Boot: Extending (and reorganizing?) the TEI Processing Model&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://www.youtube.com/watch?v=S71Ntbt2rs0&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
 	</entry>
 	
@@ -61,12 +96,10 @@ eine 30-tägige kostenlose Probelizenz gibt: &lt;a href=&quot;https://www.oxygen
 &lt;p&gt;For reasons of path dependencies, the platform of the project is not based on TEI Publisher, but it may serve as an example of what working with embeddings in such a context might involve anyway: For which parts of texts would you create embeddings, how and where would you store them, how would you access and process them, and what information would you want to provide to users of the platform based on these embeddings? The presentation reports on an ongoing experiment the core of which is the definition of an API handling the storage, comparison, and delivery of embeddings (the API of a vector store, then) on the one hand, and a proposal of how to extend APIs for handling (lists or passages of) texts with affordances based on embeddings (the API of a digital collection of sources, that is).&lt;/p&gt;
 &lt;p&gt;Participation is free of charge and open to anyone interested. No registration is required to attend. We will meet Tuesday, the 10th of December at 17:00 CEST in our e-editiones community Teams channel. The link can be found at the top of the page.&lt;/p&gt;
 &lt;p&gt;The event took place on Tuesday the 10th of December from 17:00 till 18:00 CET on Jitsi.&lt;/p&gt;
+&lt;iframe width=&quot;1117&quot; height=&quot;628&quot; src=&quot;https://www.youtube.com/embed/tPyf4axZqQk&quot; title=&quot;How to work with embeddings in a digital collection of sources?&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=tPyf4axZqQk&quot;&gt;Workshop Recording&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://www.youtube.com/watch?v=tPyf4axZqQk&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;a href=&quot;https://e-editiones.org/img/community-talk-embeddings1.jpg&quot;&gt;
-    &lt;img src=&quot;https://e-editiones.org/img/community-talk-embeddings1.jpg&quot; width=&quot;100%&quot; /&gt;
-&lt;/a&gt;    
 </content>
 	</entry>
 	
@@ -100,8 +133,9 @@ eine 30-tägige kostenlose Probelizenz gibt: &lt;a href=&quot;https://www.oxygen
 &lt;p&gt;We are organising workshops, in which we discuss and compare workflows of different projects and ask them for their best practices. The focus is on the question of how projects can learn from each other, despite their differences. Sharing experiences when deciding on certain workflows and the use of tools is proving to be particularly promising. It is particularly important to consciously reflect on which functionalities are necessary and which are ‘just’ nice to have.
 Our community driven handbook is based on MkDocs and will be made available on the GitLab instance of the University of Zurich from autumn 2024. The Center Digital Editions &amp;amp; Edition Analytics, ZDE UZH, helps in sharing the workflow and offers discussion and training to any interested project.&lt;/p&gt;
 &lt;p&gt;The event took place on Tuesday the 12th of November from 17:00 till 18:00 CET on Jitsi.&lt;/p&gt;
+&lt;iframe width=&quot;1117&quot; height=&quot;628&quot; src=&quot;https://www.youtube.com/embed/9q01a2e7EnQ&quot; title=&quot;Proto4DigEd: How to write a DSE-handbook for different use cases and communities?&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=9q01a2e7EnQ&quot;&gt;Workshop Recording&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://www.youtube.com/watch?v=--_RAW9SbY8&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
 	</entry>
@@ -251,11 +285,16 @@ the 19th century.&lt;/p&gt;
 		<link href="https://e-editiones.org/posts/community-event-dos-donts-odd/"/>
 		<updated>2024-07-02T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/community-event-dos-donts-odd/</id>
-		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&amp;amp;iso=20240702T17&amp;amp;p1=37&amp;amp;ah=1&quot;&gt;July 2, 2024 17:00 CEST&lt;/a&gt;&lt;/p&gt;
+		<content type="html">&lt;ul&gt;
+&lt;li&gt;Presentation: &lt;a href=&quot;https://e-editiones.org/img/TEI_schema_customization.pdf&quot;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://www.youtube.com/watch?v=e7P-YiYgKlc&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&amp;amp;iso=20240702T17&amp;amp;p1=37&amp;amp;ah=1&quot;&gt;July 2, 2024 17:00 CEST&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Data modelling is the keystone of DIgital Scholarly editing, thus the importance of well-thought-out schemas in XML-based editions. In this sense, the TEI Guidelines and related resources play a crucial role in aiding scholars throughout the formalisation of a schema, together with the well-known benefits of having datasets that are compliant with this technical standard.&lt;/p&gt;
 &lt;p&gt;However, many projects use a TEI customisation that wasn’t conceived for being implemented in real Humanities projects, TEI All, arguably a hindrance towards interoperability.&lt;/p&gt;
 &lt;p&gt;In this community meet-up we will talk about ODD, a specification format that enables the customisation of TEI P5 in a literate programming fashion. We will do an overview of existing resources that assist scholars in the creation of schemas adapted to their project requirements.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;The meeting will take place on &lt;a class=&quot;alert-link&quot; href=&quot;https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGI2N2I1NWEtZmVkNy00MGI0LWEzZjgtNzU4YzlhY2I1M2Rj%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%2210b0f60b-ba0a-446b-81af-8ba3b4070d61%22%7d&quot;&gt;Teams&lt;/a&gt;.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;The meeting took place on Teams.&lt;/b&gt;&lt;/p&gt;
+&lt;iframe width=&quot;1117&quot; height=&quot;628&quot; src=&quot;https://www.youtube.com/embed/e7P-YiYgKlc&quot; title=&quot;Dos and don’ts in TEI schema customization. An introduction to the ODD specification (CM 2024-07-02)&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;ul&gt;
 &lt;li&gt;Presentation: &lt;a href=&quot;https://e-editiones.org/img/TEI_schema_customization.pdf&quot;&gt;PDF&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Recording: &lt;a href=&quot;https://www.youtube.com/watch?v=e7P-YiYgKlc&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
@@ -326,7 +365,11 @@ the 19th century.&lt;/p&gt;
 		<id>https://e-editiones.org/posts/beyond-the-index/</id>
 		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&amp;amp;iso=20240416T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;April 16, 2024&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Annotation of entities has been commonplace in editions for a long time. But the common methods to do so do not acknowledge the potentials which are provided by todays technologies. In this talk I will present a modern annotation system as well as the possibilities it brings forward in combination with machine learning-based methods of information extraction. By embracing these advancements, we can significantly enhance access to the edition, transforming it into a rich source of data for researchers in fields such as history, linguistics, and sociology.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;The meeting will take place on &lt;a class=&quot;alert-link&quot; href=&quot;https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGI2N2I1NWEtZmVkNy00MGI0LWEzZjgtNzU4YzlhY2I1M2Rj%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%2210b0f60b-ba0a-446b-81af-8ba3b4070d61%22%7d&quot;&gt;Teams&lt;/a&gt;.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;The meeting took place on Teams.&lt;/b&gt;&lt;/p&gt;
+&lt;iframe width=&quot;1117&quot; height=&quot;628&quot; src=&quot;https://www.youtube.com/embed/5eVilDacrtA&quot; title=&quot;TEI Publisher Annotation Facility: Flexible, Browser Based Annotations for TEI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://www.youtube.com/watch?v=5QEuhCFjwnM&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
 	</entry>
 	
@@ -407,6 +450,10 @@ the 19th century.&lt;/p&gt;
 		<id>https://e-editiones.org/posts/community-event-airtable/</id>
 		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+Community+Event&amp;amp;iso=20230711T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;July 11, 2023&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Virginia Kinniburgh (US Department of State&#39;s &lt;a href=&quot;https://en.wikipedia.org/wiki/Office_of_the_Historian&quot;&gt;Office of the Historian&lt;/a&gt;) will discuss her work building born-digital indexes for volumes in the &lt;a href=&quot;https://history.state.gov/&quot;&gt;Foreign Relations of the United States series&lt;/a&gt;, the definitive record of United States foreign policy. The goal was to develop an experimental alternative to the traditional back-of-book indexing process by using &lt;a href=&quot;https://tei-publisher.org/exist/apps/tei-publisher/annotate/test.xml&quot;&gt;TEI Publisher&#39;s annotation tool&lt;/a&gt; to select indexable entities in documents according to categories such as places, people, events, topics, and agreements/mandates. In this project, &lt;a href=&quot;https://tei-publisher.org/&quot;&gt;TEI Publisher&lt;/a&gt; draws on a collaborative, relational database system called &lt;a href=&quot;https://www.airtable.com/&quot;&gt;Airtable&lt;/a&gt;, which gathers potential entries across multiple FRUS volumes and projects, to create browsable facets through which users can better understand the documents. The same annotations can also be used to create index entries and automatically generate an index for the volume.&lt;/p&gt;
+&lt;iframe width=&quot;1117&quot; height=&quot;628&quot; src=&quot;https://www.youtube.com/embed/v77DMPO-Pv4&quot; title=&quot;How History At State uses TEI Publisher&amp;#39;s annotation tool and Airtable&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://www.youtube.com/watch?v=v77DMPO-Pv4&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
 	</entry>
 	
@@ -859,6 +906,7 @@ the 19th century.&lt;/p&gt;
 &lt;h5 id=&quot;2022-04-12-anatomy-of-the-alfred-escher-edition%3A-remastering-a-sophisticated-project-to-tei-publisher&quot; tabindex=&quot;-1&quot;&gt;2022-04-12 Anatomy of the Alfred Escher Edition: Remastering a sophisticated project to TEI Publisher&lt;/h5&gt;
 &lt;p&gt;The Alfred Escher correspondence represents a prominent edition, which has recently been ported to TEI Publisher to save it from shutting down. The goal was to preserve the existing functionality and site organization while reducing the long-term maintenance costs.&lt;/p&gt;
 &lt;p&gt;In this talk we&#39;ll have a close look at how this task was undertaken and hope to provide some hints for others who may find themselves confronted with similar challenges. On the way we&#39;ll also meet some of the new features coming to Publisher 8.&lt;/p&gt;
+&lt;p&gt;Recording: &lt;a href=&quot;https://www.youtube.com/watch?v=ZxdeVkwT0DY&quot;&gt;Youtube&lt;/a&gt;&lt;/p&gt;
 &lt;h5 id=&quot;2022-03-01-orchestrating-tei-publisher-and-fore-to-edit-and-publish-lgpn-ling&quot; tabindex=&quot;-1&quot;&gt;2022-03-01 Orchestrating TEI Publisher and Fore to edit and publish LGPN-Ling&lt;/h5&gt;
 &lt;p&gt;Magdalena Turska&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;LGPN-Ling: &lt;em&gt;Etymological and Semantic analysis of ancient Greek personal names&lt;/em&gt;&lt;/em&gt; is a dictionary accompanying the Lexicon of Greek Personal Names. The purpose of &lt;em&gt;LGPN-Ling&lt;/em&gt; is to elucidate the meaning of Greek names, a task which has never before been systematically undertaken and to provide an essential semantical complement to the LGPN Database.&lt;/p&gt;
@@ -1406,6 +1454,10 @@ Basel&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Dr. Andreas Wagner, Digital Humanities, Max Planck Institute for Legal History and Legal Theory, Frankfurt&lt;/p&gt;
 &lt;p&gt;How can I get Persistent Identifiers for the works of my digital edition? How can I deposit their TEI XML sources at a long-time archival repository? And how can I do all this when I don&#39;t have an affiliated institution/library taking care of it all? It&#39;s in response to questions as these that the &amp;quot;TEI2Zenodo&amp;quot;-Service offers a software (and, for the time being, a platform) that can facilitate archival and sustainable citation of your data. This workshop will introduce the platforms github and zenodo, and discuss the roles that they can play in such an endeavour. We will see and experiment with configurations for various ways of connecting them, particularly ones making use of the TEI2Zenodo service. After the workshop, participants should be capable of sustainably depositing the data of their digital edition, taking profit of free and open services and platforms.&lt;/p&gt;
 &lt;p&gt;The workshop is &lt;strong&gt;free&lt;/strong&gt;. A registration is not required. Just join the &lt;a href=&quot;https://meet.existsolutions.com/workshop&quot;&gt;meeting room&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width=&quot;1117&quot; height=&quot;628&quot; src=&quot;https://www.youtube.com/embed/aYk6RAho9Ws&quot; title=&quot;TEI source files and the Zenodo archive&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://www.youtube.com/watch?v=aYk6RAho9Ws&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
 	</entry>
 	
