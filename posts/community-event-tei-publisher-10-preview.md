@@ -22,3 +22,7 @@ This reduces the need to touch actual code or copy and paste code snippets betwe
 In addition, TP 10 includes an option to generate static versions of an entire application or parts thereof, as well as a completely new HTML templating engine.
 
 The goal of this first presentation is to give you an overview of the overall design and enable all members of the community to bring in their own ideas and contributions. Each profile in TP 10 and beyond should ideally serve as a best practice example, which means that if you follow the specs laid out, you can be sure your data will display nicely out of the box. To achieve this goal we´ll need everyone in the community, not just those who can code!
+
+<iframe width="1117" height="628" src="https://www.youtube.com/embed/--_RAW9SbY8" title="A preview of TEI Publisher 10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- Recording: [Youtube](https://www.youtube.com/watch?v=--_RAW9SbY8)
