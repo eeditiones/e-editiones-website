@@ -100,6 +100,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [8.54877012472384,47.41326381358111]
+            },
+            "properties": {
+                "name": "Bullinger Digital",
+                "description": "<div>\n        <h4>Bullinger Digital</h4>\n        <p>Briefwechsel-Korpus mit den 12‘000 überlieferten Briefen von und an den Zürcher Reformator Heinrich Bullinger (1504-1575)</p>\n        <a href=\"https://www.bullinger-digital.ch\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:patricia.scheurer@uzh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [7.149523400000001,51.24477779999999]
             },
             "properties": {
