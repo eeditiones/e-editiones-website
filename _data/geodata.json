@@ -63,6 +63,15 @@
     "email": ""
   },
   {
+    "name": "Bullinger Digital",
+    "address": "Universität Zürich, Institut für Computerlinguistik, Andreasstrasse 15, 8050 Zürich // 47",
+    "latitude": "47.41326381358111",
+    "longitude": "8.54877012472384",
+    "description": "Briefwechsel-Korpus mit den 12‘000 überlieferten Briefen von und an den Zürcher Reformator Heinrich Bullinger (1504-1575) ",
+    "url": "https://www.bullinger-digital.ch"
+    "email": "patricia.scheurer@uzh.ch"
+  },
+  {
     "name": "A Catalog of Digital Scholarly Editions",
     "address": "Bergische Universität Wuppertal, Gaußstraße 20, Wuppertal, Germany",
     "latitude": "51.24477779999999",
