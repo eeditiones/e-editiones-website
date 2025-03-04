@@ -90,6 +90,15 @@
     "email": "maria.niku@finlit.fi"
   },
   {
+    "name": "Comparaison multilingue de Contes des frères Grimm en traduction / Multilingual comparison of tales by the Brothers Grimm in translation",
+    "address": "Cyrille FRANÇOIS, Université de Lausanne, Quartier UNIL-Chamberonne, Anthropole (EFLE), Bureau 3115, 1015 Lausanne,Switzerland",
+    "latitude": "46.5243523945095",
+    "longitude": "6.584522830664666",
+    "description": "The «Grimm Tradalign» ACR (Alliance Campus Rhodanien / Rhodaniaen Campus Alliance) project is a French-Swiss multidisciplinary venture involving scholars from Grenoble-Alpes University (UGA, France) and the University of Lausanne (UNIL, Switzerland). It aims at developing an alignment tool which leads to the online publication and detailed analysis of a multilingual corpus. The said corpus consists of tales by the Brothers Grimm and their nineteenth and twentieth century translations into French and English This tool is designed to be used with all corpora which require multi-alignment (cases where more than two languages are aligned).",
+    "url": "https://grimm.unil.ch",
+    "email": "grimm@unil.ch"
+  },
+  {
     "name": "Corpus Grammaticorum Latinorum",
     "address": "Laboratoire d’Histoire des Théories Linguistiques (UMR 7597 Université Paris Cité/Université Sorbonne Nouvelle/CNRS), Paris 75013",
     "latitude": "48.83979619999999",
