@@ -139,6 +139,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [6.584522830664666,46.5243523945095]
+            },
+            "properties": {
+                "name": "Comparaison multilingue de Contes des frères Grimm en traduction / Multilingual comparison of tales by the Brothers Grimm in translation",
+                "description": "<div>\n        <h4>Comparaison multilingue de Contes des frères Grimm en traduction / Multilingual comparison of tales by the Brothers Grimm in translation</h4>\n        <p>The «Grimm Tradalign» ACR (Alliance Campus Rhodanien / Rhodaniaen Campus Alliance) project is a French-Swiss multidisciplinary venture involving scholars from Grenoble-Alpes University (UGA, France) and the University of Lausanne (UNIL, Switzerland). It aims at developing an alignment tool which leads to the online publication and detailed analysis of a multilingual corpus. The said corpus consists of tales by the Brothers Grimm and their nineteenth and twentieth century translations into French and English This tool is designed to be used with all corpora which require multi-alignment (cases where more than two languages are aligned).</p>\n        <a href=\"https://grimm.unil.ch\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:grimm@unil.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [2.353880699999999,48.83979619999999]
             },
             "properties": {
