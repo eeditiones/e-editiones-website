@@ -17,7 +17,11 @@
 		<link href="https://e-editiones.org/posts/community-event-hans-christian-andersen-genetic-editing/"/>
 		<updated>2025-03-04T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/community-event-hans-christian-andersen-genetic-editing/</id>
-		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;amp;iso=20250304T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;March 04, 2025 at 17:00 CET&lt;/a&gt;.&lt;/p&gt;
+		<content type="html">&lt;p&gt;Community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;amp;iso=20250304T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;March 04, 2025 at 17:00 CET&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Presentation: &lt;a href=&quot;https://e-editiones.org/img/Berg_genetic_e-editiones_2025-03-04.pdf&quot;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://youtu.be/yvEj2fXq5kk&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Hans Christian Andersen died 150 years ago, but his legacy is thriving. The research center in Andersen´s native town Odense aids readers and researchers alike who want to explore this rich oeuvre. To this aim, we have over the course of just four years launched three digital editions. All three have been produced with TEI Publisher.&lt;/p&gt;
 &lt;p&gt;In the talk at the community meetup, I first outline the process that helped us at the centre to reach to the current state.&lt;/p&gt;
 &lt;p&gt;Secondly, I then single out three building blocks that are either new additions to TEI Publisher or could become such:&lt;/p&gt;
@@ -49,7 +53,10 @@
 		<link href="https://e-editiones.org/posts/community-event-tei-publisher-10-preview/"/>
 		<updated>2025-02-04T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/community-event-tei-publisher-10-preview/</id>
-		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;amp;iso=20250204T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;February 04, 2025 at 17:00 CET&lt;/a&gt;.&lt;/p&gt;
+		<content type="html">&lt;p&gt;Community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;amp;iso=20250204T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;February 04, 2025 at 17:00 CET&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://www.youtube.com/watch?v=--_RAW9SbY8&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;TEI Publisher Version 10 represents a radical redesign by deconstructing TEI Publisher into an ensemble of combinable, interoperable profiles, each of which targets a particular aspect of a digital edition. Profiles can be rearranged and adjusted via configuration files (in the future: via form-based interface).&lt;/p&gt;
 &lt;p&gt;This reduces the need to touch actual code or copy and paste code snippets between projects (as we currently often do). Generating a custom app is no longer a one time task, but becomes an iterative process. This also means that updates to newer versions of publisher can be done largely automatic, further reducing long term maintenance costs.&lt;/p&gt;
 &lt;p&gt;In addition, TP 10 includes an option to generate static versions of an entire application or parts thereof, as well as a completely new HTML templating engine.&lt;/p&gt;
@@ -66,7 +73,10 @@
 		<link href="https://e-editiones.org/posts/community-event-tei-processing-model-20250121/"/>
 		<updated>2025-01-21T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/community-event-tei-processing-model-20250121/</id>
-		<content type="html">&lt;p&gt;Upcoming community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;amp;iso=20250121T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;January 21, 2025 at 17:00 CET&lt;/a&gt;.&lt;/p&gt;
+		<content type="html">&lt;p&gt;Community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;amp;iso=20250121T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;January 21, 2025 at 17:00 CET&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://www.youtube.com/watch?v=S71Ntbt2rs0&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;The TEI Processing Model (PM) is a TEI facility that can be used to give a declarative description of the expected behaviour associated with TEI XML elements. As such it can become an important ingredient for a fully declarative specification of TEI output, even though a declarative output specification would need much more than the PM (such as page layout specifications, search specifications, specification of interaction). However, there are a number of limitations that one runs into when trying to define output using the TEI PM. For some of these, TEI publisher has already implemented extensions to the model.&lt;/p&gt;
 &lt;p&gt;In my talk I will focus on two aspects of this. First I will discuss situations where we need to associate multiple, nested, behaviours with one element (such as an image that should also be a link or a text section that should have a generated header). Second, I will look at the way the processing model is now specified at element level within the TEI schema specification. I will argue that from the perspective of reusability this is an unfortunate choice, and that we should be able to define named rule blocks containing TEI PM elements. It should be possible to call these rule blocks from the interface definition. In the situation where an edition consists of multiple components, it should also be possible for a rule block from one component to activate a rule block in another component.&lt;/p&gt;
 &lt;p&gt;I have implemented some of these ideas in proof-of-concept coding. In the talk I will show how this could work and, as this is very much work in progress, I look forward to suggestions and ideas from the audience.&lt;/p&gt;
@@ -96,7 +106,10 @@ eine 30-tägige kostenlose Probelizenz gibt: &lt;a href=&quot;https://www.oxygen
 		<link href="https://e-editiones.org/posts/community-meeting-embeddings-in-collection-of-sources/"/>
 		<updated>2024-12-02T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/community-meeting-embeddings-in-collection-of-sources/</id>
-		<content type="html">&lt;p&gt;Community meetup on December 10, 2024 at 17:00 CEST by Andreas Wagner from the Max Planck Institute for Legal History and Legal Theory / Academy of Sciences and Literature, Mainz&lt;/p&gt;
+		<content type="html">&lt;p&gt;Community meetup on December 10, 2024 at 17:00 CEST by Andreas Wagner from the Max Planck Institute for Legal History and Legal Theory / Academy of Sciences and Literature, Mainz.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://www.youtube.com/watch?v=tPyf4axZqQk&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Digital collections of historical sources often feature texts that are comprised in one collection for a reason. Exploring this reason means investigating commonalities and differences between the texts contained in the collection. In one example - the project &lt;a href=&quot;https://salamanca.school/&quot;&gt;The School of Salamanca&lt;/a&gt; of the Academy of Sciences and Literature in Mainz - the relation between the texts is precisely one of the things the exploration of which the project intends to facilitate. For would understanding this relation not help us understand what the &amp;quot;school&amp;quot; might have been? In what ways?&lt;/p&gt;
 &lt;p&gt;For reasons of path dependencies, the platform of the project is not based on TEI Publisher, but it may serve as an example of what working with embeddings in such a context might involve anyway: For which parts of texts would you create embeddings, how and where would you store them, how would you access and process them, and what information would you want to provide to users of the platform based on these embeddings? The presentation reports on an ongoing experiment the core of which is the definition of an API handling the storage, comparison, and delivery of embeddings (the API of a vector store, then) on the one hand, and a proposal of how to extend APIs for handling (lists or passages of) texts with affordances based on embeddings (the API of a digital collection of sources, that is).&lt;/p&gt;
 &lt;p&gt;Participation is free of charge and open to anyone interested. No registration is required to attend. We will meet Tuesday, the 10th of December at 17:00 CEST in our e-editiones community Teams channel. The link can be found at the top of the page.&lt;/p&gt;
@@ -113,7 +126,10 @@ eine 30-tägige kostenlose Probelizenz gibt: &lt;a href=&quot;https://www.oxygen
 		<link href="https://e-editiones.org/posts/community-event-Proto4DigEd/"/>
 		<updated>2024-11-12T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/community-event-Proto4DigEd/</id>
-		<content type="html">&lt;p&gt;Upcoming community meetup on November 12th, 2024 at 17:00 CET by Yann Stricker (Zentrum für Digtiale Editorik, UZH), Elias Zimmermann (Romanisches Seminar, UZH) and Reto Baumgartner (Science IT, UZH).&lt;/p&gt;
+		<content type="html">&lt;p&gt;Community meetup on November 12th, 2024 at 17:00 CET by Yann Stricker (Zentrum für Digtiale Editorik, UZH), Elias Zimmermann (Romanisches Seminar, UZH) and Reto Baumgartner (Science IT, UZH).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://www.youtube.com/watch?v=--_RAW9SbY8&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;The main goal of the Open Research Data (ORD) project Proto4DigEd funded by swissuniversities for a duration of 18 months (07.2023−12.2024) is to test and further develop prototypical workflows for digital scientific editions (DSE). As a result, we are developing a model edition and writing an extensive handbook that aims to help different use cases and communities in the conception phase of their projects.&lt;/p&gt;
 &lt;p&gt;Proto4DigEd answers to a growing need for standardisation concerning digital edition projects (Pierazzo 2019: 2014). For this aim, the project links its handbook to its model edition, using a small subset of the huge correspondence of Gaston Paris (1839-1903), one of the most influent European philologists of the 19th century.&lt;/p&gt;
 &lt;p&gt;The Proto4DigEd handbook is concerned with all stages of the data life cycle from the conception phase until the archiving of the data in a repository. The project is not intended to document new technical solutions, but focuses on a combination of easily available, long-time proofed and thus sustainable tools and on seamless transitions between them.&lt;/p&gt;

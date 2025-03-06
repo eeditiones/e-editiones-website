@@ -116,7 +116,10 @@
             </p>
             
             
-            <p>Upcoming community meetup on <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;iso=20250121T17&amp;p1=1425&amp;ah=1">January 21, 2025 at 17:00 CET</a>.</p>
+            <p>Community meetup on <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;iso=20250121T17&amp;p1=1425&amp;ah=1">January 21, 2025 at 17:00 CET</a>.</p>
+<ul>
+<li>Recording: <a href="https://www.youtube.com/watch?v=S71Ntbt2rs0">Youtube</a></li>
+</ul>
 <p>The TEI Processing Model (PM) is a TEI facility that can be used to give a declarative description of the expected behaviour associated with TEI XML elements. As such it can become an important ingredient for a fully declarative specification of TEI output, even though a declarative output specification would need much more than the PM (such as page layout specifications, search specifications, specification of interaction). However, there are a number of limitations that one runs into when trying to define output using the TEI PM. For some of these, TEI publisher has already implemented extensions to the model.</p>
 <p>In my talk I will focus on two aspects of this. First I will discuss situations where we need to associate multiple, nested, behaviours with one element (such as an image that should also be a link or a text section that should have a generated header). Second, I will look at the way the processing model is now specified at element level within the TEI schema specification. I will argue that from the perspective of reusability this is an unfortunate choice, and that we should be able to define named rule blocks containing TEI PM elements. It should be possible to call these rule blocks from the interface definition. In the situation where an edition consists of multiple components, it should also be possible for a rule block from one component to activate a rule block in another component.</p>
 <p>I have implemented some of these ideas in proof-of-concept coding. In the talk I will show how this could work and, as this is very much work in progress, I look forward to suggestions and ideas from the audience.</p>
