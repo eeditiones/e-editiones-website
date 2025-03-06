@@ -12,9 +12,10 @@ coverImage: eeditiones-ce-20250121-small.png
 coverImageCredits: Image by Lars Windauer
 
 ---
-Upcoming community meetup on [January 21, 2025 at 17:00 CET](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&iso=20250121T17&p1=1425&ah=1).
+Community meetup on [January 21, 2025 at 17:00 CET](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&iso=20250121T17&p1=1425&ah=1).
 
-
+* Recording: [Youtube](https://www.youtube.com/watch?v=S71Ntbt2rs0)
+ 
 The TEI Processing Model (PM) is a TEI facility that can be used to give a declarative description of the expected behaviour associated with TEI XML elements. As such it can become an important ingredient for a fully declarative specification of TEI output, even though a declarative output specification would need much more than the PM (such as page layout specifications, search specifications, specification of interaction). However, there are a number of limitations that one runs into when trying to define output using the TEI PM. For some of these, TEI publisher has already implemented extensions to the model.
 
 

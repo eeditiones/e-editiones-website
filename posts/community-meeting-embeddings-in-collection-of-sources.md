@@ -11,7 +11,9 @@ coverImage: community-talk-embeddings1.jpg
 coverImageCredits: Image by Andreas Wagner
 ---
 
-Community meetup on December 10, 2024 at 17:00 CEST by Andreas Wagner from the Max Planck Institute for Legal History and Legal Theory / Academy of Sciences and Literature, Mainz 
+Community meetup on December 10, 2024 at 17:00 CEST by Andreas Wagner from the Max Planck Institute for Legal History and Legal Theory / Academy of Sciences and Literature, Mainz.
+
+- Recording: [Youtube](https://www.youtube.com/watch?v=tPyf4axZqQk)
 
 Digital collections of historical sources often feature texts that are comprised in one collection for a reason. Exploring this reason means investigating commonalities and differences between the texts contained in the collection. In one example - the project [The School of Salamanca](https://salamanca.school/) of the Academy of Sciences and Literature in Mainz - the relation between the texts is precisely one of the things the exploration of which the project intends to facilitate. For would understanding this relation not help us understand what the "school" might have been? In what ways?
 

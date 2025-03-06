@@ -13,7 +13,10 @@ coverImageCredits: Image by Holger Berg
 
 ---
 
-Upcoming community meetup on [March 04, 2025 at 17:00 CET](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&iso=20250304T17&p1=1425&ah=1).
+Community meetup on [March 04, 2025 at 17:00 CET](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&iso=20250304T17&p1=1425&ah=1).
+
+- Presentation: [PDF](/img/Berg_genetic_e-editiones_2025-03-04.pdf)
+- Recording: [Youtube](https://youtu.be/yvEj2fXq5kk)
 
 Hans Christian Andersen died 150 years ago, but his legacy is thriving. The research center in Andersen´s native town Odense aids readers and researchers alike who want to explore this rich oeuvre. To this aim, we have over the course of just four years launched three digital editions. All three have been produced with TEI Publisher.
 
