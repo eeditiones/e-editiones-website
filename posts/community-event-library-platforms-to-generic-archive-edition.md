@@ -19,5 +19,7 @@ Just over a year ago, we began editing the letters of the music publishers and c
 
 Our workflow is based on [Transkribus](https://www.transkribus.org/), an [Anton database](https://www.anton.ch/), markup in [oXygen](https://www.oxygenxml.com/), and publication with the [TEI Publisher](https://tei-publisher.com/). In our presentation, we will discuss lessons learned and ongoing work. One of the challenges is the reuse of newly cataloged letter metadata. These metadata, determined by library standards, must be expanded and repeatedly transformed within the framework of the edition, as we will show.
 
+The talk will not be recorded. 
+
 <img src="/img/e-editiones-20250401-naegeli.jpg" alt="Image by ZBZ Nägeli" width="100%"/>
 
