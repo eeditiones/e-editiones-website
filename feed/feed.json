@@ -10,6 +10,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://e-editiones.org/posts/community-event-library-platforms-to-generic-archive-edition/",
+      "url": "https://e-editiones.org/posts/community-event-library-platforms-to-generic-archive-edition/",
+      "title": "From Library Platforms to a Generic Archive Edition",
+      "content_html": "<p>Community meetup on <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;iso=20250401T17&amp;p1=1425&amp;ah=1\">April 01, 2025 at 17:00 CET</a>.</p>\n<p>Just over a year ago, we began editing the letters of the music publishers and composers Hans Georg Nägeli (1773-1836) and Hermann Nägeli (1811-1872). The Nägeli Letter Edition is one of two pilot projects through which the Zentralbibliothek Zürich (ZB) is developing services in the field of digital editing. The letter edition is designed to be as generic as possible so that future projects can utilize the same infrastructure.</p>\n<p>Our workflow is based on <a href=\"https://www.transkribus.org/\">Transkribus</a>, an <a href=\"https://www.anton.ch/\">Anton database</a>, markup in <a href=\"https://www.oxygenxml.com/\">oXygen</a>, and publication with the <a href=\"https://tei-publisher.com/\">TEI Publisher</a>. In our presentation, we will discuss lessons learned and ongoing work. One of the challenges is the reuse of newly cataloged letter metadata. These metadata, determined by library standards, must be expanded and repeatedly transformed within the framework of the edition, as we will show.</p>\n<p>The talk will not be recorded.</p>\n<img src=\"https://e-editiones.org/img/e-editiones-20250401-naegeli.jpg\" alt=\"Image by ZBZ Nägeli\" width=\"100%\" />\n",
+      "date_published": "2025-04-01T00:00:00Z"
+    },{
       "id": "https://e-editiones.org/posts/community-event-hans-christian-andersen-genetic-editing/",
       "url": "https://e-editiones.org/posts/community-event-hans-christian-andersen-genetic-editing/",
       "title": "Genetic editions of Hans Christian Andersen&#39;s oeuvre",
