@@ -557,21 +557,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
-    <lastmod>2025-03-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/release/</loc>
-    <lastmod>2025-03-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/annotations/</loc>
-    <lastmod>2025-03-17</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/e-editiones/</loc>
     <lastmod>2025-03-17</lastmod>
   </url>
@@ -597,12 +582,27 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
+    <lastmod>2025-03-17</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/tutorial/</loc>
     <lastmod>2025-03-17</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/advanced/</loc>
+    <lastmod>2025-03-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/release/</loc>
+    <lastmod>2025-03-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/annotations/</loc>
     <lastmod>2025-03-17</lastmod>
   </url>
   
@@ -638,16 +638,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/grants/</loc>
-    <lastmod>2025-03-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/conference/</loc>
-    <lastmod>2025-03-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/dh2024/</loc>
     <lastmod>2025-03-17</lastmod>
   </url>
   
@@ -698,6 +688,16 @@
   
   <url>
     <loc>https://e-editiones.org/tags/ner/</loc>
+    <lastmod>2025-03-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/conference/</loc>
+    <lastmod>2025-03-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/dh2024/</loc>
     <lastmod>2025-03-17</lastmod>
   </url>
   
