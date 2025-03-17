@@ -11,7 +11,9 @@ coverImage: "Proto4DigEd.jpg"
 
 ---
 
-Upcoming community meetup on November 12th, 2024 at 17:00 CET by Yann Stricker (Zentrum für Digtiale Editorik, UZH), Elias Zimmermann (Romanisches Seminar, UZH) and Reto Baumgartner (Science IT, UZH).
+Community meetup on November 12th, 2024 at 17:00 CET by Yann Stricker (Zentrum für Digtiale Editorik, UZH), Elias Zimmermann (Romanisches Seminar, UZH) and Reto Baumgartner (Science IT, UZH). 
+
+- Recording: [Youtube](https://www.youtube.com/watch?v=--_RAW9SbY8)
 
 The main goal of the Open Research Data (ORD) project Proto4DigEd funded by swissuniversities for a duration of 18 months (07.2023−12.2024) is to test and further develop prototypical workflows for digital scientific editions (DSE). As a result, we are developing a model edition and writing an extensive handbook that aims to help different use cases and communities in the conception phase of their projects.
 

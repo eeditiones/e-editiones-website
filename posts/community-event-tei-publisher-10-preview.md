@@ -13,7 +13,9 @@ coverImageCredits: Image by Lars Windauer
 
 ---
 
-Upcoming community meetup on [February 04, 2025 at 17:00 CET](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&iso=20250204T17&p1=1425&ah=1).
+Community meetup on [February 04, 2025 at 17:00 CET](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&iso=20250204T17&p1=1425&ah=1).
+
+- Recording: [Youtube](https://www.youtube.com/watch?v=--_RAW9SbY8)
 
 TEI Publisher Version 10 represents a radical redesign by deconstructing TEI Publisher into an ensemble of combinable, interoperable profiles, each of which targets a particular aspect of a digital edition. Profiles can be rearranged and adjusted via configuration files (in the future: via form-based interface). 
 
