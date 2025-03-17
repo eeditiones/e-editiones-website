@@ -3,7 +3,7 @@ title: "Call for Applications / Оголошення про подачу зая�
 short: "Call for Applications"
 lead: "Оголошення про подачу заявок"
 date: "2022-03-29"
-tags: 
+tags:
   - "announcements"
   - "e-editiones"
   - "ukraine"
@@ -12,11 +12,11 @@ coverImage: "aaron-burden-AXqMy8MSSdk-unsplash.jpg"
 coverImageCredits: Tile Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Aaron Burden</a> on <a href="https://unsplash.com/s/photos/business-proposal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>
 ---
 
-[Українська ![](/img/ukraine-1.png)](#ukr) 
+[Українська ![](/img/ukraine-1.png)](#ukr)
 
 # Small grants program for scholars affected by war in Ukraine
 
-![](/img/ukraine-3-279x300.png){.left}e-editiones and the [TEI Consortium](https://tei-c.org/) in collaboration with [Archives Online](https://archives-online.org/) and [JinnTec](https://jinntec.de/) announce a small grant program aiming to help scholars of Ukrainian cultural heritage to continue their work that has been disrupted by the Russian invasion of Ukraine. We urge other institutions to support this call so we can offer funding for more of our colleagues affected by the war.
+e-editiones and the [TEI Consortium](https://tei-c.org/) in collaboration with [Archives Online](https://archives-online.org/) and [JinnTec](https://jinntec.de/) announce a small grant program aiming to help scholars of Ukrainian cultural heritage to continue their work that has been disrupted by the Russian invasion of Ukraine. We urge other institutions to support this call so we can offer funding for more of our colleagues affected by the war.
 
 ## Who is eligible?
 
