@@ -532,32 +532,17 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/static/</loc>
-    <lastmod>2025-03-18</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/events/</loc>
-    <lastmod>2025-03-18</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/workshop/</loc>
-    <lastmod>2025-03-18</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
-    <lastmod>2025-03-18</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/announcements/</loc>
     <lastmod>2025-03-18</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/tei-publisher/</loc>
+    <lastmod>2025-03-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/static/</loc>
     <lastmod>2025-03-18</lastmod>
   </url>
   
@@ -572,12 +557,27 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/events/</loc>
+    <lastmod>2025-03-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
+    <lastmod>2025-03-18</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/e-editiones/</loc>
     <lastmod>2025-03-18</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/awards/</loc>
+    <lastmod>2025-03-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/workshop/</loc>
     <lastmod>2025-03-18</lastmod>
   </url>
   
@@ -642,6 +642,16 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/conference/</loc>
+    <lastmod>2025-03-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/dh2024/</loc>
+    <lastmod>2025-03-18</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/report/</loc>
     <lastmod>2025-03-18</lastmod>
   </url>
@@ -652,37 +662,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/hugo/</loc>
-    <lastmod>2025-03-18</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/pb-component/</loc>
-    <lastmod>2025-03-18</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/wordpress/</loc>
-    <lastmod>2025-03-18</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/epidoc/</loc>
     <lastmod>2025-03-18</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/fore/</loc>
-    <lastmod>2025-03-18</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/conference/</loc>
-    <lastmod>2025-03-18</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/dh2024/</loc>
     <lastmod>2025-03-18</lastmod>
   </url>
   
@@ -703,6 +688,21 @@
   
   <url>
     <loc>https://e-editiones.org/tags/hosting/</loc>
+    <lastmod>2025-03-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/hugo/</loc>
+    <lastmod>2025-03-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/pb-component/</loc>
+    <lastmod>2025-03-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/wordpress/</loc>
     <lastmod>2025-03-18</lastmod>
   </url>
   
