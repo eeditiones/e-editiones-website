@@ -12,9 +12,10 @@ eleventyNavigation:
 - Invitation/Agenda - 4nd AGM of e-editiones (german, english)
 <a href="/resources/2025/Einladung_Traktanden 5. GV e-editiones.pdf">PDF</a>
 
-- [ad 5\] Annual Accounts 2024 [PDF](/resources/2025/e-editiones-gewinn-und.verlust-2024.pdf)), bilance [PDF](/resources/2025/e-editiones-bilanz-2024.pdf)
+- [ad 3\] Protokoll der Sitzung vom 16.4.2024 (german) <a href="/resources/2025/Protokoll der 4. GV e-editiones.pdf">Protokoll der 3. GV e-editiones</a>
+- [ad 5\] Annual Accounts 2024 [PDF](/resources/2025/e-editiones-gewinn-und-verlust-2024.pdf)), bilance [PDF](/resources/2025/e-editiones-bilanz-2024.pdf)
  [Postfinance 2024](/resources/2025/e-editiones-postfinance-2024.pdf), [Paypal 2024](/resources/e-editiones-paypal-2024.pdf) revision [PDF](/resources/2025/Revisionsbericht_e_editiones_2024.pdf)
-- [ad 6\] [Budget 2025](/resources/2024/e-editiones-budget_2025.pdf)
+- [ad 6\] [Budget 2025](/resources/2025/e-editiones-budget_2025.pdf)
 
 ### Assembly 2024 16th April 2024 (16 h CEST)
 
