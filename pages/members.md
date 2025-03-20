@@ -28,6 +28,7 @@ eleventyNavigation:
 ## Individual Members
 
 - [Elisa Beshero-Bondar](https://newtfire.org), PhD, Program Chair of Digital Media, Arts, and Technology Professor of Digital Humanities | Director of the [Digital Humanities Lab at Penn State Erie](https://sites.psu.edu/psudhlab/), the Behrend College, Member of the TEI Technical Council
+- Albert Brugnara, Wien [Tibetan TEI](https://www.brugnara.at)
 - [Philip R. «Pib» Burns](https://hcommons.org/members/pibburns/), Senior Developer, Research Computing Services Northwestern University
 - Giuliano Di Bacco, PhD, music historian and medievalist, director of the [Resources and Studies for the History of Music Theory](https://chmtl.indiana.edu/hmt/index.html) (CHMTL, Indiana University Bloomington), including the [Thesaurus Musicarum Latinarum](https://chmtl.indiana.edu/tml/)
 - [Anne Diekjobst](https://www.histsem.uni-kiel.de/de/das-institut-1/abteilungen/professur-fuer-geschichte-des-spaeten-mittelalters-sowie-wirtschafts-und-sozialgeschichte/team/anne-diekjobst), Dr. des., Christian-Albrechts-Universität zu Kiel, u.a. Edition des Zinsrodels des Klosters Feldbach
