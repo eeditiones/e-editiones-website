@@ -9,7 +9,8 @@ eleventyNavigation:
 
 ### Assembly 2025 1st April 2025 (16 h CEST)
 
-Teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWNkNTI1MDEtYjhmMi00NTg4LWEyMTgtNDY0YzUyMTYwMjA0%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%22a95e8e6b-7512-4d5d-ba06-899e4e51d145%22%7d
+Teams: [Link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWNkNTI1MDEtYjhmMi00NTg4LWEyMTgtNDY0YzUyMTYwMjA0%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%22a95e8e6b-7512-4d5d-ba06-899e4e51d145%22%7d)
+
 Join conversation
 
 - Invitation/Agenda - 4nd AGM of e-editiones (german, english)
