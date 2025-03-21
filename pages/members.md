@@ -53,7 +53,6 @@ eleventyNavigation:
 - Sinai Rusinek, [Elijah Lab](https://elijahlab.haifa.ac.il/ "Elijah Lab"), Haifa University; project leader of TraveLab
 - Roman Sigg, [Stadtarchivar Stein am Rhein](https://www.steinamrhein.ch/xml_1/internet/de/application/d3/d723/d724/f346.cfm)
 - Anna Skolimowska, Dr. hab., Head of the [Laboratory for Source Editing & Digital Humanities](http://fontes.ibi.uw.edu.pl/), Faculty of «Artes Liberales», University of Warsaw
-- [Spadini, Elena](https://rise.unibas.ch/de/team/elena-spadini), Dr., Research Navigator, Research and Infrastructure Support (RISE), Universität Basel
 - [Claudia Sutter](https://uzh.academia.edu/ClaudiaSutter), freie Historikerin, Archivarin, Stein am Rhein, Urbar des Dominikanerinnenklosters St. Katharinen St.Gallen
 - Pascale Sutter, Dr., Leiterin der [Rechtsquellenstiftung des Schweizerischen Juristenvereins](https://www.ssrq-sds-fds.ch), c/o Universität St. Gallen
 - [Georg Vogeler](https://online.uni-graz.at/kfu_online/wbForschungsportal.cbShowPortal?pPersonNr=80075), Dr. phil., Professor Digital Humanities, Zentrum für Informationsmodellierung, Universität Graz
