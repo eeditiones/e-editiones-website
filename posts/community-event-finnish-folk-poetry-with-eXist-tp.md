@@ -8,7 +8,6 @@ room: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjRiNTIwN2QtMzlkNS0
 tags:
   - events
   - meetups
-  - article
   - tei-publisher
   - eXist-db
 coverImage: skvr_volumes.jpg
