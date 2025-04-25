@@ -2,15 +2,20 @@
 title: "Rebuilding and modernizing a large, 20-year-old database of Finnish folk poetry with eXist-db and TEI Publisher"
 short: "Rebuilding and modernizing a large, 20-year-old database of Finnish folk poetry"
 lead: "Folk poetry is closely tied with the Finnish national awakening in the 19th century"
-date: 2025-04-23
-author: "Maria Niku, Ph.D./B.Sc., The Finnish Literature Society"
+date: 2025-05-06
+author: "Maria Niku, Ph.D/B.Sc., digital editions specialist, The Finnish Literature Society "
+room: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjRiNTIwN2QtMzlkNS00MzY0LWE0OGItNGQxNDkxYmQ2N2Vj%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d
 tags:
+  - events
+  - meetups
   - article
   - tei-publisher
   - eXist-db
-coverImage:  "skvr-kirjat.png"
-coverImageCredits: Printed SKVR-series staples, image from https://skvr.fi
+coverImage: skvr_volumes.jpg
+coverImageCredits: Printed SKVR-series staples, image by the Finnish Literature Society
 ---
+
+Community meetup on [May 06, 2025 at 17:00 CET](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&iso=20250506T17&p1=1425&ah=1).
 
 Folk poetry is closely tied with the Finnish national awakening in the 19th century. The publication of the Finnish national epic, Elias Lönnrot’s Kalevala, in 1835 awakened a national idealism, inspiring a large number of university students to follow in Lönnrot’s footsteps to collect folk poetry. The majority of the original folk poetry thus collected was published by the [Finnish Literature Society](https://www.finlit.fi/en) in the first half of the 20th century in in 33 printed volumes, containing some 89 000 Kalevala-metre texts in total. Some 20 years ago, this series, called Suomen Kansan Vanhat Runot, or SKVR in short (The Ancient Songs of the Finnish People), was made into an SQL-based database.
 
@@ -24,3 +29,5 @@ The new database would contain not only the original c. 89 000 texts but also a 
 The rebuilding and modernization project has been a learning experience in many ways, and challenging too, not the least because of the expectations of various existing user groups with different needs. It has shown us concretely that eXist-db and TEI Publisher indeed work well with large datasets. The experiences gained during the project will be used and hopefully improved upon in forthcoming large-scale publishing projects.
 
 The SKVR database can be accessed at: https://skvr.fi
+
+<img src="/img/skvr_volumes.jpg" alt="Printed SKVR-series staples, image by the Finnish Literature Society" width="100%"/>
