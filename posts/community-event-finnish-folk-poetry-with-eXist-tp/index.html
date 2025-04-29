@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>From Library Platforms to a Generic Archive Edition</title>
+    <title>Rebuilding and modernizing a large, 20-year-old database of Finnish folk poetry with eXist-db and TEI Publisher</title>
     <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
     
 <link rel="icon" href="/favicon.ico">
@@ -86,7 +86,7 @@
                 <a href="https://social.e-editiones.org/@eeditiones" class="me-4" target="_blank"><i class="bi bi-mastodon"></i></a>
                 <a href="https://www.linkedin.com/company/e-editiones" class="me-4" target="_blank"><i class="bi bi-linkedin"></i></a>            
                 <a href="https://www.instagram.com/eeditiones/" class="me-4" target="_blank"><i class="bi bi-instagram"></i></a>
-                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/community-event-library-platforms-to-generic-archive-edition.md" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/community-event-finnish-folk-poetry-with-eXist-tp.md" target="_blank"><i class="bi bi-github"></i></a>
             </div>
         </div>
     </div>
@@ -96,16 +96,16 @@
 <main class="container tmpl-post">
     <div class="row gx-lg-5 gx-2">
         <div class="col-lg-9 col-md-9">
-            <h1>From Library Platforms to a Generic Archive Edition</h1>
+            <h1>Rebuilding and modernizing a large, 20-year-old database of Finnish folk poetry with eXist-db and TEI Publisher</h1>
 
             <div class="dateline">
-              <div>Daniela Kohler, Jesko Reiling, Elias Kreyenbühl, Zentralbibliothek Zürich</div>
-              <time datetime="2025-04-01">01 Apr 2025</time>
+              <div>Maria Niku, Ph.D/B.Sc., digital editions specialist, The Finnish Literature Society </div>
+              <time datetime="2025-05-06">06 May 2025</time>
             </div>
 
             
             <p class="alert alert-warning">The <a href="/pages/community-meetings" class="alert-link" >community meetings</a> are held online using
-              <a class="alert-link" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODdhYTA1MzctY2QwYy00MTA4LWIwNDctYTJmMzhiNmE0ODEx%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d">this link</a>,
+              <a class="alert-link" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjRiNTIwN2QtMzlkNS00MzY0LWE0OGItNGQxNDkxYmQ2N2Vj%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d">this link</a>,
                 usually on the first Tuesday of each month at 17:00 CET/CEST. No registration is required to attend. 
                 We warmly invite you to propose topics 
                 <a class="alert-link" href="mailto:info@e-editiones.org">info@e-editiones.org</a> 
@@ -113,24 +113,20 @@
             </p>
             
             
-            <p>Community meetup on <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;iso=20250401T17&amp;p1=1425&amp;ah=1">April 01, 2025 at 17:00 CET</a>.</p>
-<p>Just over a year ago, we began editing the letters of the music publishers and composers Hans Georg Nägeli (1773-1836) and Hermann Nägeli (1811-1872). The Nägeli Letter Edition is one of two pilot projects through which the Zentralbibliothek Zürich (ZB) is developing services in the field of digital editing. The letter edition is designed to be as generic as possible so that future projects can utilize the same infrastructure.</p>
-<p>Our workflow is based on <a href="https://www.transkribus.org/">Transkribus</a>, an <a href="https://www.anton.ch/">Anton database</a>, markup in <a href="https://www.oxygenxml.com/">oXygen</a>, and publication with the <a href="https://tei-publisher.com/">TEI Publisher</a>. In our presentation, we will discuss lessons learned and ongoing work. One of the challenges is the reuse of newly cataloged letter metadata. These metadata, determined by library standards, must be expanded and repeatedly transformed within the framework of the edition, as we will show.</p>
-<p>The talk will not be recorded.</p>
-<img src="/img/e-editiones-20250401-naegeli.jpg" alt="Image by ZBZ Nägeli" width="100%"/>
-
+            <p>Community meetup on <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;iso=20250506T17&amp;p1=1425&amp;ah=1">May 06, 2025 at 17:00 CET</a>.</p>
+<p>Folk poetry is closely tied with the Finnish national awakening in the 19th century. The publication of the Finnish national epic, Elias Lönnrot’s Kalevala, in 1835 awakened a national idealism, inspiring a large number of university students to follow in Lönnrot’s footsteps to collect folk poetry. The majority of the original folk poetry thus collected was published by the <a href="https://www.finlit.fi/en">Finnish Literature Society</a> in the first half of the 20th century in in 33 printed volumes, containing some 89 000 Kalevala-metre texts in total. Some 20 years ago, this series, called Suomen Kansan Vanhat Runot, or SKVR in short (The Ancient Songs of the Finnish People), was made into an SQL-based database.</p>
+<p>The SKVR collection is of major importance folklore studies and other fields of Humanities scholarships as well as to individuals in non-academic fields, such as folk musicians and authors seeking inspiration for their work. However, by 2024 the old database was in dire need of modernization, with improved features to better serve the needs of researchers. We’d successfully used eXist-db and TEI Publisher for some years for smaller digital editions, the largest one up to then containing images of c. 10 000 archival index cards with transcriptions, so they felt like the best tools for our modernization project. One of the major benefits of eXist-db and TEI Publisher, for us, is that as open source software they allow us to control the entire process ourselves, from design to building work to possible changes and improvements based on user feedback.</p>
+<p>The new database would contain not only the original c. 89 000 texts but also a new collection of c. 84 000 texts which had not been included in the original printed series for various reasons. In our project we had quite specific requirements for features: e.g. a complicated, three- or four-level genre categorization; multi-selection within facets; enabling users to select which collection to query; fielded queries. Performance was a major concern, especially with regard to the catalogue views with facets. We could split the original SKVR and the new dataset of unsorted poems into two separate catalogue views, but nearly 90 000 TEI documents per dataset is still a lot to load into a HTML view with facets. One way to (further) improve performance would have been to limit the facet listings to show e.g. the first 50 entries initially, but felt it wasn’t a solution in this case: with this kind of data, the facets themselves offer a wealth of information on the genres, collectors, collection regions, places and years of the poems – information that is updated in real time when the users makes facet selections. If a user wants to know, say, where and when a specific person collected poetry or which regions yielded epic poems, the facets reveal that information immediately.</p>
+<p>The rebuilding and modernization project has been a learning experience in many ways, and challenging too, not the least because of the expectations of various existing user groups with different needs. It has shown us concretely that eXist-db and TEI Publisher indeed work well with large datasets. The experiences gained during the project will be used and hopefully improved upon in forthcoming large-scale publishing projects.</p>
+<p>The SKVR database can be accessed at: <a href="https://skvr.fi">https://skvr.fi</a></p>
+<img src="/img/skvr_volumes.jpg" alt="Printed SKVR-series staples, image by the Finnish Literature Society" width="100%"/>
         </div>
         
         <aside class="col-lg-3 col-md-3">
 
             <div class="btn-group w-100 mb-3">
-              <a class="btn btn-light" href="/posts/community-event-finnish-folk-poetry-with-eXist-tp/"
-                data-bs-toggle="tooltip" title="Rebuilding and modernizing a large, 20-year-old database of Finnish folk poetry with eXist-db and TEI Publisher">
-                <i class="bi bi-arrow-left"></i>
-              </a>
-              
-              <a class="btn btn-light" href="/posts/community-event-hans-christian-andersen-genetic-editing/"
-                data-bs-toggle="tooltip" title="Genetic editions of Hans Christian Andersen&#39;s oeuvre">
+              <a class="btn btn-light" href="/posts/community-event-library-platforms-to-generic-archive-edition/"
+                data-bs-toggle="tooltip" title="From Library Platforms to a Generic Archive Edition">
                 <i class="bi bi-arrow-right"></i>
               </a>
               
@@ -139,6 +135,8 @@
             <ul class="tags mb-3">
               <li><a href="/tags/events/" class="badge text-bg-light" style="color: var(--color-2) !important">events</a></li>
               <li><a href="/tags/meetups/" class="badge text-bg-light" style="color: var(--color-3) !important">meetups</a></li>
+              <li><a href="/tags/tei-publisher/" class="badge text-bg-light" style="color: var(--color-4) !important">tei-publisher</a></li>
+              <li><a href="/tags/exist-db/" class="badge text-bg-light" style="color: var(--color-2) !important">eXist-db</a></li>
             </ul>
 
             

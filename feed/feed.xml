@@ -5,12 +5,26 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2025-04-01T00:00:00Z</updated>
+	<updated>2025-05-06T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Rebuilding and modernizing a large, 20-year-old database of Finnish folk poetry with eXist-db and TEI Publisher</title>
+		<link href="https://e-editiones.org/posts/community-event-finnish-folk-poetry-with-eXist-tp/"/>
+		<updated>2025-05-06T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/community-event-finnish-folk-poetry-with-eXist-tp/</id>
+		<content type="html">&lt;p&gt;Community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;amp;iso=20250506T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;May 06, 2025 at 17:00 CET&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Folk poetry is closely tied with the Finnish national awakening in the 19th century. The publication of the Finnish national epic, Elias Lönnrot’s Kalevala, in 1835 awakened a national idealism, inspiring a large number of university students to follow in Lönnrot’s footsteps to collect folk poetry. The majority of the original folk poetry thus collected was published by the &lt;a href=&quot;https://www.finlit.fi/en&quot;&gt;Finnish Literature Society&lt;/a&gt; in the first half of the 20th century in in 33 printed volumes, containing some 89 000 Kalevala-metre texts in total. Some 20 years ago, this series, called Suomen Kansan Vanhat Runot, or SKVR in short (The Ancient Songs of the Finnish People), was made into an SQL-based database.&lt;/p&gt;
+&lt;p&gt;The SKVR collection is of major importance folklore studies and other fields of Humanities scholarships as well as to individuals in non-academic fields, such as folk musicians and authors seeking inspiration for their work. However, by 2024 the old database was in dire need of modernization, with improved features to better serve the needs of researchers. We’d successfully used eXist-db and TEI Publisher for some years for smaller digital editions, the largest one up to then containing images of c. 10 000 archival index cards with transcriptions, so they felt like the best tools for our modernization project. One of the major benefits of eXist-db and TEI Publisher, for us, is that as open source software they allow us to control the entire process ourselves, from design to building work to possible changes and improvements based on user feedback.&lt;/p&gt;
+&lt;p&gt;The new database would contain not only the original c. 89 000 texts but also a new collection of c. 84 000 texts which had not been included in the original printed series for various reasons. In our project we had quite specific requirements for features: e.g. a complicated, three- or four-level genre categorization; multi-selection within facets; enabling users to select which collection to query; fielded queries. Performance was a major concern, especially with regard to the catalogue views with facets. We could split the original SKVR and the new dataset of unsorted poems into two separate catalogue views, but nearly 90 000 TEI documents per dataset is still a lot to load into a HTML view with facets. One way to (further) improve performance would have been to limit the facet listings to show e.g. the first 50 entries initially, but felt it wasn’t a solution in this case: with this kind of data, the facets themselves offer a wealth of information on the genres, collectors, collection regions, places and years of the poems – information that is updated in real time when the users makes facet selections. If a user wants to know, say, where and when a specific person collected poetry or which regions yielded epic poems, the facets reveal that information immediately.&lt;/p&gt;
+&lt;p&gt;The rebuilding and modernization project has been a learning experience in many ways, and challenging too, not the least because of the expectations of various existing user groups with different needs. It has shown us concretely that eXist-db and TEI Publisher indeed work well with large datasets. The experiences gained during the project will be used and hopefully improved upon in forthcoming large-scale publishing projects.&lt;/p&gt;
+&lt;p&gt;The SKVR database can be accessed at: &lt;a href=&quot;https://skvr.fi/&quot;&gt;https://skvr.fi&lt;/a&gt;&lt;/p&gt;
+&lt;img src=&quot;https://e-editiones.org/img/skvr_volumes.jpg&quot; alt=&quot;Printed SKVR-series staples, image by the Finnish Literature Society&quot; width=&quot;100%&quot; /&gt;</content>
+	</entry>
 	
 	<entry>
 		<title>From Library Platforms to a Generic Archive Edition</title>
