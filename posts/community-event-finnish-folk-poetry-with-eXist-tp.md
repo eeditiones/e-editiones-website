@@ -1,6 +1,6 @@
 ---
-title: "Rebuilding and modernizing a large, 20-year-old database of Finnish folk poetry with eXist-db and TEI Publisher"
-short: "Rebuilding and modernizing a large, 20-year-old database of Finnish folk poetry"
+title: "Rebuilding and modernizing a large, 20-year-old database of folk poetry with eXist-db and TEI Publisher"
+short: "Rebuilding and modernizing a large, 20-year-old database of folk poetry"
 lead: "Folk poetry is closely tied with the Finnish national awakening in the 19th century"
 date: 2025-05-06
 author: "Maria Niku, Ph.D/B.Sc., digital editions specialist, The Finnish Literature Society "
