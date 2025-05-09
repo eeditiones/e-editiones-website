@@ -16,6 +16,8 @@ coverImageCredits: Printed SKVR-series staples, image by the Finnish Literature 
 
 Community meetup on [May 06, 2025 at 17:00 CET](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&iso=20250506T17&p1=1425&ah=1).
 
+- Recording: [Youtube](https://youtu.be/t2OjxFdcO14)
+
 Folk poetry is closely tied with the Finnish national awakening in the 19th century. The publication of the Finnish national epic, Elias Lönnrot’s Kalevala, in 1835 awakened a national idealism, inspiring a large number of university students to follow in Lönnrot’s footsteps to collect folk poetry. The majority of the original folk poetry thus collected was published by the [Finnish Literature Society](https://www.finlit.fi/en) in the first half of the 20th century in in 33 printed volumes, containing some 89 000 Kalevala-metre texts in total. Some 20 years ago, this series, called Suomen Kansan Vanhat Runot, or SKVR in short (The Ancient Songs of the Finnish People), was made into an SQL-based database.
 
 
@@ -29,4 +31,6 @@ The rebuilding and modernization project has been a learning experience in many 
 
 The SKVR database can be accessed at: https://skvr.fi
 
-<img src="/img/skvr_volumes.jpg" alt="Printed SKVR-series staples, image by the Finnish Literature Society" width="100%"/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t2OjxFdcO14?si=FLuePsPL3OuSDYkZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- Recording: [Youtube](https://youtu.be/t2OjxFdcO14)
