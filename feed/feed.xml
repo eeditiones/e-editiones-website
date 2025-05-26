@@ -5,12 +5,25 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2025-05-06T00:00:00Z</updated>
+	<updated>2025-06-03T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Exile Letters. A digital edition of the correspondence of Jewish emigrees from Münster</title>
+		<link href="https://e-editiones.org/posts/community-event-exile-letters/"/>
+		<updated>2025-06-03T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/community-event-exile-letters/</id>
+		<content type="html">&lt;p&gt;Community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;amp;iso=20250603T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;June 03, 2025 at 17:00 CET&lt;/a&gt;. &lt;strong&gt;The talk will not be recorded!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;With the project &lt;a href=&quot;https://exileletters.de/&quot;&gt;Exile Letters&lt;/a&gt; the &lt;a href=&quot;https://www.uni-muenster.de/Staedtegeschichte&quot;&gt;Institute for Comparative Urban History (IStG) in Münster&lt;/a&gt; publishes correspondences of Jewish families from Münster separated by emigration, flight, and deportation during the era of Nationalsocialism. The first collection of the project was published in December 2024 and consists of 162 letters of Simon Friedeman, a Jewish scholar who emigrated to London 1939, and his wife Gerda, who shortly afterwards managed to escape to the Netherlands and further to the US in 1940, as well as letters and postcards of the Friedeman family in Argentinia, Gerda&#39;s siblings in the USA, Argentinia, and Palestine and her parents, Henny and Carl Waldeck, who remained in Münster until they were deported to Theresienstadt in 1942 and murdered in 1944.&lt;/p&gt;
+&lt;img src=&quot;https://e-editiones.org/img/exile-letter.png&quot; alt=&quot;Image Uni Muenster&quot; width=&quot;100%&quot; /&gt;
+&lt;p&gt;The origins of the project date back to the late 1980s, when Rita Schlautmann-Overmeyer and her colleague Gisela Möllenhoff began interviewing former Jewish citizens of Münster. The idea for publishing the &amp;quot;Friedeman-Waldeck&amp;quot; collection was born in 2016, when after Gerda&#39;s death a box of letters was found by her daughter.&lt;/p&gt;
+&lt;p&gt;Originally conceptualized as a book publication, the decision to prepare a digital TEI edition instead was made in 2021. Soon afterwards, the &lt;a href=&quot;https://tei-publisher.com/&quot;&gt;TEI Publisher&lt;/a&gt; was chosen as a tool for publication and presentation. Re-conceptualising an analogue edition into a digital one is, it seems, still a common challenge of projects that started before digital editions became more of a standard. The presentation will focus on the development of the Exile Letters project, the current features as well as some remaining obstacles of the digital edition available under &lt;a href=&quot;https://exileletters.de/&quot;&gt;exileletters.de&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Rebuilding and modernizing a large, 20-year-old database of folk poetry with eXist-db and TEI Publisher</title>
