@@ -182,6 +182,16 @@
   },
   
   {
+    "name": "An Edition of the Welsh Merlin Poetry (ISSN 2977-8654)",
+    "address": "Digital Humanities Team, Library and Collections, Swansea University, Swansea SA2 8PP, UK",
+    "latitude": "51.60924587563249",
+    "longitude": "-3.980045811835925",
+    "description": "A scholarly digital edition of Welsh-language Merlin poetry surviving in manuscripts before 1800 with scholarly annotation.",
+    "url": "https://myrddin.cymru/",
+    "email": "digitalhumanities@swansea.ac.uk"
+  },
+  
+  {
     "name": "EarlyPrint",
     "address": "Department of English, Northwestern University, Evanston, IL 60208, USA",
     "latitude": "42.0541119",

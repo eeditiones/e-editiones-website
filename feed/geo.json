@@ -243,6 +243,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [-3.980045811835925,51.60924587563249]
+            },
+            "properties": {
+                "name": "An Edition of the Welsh Merlin Poetry (ISSN 2977-8654)",
+                "description": "<div>\n        <h4>An Edition of the Welsh Merlin Poetry (ISSN 2977-8654)</h4>\n        <p>A scholarly digital edition of Welsh-language Merlin poetry surviving in manuscripts before 1800 with scholarly annotation.</p>\n        <a href=\"https://myrddin.cymru/\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:digitalhumanities@swansea.ac.uk\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [-87.6759889,42.0541119]
             },
             "properties": {
