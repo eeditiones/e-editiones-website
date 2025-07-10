@@ -372,6 +372,16 @@
   },
   
   {
+    "name": "PAVES-e",
+    "address": "Istituto di Scienze e Tecnologie della Cognizione - CNR | via Gaifami 18, 95126 Catania (Italy) https://g.co/kgs/k7Yf8ZG",
+    "latitude": "37.72726712831994",
+    "longitude": "15.074300004093377",
+    "description": "PAVES-e is a digital and semantic edition of Cesare Pavese’s manuscripts and letters, encoded in TEI-XML and published via TEI Publisher. It aims to offer a philologically accurate, searchable, and accessible resource for literary and linguistic research.",
+    "url": "https://digitalpavese.cnr.it",
+    "email": "laura.mazzagufo@istc.cnr.it, daria.spampinato@cnr.it"
+  },
+  
+  {
     "name": "Progetto Mambrino Digital Library",
     "address": "Via S. Francesco, n. 22, 37129 Verona VR (Italy)",
     "latitude": "45.43817421629587",
@@ -468,7 +478,7 @@
     "longitude": "9.3730389",
     "description": "Rechtshistorisches Quellenmaterial vom Mittelalter bis in die Frühe Neuzeit (1798).",
     "url": "https://www.ssrq-sds-fds.ch/online/tei/",
-    "email": ""
+    "email": "pascale.sutter@ssrq-sds-fds.ch"
   },
   
   {

@@ -490,6 +490,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [15.074300004093377,37.72726712831994]
+            },
+            "properties": {
+                "name": "PAVES-e",
+                "description": "<div>\n        <h4>PAVES-e</h4>\n        <p>PAVES-e is a digital and semantic edition of Cesare Pavese’s manuscripts and letters, encoded in TEI-XML and published via TEI Publisher. It aims to offer a philologically accurate, searchable, and accessible resource for literary and linguistic research.</p>\n        <a href=\"https://digitalpavese.cnr.it\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:laura.mazzagufo@istc.cnr.it, daria.spampinato@cnr.it\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [11.00336552050643,45.43817421629587]
             },
             "properties": {
@@ -611,7 +624,7 @@
             },
             "properties": {
                 "name": "Sammlung Schweizerischer Rechtsquellen online (SSRQ online)",
-                "description": "<div>\n        <h4>Sammlung Schweizerischer Rechtsquellen online (SSRQ online)</h4>\n        <p>Rechtshistorisches Quellenmaterial vom Mittelalter bis in die Frühe Neuzeit (1798).</p>\n        <a href=\"https://www.ssrq-sds-fds.ch/online/tei/\" class=\"badge bg-light text-dark\">Link</a>\n        \n    </div>\n"
+                "description": "<div>\n        <h4>Sammlung Schweizerischer Rechtsquellen online (SSRQ online)</h4>\n        <p>Rechtshistorisches Quellenmaterial vom Mittelalter bis in die Frühe Neuzeit (1798).</p>\n        <a href=\"https://www.ssrq-sds-fds.ch/online/tei/\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:pascale.sutter@ssrq-sds-fds.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
