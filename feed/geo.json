@@ -100,11 +100,11 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [8.54877012472384,47.41326381358111]
+                "coordinates": [8.547105400000001,47.3973245]
             },
             "properties": {
                 "name": "Bullinger Digital",
-                "description": "<div>\n        <h4>Bullinger Digital</h4>\n        <p>Briefwechsel-Korpus mit den 12‘000 überlieferten Briefen von und an den Zürcher Reformator Heinrich Bullinger (1504-1575)</p>\n        <a href=\"https://www.bullinger-digital.ch\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:patricia.scheurer@uzh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+                "description": "<div>\n        <h4>Bullinger Digital</h4>\n        <p>Briefwechsel-Korpus mit den 12‘000 überlieferten Briefen von und an den Zürcher Reformator Heinrich Bullinger (1504-1575)</p>\n        <a href=\"https://www.bullinger-digital.ch\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:staatsarchivzh@ji.zh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
@@ -520,7 +520,7 @@
             },
             "properties": {
                 "name": "Quellen zur Zürcher Geschichte (QZH)",
-                "description": "<div>\n        <h4>Quellen zur Zürcher Geschichte (QZH)</h4>\n        <p>Die Plattform Quellen zur Zürcher Geschichte (QZH) ist der Publikationskanal für Transkriptionen und Digitalisate ausgewählter Quellenstücke aus den Beständen des Staatsarchivs des Kantons Zürich. Sie steht auch für Transkriptionen anderer Institutionen und Kollaborationspartner offen.</p>\n        <a href=\"https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:christian.sieber@ji.zh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+                "description": "<div>\n        <h4>Quellen zur Zürcher Geschichte (QZH)</h4>\n        <p>Die Plattform Quellen zur Zürcher Geschichte (QZH) ist der Publikationskanal für Transkriptionen und Digitalisate ausgewählter Quellenstücke aus den Beständen des Staatsarchivs des Kantons Zürich. Sie steht auch für Transkriptionen anderer Institutionen und Kollaborationspartner offen.</p>\n        <a href=\"https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:staatsarchivzh@ji.zh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
@@ -533,7 +533,7 @@
             },
             "properties": {
                 "name": "Rechtsquellen-Edition des Kantons Zürich",
-                "description": "<div>\n        <h4>Rechtsquellen-Edition des Kantons Zürich</h4>\n        <p>Historische Quellen aus dem Gebiet des heutigen Kantons Zürich aus der Zeit bis 1798</p>\n        <a href=\"https://rechtsquellen.sources-online.org/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:christian.sieber@ji.zh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+                "description": "<div>\n        <h4>Rechtsquellen-Edition des Kantons Zürich</h4>\n        <p>Historische Quellen aus dem Gebiet des heutigen Kantons Zürich aus der Zeit bis 1798</p>\n        <a href=\"https://rechtsquellen.sources-online.org/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:staatsarchivzh@ji.zh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
@@ -546,7 +546,7 @@
             },
             "properties": {
                 "name": "Zentrale Serien des Kantons Zürich (19. und 20. Jahrhundert)",
-                "description": "<div>\n        <h4>Zentrale Serien des Kantons Zürich (19. und 20. Jahrhundert)</h4>\n        <p>Die zentralen Serien des Kantons Zürich (ZSZH) umfassen die Offizielle Gesetzessammlung, das Amtsblatt, die Protokolle des Kantonsrats und die Beschlüsse des Regierungsrats.</p>\n        <a href=\"https://www.zentraleserien.zh.ch\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:christian.sieber@ji.zh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+                "description": "<div>\n        <h4>Zentrale Serien des Kantons Zürich (19. und 20. Jahrhundert)</h4>\n        <p>Die zentralen Serien des Kantons Zürich (ZSZH) umfassen die Offizielle Gesetzessammlung, das Amtsblatt, die Protokolle des Kantonsrats und die Beschlüsse des Regierungsrats.</p>\n        <a href=\"https://www.zentraleserien.zh.ch\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:staatsarchivzh@ji.zh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
