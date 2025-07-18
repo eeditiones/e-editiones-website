@@ -64,12 +64,12 @@
   },
   {
     "name": "Bullinger Digital",
-    "address": "Universität Zürich, Institut für Computerlinguistik, Andreasstrasse 15, 8050 Zürich // 47",
-    "latitude": "47.41326381358111",
-    "longitude": "8.54877012472384",
+    "address": "Staatsarchiv des Kantons Zürich, Winterthurerstrasse 170, Zürich, Zürich, Switzerland",
+    "latitude": "47.3973245",
+    "longitude": "8.547105400000001",
     "description": "Briefwechsel-Korpus mit den 12‘000 überlieferten Briefen von und an den Zürcher Reformator Heinrich Bullinger (1504-1575) ",
     "url": "https://www.bullinger-digital.ch",
-    "email": "patricia.scheurer@uzh.ch"
+    "email": "staatsarchivzh@ji.zh.ch"
   },
   {
     "name": "A Catalog of Digital Scholarly Editions",
@@ -357,7 +357,7 @@
     "longitude": "8.547105400000001",
     "description": "Die Plattform Quellen zur Zürcher Geschichte (QZH) ist der Publikationskanal für Transkriptionen und Digitalisate ausgewählter Quellenstücke aus den Beständen des Staatsarchivs des Kantons Zürich. Sie steht auch für Transkriptionen anderer Institutionen und Kollaborationspartner offen.",
     "url": "https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html",
-    "email": "christian.sieber@ji.zh.ch"
+    "email": "staatsarchivzh@ji.zh.ch"
   },
   {
     "name": "Rechtsquellen-Edition des Kantons Zürich",
@@ -366,7 +366,7 @@
     "longitude": "8.547105400000001",
     "description": "Historische Quellen aus dem Gebiet des heutigen Kantons Zürich aus der Zeit bis 1798",
     "url": "https://rechtsquellen.sources-online.org/index.html",
-    "email": "christian.sieber@ji.zh.ch"
+    "email": "staatsarchivzh@ji.zh.ch"
   },
   {
     "name": "Zentrale Serien des Kantons Zürich (19. und 20. Jahrhundert)",
@@ -375,7 +375,7 @@
     "longitude": "8.547105400000001",
     "description": "Die zentralen Serien des Kantons Zürich (ZSZH) umfassen die Offizielle Gesetzessammlung, das Amtsblatt, die Protokolle des Kantonsrats und die Beschlüsse des Regierungsrats.",
     "url": "https://www.zentraleserien.zh.ch",
-    "email": "christian.sieber@ji.zh.ch"
+    "email": "staatsarchivzh@ji.zh.ch"
   },
   {
     "name": "Register of Older Slovenian Manuscripts",
