@@ -731,6 +731,19 @@
                 "description": "<div>\n        <h4>Vicentino21 – a digital edition with commentary, translation and practical exploration of Nicola Vicentino’s «L’antica musica ridotta alla moderna prattica» (Rome 1555) (in preparation)</h4>\n        <p>“Vicentino21” is a four year SNFS project and is creating a digital edition of the treatise and its music, with translations, commentaries and sound samples. The textual part of the treatise will be encoded in TEI and the TEI Publisher will be our publishing tool.</p>\n        <a href=\" https://www.fhnw.ch/plattformen/vicentino21/\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto: https://www.fhnw.ch/plattformen/vicentino21/\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [13.276592896576314,52.59516548447115]
+            },
+            "properties": {
+                "name": "Wilhelm von Humboldt: Schriften",
+                "description": "<div>\n        <h4>Wilhelm von Humboldt: Schriften</h4>\n        <p>An independent digital edition of Wilhelm von Humboldt&#39;s (1767–1835) complete works, presented in a modern, accessible, and sustainable format. The ongoing project offers TEI-encoded texts in a fully searchable and user-friendly interface.</p>\n        <a href=\"www.wvh-schriften.de\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:kontakt@wvh-schriften.de\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
         
         
     ]
