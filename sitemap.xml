@@ -547,17 +547,17 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/static/</loc>
-    <lastmod>2025-07-22</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/announcements/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/tei-publisher/</loc>
+    <lastmod>2025-07-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/static/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
   
@@ -577,11 +577,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/workshop/</loc>
-    <lastmod>2025-07-22</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
@@ -593,6 +588,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/awards/</loc>
+    <lastmod>2025-07-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/workshop/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
   
@@ -637,21 +637,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/interoperability/</loc>
-    <lastmod>2025-07-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/osa20/</loc>
-    <lastmod>2025-07-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/tei/</loc>
-    <lastmod>2025-07-22</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/ukraine/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
@@ -672,17 +657,22 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/interoperability/</loc>
+    <lastmod>2025-07-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/osa20/</loc>
+    <lastmod>2025-07-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei/</loc>
+    <lastmod>2025-07-22</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/report/</loc>
-    <lastmod>2025-07-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/epidoc/</loc>
-    <lastmod>2025-07-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/fore/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
   
@@ -707,6 +697,16 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/epidoc/</loc>
+    <lastmod>2025-07-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/fore/</loc>
+    <lastmod>2025-07-22</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/intermediate/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
@@ -727,11 +727,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/projects/</loc>
-    <lastmod>2025-07-22</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/open-api/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
@@ -742,17 +737,22 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/projects/</loc>
+    <lastmod>2025-07-22</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/mei/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/tei-publisher-lib/</loc>
+    <loc>https://e-editiones.org/tags/tei-vanilla/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/tei-vanilla/</loc>
+    <loc>https://e-editiones.org/tags/tei-publisher-lib/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
   

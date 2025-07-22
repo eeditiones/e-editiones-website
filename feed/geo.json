@@ -754,7 +754,7 @@
             },
             "properties": {
                 "name": "Wilhelm von Humboldt: Schriften",
-                "description": "<div>\n        <h4>Wilhelm von Humboldt: Schriften</h4>\n        <p>An independent digital edition of Wilhelm von Humboldt&#39;s (1767–1835) complete works, presented in a modern, accessible, and sustainable format. The ongoing project offers TEI-encoded texts in a fully searchable and user-friendly interface.</p>\n        <a href=\"www.wvh-schriften.de\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:kontakt@wvh-schriften.de\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+                "description": "<div>\n        <h4>Wilhelm von Humboldt: Schriften</h4>\n        <p>An independent digital edition of Wilhelm von Humboldt&#39;s (1767–1835) complete works, presented in a modern, accessible, and sustainable format. The ongoing project offers TEI-encoded texts in a fully searchable and user-friendly interface.</p>\n        <a href=\"https://www.wvh-schriften.de\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:kontakt@wvh-schriften.de\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         
