@@ -518,7 +518,7 @@
     "latitude": "52.59516548447115",
     "longitude":"13.276592896576314",
     "description": "An independent digital edition of Wilhelm von Humboldt's (1767–1835) complete works, presented in a modern, accessible, and sustainable format. The ongoing project offers TEI-encoded texts in a fully searchable and user-friendly interface.",
-    "url": "www.wvh-schriften.de",
+    "url": "https://www.wvh-schriften.de",
     "email": "kontakt@wvh-schriften.de"
   }
 ]
