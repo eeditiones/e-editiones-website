@@ -547,17 +547,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/announcements/</loc>
-    <lastmod>2025-07-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/e-editiones/</loc>
-    <lastmod>2025-07-22</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/static/</loc>
+    <lastmod>2025-07-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/announcements/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
   
@@ -592,6 +587,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/e-editiones/</loc>
+    <lastmod>2025-07-22</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/awards/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
@@ -603,6 +603,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/schema/</loc>
+    <lastmod>2025-07-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/exist-db/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
   
@@ -622,12 +627,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/exist-db/</loc>
+    <loc>https://e-editiones.org/tags/talk/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/talk/</loc>
+    <loc>https://e-editiones.org/tags/beginner/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
   
@@ -647,7 +652,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/beginner/</loc>
+    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <lastmod>2025-07-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/grants/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
   
@@ -662,22 +672,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/ukraine/</loc>
-    <lastmod>2025-07-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/grants/</loc>
-    <lastmod>2025-07-22</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/report/</loc>
-    <lastmod>2025-07-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/best-practice/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
   
@@ -688,6 +683,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/fore/</loc>
+    <lastmod>2025-07-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/best-practice/</loc>
     <lastmod>2025-07-22</lastmod>
   </url>
   

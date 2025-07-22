@@ -262,6 +262,16 @@
   },
   
   {
+    "name": "GRANIUS",
+    "address": "Université de Bordeaux et Université de Bordeaux Montaigne, 8 Esplanade des Antillles, 33600 Pessac, France",
+    "latitude": "44.79504450271448",
+    "longitude": "-0.6182105445744345",
+    "description": "The main objective of this digital critical edition is to publish fragments from the literary work of the Latin historian Granius Licinianus (2nd century AD), including numerous editorial changes since the editio princeps, which dates back to 1857. It offers different editions and translations for each “book”, along with a commentary. Index tables cover ancient authors, place names, or bibliographical references in the corpus. Hyperlinks facilitate navigation between the text and indexes.",
+    "url": "https://granius.huma-num.fr",
+    "email": "alexandre.zanni@u-bordeaux-montaigne.fr"
+  },
+  
+  {
     "name": "Hans Christian Andersen&#39;s Fairy Tales and Stories. Translated by John Irons",
     "address": "The Hans Christian Andersen Centre at the University of Southern Denmark, Campusvej 55, Odense 5230, Denmark",
     "latitude": "55.36947046357736",
