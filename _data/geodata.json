@@ -502,5 +502,14 @@
     "description": "“Vicentino21” is a four year SNFS project and is creating a digital edition of the treatise and its music, with translations, commentaries and sound samples.\n\nThe textual part of the treatise will be encoded in TEI and the TEI Publisher will be our publishing tool. ",
     "url": " https://www.fhnw.ch/plattformen/vicentino21/",
     "email": " https://www.fhnw.ch/plattformen/vicentino21/"
+  },
+  {
+    "name": "Wilhelm von Humboldt: Schriften",
+    "address": "This edition is independent and not affiliated with any institution. The marker indicates Schloss Tegel.",
+    "latitude": "52.59516548447115",
+    "longitude":"13.276592896576314",
+    "description": "An independent digital edition of Wilhelm von Humboldt's (1767–1835) complete works, presented in a modern, accessible, and sustainable format. The ongoing project offers TEI-encoded texts in a fully searchable and user-friendly interface.",
+    "url": "www.wvh-schriften.de",
+    "email": "kontakt@wvh-schriften.de"
   }
 ]
