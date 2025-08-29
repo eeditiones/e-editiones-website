@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exile Letters. A digital edition of the correspondence of Jewish emigrees from Münster</title>
+    <title>The Hasidic Stories Browser – an alternative frontend to a TEI-Publisher corpus</title>
     <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
     
 <link rel="icon" href="/favicon.ico">
@@ -86,7 +86,7 @@
                 <a href="https://social.e-editiones.org/@eeditiones" class="me-4" target="_blank"><i class="bi bi-mastodon"></i></a>
                 <a href="https://www.linkedin.com/company/e-editiones" class="me-4" target="_blank"><i class="bi bi-linkedin"></i></a>            
                 <a href="https://www.instagram.com/eeditiones/" class="me-4" target="_blank"><i class="bi bi-instagram"></i></a>
-                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/community-event-exile-letters.md" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/community-event-hasidic-stories.md" target="_blank"><i class="bi bi-github"></i></a>
             </div>
         </div>
     </div>
@@ -96,16 +96,16 @@
 <main class="container tmpl-post">
     <div class="row gx-lg-5 gx-2">
         <div class="col-lg-9 col-md-9">
-            <h1>Exile Letters. A digital edition of the correspondence of Jewish emigrees from Münster</h1>
+            <h1>The Hasidic Stories Browser – an alternative frontend to a TEI-Publisher corpus</h1>
 
             <div class="dateline">
-              <div>by Simon Dreher, University of Münster / Institute for comparative urban history (Institut für vergleichende Stadtgeschichte), Münster</div>
-              <time datetime="2025-06-03">03 Jun 2025</time>
+              <div>Gil Shalit (DH-Dev.com)</div>
+              <time datetime="2025-09-02">02 Sep 2025</time>
             </div>
 
             
             <p class="alert alert-warning">The <a href="/pages/community-meetings" class="alert-link" >community meetings</a> are held online using
-              <a class="alert-link" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjRiNTIwN2QtMzlkNS00MzY0LWE0OGItNGQxNDkxYmQ2N2Vj%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d">this link</a>,
+              <a class="alert-link" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjVmZjViY2ItMGY5YS00OTQ5LWE5MTEtNjlkYmZhYTZmY2Mz%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d">this link</a>,
                 usually on the first Tuesday of each month at 17:00 CET/CEST. No registration is required to attend. 
                 We warmly invite you to propose topics 
                 <a class="alert-link" href="mailto:info@e-editiones.org">info@e-editiones.org</a> 
@@ -113,24 +113,18 @@
             </p>
             
             
-            <p>Community meetup on <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;iso=20250603T17&amp;p1=1425&amp;ah=1">June 03, 2025 at 17:00 CET</a>. <strong>The talk will not be recorded!</strong></p>
-<p>With the project <a href="https://exileletters.de">Exile Letters</a> the <a href="https://www.uni-muenster.de/Staedtegeschichte">Institute for Comparative Urban History (IStG) in Münster</a> publishes correspondences of Jewish families from Münster separated by emigration, flight, and deportation during the era of Nationalsocialism. The first collection of the project was published in December 2024 and consists of 162 letters of Simon Friedeman, a Jewish scholar who emigrated to London 1939, and his wife Gerda, who shortly afterwards managed to escape to the Netherlands and further to the US in 1940, as well as letters and postcards of the Friedeman family in Argentinia, Gerda's siblings in the USA, Argentinia, and Palestine and her parents, Henny and Carl Waldeck, who remained in Münster until they were deported to Theresienstadt in 1942 and murdered in 1944.</p>
-<img src="/img/exile-letter.png" alt="Image Uni Muenster" width="100%"/>
-<p>The origins of the project date back to the late 1980s, when Rita Schlautmann-Overmeyer and her colleague Gisela Möllenhoff began interviewing former Jewish citizens of Münster. The idea for publishing the &quot;Friedeman-Waldeck&quot; collection was born in 2016, when after Gerda's death a box of letters was found by her daughter.</p>
-<p>Originally conceptualized as a book publication, the decision to prepare a digital TEI edition instead was made in 2021. Soon afterwards, the <a href="https://tei-publisher.com">TEI Publisher</a> was chosen as a tool for publication and presentation. Re-conceptualising an analogue edition into a digital one is, it seems, still a common challenge of projects that started before digital editions became more of a standard. The presentation will focus on the development of the Exile Letters project, the current features as well as some remaining obstacles of the digital edition available under <a href="https://exileletters.de">exileletters.de</a>.</p>
+            <p>Community meetup on <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;iso=20250902T17&amp;p1=1425&amp;ah=1">September 02, 2025 at 17:00 CET</a>.</p>
+<p>A team led by Prof Gadi Sagiv at the open university of Israel is building an annotated collection of <a href="https://www.hasidic-stories.org/">Hasidic stories</a> published between 1814 to 1914. The stories have been OCR-ed and annotated (in the TEI-Publisher v7 annotator) for people, places and themes, resulting in an extensive TEI-XML corpus which is still expanding. To enable both close and distant reading of the corpus, a browser was built using standard programming frameworks and techniques (.Net Blazor, served from Azure) enabling a flexible and specialized UI and Ux, with complex and multilevel faceting. The browser incorporates TEI-Publisher HTML5 components to display the editions (facsimile and text) as well as the individual stories with additional information. Custom endpoints built with the TEI-Publisher infrastructure use XQuery to extract the relevant information from the corpus as a whole and from individual documents. It is hoped that this approach will enable additional non-standard displays of TEI-Publisher corpora when appropriate.</p>
+<p><a href="https://www.hasidic-stories.org/">https://www.hasidic-stories.org/</a></p>
+<img src="/img/hasidic-stories-rowser.png" alt="Hasidic stories browser" width="100%"/>
 
         </div>
         
         <aside class="col-lg-3 col-md-3">
 
             <div class="btn-group w-100 mb-3">
-              <a class="btn btn-light" href="/posts/community-event-hasidic-stories/"
-                data-bs-toggle="tooltip" title="The Hasidic Stories Browser – an alternative frontend to a TEI-Publisher corpus">
-                <i class="bi bi-arrow-left"></i>
-              </a>
-              
-              <a class="btn btn-light" href="/posts/community-event-finnish-folk-poetry-with-eXist-tp/"
-                data-bs-toggle="tooltip" title="Rebuilding and modernizing a large, 20-year-old database of folk poetry with eXist-db and TEI Publisher">
+              <a class="btn btn-light" href="/posts/community-event-exile-letters/"
+                data-bs-toggle="tooltip" title="Exile Letters. A digital edition of the correspondence of Jewish emigrees from Münster">
                 <i class="bi bi-arrow-right"></i>
               </a>
               
@@ -139,7 +133,6 @@
             <ul class="tags mb-3">
               <li><a href="/tags/events/" class="badge text-bg-light" style="color: var(--color-2) !important">events</a></li>
               <li><a href="/tags/meetups/" class="badge text-bg-light" style="color: var(--color-3) !important">meetups</a></li>
-              <li><a href="/tags/tei-publisher/" class="badge text-bg-light" style="color: var(--color-4) !important">tei-publisher</a></li>
             </ul>
 
             
