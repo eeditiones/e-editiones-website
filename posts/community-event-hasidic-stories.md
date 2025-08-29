@@ -3,7 +3,7 @@ title: "The Hasidic Stories Browser – an alternative frontend to a TEI-Publish
 short: "The Hasidic Stories Browser"
 lead: "An alternative frontend to a TEI-Publisher corpus."
 date: 2025-09-02
-room: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2I4YWRkYWMtNDI1ZC00YWJmLWI0YWItNDc3NGY2NDUxMjQz%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d"
+room: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjVmZjViY2ItMGY5YS00OTQ5LWE5MTEtNjlkYmZhYTZmY2Mz%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d"
 author: Gil Shalit (DH-Dev.com)
 tags:
   - events
