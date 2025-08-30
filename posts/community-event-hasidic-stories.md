@@ -8,7 +8,7 @@ author: Gil Shalit (DH-Dev.com)
 tags:
   - events
   - meetups
-coverImage: hasidic-stories-rowser.png
+coverImage: hasidic-stories-browser.png
 coverImageCredits: Image by Gil Shalit
 
 ---
@@ -19,5 +19,5 @@ A team led by Prof Gadi Sagiv at the open university of Israel is building an an
 
 https://www.hasidic-stories.org/
 
-<img src="/img/hasidic-stories-rowser.png" alt="Hasidic stories browser" width="100%"/>
+<img src="/img/hasidic-stories-browser.png" alt="Hasidic stories browser" style="width:700px;height:auto;" />
 
