@@ -10,6 +10,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://e-editiones.org/posts/tei2025/",
+      "url": "https://e-editiones.org/posts/tei2025/",
+      "title": "e-editiones at TEI2025",
+      "content_html": "<p>From September 16 to 20 e-editiones members will meet at this year's TEI Annual Conference and Members’ Meeting <a href=\"https://tei2025.confer.uj.edu.pl/\"><strong>TEI2025 - New Territories</strong></a> in <a href=\"https://www.openstreetmap.org/relation/2768922\">Kraków, Poland 🇵🇱</a> at the <a href=\"https://www.uj.edu.pl/\">Jagiellonian University</a>.</p>\n<p>To easily find e-editiones / TEI Publisher related content at the conference we compiled this <a href=\"https://e-editiones.org/tei2025\">list of e-editiones / TEI Publisher related activieties</a> and created a public #TEI2025 channel in the <a href=\"https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg\">e-editiones Slack workspace</a>.</p>\n<figure>\n    <a href=\"https://e-editiones.org/tei2025\"><img src=\"https://e-editiones.org/img/tei2025-new-territories.png\" alt=\"This re-mix image was done by L. Windauer (e-editiones). The background picture shows Copernicus Sentinel data (2019) by ESA, image is under ESA Standard License: https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website. The TEI Logo is under Creative Commons CC BY 4.0 license and taken from https://tei-c.org/about/logos/. The 'new territories' logo was done by Patrycja Wojkowska.\" width=\"100%\" /></a>    \n</figure>\n<p>We wish all participants a wonderful TEI2025!</p>\n",
+      "date_published": "2025-09-11T00:00:00Z"
+    },{
       "id": "https://e-editiones.org/posts/community-event-hasidic-stories/",
       "url": "https://e-editiones.org/posts/community-event-hasidic-stories/",
       "title": "The Hasidic Stories Browser – an alternative frontend to a TEI-Publisher corpus",

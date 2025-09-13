@@ -5,12 +5,26 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2025-09-02T00:00:00Z</updated>
+	<updated>2025-09-11T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>e-editiones at TEI2025</title>
+		<link href="https://e-editiones.org/posts/tei2025/"/>
+		<updated>2025-09-11T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei2025/</id>
+		<content type="html">&lt;p&gt;From September 16 to 20 e-editiones members will meet at this year&#39;s TEI Annual Conference and Members’ Meeting &lt;a href=&quot;https://tei2025.confer.uj.edu.pl/&quot;&gt;&lt;strong&gt;TEI2025 - New Territories&lt;/strong&gt;&lt;/a&gt; in &lt;a href=&quot;https://www.openstreetmap.org/relation/2768922&quot;&gt;Kraków, Poland 🇵🇱&lt;/a&gt; at the &lt;a href=&quot;https://www.uj.edu.pl/&quot;&gt;Jagiellonian University&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To easily find e-editiones / TEI Publisher related content at the conference we compiled this &lt;a href=&quot;https://e-editiones.org/tei2025&quot;&gt;list of e-editiones / TEI Publisher related activieties&lt;/a&gt; and created a public #TEI2025 channel in the &lt;a href=&quot;https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg&quot;&gt;e-editiones Slack workspace&lt;/a&gt;.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;a href=&quot;https://e-editiones.org/tei2025&quot;&gt;&lt;img src=&quot;https://e-editiones.org/img/tei2025-new-territories.png&quot; alt=&quot;This re-mix image was done by L. Windauer (e-editiones). The background picture shows Copernicus Sentinel data (2019) by ESA, image is under ESA Standard License: https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website. The TEI Logo is under Creative Commons CC BY 4.0 license and taken from https://tei-c.org/about/logos/. The &#39;new territories&#39; logo was done by Patrycja Wojkowska.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;    
+&lt;/figure&gt;
+&lt;p&gt;We wish all participants a wonderful TEI2025!&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>The Hasidic Stories Browser – an alternative frontend to a TEI-Publisher corpus</title>
