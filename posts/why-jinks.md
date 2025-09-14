@@ -33,7 +33,7 @@ It was clear that Publisher's application generator needs to grow into the appli
 
 Solution that emerged (and was refined multiple times in the course of the exercise) was a system called **Jinks** built around the so called "**base**", **features**, **blueprints** and **themes**. *Base* is self-explanatory, it's the shared core, needed by all projects. It involves default versions or configurations across all the orchestration layers: shared API, basic ODD, web templates and programmatic modules. The *theme* is the visual styling layer for the application, controlling the colour palette, font selection, backgrounds and elements of visual identification.
 
-[TODO illustration with the base/feature/theme/blueprint]
+![](/img/blueprint-or-feature.png)
 
 ## Features
 
