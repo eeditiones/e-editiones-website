@@ -1,7 +1,7 @@
 ---
 title: Introducing JinnTap
 short: JinnTap
-lead: An introduction to JinnTap, a WYSIWYM editor for TEI/XML coming to TP 10
+lead: An introduction to JinnTap, a browser-based WYSIWYM editor for TEI/XML coming to TP 10
 author: Wolfgang Meier
 date: 2025-09-18
 tags:
