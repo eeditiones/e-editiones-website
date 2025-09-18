@@ -19,7 +19,7 @@
 		<id>https://e-editiones.org/posts/jinntap/</id>
 		<content type="html">&lt;p&gt;JinnTap is a new WYSIWYM (What You See Is What You &lt;strong&gt;Mean&lt;/strong&gt;) editor for TEI and other XML formats. While usable as a standalone webcomponent, it unveils its full power
 when embedded in a broader application context such as TEI Publisher 10.&lt;/p&gt;
-&lt;p&gt;The following talk was presented at the TEI members meeting and conference in Kraków on September 18, 2025. It provides a first overview of JinnTap, its possibilities and integration into the TP 10 toolbox.&lt;/p&gt;
+&lt;p&gt;The following talk was presented at the TEI members meeting and conference in Kraków on September 18, 2025. It provides a first overview of JinnTap, its possibilities and integration into the upcoming TP 10 toolbox.&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SpE1bg6OmwE?si=LnaXdzwlUfT10Tsa&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
 	</entry>
 	
