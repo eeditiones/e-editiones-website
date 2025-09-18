@@ -7,12 +7,13 @@ date: 2025-09-18
 tags:
     - conference
     - announcement
-    - draft
-coverImage: Image to be used as cover, located in img folder
-coverImageCredits: Any credits to be shown for the cover image
+coverImage: /img/jinntap-logo.jpg
+coverImageCredits: 
 ---
 
 JinnTap is a new WYSIWYM (What You See Is What You **Mean**) editor for TEI and other XML formats. While usable as a standalone webcomponent, it unveils its full power
 when embedded in a broader application context such as TEI Publisher 10.
 
 The following talk was presented at the TEI members meeting and conference in Kraków on September 18, 2025. It provides a first overview of JinnTap, its possibilities and integration into the TP 10 toolbox.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SpE1bg6OmwE?si=LnaXdzwlUfT10Tsa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
