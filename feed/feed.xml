@@ -5,12 +5,23 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2025-09-11T00:00:00Z</updated>
+	<updated>2025-09-18T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Introducing JinnTap</title>
+		<link href="https://e-editiones.org/posts/jinntap/"/>
+		<updated>2025-09-18T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/jinntap/</id>
+		<content type="html">&lt;p&gt;JinnTap is a new WYSIWYM (What You See Is What You &lt;strong&gt;Mean&lt;/strong&gt;) editor for TEI and other XML formats. While usable as a standalone webcomponent, it unveils its full power
+when embedded in a broader application context such as TEI Publisher 10.&lt;/p&gt;
+&lt;p&gt;The following talk was presented at the TEI members meeting and conference in Kraków on September 18, 2025. It provides a first overview of JinnTap, its possibilities and integration into the TP 10 toolbox.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>e-editiones at TEI2025</title>
