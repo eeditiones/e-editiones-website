@@ -5,12 +5,24 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2025-09-18T00:00:00Z</updated>
+	<updated>2025-10-07T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>The Hasidic Stories Browser – an alternative frontend to a TEI-Publisher corpus</title>
+		<link href="https://e-editiones.org/posts/community-event-hasidic-stories/"/>
+		<updated>2025-10-07T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/community-event-hasidic-stories/</id>
+		<content type="html">&lt;p&gt;Community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+event&amp;amp;iso=20251007T17&amp;amp;p1=268&amp;amp;ah=1&quot;&gt;October 07, 2025 at 17:00 CEST&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A team led by Prof Gadi Sagiv at the open university of Israel is building an annotated collection of &lt;a href=&quot;https://www.hasidic-stories.org/&quot;&gt;Hasidic stories&lt;/a&gt; published between 1814 to 1914. The stories have been OCR-ed and annotated (in the TEI-Publisher v7 annotator) for people, places and themes, resulting in an extensive TEI-XML corpus which is still expanding. To enable both close and distant reading of the corpus, a browser was built using standard programming frameworks and techniques (.Net Blazor, served from Azure) enabling a flexible and specialized UI and Ux, with complex and multilevel faceting. The browser incorporates TEI-Publisher HTML5 components to display the editions (facsimile and text) as well as the individual stories with additional information. Custom endpoints built with the TEI-Publisher infrastructure use XQuery to extract the relevant information from the corpus as a whole and from individual documents. It is hoped that this approach will enable additional non-standard displays of TEI-Publisher corpora when appropriate.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.hasidic-stories.org/&quot;&gt;https://www.hasidic-stories.org/&lt;/a&gt;&lt;/p&gt;
+&lt;img src=&quot;https://e-editiones.org/img/hasidic-stories-browser.png&quot; alt=&quot;Hasidic stories browser&quot; style=&quot;width:700px;height:auto;&quot; /&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Introducing JinnTap</title>
@@ -34,18 +46,6 @@ when embedded in a broader application context such as TEI Publisher 10.&lt;/p&g
     &lt;a href=&quot;https://e-editiones.org/tei2025&quot;&gt;&lt;img src=&quot;https://e-editiones.org/img/tei2025-new-territories.png&quot; alt=&quot;This re-mix image was done by L. Windauer (e-editiones). The background picture shows Copernicus Sentinel data (2019) by ESA, image is under ESA Standard License: https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website. The TEI Logo is under Creative Commons CC BY 4.0 license and taken from https://tei-c.org/about/logos/. The &#39;new territories&#39; logo was done by Patrycja Wojkowska.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;    
 &lt;/figure&gt;
 &lt;p&gt;We wish all participants a wonderful TEI2025!&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>The Hasidic Stories Browser – an alternative frontend to a TEI-Publisher corpus</title>
-		<link href="https://e-editiones.org/posts/community-event-hasidic-stories/"/>
-		<updated>2025-09-02T00:00:00Z</updated>
-		<id>https://e-editiones.org/posts/community-event-hasidic-stories/</id>
-		<content type="html">&lt;p&gt;Community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+meetup&amp;amp;iso=20250902T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;September 02, 2025 at 17:00 CET&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;A team led by Prof Gadi Sagiv at the open university of Israel is building an annotated collection of &lt;a href=&quot;https://www.hasidic-stories.org/&quot;&gt;Hasidic stories&lt;/a&gt; published between 1814 to 1914. The stories have been OCR-ed and annotated (in the TEI-Publisher v7 annotator) for people, places and themes, resulting in an extensive TEI-XML corpus which is still expanding. To enable both close and distant reading of the corpus, a browser was built using standard programming frameworks and techniques (.Net Blazor, served from Azure) enabling a flexible and specialized UI and Ux, with complex and multilevel faceting. The browser incorporates TEI-Publisher HTML5 components to display the editions (facsimile and text) as well as the individual stories with additional information. Custom endpoints built with the TEI-Publisher infrastructure use XQuery to extract the relevant information from the corpus as a whole and from individual documents. It is hoped that this approach will enable additional non-standard displays of TEI-Publisher corpora when appropriate.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.hasidic-stories.org/&quot;&gt;https://www.hasidic-stories.org/&lt;/a&gt;&lt;/p&gt;
-&lt;img src=&quot;https://e-editiones.org/img/hasidic-stories-browser.png&quot; alt=&quot;Hasidic stories browser&quot; style=&quot;width:700px;height:auto;&quot; /&gt;
 </content>
 	</entry>
 	
