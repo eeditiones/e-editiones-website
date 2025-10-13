@@ -20,7 +20,10 @@
 		<content type="html">&lt;p&gt;Community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+event&amp;amp;iso=20251007T17&amp;amp;p1=268&amp;amp;ah=1&quot;&gt;October 07, 2025 at 17:00 CEST&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;A team led by Prof Gadi Sagiv at the open university of Israel is building an annotated collection of &lt;a href=&quot;https://www.hasidic-stories.org/&quot;&gt;Hasidic stories&lt;/a&gt; published between 1814 to 1914. The stories have been OCR-ed and annotated (in the TEI-Publisher v7 annotator) for people, places and themes, resulting in an extensive TEI-XML corpus which is still expanding. To enable both close and distant reading of the corpus, a browser was built using standard programming frameworks and techniques (.Net Blazor, served from Azure) enabling a flexible and specialized UI and Ux, with complex and multilevel faceting. The browser incorporates TEI-Publisher HTML5 components to display the editions (facsimile and text) as well as the individual stories with additional information. Custom endpoints built with the TEI-Publisher infrastructure use XQuery to extract the relevant information from the corpus as a whole and from individual documents. It is hoped that this approach will enable additional non-standard displays of TEI-Publisher corpora when appropriate.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.hasidic-stories.org/&quot;&gt;https://www.hasidic-stories.org/&lt;/a&gt;&lt;/p&gt;
-&lt;img src=&quot;https://e-editiones.org/img/hasidic-stories-browser.png&quot; alt=&quot;Hasidic stories browser&quot; style=&quot;width:700px;height:auto;&quot; /&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/62T0uebl0X0?si=8E5huvP8rJp-mbQo&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://youtu.be/62T0uebl0X0&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
 	</entry>
 	
