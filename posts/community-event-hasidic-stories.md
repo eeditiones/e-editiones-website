@@ -19,5 +19,6 @@ A team led by Prof Gadi Sagiv at the open university of Israel is building an an
 
 https://www.hasidic-stories.org/
 
-<img src="/img/hasidic-stories-browser.png" alt="Hasidic stories browser" style="width:700px;height:auto;" />
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/62T0uebl0X0?si=8E5huvP8rJp-mbQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+- Recording: [Youtube](https://youtu.be/62T0uebl0X0)
