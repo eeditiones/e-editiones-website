@@ -37,6 +37,6 @@ Wilhelm von Humboldt: Schriften is currently self-financed and seeking partners 
 * Web: https://www.wvh-schriften.de
 * GitHub: https://github.com/wvh-schriften
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-EH72StlkmE?si=Zl4zuZild-RFEIba" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<img src="/img/w-v-humboldt-schriften.png" width="100%">
-
+- Recording: [Youtube](https://youtu.be/-EH72StlkmE)
