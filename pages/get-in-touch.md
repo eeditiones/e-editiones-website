@@ -28,9 +28,9 @@ The board will treat communications in the `#members` channel with a higher prio
 
 Please join the [slack workspace](https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg).
 
-## Mastodon, Twitter and LinkedIn
+## Mastodon, LinkedIn, Bluesky, Instagramm
 
-We will post news via our [Mastodon](https://social.e-editiones.org/@eeditiones), [Twitter account](https://twitter.com/EEditiones) and [LinkedIn](https://www.linkedin.com/company/e-editiones/) accounts. If you would like to share something about a project or forthcoming events, please contact the e-editiones board or mention us on the according platform so we can reshare.
+We will post news via our [Mastodon](https://social.e-editiones.org/@eeditiones), [LinkedIn](https://www.linkedin.com/company/e-editiones/), [Bluesky](https://bsky.app/profile/e-editiones.bsky.social) and [Instgramm](https://www.instagram.com/eeditiones/) accounts. If you would like to share something about a project or forthcoming events, please contact the e-editiones board or mention us on the according platform so we can reshare.
 
 ## GitHub
 

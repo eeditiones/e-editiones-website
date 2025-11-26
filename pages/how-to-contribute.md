@@ -43,6 +43,6 @@ To make the TEI Publisher as versatile as possible we are looking for TEI exampl
 
 ## Tell people about us
 
-Follow us on [Mastodon](https://social.e-editiones.org/deck/@eeditiones), [LinkedIn](https://www.linkedin.com/company/e-editiones/) and [Twitter](http://www.twitter.com/EEditiones). Repost and like related posts.
+Follow us on [Mastodon](https://social.e-editiones.org/deck/@eeditiones), [LinkedIn](https://www.linkedin.com/company/e-editiones/), [Bluesky](https://bsky.app/profile/e-editiones.bsky.social) and [Instgramm](https://www.instagram.com/eeditiones/). Repost and like related posts.
 
-We'll be grateful for credit on your project page, so just grab the most fitting logo from [GitHub](https://github.com/eeditiones/logos). If you are a already a member of e-editiones you are especially encouraged to use our member logo. 
+We'll be grateful for credit on your project page, so just grab the most fitting logo from [GitHub](https://github.com/eeditiones/logos). If you are a already a member of e-editiones you are especially encouraged to use our member logo.
