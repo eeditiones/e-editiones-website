@@ -15,7 +15,6 @@ eleventyNavigation:
 - [Institute of Slovenian Literature and Literary studies](https://isllv.zrc-sazu.si/en/predstavitev#v), Research Centre of the Slovenian Academy of Sciences and Arts, Ljubljana
 - [Karl Barth-Stiftung](https://karlbarth.unibas.ch/de/), Basel
 - [Kommission für Geschichte des Parlamentarismus und der politischen Parteien e.V.](https://www.kgparl.de)
-- [Rechtsquellenstiftung des Schweizerischen Juristenvereins](https://www.ssrq-sds-fds.ch/)
 - [Schola Cantorum Basiliensis / FHNW](https://www.fhnw.ch/de/die-fhnw/hochschulen/musik/schola-cantorum-basiliensis)
 - [Schweizerische Akademie der Geistes- und Sozialwissenschaften (SAGW)](https://sagw.ch/sagw/)
 - [Staatsarchiv Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html), Zürich
@@ -57,7 +56,6 @@ eleventyNavigation:
 - Roman Sigg, [Stadtarchivar Stein am Rhein](https://www.steinamrhein.ch/xml_1/internet/de/application/d3/d723/d724/f346.cfm)
 - Anna Skolimowska, Dr. hab., Head of the [Laboratory for Source Editing & Digital Humanities](http://fontes.ibi.uw.edu.pl/), Faculty of «Artes Liberales», University of Warsaw
 - [Claudia Sutter](https://uzh.academia.edu/ClaudiaSutter), freie Historikerin, Archivarin, Stein am Rhein, Urbar des Dominikanerinnenklosters St. Katharinen St.Gallen
-- Pascale Sutter, Dr., Leiterin der [Rechtsquellenstiftung des Schweizerischen Juristenvereins](https://www.ssrq-sds-fds.ch), c/o Universität St. Gallen
 - [Georg Vogeler](https://online.uni-graz.at/kfu_online/wbForschungsportal.cbShowPortal?pPersonNr=80075), Dr. phil., Professor Digital Humanities, Zentrum für Informationsmodellierung, Universität Graz
 - [Andreas Wagner](https://www.lhlt.mpg.de/wagner/en), Dr., Max Planck Institute for Legal History and Legal Theory
 - Arman Weidenmann, [Stadtarchiv der Ortsbürgergemeinde St. Gallen](https://www.stadtarchiv.ch/)
