@@ -32,7 +32,7 @@ eleventyNavigation:
 - [Peter Boot](https://www.huygens.knaw.nl/en/medewerkers/peter-boot-2/), Senior researcher, Huygens Institute, Amsterdam
 - Albert Brugnara, Wien [Tibetan TEI](https://www.brugnara.at)
 - Giuliano Di Bacco, PhD, music historian and medievalist, director of the [Resources and Studies for the History of Music Theory](https://chmtl.indiana.edu/hmt/index.html) (CHMTL, Indiana University Bloomington), including the [Thesaurus Musicarum Latinarum](https://chmtl.indiana.edu/tml/)
-- [Anne Diekjobst](https://www.histsem.uni-kiel.de/de/das-institut-1/abteilungen/professur-fuer-geschichte-des-spaeten-mittelalters-sowie-wirtschafts-und-sozialgeschichte/team/anne-diekjobst), Dr. des., Christian-Albrechts-Universität zu Kiel, u.a. Edition des Zinsrodels des Klosters Feldbach
+- Anne Diekjobst, Fachreferentin, Universitäts- und Landesbibliothek Bonn
 - [Rita Gautschy](https://daw.philhist.unibas.ch/de/personen/rita-gautschy), Dr., Privatdozentin an der Universität Basel, Direktorin des [Swiss National Data and Service Center for the Humanities (DaSCH)](https://www.dasch.swiss/our-team)
 - Sulamith Gehr, [Basler Edition der Bernoulli-Briefwechsel](https://ub.unibas.ch/bernoulli/index.php/Hauptseite)
 - [Mascha Hansen](https://ifaa.uni-greifswald.de/hansen/), Dr., Lecturer, Department of British and North American Studies (IfAA), University of Greifswald
