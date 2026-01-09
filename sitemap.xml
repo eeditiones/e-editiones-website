@@ -612,6 +612,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/workshop/</loc>
+    <lastmod>2026-01-09</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2026-01-09</lastmod>
   </url>
@@ -628,11 +633,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/schema/</loc>
-    <lastmod>2026-01-09</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/workshop/</loc>
     <lastmod>2026-01-09</lastmod>
   </url>
   
@@ -737,11 +737,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/hosting/</loc>
-    <lastmod>2026-01-09</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/intermediate/</loc>
     <lastmod>2026-01-09</lastmod>
   </url>
@@ -753,6 +748,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/ner/</loc>
+    <lastmod>2026-01-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/hosting/</loc>
     <lastmod>2026-01-09</lastmod>
   </url>
   
