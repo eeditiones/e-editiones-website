@@ -29,10 +29,8 @@ eleventyNavigation:
 
 ## Individual Members
 
-<!-- [Elisa Beshero-Bondar](https://newtfire.org), PhD, Program Chair of Digital Media, Arts, and Technology Professor of Digital Humanities | Director of the [Digital Humanities Lab at Penn State Erie](https://sites.psu.edu/psudhlab/), the Behrend College, Member of the TEI Technical Council-->
 - [Peter Boot](https://www.huygens.knaw.nl/en/medewerkers/peter-boot-2/), Senior researcher, Huygens Institute, Amsterdam
 - Albert Brugnara, Wien [Tibetan TEI](https://www.brugnara.at)
-<!-- [Philip R. «Pib» Burns](https://hcommons.org/members/pibburns/), Senior Developer, Research Computing Services Northwestern University-->
 - Giuliano Di Bacco, PhD, music historian and medievalist, director of the [Resources and Studies for the History of Music Theory](https://chmtl.indiana.edu/hmt/index.html) (CHMTL, Indiana University Bloomington), including the [Thesaurus Musicarum Latinarum](https://chmtl.indiana.edu/tml/)
 - [Anne Diekjobst](https://www.histsem.uni-kiel.de/de/das-institut-1/abteilungen/professur-fuer-geschichte-des-spaeten-mittelalters-sowie-wirtschafts-und-sozialgeschichte/team/anne-diekjobst), Dr. des., Christian-Albrechts-Universität zu Kiel, u.a. Edition des Zinsrodels des Klosters Feldbach
 - [Rita Gautschy](https://daw.philhist.unibas.ch/de/personen/rita-gautschy), Dr., Privatdozentin an der Universität Basel, Direktorin des [Swiss National Data and Service Center for the Humanities (DaSCH)](https://www.dasch.swiss/our-team)
@@ -44,7 +42,6 @@ eleventyNavigation:
 - [Stephan Makowski](https://www.geschichte.uni-wuppertal.de/de/personen/digital-humanities/stephan-makowski-ma.html), Wissenschaftlicher Mitarbeiter in Digital Humanities, DFG-Projekt "Index Librorum Civitatum", Bergische Universität Wuppertal
 - [David Maus](https://dmaus.name/), Leiter der Abteilung Forschung und Entwicklung. Staats- und [Universitätsbibliothek Hamburg Carl von Ossietzky](https://www.sub.uni-hamburg.de/startseite.html)
 - Wolfgang Meier, Mitarbeiter at the [Heidelberger Akademie der Wissenschaften](https://www.hadw-bw.de); [Jinntec GmbH](https://www.jinntec.com) and [exist Solutions](https://www.existsolutions.com), Berlin
-<!-- [Emmanuelle Morlock](https://www.hisoma.mom.fr/annuaire/morlock-emmanuelle), Ingénieure au CNRS – Humanités numériques & données de la recherche | Laboratoire HiSoMA (UMR 5189) – Lyon | Chargée de mission « Science ouverte » à l’Institut des Sciences humaines et sociales (InSHS) pour la politique de soutien aux revues scientifiques et données de la recherche -->
 - Martin Mueller, PhD, Professor Emeritus of English & Classics, Northwestern University, project lead of [Early Print](https://earlyprint.org/)
 - Elli Mylonas, [Center for Digital Scholarship](https://library.brown.edu/cds), University Library, Brown University
 - Maria Niku, Software Developer, [Finnish Literature Society](https://www.finlit.fi/en), Helsinki; [Lea – critical edition](https://kivi.finlit.fi/lea), [Forest Finns' Letters to Gottlund](https://editiot.finlit.fi/exist/apps/gottlund/index.html)
