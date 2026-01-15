@@ -17,7 +17,7 @@ coverImageCredits: Photo by ??
 
 Is there a way to accommodate the needs and wishes of editors and pack it with a friendly interface? Assure rapid development without compromising the technical and economic sustainability, future re-use and interoperability? We say **yes**, with more conviction than ever!
 
-New [TEI Publisher 10](https://tei-publisher.org) comes with with a new application manager, called Jinks. With it, you can just click together the features you want in your custom edition and generate your application. Not happy with the defaults? No problem, adjust the configuration and update your app without losing your custom changes. Fast-forward one year and TEI Publisher 11 is out? Run Jinks again and upgrade all your apps with a click.
+New [TEI Publisher 10](https://tei-publisher.org) comes with a new application manager, called Jinks. With it, you can just click together the features you want in your custom edition and generate your application. Not happy with the defaults? No problem, adjust the configuration and update your app without losing your custom changes. Fast-forward one year and TEI Publisher 11 is out? Run Jinks again and upgrade all your apps with a click.
 
 Give Jinks a spin and be sure this is just a warm-up. We have a roadmap of new features to add - and we count on our entire community to continue supporting our efforts. We are proud how far we got but have no intention to stop anytime soon.
 
