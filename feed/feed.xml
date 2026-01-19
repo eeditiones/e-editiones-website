@@ -5,12 +5,35 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2025-11-04T00:00:00Z</updated>
+	<updated>2026-01-19T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>TEI Publisher 10</title>
+		<link href="https://e-editiones.org/posts/tei-publisher-10-0-0/"/>
+		<updated>2026-01-19T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei-publisher-10-0-0/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Nature does not hurry, yet everything is accomplished. (Laozi)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Is there a way to accommodate the needs and wishes of editors and pack it with a friendly interface? Assure rapid development without compromising the technical and economic sustainability, future re-use and interoperability? We say &lt;strong&gt;yes&lt;/strong&gt;, with more conviction than ever!&lt;/p&gt;
+&lt;p&gt;New &lt;a href=&quot;https://tei-publisher.org/&quot;&gt;TEI Publisher 10&lt;/a&gt; comes with a new application manager, called Jinks. With it, you can just click together the features you want and generate an application. Not happy with the defaults? No problem, adjust the configuration and update your app without losing previous custom changes. Fast-forward one year and TEI Publisher 11 is out? Run Jinks again and upgrade all your apps with a click.&lt;/p&gt;
+&lt;p&gt;Give Jinks a spin and be sure this is just a warm-up. We have a roadmap of new features to add - and we count on our entire community to continue supporting our efforts. We are proud how far we got but have no intention to stop anytime soon.&lt;/p&gt;
+&lt;p&gt;To play around with Jinks and TEI Publisher 10 follow the &lt;a href=&quot;https://tei-publisher.org/doc/tldr.xml?id=installation&quot;&gt;installation guide using Docker&lt;/a&gt; and read the &lt;a href=&quot;https://tei-publisher.org/doc/quickstart.xml&quot;&gt;gentle introduction to TEI Publisher&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We would like to thank the following institutions, whose substantial financial support was instrumental in bringing our ideas to life:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://dhlab.id.uj.edu.pl/&quot;&gt;Digital Humanities Lab (Jagiellonian University in Kraków)&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://history.state.gov/about&quot;&gt;Office of the Historian (US Department of State)&lt;/a&gt; and&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pan.pl/&quot;&gt;Polish Academy of Sciences&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We are also grateful to all the editorial projects who served as guinea pigs to trial and improve the new TEI Publisher framework. It is the constant dialogue and confrontation with such a broad spectrum of editorial practice that keeps us in touch with evolving needs of the community.&lt;/p&gt;
+&lt;p&gt;Our next community meeting will be devoted to presenting and discussing Jinks, its roadmap and funding. Please join us on Tuesday, the 3rd of February at 17:00 in &lt;a href=&quot;https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDBhOTkxMjktZjk0Mi00YzBjLTlmY2YtNDgyMmYwOTE4ZmRk%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d&quot;&gt;Teams&lt;/a&gt; to chat and celebrate!&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Wilhelm von Humboldt: Schriften — An Independent Digital Edition</title>
