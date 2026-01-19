@@ -1,0 +1,34 @@
+---
+title: TEI Publisher 10
+date: 2026-01-19
+short: "TEI Publisher 10 Release"
+lead: "This is a major feature release including the new app manager jinks"
+author: Magdalena Turska
+tags:
+  - announcements
+  - tei-publisher
+  - release
+coverImage: typewriter1.jpg
+coverImageCredits: "Photo: Unsplash"
+
+---
+
+> Nature does not hurry, yet everything is accomplished. (Laozi)
+
+Is there a way to accommodate the needs and wishes of editors and pack it with a friendly interface? Assure rapid development without compromising the technical and economic sustainability, future re-use and interoperability? We say **yes**, with more conviction than ever!
+
+New [TEI Publisher 10](https://tei-publisher.org) comes with a new application manager, called Jinks. With it, you can just click together the features you want and generate an application. Not happy with the defaults? No problem, adjust the configuration and update your app without losing previous custom changes. Fast-forward one year and TEI Publisher 11 is out? Run Jinks again and upgrade all your apps with a click.
+
+Give Jinks a spin and be sure this is just a warm-up. We have a roadmap of new features to add - and we count on our entire community to continue supporting our efforts. We are proud how far we got but have no intention to stop anytime soon.
+
+To play around with Jinks and TEI Publisher 10 follow the [installation guide using Docker](https://tei-publisher.org/doc/tldr.xml?id=installation) and read the [gentle introduction to TEI Publisher](https://tei-publisher.org/doc/quickstart.xml).
+
+We would like to thank the following institutions, whose substantial financial support was instrumental in bringing our ideas to life:
+
+* [Digital Humanities Lab (Jagiellonian University in Kraków)](https://dhlab.id.uj.edu.pl), 
+* [Office of the Historian (US Department of State)](https://history.state.gov/about) and 
+* [Polish Academy of Sciences](https://pan.pl/). 
+
+We are also grateful to all the editorial projects who served as guinea pigs to trial and improve the new TEI Publisher framework. It is the constant dialogue and confrontation with such a broad spectrum of editorial practice that keeps us in touch with evolving needs of the community.
+
+Our next community meeting will be devoted to presenting and discussing Jinks, its roadmap and funding. Please join us on Tuesday, the 3rd of February at 17:00 in [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDBhOTkxMjktZjk0Mi00YzBjLTlmY2YtNDgyMmYwOTE4ZmRk%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d) to chat and celebrate!
