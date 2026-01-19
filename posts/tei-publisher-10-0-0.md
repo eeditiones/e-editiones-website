@@ -1,6 +1,6 @@
 ---
 title: TEI Publisher 10
-date: 2026-01-15
+date: 2026-01-19
 short: "TEI Publisher 10 Release"
 lead: "This is a major feature release including the new app manager jinks"
 author: Magdalena Turska
