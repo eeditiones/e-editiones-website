@@ -9,7 +9,7 @@ tags:
   - tei-publisher
   - release
 coverImage: typewriter1.jpg
-coverImageCredits: Photo by ??
+coverImageCredits: "Photo: Unsplash"
 
 ---
 
