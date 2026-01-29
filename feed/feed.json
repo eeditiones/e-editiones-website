@@ -10,6 +10,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://e-editiones.org/posts/community-event-tei-publisher-10/",
+      "url": "https://e-editiones.org/posts/community-event-tei-publisher-10/",
+      "title": "TEI Publisher v10 celebration",
+      "content_html": "<p>Community meetup on <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+event&amp;iso=20260203T17&amp;p1=268&amp;ah=1\">February 03, 2026 at 17:00 CET</a>.</p>\n<p>This community meeting is devoted to presenting and discussing <a href=\"https://e-editiones.org/posts/tei-publisher-10-0-0/\">TEI Publisher 10 and Jinks</a>, its roadmap and funding.</p>\n<p><a href=\"https://teams.live.com/meet/9353044341752?p=4oHbW9qG1JzCWZL4OQ\">Join us in Teams</a> to celebrate!</p>\n<p><a href=\"https://teams.live.com/meet/9353044341752?p=4oHbW9qG1JzCWZL4OQ\"><img src=\"https://e-editiones.org/img/e-editiones-community-celebration-tp10.jpg\" alt=\"Image by Canva AI & Lars Windauer\" width=\"100%\" /></a></p>\n",
+      "date_published": "2026-02-03T00:00:00Z"
+    },{
       "id": "https://e-editiones.org/posts/tei-publisher-10-0-0/",
       "url": "https://e-editiones.org/posts/tei-publisher-10-0-0/",
       "title": "TEI Publisher 10",
