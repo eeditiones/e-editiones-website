@@ -19,5 +19,13 @@ This community meeting is devoted to presenting and discussing <a href="/posts/t
 
 <a href="https://teams.live.com/meet/9353044341752?p=4oHbW9qG1JzCWZL4OQ">Join us in Teams</a> to celebrate! 
 
+**Support e-editiones** 
+
+You can help us spread the word by liking and sharing our social media posts about the event and by telling colleagues and friends who might be interested.
+
+🔗 Event posts: [Mastodon](https://social.e-editiones.org/@eeditiones/115979650814780107), [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7422696300371959809), [BlueSky](https://bsky.app/profile/e-editiones.bsky.social/post/3mdle6dfib224), [Instagram](https://www.instagram.com/p/DUGpTrtCLmg/), [Threads](https://www.threads.com/@eeditiones/post/DUGpUuoiPIt?xmt=AQF0VzYmFGw4hSAAnfyYkewjDDeapLGRtL_fD7SAbou1tA)
+
+Thank you for supporting the community—we look forward to celebrating together!
+
 <a href="https://teams.live.com/meet/9353044341752?p=4oHbW9qG1JzCWZL4OQ"><img src="/img/e-editiones-community-celebration-tp10.jpg" alt="Image by Canva AI & Lars Windauer" width="100%"/></a>
 
