@@ -587,6 +587,11 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
+    <lastmod>2026-02-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/conference/</loc>
     <lastmod>2026-02-04</lastmod>
   </url>
@@ -598,11 +603,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/static/</loc>
-    <lastmod>2026-02-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
     <lastmod>2026-02-04</lastmod>
   </url>
   
@@ -677,11 +677,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/dh2024/</loc>
-    <lastmod>2026-02-04</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/interoperability/</loc>
     <lastmod>2026-02-04</lastmod>
   </url>
@@ -697,12 +692,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/ukraine/</loc>
-    <lastmod>2026-02-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/grants/</loc>
+    <loc>https://e-editiones.org/tags/dh2024/</loc>
     <lastmod>2026-02-04</lastmod>
   </url>
   
@@ -713,6 +703,26 @@
   
   <url>
     <loc>https://e-editiones.org/tags/best-practice/</loc>
+    <lastmod>2026-02-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/epidoc/</loc>
+    <lastmod>2026-02-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/fore/</loc>
+    <lastmod>2026-02-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <lastmod>2026-02-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/grants/</loc>
     <lastmod>2026-02-04</lastmod>
   </url>
   
@@ -728,16 +738,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/wordpress/</loc>
-    <lastmod>2026-02-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/epidoc/</loc>
-    <lastmod>2026-02-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/fore/</loc>
     <lastmod>2026-02-04</lastmod>
   </url>
   
@@ -792,11 +792,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/tei-vanilla/</loc>
-    <lastmod>2026-02-04</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/teiconf/</loc>
     <lastmod>2026-02-04</lastmod>
   </url>
@@ -808,6 +803,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/vscode/</loc>
+    <lastmod>2026-02-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei-vanilla/</loc>
     <lastmod>2026-02-04</lastmod>
   </url>
   
