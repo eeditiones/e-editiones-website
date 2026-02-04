@@ -12,8 +12,13 @@ eleventyNavigation:
 Teams: [LINK not yet there]
 
 - Invitation/Agenda (german)
-- [ad 3\] Protokoll der Sitzung vom 16.1.2025 (german) <a href="/resources/2026/Protokoll der 5. GV e-editiones.pdf">Protokoll der 5. GV e-editiones</a>
-- [ad 5\] Annual Accounts 2025 [PDF](/resources/2026/e-editiones-gewinn-und-verlust-2025.pdf)), bilance [PDF](/resources/2026/e-editiones-bilanz-2025.pdf)  [Postfinance 2025](/resources/2026/e-editiones-postfinance-2025.pdf), [Paypal 2025](/resources/2026/e-editiones-paypal-2025.pdf) revision [PDF](/resources/2026/Revisionsbericht_e_editiones_2025.pdf)
+- [ad 3\] Protokoll der Sitzung vom 16.1.2025 (german) <a href="/resources/2026/Protokoll der 5. GV e-editiones.pages.pdf">Protokoll der 5. GV e-editiones</a>
+- [ad 5\]
+  - [Annual Accounts 2025](/resources/2026/e-editiones-gewinn-und-verlust-2025.pdf)
+  - [Bilance](/resources/2026/e-editiones-bilanz-2025.pdf)
+  - [Postfinance 2025](/resources/2026/e-editiones-postfinance-2025.pdf)
+  - [Paypal 2025](/resources/2026/e-editiones-paypal-2025.pdf)
+  - [Revision](/resources/2026/Revisionsbericht_e_editiones_2025.pdf)
 - [ad 6\] [Budget 2026](/resources/2026/e-editiones-budget_2026.pdf)
 
 
