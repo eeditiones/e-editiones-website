@@ -7,6 +7,16 @@ eleventyNavigation:
     order: 2
 ---
 
+### Assembly 2026 2nd March 2026 (16 h CEST)
+
+Teams: [LINK not yet there]
+
+- Invitation/Agenda (german)
+- [ad 3\] Protokoll der Sitzung vom 16.1.2025 (german) <a href="/resources/2026/Protokoll der 5. GV e-editiones.pdf">Protokoll der 5. GV e-editiones</a>
+- [ad 5\] Annual Accounts 2025 [PDF](/resources/2026/e-editiones-gewinn-und-verlust-2025.pdf)), bilance [PDF](/resources/2026/e-editiones-bilanz-2025.pdf)  [Postfinance 2025](/resources/2026/e-editiones-postfinance-2025.pdf), [Paypal 2025](/resources/2026/e-editiones-paypal-2025.pdf) revision [PDF](/resources/2026/Revisionsbericht_e_editiones_2025.pdf)
+- [ad 6\] [Budget 2026](/resources/2026/e-editiones-budget_2026.pdf)
+
+
 ### Assembly 2025 1st April 2025 (16 h CEST)
 
 Teams: [Link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWNkNTI1MDEtYjhmMi00NTg4LWEyMTgtNDY0YzUyMTYwMjA0%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%22a95e8e6b-7512-4d5d-ba06-899e4e51d145%22%7d)
@@ -16,7 +26,7 @@ Join conversation
 - Invitation/Agenda - 4nd AGM of e-editiones (german, english)
 <a href="/resources/2025/Einladung_Traktanden 5. GV e-editiones.pdf">PDF</a>
 
-- [ad 3\] Protokoll der Sitzung vom 16.4.2024 (german) <a href="/resources/2025/Protokoll der 4. GV e-editiones.pdf">Protokoll der 3. GV e-editiones</a>
+- [ad 3\] Protokoll der Sitzung vom 16.4.2024 (german) <a href="/resources/2025/Protokoll der 4. GV e-editiones.pdf">Protokoll der 4. GV e-editiones</a>
 - [ad 5\] Annual Accounts 2024 [PDF](/resources/2025/e-editiones-gewinn-und-verlust-2024.pdf)), bilance [PDF](/resources/2025/e-editiones-bilanz-2024.pdf)
  [Postfinance 2024](/resources/2025/e-editiones-postfinance-2024.pdf), [Paypal 2024](/resources/2025/e-editiones-paypal-2024.pdf) revision [PDF](/resources/2025/Revisionsbericht_e_editiones_2024.pdf)
 - [ad 6\] [Budget 2025](/resources/2025/e-editiones-budget_2025.pdf)
