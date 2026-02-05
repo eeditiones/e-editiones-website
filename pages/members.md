@@ -29,6 +29,7 @@ eleventyNavigation:
 
 ## Individual Members
 
+- Silvia Berigüete Pastor, Developer and TEI editor of the digital scholarly edition [Wilhelm von Humboldt: Schriften](http://www.wvh-schriften.de), Madrid
 - [Peter Boot](https://www.huygens.knaw.nl/en/medewerkers/peter-boot-2/), Senior researcher, Huygens Institute, Amsterdam, eDITem[https://gitlab.huc.knaw.nl/eDITem] and Edition Publication Model[https://gitlab.huc.knaw.nl/edition-publication-model/edition-publication-model]
 - Albert Brugnara, Wien [Tibetan TEI](https://www.brugnara.at)
 - Giuliano Di Bacco, PhD, music historian and medievalist, director of the [Resources and Studies for the History of Music Theory](https://chmtl.indiana.edu/hmt/index.html) (CHMTL, Indiana University Bloomington), including the [Thesaurus Musicarum Latinarum](https://chmtl.indiana.edu/tml/)
