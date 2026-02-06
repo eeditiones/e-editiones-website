@@ -15,9 +15,11 @@ coverImageCredits: Image by Canva AI & Lars Windauer
 
 Community meetup on [February 03, 2026 at 17:00 CET](https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+event&iso=20260203T17&p1=268&ah=1).
 
+- Recording: [Youtube](https://youtu.be/Sa8edUuoZes)
+
 This community meeting is devoted to presenting and discussing <a href="/posts/tei-publisher-10-0-0/">TEI Publisher 10 and Jinks</a>, its roadmap and funding. 
 
-<a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDBhOTkxMjktZjk0Mi00YzBjLTlmY2YtNDgyMmYwOTE4ZmRk%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d">Join us in Teams</a> to celebrate! 
+Join us in Teams to celebrate! 
 
 **Support e-editiones** 
 
@@ -27,5 +29,6 @@ You can help us spread the word by liking and sharing our social media posts abo
 
 Thank you for supporting the community—we look forward to celebrating together!
 
-<a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDBhOTkxMjktZjk0Mi00YzBjLTlmY2YtNDgyMmYwOTE4ZmRk%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d"><img src="/img/e-editiones-community-celebration-tp10.jpg" alt="Image by Canva AI & Lars Windauer" width="100%"/></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sa8edUuoZes?si=fgUuMkoqGktHVkKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+- Recording: [Youtube](https://youtu.be/Sa8edUuoZes)
