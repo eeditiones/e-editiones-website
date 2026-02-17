@@ -592,12 +592,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/conference/</loc>
+    <loc>https://e-editiones.org/tags/e-editiones/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/e-editiones/</loc>
+    <loc>https://e-editiones.org/tags/conference/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
@@ -607,17 +607,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/release/</loc>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/annotations/</loc>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/events/</loc>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/workshop/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
@@ -628,11 +623,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/awards/</loc>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/workshop/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
@@ -667,7 +657,22 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/release/</loc>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/annotations/</loc>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/talk/</loc>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/beginner/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
@@ -697,17 +702,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/beginner/</loc>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/report/</loc>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/best-practice/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
@@ -742,7 +737,17 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/best-practice/</loc>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/announcement/</loc>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/hosting/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
@@ -762,22 +767,17 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/hosting/</loc>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/projects/</loc>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/open-api/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/roaster/</loc>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/projects/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
