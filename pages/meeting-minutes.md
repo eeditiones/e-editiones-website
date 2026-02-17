@@ -7,7 +7,7 @@ eleventyNavigation:
     order: 2
 ---
 
-### Assembly 2026 2nd March 2026 (16 h CEST)
+### Assembly 2026 3rd March 2026 (16 h CEST)
 
 Teams: [LINK not yet there]
 
@@ -22,7 +22,7 @@ Teams: [LINK not yet there]
 - [ad 6\] [Budget 2026](/resources/2026/e-editiones-budget_2026.pdf)
 
 
-### Assembly 2025 1st April 2025 (16 h CEST)
+### Assembly 2025 3rd April 2025 (16 h CEST)
 
 Teams: [Link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWNkNTI1MDEtYjhmMi00NTg4LWEyMTgtNDY0YzUyMTYwMjA0%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%22a95e8e6b-7512-4d5d-ba06-899e4e51d145%22%7d)
 
