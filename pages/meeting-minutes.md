@@ -9,9 +9,9 @@ eleventyNavigation:
 
 ### Assembly 2026 3rd March 2026 (16 h CEST)
 
-Teams: [LINK not yet there]
+Teams: [Join](https://teams.microsoft.com/meet/31669413632411?p=RBqFneqzMJIoMke31W)
 
-- Invitation/Agenda (german)
+- Invitation (german/english) <a href="/resources/2026/Einladung_Traktanden 6. GV e-editiones.pdf">PDF</a>
 - [ad 3\] Protokoll der Sitzung vom 16.1.2025 (german) <a href="/resources/2026/Protokoll der 5. GV e-editiones.pages.pdf">Protokoll der 5. GV e-editiones</a>
 - [ad 5\]
   - [Annual Accounts 2025](/resources/2026/e-editiones-gewinn-und-verlust-2025.pdf)
