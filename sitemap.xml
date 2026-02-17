@@ -587,17 +587,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
+    <loc>https://e-editiones.org/tags/conference/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/e-editiones/</loc>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/conference/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
@@ -612,12 +607,27 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/workshop/</loc>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
+    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/release/</loc>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/annotations/</loc>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/workshop/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
@@ -637,11 +647,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/exist-db/</loc>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/feature/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
@@ -657,12 +662,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/release/</loc>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/annotations/</loc>
+    <loc>https://e-editiones.org/tags/exist-db/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
@@ -692,17 +692,17 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/ukraine/</loc>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/grants/</loc>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/report/</loc>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/best-practice/</loc>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/dh2024/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
@@ -713,11 +713,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/fore/</loc>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/dh2024/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
@@ -737,17 +732,17 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/best-practice/</loc>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/announcement/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/hosting/</loc>
+    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/grants/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
@@ -767,17 +762,22 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/hosting/</loc>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/projects/</loc>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/open-api/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/roaster/</loc>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/projects/</loc>
     <lastmod>2026-02-17</lastmod>
   </url>
   
