@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 
 - Dr. [Andreas Kränzle](https://k-r.ch), [Karl Barth-Archiv](https://karlbarth.unibas.ch/de/), Basel
-- Dr. des. Anne Diekjobst, Gottfried Wilhelm Leibniz Bibliothek
+- Dr. Anne Diekjobst, Universitäts- und Landesbibliothek Bonn
 - Wolfgang Meier, [eXist Solutions GmbH](http://existsolutions.com/index.html), Lenzkirch/Berlin, Heidelberger Akademie der Wissenschaften, Heidelberg
 - [Prof. em. Dr. Martin Mueller](https://english.northwestern.edu/people/faculty/emeritus/martin-mueller.html), North Western University, Deparment of English
 - Dr. des. Roberta Padlina, Assistant Professor, [Département de Philosophie, Université de Genève](https://www.unige.ch/lettres/philo/collaborateurs/professeurs/roberta-padlina)
