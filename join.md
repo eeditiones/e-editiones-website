@@ -10,7 +10,7 @@ tags:
     - e-editiones
 ---
 
-> **Update: [meet e-editiones at DH2024 in Washington DC, USA](/dh2024)**
+> **Update: [meet e-editiones at dHD2026 in Vienna, Austia](/dhd2026)**
 
 #### Rooted in standards -  built by the community - meant to last
 
@@ -21,7 +21,7 @@ e-editiones is an international non-profit society bringing together edition pro
 * organize regular workshops and community meetings.
 
 ##### Join our open community
-Get in contact with us via [email](mailto:info@e-editiones.org), [mailing list](https://www.e-editiones.org/pages/get-in-touch/#mailing-list), [Mastodon](https://social.e-editiones.org/@eeditiones), [Slack](https://www.e-editiones.org/pages/get-in-touch/#slack-community), [GitHub](https://github.com/eeditiones/), [LinkedIn](https://www.linkedin.com/company/e-editiones/) or [Twitter](https://x.com/eeditiones).
+Get in contact with us via [email](mailto:info@e-editiones.org), [mailing list](https://www.e-editiones.org/pages/get-in-touch/#mailing-list), [Mastodon](https://social.e-editiones.org/@eeditiones), [Slack](https://www.e-editiones.org/pages/get-in-touch/#slack-community), [GitHub](https://github.com/eeditiones/), [LinkedIn](https://www.linkedin.com/company/e-editiones/).
 
 ##### Become a Member
 Gain access to our knowledge hub and influence the future of the open-source tools we develop like [TEI Publisher](https://tei-publisher.org/) and [Roaster](https://github.com/eeditiones/roaster?tab=readme-ov-file#roaster). 
