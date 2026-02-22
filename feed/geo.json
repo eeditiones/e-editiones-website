@@ -195,7 +195,7 @@
             },
             "properties": {
                 "name": "Der Dybbuk by Josef Lateiner",
-                "description": "<div>\n        <h4>Der Dybbuk by Josef Lateiner</h4>\n        <p>The Dybbuk (https://dybbuk.co/) is an ERC funded 5-year research project that sets out to uncover and explore the popular theatre that made up the daily cultural reality of the Jewish masses at the turn of the 20th century. In this framework, four prompter manuscripts are used to decipher, reconstruct, analyse and finally re-enact the 1898 Yiddish play “Der Dybbuk” by Josef Lateiner. Each annotated notebook is provided with facsimile as well as in a joint synoptic edition. The project workflow included a configured annotation workspace.</p>\n        <a href=\"https://teipublisher.info/exist/apps/Dybbuk/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:Sinai.Rusinek@gmail.com\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+                "description": "<div>\n        <h4>Der Dybbuk by Josef Lateiner</h4>\n        <p>The Dybbuk (https://dybbuk.co/) is an ERC funded 5-year research project that sets out to uncover and explore the popular theatre that made up the daily cultural reality of the Jewish masses at the turn of the 20th century. In this framework, four prompter manuscripts are used to decipher, reconstruct, analyse and finally re-enact the 1898 Yiddish play “Der Dybbuk” by Josef Lateiner. Each annotated notebook is provided with facsimile as well as in a joint synoptic edition. The project workflow included a configured annotation workspace. Note, the current web address is unstable and we are working on a new location.</p>\n        <a href=\"https://teipublisher.info/exist/apps/Dybbuk/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:Sinai.Rusinek@gmail.com\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
@@ -624,7 +624,7 @@
             },
             "properties": {
                 "name": "Sand and Stars",
-                "description": "<div>\n        <h4>Sand and Stars</h4>\n        <p>Sand and Stars (https://www.dzi.de/ueber-uns/geschichte/digitalisierungsprojekt-sand-und-sterne/), a project funded by DZI – Deutsches Zentralinstitut für soziale Fragen, builds a synoptic trilingual annotated edition of the unpublished novel by Sidonie Wronsky, (Berlin, 1882–Jerusalem, 1947) who was an notable Jewish German social reformist and social worker, active in both the German welfare system and later in the Jewish community in Mandatory Palestine.</p>\n        <a href=\"https://teipublisher.info/exist/apps/Sand-and-Stars/Synoptic Version.xml\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:Sinai.Rusinek@gmail.com\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+                "description": "<div>\n        <h4>Sand and Stars</h4>\n        <p>Sand and Stars (https://www.dzi.de/ueber-uns/geschichte/digitalisierungsprojekt-sand-und-sterne/), a project funded by DZI – Deutsches Zentralinstitut für soziale Fragen, builds a synoptic trilingual annotated edition of the unpublished novel by Sidonie Wronsky, (Berlin, 1882–Jerusalem, 1947) who was an notable Jewish German social reformist and social worker, active in both the German welfare system and later in the Jewish community in Mandatory Palestine.</p>\n        <a href=\"https://www.teipub-dh-dev.com/exist/apps/Sand-and-Stars/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:Sinai.Rusinek@gmail.com\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,
@@ -702,7 +702,7 @@
             },
             "properties": {
                 "name": "TraveLab",
-                "description": "<div>\n        <h4>TraveLab</h4>\n        <p>TraveLab is a project that explores new ways to read Historical travelogs, combining an interactive map with aligned parallel editions. Starting with a trilingual edition of the Journey of Benjamin of Tudela, a Jewish 12th century traveler, the project will continue to integrate additional Travelogs. XML files are available under CC BY 4.0.</p>\n        <a href=\"https://teipublisher.info/exist/apps/TraveLab/index.html\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:Sinai.Rusinek@gmail.com\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+                "description": "<div>\n        <h4>TraveLab</h4>\n        <p>TraveLab is a project that explores new ways to read Historical travelogs, combining an interactive map with aligned parallel editions. Starting with a trilingual edition of the Journey of Benjamin of Tudela, a Jewish 12th century traveler, the project will continue to integrate additional Travelogs. XML files are available under CC BY 4.0.</p>\n        <a href=\"https://www.teipub-dh-dev.com/exist/apps/TraveLab/Benjamin%20of%20Tudela.xml\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:Sinai.Rusinek@gmail.com\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
         ,

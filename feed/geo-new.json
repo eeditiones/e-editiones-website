@@ -146,7 +146,7 @@
     "address": "Tel Aviv University, Israel",
     "latitude": "32.1133186",
     "longitude": "34.8018128",
-    "description": "The Dybbuk (https://dybbuk.co/) is an ERC funded 5-year research project that sets out to uncover and explore the popular theatre that made up the daily cultural reality of the Jewish masses at the turn of the 20th century. In this framework, four prompter manuscripts are used to decipher, reconstruct, analyse and finally re-enact the 1898 Yiddish play “Der Dybbuk” by Josef Lateiner. Each annotated notebook is provided with facsimile as well as in a joint synoptic edition. The project workflow included a configured annotation workspace.",
+    "description": "The Dybbuk (https://dybbuk.co/) is an ERC funded 5-year research project that sets out to uncover and explore the popular theatre that made up the daily cultural reality of the Jewish masses at the turn of the 20th century. In this framework, four prompter manuscripts are used to decipher, reconstruct, analyse and finally re-enact the 1898 Yiddish play “Der Dybbuk” by Josef Lateiner. Each annotated notebook is provided with facsimile as well as in a joint synoptic edition. The project workflow included a configured annotation workspace. Note, the current web address is unstable and we are working on a new location.",
     "url": "https://teipublisher.info/exist/apps/Dybbuk/index.html",
     "email": "Sinai.Rusinek@gmail.com"
   },
@@ -477,7 +477,7 @@
     "latitude": "32.763276",
     "longitude": "35.016468",
     "description": "Sand and Stars (https://www.dzi.de/ueber-uns/geschichte/digitalisierungsprojekt-sand-und-sterne/), a project funded by DZI – Deutsches Zentralinstitut für soziale Fragen, builds a synoptic trilingual annotated edition of the unpublished novel by Sidonie Wronsky, (Berlin, 1882–Jerusalem, 1947) who was an notable Jewish German social reformist and social worker, active in both the German welfare system and later in the Jewish community in Mandatory Palestine.",
-    "url": "https://teipublisher.info/exist/apps/Sand-and-Stars/Synoptic Version.xml",
+    "url": "https://www.teipub-dh-dev.com/exist/apps/Sand-and-Stars/index.html",
     "email": "Sinai.Rusinek@gmail.com"
   },
   
@@ -537,7 +537,7 @@
     "latitude": " 32.226779",
     "longitude": "34.997124",
     "description": "TraveLab is a project that explores new ways to read Historical travelogs, combining an interactive map with aligned parallel editions. Starting with a trilingual edition of the Journey of Benjamin of Tudela, a Jewish 12th century traveler, the project will continue to integrate additional Travelogs. XML files are available under CC BY 4.0.",
-    "url": "https://teipublisher.info/exist/apps/TraveLab/index.html",
+    "url": "https://www.teipub-dh-dev.com/exist/apps/TraveLab/Benjamin%20of%20Tudela.xml",
     "email": "Sinai.Rusinek@gmail.com"
   },
   
