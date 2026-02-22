@@ -5,12 +5,27 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2026-02-03T00:00:00Z</updated>
+	<updated>2026-02-20T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>DHd 2026 - Nicht nur Text, nicht nur Daten</title>
+		<link href="https://e-editiones.org/posts/conference-dhd2026/"/>
+		<updated>2026-02-20T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/conference-dhd2026/</id>
+		<content type="html">&lt;p&gt;e-editiones will be participating in the &lt;a href=&quot;https://dhd2026.digitalhumanities.de/?page_id=21&amp;amp;lang=en&quot;&gt;DHd2026&lt;/a&gt; in Vienna from February 23–27, 2026.&lt;/p&gt;
+&lt;p&gt;On Tuesday, February 24, e-editiones together with the Universitätsbibliothek Kiel will offer a full-day on-site workshop:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TEI Publisher reloaded: Digitale Editionen mit System – modular, nachhaltig, community-orientiert&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The workshop will focus on structured, sustainable, and community-oriented approaches to building digital editions with TEI Publisher.&lt;/p&gt;
+&lt;p&gt;Workshop information and materials are available at: &lt;a href=&quot;https://e-editiones.org/dhd2026&quot;&gt;e-editiones.org/dhd2026&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please note: the workshop and all resources are in German.&lt;/p&gt;
+&lt;p&gt;We are very much looking forward to meeting colleagues and friends in Vienna!&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>TEI Publisher v10 celebration</title>
