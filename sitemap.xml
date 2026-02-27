@@ -682,11 +682,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/beginner/</loc>
-    <lastmod>2026-02-27</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/interoperability/</loc>
     <lastmod>2026-02-27</lastmod>
   </url>
@@ -702,7 +697,22 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <lastmod>2026-02-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/grants/</loc>
+    <lastmod>2026-02-27</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/dh2024/</loc>
+    <lastmod>2026-02-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/beginner/</loc>
     <lastmod>2026-02-27</lastmod>
   </url>
   
@@ -713,16 +723,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/best-practice/</loc>
-    <lastmod>2026-02-27</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/epidoc/</loc>
-    <lastmod>2026-02-27</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/fore/</loc>
     <lastmod>2026-02-27</lastmod>
   </url>
   
@@ -742,12 +742,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/ukraine/</loc>
+    <loc>https://e-editiones.org/tags/epidoc/</loc>
     <lastmod>2026-02-27</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/grants/</loc>
+    <loc>https://e-editiones.org/tags/fore/</loc>
     <lastmod>2026-02-27</lastmod>
   </url>
   
