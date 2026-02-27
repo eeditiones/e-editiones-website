@@ -54,7 +54,7 @@ eleventyNavigation:
 - Sinai Rusinek, [Elijah Lab](https://elijahlab.haifa.ac.il/ "Elijah Lab"), Haifa University; project leader of TraveLab
 - Roman Sigg, [Stadtarchivar Stein am Rhein](https://www.steinamrhein.ch/xml_1/internet/de/application/d3/d723/d724/f346.cfm)
 - Anna Skolimowska, Dr. hab., Head of the [Laboratory for Source Editing & Digital Humanities](http://fontes.ibi.uw.edu.pl/), Faculty of «Artes Liberales», University of Warsaw
-- Elisabeth Sünder, Landesbibliothek Oldenburg
+- Elisabeth Sünder, Referendarin [Landesbibliothek Oldenburg](https://www.lb-oldenburg.de/)
 - [Claudia Sutter](https://uzh.academia.edu/ClaudiaSutter), freie Historikerin, Archivarin, Stein am Rhein, Urbar des Dominikanerinnenklosters St. Katharinen St.Gallen
 - [Georg Vogeler](https://online.uni-graz.at/kfu_online/wbForschungsportal.cbShowPortal?pPersonNr=80075), Dr. phil., Professor Digital Humanities, Zentrum für Informationsmodellierung, Universität Graz
 - [Andreas Wagner](https://www.lhlt.mpg.de/wagner/en), Dr., Max Planck Institute for Legal History and Legal Theory
