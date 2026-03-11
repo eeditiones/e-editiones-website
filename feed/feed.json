@@ -10,6 +10,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://e-editiones.org/posts/naegeli-edition-online/",
+      "url": "https://e-editiones.org/posts/naegeli-edition-online/",
+      "title": "Now Online: Digital Edition of the Correspondence of Hans Georg and Hermann Nägeli",
+      "content_html": "<p>The digital edition of the correspondence of Hans Georg and Hermann Nägeli presents the letters preserved at the Zentralbibliothek Zürich, written by father and son Nägeli between 1790 and 1872. These documents offer multifaceted and diverse insights into the world of the Nägelis: they illustrate Hans Georg Nägeli's development as a composer and music publisher, his efforts regarding copyright for musical works, his commitment to music education in schools, the founding of choral societies, and facets of his family life and everyday concerns. The edition is intended as a &quot;work-in-progress&quot; and will be continuously supplemented with further letters.</p>\n<p>The edition was built from the ground up using TEI-Publisher 10 and was realized in collaboration with the companies Jinntec and Kränzle &amp; Ritter GmbH.</p>\n<p>This edition joins the series of projects hosted at <a href=\"https://sources-online.org/\">sources-online.org</a>.</p>\n<p><strong>Link</strong>: <a href=\"https://www.naegeli-briefe.ch/\">https://www.naegeli-briefe.ch</a></p>\n",
+      "date_published": "2026-03-11T00:00:00Z"
+    },{
       "id": "https://e-editiones.org/posts/conference-dhd2026/",
       "url": "https://e-editiones.org/posts/conference-dhd2026/",
       "title": "DHd 2026 - Nicht nur Text, nicht nur Daten",
