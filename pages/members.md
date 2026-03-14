@@ -10,6 +10,7 @@ eleventyNavigation:
 ## Institutional Members
 
 - [Digital Humanities](https://www.dh.unibe.ch/)/[Walter Benjamin Kolleg](https://www.wbkolleg.unibe.ch/) der Universität Bern
+- [Freie Universität Berlin](https://www.fu-berlin.de/)
 - [The Hans Christian Andersen Centre](https://www.sdu.dk/en/forskning/hca), University of Southern Denmark
 - [HISOMA-CNRS-Université Lyon 2](https://www.hisoma.mom.fr/)
 - [Institute of Slovenian Literature and Literary studies](https://isllv.zrc-sazu.si/en/predstavitev#v), Research Centre of the Slovenian Academy of Sciences and Arts, Ljubljana
