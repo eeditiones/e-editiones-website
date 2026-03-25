@@ -602,17 +602,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/conference/</loc>
-    <lastmod>2026-03-25</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/e-editiones/</loc>
     <lastmod>2026-03-25</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/static/</loc>
+    <loc>https://e-editiones.org/tags/conference/</loc>
     <lastmod>2026-03-25</lastmod>
   </url>
   
@@ -622,12 +617,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/release/</loc>
-    <lastmod>2026-03-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/annotations/</loc>
+    <loc>https://e-editiones.org/tags/static/</loc>
     <lastmod>2026-03-25</lastmod>
   </url>
   
@@ -642,6 +632,16 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/release/</loc>
+    <lastmod>2026-03-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/annotations/</loc>
+    <lastmod>2026-03-25</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2026-03-25</lastmod>
   </url>
@@ -652,17 +652,17 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/exist-db/</loc>
+    <lastmod>2026-03-25</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/odd/</loc>
     <lastmod>2026-03-25</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/schema/</loc>
-    <lastmod>2026-03-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/exist-db/</loc>
     <lastmod>2026-03-25</lastmod>
   </url>
   
@@ -688,21 +688,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/beginner/</loc>
-    <lastmod>2026-03-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/interoperability/</loc>
-    <lastmod>2026-03-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/osa20/</loc>
-    <lastmod>2026-03-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/tei/</loc>
     <lastmod>2026-03-25</lastmod>
   </url>
   
@@ -757,12 +742,27 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/announcement/</loc>
+    <loc>https://e-editiones.org/tags/digital-edition/</loc>
     <lastmod>2026-03-25</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/digital-edition/</loc>
+    <loc>https://e-editiones.org/tags/hosting/</loc>
+    <lastmod>2026-03-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/interoperability/</loc>
+    <lastmod>2026-03-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/osa20/</loc>
+    <lastmod>2026-03-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei/</loc>
     <lastmod>2026-03-25</lastmod>
   </url>
   
@@ -782,7 +782,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/hosting/</loc>
+    <loc>https://e-editiones.org/tags/announcement/</loc>
     <lastmod>2026-03-25</lastmod>
   </url>
   
@@ -812,7 +812,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/tei-vanilla/</loc>
+    <loc>https://e-editiones.org/tags/semantic-encoding/</loc>
+    <lastmod>2026-03-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/vscode/</loc>
     <lastmod>2026-03-25</lastmod>
   </url>
   
@@ -822,12 +827,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/semantic-encoding/</loc>
-    <lastmod>2026-03-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/vscode/</loc>
+    <loc>https://e-editiones.org/tags/tei-vanilla/</loc>
     <lastmod>2026-03-25</lastmod>
   </url>
   

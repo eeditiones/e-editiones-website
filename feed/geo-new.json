@@ -172,6 +172,16 @@
   },
   
   {
+    "name": " Digitale Edition der Korrespndenzen von Hans Georg und Hermann Nägeli",
+    "address": "Zentralbibliothek Zürich, Zähringerplatz 6, 8001  Zürich",
+    "latitude": "47.374272514448975",
+    "longitude": "8.545464599477834",
+    "description": "The Archive-Edition presents the correspondence between the Zurich composer, music dealer and music teacher Hans Georg Nägeli and his son Hermann. Facsimiles, transcriptions and and registers are included. XML files are available under the BB-CY-4.0 licence.",
+    "url": "https://naegeli-briefe.ch",
+    "email": "jesko.reiling@zb.uzh.ch"
+  },
+  
+  {
     "name": "Dossier Digital: Alexander von Humboldt y Cuba (1800–1830)",
     "address": "La Habana, Cuba",
     "latitude": "23.13109615077527",
@@ -579,16 +589,6 @@
     "description": "An independent digital edition of Wilhelm von Humboldt&#39;s (1767–1835) complete works, presented in a modern, accessible, and sustainable format. The ongoing project offers TEI-encoded texts in a fully searchable and user-friendly interface.",
     "url": "https://www.wvh-schriften.de",
     "email": "kontakt@wvh-schriften.de"
-  },
-  
-  {
-    "name": " Digitale Edition der Korrespndenzen von Hans Georg und Hermann Nägeli",
-    "address": "Zentralbibliothek Zürich, Zähringerplatz 6, 8001  Zürich",
-    "latitude": "47.374272514448975",
-    "longitude": "8.545464599477834",
-    "description": "The Archive-Edition presents the correspondence between the Zurich composer, music dealer and music teacher Hans Georg Nägeli and his son Hermann. Facsimiles, transcriptions and and registers are included. XML files are available under the BB-CY-4.0 licence.",
-    "url": "https://naegeli-briefe.ch",
-    "email": "jesko.reiling@zb.uzh.ch"
   }
   
 ]
