@@ -757,6 +757,19 @@
                 "description": "<div>\n        <h4>Wilhelm von Humboldt: Schriften</h4>\n        <p>An independent digital edition of Wilhelm von Humboldt&#39;s (1767–1835) complete works, presented in a modern, accessible, and sustainable format. The ongoing project offers TEI-encoded texts in a fully searchable and user-friendly interface.</p>\n        <a href=\"https://www.wvh-schriften.de\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:kontakt@wvh-schriften.de\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
             }
         }
+        ,
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.545464599477834,47.374272514448975]
+            },
+            "properties": {
+                "name": " Digitale Edition der Korrespndenzen von Hans Georg und Hermann Nägeli",
+                "description": "<div>\n        <h4> Digitale Edition der Korrespndenzen von Hans Georg und Hermann Nägeli</h4>\n        <p>The Archive-Edition presents the correspondence between the Zurich composer, music dealer and music teacher Hans Georg Nägeli and his son Hermann. Facsimiles, transcriptions and and registers are included. XML files are available under the BB-CY-4.0 licence.</p>\n        <a href=\"https://naegeli-briefe.ch\" class=\"badge bg-light text-dark\">Link</a>\n        \n        <a href=\"mailto:jesko.reiling@zb.uzh.ch\" class=\"badge bg-light text-dark\">Contact</a>\n        \n    </div>\n"
+            }
+        }
         
         
     ]
