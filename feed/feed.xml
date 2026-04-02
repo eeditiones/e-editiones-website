@@ -5,12 +5,40 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2026-03-11T00:00:00Z</updated>
+	<updated>2026-04-07T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Tips and tricks around TEI Publisher 10</title>
+		<link href="https://e-editiones.org/posts/community-event-tp10-tips-and-tricks/"/>
+		<updated>2026-04-07T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/community-event-tp10-tips-and-tricks/</id>
+		<content type="html">&lt;p&gt;Community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+event&amp;amp;iso=20260407T17&amp;amp;p1=268&amp;amp;ah=1&quot;&gt;April 07, 2026 at 17:00 CEST&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This meetup is meant as a follow up on the &lt;a href=&quot;https://e-editiones.org/posts/community-event-tei-publisher-10/&quot;&gt;February talk about TEI Publisher 10&lt;/a&gt;. While we covered the basics in the previous session, this meetup will concentrate more on best practice questions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;how to recreate an existing TEI Publisher app with TP 10&lt;/li&gt;
+&lt;li&gt;best practices to ensure smooth future updates&lt;/li&gt;
+&lt;li&gt;development workflow
+&lt;ul&gt;
+&lt;li&gt;when to regenerate the application via jinks?&lt;/li&gt;
+&lt;li&gt;how to sync local changes to the database?&lt;/li&gt;
+&lt;li&gt;how to sync database changes to local directory and git?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;caveats and traps to watch out for&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We&#39;ll have a few developers in the room who already implemented several new TEI Publisher 10 projects and ported older applications to it. This will give us an oportunity to discuss things from a very practical perspective.&lt;/p&gt;
+&lt;p&gt;Me meet Tuesday April 7 at 17:00 CEST in &lt;a href=&quot;https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGFmZTUzMDMtYzg4OS00YTA3LTg3YjctYTY1ZWM5OWI2MTg4%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d&quot;&gt;Teams&lt;/a&gt;!&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;https://e-editiones.org/img/community-event-tp10-tips-and-tricks.png&quot; /&gt;
+    &lt;figcaption&gt;Jinks CLI, Web App and Source Code&lt;/figcaption&gt;
+&lt;/figure&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Now Online: Digital Edition of the Correspondence of Hans Georg and Hermann Nägeli</title>

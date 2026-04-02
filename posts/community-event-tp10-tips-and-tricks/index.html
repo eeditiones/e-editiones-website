@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Now Online: Digital Edition of the Correspondence of Hans Georg and Hermann Nägeli</title>
+    <title>Tips and tricks around TEI Publisher 10</title>
     <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
     
 <link rel="icon" href="/favicon.ico">
@@ -86,7 +86,7 @@
                 <a href="https://social.e-editiones.org/@eeditiones" class="me-4" target="_blank"><i class="bi bi-mastodon"></i></a>
                 <a href="https://www.linkedin.com/company/e-editiones" class="me-4" target="_blank"><i class="bi bi-linkedin"></i></a>            
                 <a href="https://www.instagram.com/eeditiones/" class="me-4" target="_blank"><i class="bi bi-instagram"></i></a>
-                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/naegeli-edition-online.md" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/community-event-tp10-tips-and-tricks.md" target="_blank"><i class="bi bi-github"></i></a>
             </div>
         </div>
     </div>
@@ -96,40 +96,59 @@
 <main class="container tmpl-post">
     <div class="row gx-lg-5 gx-2">
         <div class="col-lg-9 col-md-9">
-            <h1>Now Online: Digital Edition of the Correspondence of Hans Georg and Hermann Nägeli</h1>
+            <h1>Tips and tricks around TEI Publisher 10</h1>
 
             <div class="dateline">
-              <div>Elias Kreyenbühl</div>
-              <time datetime="2026-03-11">11 Mar 2026</time>
+              <div>Wolfgang Meier</div>
+              <time datetime="2026-04-07">07 Apr 2026</time>
             </div>
 
             
+            <p class="alert alert-warning">The <a href="/pages/community-meetings" class="alert-link" >community meetings</a> are held online using
+              <a class="alert-link" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGFmZTUzMDMtYzg4OS00YTA3LTg3YjctYTY1ZWM5OWI2MTg4%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d">this link</a>,
+                usually on the first Tuesday of each month at 17:00 CET/CEST. No registration is required to attend. 
+                We warmly invite you to propose topics 
+                <a class="alert-link" href="mailto:info@e-editiones.org">info@e-editiones.org</a> 
+                for the forthcoming meetings.
+            </p>
             
-            <p>The digital edition of the correspondence of Hans Georg and Hermann Nägeli presents the letters preserved at the Zentralbibliothek Zürich, written by father and son Nägeli between 1790 and 1872. These documents offer multifaceted and diverse insights into the world of the Nägelis: they illustrate Hans Georg Nägeli's development as a composer and music publisher, his efforts regarding copyright for musical works, his commitment to music education in schools, the founding of choral societies, and facets of his family life and everyday concerns. The edition is intended as a &quot;work-in-progress&quot; and will be continuously supplemented with further letters.</p>
-<p>The edition was built from the ground up using TEI-Publisher 10 and was realized in collaboration with the companies Jinntec and Kränzle &amp; Ritter GmbH.</p>
-<p>This edition joins the series of projects hosted at <a href="https://sources-online.org">sources-online.org</a>.</p>
-<p><strong>Link</strong>: <a href="https://www.naegeli-briefe.ch">https://www.naegeli-briefe.ch</a></p>
+            
+            <p>Community meetup on <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+event&amp;iso=20260407T17&amp;p1=268&amp;ah=1">April 07, 2026 at 17:00 CEST</a>.</p>
+<p>This meetup is meant as a follow up on the <a href="/posts/community-event-tei-publisher-10/">February talk about TEI Publisher 10</a>. While we covered the basics in the previous session, this meetup will concentrate more on best practice questions.</p>
+<ul>
+<li>how to recreate an existing TEI Publisher app with TP 10</li>
+<li>best practices to ensure smooth future updates</li>
+<li>development workflow
+<ul>
+<li>when to regenerate the application via jinks?</li>
+<li>how to sync local changes to the database?</li>
+<li>how to sync database changes to local directory and git?</li>
+</ul>
+</li>
+<li>caveats and traps to watch out for</li>
+</ul>
+<p>We'll have a few developers in the room who already implemented several new TEI Publisher 10 projects and ported older applications to it. This will give us an oportunity to discuss things from a very practical perspective.</p>
+<p>Me meet Tuesday April 7 at 17:00 CEST in <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGFmZTUzMDMtYzg4OS00YTA3LTg3YjctYTY1ZWM5OWI2MTg4%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d">Teams</a>!</p>
+<figure>
+    <img src="/img/community-event-tp10-tips-and-tricks.png">
+    <figcaption>Jinks CLI, Web App and Source Code</figcaption>
+</figure>
 
         </div>
         
         <aside class="col-lg-3 col-md-3">
 
             <div class="btn-group w-100 mb-3">
-              <a class="btn btn-light" href="/posts/community-event-tp10-tips-and-tricks/"
-                data-bs-toggle="tooltip" title="Tips and tricks around TEI Publisher 10">
-                <i class="bi bi-arrow-left"></i>
-              </a>
-              
-              <a class="btn btn-light" href="/posts/conference-dhd2026/"
-                data-bs-toggle="tooltip" title="DHd 2026 - Nicht nur Text, nicht nur Daten">
+              <a class="btn btn-light" href="/posts/naegeli-edition-online/"
+                data-bs-toggle="tooltip" title="Now Online: Digital Edition of the Correspondence of Hans Georg and Hermann Nägeli">
                 <i class="bi bi-arrow-right"></i>
               </a>
               
             </div>
 
             <ul class="tags mb-3">
-              <li><a href="/tags/digital-edition/" class="badge text-bg-light" style="color: var(--color-2) !important">digital edition</a></li>
-              <li><a href="/tags/announcements/" class="badge text-bg-light" style="color: var(--color-3) !important">announcements</a></li>
+              <li><a href="/tags/events/" class="badge text-bg-light" style="color: var(--color-2) !important">events</a></li>
+              <li><a href="/tags/meetups/" class="badge text-bg-light" style="color: var(--color-3) !important">meetups</a></li>
             </ul>
 
             
