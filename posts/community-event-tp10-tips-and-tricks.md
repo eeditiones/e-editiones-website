@@ -29,6 +29,14 @@ We'll have a few developers in the room who already implemented several new TEI 
 
 Me meet Tuesday April 7 at 17:00 CEST in [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGFmZTUzMDMtYzg4OS00YTA3LTg3YjctYTY1ZWM5OWI2MTg4%40thread.v2/0?context=%7b%22Tid%22%3a%22bd21f2e9-9af5-42a1-8caf-eb264278467f%22%2c%22Oid%22%3a%227e4db3d1-dfdc-46a5-b4f2-aaea8a156edb%22%7d)!
 
+**Support e-editiones** 
+
+You can help us spread the word by liking and sharing our social media posts about the event and by telling colleagues and friends who might be interested.
+
+🔗 Event posts: [Mastodon](https://social.e-editiones.org/@eeditiones/116337002244830435), [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7445569403376689154), [BlueSky](https://bsky.app/profile/e-editiones.bsky.social/post/3mik2qycdjs2r), [Instagram](https://www.instagram.com/p/DWpJ6-SiPoW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==).
+
+Thank you for supporting the community!
+
 <figure>
     <img src="/img/community-event-tp10-tips-and-tricks.png">
     <figcaption>Jinks CLI, Web App and Source Code</figcaption>
