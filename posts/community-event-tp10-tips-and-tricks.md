@@ -39,7 +39,6 @@ You can help us spread the word by liking and sharing our social media posts abo
 
 Thank you for supporting the community!
 
-<figure>
-    <img src="/img/community-event-tp10-tips-and-tricks.png">
-    <figcaption>Jinks CLI, Web App and Source Code</figcaption>
-</figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a95ky1FJdzY?si=9ZpS_YtrGHS0wCgt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- Recording: [Youtube](https://youtu.be/a95ky1FJdzY)
