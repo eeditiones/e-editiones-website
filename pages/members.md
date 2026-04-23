@@ -16,7 +16,7 @@ eleventyNavigation:
 - [Institute of Slovenian Literature and Literary studies](https://isllv.zrc-sazu.si/en/predstavitev#v), Research Centre of the Slovenian Academy of Sciences and Arts, Ljubljana
 - [Karl Barth-Stiftung](https://karlbarth.unibas.ch/de/), Basel
 - [Kommission für Geschichte des Parlamentarismus und der politischen Parteien e.V.](https://www.kgparl.de)
-- [Max-Planck-Instituts für Rechtsgeschichte und Rechtstheorie](https://www.lhlt.mpg.de), Frankfurt am Main
+- [Max-Planck-Institut für Rechtsgeschichte und Rechtstheorie](https://www.lhlt.mpg.de), Frankfurt am Main
 - [Schola Cantorum Basiliensis / FHNW](https://www.fhnw.ch/de/die-fhnw/hochschulen/musik/schola-cantorum-basiliensis)
 - [Schweizerische Akademie der Geistes- und Sozialwissenschaften (SAGW)](https://sagw.ch/sagw/)
 - [Staatsarchiv Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html), Zürich
