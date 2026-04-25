@@ -7,8 +7,8 @@ eleventyNavigation:
     order: 3
 ---
 
-- Dr. [Andreas Kränzle](https://k-r.ch), [Karl Barth-Archiv](https://karlbarth.unibas.ch/de/), Basel
-- Dr. Anne Diekjobst, Universitäts- und Landesbibliothek Bonn
+- Dr. Anne Diekjobst, Universitäts- und Landesbibliothek Bonn (Co-President)
+- Dr. [Andreas Kränzle](https://k-r.ch), [Karl Barth-Archiv](https://karlbarth.unibas.ch/de/), Basel (Co-President)
 - Silvia Berigüete Pastor, Developer and TEI editor of the digital scholarly edition [Wilhelm von Humboldt: Schriften](http://www.wvh-schriften.de), Madrid
 - Wolfgang Meier, [eXist Solutions GmbH](http://existsolutions.com/index.html), Lenzkirch/Berlin, Heidelberger Akademie der Wissenschaften, Heidelberg
 - [Prof. em. Dr. Martin Mueller](https://english.northwestern.edu/people/faculty/emeritus/martin-mueller.html), North Western University, Deparment of English
