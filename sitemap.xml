@@ -612,11 +612,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
-    <lastmod>2026-05-02</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/conference/</loc>
     <lastmod>2026-05-02</lastmod>
   </url>
@@ -628,6 +623,11 @@
   
   <url>
     <loc>https://e-editiones.org/tags/static/</loc>
+    <lastmod>2026-05-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
     <lastmod>2026-05-02</lastmod>
   </url>
   
@@ -647,12 +647,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/meetups/</loc>
+    <loc>https://e-editiones.org/tags/workshop/</loc>
     <lastmod>2026-05-02</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/workshop/</loc>
+    <loc>https://e-editiones.org/tags/meetups/</loc>
     <lastmod>2026-05-02</lastmod>
   </url>
   
@@ -697,51 +697,6 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/beginner/</loc>
-    <lastmod>2026-05-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/dh2024/</loc>
-    <lastmod>2026-05-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/report/</loc>
-    <lastmod>2026-05-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/best-practice/</loc>
-    <lastmod>2026-05-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/hugo/</loc>
-    <lastmod>2026-05-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/pb-component/</loc>
-    <lastmod>2026-05-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/wordpress/</loc>
-    <lastmod>2026-05-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/epidoc/</loc>
-    <lastmod>2026-05-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/fore/</loc>
-    <lastmod>2026-05-02</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/interoperability/</loc>
     <lastmod>2026-05-02</lastmod>
   </url>
@@ -767,7 +722,52 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/digital-edition/</loc>
+    <loc>https://e-editiones.org/tags/dh2024/</loc>
+    <lastmod>2026-05-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/report/</loc>
+    <lastmod>2026-05-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/epidoc/</loc>
+    <lastmod>2026-05-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/fore/</loc>
+    <lastmod>2026-05-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/hugo/</loc>
+    <lastmod>2026-05-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/pb-component/</loc>
+    <lastmod>2026-05-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/wordpress/</loc>
+    <lastmod>2026-05-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/best-practice/</loc>
+    <lastmod>2026-05-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/announcement/</loc>
+    <lastmod>2026-05-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/beginner/</loc>
     <lastmod>2026-05-02</lastmod>
   </url>
   
@@ -792,7 +792,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/announcement/</loc>
+    <loc>https://e-editiones.org/tags/digital-edition/</loc>
     <lastmod>2026-05-02</lastmod>
   </url>
   
