@@ -1,9 +1,13 @@
 ---
-layout: layouts/content.njk
 title: "Support e-editiones"
 short: "donate"
 lead: "Help sustain open source tools and resources for digital scholarly editions."
 date: 2026-05-02
+permalink: /donate/
+eleventyNavigation:
+    parent: Community
+    key: Donate
+    order: 4
 tags:
     - e-editiones
 ---
@@ -18,11 +22,16 @@ Your contribution funds the long-term maintenance of open source tools for digit
 
 ### Bank transfer
 
-Our IBAN (PostFinance) is in the page footer. Transfers arrive without fees on our side. For a Swiss QR-bill or a specific reference, please contact [board@e-editiones.org](mailto:board@e-editiones.org).
+**e-editiones**  
+c/o Stadtarchiv der Ortsbürgergemeinde St. Gallen  
+Notkerstrasse 22  
+CH-9000 St. Gallen  
+[info@e-editiones.org](mailto:info@e-editiones.org)
 
-### Twint
+**IBAN:** CH21 0900 0000 1549 5086 6  
+**BIC:** POFICHBEXXX
 
-A Twint donation QR for non-profits is in preparation. In the meantime, please use PayPal or bank transfer.
+For a Swiss QR-bill or a specific reference, please contact [board@e-editiones.org](mailto:board@e-editiones.org).
 
 ### Become a member
 
