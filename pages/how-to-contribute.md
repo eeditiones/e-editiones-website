@@ -27,7 +27,7 @@ Found a bug? Miss a feature? File an issue on our [GitHub](https://github.com/ee
 
 ## Help with funding
 
-We're happy to join funding bids which relate to the goals of our society or accept partners contributing seed funds to the proposals we make. Need a feature but can't finance it in full? Please get in touch and we'll try to pool resources within our community to make it happen. Last but not least, we have a [Donate](https://www.paypal.com/donate?hosted_button_id=ST7PNHJK3FMX8) button and your contributions go into open source development.
+We're happy to join funding bids which relate to the goals of our society or accept partners contributing seed funds to the proposals we make. Need a feature but can't finance it in full? Please get in touch and we'll try to pool resources within our community to make it happen. Last but not least, see our [Donate](/donate/) page — your contributions go into open source development.
 
 ## Share your expertise
 
