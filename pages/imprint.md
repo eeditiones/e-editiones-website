@@ -11,6 +11,8 @@ Notkerstrasse 22\
 CH-9000 St. Gallen\
 info@e-editiones.org
 
+UID: CHE-474.398.996
+
 ## Technical support and implementation
 
 JinnTec GmbH, Berlin (https://jinntec.de)
