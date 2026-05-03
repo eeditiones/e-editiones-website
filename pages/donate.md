@@ -21,9 +21,10 @@ Your contribution funds the long-term maintenance of open source tools for digit
 <div class="col">
 <div class="card h-100">
 <div class="card-body d-flex flex-column">
-<h3 class="h5 card-title"><i class="bi bi-paypal me-2"></i>PayPal</h3>
-<p class="card-text flex-grow-1">Credit card, PayPal balance or bank-linked account — single or recurring.</p>
-<a href="https://www.paypal.com/donate?hosted_button_id=ST7PNHJK3FMX8" class="btn btn-warning align-self-start" target="_blank" rel="noopener">Donate via PayPal</a>
+<h3 class="h5 card-title"><i class="bi bi-bank me-2"></i>Bank transfer (PostFinance)</h3>
+<p class="card-text mb-1"><strong>IBAN:</strong> CH21 0900 0000 1549 5086 6<br>
+<strong>BIC:</strong> POFICHBEXXX</p>
+<p class="card-text small text-muted flex-grow-1">For a Swiss QR-bill or a specific reference, contact <a href="mailto:board@e-editiones.org">board@e-editiones.org</a>.</p>
 </div>
 </div>
 </div>
@@ -43,7 +44,7 @@ Your contribution funds the long-term maintenance of open source tools for digit
 <div class="card-body d-flex flex-column">
 <h3 class="h5 card-title"><i class="bi bi-github me-2"></i>GitHub Sponsors</h3>
 <p class="card-text flex-grow-1">For developers and organisations who want to support our open source work directly on GitHub.</p>
-<a href="https://github.com/sponsors/eeditiones" class="btn btn-dark align-self-start" target="_blank" rel="noopener">Sponsor on GitHub</a>
+<a href="https://github.com/sponsors/eeditiones" class="btn btn-warning align-self-start" target="_blank" rel="noopener">Sponsor on GitHub</a>
 </div>
 </div>
 </div>
@@ -51,10 +52,9 @@ Your contribution funds the long-term maintenance of open source tools for digit
 <div class="col">
 <div class="card h-100">
 <div class="card-body d-flex flex-column">
-<h3 class="h5 card-title"><i class="bi bi-bank me-2"></i>Bank transfer (PostFinance)</h3>
-<p class="card-text mb-1"><strong>IBAN:</strong> CH21 0900 0000 1549 5086 6<br>
-<strong>BIC:</strong> POFICHBEXXX</p>
-<p class="card-text small text-muted flex-grow-1">For a Swiss QR-bill or a specific reference, contact <a href="mailto:board@e-editiones.org">board@e-editiones.org</a>.</p>
+<h3 class="h5 card-title"><i class="bi bi-paypal me-2"></i>PayPal</h3>
+<p class="card-text flex-grow-1">Credit card, PayPal balance or bank-linked account — single or recurring.</p>
+<a href="https://www.paypal.com/donate?hosted_button_id=ST7PNHJK3FMX8" class="btn btn-warning align-self-start" target="_blank" rel="noopener">Donate via PayPal</a>
 </div>
 </div>
 </div>
