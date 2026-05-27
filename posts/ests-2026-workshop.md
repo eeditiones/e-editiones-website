@@ -1,6 +1,6 @@
 ---
 title: Jinks workshop at ESTS
-date: 2026-01-19
+date: 2026-05-27
 short: "Jinks workshop at ESTS in Lublin"
 lead: "Special workshop dedicated to our Polish community of users"
 author: Magdalena Turska
