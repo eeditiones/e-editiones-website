@@ -1,6 +1,6 @@
 ---
-title: "e-editiones community meeting: June 16th at 17:00 CEST"
-lead: "COREL - evolution of Chinese Law Sources (1646-1906)"
+title: "COREL - evolution of Chinese Law Sources (1646-1906)"
+lead: "Compendium of all laws ever promulgated under the Qing, meticulously enriched and leveraged to produce compelling visual display for the edition"
 author: Magdalena Turska
 date: 2026-06-01
 tags:
