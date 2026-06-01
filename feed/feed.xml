@@ -17,11 +17,11 @@
 		<link href="https://e-editiones.org/posts/community-meeting-corel2026/"/>
 		<updated>2026-06-01T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/community-meeting-corel2026/</id>
-		<content type="html">&lt;p&gt;We would like to present an elaborate online edition of the Chinese Law Sources, carried at the &lt;a href=&quot;https://qingvirtualcode.huma-num.fr/about.html#team&quot;&gt;Université Côte d’Azur in collaboration with other research institutions&lt;/a&gt;.&lt;/p&gt;
+		<content type="html">&lt;p&gt;On June 16th, 2026, we will be meeting to present an elaborate online edition of the Chinese Law Sources, carried at the &lt;a href=&quot;https://qingvirtualcode.huma-num.fr/about.html#team&quot;&gt;Université Côte d’Azur in collaboration with other research institutions&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Apart from presenting the extant versions of the Qing Code, COREL aims to recreate and represent the evolution of the Chinese legal landscape through the imperial period. Users can choose to reconstruct the &lt;em&gt;virtual code&lt;/em&gt; of the canon of the law for a given year, or focus on the changes to the individual statutes of law (lü and tiaoli), observe how they change, split and merge through time.&lt;/p&gt;
 &lt;p&gt;The richly annotated TEI edition, structured as a compendium of all laws ever promulgated under the Qing, is accompanied by commentary produced by officials of the Board of Punishments during the code’s periodic revisions. This work, based on &lt;em&gt;Da Qing lüli anyu&lt;/em&gt; published in 1847, served as the foundation for constructing the virtual code. Each section has been meticulously enriched with information regarding its  relationships with others and this data has been leveraged to produce compelling visual display for the edition.&lt;/p&gt;
 &lt;p&gt;On the technical side, the TEI Publisher framework enhanced with a custom visualisation feature has been used to create a sustainable publication platform, meant to eventually replace an older project, deemed unmaintainable in the longer term.&lt;/p&gt;
-&lt;p&gt;An example of one of the interesting evolutionary paths, where original 17th century tiaoli is elaborated upon, and gradually merged with ultimately four others  (themselves subject to extensive revisions through the 18th century) can be seen below.&lt;/p&gt;
+&lt;p&gt;An example of one of the interesting evolutionary paths, where original 17th century tiaoli is elaborated upon, and gradually merged with ultimately others  (themselves subject to extensive revisions through the 18th century) can be seen below.&lt;/p&gt;
 &lt;img src=&quot;https://e-editiones.org/img/corel-tiaoli.png&quot; width=&quot;100%&quot; /&gt;
 </content>
 	</entry>
