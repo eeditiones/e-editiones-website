@@ -10,6 +10,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://e-editiones.org/posts/community-meeting-corel2026/",
+      "url": "https://e-editiones.org/posts/community-meeting-corel2026/",
+      "title": "e-editiones community meeting: June 16th at 17:00 CEST",
+      "content_html": "<p>We would like to present an elaborate online edition of the Chinese Law Sources, carried at the <a href=\"https://qingvirtualcode.huma-num.fr/about.html#team\">Université Côte d’Azur in collaboration with other research institutions</a>.</p>\n<p>Apart from presenting the extant versions of the Qing Code, COREL aims to recreate and represent the evolution of the Chinese legal landscape through the imperial period. Users can choose to reconstruct the <em>virtual code</em> of the canon of the law for a given year, or focus on the changes to the individual statutes of law (lü and tiaoli), observe how they change, split and merge through time.</p>\n<p>The richly annotated TEI edition, structured as a compendium of all laws ever promulgated under the Qing, is accompanied by commentary produced by officials of the Board of Punishments during the code’s periodic revisions. This work, based on <em>Da Qing lüli anyu</em> published in 1847, served as the foundation for constructing the virtual code. Each section has been meticulously enriched with information regarding its  relationships with others and this data has been leveraged to produce compelling visual display for the edition.</p>\n<p>On the technical side, the TEI Publisher framework enhanced with a custom visualisation feature has been used to create a sustainable publication platform, meant to eventually replace an older project, deemed unmaintainable in the longer term.</p>\n<p>An example of one of the interesting evolutionary paths, where original 17th century tiaoli is elaborated upon, and gradually merged with ultimately four others  (themselves subject to extensive revisions through the 18th century) can be seen below.</p>\n<img src=\"https://e-editiones.org/img/corel-tiaoli.png\" width=\"100%\" />\n",
+      "date_published": "2026-06-01T00:00:00Z"
+    },{
       "id": "https://e-editiones.org/posts/ests-2026-workshop/",
       "url": "https://e-editiones.org/posts/ests-2026-workshop/",
       "title": "Jinks workshop at ESTS",
