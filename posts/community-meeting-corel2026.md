@@ -9,7 +9,7 @@ tags:
     - talk
     - variants
 coverImage: corel.png
-coverImageCredits: Julia Peshkova
+coverImageCredits: Corel web design by Julia Peshkova
 ---
 
 On June 16th, 2026, we will be meeting to present an elaborate online edition of the Chinese Law Sources, carried at the [Université Côte d’Azur in collaboration with other research institutions](https://qingvirtualcode.huma-num.fr/about.html#team).
