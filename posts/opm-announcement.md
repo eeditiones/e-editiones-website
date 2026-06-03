@@ -1,6 +1,6 @@
 ---
 title: "Open Processing Model"
-lead: "A Call for Partner and Supporters to bring the TEI Processing model to Python workflows"
+lead: "A Call for Partners and Supporters to bring the TEI Processing model to Python workflows"
 author: Lars Windauer
 date: 2026-06-03
 tags:
@@ -30,9 +30,9 @@ The initiative will be working closely with the [TEI Consortium](https://tei-c.o
 
 We are currently seeking partners, supporters, collaborators, and institutions interested in advancing open standards and sustainable infrastructure for digital scholarly editing.
 
-Learn more in our <a href='/assets/files/prospectus-2026-05-11.pdf'>project prospectus</a> and support e-editiones e.V., the association with a passion for digital editions. Thank you! <3 
+Learn more in our <a href='/assets/files/prospectus-2026-05-11.pdf'>project prospectus</a> and support e-editiones, the association with a passion for digital editions. Thank you! <3 
 
 <figure>
     <img src="/img/opm-announcement.png">
-    <figcaption>Open Processing Model (OPM) brings TEI Processing model to Python workflows</figcaption>
+    <figcaption>Open Processing Model (OPM) brings TEI Processing Model to Python workflows</figcaption>
 </figure>
