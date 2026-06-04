@@ -5,12 +5,37 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2026-06-01T00:00:00Z</updated>
+	<updated>2026-06-03T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Open Processing Model</title>
+		<link href="https://e-editiones.org/posts/opm-announcement/"/>
+		<updated>2026-06-03T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/opm-announcement/</id>
+		<content type="html">&lt;p&gt;&lt;strong&gt;A new initiative for the TEI community is taking shape.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;e-editiones is pleased to announce the &lt;strong&gt;Open Processing Model (OPM)&lt;/strong&gt; project, an initiative to expand access to the &lt;a href=&quot;https://tei-c.org/release/doc/tei-p5-doc/en/html/TD.html#TDPMPM&quot;&gt;TEI Processing Model&lt;/a&gt; and strengthen its role within contemporary Digital Humanities workflows.&lt;/p&gt;
+&lt;p&gt;The project brings together an outstanding team, including Wolfgang Meier, creator of &lt;a href=&quot;https://tei-publisher.org/&quot;&gt;TEI Publisher&lt;/a&gt;, and Magdalena Turska, co-author of the TEI Processing Model, with guidance from a steering committee that includes members of the &lt;a href=&quot;https://tei-c.org/activities/council/&quot;&gt;TEI Technical Council&lt;/a&gt; and leading digital edition projects.&lt;/p&gt;
+&lt;p&gt;The project aims to deliver:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A new open-source Python implementation of the TEI Processing Model&lt;/li&gt;
+&lt;li&gt;Greater integration with Python-based Digital Humanities workflows&lt;/li&gt;
+&lt;li&gt;New opportunities for teaching, research, and scholarly editions&lt;/li&gt;
+&lt;li&gt;Contributions to the future development of the TEI standard through implementation-driven feedback&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The initiative will be working closely with the &lt;a href=&quot;https://tei-c.org/&quot;&gt;TEI Consortium&lt;/a&gt;, ensuring that practical implementation experience is directly conveyed or passed on to the TEI Technical Council, so it may directly inform the ongoing evolution of the TEI Processing Model specification.&lt;/p&gt;
+&lt;p&gt;We are currently seeking partners, supporters, collaborators, and institutions interested in advancing open standards and sustainable infrastructure for digital scholarly editing.&lt;/p&gt;
+&lt;p&gt;Learn more in our &lt;a href=&quot;https://e-editiones.org/assets/files/prospectus-2026-05-11.pdf&quot;&gt;project prospectus&lt;/a&gt; and support e-editiones, the association with a passion for digital editions. Thank you! &amp;lt;3&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;https://e-editiones.org/img/opm-announcement.png&quot; /&gt;
+    &lt;figcaption&gt;Open Processing Model (OPM) brings TEI Processing Model to Python workflows&lt;/figcaption&gt;
+&lt;/figure&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>COREL - evolution of Chinese Law Sources (1646-1906)</title>
