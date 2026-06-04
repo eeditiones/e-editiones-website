@@ -30,9 +30,17 @@ The initiative will be working closely with the [TEI Consortium](https://tei-c.o
 
 We are currently seeking partners, supporters, collaborators, and institutions interested in advancing open standards and sustainable infrastructure for digital scholarly editing.
 
-Learn more in our <a href='/assets/files/prospectus-2026-05-11.pdf'>project prospectus</a> and support e-editiones, the association with a passion for digital editions. Thank you! <3 
+Learn more in our <a href='/assets/files/prospectus-2026-05-11.pdf'>project prospectus</a> and support e-editiones, the association with a passion for digital editions. Thank you! <3
 
 <figure>
     <img src="/img/opm-announcement.png">
     <figcaption>Open Processing Model (OPM) brings TEI Processing Model to Python workflows</figcaption>
 </figure>
+
+**Support e-editiones** 
+
+You can help us spread the word by liking and sharing our social media posts and by telling colleagues and friends who might be interested.
+
+🔗 Posts: [Mastodon](https://social.e-editiones.org/@eeditiones/116691008163625183), [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7468226611964796928), [BlueSky](https://bsky.app/profile/e-editiones.bsky.social/post/3mnhbqjqtik2k), [Instagram](https://www.instagram.com/p/DZKKI2wCKGI), [Threads](https://www.threads.com/@eeditiones/post/DZKKKcqCP6t?xmt=AQG0QY1D-hT1w8IJTzfm2ZwsJEPfr-v1H2iIUOeP9CK2OA)
+
+Thank you for supporting the community
