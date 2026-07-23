@@ -16,13 +16,6 @@ Mark your calendars! On 15 September, e-editiones will release the Open Processi
 
 Join us for a first look at what OPM can bring to the TEI and Digital Humanities community. 
 
-### What to expect
-
-* A first look at the new Python implementation of the TEI Processing Model
-* OPM integration with existing Python-based DH workflows
-* Discussion of implications for teaching, research, and scholarly editions online
-* Alignment with the TEI Consortium and the TEI Technical Council
-
 We'll be joined by members of the project team, including Wolfgang Meier (creator of TEI Publisher) and Magdalena Turska (co-author of the TEI Processing Model), along with the OPM steering committee.
 
 ### Why it matters
