@@ -16,8 +16,6 @@ Mark your calendars! On 15 September, e-editiones will release the Open Processi
 
 Join us for a first look at what OPM can bring to the TEI and Digital Humanities community. 
 
-We'll be joined by members of the project team, including Wolfgang Meier (creator of TEI Publisher) and Magdalena Turska (co-author of the TEI Processing Model), along with the OPM steering committee.
-
 ### Why it matters
 
 The TEI Processing Model is a conceptual cornerstone designed to empower scholars working with XML-encoded material. It is used worldwide to process and publish numerous digital editions and other scholarly resources — online, in print, and in other output formats. Until now, access and adoption have been constrained to users of a particular technological stacks relying on XQuery and eXist-db. OPM removes these limitations and opens the affordances of the TEI PM to the wider Python ecosystem, making it easier for researchers, developers, and institutions to build on open standards.
