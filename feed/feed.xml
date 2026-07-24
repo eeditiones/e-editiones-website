@@ -5,12 +5,35 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2026-06-03T00:00:00Z</updated>
+	<updated>2026-07-23T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Save the Date: OPM Release</title>
+		<link href="https://e-editiones.org/posts/opm-save-the-date/"/>
+		<updated>2026-07-23T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/opm-save-the-date/</id>
+		<content type="html">&lt;h2 id=&quot;%F0%9F%97%93%EF%B8%8F-15th-september-at-17%3A00-cest&quot; tabindex=&quot;-1&quot;&gt;🗓️ 15th September at 17:00 CEST&lt;/h2&gt;
+&lt;p&gt;Mark your calendars! On 15 September, e-editiones will release the Open Processing Model (OPM) — an open-source Python implementation of the TEI Processing Model, bringing the power of TEI processing directly into popular scholarly workflows.&lt;/p&gt;
+&lt;p&gt;Join us for a first look at what OPM can bring to the TEI and Digital Humanities community.&lt;/p&gt;
+&lt;h3 id=&quot;why-it-matters&quot; tabindex=&quot;-1&quot;&gt;Why it matters&lt;/h3&gt;
+&lt;p&gt;The TEI Processing Model is a conceptual cornerstone designed to empower scholars working with XML-encoded material. It is used worldwide to process and publish numerous digital editions and other scholarly resources — online, in print, and in other output formats. Until now, access and adoption have been constrained to users of a particular technological stacks relying on XQuery and eXist-db. OPM removes these limitations and opens the affordances of the TEI PM to the wider Python ecosystem, making it easier for researchers, developers, and institutions to build on open standards.&lt;/p&gt;
+&lt;p&gt;📖 Read the full announcement: &lt;a href=&quot;https://e-editiones.org/posts/opm-announcement/&quot;&gt;Open Processing Model&lt;/a&gt; 📄 Project prospectus: &lt;a href=&quot;https://e-editiones.org/assets/files/prospectus-2026-05-11.pdf&quot;&gt;Read here (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;save-the-date&quot; tabindex=&quot;-1&quot;&gt;Save the date&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;📅 Date: Tuesday, 15 September 2026&lt;/li&gt;
+&lt;li&gt;🕒 Time: 17:00 CEST&lt;/li&gt;
+&lt;li&gt;📍 Location: Online (Teams)&lt;/li&gt;
+&lt;li&gt;🎟️ No Registration needed!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More details, including the full agenda, will follow shortly before the meeting takes place. In the meantime, spread the word and help us grow and support the community around open, sustainable infrastructure for digital scholarly editing.&lt;/p&gt;
+&lt;p&gt;Follow e-editiones on &lt;a href=&quot;https://social.e-editiones.org/@eeditiones&quot;&gt;Mastodon&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/company/e-editiones/&quot;&gt;LinkedIn&lt;/a&gt;, &lt;a href=&quot;https://bsky.app/profile/e-editiones.bsky.social&quot;&gt;BlueSky&lt;/a&gt; and &lt;a href=&quot;https://www.instagram.com/eeditiones/&quot;&gt;Instagram&lt;/a&gt; for updates.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Open Processing Model</title>
