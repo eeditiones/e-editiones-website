@@ -271,26 +271,34 @@ nav .icons a:link {
 .banner > div {
   background-color: var(--background-color-dark);
   height: 100%;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center; */
   text-align: center;
+  padding: 2rem 1rem 1.5rem;
 }
 
+/* Hero is centered in the space above the intro text */
 .banner .hero {
-  position: absolute;
-  top: 150px;
-  left: 0;
-  right: 0;
+  margin: auto 0;
 }
-/* .banner .hero .btn-warning {
-  --bs-btn-bg: var(--bs-link-color);
-} */
+
 .banner h1 {
   font-family: var(--font-family-headings);
   font-size: 5.8em;
-  margin-bottom: 0;
+  margin: 0 0 .75rem;
   line-height: 1;
+}
+
+.banner .hero-tagline {
+  font-size: 1.25rem;
+  margin: 0 0 1.75rem;
+}
+
+.banner .hero-buttons {
+  display: flex;
+  gap: .75rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 375px) {
@@ -326,8 +334,9 @@ nav .icons a:link {
 }
 
 .banner .intro-text {
-  position: absolute;
-  bottom: 0;
+  max-width: 56rem;
+  margin: 0 auto;
+  padding-bottom: .5rem;
 }
 
 /* footer */
