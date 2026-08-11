@@ -2,9 +2,9 @@
 title: "Strategy"
 date: "2020-06-08"
 eleventyNavigation:
-    parent: Society
+    parent: Community
     key: Strategy
-    order: 0
+    order: 1
 ---
 
 ## e-editiones: Focus of the Society
@@ -19,8 +19,6 @@ The focus of the the e-editiones society rests on 4 pillars:
 ### 1\. Initiating and Coordinating Developments in Open Source Software for Digital Editions
 
 The society promotes the use of open standards and open source software for digital editions. While digital editions may differ considerably in structure and content, there is great overlap in the basic technical functionality that each edition must offer. Small projects often face the challenge of publishing an edition under time pressure and with limited resources and would benefit from access to free, open source. standards-based software that could provide much of this functionality out of the box. All projects, including those that are well-resourced, would benefit from such software, by avoiding the need to reinvent the wheel and incur high development and maintenance costs, which threaten their long term sustainability.
-
-The society therefore focuses on the promotion of open source, standard-based software. Editions should be able to reuse existing building blocks in a modular way, achieving quick solutions at low cost, but without being forced into a corset, neither technically nor scholarly.
 
 The society therefore focuses on the promotion of open source, standard-based software. Editions should be able to reuse existing building blocks in a modular way, achieving quick solutions at low cost, but without being forced into a technical or scholarly corset. The starting point for the founders of the society is their shared use of TEI Publisher, which meets above conditions:
 

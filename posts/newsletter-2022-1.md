@@ -26,9 +26,9 @@ With the Escher correspondence, a prominent Swiss edition has been migrated to T
 
 ## More Information
 
-- [Current list of members](https://e-editiones.org/members/ "Current list of members")
-- [Statutes](https://e-editiones.org/statuten-des-vereins-e-editiones-german/ "Statutes") (in German)
-- How to [become a member](https://e-editiones.org/how-to-become-a-member/ "become a member")
+- [Current list of members](/pages/members/ "Current list of members")
+- [Statutes](/pages/statuten-des-vereins-e-editiones-german/ "Statutes") (in German)
+- How to [become a member](/pages/how-to-become-a-member/ "become a member")
 
 ## Events
 
@@ -57,7 +57,7 @@ A big thank you to all who actively participated in the meetings and workshops.
 ## More Information
 
 - [e-editiones-YouTube-Channel](https://www.youtube.com/channel/UCAPhSZdBwFRCEFWNNYOC4Ww "e-editiones-YouTube-Channel") (3 neue Videos)
-- [e-editiones blog](https://e-editiones.org/blog/ "e-editiones blog")
+- [e-editiones blog](/posts/ "e-editiones blog")
 
 # Communication
 

@@ -3,6 +3,7 @@
     font-family: 'Zilla Slab';
     font-style: normal;
     font-weight: 300;
+    font-display: swap;
     src: url('../fonts/zilla-slab-v11-latin-ext_latin-300.eot'); /* IE9 Compat Modes */
     src: local(''),
         url('../fonts/zilla-slab-v11-latin-ext_latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -16,6 +17,7 @@
     font-family: 'Zilla Slab';
     font-style: italic;
     font-weight: 300;
+    font-display: swap;
     src: url('../fonts/zilla-slab-v11-latin-ext_latin-300italic.eot'); /* IE9 Compat Modes */
     src: local(''),
         url('../fonts/zilla-slab-v11-latin-ext_latin-300italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -29,6 +31,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
+    font-display: swap;
     src: url('../fonts/lato-v23-latin-ext_latin-300.eot'); /* IE9 Compat Modes */
     src: local(''),
          url('../fonts/lato-v23-latin-ext_latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -42,6 +45,7 @@
     font-family: 'Lato';
     font-style: italic;
     font-weight: 300;
+    font-display: swap;
     src: url('../fonts/lato-v23-latin-ext_latin-300italic.eot'); /* IE9 Compat Modes */
     src: local(''),
          url('../fonts/lato-v23-latin-ext_latin-300italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -55,6 +59,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
+    font-display: swap;
     src: url('../fonts/lato-v23-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
     src: local(''),
          url('../fonts/lato-v23-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -68,6 +73,7 @@
     font-family: 'Lato';
     font-style: italic;
     font-weight: 400;
+    font-display: swap;
     src: url('../fonts/lato-v23-latin-ext_latin-italic.eot'); /* IE9 Compat Modes */
     src: local(''),
          url('../fonts/lato-v23-latin-ext_latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */

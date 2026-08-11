@@ -1,11 +1,13 @@
-<ul class="cloud" role="navigation" aria-label="tag cloud" data-show-value>
-  {% for tag, count in collections.tagList %}
-    {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-    {% set weight = count // 4 %}
-    {% set fontSize %}calc({{weight}} * 0.1rem + var(--font-size-smallest)){% endset %}
-    <li>
-      <a href="{{ tagUrl | url }}" data-count="{{count}}" 
-        style="font-size: {{fontSize}};" class="post-tag">{{ tag }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<nav aria-label="Tags">
+  <ul class="cloud">
+    {% for tag, count in collections.tagList %}
+      {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+      {% set weight = count // 4 %}
+      {% set fontSize %}calc({{weight}} * 0.1rem + var(--font-size-smallest)){% endset %}
+      <li>
+        <a href="{{ tagUrl | url }}"
+          style="font-size: {{fontSize}};" class="post-tag">{{ tag }} <span class="tag-count">({{count}})</span></a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

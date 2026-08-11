@@ -1,9 +1,6 @@
 ---
 title: "Libraries, Archives, Cultural Heritage and Memory Institutions"
 date: "2022-10-23"
-eleventyNavigation:
-    parent: Community
-    key: For memory institutions
 sidebar: false
 ---
 

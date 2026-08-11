@@ -2,9 +2,9 @@
 title: "Code of Conduct"
 date: "2022-12-06"
 eleventyNavigation:
-    parent: Community
+    parent: Society
     key: Code of Conduct
-    order: 5
+    order: 3
 sidebar: false
 ---
 
