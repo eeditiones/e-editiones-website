@@ -19,11 +19,11 @@ templateClass: 'registry'
     {% include "partials/menu.njk" %}
 </header>
 
-<main class="{{ templateClass }}">
+<main id="main" class="{{ templateClass }}">
     <!-- Flexbox-Container für Suchfeld und Reset-Button -->
     <div id="filter-container">
-        <input type="search" id="search" placeholder="Filter list" autocomplete="false" />
-        <button id="reset" title="reset search">&#x2715;</button>
+        <input type="search" id="search" placeholder="Filter list" aria-label="Filter registry entries" autocomplete="off" />
+        <button id="reset" title="reset search" aria-label="Reset search">&#x2715;</button>
     </div>
     <section id="map" class="panel map-panel"></section>
 

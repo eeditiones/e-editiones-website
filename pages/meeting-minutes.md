@@ -1,15 +1,9 @@
 ---
 title: "Meeting Minutes"
 date: "2020-06-10"
-eleventyNavigation:
-    parent: Society
-    key: Meeting Minutes
-    order: 2
 ---
 
 ### Assembly 2026 3rd March 2026 (16 h CET)
-
-Teams: [Join](https://teams.microsoft.com/meet/31669413632411?p=RBqFneqzMJIoMke31W)
 
 - Invitation (german/english) <a href="/resources/2026/Einladung_Traktanden 6. GV e-editiones.pdf">PDF</a>
 - [ad 3\] Protokoll der Sitzung vom 16.1.2025 (german) <a href="/resources/2026/Protokoll der 5. GV e-editiones.pages.pdf">Protokoll der 5. GV e-editiones</a>
@@ -50,7 +44,7 @@ Join conversation
 
 -  Invitation/Agenda - 3nd AGM of e-editiones (german, english) <a href="/resources/2023/Invitation_Agenda_3rdAGM e-editiones.pdf">PDF</a>
 - [ad 3\] Protokoll der Sitzung vom 5.4.2022 (german) <a href="/resources/2022/Protokoll-der-2.-GV-e-editiones-1.pdf">Protokoll der 2. GV e-editiones</a>
-- [ad 4\] [Annual Report (english)/Newsletter 2023/1](/posts/newsletter-2023-1/)
+- [ad 4\] Annual Report (english)/Newsletter 2023/1
 - [ad 5\] Annual Accounts 2022 [PDF](/resources/2023/accounting-2022.pdf) revision [PDF](/resources/2023/Revisionsbericht_e_editiones_2022.pdf)
 - [ad 6\] [Budget 2023](/resources/2023/budget_2023.pdf)
 

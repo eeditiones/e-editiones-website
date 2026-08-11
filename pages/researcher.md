@@ -1,9 +1,6 @@
 ---
 title: "Editors & Researchers"
 date: "2022-10-23"
-eleventyNavigation:
-    parent: Community
-    key: For researchers
 sidebar: false
 ---
 

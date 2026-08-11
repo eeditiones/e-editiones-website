@@ -1,9 +1,6 @@
 ---
 title: "Developers"
 date: "2022-10-23"
-eleventyNavigation:
-    parent: Community
-    key: For developers
 sidebar: false
 ---
 If you are a developer working with humanities scholars or in publishing, the following situation may be too familiar: you inherit an edition project, which has been running for years. Looking at the code, you are confronted with thousands of lines implementing TEI2HTML or TEI2PDF transformations. You need a week just to get a rough overview of the code repository and the various servers, services and libraries it seems to pull in.

@@ -1,10 +1,6 @@
 ---
 title: "Members"
 date: "2020-06-08"
-eleventyNavigation:
-    parent: Society
-    key: Members
-    order: 4
 ---
 
 ## Institutional Members
@@ -32,7 +28,7 @@ eleventyNavigation:
 ## Individual Members
 
 - Silvia Berigüete Pastor, Developer and TEI editor of the digital scholarly edition [Wilhelm von Humboldt: Schriften](http://www.wvh-schriften.de), Madrid
-- [Peter Boot](https://www.huygens.knaw.nl/en/medewerkers/peter-boot-2/), Senior researcher, Huygens Institute, Amsterdam, eDITem[https://gitlab.huc.knaw.nl/eDITem] and Edition Publication Model[https://gitlab.huc.knaw.nl/edition-publication-model/edition-publication-model]
+- [Peter Boot](https://www.huygens.knaw.nl/en/medewerkers/peter-boot-2/), Senior researcher, Huygens Institute, Amsterdam, [eDITem](https://gitlab.huc.knaw.nl/eDITem) and [Edition Publication Model](https://gitlab.huc.knaw.nl/edition-publication-model/edition-publication-model)
 - Albert Brugnara, Wien [Tibetan TEI](https://www.brugnara.at)
 - Giuliano Di Bacco, PhD, music historian and medievalist, director of the [Resources and Studies for the History of Music Theory](https://chmtl.indiana.edu/hmt/index.html) (CHMTL, Indiana University Bloomington), including the [Thesaurus Musicarum Latinarum](https://chmtl.indiana.edu/tml/)
 - Anne Diekjobst, Fachreferentin, Universitäts- und Landesbibliothek Bonn
@@ -64,4 +60,4 @@ eleventyNavigation:
 - [Joseph Wicentowski](https://joewiz.org/), PhD, Historian, [Office of the Historian](https://history.state.gov/), U.S. Department of State
 - [Rolf Wissmann](https://www.forschung.schola-cantorum-basiliensis.ch/de/uber-uns/personen.html?detail=c4d55c87-d6ba-444b-884f-b1d92de517ea), M.A, Wissenschaftlicher Mitarbeiter SNF-Forschungsprojekt: «Vicentino21», Fachhochschule Nordwestschweiz | Musik-Akademie Basel, Hochschule für Musik | [Schola Cantorum Basiliensis](https://www.fhnw.ch/schola-cantorum-basiliensis)
 - Christian von Zimmermann, Dr. phil., Privatdozent, Leiter [Forschungsstelle Jeremias Gotthelf](https://www.gotthelf.unibe.ch/), Bern
-- Elias Zimmermann,  Elias Zimmermann, Dr., wissenschaftlicher Mitarbeiter <a href="https://www.zde.uzh.ch/de/projects/proto4diged.html">Proto4DigEd</a>, and <a href="https://www.zde.uzh.ch/de/news/2024/schwarzenbach.html">Digitale Edition Annemarie Schwarzenbach</a>
+- Elias Zimmermann, Dr., wissenschaftlicher Mitarbeiter <a href="https://www.zde.uzh.ch/de/projects/proto4diged.html">Proto4DigEd</a>, and <a href="https://www.zde.uzh.ch/de/news/2024/schwarzenbach.html">Digitale Edition Annemarie Schwarzenbach</a>

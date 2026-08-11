@@ -1,10 +1,6 @@
 ---
 title: "Board"
 date: "2020-06-08"
-eleventyNavigation:
-    parent: Society
-    key: Board
-    order: 3
 ---
 
 - Dr. Anne Diekjobst, Universitäts- und Landesbibliothek Bonn (Co-President)

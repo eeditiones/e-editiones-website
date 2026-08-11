@@ -1,17 +1,22 @@
 {
   "title": "e-editiones",
-  "url": "https://e-editiones.org/",
+  "url": "https://www.e-editiones.org/",
   "language": "en",
   "description": "e-editiones – Society for Scholarly Digital Editions",
+  "author": {
+    "name": "e-editiones",
+    "email": "info@e-editiones.org",
+    "url": "https://www.e-editiones.org/"
+  },
   "feed": {
     "subtitle": "e-editiones – Society for Scholarly Digital Editions",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://e-editiones.org/"
+    "id": "https://www.e-editiones.org/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://e-editiones.org/feed/feed.json"
+    "url": "https://www.e-editiones.org/feed/feed.json"
   },
   "twitter": {
     "enabled": false,

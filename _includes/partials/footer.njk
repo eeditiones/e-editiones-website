@@ -1,6 +1,44 @@
-<footer class="p-2">
-    <div class="col-8">e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
-    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX | UID: CHE-474.398.996<br/>
-    <a href="/pages/imprint">Imprint</a> | <a href="/pages/gdpr">Data Protection</a>
+<footer>
+    <div class="container py-4">
+        <div class="row gy-4">
+            <div class="col-md-4">
+                <a href="{{ '/' | url }}" class="footer-logo" aria-label="e-editiones home">
+                    <img src="/img/e-editiones-logo-color-inverted.svg" alt="e-editiones logo" width="180" height="55" loading="lazy">
+                </a>
+                <p class="mt-2 mb-3">Society for Scholarly Digital Editions</p>
+                <div class="footer-social">
+                    <a href="https://social.e-editiones.org/@eeditiones" target="_blank" rel="noopener" aria-label="e-editiones on Mastodon"><i class="bi bi-mastodon"></i></a>
+                    <a href="https://www.linkedin.com/company/e-editiones" target="_blank" rel="noopener" aria-label="e-editiones on LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.instagram.com/eeditiones/" target="_blank" rel="noopener" aria-label="e-editiones on Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="https://github.com/eeditiones" target="_blank" rel="noopener" aria-label="e-editiones on GitHub"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h2>About us</h2>
+                <ul>
+                    <li><a href="/pages/members/">Members</a></li>
+                    <li><a href="/pages/board/">Board</a></li>
+                    <li><a href="/pages/statuten-des-vereins-e-editiones-german/">Statutes</a></li>
+                    <li><a href="/pages/how-to-become-a-member/">How to become a Member</a></li>
+                    <li><a href="/pages/meeting-minutes/">Meeting Minutes</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h2>Contact</h2>
+                <address>
+                    e-editiones<br/>
+                    c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen<br/>
+                    Notkerstrasse 22<br/>
+                    CH-9000 St. Gallen<br/>
+                    <a href="mailto:info@e-editiones.org">info@e-editiones.org</a>
+                </address>
+                <p class="mt-2 mb-0">IBAN: CH21 0900 0000 1549 5086 6<br/>
+                BIC: POFICHBEXXX | UID: CHE-474.398.996</p>
+            </div>
+        </div>
+        <div class="footer-bottom d-flex flex-wrap justify-content-between">
+            <span>© {{ buildYear }} e-editiones – Society for Scholarly Digital Editions</span>
+            <span><a href="/pages/imprint/">Imprint</a> · <a href="/pages/gdpr/">Data Protection</a></span>
+        </div>
     </div>
 </footer>

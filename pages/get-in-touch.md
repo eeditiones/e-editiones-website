@@ -2,7 +2,7 @@
 title: "Get in Touch"
 date: "2020-06-11"
 eleventyNavigation:
-    parent: Community
+    parent: Society
     key: Get in Touch
     order: 2
 ---
@@ -30,7 +30,7 @@ Please join the [slack workspace](https://join.slack.com/t/e-editiones/shared_in
 
 ## Mastodon, LinkedIn, Bluesky, Instagram
 
-We will post news via our [Mastodon](https://social.e-editiones.org/@eeditiones), [LinkedIn](https://www.linkedin.com/company/e-editiones/), [Bluesky](https://bsky.app/profile/e-editiones.bsky.social) and [Instgram](https://www.instagram.com/eeditiones/) accounts. If you would like to share something about a project or forthcoming events, please contact the e-editiones board or mention us on the according platform so we can reshare.
+We will post news via our [Mastodon](https://social.e-editiones.org/@eeditiones), [LinkedIn](https://www.linkedin.com/company/e-editiones/), [Bluesky](https://bsky.app/profile/e-editiones.bsky.social) and [Instagram](https://www.instagram.com/eeditiones/) accounts. If you would like to share something about a project or forthcoming events, please contact the e-editiones board or mention us on the according platform so we can reshare.
 
 ## GitHub
 
