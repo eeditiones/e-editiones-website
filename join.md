@@ -1,5 +1,5 @@
 ---
-layout: layouts/content-sidebar-flyer.njk
+layout: layouts/content-sidebar-links.njk
 title: "Editions with Future"
 short: "join"
 lead: "Join e-editiones – an international non-profit society sustaining open standards and open source software for digital scholarly editions."
