@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Anne Diekjobst",
+    "honorific": "Dr.",
+    "role": "Co-President",
+    "affiliation": [
+      {
+        "text": "Universitäts- und Landesbibliothek Bonn"
+      }
+    ],
+    "bio": "A medieval historian by training, Anne Diekjobst is subject librarian at the Universitäts- und Landesbibliothek Bonn and its contact for digital humanities projects and research data management. Her interests centre on data modelling, TEI-based digital publishing and open source development, and she has taught introductions to digital editing such as the Manuscript Mondays series."
+  },
+  {
+    "name": "Andreas Kränzle",
+    "honorific": "Dr.",
+    "role": "Co-President",
+    "url": "https://k-r.ch",
+    "photo":"board_2026_andreas.jpg",
+    "affiliation": [
+      {
+        "text": "Karl Barth-Archiv",
+        "url": "https://karlbarth.unibas.ch/de/"
+      },
+      {
+        "text": "Basel"
+      }
+    ],
+    "bio": "Andreas Kränzle is a historian and software developer, working at the Karl Barth-Archiv in Basel on the digital edition of the Karl Barth-Gesamtausgabe and running the software company Kränzle & Ritter in Zurich. A co-founder of e-editiones, he also built Sources Online, a shared infrastructure for hosting TEI Publisher editions and their facsimiles."
+  },
+  {
+    "name": "Silvia Berigüete Pastor",
+    "affiliation": [
+      {
+        "text": "Wilhelm von Humboldt: Schriften",
+        "url": "http://www.wvh-schriften.de"
+      },
+      {
+        "text": "Madrid"
+      }
+    ],
+    "bio": "Silvia Berigüete Pastor is the curator of Wilhelm von Humboldt: Schriften, an independent digital edition she built single-handedly — from OCR of the printed volumes through TEI-XML to a TEI Publisher application — alongside her work as a secondary-school teacher. She credits the tutorials and mentorship of the e-editiones community with making the project possible."
+  },
+  {
+    "name": "Wolfgang Meier",
+    "affiliation": [
+      {
+        "text": "JinnTec GmbH",
+        "url": "https://jinntec.de"
+      },
+      {
+        "text": "eXist Solutions GmbH",
+        "url": "http://existsolutions.com/index.html"
+      },
+      {
+        "text": "Lenzkirch/Berlin"
+      },
+      {
+        "text": "Heidelberger Akademie der Wissenschaften, Heidelberg"
+      }
+    ],
+    "bio": "Wolfgang Meier is the creator of the eXist-db native XML database and works with JinnTec GmbH, as well as at the Heidelberger Akademie der Wissenschaften on the Buddhistische Steinschriften research project. His XQuery implementation of the TEI Processing Model became TEI Publisher, and he remains one of its principal developers."
+  },
+  {
+    "name": "Martin Mueller",
+    "honorific": "Prof. em. Dr.",
+    "url": "https://english.northwestern.edu/people/faculty/emeritus/martin-mueller.html",
+    "affiliation": [
+      {
+        "text": "Northwestern University, Department of English"
+      }
+    ],
+    "bio": "Martin Mueller is Professor Emeritus of English and Classics at Northwestern University, where his work has ranged from the imitation of Greek tragedy in early modern Europe to the uses of information technology for traditional philological inquiry. He edited The Chicago Homer and co-leads EarlyPrint, and as a co-principal investigator of TEI Simple he helped produce the TEI Processing Model that lies at the heart of TEI Publisher."
+  },
+  {
+    "name": "Nils Holger Németh Berg",
+    "honorific": "PhD",
+    "url": "https://portal.findresearcher.sdu.dk/da/persons/nils-holger-n%C3%A9meth-berg/",
+    "photo": "board_2026_holger.jpg",
+    "affiliation": [
+      {
+        "text": "The Hans Christian Andersen Centre",
+        "url": "https://www.sdu.dk/en/forskning/hca"
+      },
+      {
+        "text": "University of Southern Denmark"
+      }
+    ],
+    "bio": "Nils Holger Németh Berg is a senior consultant at the Hans Christian Andersen Centre, University of Southern Denmark, where he co-edits the digital genetic edition of Hans Christian Andersen's fairy-tale manuscripts. Originally a historian of the Thirty Years' War, he has built three Andersen editions on TEI Publisher and has proposed bundling their genetic-editing components into a profile other projects could reuse."
+  },
+  {
+    "name": "Roberta Padlina",
+    "honorific": "Dr. des.",
+    "url": "https://www.unige.ch/lettres/philo/collaborateurs/professeurs/roberta-padlina",
+    "affiliation": [
+      {
+        "text": "Assistant Professor, Département de Philosophie, Université de Genève"
+      }
+    ],
+    "bio": "Roberta Padlina is Assistant Professor in the Département de Philosophie at the Université de Genève and principal investigator of an ERC Synergy Grant on argumentation in the Arabic, Byzantine, Hebrew and Latin medieval traditions. She previously coordinated NIE-INE, the Swiss national infrastructure for scholarly editions, and works on ontologies and formal semantics for digital editions."
+  },
+  {
+    "name": "Sinai Rusinek",
+    "honorific": "Dr.",
+    "url": "https://hcges.haifa.ac.il/2025/01/12/dr-sinai-rusinek-dh-expert-2/",
+    "affiliation": [
+      {
+        "text": "Haifa Center for German and European Studies (HCGES)",
+        "url": "https://hcges.haifa.ac.il"
+      },
+      {
+        "text": "University of Haifa"
+      }
+    ],
+    "bio": "Sinai Rusinek is a digital humanities consultant and project lead at the Haifa Center for German and European Studies, with a background in conceptual history and a doctorate in philosophy from the Hebrew University of Jerusalem. She has led projects including the Hebrew historical gazetteer Kima and the TEI Publisher edition TraveLab, and co-built XMLPlanter, a browser tool for preparing parallel TEI editions without having to code."
+  }
+]
