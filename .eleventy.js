@@ -37,6 +37,29 @@ async function imageShortcode(src, alt) {
     <img src="${data.url}" width="${data.width}" height="${data.height}" alt="${alt}" title="${alt}" data-bs-toggle="tooltip" loading="lazy" decoding="async"></picture>`;
 }
 
+// Board portraits: members send whatever they have, so re-encode everything to the
+// same widths. The 4:5 framing is done in CSS by .board-portrait.
+async function portraitShortcode(src, alt) {
+  if(alt === undefined) {
+    throw new Error(`Missing \`alt\` on portrait from: ${src}`);
+  }
+
+  const imageName = path.basename(src);
+  const metadata = await Image(`img/${imageName}`, {
+    widths: [240, 480, 720],
+    formats: ["webp", "jpeg"],
+    outputDir: "./_site/img/",
+  });
+
+  const data = metadata.jpeg[metadata.jpeg.length - 1];
+  const sizes = "(min-width: 992px) 20rem, (min-width: 768px) 45vw, 90vw";
+  const sources = Object.values(metadata).map(format =>
+    `<source type="${format[0].sourceType}" srcset="${format.map(e => e.srcset).join(", ")}" sizes="${sizes}">`
+  ).join("\n");
+  return `<picture>${sources}
+    <img src="${data.url}" width="${data.width}" height="${data.height}" alt="${alt}" loading="lazy" decoding="async"></picture>`;
+}
+
 module.exports = function(eleventyConfig) {
   // Current year for the footer copyright line
   eleventyConfig.addGlobalData("buildYear", () => new Date().getFullYear());
@@ -154,6 +177,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addNunjucksAsyncShortcode("thumb", imageShortcode);
+  eleventyConfig.addNunjucksAsyncShortcode("portrait", portraitShortcode);
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
