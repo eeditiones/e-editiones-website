@@ -707,6 +707,92 @@ ul.cloud li:nth-child(5n+1) a { --color: var(--color-4); }
   }
 }
 
+/* Members */
+
+/* Logos arrive in every shape and color scheme; a fixed white box with
+ * object-fit: contain is what makes them sit together as one wall. */
+.member-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6.5rem;
+  padding: 1rem 1.25rem;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, .08);
+  border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
+}
+
+.member-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.member-logo--placeholder {
+  font-family: var(--font-family-headings);
+  font-size: 2.5rem;
+  color: var(--color-2);
+}
+
+.member-card {
+  transition: box-shadow .2s ease, transform .2s ease;
+}
+
+.member-card:hover {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .12);
+  transform: translateY(-2px);
+}
+
+.member-name {
+  margin: 0 0 .2rem;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.member-name a {
+  text-decoration: none;
+}
+
+.member-name a:hover {
+  text-decoration: underline;
+}
+
+.member-sub {
+  margin: 0;
+  font-size: var(--font-size-small);
+  line-height: 1.4;
+  color: #5c5c5c;
+}
+
+.individual-members {
+  columns: 1;
+  column-gap: 3rem;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .individual-members {
+    columns: 2;
+  }
+}
+
+.individual-member {
+  break-inside: avoid;
+  margin-bottom: 1.1rem;
+  padding-left: .85rem;
+  border-left: 3px solid color-mix(in srgb, var(--color-2) 35%, #fff);
+  font-size: var(--font-size-small);
+  line-height: 1.5;
+  color: #444;
+}
+
+.individual-name {
+  font-weight: 700;
+  color: #212529;
+}
+
 @media print {
   html {
     font-size: 100%;

@@ -1,0 +1,315 @@
+{
+  "institutions": [
+    {
+      "name": "Digital Humanities, Universität Bern",
+      "url": "https://www.dh.unibe.ch/",
+      "sub": [
+        {
+          "text": "Walter Benjamin Kolleg",
+          "url": "https://www.wbkolleg.unibe.ch/"
+        }
+      ],
+      "logo": "unibe.svg"
+    },
+    {
+      "name": "Freie Universität Berlin",
+      "url": "https://www.fu-berlin.de/",
+      "logo": "fu-berlin.svg"
+    },
+    {
+      "name": "The Hans Christian Andersen Centre",
+      "url": "https://www.sdu.dk/en/forskning/hca",
+      "sub": [
+        {
+          "text": "University of Southern Denmark"
+        }
+      ],
+      "logo": "hca-sdu.svg"
+    },
+    {
+      "name": "HISOMA",
+      "url": "https://www.hisoma.mom.fr/",
+      "sub": [
+        {
+          "text": "CNRS – Université Lyon 2"
+        }
+      ],
+      "logo": "hisoma.png"
+    },
+    {
+      "name": "Institute of Slovenian Literature and Literary Studies",
+      "url": "https://isllv.zrc-sazu.si/en/predstavitev#v",
+      "sub": [
+        {
+          "text": "Research Centre of the Slovenian Academy of Sciences and Arts, Ljubljana"
+        }
+      ],
+      "logo": "zrc-sazu.svg"
+    },
+    {
+      "name": "Karl Barth-Stiftung",
+      "url": "https://karlbarth.unibas.ch/de/",
+      "sub": [
+        {
+          "text": "Basel"
+        }
+      ],
+      "logo": "karl-barth-stiftung.svg"
+    },
+    {
+      "name": "Kommission für Geschichte des Parlamentarismus und der politischen Parteien e.V.",
+      "url": "https://www.kgparl.de",
+      "logo": "kgparl.png"
+    },
+    {
+      "name": "Max-Planck-Institut für Rechtsgeschichte und Rechtstheorie",
+      "url": "https://www.lhlt.mpg.de",
+      "sub": [
+        {
+          "text": "Frankfurt am Main"
+        }
+      ],
+      "logo": "mpilhlt.svg"
+    },
+    {
+      "name": "Schola Cantorum Basiliensis",
+      "url": "https://www.fhnw.ch/de/die-fhnw/hochschulen/musik/schola-cantorum-basiliensis",
+      "sub": [
+        {
+          "text": "FHNW"
+        }
+      ],
+      "logo": "scb-fhnw.svg"
+    },
+    {
+      "name": "Schweizerische Akademie der Geistes- und Sozialwissenschaften (SAGW)",
+      "url": "https://sagw.ch/sagw/",
+      "logo": "sagw.svg"
+    },
+    {
+      "name": "Staatsarchiv Zürich",
+      "url": "https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html",
+      "sub": [
+        {
+          "text": "Zürich"
+        }
+      ],
+      "logo": "staatsarchiv-zuerich.svg"
+    },
+    {
+      "name": "Stadtarchiv der Ortsbürgergemeinde",
+      "url": "https://stadtarchiv.ch/",
+      "sub": [
+        {
+          "text": "Stadt St.Gallen"
+        }
+      ],
+      "logo": "stadtarchiv-sg.svg"
+    },
+    {
+      "name": "Stiftsbibliothek St.Gallen",
+      "url": "https://www.stiftsbezirk.ch/de/stiftsbibliothek/",
+      "logo": "stiftsbibliothek-sg.jpg"
+    },
+    {
+      "name": "Stiftung Eisenbibliothek",
+      "url": "https://www.eisenbibliothek.ch/",
+      "sub": [
+        {
+          "text": "Klostergut Paradies, Schlatt TG"
+        }
+      ],
+      "logo": "eisenbibliothek.svg"
+    },
+    {
+      "name": "Trägerschaft Archives Online",
+      "url": "https://www.archives-online.org",
+      "logo": "archives-online.gif"
+    },
+    {
+      "name": "Virtuelle Texte (SFB 1567 / B04)",
+      "url": "https://www.virtuelle-lebenswelten.de/forschung/wissen",
+      "sub": [
+        {
+          "text": "Universität Bochum"
+        }
+      ],
+      "logo": "virtuelle-texte.png"
+    },
+    {
+      "name": "Zentralbibliothek Zürich",
+      "url": "https://www.zb.uzh.ch/de",
+      "logo": "zb-zuerich.svg"
+    },
+    {
+      "name": "Zentrum Digitale Editionen & Editionsanalytik",
+      "url": "https://www.zde.uzh.ch",
+      "sub": [
+        {
+          "text": "Universität Zürich"
+        }
+      ],
+      "logo": "zde-uzh.svg"
+    },
+    {
+      "name": "eXist Solutions GmbH",
+      "url": "http://existsolutions.com/",
+      "sub": [
+        {
+          "text": "Lenzkirch / Berlin"
+        }
+      ],
+      "logo": "existsolutions.svg"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Silvia Berigüete Pastor",
+      "desc": "Developer and TEI editor of the digital scholarly edition <a href=\"http://www.wvh-schriften.de\">Wilhelm von Humboldt: Schriften</a>, Madrid"
+    },
+    {
+      "name": "Peter Boot",
+      "url": "https://www.huygens.knaw.nl/en/medewerkers/peter-boot-2/",
+      "desc": "Senior researcher, Huygens Institute, Amsterdam, <a href=\"https://gitlab.huc.knaw.nl/eDITem\">eDITem</a> and <a href=\"https://gitlab.huc.knaw.nl/edition-publication-model/edition-publication-model\">Edition Publication Model</a>"
+    },
+    {
+      "name": "Albert Brugnara",
+      "desc": "Wien, <a href=\"https://www.brugnara.at\">Tibetan TEI</a>"
+    },
+    {
+      "name": "Giuliano Di Bacco",
+      "desc": "PhD, music historian and medievalist, director of the <a href=\"https://chmtl.indiana.edu/hmt/index.html\">Resources and Studies for the History of Music Theory</a> (CHMTL, Indiana University Bloomington), including the <a href=\"https://chmtl.indiana.edu/tml/\">Thesaurus Musicarum Latinarum</a>"
+    },
+    {
+      "name": "Anne Diekjobst",
+      "desc": "Fachreferentin, Universitäts- und Landesbibliothek Bonn"
+    },
+    {
+      "name": "Rita Gautschy",
+      "url": "https://daw.philhist.unibas.ch/de/personen/rita-gautschy",
+      "desc": "Dr., Privatdozentin an der Universität Basel, Direktorin des <a href=\"https://www.dasch.swiss/our-team\">Swiss National Data and Service Center for the Humanities (DaSCH)</a>"
+    },
+    {
+      "name": "Sulamith Gehr",
+      "desc": "<a href=\"https://ub.unibas.ch/bernoulli/index.php/Hauptseite\">Basler Edition der Bernoulli-Briefwechsel</a>"
+    },
+    {
+      "name": "Mascha Hansen",
+      "url": "https://ifaa.uni-greifswald.de/hansen/",
+      "desc": "Dr., Lecturer, Department of British and North American Studies (IfAA), University of Greifswald"
+    },
+    {
+      "name": "Pauline Jacsont",
+      "desc": "Research Associate in Digital Humanities, project «<a href=\"https://desenrollandoelcordel.unige.ch/inicio.html\">Desenrollando el cordel</a>», University of Geneva"
+    },
+    {
+      "name": "Dr. Andreas Kränzle",
+      "desc": "Research Fellow for the Digital Edition at <a href=\"https://karlbarth.unibas.ch/\">Karl Barth-Archiv, University of Basel</a> and <a href=\"https://www.k-r.ch\">k &amp; r</a>, Zürich"
+    },
+    {
+      "name": "Prof. Dr. Christina Lechtermann",
+      "url": "http://staff.germanistik.rub.de/lechtermann/",
+      "desc": "Ruhr-Universität Bochum, Fakultät für Philologie, Germanistisches Institut"
+    },
+    {
+      "name": "Boris Lehečka",
+      "desc": "freelance developer (Persian-Czech Dictionary, digital edition of J. A. Comenius’s work)"
+    },
+    {
+      "name": "Stephan Makowski",
+      "url": "https://www.geschichte.uni-wuppertal.de/de/personen/digital-humanities/stephan-makowski-ma.html",
+      "desc": "Wissenschaftlicher Mitarbeiter in Digital Humanities, DFG-Projekt \"Index Librorum Civitatum\", Bergische Universität Wuppertal"
+    },
+    {
+      "name": "David Maus",
+      "url": "https://dmaus.name/",
+      "desc": "Leiter der Abteilung Forschung und Entwicklung, Staats- und <a href=\"https://www.sub.uni-hamburg.de/startseite.html\">Universitätsbibliothek Hamburg Carl von Ossietzky</a>"
+    },
+    {
+      "name": "Wolfgang Meier",
+      "desc": "Mitarbeiter at the <a href=\"https://www.hadw-bw.de\">Heidelberger Akademie der Wissenschaften</a>; <a href=\"https://www.jinntec.com\">Jinntec GmbH</a> and <a href=\"https://www.existsolutions.com\">eXist Solutions</a>, Berlin"
+    },
+    {
+      "name": "Martin Mueller",
+      "desc": "PhD, Professor Emeritus of English &amp; Classics, Northwestern University, project lead of <a href=\"https://earlyprint.org/\">Early Print</a>"
+    },
+    {
+      "name": "Elli Mylonas",
+      "desc": "<a href=\"https://library.brown.edu/cds\">Center for Digital Scholarship</a>, University Library, Brown University"
+    },
+    {
+      "name": "Maria Niku",
+      "desc": "Software Developer, <a href=\"https://www.finlit.fi/en\">Finnish Literature Society</a>, Helsinki; <a href=\"https://kivi.finlit.fi/lea\">Lea – critical edition</a>, <a href=\"https://editiot.finlit.fi/exist/apps/gottlund/index.html\">Forest Finns' Letters to Gottlund</a>"
+    },
+    {
+      "name": "Roberta Padlina",
+      "desc": "Dr. des., Coordinator <a href=\"https://www.nie-ine.ch/\">NIE-INE</a>, Universität Basel"
+    },
+    {
+      "name": "Gerold Ritter",
+      "desc": "Dr., <a href=\"https://www.e-hist.ch\">e-hist</a>, Zürich"
+    },
+    {
+      "name": "Antonio Rojas-Castro",
+      "url": "https://hcommons.org/members/arojascastro1987",
+      "desc": "PhD, Berlin-Brandenburgische Akademie der Wissenschaften and Universidad Internacional de la Rioja"
+    },
+    {
+      "name": "Sinai Rusinek",
+      "desc": "<a href=\"https://elijahlab.haifa.ac.il/\">Elijah Lab</a>, Haifa University; project leader of TraveLab"
+    },
+    {
+      "name": "Gil Shalit",
+      "desc": "<a href=\"https://www.dh-dev.com/\">DH Development</a>"
+    },
+    {
+      "name": "Roman Sigg",
+      "desc": "<a href=\"https://www.steinamrhein.ch/xml_1/internet/de/application/d3/d723/d724/f346.cfm\">Stadtarchivar Stein am Rhein</a>"
+    },
+    {
+      "name": "Anna Skolimowska",
+      "desc": "Dr. hab., Head of the <a href=\"http://fontes.ibi.uw.edu.pl/\">Laboratory for Source Editing &amp; Digital Humanities</a>, Faculty of «Artes Liberales», University of Warsaw"
+    },
+    {
+      "name": "Elisabeth Sünder",
+      "desc": "Referendarin, <a href=\"https://www.lb-oldenburg.de/\">Landesbibliothek Oldenburg</a>"
+    },
+    {
+      "name": "Claudia Sutter",
+      "url": "https://uzh.academia.edu/ClaudiaSutter",
+      "desc": "freie Historikerin, Archivarin, Stein am Rhein, Urbar des Dominikanerinnenklosters St. Katharinen St.Gallen"
+    },
+    {
+      "name": "Georg Vogeler",
+      "url": "https://online.uni-graz.at/kfu_online/wbForschungsportal.cbShowPortal?pPersonNr=80075",
+      "desc": "Dr. phil., Professor Digital Humanities, Zentrum für Informationsmodellierung, Universität Graz"
+    },
+    {
+      "name": "Andreas Wagner",
+      "url": "https://www.lhlt.mpg.de/wagner/en",
+      "desc": "Dr., Max Planck Institute for Legal History and Legal Theory"
+    },
+    {
+      "name": "Arman Weidenmann",
+      "desc": "<a href=\"https://www.stadtarchiv.ch/\">Stadtarchiv der Ortsbürgergemeinde St. Gallen</a>"
+    },
+    {
+      "name": "Joseph Wicentowski",
+      "url": "https://joewiz.org/",
+      "desc": "PhD, Historian, <a href=\"https://history.state.gov/\">Office of the Historian</a>, U.S. Department of State"
+    },
+    {
+      "name": "Rolf Wissmann",
+      "url": "https://www.forschung.schola-cantorum-basiliensis.ch/de/uber-uns/personen.html?detail=c4d55c87-d6ba-444b-884f-b1d92de517ea",
+      "desc": "M.A., Wissenschaftlicher Mitarbeiter SNF-Forschungsprojekt «Vicentino21», Fachhochschule Nordwestschweiz | Musik-Akademie Basel, Hochschule für Musik | <a href=\"https://www.fhnw.ch/schola-cantorum-basiliensis\">Schola Cantorum Basiliensis</a>"
+    },
+    {
+      "name": "Christian von Zimmermann",
+      "desc": "Dr. phil., Privatdozent, Leiter <a href=\"https://www.gotthelf.unibe.ch/\">Forschungsstelle Jeremias Gotthelf</a>, Bern"
+    },
+    {
+      "name": "Elias Zimmermann",
+      "desc": "Dr., wissenschaftlicher Mitarbeiter <a href=\"https://www.zde.uzh.ch/de/projects/proto4diged.html\">Proto4DigEd</a> and <a href=\"https://www.zde.uzh.ch/de/news/2024/schwarzenbach.html\">Digitale Edition Annemarie Schwarzenbach</a>"
+    }
+  ]
+}
