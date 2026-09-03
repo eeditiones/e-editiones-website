@@ -29,6 +29,7 @@
   },
   {
     "name": "Silvia Berigüete Pastor",
+    "photo":"board_2026_silvia.jpg",
     "affiliation": [
       {
         "text": "Wilhelm von Humboldt: Schriften",
@@ -38,7 +39,7 @@
         "text": "Madrid"
       }
     ],
-    "bio": "Silvia Berigüete Pastor is the curator of Wilhelm von Humboldt: Schriften, an independent digital edition she built single-handedly — from OCR of the printed volumes through TEI-XML to a TEI Publisher application — alongside her work as a secondary-school teacher. She credits the tutorials and mentorship of the e-editiones community with making the project possible."
+    "bio": "Silvia Berigüete Pastor is the curator of the independent digital edition 'Wilhelm von Humboldt: Schriften'. Trained in Philosophy and Classics, she has worked as a Teaching Assistant at UCF Freiburg between 2021 and 2025, and is now a secondary-school teacher in Spain. Since August 2026, she also serves as an editor of the Journal of the Text Encoding Initiative."
   },
   {
     "name": "Wolfgang Meier",
