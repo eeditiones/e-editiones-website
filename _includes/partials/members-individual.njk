@@ -1,0 +1,10 @@
+<ul class="list-unstyled individual-members">
+  {%- for person in members.individuals %}
+  <li class="individual-member">
+    <span class="individual-name">
+      {%- if person.url %}<a href="{{ person.url }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif -%}
+    </span>
+    {%- if person.desc %}<br>{{ person.desc | safe }}{% endif %}
+  </li>
+  {%- endfor %}
+</ul>
