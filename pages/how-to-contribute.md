@@ -2,9 +2,9 @@
 title: "How to Contribute"
 date: "2020-06-11"
 eleventyNavigation:
-    parent: Community
-    key: How to Contribute
-    order: 3
+    parent: Get Involved
+    key: Contribute
+    order: 2
 ---
 
 > re-using components, **pooling resources** and sharing best practices **benefits everyone** in the community and ensures our projects remain online and maintained for the decades to come
@@ -43,6 +43,6 @@ To make the TEI Publisher as versatile as possible we are looking for TEI exampl
 
 ## Tell people about us
 
-Follow us on [Mastodon](https://social.e-editiones.org/deck/@eeditiones), [LinkedIn](https://www.linkedin.com/company/e-editiones/), [Bluesky](https://bsky.app/profile/e-editiones.bsky.social) and [Instgramm](https://www.instagram.com/eeditiones/). Repost and like related posts.
+Follow us on [Mastodon](https://social.e-editiones.org/@eeditiones), [LinkedIn](https://www.linkedin.com/company/e-editiones/), [Bluesky](https://bsky.app/profile/e-editiones.bsky.social) and [Instagram](https://www.instagram.com/eeditiones/). Repost and like related posts.
 
 We'll be grateful for credit on your project page, so just grab the most fitting logo from [GitHub](https://github.com/eeditiones/logos). If you are a already a member of e-editiones you are especially encouraged to use our member logo.

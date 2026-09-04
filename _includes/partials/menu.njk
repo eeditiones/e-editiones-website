@@ -17,26 +17,24 @@
 {% set navPages = collections.all | eleventyNavigation %}
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ '/' | url }}"></a>
+        <a class="navbar-brand" href="{{ '/' | url }}" aria-label="e-editiones home"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
-                <li class="nav-item">
-                    <a href="/tags/events/" class="nav-link{% if '/tags/events/' == page.url %} active{% endif %}">Events</a>
-                </li>
+                {%- for entry in navPages %}{% if entry.key != 'Get Involved' %}{{ renderNavListItem(entry) }}{% endif %}{%- endfor -%}
                 <li class="nav-item">
                     <a href="/map/" class="nav-link{% if '/map/' == page.url %} active{% endif %}">Project Registry</a>
                 </li>
+                {%- for entry in navPages %}{% if entry.key == 'Get Involved' %}{{ renderNavListItem(entry) }}{% endif %}{%- endfor -%}
             </ul>
             <div class="icons d-flex justify-content-end">
-                <a href="https://social.e-editiones.org/@eeditiones" class="me-4" target="_blank"><i class="bi bi-mastodon"></i></a>
-                <a href="https://www.linkedin.com/company/e-editiones" class="me-4" target="_blank"><i class="bi bi-linkedin"></i></a>            
-                <a href="https://www.instagram.com/eeditiones/" class="me-4" target="_blank"><i class="bi bi-instagram"></i></a>
-                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/{{ page.inputPath }}" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://social.e-editiones.org/@eeditiones" class="me-4" target="_blank" rel="noopener" aria-label="e-editiones on Mastodon"><i class="bi bi-mastodon"></i></a>
+                <a href="https://www.linkedin.com/company/e-editiones" class="me-4" target="_blank" rel="noopener" aria-label="e-editiones on LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/eeditiones/" class="me-4" target="_blank" rel="noopener" aria-label="e-editiones on Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/{{ page.inputPath }}" target="_blank" rel="noopener" aria-label="Page source on GitHub"><i class="bi bi-github"></i></a>
             </div>
         </div>
     </div>

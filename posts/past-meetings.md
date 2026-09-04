@@ -30,7 +30,7 @@ We will also briefly demonstrate [XMLPlanter](https://xmlplanter.dh-dev.com/), a
 
 ##### 2022-06-07 Names sell: Named entity recognition in TEI Publisher
 
-In this talk we'll learn how to enable the named entity recognition feature in the forthcoming TEI Publisher 8 to assist with semantic annotations. We'll also see how to train a custom recognition model from a set of already annotated documents, discuss the current (early) state of the feature and possible future developments ([transcript of the talk).](https://e-editiones.org/names-sell-named-entity-recognition-in-tei-publisher/)
+In this talk we'll learn how to enable the named entity recognition feature in the forthcoming TEI Publisher 8 to assist with semantic annotations. We'll also see how to train a custom recognition model from a set of already annotated documents, discuss the current (early) state of the feature and possible future developments ([transcript of the talk).](/posts/names-sell-named-entity-recognition-in-tei-publisher/)
 
 ##### 2022-05-03 Cancelled
 
@@ -138,12 +138,12 @@ The digital edition of the Heinrich Wölfflin - Gesammelte Werke (Complete Works
 
 ##### 2020-10-20 TEI Vanilla meeting
 
-More information: [https://e-editiones.org/tei-vanilla-meeting-summary](https://e-editiones.org/tei-vanilla-meeting-summary)
+More information: [/posts/tei-vanilla-meeting-summary/](/posts/tei-vanilla-meeting-summary/)
 
 ##### 2020-07-08 Community Event on Music Encoding
 
-More information: [https://e-editiones.org/music-is-in-the-air/](https://e-editiones.org/music-is-in-the-air/)
+More information: [/posts/music-is-in-the-air/](/posts/music-is-in-the-air/)
 
 ##### 2020-05-18 First Community Event
 
-More information: [https://e-editiones.org/news/first-community-event-on-may-18th-2020/](https://e-editiones.org/news/first-community-event-on-may-18th-2020/)
+More information: [/posts/first-community-event-on-may-18th-2020/](/posts/first-community-event-on-may-18th-2020/)
