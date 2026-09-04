@@ -3,7 +3,7 @@
 /* Defaults */
 :root {
   --font-family-headings: "Zilla Slab", serif;
-  --font-family-body: "Lato", sans-serif;
+  --font-family-body: "Lato Light", sans-serif;
   /*--font-size-h1: 2.488rem;*/
   --font-size-h1: clamp(1.5rem, 8vw, 2.488rem);
   --font-size-h2: 2.074rem;
