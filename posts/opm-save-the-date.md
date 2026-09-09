@@ -28,9 +28,7 @@ Join us for a first look at what OPM can bring to the TEI and Digital Humanities
 
 #### Agenda
 
-* 17:00 Introduction
-* 17:15 Demo Time
-* 17:30 Open Discussion 
+We'll demonstrate how to use opm for transforming single documents to HTML, ePub, docx, markdown and PDF via HTML for print or typst. We'll also talk about using it to generate a static website, prepare data to pass it to a static site generator, and how to use pre-rendered content to speed up an existing TEI Publisher app
 
 ### Why it matters
 
