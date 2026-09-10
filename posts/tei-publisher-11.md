@@ -7,7 +7,6 @@ tags:
   - announcements
   - tei-publisher
   - release
-  - draft
 ---
 
 # TEI Publisher 11
