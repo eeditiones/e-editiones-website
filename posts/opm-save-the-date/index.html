@@ -126,7 +126,112 @@
 </ul>
 <p>Join us for a first look at what OPM can bring to the TEI and Digital Humanities community.</p>
 <p>We'll demonstrate how to use opm for transforming single documents to HTML, ePub, docx, markdown and PDF via HTML for print or typst. We'll also talk about using it to generate a static website, prepare data to pass it to a static site generator, and how to use pre-rendered content to speed up an existing TEI Publisher app.</p>
-<p>Want a preview? Get a first glimpse of what OPM can do with these sample documents: <a href="/img/opm-samples/serafin02.typst.pdf">Serafin</a>, <a href="/img/opm-samples/F-ado.typst.pdf">Shakespeare</a> and the EPUB edition of <a href="/img/opm-samples/quickstart.epub">Gentle Introduction to TEI Publisher</a>.</p>
+<style>
+#opm-samples-carousel {
+  background: #eef0f2;
+  border: 1px solid #dee2e6;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+#opm-samples-carousel .carousel-item img {
+  height: 440px;
+  width: 100%;
+  object-fit: contain;
+  padding: 1.5rem 1.5rem 2.5rem;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, .18));
+}
+#opm-samples-carousel .carousel-caption {
+  position: static;
+  height: 5rem;
+  padding: .75rem 15% 0;
+  background: #fff;
+  border-top: 1px solid #dee2e6;
+  color: var(--color-4);
+}
+#opm-samples-carousel .carousel-caption h5 {
+  margin: 0 0 .25rem;
+  font-size: 1.1rem;
+}
+#opm-samples-carousel .carousel-caption p {
+  margin: 0;
+}
+#opm-samples-carousel .carousel-indicators {
+  bottom: 5rem;
+  margin-bottom: .6rem;
+}
+#opm-samples-carousel .carousel-control-prev,
+#opm-samples-carousel .carousel-control-next {
+  bottom: 5rem;
+  width: 10%;
+}
+@media (max-width: 576px) {
+  #opm-samples-carousel .carousel-item img { height: 320px; }
+}
+</style>
+<div class="mb-4">
+  <div id="opm-samples-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#opm-samples-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Letter sample"></button>
+      <button type="button" data-bs-target="#opm-samples-carousel" data-bs-slide-to="1" aria-label="JATS web sample"></button>
+      <button type="button" data-bs-target="#opm-samples-carousel" data-bs-slide-to="2" aria-label="Shakespeare play sample"></button>
+      <button type="button" data-bs-target="#opm-samples-carousel" data-bs-slide-to="3" aria-label="Static web presentation"></button>
+      <button type="button" data-bs-target="#opm-samples-carousel" data-bs-slide-to="4" aria-label="Astro website"></button>
+      <button type="button" data-bs-target="#opm-samples-carousel" data-bs-slide-to="5" aria-label="EPUB sample"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/img/opm-samples/previews/serafin02-page1-1.png" class="d-block" alt="First page of the Serafin typst sample">
+        <div class="carousel-caption">
+          <h5>Letter sample (PDF via typst)</h5>
+          <p><a href="/img/opm-samples/serafin02.typst.pdf">Open the PDF</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/img/opm-samples/opm-jats-screenshot.png" class="d-block" alt="Web preview of a journal article">
+        <div class="carousel-caption">
+          <h5>Web preview of journal article</h5>
+          <p>Using JATS XML format</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/img/opm-samples/previews/F-ado-page2-02.png" class="d-block" alt="Second page of the Shakespeare sample">
+        <div class="carousel-caption">
+          <h5>Shakespeare play (PDF via typst)</h5>
+          <p><a href="/img/opm-samples/F-ado.typst.pdf">Open the PDF</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/img/opm-samples/opm-web-screenshot.png" class="d-block" alt="Static web page screenshot">
+        <div class="carousel-caption">
+          <h5>Static web presentation</h5>
+          <p>Plain HTML + CSS produced by OPM</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/img/opm-samples/opm-astro-screenshot.png" class="d-block" alt="Static web page using Astro">
+        <div class="carousel-caption">
+          <h5>Full static web site</h5>
+          <p>OPM JSON output powering an <a href="astro.build">Astro-based</a> website</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/img/opm-samples/opm-epub-screenshot.png" class="d-block" alt="EPUB preview screenshot from the Gentle Introduction sample">
+        <div class="carousel-caption">
+          <h5>EPUB sample using TEI Publisher documentation</h5>
+          <p><a href="/img/opm-samples/quickstart.epub">Download the EPUB</a></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#opm-samples-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#opm-samples-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
 <h3 id="why-it-matters" tabindex="-1">Why it matters</h3>
 <p>The TEI Processing Model is a conceptual cornerstone designed to empower scholars working with XML-encoded material. It is used worldwide to process and publish numerous digital editions and other scholarly resources — online, in print, and in other output formats. Until now, access and adoption have been constrained to users of a particular technology stack based on XQuery and eXist-db. OPM removes these limitations and opens the affordances of the TEI PM to the wider Python ecosystem, making it easier for researchers, developers, and institutions to build on open standards.</p>
 <p>📖 Read the full announcement: <a href="/posts/opm-announcement/">Open Processing Model</a> 📄 Project prospectus: <a href="/assets/files/prospectus-2026-05-11.pdf">Read here (PDF)</a></p>

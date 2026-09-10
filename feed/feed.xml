@@ -28,7 +28,112 @@
 &lt;/ul&gt;
 &lt;p&gt;Join us for a first look at what OPM can bring to the TEI and Digital Humanities community.&lt;/p&gt;
 &lt;p&gt;We&#39;ll demonstrate how to use opm for transforming single documents to HTML, ePub, docx, markdown and PDF via HTML for print or typst. We&#39;ll also talk about using it to generate a static website, prepare data to pass it to a static site generator, and how to use pre-rendered content to speed up an existing TEI Publisher app.&lt;/p&gt;
-&lt;p&gt;Want a preview? Get a first glimpse of what OPM can do with these sample documents: &lt;a href=&quot;https://e-editiones.org/img/opm-samples/serafin02.typst.pdf&quot;&gt;Serafin&lt;/a&gt;, &lt;a href=&quot;https://e-editiones.org/img/opm-samples/F-ado.typst.pdf&quot;&gt;Shakespeare&lt;/a&gt; and the EPUB edition of &lt;a href=&quot;https://e-editiones.org/img/opm-samples/quickstart.epub&quot;&gt;Gentle Introduction to TEI Publisher&lt;/a&gt;.&lt;/p&gt;
+&lt;style&gt;
+#opm-samples-carousel {
+  background: #eef0f2;
+  border: 1px solid #dee2e6;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+#opm-samples-carousel .carousel-item img {
+  height: 440px;
+  width: 100%;
+  object-fit: contain;
+  padding: 1.5rem 1.5rem 2.5rem;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, .18));
+}
+#opm-samples-carousel .carousel-caption {
+  position: static;
+  height: 5rem;
+  padding: .75rem 15% 0;
+  background: #fff;
+  border-top: 1px solid #dee2e6;
+  color: var(--color-4);
+}
+#opm-samples-carousel .carousel-caption h5 {
+  margin: 0 0 .25rem;
+  font-size: 1.1rem;
+}
+#opm-samples-carousel .carousel-caption p {
+  margin: 0;
+}
+#opm-samples-carousel .carousel-indicators {
+  bottom: 5rem;
+  margin-bottom: .6rem;
+}
+#opm-samples-carousel .carousel-control-prev,
+#opm-samples-carousel .carousel-control-next {
+  bottom: 5rem;
+  width: 10%;
+}
+@media (max-width: 576px) {
+  #opm-samples-carousel .carousel-item img { height: 320px; }
+}
+&lt;/style&gt;
+&lt;div class=&quot;mb-4&quot;&gt;
+  &lt;div id=&quot;opm-samples-carousel&quot; class=&quot;carousel carousel-dark slide&quot; data-bs-ride=&quot;carousel&quot;&gt;
+    &lt;div class=&quot;carousel-indicators&quot;&gt;
+      &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;0&quot; class=&quot;active&quot; aria-current=&quot;true&quot; aria-label=&quot;Letter sample&quot;&gt;&lt;/button&gt;
+      &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;1&quot; aria-label=&quot;JATS web sample&quot;&gt;&lt;/button&gt;
+      &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;2&quot; aria-label=&quot;Shakespeare play sample&quot;&gt;&lt;/button&gt;
+      &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;3&quot; aria-label=&quot;Static web presentation&quot;&gt;&lt;/button&gt;
+      &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;4&quot; aria-label=&quot;Astro website&quot;&gt;&lt;/button&gt;
+      &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;5&quot; aria-label=&quot;EPUB sample&quot;&gt;&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;carousel-inner&quot;&gt;
+      &lt;div class=&quot;carousel-item active&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/opm-samples/previews/serafin02-page1-1.png&quot; class=&quot;d-block&quot; alt=&quot;First page of the Serafin typst sample&quot; /&gt;
+        &lt;div class=&quot;carousel-caption&quot;&gt;
+          &lt;h5&gt;Letter sample (PDF via typst)&lt;/h5&gt;
+          &lt;p&gt;&lt;a href=&quot;https://e-editiones.org/img/opm-samples/serafin02.typst.pdf&quot;&gt;Open the PDF&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;carousel-item&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/opm-samples/opm-jats-screenshot.png&quot; class=&quot;d-block&quot; alt=&quot;Web preview of a journal article&quot; /&gt;
+        &lt;div class=&quot;carousel-caption&quot;&gt;
+          &lt;h5&gt;Web preview of journal article&lt;/h5&gt;
+          &lt;p&gt;Using JATS XML format&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;carousel-item&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/opm-samples/previews/F-ado-page2-02.png&quot; class=&quot;d-block&quot; alt=&quot;Second page of the Shakespeare sample&quot; /&gt;
+        &lt;div class=&quot;carousel-caption&quot;&gt;
+          &lt;h5&gt;Shakespeare play (PDF via typst)&lt;/h5&gt;
+          &lt;p&gt;&lt;a href=&quot;https://e-editiones.org/img/opm-samples/F-ado.typst.pdf&quot;&gt;Open the PDF&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;carousel-item&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/opm-samples/opm-web-screenshot.png&quot; class=&quot;d-block&quot; alt=&quot;Static web page screenshot&quot; /&gt;
+        &lt;div class=&quot;carousel-caption&quot;&gt;
+          &lt;h5&gt;Static web presentation&lt;/h5&gt;
+          &lt;p&gt;Plain HTML + CSS produced by OPM&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;carousel-item&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/opm-samples/opm-astro-screenshot.png&quot; class=&quot;d-block&quot; alt=&quot;Static web page using Astro&quot; /&gt;
+        &lt;div class=&quot;carousel-caption&quot;&gt;
+          &lt;h5&gt;Full static web site&lt;/h5&gt;
+          &lt;p&gt;OPM JSON output powering an &lt;a href=&quot;https://e-editiones.org/posts/opm-save-the-date/astro.build&quot;&gt;Astro-based&lt;/a&gt; website&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;carousel-item&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/opm-samples/opm-epub-screenshot.png&quot; class=&quot;d-block&quot; alt=&quot;EPUB preview screenshot from the Gentle Introduction sample&quot; /&gt;
+        &lt;div class=&quot;carousel-caption&quot;&gt;
+          &lt;h5&gt;EPUB sample using TEI Publisher documentation&lt;/h5&gt;
+          &lt;p&gt;&lt;a href=&quot;https://e-editiones.org/img/opm-samples/quickstart.epub&quot;&gt;Download the EPUB&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&quot;carousel-control-prev&quot; type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide=&quot;prev&quot;&gt;
+      &lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+      &lt;span class=&quot;visually-hidden&quot;&gt;Previous&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;button class=&quot;carousel-control-next&quot; type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide=&quot;next&quot;&gt;
+      &lt;span class=&quot;carousel-control-next-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+      &lt;span class=&quot;visually-hidden&quot;&gt;Next&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;why-it-matters&quot; tabindex=&quot;-1&quot;&gt;Why it matters&lt;/h3&gt;
 &lt;p&gt;The TEI Processing Model is a conceptual cornerstone designed to empower scholars working with XML-encoded material. It is used worldwide to process and publish numerous digital editions and other scholarly resources — online, in print, and in other output formats. Until now, access and adoption have been constrained to users of a particular technology stack based on XQuery and eXist-db. OPM removes these limitations and opens the affordances of the TEI PM to the wider Python ecosystem, making it easier for researchers, developers, and institutions to build on open standards.&lt;/p&gt;
 &lt;p&gt;📖 Read the full announcement: &lt;a href=&quot;https://e-editiones.org/posts/opm-announcement/&quot;&gt;Open Processing Model&lt;/a&gt; 📄 Project prospectus: &lt;a href=&quot;https://e-editiones.org/assets/files/prospectus-2026-05-11.pdf&quot;&gt;Read here (PDF)&lt;/a&gt;&lt;/p&gt;
