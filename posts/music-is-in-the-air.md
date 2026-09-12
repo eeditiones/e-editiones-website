@@ -10,7 +10,7 @@ tags:
 coverImage: "marius-masalar-rPOmLGwai2w-unsplash.jpg"
 ---
 
-On Wednesday, July 8th we had the opportunity to join another e-editiones online event, this time a session dedicated to MEI (Music Encoding Initiative). Giuliano Di Bacco and Dennis Ried introduced us to MEI and challenges of publishing MEI and MEI-in-TEI collections on the web ([see slides](https://e-editiones.org/wp-content/uploads/2020/07/MEI_4_GDB_DR.pdf)). Wolfgang Meier presented early results of his work on integration of MEI into the TEI Publisher.
+On Wednesday, July 8th we had the opportunity to join another e-editiones online event, this time a session dedicated to MEI (Music Encoding Initiative). Giuliano Di Bacco and Dennis Ried introduced us to MEI and challenges of publishing MEI and MEI-in-TEI collections on the web. Wolfgang Meier presented early results of his work on integration of MEI into the TEI Publisher.
 
 ![Photo by <a href="https://unsplash.com/@marius?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Marius Masalar</a> on <a href="https://unsplash.com/s/photos/music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>](/img/marius-masalar-rPOmLGwai2w-unsplash.jpg)
   

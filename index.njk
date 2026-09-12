@@ -8,23 +8,8 @@ show: 9
 
 <section class="blog">
   {% set posts = collections.posts | excludeDrafts %}
-  {% set maxPosts = posts | min(show) %}
-  <h3>Latest Posts <small><a href="/posts/">See all</a></small></h3>
+  <h2>Latest Posts <small><a href="/posts/">See all</a></small></h2>
 
   {% set postslist = posts | head(-show) %}
-  {% set postslistCounter = posts | length %}
   {% include "postslist.njk" %}
 </section>
-{#
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
-#}

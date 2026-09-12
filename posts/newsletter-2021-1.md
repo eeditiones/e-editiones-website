@@ -13,7 +13,7 @@ coverImage: "bank-phrom-Tzm3Oyu_6sk-unsplash.jpg"
 
 ![Photo by <a href="https://unsplash.com/@bank_phrom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Bank Phrom</a> on <a href="https://unsplash.com/s/photos/news?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="unsplash">Unsplash</a>](/img/bank-phrom-Tzm3Oyu_6sk-unsplash.jpg)
 
-We're happy to send our first newsletter covering the past year of activities and developments within e-editiones and would like to encourage institutions or individuals who are not yet members to [join forces](https://e-editiones.org/how-to-become-a-member/).
+We're happy to send our first newsletter covering the past year of activities and developments within e-editiones and would like to encourage institutions or individuals who are not yet members to [join forces](/pages/how-to-become-a-member/).
 
 ## e-editiones as a Society
 
@@ -21,9 +21,9 @@ The e-editiones society was founded on 4 May 2020 by more than 20 international 
 
 ### More Information
 
-- [Current list of members](https://e-editiones.org/members/)
-- [Statutes (in German)](https://e-editiones.org/statuten-des-vereins-e-editiones-german/)
-- [How to become a member](https://e-editiones.org/how-to-become-a-member/)
+- [Current list of members](/pages/members/)
+- [Statutes (in German)](/pages/statuten-des-vereins-e-editiones-german/)
+- [How to become a member](/pages/how-to-become-a-member/)
 
 ## 2020 Events
 
@@ -33,22 +33,22 @@ _Meetings_
 
 - 04.05.2020: Virtual foundation of e-editions and first community event for members
 - 18.05.2020: First Public Community Event: Presentation of e-editiones by Andreas Kränzle with a short introduction to TEI Publisher for digital editions by Wolfgang Meier, discussion moderated by Joe Wicentowski [Video](https://youtu.be/LNbuyeh-vew)
-- 20.10.2020: TEI «Vanilla» by Magdalena Turska [Report](https://e-editiones.org/tei-vanilla-meeting-summary/)
+- 20.10.2020: TEI «Vanilla» by Magdalena Turska [Report](/posts/tei-vanilla-meeting-summary/)
 
 _Workshops_
 
-- Three-part online Course: [Learn TEI Publisher by Wolfgang Meier](https://e-editiones.org/getting-started/)
+- Three-part online Course: [Learn TEI Publisher by Wolfgang Meier](/pages/getting-started/)
     - Learn TEI Publisher 1: «Stay Home Learn TEI Publisher From Scratch» , 8th Jun 2020 [Video](https://www.youtube.com/watch?v=5qu94bhftpk)
     - Learn TEI Publisher 2, 15th Jun 2020 [Video](https://www.youtube.com/watch?v=5qu94bhftpk)
     - Learn TEI Publisher 3, 22nd Jun 2020 [Video](https://www.youtube.com/watch?v=FS36nYFlTbE)
-- Music is in the air – MEI and TEI Publisher by Giuliano Di Bacco and Dennis Ried, 8th Jul 2020 [Video](https://e-editiones.org/wp-content/uploads/2020/07/MEI_4_GDB_DR.pdf)
+- Music is in the air – MEI and TEI Publisher by Giuliano Di Bacco and Dennis Ried, 8th Jul 2020
 - Common eXist-db/TEI Publisher. Deployment Scenarios by Olaf Schreck and Lars Windauer covers different deployment scenarios of eXist-db and TEI Publisher, 9th Sep 2020 [Video](https://youtu.be/sA7H2f6zKmI)
-- Open Source Advent: Presentation of a number of open source developments, 11th – 31st Dec 2020 [Link](https://e-editiones.org/osa20/)
+- Open Source Advent: Presentation of a number of open source developments, 11th – 31st Dec 2020 [Link](/posts/osa20/)
 
 ### More Information
 
 - [e-editiones-YouTube-Channel](https://www.youtube.com/channel/UCAPhSZdBwFRCEFWNNYOC4Ww)
-- [e-editiones blog](https://e-editiones.org/blog/)
+- [e-editiones blog](/posts/)
 
 ## Communication
 
@@ -59,7 +59,7 @@ The association immediately set up communication facilities for its members and 
 - [e-editiones workspace on Slack](https://e-editiones.slack.com/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg#/)
 - [TEI Publisher FAQ](https://faq.teipublisher.com/)
 - [e-editiones.org on Twitter](https://twitter.com/EEditiones)
-- Up-to-date list of [e-editiones communication channels](https://e-editiones.org/get-in-touch/)
+- Up-to-date list of [e-editiones communication channels](/pages/get-in-touch/)
 
 ![](/img/wordcloud-eeditiones-2021.png) 
 
@@ -86,9 +86,9 @@ The source code of TEI Publisher and its related repositories have been moved un
 
 Beyond TEI Publisher itself, e-editiones released a number of other software packages:
 
-- The Open API routing library at the heart of TEI Publisher 7, called [Roaster](https://e-editiones.org/roaster-an-open-api-router-for-exist/), proved to be useful even outside the humanities and has already been adopted by a project in the medical realm.
-- Born out of the Karl Barth Gesamtausgabe, e-editiones published an [extension for the Visual Studio Code editor](https://e-editiones.org/vscode/) to help editors work on TEI. This includes an entity explorer to help with the markup of entities in a text by querying external authority databases from within the XML editor.
-- The [Cross Search](https://e-editiones.org/cross-search/) package provides a blueprint for a portal incorporating multiple editions, supporting cross-edition search facilities. This will become the basis for future hosting services.
+- The Open API routing library at the heart of TEI Publisher 7, called [Roaster](/posts/roaster-an-open-api-router-for-exist/), proved to be useful even outside the humanities and has already been adopted by a project in the medical realm.
+- Born out of the Karl Barth Gesamtausgabe, e-editiones published an [extension for the Visual Studio Code editor](/posts/vscode/) to help editors work on TEI. This includes an entity explorer to help with the markup of entities in a text by querying external authority databases from within the XML editor.
+- The [Cross Search](/posts/cross-search/) package provides a blueprint for a portal incorporating multiple editions, supporting cross-edition search facilities. This will become the basis for future hosting services.
 
 ## Community Contributions
 

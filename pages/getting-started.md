@@ -4,7 +4,7 @@ date: "2020-06-11"
 eleventyNavigation:
     parent: Community
     key: Getting Started
-    order: 1
+    order: 2
 ---
 
 If you want to dive in straight away go to the [TEI Publisher Documentation](https://tei-publisher.org/exist/apps/tei-publisher/doc/documentation.xml?id=odd-customization).
@@ -83,4 +83,4 @@ Working with TEI Publisher requires some knowledge of TEI, basic XPath and a lit
 
 ## TEI Publisher Hands on Workshop
 
-- Slides of Lars Windauers '[TEI-Publisher Hands-On](https://e-editiones.org/wp-content/uploads/2021/02/tei-publisher-workshop-ws21.pdf)' presentation at the "[Winter School 2021 - Digitale Editionen-Masterclass](https://www.i-d-e.de/aktivitaeten/schools/winter-school-2021-wuppertal/)" by [Bergische Universität Wupertal](https://www.geschichte.uni-wuppertal.de/de/lehrgebiete/digital-humanities.html). Slides are in German.
+- Slides of Lars Windauers 'TEI-Publisher Hands-On' presentation at the "[Winter School 2021 - Digitale Editionen-Masterclass](https://www.i-d-e.de/aktivitaeten/schools/winter-school-2021-wuppertal/)" by [Bergische Universität Wupertal](https://www.geschichte.uni-wuppertal.de/de/lehrgebiete/digital-humanities.html). Slides are in German.

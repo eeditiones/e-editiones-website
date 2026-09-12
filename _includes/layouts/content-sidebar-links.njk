@@ -6,15 +6,15 @@ layout: layouts/base.njk
     {% include "partials/menu.njk" %}
 </header>
 
-<main class="container {{ templateClass }}">
+<main id="main" class="container {{ templateClass }}">
     {% block top %}{% endblock %}
     <div class="row gx-5">
         <div class="col-md-8">
-            <h1>{{ title }}</h1>
+            {% if title %}<h1>{{ title }}</h1>{% endif %}
             {{ content | safe }}
         </div>
         <aside class="col-md-4">
-            {% include "partials/sidebar-flyer.njk" %}
+            {% include "partials/sidebar-links.njk" %}
         </aside>
     </div>
 </main>

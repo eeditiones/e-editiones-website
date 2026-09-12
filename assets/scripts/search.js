@@ -47,7 +47,7 @@ function search(index, fields, query) {
         });
 
         const info = document.createElement('h4');
-        if (result.length === 100) {
+        if (result.size === 100) {
             info.innerHTML = `Showing first 100 matches.`;
         } else {
             info.innerHTML = `Found ${result.size} matches.`;
@@ -73,7 +73,8 @@ function search(index, fields, query) {
                 tags.className = 'tags';
                 data.tags.forEach((tag) => {
                     const li = document.createElement('li');
-                    li.innerHTML = `<a href="/tags/${tag}" class="badge text-bg-light">${tag}</a>`;
+                    const slug = tag.toLowerCase().trim().replace(/\s+/g, '-');
+                    li.innerHTML = `<a href="/tags/${slug}/" class="badge text-bg-light">${tag}</a>`;
                     tags.appendChild(li);
                 });
                 div.appendChild(tags);
@@ -102,6 +103,11 @@ window.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('search-input');
     const fieldSelect = form.querySelector('[name=field]');
     const params = new URLSearchParams(location.search);
+    if (typeof FlexSearch === 'undefined') {
+        document.getElementById('results').innerHTML =
+            '<p>Search is unavailable because the search library could not be loaded.</p>';
+        return;
+    }
     const index = new FlexSearch.Document({
         tokenize: "reverse",
         document: {

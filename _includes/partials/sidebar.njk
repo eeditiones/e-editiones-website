@@ -1,10 +1,9 @@
 <form action="/search" class="search-form">
     <div class="input-group">
-        <input type="text" class="form-control" aria-label="Query"
-            aria-describedby="search-addon" name="query">
-        <button id="search-button" class="btn btn-primary" type="submit">Search</button>
+        <input type="text" class="form-control" aria-label="Search query" name="query">
+        <button id="search-button" class="btn btn-brand" type="submit">Search</button>
     </div>
 </form>
 
-<h3>Tags</h3>
+<h2>Tags</h2>
 {% include "partials/tagcloud.njk" %}

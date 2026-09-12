@@ -3,9 +3,9 @@
 /* Defaults */
 :root {
   --font-family-headings: "Zilla Slab", serif;
-  --font-family-body: "Lato", sans-serif;
+  --font-family-body: "Lato Light", sans-serif;
   /*--font-size-h1: 2.488rem;*/
-  --font-size-h1: clamp(1.5rem, 8vw, 2.488rem);;
+  --font-size-h1: clamp(1.5rem, 8vw, 2.488rem);
   --font-size-h2: 2.074rem;
   --font-size-h3: 1.728rem;
   --font-size-h4: 1.44rem;
@@ -17,18 +17,17 @@
   --color-3: #5E5739;
   --color-4: #303F2F;
   --color-highlight: #FFBB54;
-  --bs-link-color: var(--color-1);
-  --bs-link-hover-color: var(--color-2);
+  /* Link colors: darkened variants of --color-2 to meet WCAG AA contrast
+   * on white (5.7:1) and on the #f0f0f0 home background (5.0:1) */
+  --color-link: #A64B3A;
+  --color-link-hover: #8A3F32;
+  --bs-link-color: var(--color-link);
+  --bs-link-hover-color: var(--color-link-hover);
   --background-color-light: rgba(255, 255, 255, .80);
   --background-color-dark: rgba(0, 0, 0, .40);
   --banner-image: url("../../img/banner-640.jpg");
   --banner-height: 640px; /* calc(100vh - 30vh - 90px); */
   --header-height: 84px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-  }
 }
 
 /* Global stylesheet */
@@ -70,14 +69,50 @@ small {
   vertical-align: super;
 }
 
-a[href]:link {
+/* Links keep Bootstrap's underline in running text so they are
+ * recognizable without relying on color alone (WCAG 1.4.1).
+ * Navigational contexts (menu, badges, cards, tag cloud, TOC) drop it. */
+nav a,
+.icons a,
+a.badge,
+a.btn,
+.card-title a,
+.card-img-top a,
+.dateline a,
+.tags a,
+.toc a,
+ul.cloud a {
   text-decoration: none;
 }
-a[href]:hover {
+
+.card-title a:hover,
+.toc a:hover,
+ul.cloud a:hover {
   text-decoration: underline;
 }
-a:focus{
-  outline: none;
+
+/* Visible keyboard focus without the mouse-click ring Safari draws */
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
+}
+
+/* Skip link for keyboard users (header is fixed) */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 2000;
+  background: var(--color-4);
+  color: #fff;
+  padding: .5rem 1rem;
+}
+
+.skip-link:focus {
+  left: 0;
 }
 
 .badge {
@@ -155,14 +190,21 @@ table th {
 }
 
 nav.navbar {
-  --bs-navbar-brand-margin-end: 60px;
+  --bs-navbar-brand-margin-end: 48px;
   --bs-navbar-active-color: var(--bs-white);
+  /* Wider than Bootstrap's default .5rem — at the 20px menu font size the
+   * items otherwise sit almost shoulder to shoulder. */
+  --bs-navbar-nav-link-padding-x: .8rem;
   background-color: rgba(0, 0, 0, .40);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 
 .banner-visible nav.navbar {
   --bs-navbar-active-color: var(--bs-black);
   background-color: #F0F0F0;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 ul.navbar-nav {
@@ -173,13 +215,72 @@ ul.navbar-nav {
   --bs-nav-link-color: var(--bs-black);
 }
 
+.navbar-nav .nav-link {
+  font-weight: 400;
+}
+
+/* The link, hover and active colors are intentionally the same (white on the
+ * dark bar, black on the light one), so an accent underline is the only
+ * hover/active indicator the menu has. */
+@media (min-width: 992px) {
+  .navbar-nav > .nav-item > .nav-link {
+    position: relative;
+  }
+  /* ::before, not ::after — Bootstrap draws the dropdown caret with ::after */
+  .navbar-nav > .nav-item > .nav-link::before {
+    content: "";
+    position: absolute;
+    left: var(--bs-navbar-nav-link-padding-x);
+    right: var(--bs-navbar-nav-link-padding-x);
+    bottom: .3rem;
+    height: 2px;
+    border-radius: 1px;
+    background-color: var(--color-1);
+    opacity: 0;
+    transform: scaleX(.5);
+    transition: transform .18s ease, opacity .18s ease;
+  }
+  .navbar-nav > .nav-item > .nav-link:hover::before,
+  .navbar-nav > .nav-item > .nav-link.active::before,
+  .navbar-nav > .nav-item > .nav-link.show::before,
+  .navbar-nav > .nav-item.dropdown:has(.dropdown-menu .active) > .nav-link::before {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+/* In the collapsed menu the underline has no room, so mark the current page
+ * with weight and an accent bar instead. */
+@media (max-width: 991.98px) {
+  .navbar-nav .nav-link.active {
+    font-weight: 700;
+    box-shadow: inset 3px 0 0 var(--color-1);
+    padding-left: .75rem;
+  }
+}
+
+.dropdown-menu {
+  --bs-dropdown-padding-y: .4rem;
+  --bs-dropdown-border-radius: .5rem;
+  margin-top: .25rem;
+  border: 1px solid rgba(0, 0, 0, .06);
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .15);
+}
+
 .dropdown-menu .nav-link {
   --bs-nav-link-color: var(--bs-black);
   --bs-nav-link-hover-color: var(--bs-nav-link-color);
+  padding: .35rem 1.1rem;
+  font-weight: 300;
+}
+
+.dropdown-menu .nav-link:hover {
+  background-color: color-mix(in srgb, var(--color-1) 14%, #fff);
 }
 
 .dropdown-menu .nav-link.active {
   --bs-navbar-active-color: var(--bs-link-color);
+  font-weight: 400;
 }
 
 .navbar-brand {
@@ -236,26 +337,34 @@ nav .icons a:link {
 .banner > div {
   background-color: var(--background-color-dark);
   height: 100%;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center; */
   text-align: center;
+  padding: 2rem 1rem 1.5rem;
 }
 
+/* Hero is centered in the space above the intro text */
 .banner .hero {
-  position: absolute;
-  top: 150px;
-  left: 0;
-  right: 0;
+  margin: auto 0;
 }
-/* .banner .hero .btn-warning {
-  --bs-btn-bg: var(--bs-link-color);
-} */
+
 .banner h1 {
   font-family: var(--font-family-headings);
   font-size: 5.8em;
-  margin-bottom: 0;
+  margin: 0 0 .75rem;
   line-height: 1;
+}
+
+.banner .hero-tagline {
+  font-size: 1.25rem;
+  margin: 0 0 1.75rem;
+}
+
+.banner .hero-buttons {
+  display: flex;
+  gap: .75rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 375px) {
@@ -270,30 +379,96 @@ nav .icons a:link {
   font-style: normal;
 }
 
-/* intro text buttons */
-.shortcut {
-  color:var(--background-color-light);
-  background-color: var(--background-color-dark);
-}
-
-.shortcut span {
-  display: inline-block;
-  margin-left: 1em;
-}
-
 /* "editions with future" initial letter */
 .initial {
-  color: var(--bs-link-color);
+  color: var(--color-1);
+}
+
+/* Brand button (banner CTAs, search) replacing Bootstrap's
+ * default blue/yellow which clash with the palette */
+.btn-brand {
+  --bs-btn-bg: var(--color-1);
+  --bs-btn-border-color: var(--color-1);
+  --bs-btn-color: var(--color-4);
+  --bs-btn-hover-bg: var(--color-highlight);
+  --bs-btn-hover-border-color: var(--color-highlight);
+  --bs-btn-hover-color: var(--color-4);
+  --bs-btn-active-bg: var(--color-highlight);
+  --bs-btn-active-border-color: var(--color-highlight);
+  --bs-btn-active-color: var(--color-4);
+  font-weight: 400;
 }
 
 .banner .intro-text {
-  position: absolute;
-  bottom: 0;
+  max-width: 56rem;
+  margin: 0 auto;
+  padding-bottom: .5rem;
 }
 
 /* footer */
 footer {
   font-size: var(--font-size-small);
+  background-color: var(--color-4);
+  color: #F0F0F0;
+}
+
+footer a {
+  color: var(--color-highlight);
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer h2 {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-small);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin: 0 0 .75rem;
+  color: #fff;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: .25rem;
+}
+
+footer address {
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+footer .footer-logo img {
+  max-width: 180px;
+  height: auto;
+}
+
+footer .footer-social a {
+  color: #F0F0F0;
+  font-size: 24px;
+  margin-right: 1rem;
+}
+
+footer .footer-social a:hover,
+footer .footer-social a:focus {
+  color: var(--color-highlight);
+}
+
+footer .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, .15);
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  gap: .5rem;
 }
 
 /* Homepage tiles */
@@ -322,6 +497,7 @@ footer {
 }
 .card-img-top img {
   width: 100%;
+  height: auto;
 }
 
 .blog {
@@ -402,7 +578,6 @@ main.tmpl-post {
 }
 
 .alert a {
-  --bs-link-color: var(--color-2);
   font-weight: bolder;
 }
 
@@ -471,9 +646,8 @@ ul.cloud a {
   text-decoration: none;
 }
 
-ul[data-show-value] a::after {
-  content: " (" attr(data-count) ")";
-  font-size: 1em;
+ul.cloud .tag-count {
+  font-size: .85em;
 }
 
 ul.cloud li:nth-child(2n+1) a { --color: var(--color-1); }
@@ -488,38 +662,201 @@ ul.cloud li:nth-child(5n+1) a { --color: var(--color-4); }
   font-family: var(--font-family-body);
 }
 
-/*
-!* TEI Publisher registry *!
-.registry {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  height: 100vh;
-  padding: var(--header-height) 0 0 0;
-  margin-top: 0;
-}
-
-.registry section {
-  overflow: auto;
-  padding: 30px 1rem;
-}
-
-.registry ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.registry #map {
-  width: 100%;
-  height: 100%;
-  font-family: var(--font-family-body);
-}
-
-*/
 #map h4 {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+/* Board */
+
+/* Members send portraits at whatever size and crop they have; the fixed 4:5 box
+ * plus object-fit is what makes them read as one set. --portrait-focus is set
+ * per member for photos where the face does not sit at the default height. */
+.board-portrait {
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background-color: #eceae4;
+  border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
+}
+
+.board-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: var(--portrait-focus, center 25%);
+}
+
+/* Shown until a member sends a photo */
+.board-portrait--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family-headings);
+  font-size: 2.5rem;
+}
+
+.board-grid li:nth-child(4n+1) .board-portrait--placeholder {
+  background-color: color-mix(in srgb, var(--color-1) 18%, #fff);
+  color: var(--color-3);
+}
+.board-grid li:nth-child(4n+2) .board-portrait--placeholder {
+  background-color: color-mix(in srgb, var(--color-2) 15%, #fff);
+  color: var(--color-2);
+}
+.board-grid li:nth-child(4n+3) .board-portrait--placeholder {
+  background-color: color-mix(in srgb, var(--color-3) 15%, #fff);
+  color: var(--color-3);
+}
+.board-grid li:nth-child(4n+4) .board-portrait--placeholder {
+  background-color: color-mix(in srgb, var(--color-4) 15%, #fff);
+  color: var(--color-4);
+}
+
+.board-name {
+  margin: 0 0 .15rem;
+  font-size: 1.15rem;
+  line-height: 1.25;
+}
+
+.board-honorific {
+  color: #5c5c5c;
+  font-size: .85em;
+}
+
+.board-role {
+  margin: 0 0 .35rem;
+  font-size: var(--font-size-smallest);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-link);
+}
+
+.board-affiliation {
+  margin: 0 0 .5rem;
+  font-size: var(--font-size-small);
+  line-height: 1.4;
+  color: #5c5c5c;
+}
+
+.board-bio {
+  margin: 0;
+  font-size: .85rem;
+  line-height: 1.55;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .board-portrait img {
+    transition: transform .3s ease;
+  }
+  .board-member:hover .board-portrait img {
+    transform: scale(1.03);
+  }
+}
+
+/* Eight full-width 4:5 portraits would bury the page on a phone, so the card
+ * turns into a row instead. */
+@media (max-width: 767.98px) {
+  .board-member {
+    flex-direction: row;
+  }
+  .board-member .board-portrait {
+    flex: 0 0 7rem;
+    /* without this the portrait stretches to the card height and a long bio
+     * turns it into a very tall strip */
+    align-self: flex-start;
+    border-radius: var(--bs-card-inner-border-radius) 0 0 0;
+  }
+  .board-portrait--placeholder {
+    font-size: 1.75rem;
+  }
+}
+
+/* Members */
+
+/* Logos arrive in every shape and color scheme; a fixed white box with
+ * object-fit: contain is what makes them sit together as one wall. */
+.member-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6.5rem;
+  padding: 1rem 1.25rem;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, .08);
+  border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
+}
+
+.member-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.member-logo--placeholder {
+  font-family: var(--font-family-headings);
+  font-size: 2.5rem;
+  color: var(--color-2);
+}
+
+.member-card {
+  transition: box-shadow .2s ease, transform .2s ease;
+}
+
+.member-card:hover {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .12);
+  transform: translateY(-2px);
+}
+
+.member-name {
+  margin: 0 0 .2rem;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.member-name a {
+  text-decoration: none;
+}
+
+.member-name a:hover {
+  text-decoration: underline;
+}
+
+.member-sub {
+  margin: 0;
+  font-size: var(--font-size-small);
+  line-height: 1.4;
+  color: #5c5c5c;
+}
+
+.individual-members {
+  columns: 1;
+  column-gap: 3rem;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .individual-members {
+    columns: 2;
+  }
+}
+
+.individual-member {
+  break-inside: avoid;
+  margin-bottom: 1.1rem;
+  padding-left: .85rem;
+  border-left: 3px solid color-mix(in srgb, var(--color-2) 35%, #fff);
+  font-size: var(--font-size-small);
+  line-height: 1.5;
+  color: #444;
+}
+
+.individual-name {
+  font-weight: 700;
+  color: #212529;
 }
 
 @media print {
@@ -527,8 +864,19 @@ ul.cloud li:nth-child(5n+1) a { --color: var(--color-4); }
     font-size: 100%;
   }
 
-  header, footer {
+  @page {
+    margin: 2cm;
+  }
+
+  header, footer, .banner, .tagline {
     display: none;
+  }
+
+  /* Neutralize the dark Prism theme for print */
+  pre[class*="language-"], code[class*="language-"] {
+    background: #fff !important;
+    color: #000 !important;
+    text-shadow: none;
   }
 
   .tmpl-post aside {

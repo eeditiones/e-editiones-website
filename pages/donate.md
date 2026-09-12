@@ -5,9 +5,9 @@ lead: "Help sustain open source tools and resources for digital scholarly editio
 date: 2026-05-02
 permalink: /donate/
 eleventyNavigation:
-    parent: Community
+    parent: Get Involved
     key: Donate
-    order: 4
+    order: 3
 tags:
     - e-editiones
 ---

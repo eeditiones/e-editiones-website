@@ -1,10 +1,7 @@
 ---
 title: "Statuten des Vereins e-editiones (German)"
 date: "2020-06-08"
-eleventyNavigation:
-    parent: Society
-    key: Statuten des Vereins e-editiones (German)
-    order: 1
+lang: de
 ---
 
 Revidierte Version vom 5. November 2020

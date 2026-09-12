@@ -1,67 +1,15 @@
 ---
 title: "Members"
 date: "2020-06-08"
-eleventyNavigation:
-    parent: Society
-    key: Members
-    order: 4
+sidebar: false
 ---
+
+e-editiones is sustained by its members: institutions and individuals working on open, sustainable digital scholarly editions. Interested in joining? See [how to become a member](/pages/how-to-become-a-member/).
 
 ## Institutional Members
 
-- [Digital Humanities](https://www.dh.unibe.ch/)/[Walter Benjamin Kolleg](https://www.wbkolleg.unibe.ch/) der Universität Bern
-- [Freie Universität Berlin](https://www.fu-berlin.de/)
-- [The Hans Christian Andersen Centre](https://www.sdu.dk/en/forskning/hca), University of Southern Denmark
-- [HISOMA-CNRS-Université Lyon 2](https://www.hisoma.mom.fr/)
-- [Institute of Slovenian Literature and Literary studies](https://isllv.zrc-sazu.si/en/predstavitev#v), Research Centre of the Slovenian Academy of Sciences and Arts, Ljubljana
-- [Karl Barth-Stiftung](https://karlbarth.unibas.ch/de/), Basel
-- [Kommission für Geschichte des Parlamentarismus und der politischen Parteien e.V.](https://www.kgparl.de)
-- [Max-Planck-Institut für Rechtsgeschichte und Rechtstheorie](https://www.lhlt.mpg.de), Frankfurt am Main
-- [Schola Cantorum Basiliensis / FHNW](https://www.fhnw.ch/de/die-fhnw/hochschulen/musik/schola-cantorum-basiliensis)
-- [Schweizerische Akademie der Geistes- und Sozialwissenschaften (SAGW)](https://sagw.ch/sagw/)
-- [Staatsarchiv Zürich](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html), Zürich
-- [Stadtarchiv der Ortsbürgergemeinde](https://stadtarchiv.ch/) der Stadt St.Gallen
-- [Stiftsbibliothek St.Gallen](https://www.stiftsbezirk.ch/de/stiftsbibliothek/)
-- [Stiftung Eisenbibliothek](https://www.eisenbibliothek.ch/), Klostergut Paradies, Schlatt TG
-- [Trägerschaft Archives Online](https://www.archives-online.org)
-- [Virtuelle Texte (SFB 1567 / B04)](https://www.virtuelle-lebenswelten.de/forschung/wissen), Universität Bochum
-- [Zentralbibliothek Zürich](https://www.zb.uzh.ch/de)
-- [Zentrum Digitale Editionen & Editionsanalytik](https://www.zde.uzh.ch), Universität Zürich
-- [eXist Solutions GmbH](http://existsolutions.com/), Lenzkirch/Berlin
+{% include "partials/members-institutional.njk" %}
 
 ## Individual Members
 
-- Silvia Berigüete Pastor, Developer and TEI editor of the digital scholarly edition [Wilhelm von Humboldt: Schriften](http://www.wvh-schriften.de), Madrid
-- [Peter Boot](https://www.huygens.knaw.nl/en/medewerkers/peter-boot-2/), Senior researcher, Huygens Institute, Amsterdam, eDITem[https://gitlab.huc.knaw.nl/eDITem] and Edition Publication Model[https://gitlab.huc.knaw.nl/edition-publication-model/edition-publication-model]
-- Albert Brugnara, Wien [Tibetan TEI](https://www.brugnara.at)
-- Giuliano Di Bacco, PhD, music historian and medievalist, director of the [Resources and Studies for the History of Music Theory](https://chmtl.indiana.edu/hmt/index.html) (CHMTL, Indiana University Bloomington), including the [Thesaurus Musicarum Latinarum](https://chmtl.indiana.edu/tml/)
-- Anne Diekjobst, Fachreferentin, Universitäts- und Landesbibliothek Bonn
-- [Rita Gautschy](https://daw.philhist.unibas.ch/de/personen/rita-gautschy), Dr., Privatdozentin an der Universität Basel, Direktorin des [Swiss National Data and Service Center for the Humanities (DaSCH)](https://www.dasch.swiss/our-team)
-- Sulamith Gehr, [Basler Edition der Bernoulli-Briefwechsel](https://ub.unibas.ch/bernoulli/index.php/Hauptseite)
-- [Mascha Hansen](https://ifaa.uni-greifswald.de/hansen/), Dr., Lecturer, Department of British and North American Studies (IfAA), University of Greifswald
-- Pauline Jacsont, Research Associate in Digital Humanities, project «[Desenrollando el cordel](https://desenrollandoelcordel.unige.ch/inicio.html)», University of Geneva
-- Boris Lehečka, freelance developer (Persian-Czech Dictionary, digital edition of J. A. Comenius’s work)
-- [Prof. Dr. Christina Lechtermann](http://staff.germanistik.rub.de/lechtermann/), Ruhr-Universität Bochum, Fakultät für Philologie Germanistisches Institut
-- [Stephan Makowski](https://www.geschichte.uni-wuppertal.de/de/personen/digital-humanities/stephan-makowski-ma.html), Wissenschaftlicher Mitarbeiter in Digital Humanities, DFG-Projekt "Index Librorum Civitatum", Bergische Universität Wuppertal
-- [David Maus](https://dmaus.name/), Leiter der Abteilung Forschung und Entwicklung. Staats- und [Universitätsbibliothek Hamburg Carl von Ossietzky](https://www.sub.uni-hamburg.de/startseite.html)
-- Wolfgang Meier, Mitarbeiter at the [Heidelberger Akademie der Wissenschaften](https://www.hadw-bw.de); [Jinntec GmbH](https://www.jinntec.com) and [exist Solutions](https://www.existsolutions.com), Berlin
-- Martin Mueller, PhD, Professor Emeritus of English & Classics, Northwestern University, project lead of [Early Print](https://earlyprint.org/)
-- Elli Mylonas, [Center for Digital Scholarship](https://library.brown.edu/cds), University Library, Brown University
-- Maria Niku, Software Developer, [Finnish Literature Society](https://www.finlit.fi/en), Helsinki; [Lea – critical edition](https://kivi.finlit.fi/lea), [Forest Finns' Letters to Gottlund](https://editiot.finlit.fi/exist/apps/gottlund/index.html)
-- Dr. Andreas Kränzle, Research Fellow for the Digital Edition at [Karl Barth-Archiv, University of Basel](https://karlbarth.unibas.ch/) and [k & r](https://www.k-r.ch), Zürich
-- Roberta Padlina, Dr. des., Coordinator [NIE-INE](https://www.nie-ine.ch/), Universität Basel
-- Gerold Ritter, Dr., [e-hist](https://www.e-hist.ch), Zürich
-- [Antonio Rojas-Castro](https://hcommons.org/members/arojascastro1987), PhD, /Berlin-Brandenburgische Akademie der Wissenschaften and Universidad Internacional de la Rioja
--  Gil Shalit, [DH Development](https://www.dh-dev.com/)
-- Sinai Rusinek, [Elijah Lab](https://elijahlab.haifa.ac.il/ "Elijah Lab"), Haifa University; project leader of TraveLab
-- Roman Sigg, [Stadtarchivar Stein am Rhein](https://www.steinamrhein.ch/xml_1/internet/de/application/d3/d723/d724/f346.cfm)
-- Anna Skolimowska, Dr. hab., Head of the [Laboratory for Source Editing & Digital Humanities](http://fontes.ibi.uw.edu.pl/), Faculty of «Artes Liberales», University of Warsaw
-- Elisabeth Sünder, Referendarin [Landesbibliothek Oldenburg](https://www.lb-oldenburg.de/)
-- [Claudia Sutter](https://uzh.academia.edu/ClaudiaSutter), freie Historikerin, Archivarin, Stein am Rhein, Urbar des Dominikanerinnenklosters St. Katharinen St.Gallen
-- [Georg Vogeler](https://online.uni-graz.at/kfu_online/wbForschungsportal.cbShowPortal?pPersonNr=80075), Dr. phil., Professor Digital Humanities, Zentrum für Informationsmodellierung, Universität Graz
-- [Andreas Wagner](https://www.lhlt.mpg.de/wagner/en), Dr., Max Planck Institute for Legal History and Legal Theory
-- Arman Weidenmann, [Stadtarchiv der Ortsbürgergemeinde St. Gallen](https://www.stadtarchiv.ch/)
-- [Joseph Wicentowski](https://joewiz.org/), PhD, Historian, [Office of the Historian](https://history.state.gov/), U.S. Department of State
-- [Rolf Wissmann](https://www.forschung.schola-cantorum-basiliensis.ch/de/uber-uns/personen.html?detail=c4d55c87-d6ba-444b-884f-b1d92de517ea), M.A, Wissenschaftlicher Mitarbeiter SNF-Forschungsprojekt: «Vicentino21», Fachhochschule Nordwestschweiz | Musik-Akademie Basel, Hochschule für Musik | [Schola Cantorum Basiliensis](https://www.fhnw.ch/schola-cantorum-basiliensis)
-- Christian von Zimmermann, Dr. phil., Privatdozent, Leiter [Forschungsstelle Jeremias Gotthelf](https://www.gotthelf.unibe.ch/), Bern
-- Elias Zimmermann,  Elias Zimmermann, Dr., wissenschaftlicher Mitarbeiter <a href="https://www.zde.uzh.ch/de/projects/proto4diged.html">Proto4DigEd</a>, and <a href="https://www.zde.uzh.ch/de/news/2024/schwarzenbach.html">Digitale Edition Annemarie Schwarzenbach</a>
+{% include "partials/members-individual.njk" %}
