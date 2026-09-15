@@ -5,12 +5,41 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2026-09-09T00:00:00Z</updated>
+	<updated>2026-09-15T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>TEI Publisher 11</title>
+		<link href="https://e-editiones.org/posts/tei-publisher-11/"/>
+		<updated>2026-09-15T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei-publisher-11/</id>
+		<content type="html">&lt;p&gt;Version 11 of TEI Publisher puts the focus on numerous bug fixes and workflow improvements across the entire suite of tools and applications. That said, several new features also made the cut.&lt;/p&gt;
+&lt;p&gt;Despite a major version bump, it can be smoothly updated from TP 10 with Jinks.&lt;/p&gt;
+&lt;h2 id=&quot;notable-changes&quot; tabindex=&quot;-1&quot;&gt;Notable Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Search engine optimizations&lt;/strong&gt;: due to the dynamic nature of TEI Publisher, not all search engine robots would properly index the content. TP 11 now pre-renders the main content fragment of each page on the server. Web components can cope with this and won&#39;t load the content twice (&lt;em&gt;client-side hydration&lt;/em&gt;). In combination with the &lt;strong&gt;sitemap&lt;/strong&gt; profile, all pages get unique titles and canonical URLs, which should overall result in better search engine rankings (&lt;a href=&quot;https://teipublisher.org/doc/documentation.xml?id=seo#seo&quot;&gt;read more&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DTS 1.0&lt;/strong&gt;: TP 11 regains support for the &lt;a href=&quot;https://dtsapi.org/specifications/&quot;&gt;Distributed Text Services API&lt;/a&gt;, now in the released 1.0 version. This is a complete rewrite of the experimental DTS support available in earlier versions, fully compliant with the specification. See the &lt;em&gt;DTS Demo&lt;/em&gt; blueprint for an example of how you can use DTS with TEI Publisher.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JATS&lt;/strong&gt; becomes a first class citizen. While TP 10 could already render JATS via ODD, the format is now also supported by the &lt;em&gt;web based annotation editor&lt;/em&gt; as well as &lt;em&gt;Jinntap&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JinnTap&lt;/strong&gt; got a major facelift, &lt;a href=&quot;https://jinnelements.github.io/jinn-tap/&quot;&gt;documentation&lt;/a&gt;, many bug fixes and general improvements. It now supports XML formats beyond TEI, namely JATS and Docbook.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New modern theme&lt;/strong&gt;: to demonstrate how to add your own theme, we created an additional design with a modern, more minimalistic look and feel. See the &lt;a href=&quot;https://teipublisher.org/exist/apps/tp-serafin/browse-custom.html&quot;&gt;Serafin correspondence blueprint&lt;/a&gt; for a showcase combining the theme with cleaner typography, parchment backgrounds and nice color scheme.&lt;/li&gt;
+&lt;li&gt;A set of &lt;strong&gt;skills and instructions&lt;/strong&gt; is now included into every generated application. This helps coding agents like Claude, ChatGPT, Cursor and similar to properly understand the general workflow and – most important – observe best practice recommendations. The skills are mostly of the &amp;quot;don&#39;t do this stupid thing, look elsewhere instead&amp;quot; variety. They were extensively tested and should result in a much more pleasant and smoother conversation with your agent of choice – and fewer resources used (&lt;a href=&quot;https://teipublisher.org/doc/documentation.xml?id=development-workflow-agents#development-workflow-agents&quot;&gt;read more&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Powerful &lt;strong&gt;command line&lt;/strong&gt;: the &lt;a href=&quot;https://eeditiones.github.io/jinks-cli/&quot;&gt;&lt;code&gt;jinks-cli&lt;/code&gt;&lt;/a&gt; command line tool has been extended and now provides all commands and switches to keep the file system copy of your application in sync with the database. Devs (and coding agents) love it (&lt;a href=&quot;https://teipublisher.org/doc/documentation.xml?id=development-workflow-local#development-workflow-local&quot;&gt;read more&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DOCX output mode&lt;/strong&gt;: &lt;code&gt;tei-publisher-lib&lt;/code&gt; got a new output mode for generating DOCX files. While Word is obviously not a  match for TEI in scholarly work, a DOCX export can be useful, e.g. for editors to do a content review or to pass it on to manual typesetting.&lt;/li&gt;
+&lt;li&gt;The web-based &lt;strong&gt;annotation editor&lt;/strong&gt; received a lot of bug fixes based on user feedback from various real-world edition projects. Most importantly, a serious problem with disappearing annotations caused by refresh delays was solved.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Default ODD&lt;/strong&gt;: &lt;code&gt;teipublisher.odd&lt;/code&gt; was extented and revised for cross-compatibility with &lt;a href=&quot;https://opm.e-editiones.org/&quot;&gt;Open Processing Model&lt;/a&gt;, and to provide better out-of-the-box experience for &lt;code&gt;epub&lt;/code&gt; and &lt;code&gt;web&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pre-rendering&lt;/strong&gt; for faster content load: the &lt;a href=&quot;https://opm.e-editiones.org/&quot;&gt;Open Processing Model&lt;/a&gt; command-line tool can pre-render a static version of your content. TEI Publisher is ready to use it and only falls back to dynamic rendering if no static copy is found (&lt;a href=&quot;http://opm.e-editiones.org/guide/tei-publisher/&quot;&gt;read more&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://open-vsx.org/extension/e-editiones/oddity&quot;&gt;&lt;strong&gt;ODDity&lt;/strong&gt;&lt;/a&gt;: a new extension for Visual Studio Code-based IDEs (Cursor, Antigravity, Windsurf, Kiro …), providing a graphical editor for ODDs – similar to the web-based editor in TEI Publisher.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;upgrading&quot; tabindex=&quot;-1&quot;&gt;Upgrading&lt;/h2&gt;
+&lt;p&gt;Upgrades from TEI Publisher 10 should be smooth: just install the new jinks version via the dashboard. Update related packages first, i.e. &lt;code&gt;tei-publisher-lib&lt;/code&gt;, &lt;code&gt;roaster&lt;/code&gt;, &lt;code&gt;jinks-templates&lt;/code&gt;, &lt;code&gt;exist-jwt&lt;/code&gt; or installing jinks may fail.&lt;/p&gt;
+&lt;p&gt;Before upgrading your own apps, make sure you stored a copy locally (&lt;a href=&quot;https://teipublisher.org/exist/apps/tei-publisher/doc/quickstart.xml?id=jinks-download-sync#jinks-download-sync&quot;&gt;download the .xar&lt;/a&gt; if your app is not in git). Then select and update your app by clicking &lt;code&gt;Apply&lt;/code&gt; and check if any conflicts are reported that you may need to address.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: the presentation of demo apps like Serafin may look weird, which is caused by the base ODDs having changed. Running the &lt;code&gt;Fix ODDs&lt;/code&gt; action once should fix this.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Open Processing Model Release</title>

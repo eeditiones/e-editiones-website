@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEI Publisher 11</title>
+    <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
+    
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/css/prism-diff.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="e-editiones">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="e-editiones">
+    
+    
+  </head>
+  <body>
+      <header>
+    
+
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Community</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/developer/" class="nav-link">For developers</a>
+    </li><li class="nav-item">
+        <a href="/pages/memory/" class="nav-link">For memory institutions</a>
+    </li><li class="nav-item">
+        <a href="/pages/researcher/" class="nav-link">For researchers</a>
+    </li><li class="nav-item">
+        <a href="/pages/getting-started/" class="nav-link">Getting Started</a>
+    </li><li class="nav-item">
+        <a href="/pages/get-in-touch/" class="nav-link">Get in Touch</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-contribute/" class="nav-link">How to Contribute</a>
+    </li><li class="nav-item">
+        <a href="/pages/community-meetings/" class="nav-link">Community Meetings</a>
+    </li><li class="nav-item">
+        <a href="/donate/" class="nav-link">Donate</a>
+    </li><li class="nav-item">
+        <a href="/pages/code-of-conduct/" class="nav-link">Code of Conduct</a>
+    </li></ul>
+    </li><li class="nav-item dropdown">
+        <a class="dropdown-toggle nav-link"
+            data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Society</a>
+        <ul class="dropdown-menu"><li class="nav-item">
+        <a href="/pages/strategy/" class="nav-link">Strategy</a>
+    </li><li class="nav-item">
+        <a href="/pages/statuten-des-vereins-e-editiones-german/" class="nav-link">Statuten des Vereins e-editiones (German)</a>
+    </li><li class="nav-item">
+        <a href="/pages/meeting-minutes/" class="nav-link">Meeting Minutes</a>
+    </li><li class="nav-item">
+        <a href="/pages/board/" class="nav-link">Board</a>
+    </li><li class="nav-item">
+        <a href="/pages/members/" class="nav-link">Members</a>
+    </li><li class="nav-item">
+        <a href="/pages/groups/" class="nav-link">Groups</a>
+    </li><li class="nav-item">
+        <a href="/pages/how-to-become-a-member/" class="nav-link">How to become a member</a>
+    </li></ul>
+    </li><li class="nav-item">
+        <a href="/posts/" class="nav-link">Archive</a>
+    </li><li class="nav-item">
+                    <a href="/tags/events/" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/map/" class="nav-link">Project Registry</a>
+                </li>
+            </ul>
+            <div class="icons d-flex justify-content-end">
+                <a href="https://social.e-editiones.org/@eeditiones" class="me-4" target="_blank"><i class="bi bi-mastodon"></i></a>
+                <a href="https://www.linkedin.com/company/e-editiones" class="me-4" target="_blank"><i class="bi bi-linkedin"></i></a>            
+                <a href="https://www.instagram.com/eeditiones/" class="me-4" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://github.com/eeditiones/e-editiones-website/blob/main/./posts/tei-publisher-11.md" target="_blank"><i class="bi bi-github"></i></a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+</header>
+<main class="container tmpl-post">
+    <div class="row gx-lg-5 gx-2">
+        <div class="col-lg-9 col-md-9">
+            <h1>TEI Publisher 11</h1>
+
+            <div class="dateline">
+              <div>Wolfgang Meier</div>
+              <time datetime="2026-09-15">15 Sep 2026</time>
+            </div>
+
+            
+            
+            <p>Version 11 of TEI Publisher puts the focus on numerous bug fixes and workflow improvements across the entire suite of tools and applications. That said, several new features also made the cut.</p>
+<p>Despite a major version bump, it can be smoothly updated from TP 10 with Jinks.</p>
+<h2 id="notable-changes" tabindex="-1">Notable Changes</h2>
+<ul>
+<li><strong>Search engine optimizations</strong>: due to the dynamic nature of TEI Publisher, not all search engine robots would properly index the content. TP 11 now pre-renders the main content fragment of each page on the server. Web components can cope with this and won't load the content twice (<em>client-side hydration</em>). In combination with the <strong>sitemap</strong> profile, all pages get unique titles and canonical URLs, which should overall result in better search engine rankings (<a href="https://teipublisher.org/doc/documentation.xml?id=seo#seo">read more</a>).</li>
+<li><strong>DTS 1.0</strong>: TP 11 regains support for the <a href="https://dtsapi.org/specifications/">Distributed Text Services API</a>, now in the released 1.0 version. This is a complete rewrite of the experimental DTS support available in earlier versions, fully compliant with the specification. See the <em>DTS Demo</em> blueprint for an example of how you can use DTS with TEI Publisher.</li>
+<li><strong>JATS</strong> becomes a first class citizen. While TP 10 could already render JATS via ODD, the format is now also supported by the <em>web based annotation editor</em> as well as <em>Jinntap</em>.</li>
+<li><strong>JinnTap</strong> got a major facelift, <a href="https://jinnelements.github.io/jinn-tap/">documentation</a>, many bug fixes and general improvements. It now supports XML formats beyond TEI, namely JATS and Docbook.</li>
+<li><strong>New modern theme</strong>: to demonstrate how to add your own theme, we created an additional design with a modern, more minimalistic look and feel. See the <a href="https://teipublisher.org/exist/apps/tp-serafin/browse-custom.html">Serafin correspondence blueprint</a> for a showcase combining the theme with cleaner typography, parchment backgrounds and nice color scheme.</li>
+<li>A set of <strong>skills and instructions</strong> is now included into every generated application. This helps coding agents like Claude, ChatGPT, Cursor and similar to properly understand the general workflow and – most important – observe best practice recommendations. The skills are mostly of the &quot;don't do this stupid thing, look elsewhere instead&quot; variety. They were extensively tested and should result in a much more pleasant and smoother conversation with your agent of choice – and fewer resources used (<a href="https://teipublisher.org/doc/documentation.xml?id=development-workflow-agents#development-workflow-agents">read more</a>).</li>
+<li>Powerful <strong>command line</strong>: the <a href="https://eeditiones.github.io/jinks-cli/"><code>jinks-cli</code></a> command line tool has been extended and now provides all commands and switches to keep the file system copy of your application in sync with the database. Devs (and coding agents) love it (<a href="https://teipublisher.org/doc/documentation.xml?id=development-workflow-local#development-workflow-local">read more</a>).</li>
+<li><strong>DOCX output mode</strong>: <code>tei-publisher-lib</code> got a new output mode for generating DOCX files. While Word is obviously not a  match for TEI in scholarly work, a DOCX export can be useful, e.g. for editors to do a content review or to pass it on to manual typesetting.</li>
+<li>The web-based <strong>annotation editor</strong> received a lot of bug fixes based on user feedback from various real-world edition projects. Most importantly, a serious problem with disappearing annotations caused by refresh delays was solved.</li>
+<li><strong>Default ODD</strong>: <code>teipublisher.odd</code> was extented and revised for cross-compatibility with <a href="https://opm.e-editiones.org/">Open Processing Model</a>, and to provide better out-of-the-box experience for <code>epub</code> and <code>web</code>.</li>
+<li><strong>Pre-rendering</strong> for faster content load: the <a href="https://opm.e-editiones.org/">Open Processing Model</a> command-line tool can pre-render a static version of your content. TEI Publisher is ready to use it and only falls back to dynamic rendering if no static copy is found (<a href="http://opm.e-editiones.org/guide/tei-publisher/">read more</a>).</li>
+<li><a href="https://open-vsx.org/extension/e-editiones/oddity"><strong>ODDity</strong></a>: a new extension for Visual Studio Code-based IDEs (Cursor, Antigravity, Windsurf, Kiro …), providing a graphical editor for ODDs – similar to the web-based editor in TEI Publisher.</li>
+</ul>
+<h2 id="upgrading" tabindex="-1">Upgrading</h2>
+<p>Upgrades from TEI Publisher 10 should be smooth: just install the new jinks version via the dashboard. Update related packages first, i.e. <code>tei-publisher-lib</code>, <code>roaster</code>, <code>jinks-templates</code>, <code>exist-jwt</code> or installing jinks may fail.</p>
+<p>Before upgrading your own apps, make sure you stored a copy locally (<a href="https://teipublisher.org/exist/apps/tei-publisher/doc/quickstart.xml?id=jinks-download-sync#jinks-download-sync">download the .xar</a> if your app is not in git). Then select and update your app by clicking <code>Apply</code> and check if any conflicts are reported that you may need to address.</p>
+<p><strong>Note</strong>: the presentation of demo apps like Serafin may look weird, which is caused by the base ODDs having changed. Running the <code>Fix ODDs</code> action once should fix this.</p>
+
+        </div>
+        
+        <aside class="col-lg-3 col-md-3">
+
+            <div class="btn-group w-100 mb-3">
+              <a class="btn btn-light" href="/posts/opm-save-the-date/"
+                data-bs-toggle="tooltip" title="Open Processing Model Release">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              
+            </div>
+
+            <ul class="tags mb-3">
+              <li><a href="/tags/announcements/" class="badge text-bg-light" style="color: var(--color-2) !important">announcements</a></li>
+              <li><a href="/tags/tei-publisher/" class="badge text-bg-light" style="color: var(--color-3) !important">tei-publisher</a></li>
+              <li><a href="/tags/release/" class="badge text-bg-light" style="color: var(--color-4) !important">release</a></li>
+            </ul>
+
+            <nav class="toc" >
+        <ul><li><a href="#notable-changes">Notable Changes</a></li><li><a href="#upgrading">Upgrading</a></li></ul>
+      </nav>
+        </aside>
+        
+    </div>
+</main>
+
+<footer class="p-2">
+    <div class="col-8">e-editiones | c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen | Notkerstrasse 22 | CH-9000 St. Gallen | info@e-editiones.org<br/>
+    IBAN: CH21 0900 0000 1549 5086 6 | BIC: POFICHBEXXX | UID: CHE-474.398.996<br/>
+    <a href="/pages/imprint">Imprint</a> | <a href="/pages/gdpr">Data Protection</a>
+    </div>
+</footer>
+
+      <script src="/assets/scripts/bootstrap.bundle.min.js"></script>
+      <script src="/assets/scripts/common.js"></script>
+      
+      <!-- Matomo -->
+      <script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setDoNotTrack", true]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+          var u="//stats.existsolutions.com/";
+          _paq.push(['setTrackerUrl', u+'matomo.php']);
+          _paq.push(['setSiteId', '2']);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+          g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+      </script>
+      <!-- End Matomo Code -->
+  </body>
+</html>
