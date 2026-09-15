@@ -26,8 +26,9 @@ Despite a major version bump, it can be smoothly updated from TP 10 with Jinks.
 * Powerful __command line__: the [`jinks-cli`](https://eeditiones.github.io/jinks-cli/) command line tool has been extended and now provides all commands and switches to keep the file system copy of your application in sync with the database. Devs (and coding agents) love it ([read more](https://teipublisher.org/doc/documentation.xml?id=development-workflow-local#development-workflow-local)).
 * __DOCX output mode__: `tei-publisher-lib` got a new output mode for generating DOCX files. While Word is obviously not a  match for TEI in scholarly work, a DOCX export can be useful, e.g. for editors to do a content review or to pass it on to manual typesetting.
 * The web-based __annotation editor__ received a lot of bug fixes based on user feedback from various real-world edition projects. Most important, delays in refreshing the UI resulted in applied annotations suddenly disappearing if users were too quick etc. 
-* __Default ODD__: The `teipublisher.odd` was extented and revised for cross-compatibility with [Open Processing Model](https://opm.e-editiones.org/), and to provide better out-of-the-box experience for `epub` and `web`.
+* __Default ODD__: `teipublisher.odd` was extented and revised for cross-compatibility with [Open Processing Model](https://opm.e-editiones.org/), and to provide better out-of-the-box experience for `epub` and `web`.
 * __Pre-rendering__ for faster content load: the [Open Processing Model](https://opm.e-editiones.org/) command-line tool can pre-render a static version of your content based on the same ODD. TEI Publisher has been prepared to use this and only falls back to dynamic rendering if no static copy is found ([read more](http://opm.e-editiones.org/guide/tei-publisher/)).
+* [__ODDity__](https://open-vsx.org/extension/e-editiones/oddity): a new extension for Visual Studio Code-based IDEs (Cursor, Antigravity, Windsurf, Kiro …), providing a graphical editor for ODDs – similar to the web-based editor in TEI Publisher, but on the file system.
 
 ## Upgrading
 
