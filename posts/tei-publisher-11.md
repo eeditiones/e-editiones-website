@@ -32,6 +32,8 @@ Despite a major version bump, it can be smoothly updated from TP 10 with Jinks.
 
 ## Upgrading
 
-Upgrades from TEI Publisher 10 should be smooth: just install the new jinks version via the dashboard. Before upgrading your app, make sure you stored a copy locally (download the .xar if your app is not in git). Then select and update your app by clicking `Apply` and check if any conflicts are reported that you may need to address.
+Upgrades from TEI Publisher 10 should be smooth: just install the new jinks version via the dashboard. Update related packages first, i.e. `tei-publisher-lib`, `roaster`, `jinks-templates`, `exist-jwt` or installing jinks may fail.
+
+Before upgrading your own apps, make sure you stored a copy locally ([download the .xar](https://teipublisher.org/exist/apps/tei-publisher/doc/quickstart.xml?id=jinks-download-sync#jinks-download-sync) if your app is not in git). Then select and update your app by clicking `Apply` and check if any conflicts are reported that you may need to address.
 
 **Note**: the presentation of demo apps like Serafin may look weird, which is caused by the base ODDs having changed. Running the `Fix ODDs` action once should fix this.
