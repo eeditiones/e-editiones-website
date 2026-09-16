@@ -163,6 +163,10 @@
     &lt;/button&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;h3 id=&quot;presentation&quot; tabindex=&quot;-1&quot;&gt;Presentation&lt;/h3&gt;
+&lt;p&gt;For those who could not attend, please find the presentation slides below. A recording of the meetup will follow in a few days.&lt;/p&gt;
+&lt;iframe src=&quot;https://e-editiones.org/assets/slides/opm-20260915/opm-20260915.html&quot; title=&quot;Open Processing Model Release slides&quot; width=&quot;100%&quot; height=&quot;540&quot; style=&quot;border: 1px solid #dee2e6; border-radius: .5rem; aspect-ratio: 16 / 9;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;https://e-editiones.org/assets/slides/opm-20260915/opm-20260915.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Open the slides in a new tab&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;why-it-matters&quot; tabindex=&quot;-1&quot;&gt;Why it matters&lt;/h3&gt;
 &lt;p&gt;The TEI Processing Model is a conceptual cornerstone designed to empower scholars working with XML-encoded material. It is used worldwide to process and publish numerous digital editions and other scholarly resources — online, in print, and in other output formats. Until now, access and adoption have been constrained to users of a particular technology stack based on XQuery and eXist-db. OPM removes these limitations and opens the affordances of the TEI PM to the wider Python ecosystem, making it easier for researchers, developers, and institutions to build on open standards.&lt;/p&gt;
 &lt;p&gt;📖 Read the full announcement: &lt;a href=&quot;https://e-editiones.org/posts/opm-announcement/&quot;&gt;Open Processing Model&lt;/a&gt; 📄 Project prospectus: &lt;a href=&quot;https://e-editiones.org/assets/files/prospectus-2026-05-11.pdf&quot;&gt;Read here (PDF)&lt;/a&gt;&lt;/p&gt;
