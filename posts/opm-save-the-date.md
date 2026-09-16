@@ -135,6 +135,21 @@ We'll demonstrate how to use opm for transforming single documents to HTML, ePub
   </div>
 </div>
 
+### Presentation
+
+For those who could not attend, please find the presentation slides below. A recording of the meetup will follow in a few days.
+
+<iframe
+  src="/assets/slides/opm-20260915/opm-20260915.html"
+  title="Open Processing Model Release slides"
+  width="100%"
+  height="540"
+  style="border: 1px solid #dee2e6; border-radius: .5rem; aspect-ratio: 16 / 9;"
+  allowfullscreen
+></iframe>
+
+<p><a href="/assets/slides/opm-20260915/opm-20260915.html" target="_blank" rel="noopener">Open the slides in a new tab</a></p>
+
 ### Why it matters
 
 The TEI Processing Model is a conceptual cornerstone designed to empower scholars working with XML-encoded material. It is used worldwide to process and publish numerous digital editions and other scholarly resources — online, in print, and in other output formats. Until now, access and adoption have been constrained to users of a particular technology stack based on XQuery and eXist-db. OPM removes these limitations and opens the affordances of the TEI PM to the wider Python ecosystem, making it easier for researchers, developers, and institutions to build on open standards.
