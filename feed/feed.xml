@@ -47,7 +47,10 @@
 		<updated>2026-09-09T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/opm-save-the-date/</id>
 		<content type="html">&lt;h2 id=&quot;%F0%9F%97%93%EF%B8%8F-15th-september-at-17%3A00-cest&quot; tabindex=&quot;-1&quot;&gt;🗓️ 15th September at 17:00 CEST&lt;/h2&gt;
-&lt;p&gt;On 15 September, e-editiones will release the Open Processing Model (OPM) — an open-source Python implementation of the TEI Processing Model, bringing the power of TEI processing directly into popular scholarly workflows.&lt;/p&gt;
+&lt;p&gt;On 15 September, e-editiones did release the Open Processing Model (OPM) — an open-source Python implementation of the TEI Processing Model, bringing the power of TEI processing directly into popular scholarly workflows.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://youtu.be/wMxXQBpD940&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&quot;join-us-for-the-launch!&quot; tabindex=&quot;-1&quot;&gt;Join us for the launch!&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;📅 Date: Tuesday, 15 September 2026&lt;/li&gt;
@@ -164,9 +167,14 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3 id=&quot;presentation&quot; tabindex=&quot;-1&quot;&gt;Presentation&lt;/h3&gt;
-&lt;p&gt;For those who could not attend, please find the presentation slides below. A recording of the meetup will follow in a few days.&lt;/p&gt;
+&lt;p&gt;For those who could not attend, please find the presentation slides below.&lt;/p&gt;
 &lt;iframe src=&quot;https://e-editiones.org/assets/slides/opm-20260915/opm-20260915.html&quot; title=&quot;Open Processing Model Release slides&quot; width=&quot;100%&quot; height=&quot;540&quot; style=&quot;border: 1px solid #dee2e6; border-radius: .5rem; aspect-ratio: 16 / 9;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href=&quot;https://e-editiones.org/assets/slides/opm-20260915/opm-20260915.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Open the slides in a new tab&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;recording&quot; tabindex=&quot;-1&quot;&gt;Recording&lt;/h3&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;540&quot; src=&quot;https://www.youtube.com/embed/wMxXQBpD940?si=P3egb1-5vvgMLUsP&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;Recording: &lt;a href=&quot;https://youtu.be/wMxXQBpD940&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&quot;why-it-matters&quot; tabindex=&quot;-1&quot;&gt;Why it matters&lt;/h3&gt;
 &lt;p&gt;The TEI Processing Model is a conceptual cornerstone designed to empower scholars working with XML-encoded material. It is used worldwide to process and publish numerous digital editions and other scholarly resources — online, in print, and in other output formats. Until now, access and adoption have been constrained to users of a particular technology stack based on XQuery and eXist-db. OPM removes these limitations and opens the affordances of the TEI PM to the wider Python ecosystem, making it easier for researchers, developers, and institutions to build on open standards.&lt;/p&gt;
 &lt;p&gt;📖 Read the full announcement: &lt;a href=&quot;https://e-editiones.org/posts/opm-announcement/&quot;&gt;Open Processing Model&lt;/a&gt; 📄 Project prospectus: &lt;a href=&quot;https://e-editiones.org/assets/files/prospectus-2026-05-11.pdf&quot;&gt;Read here (PDF)&lt;/a&gt;&lt;/p&gt;
