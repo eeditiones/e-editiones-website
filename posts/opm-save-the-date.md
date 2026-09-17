@@ -15,7 +15,9 @@ coverImageCredits: by Lars Windauer
 
 ## 🗓️ 15th September at 17:00 CEST
 
-On 15 September, e-editiones will release the Open Processing Model (OPM) — an open-source Python implementation of the TEI Processing Model, bringing the power of TEI processing directly into popular scholarly workflows.
+On 15 September, e-editiones did release the Open Processing Model (OPM) — an open-source Python implementation of the TEI Processing Model, bringing the power of TEI processing directly into popular scholarly workflows.
+
+- Recording: [Youtube](https://youtu.be/wMxXQBpD940)
 
 ### Join us for the launch!
 
@@ -137,7 +139,7 @@ We'll demonstrate how to use opm for transforming single documents to HTML, ePub
 
 ### Presentation
 
-For those who could not attend, please find the presentation slides below. A recording of the meetup will follow in a few days.
+For those who could not attend, please find the presentation slides below.
 
 <iframe
   src="/assets/slides/opm-20260915/opm-20260915.html"
@@ -149,6 +151,12 @@ For those who could not attend, please find the presentation slides below. A rec
 ></iframe>
 
 <p><a href="/assets/slides/opm-20260915/opm-20260915.html" target="_blank" rel="noopener">Open the slides in a new tab</a></p>
+
+### Recording 
+
+<iframe   width="100%" height="540" src="https://www.youtube.com/embed/wMxXQBpD940?si=P3egb1-5vvgMLUsP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- Recording: [Youtube](https://youtu.be/wMxXQBpD940)
 
 ### Why it matters
 
