@@ -43,7 +43,6 @@ eleventyNavigation:
 - Boris Lehečka, freelance developer (Persian-Czech Dictionary, digital edition of J. A. Comenius’s work)
 - [Prof. Dr. Christina Lechtermann](http://staff.germanistik.rub.de/lechtermann/), Ruhr-Universität Bochum, Fakultät für Philologie Germanistisches Institut
 - [Stephan Makowski](https://www.geschichte.uni-wuppertal.de/de/personen/digital-humanities/stephan-makowski-ma.html), Wissenschaftlicher Mitarbeiter in Digital Humanities, DFG-Projekt "Index Librorum Civitatum", Bergische Universität Wuppertal
-- [David Maus](https://dmaus.name/), Leiter der Abteilung Forschung und Entwicklung. Staats- und [Universitätsbibliothek Hamburg Carl von Ossietzky](https://www.sub.uni-hamburg.de/startseite.html)
 - Wolfgang Meier, Mitarbeiter at the [Heidelberger Akademie der Wissenschaften](https://www.hadw-bw.de); [Jinntec GmbH](https://www.jinntec.com) and [exist Solutions](https://www.existsolutions.com), Berlin
 - Martin Mueller, PhD, Professor Emeritus of English & Classics, Northwestern University, project lead of [Early Print](https://earlyprint.org/)
 - Elli Mylonas, [Center for Digital Scholarship](https://library.brown.edu/cds), University Library, Brown University
