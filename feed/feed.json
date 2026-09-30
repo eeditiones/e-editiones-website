@@ -10,6 +10,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://e-editiones.org/posts/community-event-tei-publisher-11/",
+      "url": "https://e-editiones.org/posts/community-event-tei-publisher-11/",
+      "title": "Hands-on TEI Publisher 11",
+      "content_html": "<p>Community meetup on <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+event&amp;iso=20261006T17&amp;p1=268&amp;ah=1\">October 06, 2026 at 17:00 CET</a>.</p>\n<p>In this community call we'll first walk you through some of the new features in TEI Publisher 11, then move focus to even more exciting news. Most of the work on TEI Publisher 11 actually went into streamlining the workflow for developing an edition. This includes improved tooling and the interaction with coding agents to help develop a digital edition while still observing best practice recommendations. In a hands-on part we'll demonstrate how to get the most out of your setup.</p>\n<ul>\n<li>📅 Date: Tuesday, 6 October 2026</li>\n<li>🕒 Time: 17:00 CEST</li>\n<li>📍 Location: <a href=\"https://teams.microsoft.com/meet/346422483623551?p=tWTVCLpdxi0A8Eg2nZ\">Online (Teams)</a></li>\n<li>🎟️ No registration required</li>\n</ul>\n<figure>\n    <img src=\"https://e-editiones.org/img/e-editiones-community-tp-11-hands-on.png\" />\n    <figcaption>e-editiones community meetup</figcaption>\n</figure>\n",
+      "date_published": "2026-09-30T00:00:00Z"
+    },{
       "id": "https://e-editiones.org/posts/tei-publisher-11/",
       "url": "https://e-editiones.org/posts/tei-publisher-11/",
       "title": "TEI Publisher 11",
