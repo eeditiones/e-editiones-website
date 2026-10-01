@@ -1,7 +1,7 @@
 ---
 title: "When the Wall Came Down – how the world watched German reunification"
 short: "When the Wall Came Down"
-lead: "How the world watched German reunification. A digital edition of 63 diplomatic documents, relaunched on TEI Publisher 11"
+lead: "How the world watched German reunification. A playful take on a serious subject, relaunched with TEI Publisher 11"
 author: Wolfgang Meier, Lars Windauer, Magdalena Turska
 date: 2026-10-02
 tags:
