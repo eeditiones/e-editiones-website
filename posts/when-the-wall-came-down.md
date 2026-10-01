@@ -2,7 +2,7 @@
 title: "When the Wall Came Down â€“ how the world watched German reunification"
 short: "When the Wall Came Down"
 lead: "How the world watched German reunification. A digital edition of 63 diplomatic documents, relaunched on TEI Publisher 11"
-author: Lars Windauer
+author: Wolfgang Meier, Lars Windauer, Magdalena Turska
 date: 2026-10-02
 tags:
   - announcements
@@ -36,7 +36,6 @@ We three are old enough to have our own memories and impressions of these days â
 
 For the curious, we do have a [brief technical overview](#build-with-tei-publisher-11), and for the young, a bit of context on the [documents and events](#reading-the-documents-against-the-events) they describe.
 
-Wolfgang Meier, Lars Windauer and Magdalena Turska
 
 ### How the world watched
 <a href="https://teipublisher.org/exist/apps/wall-came-down/wall-index.html#about">
@@ -79,9 +78,7 @@ The last of the six Swiss documents is dated 2 October 1990, today 36 years ago.
 
 Birrer looks back on three years in East Berlin. When he arrived in 1987, he writes, nothing suggested that this state would disappear so quickly and so completely. He describes how the exodus through embassies and the Hungarian border and the mass demonstrations brought down the SED leadership within weeks. How exactly the Wall came to open on 9 November, he notes, was still unclear.
 
-About the road to unity he is critical. In his view, Chancellor Kohl was less the promoter than the actual motor of the process: the Ten-Point Plan, the quick currency union, the accession route under Article 23, the early all-German elections. He finds this admirable as management, but problematic as politics. He then analyses what the overnight abolition of central planning, the freeing of prices and the end of subsidies meant for the GDR economy, and where the Unification Treaty protected East German interests and where it did not.
-
-Yet the report is not one-sided. From a European standpoint, Birrer writes, German unity is undoubtedly to be welcomed: the division of Europe, Germany and Berlin was always artificial, even absurd, and the new Germany is federal, democratic, averse to militarism and integrated into the EC and NATO.
+About the road to unity he is critical. Yet the report is not one-sided. From a European standpoint, Birrer writes, German unity is undoubtedly to be welcomed: the division of Europe, Germany and Berlin was always artificial, even absurd, and the new Germany is federal, democratic, averse to militarism and integrated into the EC and NATO.
 
 ### Build with TEI Publisher 11 
 
