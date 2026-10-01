@@ -18,12 +18,25 @@ coverImageCredits: screenshot by Lars Windauer
     </figure>
 </a>
 
-Exactly 36 years ago today, on 2 October 1990, the German Democratic Republic saw its last day. On the 3rd of October, Germany celebrates the Day of German Unity. Between the opening of the Wall on 9 November 1989 and this moment, diplomats all over the world tried to make sense of events that were moving faster than anyone had expected. None of them knew how the story would end.
+Exactly 36 years ago today, on 2 October 1990, the German Democratic Republic saw its last day. On the 3rd of October, Germany celebrates the Day of German Unity. Between the opening of the Wall on 9 November 1989 and the day of reunification, diplomats all over the world tried to make sense of events that were moving faster than anyone had expected. None of them knew how the story would end.
 
-To mark the occasion, we are relaunching When the Wall Came Down, a digital edition of diplomatic documents from 1989–1990, on TEI Publisher 11, which was released in mid-September.
+To mark the anniversary, we are relaunching *When the Wall Came Down*, a selection of diplomatic documents from 1989–1990. This showcase edition is based on the printed volume *When the Wall Came Down. The Perception of German Reunification in International Diplomatic Documents 1989–1990* (Quaderni di Dodis 12), edited by Marc Dierikx and Sacha Zala and published in 2019 by Diplomatic Documents of Switzerland (Dodis), Bern, and the Leibniz Institute for Contemporary History, Munich–Berlin. The original publication is available online on [Dodis](https://www.dodis.ch/en/q12). 
+
+Thanks to the fact that the volume was released under a CC BY licence, we were able to repeatedly use it for demonstration purposes and teaching over the past years. With the new **TEI Publisher 11**, released in mid-September, we wanted to revisit this edition, and see how we could creatively enhance the scholarly output with our own ideas for its presentation. 
+
+The new affordances of the TEI Publisher/Jinks framework, complemented with possibility to employ LLMs to carry out some of the tedious tasks – like re-encoding the data to be able to offer alternative visualizations – allowed us to get playful and see quick results without too much elbow grease.
+
+We three are old enough to have our own memories and impressions of these days – even if in '89 we were living on the opposite sides of the Iron Curtain. Therefore we are grateful for the opportunity to reinterpret and reshape the edition despite the fact we are engineers, not historians. With this perspective, we think the edition should now best speak for itself.
+
+<a href="https://teipublisher.org/exist/apps/wall-came-down/wall-index.html">
+    WHEN THE WALL CAME DOWN
+</a>
 
 <br></br>
 
+For the curious, we do have a [brief technical overview](#build-with-tei-publisher-11), and for the young, a bit of context on the [documents and events](#reading-the-documents-against-the-events) they describe.
+
+Wolfgang Meier, Lars Windauer and Magdalena Turska
 
 ### How the world watched
 <a href="https://teipublisher.org/exist/apps/wall-came-down/wall-index.html#about">
@@ -35,10 +48,6 @@ To mark the occasion, we are relaunching When the Wall Came Down, a digital edit
 The documents were written between 14 September 1989 and 11 November 1990, from the refugee crisis before the Wall opened to the weeks after German unity. They come from embassies in Bonn and East Berlin, from other missions in Berlin, from posts as far afield as Warsaw, Paris and Tel Aviv, and from ministries and offices in the capitals. Telegrams, memos, minutes and letters show how events were perceived at the time, often before anyone knew how things would turn out.
 
 The edition comprises 63 documents from eleven countries: Austria, Canada, Germany, Israel, the Netherlands, Poland, Russia, Switzerland, Turkey, the United Kingdom and the United States. They are written in eight languages. German, English and French documents appear in the original, all others in English translation.
-
-It is based on the volume When the Wall Came Down. The Perception of German Reunification in International Diplomatic Documents 1989–1990 (Quaderni di Dodis 12), edited by Marc Dierikx and Sacha Zala and published in 2019 by Diplomatic Documents of Switzerland (Dodis), Bern, and the Leibniz Institute for Contemporary History, Munich–Berlin. The volume was released under a CC BY licence. Our edition reproduces it for demonstration purposes. The [original publication](https://www.dodis.ch/en/q12) is on Dodis.
-
-
 
 ### Reading the documents against the events
 <a href="https://teipublisher.org/exist/apps/wall-came-down/chronicle.html">
