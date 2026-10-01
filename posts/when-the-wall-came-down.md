@@ -1,13 +1,13 @@
 ---
 title: "When the Wall Came Down – how the world watched German reunification"
 short: "When the Wall Came Down"
-lead: "How the world watched German reunification. A playful take on a serious subject, relaunched with TEI Publisher 11"
+lead: "How the world watched German reunification. A playful take on a serious subject. Relaunched with TEI Publisher 11"
 author: Wolfgang Meier, Lars Windauer, Magdalena Turska
 date: 2026-10-02
 tags:
   - announcements
   - e-editiones
-coverImage: when-the-wall-came-down-1.png
+coverImage: wall-logo.svg
 coverImageCredits: screenshot by Lars Windauer
 ---
 
@@ -20,7 +20,7 @@ Exactly 36 years ago today, on 2 October 1990, the German Democratic Republic sa
     </figure>
 </a>
 
-To mark the anniversary, we are relaunching *When the Wall Came Down*, a selection of diplomatic documents from 1989–1990. This showcase edition is based on the printed volume *When the Wall Came Down. The Perception of German Reunification in International Diplomatic Documents 1989–1990* (Quaderni di Dodis 12), edited by Marc Dierikx and Sacha Zala and published in 2019 by Diplomatic Documents of Switzerland (Dodis), Bern, and the Leibniz Institute for Contemporary History, Munich–Berlin. The original publication is available online on [Dodis](https://www.dodis.ch/en/q12). 
+To mark the anniversary, we are relaunching *When the Wall Came Down*, a selection of diplomatic documents from 1989–1990. This showcase edition is based on the printed volume *When the Wall Came Down. The Perception of German Reunification in International Diplomatic Documents 1989–1990* (Quaderni di Dodis 12), edited by Marc Dierikx and Sacha Zala and published in 2019 by [Diplomatic Documents of Switzerland (Dodis)](https://www.dodis.ch/), Bern, and the [Leibniz Institute for Contemporary History](https://www.ifz-muenchen.de/en/), Munich–Berlin. The original publication is available [online](https://www.dodis.ch/en/q12) on Dodis. 
 
 
 Thanks to the fact that the volume was released under a CC BY licence, we were able to repeatedly use it for demonstration purposes and teaching over the past years. With the new **TEI Publisher 11**, released in mid-September, we wanted to revisit this edition, and see how we could creatively enhance the scholarly output with our own ideas for its presentation. 
@@ -64,10 +64,10 @@ The 63 documents come from eleven countries: Austria, Canada, Germany, Israel, t
         <figcaption>Chronicle filtered by country.</figcaption>
     </figure>
 </a>
-The heart of the edition is the chronicle. It places every document on a timeline next to key events, such as Kohl's Ten-Point Plan, the first free elections in the GDR, the Two-plus-Four Treaty and reunification itself. The busiest week is the one right after 9 November 1989. 
+The heart of the edition is the [chronicle](https://teipublisher.org/exist/apps/wall-came-down/chronicle.html). It places every document on a timeline next to key events, such as Kohl's Ten-Point Plan, the first free elections in the GDR, the Two-plus-Four Treaty and reunification itself. The busiest week is, of course, the one right after 9 November 1989. 
 
 
-You can filter by country, document type or place, putting focus where you want it.
+You can filter by country, document type or place, putting focus where *you* want it.
 
 
 Looking across countries makes the national concerns clear:
@@ -86,7 +86,7 @@ Looking across countries makes the national concerns clear:
     </figure>
 </a>
 
-The penultimate document is "Adieu, DDR!", a political report by Franz Birrer, Switzerland's ambassador in East Berlin. Dated 2 October 1990, exactly 36 years ago, it opens with the sentence: "Today the history of the state of the GDR comes to an end."
+A political report by Franz Birrer, Switzerland's ambassador in East Berlin is almost last in the collection. Dated 2 October 1990, exactly 36 years ago, it opens with the sentence: "Today the history of the state of the GDR comes to an end."
 
 Birrer looks back on three years in East Berlin. When he arrived, nothing suggested that this state would disappear so quickly and so completely. He describes how the exodus through embassies and the Hungarian border and the mass demonstrations brought down the SED leadership within weeks. How exactly the Wall came to open on 9 November, he notes, was still unclear.
 
