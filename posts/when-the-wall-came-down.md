@@ -7,7 +7,7 @@ date: 2026-10-02
 tags:
   - announcements
   - e-editiones
-coverImage: wall-logo.svg
+coverImage: when-the-wall-came-down-5.png
 coverImageCredits: screenshot by Lars Windauer
 ---
 
@@ -26,7 +26,7 @@ To mark the anniversary, we are relaunching *When the Wall Came Down*, a selecti
 Thanks to the fact that the volume was released under a CC BY licence, we were able to repeatedly use it for demonstration purposes and teaching over the past years. With the new **TEI Publisher 11**, released in mid-September, we wanted to revisit this edition, and see how we could creatively enhance the scholarly output with our own ideas for its presentation. 
 
 
-The new affordances of the TEI Publisher/Jinks framework, complemented with possibility to employ LLMs to carry out some of the tedious tasks – like re-encoding the data to be able to offer alternative visualizations – allowed us to get playful and see quick results without too much elbow grease.
+The new affordances of the [TEI Publisher/Jinks](https://tei-publisher.com) framework, complemented with possibility to employ LLMs to carry out some of the tedious tasks – like re-encoding the data to be able to offer alternative visualizations – allowed us to get playful and see quick results without too much elbow grease.
 
 
 We three are old enough to have our own memories and impressions of these days – even if in '89 we were living on the opposite sides of the Iron Curtain. Therefore we are thrilled at the opportunity to reinterpret and reshape the edition despite the fact we are engineers, not historians. 
@@ -64,6 +64,7 @@ The 63 documents come from eleven countries: Austria, Canada, Germany, Israel, t
         <figcaption>Chronicle filtered by country.</figcaption>
     </figure>
 </a>
+
 The heart of the edition is the [chronicle](https://teipublisher.org/exist/apps/wall-came-down/chronicle.html). It places every document on a timeline next to key events, such as Kohl's Ten-Point Plan, the first free elections in the GDR, the Two-plus-Four Treaty and reunification itself. The busiest week is, of course, the one right after 9 November 1989. 
 
 
