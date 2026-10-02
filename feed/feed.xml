@@ -5,12 +5,88 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2026-09-30T00:00:00Z</updated>
+	<updated>2026-10-02T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>When the Wall Came Down – how the world watched German reunification</title>
+		<link href="https://e-editiones.org/posts/when-the-wall-came-down/"/>
+		<updated>2026-10-02T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/when-the-wall-came-down/</id>
+		<content type="html">&lt;p&gt;Exactly 36 years ago today, on 2 October 1990, the German Democratic Republic saw its last day. On the 3rd of October, Germany celebrates the Day of German Unity. Between the opening of the Wall on 9 November 1989 and the day of reunification, diplomats all over the world tried to make sense of events that were moving faster than anyone had expected. None of them knew how the story would unfold.&lt;/p&gt;
+&lt;a href=&quot;https://teipublisher.org/exist/apps/wall-came-down&quot;&gt;
+    &lt;figure class=&quot;right-margin&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/when-the-wall-came-down-1.png&quot; /&gt;
+        &lt;figcaption&gt;When the wall came down - click to open the edition&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/a&gt;
+&lt;p&gt;To mark the anniversary, we are relaunching &lt;em&gt;When the Wall Came Down&lt;/em&gt;, a selection of diplomatic documents from 1989–1990. This showcase edition is based on the printed volume &lt;em&gt;When the Wall Came Down. The Perception of German Reunification in International Diplomatic Documents 1989–1990&lt;/em&gt; (Quaderni di Dodis 12), edited by Marc Dierikx and Sacha Zala and published in 2019 by &lt;a href=&quot;https://www.dodis.ch/&quot;&gt;Diplomatic Documents of Switzerland (Dodis)&lt;/a&gt;, Bern, and the &lt;a href=&quot;https://www.ifz-muenchen.de/en/&quot;&gt;Leibniz Institute for Contemporary History&lt;/a&gt;, Munich–Berlin. The original publication is available &lt;a href=&quot;https://www.dodis.ch/en/q12&quot;&gt;online&lt;/a&gt; on Dodis.&lt;/p&gt;
+&lt;p&gt;Thanks to the fact that the volume was released under a CC BY licence, we were able to repeatedly use it for demonstration purposes and teaching over the past years. With the new &lt;strong&gt;TEI Publisher 11&lt;/strong&gt;, released in mid-September, we wanted to revisit this edition, and see how we could creatively enhance the scholarly output with our own ideas for its presentation.&lt;/p&gt;
+&lt;p&gt;The new affordances of the &lt;a href=&quot;https://tei-publisher.com/&quot;&gt;TEI Publisher/Jinks&lt;/a&gt; framework, complemented with possibility to employ LLMs to carry out some of the tedious tasks – like re-encoding the data to be able to offer alternative visualizations – allowed us to get playful and see quick results without too much elbow grease.&lt;/p&gt;
+&lt;p&gt;We three are old enough to have our own memories and impressions of these days – even if in &#39;89 we were living on the opposite sides of the Iron Curtain. Therefore we are thrilled at the opportunity to reinterpret and reshape the edition despite the fact we are engineers, not historians.&lt;/p&gt;
+&lt;p&gt;In the face of a rising culture of hatred, fear and exclusion, we feel it is important to remember the legacy of those, who 36 years ago fought for a free, democratic and open society. With this perspective, we think the edition should now best speak for itself.&lt;/p&gt;
+&lt;a href=&quot;https://teipublisher.org/exist/apps/wall-came-down&quot;&gt;
+    &lt;figure class=&quot;center&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/wall-logo.svg&quot; style=&quot;border: 0px;&quot; /&gt;
+        &lt;figcaption&gt;click to open the edition&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/a&gt;
+&lt;p&gt;For the curious, we do have a &lt;a href=&quot;https://e-editiones.org/posts/when-the-wall-came-down/#built-with-tei-publisher-11&quot;&gt;brief technical overview&lt;/a&gt;, and, for the young, a bit of context on the &lt;a href=&quot;https://e-editiones.org/posts/when-the-wall-came-down/#reading-the-documents-against-the-events&quot;&gt;documents and events&lt;/a&gt; they describe.&lt;/p&gt;
+&lt;h3 id=&quot;how-the-world-watched&quot; tabindex=&quot;-1&quot;&gt;How the world watched&lt;/h3&gt;
+&lt;a href=&quot;https://teipublisher.org/exist/apps/wall-came-down/wall-index.html#about&quot;&gt;
+    &lt;figure class=&quot;right-margin&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/when-the-wall-came-down-2.png&quot; /&gt;
+        &lt;figcaption&gt;Birgit Kinder, »Test the Best«, East Side Gallery, Berlin.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/a&gt;
+The documents were written between 14 September 1989 and 11 November 1990, from the refugee crisis before the Wall opened to the weeks after German unity. They come from embassies in Bonn and East Berlin, from other missions in Berlin, from posts as far afield as Warsaw, Paris and Tel Aviv, and from ministries and offices in the capitals. Telegrams, memos, minutes and letters show how events were perceived at the time, often before anyone knew how things would turn out.
+&lt;p&gt;The 63 documents come from eleven countries: Austria, Canada, Germany, Israel, the Netherlands, Poland, Russia, Switzerland, Turkey, the United Kingdom and the United States. They are written in eight languages. German, English and French documents appear in the original, all others in English translation.&lt;/p&gt;
+&lt;h3 id=&quot;reading-the-documents-against-the-events&quot; tabindex=&quot;-1&quot;&gt;Reading the documents against the events&lt;/h3&gt;
+&lt;a href=&quot;https://teipublisher.org/exist/apps/wall-came-down/chronicle.html&quot;&gt;
+    &lt;figure class=&quot;right-margin&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/when-the-wall-came-down-3.png&quot; /&gt;
+        &lt;figcaption&gt;Chronicle filtered by country.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/a&gt;
+&lt;p&gt;The heart of the edition is the &lt;a href=&quot;https://teipublisher.org/exist/apps/wall-came-down/chronicle.html&quot;&gt;chronicle&lt;/a&gt;. It places every document on a timeline next to key events, such as Kohl&#39;s Ten-Point Plan, the first free elections in the GDR, the Two-plus-Four Treaty and reunification itself. The busiest week is, of course, the one right after 9 November 1989.&lt;/p&gt;
+&lt;p&gt;You can filter by country, document type or place, putting focus where &lt;em&gt;you&lt;/em&gt; want it.&lt;/p&gt;
+&lt;p&gt;Looking across countries makes the national concerns clear:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Dutch ambassador in Bonn criticises the &amp;quot;false note&amp;quot; of Kohl&#39;s reunification claim in the celebrations.&lt;/li&gt;
+&lt;li&gt;Poland makes its support conditional on the recognition of its western border.&lt;/li&gt;
+&lt;li&gt;The Soviet Union accepts German unity but rejects NATO membership.&lt;/li&gt;
+&lt;li&gt;Canada worries about being squeezed out of the Two-plus-Four talks.&lt;/li&gt;
+&lt;li&gt;Israel weighs establishing diplomatic relations with the GDR on the eve of unification.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;%22adieu%2C-ddr!%22&quot; tabindex=&quot;-1&quot;&gt;&amp;quot;Adieu, DDR!&amp;quot;&lt;/h3&gt;
+&lt;a href=&quot;https://teipublisher.org/exist/apps/wall-came-down/documents/49561.xml?view=single&amp;odd=wall&quot;&gt;
+    &lt;figure class=&quot;right-margin&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/when-the-wall-came-down-4.png&quot; /&gt;
+        &lt;figcaption&gt;Franz Birrer, political report no. 16, East Berlin, 2 October 1990. Dodis document 49561.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/a&gt;
+&lt;p&gt;A political report by Franz Birrer, Switzerland&#39;s ambassador in East Berlin is almost last in the collection. Dated 2 October 1990, exactly 36 years ago, it opens with the sentence: &amp;quot;Today the history of the state of the GDR comes to an end.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Birrer looks back on three years in East Berlin. When he arrived, nothing suggested that this state would disappear so quickly and so completely. He describes how the exodus through embassies and the Hungarian border and the mass demonstrations brought down the SED leadership within weeks. How exactly the Wall came to open on 9 November, he notes, was still unclear.&lt;/p&gt;
+&lt;p&gt;About the road to unity he is critical, yet the report is not one-sided. From a European standpoint, Birrer writes, German unity is undoubtedly to be welcomed: the division of Europe, Germany and Berlin was always artificial, even absurd, and the new Germany is federal, democratic, averse to militarism and integrated into the EC and NATO.&lt;/p&gt;
+&lt;h3 id=&quot;built-with-tei-publisher-11&quot; tabindex=&quot;-1&quot;&gt;Built with TEI Publisher 11&lt;/h3&gt;
+&lt;p&gt;The new edition was created on top of TEI Publisher 11. The design brief was rather simple, to put focus on the chronological development of events and create an attractive presentation.&lt;/p&gt;
+&lt;p&gt;During the implementation, a longer conversation with Claude Code proved very successful. Thanks to the skill set now shipping with TEI Publisher apps – it applied styling suggestions in the correct files and observed our best practice recommendations. We also used the LLM to refactor some of the TEI, which was originally targeting a printed book, not an online presentation. For example, we asked it to compile a people register out of the footnotes – and as far as we could see, it did this quite thoroughly. Occasional spelling errors we spotted turned out to be already present in the original source.&lt;/p&gt;
+&lt;p&gt;The resulting edition is a standard TEI Publisher application. It comes with its own ODDs, an API, and it can be downloaded as a .xar package. It can be upgraded and maintained in the future with Jinks application manager.&lt;/p&gt;
+&lt;h3 id=&quot;explore&quot; tabindex=&quot;-1&quot;&gt;Explore&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://teipublisher.org/exist/apps/wall-came-down&quot;&gt;Edition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://teipublisher.org/exist/apps/wall-came-down/wall-index.html#about&quot;&gt;About the edition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://teipublisher.org/exist/apps/wall-came-down/chronicle.html&quot;&gt;Chronicle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://teipublisher.org/exist/apps/wall-came-down/documents/49561.xml?view=single&amp;amp;odd=wall&quot;&gt;&amp;quot;Adieu, DDR!&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.e-editiones.org/posts/tei-publisher-11/&quot;&gt;TEI Publisher 11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.e-editiones.org/pages/getting-started/&quot;&gt;Getting started with TEI Publisher&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Hands-on TEI Publisher 11</title>
