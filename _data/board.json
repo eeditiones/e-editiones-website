@@ -70,7 +70,7 @@
         "text": "Northwestern University, Department of English"
       }
     ],
-    "bio": "MartinMueller is Professor emeritus of English and Classics at Northwestern University. He is the author of Children of Oedipus and other essays on the imitation of Greek tragedy, 1550-1800 and a monograph about the Iliad.  He has been actively involved in several digital projects, including the Chicago Homer, the MONK project (Metadata Offer New Knowledge), and EarlyPrint.  He was a co-principal investigator of the Mellon project that produced the TEI Processing Model, which lies at the heart of TEI Publisher."
+    "bio": "Martin Mueller is Professor emeritus of English and Classics at Northwestern University. He is the author of Children of Oedipus and other essays on the imitation of Greek tragedy, 1550-1800 and a monograph about the Iliad.  He has been actively involved in several digital projects, including the Chicago Homer, the MONK project (Metadata Offer New Knowledge), and EarlyPrint.  He was a co-principal investigator of the Mellon project that produced the TEI Processing Model, which lies at the heart of TEI Publisher."
   },
   {
     "name": "Nils Holger Németh Berg",
@@ -103,6 +103,7 @@
     "name": "Sinai Rusinek",
     "honorific": "Dr.",
     "url": "https://hcges.haifa.ac.il/2025/01/12/dr-sinai-rusinek-dh-expert-2/",
+    "photo":"board_2026_sinai.jpg",
     "affiliation": [
       {
         "text": "Haifa Center for German and European Studies (HCGES)",
@@ -112,6 +113,6 @@
         "text": "University of Haifa"
       }
     ],
-    "bio": "Sinai Rusinek is a digital humanities consultant and project lead at the Haifa Center for German and European Studies, with a background in conceptual history and a doctorate in philosophy from the Hebrew University of Jerusalem. She has led projects including the Hebrew historical gazetteer Kima and the TEI Publisher edition TraveLab, and co-built XMLPlanter, a browser tool for preparing parallel TEI editions without having to code."
+    "bio": "Sinai Rusinek is a consultant, project lead, and entrepreneur of various Digital Humanities projects, active as an independent contractor in the framework of DH-Dev, as well as in Elijah Lab, Haifa University, and at the Open University. She completed her PhD at the Hebrew University and a Polonsky Post Doctoral fellowship at the Van Leer Jerusalem Institute. She currently specializes in workflows for creating enriched research corpora and Digital Editions, as well as in Spatial Humanities.  Among recent projects that she has initiated, led, or participated in are the KIMA, the attestation based Gazetteer for the Hebrew script languages; TraveLab, an exploratory map based synoptic digital edition, the Heritage Geo Browser for the National Library of Israel, OCR and HTR development for Hebrew script languages and interlingual data integration projects."
   }
 ]
