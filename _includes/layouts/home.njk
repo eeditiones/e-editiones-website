@@ -18,7 +18,7 @@ templateClass: home
     {% include "partials/menu.njk" %}
 </header>
 {% include "partials/banner.njk" %}
-<main class="{{ templateClass }}">
+<main id="main" class="{{ templateClass }}">
     <div class="container">
         <div class="row d-lg-none">
             {% include "partials/intro.njk" %}
@@ -28,15 +28,8 @@ templateClass: home
             <aside class="col-md-4">
                 {% include "partials/sidebar.njk" %}
 
-                <h3>Projects Map <small class="text-muted"><a href="/map/">Expand</a></small></h3>
+                <h2>Projects Map <small><a href="/map/">Expand</a></small></h2>
                 <div id="map" data-zoom="5"></div>
-
-                {% if metadata.twitter.enabled %}
-                <div class="twitter d-none d-lg-block">
-                    <a class="twitter-timeline" href="https://twitter.com/EEditiones" data-tweet-limit="{{metadata.twitter.limit}}" data-chrome="noborders">Tweets by EEditiones</a> 
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-                {% endif %}
             </aside>
         </div>
     </div>

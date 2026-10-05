@@ -72,4 +72,4 @@ The extension is available from Microsoft's [Visual Studio Marketplace](https://
 
 All source code is available on the [e-editiones github](https://github.com/eeditiones/tei-publisher-vscode) and we would like to invite others to further extend it, e.g. by adding connectors to other authority APIs. Connectors are simple javascript/typescript classes with just two methods. See the [existing connectors](https://github.com/eeditiones/tei-publisher-vscode/tree/master/src/connectors) for inspiration.
 
-If you have questions, suggestions or would like to discuss further extensions: you'll find us in the [e-editiones slack](https://e-editiones.org/get-in-touch/) rooms.
+If you have questions, suggestions or would like to discuss further extensions: you'll find us in the [e-editiones slack](/pages/get-in-touch/) rooms.

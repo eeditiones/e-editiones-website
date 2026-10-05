@@ -59,9 +59,9 @@ The emerging community of practice which stays in touch through monthly online m
 
 
 ## References 
-1. Turska, M. (2021). [Digital editions survival kit. Reconstructing an edition](https://www.e-editiones.org/posts/digital-editions-survival-kit). 
+1. Turska, M. (2021). [Digital editions survival kit. Reconstructing an edition](/posts/digital-editions-survival-kit/). 
 2. Turska, M., Cummings, J. and Rahtz, S. (2016). [Challenging the Myth of Presentation in Digital Editions](https://journals.openedition.org/jtei/1453). In Journal of the Text Encoding Initiative, Issue 9.  
-3. Meier, W. [Shaping the future](https://www.e-editiones.org/resources/Community1022-1.pdf). In e-editiones community meeting presentation
+3. Meier, W. [Shaping the future](/resources/Community1022-1.pdf). In e-editiones community meeting presentation
 4. Pierazzo, E. (2014). [Digital Scholarly Editing: Theories, Models and Methods](https://hal.univ-grenoble-alpes.fr/hal-01182162).
 5. TEI Consortium (2023). [Processing Models](https://tei-c.org/release/doc/tei-p5-doc/en/html/TD.html#TDPM). In TEI P5: Guidelines for Electronic Text Encoding and Interchange.
 6. Turska, M. and Cummings, J. (2016). [A Lesson in Applied Minimalism: Adopting the TEI Processing Model](https://dh2016.adho.org/abstracts/88). In Digital Humanities 2016: Conference Abstracts. Jagiellonian University & Pedagogical University, Kraków, pp. 698–9.

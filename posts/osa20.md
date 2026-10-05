@@ -22,8 +22,8 @@ In the first instance we are presenting projects coordinated by e-editiones and 
 
 ## List of #OSA20 presents in December
 
-- Dec 11th: [Visual Studio Code](https://e-editiones.org/vscode/ "Visual Studio Code plugin") plugin
-- Dec 18th: [TEI Publisher 7](https://e-editiones.org/tei-publisher-7-final/ "TEI Publisher 7") release
+- Dec 11th: [Visual Studio Code](/posts/vscode/ "Visual Studio Code plugin") plugin
+- Dec 18th: [TEI Publisher 7](/posts/tei-publisher-7-final/ "TEI Publisher 7") release
 - Dec 21st: [TEI Publisher FAQ](https://faq.teipublisher.com/ "TEI Publisher FAQ") launch
 - Dec 23rd [Cross search](https://tei-publisher.org/exist/apps/cross-search/index.html)
 - Dec 31st [ELTeC: European Literary Corpus](https://tei-publisher.org/exist/apps/eltec/index.html)

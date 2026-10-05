@@ -1,3 +1,5 @@
+let panelState = 'half'; // Initial state is half
+
 function removeSizingClasses(){
   const listPanel = document.querySelector('#list-container');
   listPanel.classList.remove('minimal');
@@ -81,8 +83,6 @@ window.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('mouseup', (event) => {
     isDragging = false;
     endY = event.clientY;
-    console.log('initialY', initialY)
-    console.log('endY', endY)
     if(initialY == 0) return;
     _applyClasses(endY, initialY, listPanel);
     setTimeout(function(){ map.invalidateSize()}, 400);
@@ -112,7 +112,6 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  let panelState = 'half'; // Initial state is half
   let startY = 0; // To track the initial touch point
   let endY = 0; // To track the end touch point
 
@@ -148,7 +147,6 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 
   handle.addEventListener('touchstart', (event) => {
-    console.log('touchstart',event);
     startY = event.touches[0].clientY; // Record the starting Y position
     isDragging=true;
   });
@@ -157,7 +155,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
   });
   handle.addEventListener('touchend', (event) => {
-    console.log('touchend',event);
     endY = event.changedTouches[0].clientY; // Record the ending Y position
     handleSwipe(); // Handle the swipe after touch ends
     map.invalidateSize();

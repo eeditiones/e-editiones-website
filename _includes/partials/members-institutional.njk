@@ -1,0 +1,26 @@
+<ul class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 list-unstyled member-grid">
+  {%- for org in members.institutions %}
+  <li class="col">
+    <div class="card h-100 member-card">
+      <div class="member-logo">
+        {%- if org.logo %}
+        <img src="/img/members/{{ org.logo }}" alt="{{ org.name }} logo" loading="lazy" decoding="async">
+        {%- else %}
+        <span class="member-logo--placeholder" aria-hidden="true">{{ org.name | first }}</span>
+        {%- endif %}
+      </div>
+      <div class="card-body">
+        <h3 class="h6 member-name"><a href="{{ org.url }}">{{ org.name }}</a></h3>
+        {%- if org.sub %}
+        <p class="member-sub">
+          {%- for part in org.sub -%}
+            {%- if part.url %}<a href="{{ part.url }}">{{ part.text }}</a>{% else %}{{ part.text }}{% endif -%}
+            {%- if not loop.last %}, {% endif -%}
+          {%- endfor -%}
+        </p>
+        {%- endif %}
+      </div>
+    </div>
+  </li>
+  {%- endfor %}
+</ul>

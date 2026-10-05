@@ -34,7 +34,7 @@ idea of Web Components Standard - can be included in any HTML webpage.
 This means it can be embedded into existing CMS or any other publishing
 solution, even if it's not running eXist-db (e.g. the popular
 [Hugo](https://teipublisher.onrender.com/post/embedding-publisher/) or
-[WordPress](https://e-editiones.org/blog/)). A few lines of HTML is
+[WordPress](/posts/)). A few lines of HTML is
 sufficient to embed a document view anywhere you like:
 
 <iframe scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="" height="480" title="undefinedl" src="https://codepen.io/wolfgangmm/embed/GRJyvNY?height=480&theme-id=dark&default-tab=html,result&editable=true">Loading codepen ...</iframe>
