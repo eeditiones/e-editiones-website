@@ -22,8 +22,7 @@ In this community call we'll first walk you through some of the new features in 
 * 📍 Location: [Online (Teams)](https://teams.microsoft.com/meet/346422483623551?p=tWTVCLpdxi0A8Eg2nZ)
 * 🎟️ No registration required
 
-<figure>
-    <img src="/img/e-editiones-community-tp-11-hands-on.png">
-    <figcaption>e-editiones community meetup</figcaption>
-</figure>
 
+<iframe title="Hands-on TEI Publisher 11" width="560" height="315" src="https://friprogramvarusyndikatet.tv/videos/embed/sYzA6STsT5fQusCj24xz3J" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="border: 0px;"></iframe>
+
+- Recording: [Peertube](https://friprogramvarusyndikatet.tv/w/sYzA6STsT5fQusCj24xz3J)
