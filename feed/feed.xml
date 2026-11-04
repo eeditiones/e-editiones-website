@@ -5,12 +5,161 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2026-10-02T00:00:00Z</updated>
+	<updated>2026-10-31T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>OPM Release 0.10</title>
+		<link href="https://e-editiones.org/posts/opm-release-0.10/"/>
+		<updated>2026-10-31T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/opm-release-0.10/</id>
+		<content type="html">&lt;figure&gt;&lt;img src=&quot;https://e-editiones.org/img/opm-0.10-thumbnail.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+&lt;p&gt;This release focuses on two topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;generating project documentation from the ODDs, as a static website, markdown, ePub or PDF&lt;/li&gt;
+&lt;li&gt;monograph and correspondence showcases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Examples now include attractively typeset monograph, available in a range of output formats, and a correspondence edition with a view you can switch between diplomatic and edited text. HTML templates and styling have been refactored to better support different designs while sharing the basic layout.&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;540&quot; src=&quot;https://www.youtube.com/embed/RGjD8LlWbRQ&quot; title=&quot;OPM Release 0.10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;h2 id=&quot;documenting-your-odd&quot; tabindex=&quot;-1&quot;&gt;Documenting your ODD&lt;/h2&gt;
+&lt;p&gt;As users of TEI Publisher or OPM, you are surely familiar with the ODD as the place to define processing model transformations. However, its main purpose is to document your entire encoding practice, including the customization of the TEI you are using, from which a formal schema can be compiled. And for sure, writing a documentation is only worth it if someone actually reads it.&lt;/p&gt;
+&lt;p&gt;OPM 0.10 adds a simple command to generate a static website from any ODD. The result is pleasant to read and navigate through. PDF and other output formats are also supported.&lt;/p&gt;
+&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# preview as static website&lt;/span&gt;&lt;br /&gt;opm odd document &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;my.odd&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--force&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--preview&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token comment&quot;&gt;# or in different formats&lt;/span&gt;&lt;br /&gt;opm odd document &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;my.odd&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-t&lt;/span&gt; typst      &lt;span class=&quot;token comment&quot;&gt;# a PDF&lt;/span&gt;&lt;br /&gt;opm odd document &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;my.odd&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-t&lt;/span&gt; markdown   &lt;span class=&quot;token comment&quot;&gt;# a Markdown file&lt;/span&gt;&lt;br /&gt;opm odd document &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;my.odd&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-t&lt;/span&gt; epub       &lt;span class=&quot;token comment&quot;&gt;# an e-book&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token comment&quot;&gt;# without ODD, it renders the latest version of the TEI P5 guidelines&lt;/span&gt;&lt;br /&gt;opm odd document &lt;span class=&quot;token parameter variable&quot;&gt;--force&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--preview&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If your ODD contains prose, it will be included – otherwise you just get the reference pages. And while we were at it, we also played around with generating a Relax NG schema. Please note that this feature is still experimental:&lt;/p&gt;
+&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;opm odd compile &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;my.odd&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--format&lt;/span&gt; rng &lt;span class=&quot;token parameter variable&quot;&gt;-o&lt;/span&gt; my.rng&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The TEI Guidelines, rendered with OPM, are now available for preview from &lt;a href=&quot;https://eeditiones.github.io/tei-guidelines&quot;&gt;GitHub pages&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;reworked-examples-and-base-layout&quot; tabindex=&quot;-1&quot;&gt;Reworked examples and base layout&lt;/h2&gt;
+&lt;p&gt;The list of examples you can initialize with &lt;code&gt;opm init&lt;/code&gt; is getting longer. Fresh arrivals are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a &lt;strong&gt;monograph&lt;/strong&gt; example rendering one chapter of Karl Barth&#39;s &lt;em&gt;Der Römerbrief&lt;/em&gt;. This focuses on using the same typography across different media formats.&lt;/li&gt;
+&lt;li&gt;another &lt;strong&gt;correspondence&lt;/strong&gt; sample based on the &lt;em&gt;Alfred Escher Briefedition&lt;/em&gt;. Here the focus is on switching between edited text and diplomatic view as well as the interaction with IIIF.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Looking at the growing number of showcases, we refactored the templates they use: examples now share a common base layout which aligns with the concept of layout regions in TEI Publisher 11: concrete templates inherit from base and can fill the named regions known from TEI Publisher, e.g. &lt;code&gt;before&lt;/code&gt;, &lt;code&gt;after&lt;/code&gt; or &lt;code&gt;content&lt;/code&gt;.&lt;/p&gt;
+&lt;style&gt;
+#opm-samples-carousel {
+  background: #eef0f2;
+  border: 1px solid #dee2e6;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+#opm-samples-carousel .carousel-item img {
+  height: 440px;
+  width: 100%;
+  object-fit: contain;
+  padding: 1.5rem 1.5rem 2.5rem;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, .18));
+}
+#opm-samples-carousel .carousel-caption {
+  position: static;
+  height: 5rem;
+  padding: .75rem 15% 0;
+  background: #fff;
+  border-top: 1px solid #dee2e6;
+  color: var(--color-4);
+}
+#opm-samples-carousel .carousel-caption h5 {
+  margin: 0 0 .25rem;
+  font-size: 1.1rem;
+}
+#opm-samples-carousel .carousel-caption p {
+  margin: 0;
+}
+#opm-samples-carousel .carousel-indicators {
+  bottom: 5rem;
+  margin-bottom: .6rem;
+}
+#opm-samples-carousel .carousel-control-prev,
+#opm-samples-carousel .carousel-control-next {
+  bottom: 5rem;
+  width: 10%;
+}
+@media (max-width: 576px) {
+  #opm-samples-carousel .carousel-item img { height: 320px; }
+}
+&lt;/style&gt;
+&lt;div class=&quot;mb-4&quot;&gt;
+  &lt;div id=&quot;opm-samples-carousel&quot; class=&quot;carousel carousel-dark slide&quot; data-bs-ride=&quot;carousel&quot;&gt;
+    &lt;div class=&quot;carousel-indicators&quot;&gt;
+      &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;0&quot; class=&quot;active&quot; aria-current=&quot;true&quot; aria-label=&quot;Monograph sample&quot;&gt;&lt;/button&gt;
+      &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;1&quot; aria-label=&quot;Monograph PDF sample&quot;&gt;&lt;/button&gt;
+      &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;2&quot; aria-label=&quot;Edited letter sample&quot;&gt;&lt;/button&gt;
+      &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;3&quot; aria-label=&quot;Diplomatic letter sample&quot;&gt;&lt;/button&gt;
+      &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;4&quot; aria-label=&quot;ODD documentation home&quot;&gt;&lt;/button&gt;
+      &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;5&quot; aria-label=&quot;ODD element index&quot;&gt;&lt;/button&gt;
+      &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;6&quot; aria-label=&quot;ODD element reference&quot;&gt;&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;carousel-inner&quot;&gt;
+      &lt;div class=&quot;carousel-item active&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/opm-samples/opm-47009.png&quot; class=&quot;d-block&quot; alt=&quot;Web page with a chapter of Karl Barth&#39;s Römerbrief&quot; /&gt;
+        &lt;div class=&quot;carousel-caption&quot;&gt;
+          &lt;h5&gt;Monograph as a web page&lt;/h5&gt;
+          &lt;p&gt;A chapter of Karl Barth&#39;s Römerbrief&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;carousel-item&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/opm-samples/previews/barth-page1.png&quot; class=&quot;d-block&quot; alt=&quot;First PDF page of Karl Barth&#39;s Römerbrief&quot; /&gt;
+        &lt;div class=&quot;carousel-caption&quot;&gt;
+          &lt;h5&gt;Monograph as PDF&lt;/h5&gt;
+          &lt;p&gt;The same chapter of the Römerbrief, ready for print&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;carousel-item&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/opm-samples/opm-escher-edited.png&quot; class=&quot;d-block&quot; alt=&quot;Edited text of a letter by Alfred Escher&quot; /&gt;
+        &lt;div class=&quot;carousel-caption&quot;&gt;
+          &lt;h5&gt;Letter edition: edited text&lt;/h5&gt;
+          &lt;p&gt;Briefedition Alfred Escher&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;carousel-item&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/opm-samples/opm-escher-diplomatic.png&quot; class=&quot;d-block&quot; alt=&quot;Diplomatic text of a letter by Alfred Escher, with a popup showing the facsimile region of a line&quot; /&gt;
+        &lt;div class=&quot;carousel-caption&quot;&gt;
+          &lt;h5&gt;Letter edition: diplomatic text&lt;/h5&gt;
+          &lt;p&gt;Hovering over a line shows its region in the facsimile&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;carousel-item&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/opm-samples/opm-psalmy-landing.png&quot; class=&quot;d-block&quot; alt=&quot;Landing page of the TEI Psalmy ODD documentation&quot; /&gt;
+        &lt;div class=&quot;carousel-caption&quot;&gt;
+          &lt;h5&gt;ODD documentation&lt;/h5&gt;
+          &lt;p&gt;An ODD rendered as a documentation site&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;carousel-item&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/opm-samples/opm-ref-elements.png&quot; class=&quot;d-block&quot; alt=&quot;Index of elements in the TEI Psalmy ODD documentation&quot; /&gt;
+        &lt;div class=&quot;carousel-caption&quot;&gt;
+          &lt;h5&gt;ODD documentation: element index&lt;/h5&gt;
+          &lt;p&gt;All elements of the customization, grouped alphabetically&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;carousel-item&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/opm-samples/opm-ref-unclear.png&quot; class=&quot;d-block&quot; alt=&quot;Reference page for the unclear element&quot; /&gt;
+        &lt;div class=&quot;carousel-caption&quot;&gt;
+          &lt;h5&gt;ODD documentation: element reference&lt;/h5&gt;
+          &lt;p&gt;The reference page for &amp;lt;unclear&amp;gt;&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&quot;carousel-control-prev&quot; type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide=&quot;prev&quot;&gt;
+      &lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+      &lt;span class=&quot;visually-hidden&quot;&gt;Previous&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;button class=&quot;carousel-control-next&quot; type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide=&quot;next&quot;&gt;
+      &lt;span class=&quot;carousel-control-next-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+      &lt;span class=&quot;visually-hidden&quot;&gt;Next&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;why-is-it-not-yet-1.0%3F&quot; tabindex=&quot;-1&quot;&gt;Why is it not yet 1.0?&lt;/h2&gt;
+&lt;p&gt;0.10 indicates that there still might be breaking changes before the 1.0. In particular this applies to page layouts and templates. However, the core we consider stable and production ready, so give it a go!&lt;/p&gt;
+&lt;h3 id=&quot;support-e-editiones&quot; tabindex=&quot;-1&quot;&gt;Support e-editiones&lt;/h3&gt;
+&lt;p&gt;Remember: e-editiones is a non-profit association under Swiss law, recognised as serving the public benefit, with no commercial interests. As a consequence, we rely on membership to keep maintaining the software. Please consider &lt;a href=&quot;https://e-editiones.org/pages/how-to-become-a-member/&quot;&gt;becoming a member&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://e-editiones.org/join&quot;&gt;Join e-editiones&lt;/a&gt; and follow us on &lt;a href=&quot;https://social.e-editiones.org/@eeditiones&quot;&gt;Mastodon&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/company/e-editiones/&quot;&gt;LinkedIn&lt;/a&gt;, &lt;a href=&quot;https://bsky.app/profile/e-editiones.bsky.social&quot;&gt;BlueSky&lt;/a&gt; and &lt;a href=&quot;https://www.instagram.com/eeditiones/&quot;&gt;Instagram&lt;/a&gt; for updates.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>When the Wall Came Down – how the world watched German reunification</title>
@@ -207,6 +356,8 @@ The documents were written between 14 September 1989 and 11 November 1990, from 
       &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;3&quot; aria-label=&quot;Static web presentation&quot;&gt;&lt;/button&gt;
       &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;4&quot; aria-label=&quot;Astro website&quot;&gt;&lt;/button&gt;
       &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;5&quot; aria-label=&quot;EPUB sample&quot;&gt;&lt;/button&gt;
+      &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;6&quot; aria-label=&quot;Monograph sample&quot;&gt;&lt;/button&gt;
+      &lt;button type=&quot;button&quot; data-bs-target=&quot;#opm-samples-carousel&quot; data-bs-slide-to=&quot;7&quot; aria-label=&quot;ODD documentation sample&quot;&gt;&lt;/button&gt;
     &lt;/div&gt;
     &lt;div class=&quot;carousel-inner&quot;&gt;
       &lt;div class=&quot;carousel-item active&quot;&gt;
@@ -249,6 +400,20 @@ The documents were written between 14 September 1989 and 11 November 1990, from 
         &lt;div class=&quot;carousel-caption&quot;&gt;
           &lt;h5&gt;EPUB sample using TEI Publisher documentation&lt;/h5&gt;
           &lt;p&gt;&lt;a href=&quot;https://e-editiones.org/img/opm-samples/quickstart.epub&quot;&gt;Download the EPUB&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;carousel-item&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/opm-samples/opm-monograph.png&quot; class=&quot;d-block&quot; alt=&quot;Monograph example screenshot&quot; /&gt;
+        &lt;div class=&quot;carousel-caption&quot;&gt;
+          &lt;h5&gt;Monograph sample&lt;/h5&gt;
+          &lt;p&gt;A chapter of Karl Barth&#39;s Römerbrief&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;carousel-item&quot;&gt;
+        &lt;img src=&quot;https://e-editiones.org/img/opm-samples/opm-odd-documentation.png&quot; class=&quot;d-block&quot; alt=&quot;ODD documentation screenshot&quot; /&gt;
+        &lt;div class=&quot;carousel-caption&quot;&gt;
+          &lt;h5&gt;ODD Documentation&lt;/h5&gt;
+          &lt;p&gt;An ODD rendered as a documentation site&lt;/p&gt;
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
