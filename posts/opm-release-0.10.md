@@ -1,5 +1,5 @@
 ---
-title: "OPM Release 0.10"
+title: "OPM 0.10"
 lead: "Examples that look good – docs and schema from your ODD"
 author: Wolfgang Meier
 date: 2026-10-31
@@ -43,7 +43,7 @@ If your ODD contains prose, it will be included – otherwise you just get the r
 opm odd compile <my.odd> --format rng -o my.rng
 ```
 
-The TEI Guidelines, rendered with OPM, are now available for preview from [GitHub pages](https://eeditiones.github.io/tei-guidelines).
+The TEI Guidelines, rendered with OPM, are now available for preview from [GitHub pages](https://opm.e-editiones.org/guidelines/).
 
 ## Reworked examples and base layout
 
