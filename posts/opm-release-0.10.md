@@ -1,6 +1,6 @@
 ---
 title: "OPM Release 0.10"
-lead: "A new release of the Open Processing Model: generate documentation for your ODD, new example showcases, bug fixes"
+lead: "New in the Open Processing Model: generate documentation for your ODD, more showcases"
 author: Wolfgang Meier
 date: 2026-10-31
 tags:
@@ -11,7 +11,11 @@ coverImage: save-the-date-OPM-release.png
 coverImageCredits: by Lars Windauer
 ---
 
-> Besides numerous bug fixes, this release supports generating documentation from existing ODDs, either as a static website, markdown, ePub or PDF. It also adds more examples, showcasing a nicely designed monograph as well as another correspondence edition with a switch between diplomatic and edited text. HTML templates and styling have been refactored to better support different designs while sharing the basic layout.
+This release focuses on two topics: 
+- generating project documentation from the ODDs, as a static website, markdown, ePub or PDF
+- monograph and correspondence showcases
+
+Examples now include attractively typeset monograph, available in a range of output formats, and a correspondence edition with a view you can switch between diplomatic and edited text. HTML templates and styling have been refactored to better support different designs while sharing the basic layout.
 
 <iframe width="100%" height="540" src="https://www.youtube.com/embed/RGjD8LlWbRQ" title="OPM Release 0.10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -19,7 +23,7 @@ coverImageCredits: by Lars Windauer
 
 As users of TEI Publisher or OPM, you are surely familiar with the ODD as the place to define processing model transformations. However, its main purpose is to document your entire encoding practice, including the customization of the TEI you are using, from which a formal schema can be compiled. And for sure, writing a documentation is only worth it if someone actually reads it.
 
-OPM 0.10 thus adds a simple command to generate a nice static website from any ODD, which is pleasant to read and browse through:
+OPM 0.10 adds a simple command to generate a static website from any ODD. The result is pleasant to read and navigate through. PDF and other output formats are also supported.
 
 ```bash
 # preview as static website
@@ -32,24 +36,26 @@ opm odd document <my.odd> -t epub       # an e-book
 opm odd document --force --preview
 ```
 
-If your ODD contains prose, it will be included – otherwise you just get the reference pages. And while we were at it, we also added a command to generate a Relax NG schema. Please note that this is still experimental:
+If your ODD contains prose, it will be included – otherwise you just get the reference pages. And while we were at it, we also played around with generating a Relax NG schema. Please note that this feature is still experimental:
 
 ```bash
 opm odd compile <my.odd> --format rng -o my.rng
 ```
 
+The TEI Guidelines, rendered with OPM, are now available for preview from [GitHub pages](https://eeditiones.github.io/tei-guidelines).
+
 ## Reworked examples and base layout
 
-The list of examples you can initialize with `opm init` is growing. Freshly included were:
+The list of examples you can initialize with `opm init` is getting longer. Fresh arrivals are:
 
 * a __monograph__ example rendering one chapter of Karl Barth's _Der Römerbrief_. This focuses on using the same typography across different media formats.
 * another __correspondence__ sample based on the _Alfred Escher Briefedition_. Here the focus is on switching between edited text and diplomatic view as well as the interaction with IIIF.
 
-Looking at the growing number of examples, we also refactored the templates they use: examples now share a common base layout which adopts the concept of layout regions in TEI Publisher 11: concrete templates inherit from base and can fill the named regions known from TEI Publisher, i.e. `before`, `after`, `content` and so on.
+Looking at the growing number of showcases, we refactored the templates they use: examples now share a common base layout which aligns with the concept of layout regions in TEI Publisher 11: concrete templates inherit from base and can fill the named regions known from TEI Publisher, e.g. `before`, `after` or `content`.
 
-## Why is it not 1.0 but 0.10?
+## Why is it not yet 1.0?
 
-This indicates that there still might be breaking changes before the 1.0. In particular this applies to page layouts and templates. However, the core should be stable and production ready.
+0.10 indicates that there still might be breaking changes before the 1.0. In particular this applies to page layouts and templates. However, the core we consider stable and production ready, so give it a go!
 
 <style>
 #opm-samples-carousel {
@@ -168,6 +174,6 @@ This indicates that there still might be breaking changes before the 1.0. In par
 
 ### Support e-editiones 
 
-Remember: e-editiones is a non-profit association under Swiss law, recognised as serving the public benefit, with no commercial interests. As a consequence, e-editiones can only rely on membership fees to keep maintaining the software. Please consider [becoming a member](/pages/how-to-become-a-member/).
+Remember: e-editiones is a non-profit association under Swiss law, recognised as serving the public benefit, with no commercial interests. As a consequence, we rely on membership to keep maintaining the software. Please consider [becoming a member](/pages/how-to-become-a-member/).
 
 [Join e-editiones](/join) and follow us on [Mastodon](https://social.e-editiones.org/@eeditiones), [LinkedIn](https://www.linkedin.com/company/e-editiones/), [BlueSky](https://bsky.app/profile/e-editiones.bsky.social) and [Instagram](https://www.instagram.com/eeditiones/) for updates.
