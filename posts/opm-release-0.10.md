@@ -1,5 +1,5 @@
 ---
-title: "OPM Release 0.10"
+title: "OPM 0.10"
 lead: "Examples that look good – docs and schema from your ODD"
 author: Wolfgang Meier
 date: 2026-10-31
