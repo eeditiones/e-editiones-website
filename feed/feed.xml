@@ -13,7 +13,7 @@
 	</author>
 	
 	<entry>
-		<title>OPM Release 0.10</title>
+		<title>OPM 0.10</title>
 		<link href="https://e-editiones.org/posts/opm-release-0.10/"/>
 		<updated>2026-10-31T00:00:00Z</updated>
 		<id>https://e-editiones.org/posts/opm-release-0.10/</id>
@@ -31,7 +31,7 @@
 &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# preview as static website&lt;/span&gt;&lt;br /&gt;opm odd document &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;my.odd&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--force&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--preview&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token comment&quot;&gt;# or in different formats&lt;/span&gt;&lt;br /&gt;opm odd document &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;my.odd&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-t&lt;/span&gt; typst      &lt;span class=&quot;token comment&quot;&gt;# a PDF&lt;/span&gt;&lt;br /&gt;opm odd document &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;my.odd&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-t&lt;/span&gt; markdown   &lt;span class=&quot;token comment&quot;&gt;# a Markdown file&lt;/span&gt;&lt;br /&gt;opm odd document &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;my.odd&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-t&lt;/span&gt; epub       &lt;span class=&quot;token comment&quot;&gt;# an e-book&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token comment&quot;&gt;# without ODD, it renders the latest version of the TEI P5 guidelines&lt;/span&gt;&lt;br /&gt;opm odd document &lt;span class=&quot;token parameter variable&quot;&gt;--force&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--preview&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;If your ODD contains prose, it will be included – otherwise you just get the reference pages. And while we were at it, we also played around with generating a Relax NG schema. Please note that this feature is still experimental:&lt;/p&gt;
 &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;opm odd compile &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;my.odd&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--format&lt;/span&gt; rng &lt;span class=&quot;token parameter variable&quot;&gt;-o&lt;/span&gt; my.rng&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The TEI Guidelines, rendered with OPM, are now available for preview from &lt;a href=&quot;https://eeditiones.github.io/tei-guidelines&quot;&gt;GitHub pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The TEI Guidelines, rendered with OPM, are now available for preview from &lt;a href=&quot;https://opm.e-editiones.org/guidelines/&quot;&gt;GitHub pages&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;reworked-examples-and-base-layout&quot; tabindex=&quot;-1&quot;&gt;Reworked examples and base layout&lt;/h2&gt;
 &lt;p&gt;The list of examples you can initialize with &lt;code&gt;opm init&lt;/code&gt; is getting longer. Fresh arrivals are:&lt;/p&gt;
 &lt;ul&gt;

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OPM Release 0.10</title>
+    <title>OPM 0.10</title>
     <meta name="description" content="e-editiones – Society for Scholarly Digital Editions">
     
 <link rel="icon" href="/favicon.ico">
@@ -98,7 +98,7 @@
 <main class="container tmpl-post">
     <div class="row gx-lg-5 gx-2">
         <div class="col-lg-9 col-md-9">
-            <h1>OPM Release 0.10</h1>
+            <h1>OPM 0.10</h1>
 
             <div class="dateline">
               <div>Wolfgang Meier</div>
@@ -121,7 +121,7 @@
 <pre class="language-bash"><code class="language-bash"><span class="token comment"># preview as static website</span><br>opm odd document <span class="token operator">&lt;</span>my.odd<span class="token operator">></span> <span class="token parameter variable">--force</span> <span class="token parameter variable">--preview</span><br><span class="token comment"># or in different formats</span><br>opm odd document <span class="token operator">&lt;</span>my.odd<span class="token operator">></span> <span class="token parameter variable">-t</span> typst      <span class="token comment"># a PDF</span><br>opm odd document <span class="token operator">&lt;</span>my.odd<span class="token operator">></span> <span class="token parameter variable">-t</span> markdown   <span class="token comment"># a Markdown file</span><br>opm odd document <span class="token operator">&lt;</span>my.odd<span class="token operator">></span> <span class="token parameter variable">-t</span> epub       <span class="token comment"># an e-book</span><br><span class="token comment"># without ODD, it renders the latest version of the TEI P5 guidelines</span><br>opm odd document <span class="token parameter variable">--force</span> <span class="token parameter variable">--preview</span></code></pre>
 <p>If your ODD contains prose, it will be included – otherwise you just get the reference pages. And while we were at it, we also played around with generating a Relax NG schema. Please note that this feature is still experimental:</p>
 <pre class="language-bash"><code class="language-bash">opm odd compile <span class="token operator">&lt;</span>my.odd<span class="token operator">></span> <span class="token parameter variable">--format</span> rng <span class="token parameter variable">-o</span> my.rng</code></pre>
-<p>The TEI Guidelines, rendered with OPM, are now available for preview from <a href="https://eeditiones.github.io/tei-guidelines">GitHub pages</a>.</p>
+<p>The TEI Guidelines, rendered with OPM, are now available for preview from <a href="https://opm.e-editiones.org/guidelines/">GitHub pages</a>.</p>
 <h2 id="reworked-examples-and-base-layout" tabindex="-1">Reworked examples and base layout</h2>
 <p>The list of examples you can initialize with <code>opm init</code> is getting longer. Fresh arrivals are:</p>
 <ul>

@@ -657,22 +657,22 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/e-editiones/</loc>
-    <lastmod>2026-11-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
-    <lastmod>2026-11-04</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/conference/</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/e-editiones/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/static/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/tei-publisher/</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   
@@ -692,17 +692,12 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/workshop/</loc>
-    <lastmod>2026-11-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/awards/</loc>
-    <lastmod>2026-11-04</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/meetups/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/workshop/</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   
@@ -737,12 +732,17 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/talk/</loc>
+    <loc>https://e-editiones.org/tags/awards/</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/editions/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/talk/</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   
@@ -787,22 +787,22 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/epidoc/</loc>
-    <lastmod>2026-11-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/fore/</loc>
-    <lastmod>2026-11-04</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/ukraine/</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/grants/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/epidoc/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/fore/</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   
@@ -827,7 +827,7 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/hosting/</loc>
+    <loc>https://e-editiones.org/tags/digital-edition/</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   
@@ -847,12 +847,17 @@
   </url>
   
   <url>
+    <loc>https://e-editiones.org/tags/hosting/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://e-editiones.org/tags/opm/</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/digital-edition/</loc>
+    <loc>https://e-editiones.org/tags/projects/</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   
@@ -863,11 +868,6 @@
   
   <url>
     <loc>https://e-editiones.org/tags/roaster/</loc>
-    <lastmod>2026-11-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://e-editiones.org/tags/projects/</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   
@@ -887,17 +887,17 @@
   </url>
   
   <url>
-    <loc>https://e-editiones.org/tags/teiconf/</loc>
-    <lastmod>2026-11-04</lastmod>
-  </url>
-  
-  <url>
     <loc>https://e-editiones.org/tags/semantic-encoding/</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   
   <url>
     <loc>https://e-editiones.org/tags/vscode/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://e-editiones.org/tags/teiconf/</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   
