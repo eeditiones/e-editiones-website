@@ -1,15 +1,16 @@
 ---
 title: "OPM Release 0.10"
-lead: "New in the Open Processing Model: generate documentation for your ODD, more showcases"
+lead: "Examples that look good – docs and schema from your ODD"
 author: Wolfgang Meier
 date: 2026-10-31
 tags:
   - announcements
   - e-editiones
   - opm
-coverImage: save-the-date-OPM-release.png
-coverImageCredits: by Lars Windauer
+coverImage: opm-0.10-blog.png
 ---
+
+![](/img/opm-0.10-thumbnail.png)
 
 This release focuses on two topics: 
 - generating project documentation from the ODDs, as a static website, markdown, ePub or PDF
@@ -52,10 +53,6 @@ The list of examples you can initialize with `opm init` is getting longer. Fresh
 * another __correspondence__ sample based on the _Alfred Escher Briefedition_. Here the focus is on switching between edited text and diplomatic view as well as the interaction with IIIF.
 
 Looking at the growing number of showcases, we refactored the templates they use: examples now share a common base layout which aligns with the concept of layout regions in TEI Publisher 11: concrete templates inherit from base and can fill the named regions known from TEI Publisher, e.g. `before`, `after` or `content`.
-
-## Why is it not yet 1.0?
-
-0.10 indicates that there still might be breaking changes before the 1.0. In particular this applies to page layouts and templates. However, the core we consider stable and production ready, so give it a go!
 
 <style>
 #opm-samples-carousel {
@@ -171,6 +168,10 @@ Looking at the growing number of showcases, we refactored the templates they use
     </button>
   </div>
 </div>
+
+## Why is it not yet 1.0?
+
+0.10 indicates that there still might be breaking changes before the 1.0. In particular this applies to page layouts and templates. However, the core we consider stable and production ready, so give it a go!
 
 ### Support e-editiones 
 
