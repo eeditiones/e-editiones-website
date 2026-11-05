@@ -9,6 +9,7 @@ tags:
   - meetups
   - announcements
   - e-editiones
+  - opm
 coverImage: save-the-date-OPM-release.png
 coverImageCredits: by Lars Windauer
 ---
@@ -168,7 +169,7 @@ For those who could not attend, please find the presentation slides below.
 
 <p><a href="/assets/slides/opm-20260915/opm-20260915.html" target="_blank" rel="noopener">Open the slides in a new tab</a></p>
 
-### Recording 
+### Recording
 
 <iframe   width="100%" height="540" src="https://www.youtube.com/embed/wMxXQBpD940?si=P3egb1-5vvgMLUsP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -180,6 +181,6 @@ The TEI Processing Model is a conceptual cornerstone designed to empower scholar
 
 📖 Read the full announcement: [Open Processing Model](/posts/opm-announcement/) 📄 Project prospectus: [Read here (PDF)](/assets/files/prospectus-2026-05-11.pdf)
 
-### Support e-editiones 
+### Support e-editiones
 
 [Join e-editiones](/join) and follow us on [Mastodon](https://social.e-editiones.org/@eeditiones), [LinkedIn](https://www.linkedin.com/company/e-editiones/), [BlueSky](https://bsky.app/profile/e-editiones.bsky.social) and [Instagram](https://www.instagram.com/eeditiones/) for updates.
