@@ -14,7 +14,12 @@ All software development supported by the society is for the benefit of the gene
 ## Our Projects
 
 - **[TEI Publisher](https://teipublisher.com/)** – a toolbox for building digital editions, consistently based on TEI and related standards such as ODD and the TEI Processing Model. The entire user interface consists of small web components complying with W3C standards, which can be recombined and reassembled as needed.
+- **[Open Processing Model](https://opm.e-editiones.org) (OPM)** – a sibling of TEI Publisher, this project provides a pure Python implementation of the same underlying standard: the TEI Processing Model. Converts TEI and other XML such as DocBook or JATS into HTML, PDF (via Typst), EPUB, Word, Markdown or JSON on the command line. Can also be used to create static websites.
 - **[Roaster](https://github.com/eeditiones/roaster)** – an OpenAPI router for eXist-db, powering the APIs behind TEI Publisher and many edition projects.
+- **[ODDity](https://open-vsx.org/extension/e-editiones/oddity)** – a Visual Studio Code extension for editing TEI ODD files visually. ODD files are at the core of TEI Publisher and OPM.
+- **[Jinks Templates](https://github.com/eeditiones/jinks-templates)** – an XML-friendly templating language, built for flexibility and performance. Used by TEI Publisher and (soon) OPM.
+
+
 - Further tools and libraries maintained by the community can be found in the [e-editiones GitHub organization](https://github.com/eeditiones).
 
 ## How we work
