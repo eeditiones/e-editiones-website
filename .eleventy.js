@@ -134,6 +134,13 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("filterTagList", filterTagList)
 
+  // Inline Markdown for short JSON fields (e.g. board bios): [text](url) → <a>
+  const mdInlineLibrary = markdownIt({ html: false, linkify: true });
+  eleventyConfig.addFilter("mdInline", (str) => {
+    if (!str) return "";
+    return mdInlineLibrary.renderInline(String(str));
+  });
+
   // Create an array of all tags
   eleventyConfig.addCollection("tagList", function(collection) {
     let tagSet = new Set();

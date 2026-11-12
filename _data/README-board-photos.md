@@ -43,3 +43,11 @@ Smaller percentage = show more of the top of the image.
 
 One to four sentences, third person. The current texts were drafted from each member's own
 institutional page and should be confirmed by the member before they are treated as final.
+
+Bios support inline Markdown links:
+
+```json
+"bio": "… creator of [TEI Publisher](https://tei-publisher.org) …"
+```
+
+Raw HTML is not allowed; only Markdown (and bare URLs, which are auto-linked).
