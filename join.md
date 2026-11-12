@@ -1,16 +1,14 @@
 ---
-layout: layouts/content-sidebar-flyer.njk
+layout: layouts/content-sidebar-links.njk
 title: "Editions with Future"
 short: "join"
-lead: bla bla 23
+lead: "Join e-editiones – an international non-profit society sustaining open standards and open source software for digital scholarly editions."
 author: Lars Windauer
 date: 2024-07-23
 tags:
     - announcements
     - e-editiones
 ---
-
-> **Update: [meet e-editiones at dHD2026 in Vienna, Austia](/dhd2026)**
 
 #### Rooted in standards -  built by the community - meant to last
 
@@ -21,7 +19,7 @@ e-editiones is an international non-profit society bringing together edition pro
 * organize regular workshops and community meetings.
 
 ##### Join our open community
-Get in contact with us via [email](mailto:info@e-editiones.org), [mailing list](https://www.e-editiones.org/pages/get-in-touch/#mailing-list), [Mastodon](https://social.e-editiones.org/@eeditiones), [Slack](https://www.e-editiones.org/pages/get-in-touch/#slack-community), [GitHub](https://github.com/eeditiones/), [LinkedIn](https://www.linkedin.com/company/e-editiones/).
+Get in contact with us via [email](mailto:info@e-editiones.org), [mailing list](/pages/get-in-touch/#mailing-list), [Mastodon](https://social.e-editiones.org/@eeditiones), [Slack](/pages/get-in-touch/#slack-community), [GitHub](https://github.com/eeditiones/), [LinkedIn](https://www.linkedin.com/company/e-editiones/).
 
 ##### Become a Member
 Gain access to our knowledge hub and influence the future of the open-source tools we develop like [TEI Publisher](https://tei-publisher.org/) and [Roaster](https://github.com/eeditiones/roaster?tab=readme-ov-file#roaster). 
@@ -32,5 +30,5 @@ Get advice for all steps in your edition project life-cycle:
 * workflows, including HTR/OCR models, setting up your database, and creating your digital scholarly edition
 * publishing and long-term hosting of editions
 
-e-editiones offers [institutional](https://www.e-editiones.org/pages/how-to-become-a-member/#institutional-membership) and [individual](https://www.e-editiones.org/pages/how-to-become-a-member/#individual-membership) memberships. To become a member please contact board@e-editiones.org.
+e-editiones offers [institutional](/pages/how-to-become-a-member/#institutional-membership) and [individual](/pages/how-to-become-a-member/#individual-membership) memberships. To become a member please contact board@e-editiones.org.
 

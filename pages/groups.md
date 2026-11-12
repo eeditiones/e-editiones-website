@@ -1,10 +1,6 @@
 ---
 title: "Groups"
 date: "2024-06-09"
-eleventyNavigation:
-    parent: Society
-    key: Groups
-    order: 5
 ---
 
 ## Community and Communication
