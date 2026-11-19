@@ -5,12 +5,38 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2026-10-31T00:00:00Z</updated>
+	<updated>2026-11-18T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>TEI Publisher 11.0.2</title>
+		<link href="https://e-editiones.org/posts/tei-publisher-1102/"/>
+		<updated>2026-11-18T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/tei-publisher-1102/</id>
+		<content type="html">&lt;p&gt;This patch release improves the robustness of several TEI Publisher API endpoints. A well-configured system was not at risk, but we recommend updating.&lt;/p&gt;
+&lt;p&gt;Please, be aware that frequent application updates are your best bet on longevity and safety of your custom applications. With the Jinks application manager this should be an entirely straightforward task, so we strongly encourage you to schedule application updates in line with the TEI Publisher/Jinks releases.&lt;/p&gt;
+&lt;p&gt;Also note the following basic rules for running a production system:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;always make sure the password for the eXist-db &lt;code&gt;admin&lt;/code&gt; user is set&lt;/li&gt;
+&lt;li&gt;change the password of the TEI Publisher default user &lt;code&gt;tei&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;do not expose &lt;em&gt;jinks&lt;/em&gt;, &lt;em&gt;dashboard&lt;/em&gt;, &lt;em&gt;eXide&lt;/em&gt; or &lt;em&gt;monex&lt;/em&gt; to the public&lt;/li&gt;
+&lt;li&gt;run a proxy in front of eXist-db which only exposes your public-facing application&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;applications-based-on-older-tp-versions&quot; tabindex=&quot;-1&quot;&gt;Applications based on older TP versions&lt;/h2&gt;
+&lt;p&gt;If you are running a custom application generated from TP 8 to 9, you will want to patch it as well. The following branches contain the updated code for each version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/eeditiones/tei-publisher-app/tree/8.0.0-patch&quot;&gt;8.0.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/eeditiones/tei-publisher-app/tree/9.0.0-patch&quot;&gt;9.0.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/eeditiones/tei-publisher-app/tree/9.1.0-patch&quot;&gt;9.1.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/eeditiones/tei-publisher-app/tree/9.1.1-patch&quot;&gt;9.1.1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: these branches are based on the released TEI Publisher app. When comparing with your custom application, ignore the changes to the top level &lt;code&gt;controller.xql&lt;/code&gt;, &lt;code&gt;post-install.xql&lt;/code&gt;, &lt;code&gt;modules/config.xqm&lt;/code&gt;, which duplicate the changes in &lt;code&gt;templates/basic&lt;/code&gt;.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>OPM 0.10</title>

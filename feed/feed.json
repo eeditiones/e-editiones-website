@@ -10,6 +10,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://e-editiones.org/posts/tei-publisher-1102/",
+      "url": "https://e-editiones.org/posts/tei-publisher-1102/",
+      "title": "TEI Publisher 11.0.2",
+      "content_html": "<p>This patch release improves the robustness of several TEI Publisher API endpoints. A well-configured system was not at risk, but we recommend updating.</p>\n<p>Please, be aware that frequent application updates are your best bet on longevity and safety of your custom applications. With the Jinks application manager this should be an entirely straightforward task, so we strongly encourage you to schedule application updates in line with the TEI Publisher/Jinks releases.</p>\n<p>Also note the following basic rules for running a production system:</p>\n<ol>\n<li>always make sure the password for the eXist-db <code>admin</code> user is set</li>\n<li>change the password of the TEI Publisher default user <code>tei</code></li>\n<li>do not expose <em>jinks</em>, <em>dashboard</em>, <em>eXide</em> or <em>monex</em> to the public</li>\n<li>run a proxy in front of eXist-db which only exposes your public-facing application</li>\n</ol>\n<h2 id=\"applications-based-on-older-tp-versions\" tabindex=\"-1\">Applications based on older TP versions</h2>\n<p>If you are running a custom application generated from TP 8 to 9, you will want to patch it as well. The following branches contain the updated code for each version:</p>\n<ul>\n<li><a href=\"https://github.com/eeditiones/tei-publisher-app/tree/8.0.0-patch\">8.0.0</a></li>\n<li><a href=\"https://github.com/eeditiones/tei-publisher-app/tree/9.0.0-patch\">9.0.0</a></li>\n<li><a href=\"https://github.com/eeditiones/tei-publisher-app/tree/9.1.0-patch\">9.1.0</a></li>\n<li><a href=\"https://github.com/eeditiones/tei-publisher-app/tree/9.1.1-patch\">9.1.1</a></li>\n</ul>\n<p><strong>Note</strong>: these branches are based on the released TEI Publisher app. When comparing with your custom application, ignore the changes to the top level <code>controller.xql</code>, <code>post-install.xql</code>, <code>modules/config.xqm</code>, which duplicate the changes in <code>templates/basic</code>.</p>\n",
+      "date_published": "2026-11-18T00:00:00Z"
+    },{
       "id": "https://e-editiones.org/posts/opm-release-0.10/",
       "url": "https://e-editiones.org/posts/opm-release-0.10/",
       "title": "OPM 0.10",
