@@ -5,12 +5,25 @@
 	
 	<link href="https://e-editiones.org/feed/feed.xml" rel="self"/>
 	<link href="https://e-editiones.org/"/>
-	<updated>2026-11-18T00:00:00Z</updated>
+	<updated>2026-12-01T00:00:00Z</updated>
 	<id>https://e-editiones.org/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Grimm Tradalign – an alignment tool for multilingual corpora</title>
+		<link href="https://e-editiones.org/posts/community-event-grimm/"/>
+		<updated>2026-12-01T00:00:00Z</updated>
+		<id>https://e-editiones.org/posts/community-event-grimm/</id>
+		<content type="html">&lt;p&gt;Community meetup on &lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=e-editiones+community+event&amp;amp;iso=20261201T17&amp;amp;p1=1425&amp;amp;ah=1&quot;&gt;December 01, 2026 at 17:00 CET&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://grimm.unil.ch/&quot;&gt;“Grimm Tradalign”&lt;/a&gt; ACR (Alliance Campus Rhodanien) project is a French-Swiss multidisciplinary venture involving scholars from Grenoble-Alpes University (UGA, France) and the University of Lausanne (UNIL, Switzerland). It aims at developing an alignment tool which leads to the online publication and detailed analysis of a multilingual corpus. The said corpus consists of tales by the Brothers Grimm and their nineteenth and twentieth century translations into French and English This tool is designed to be used with all corpora which require multi-alignment (cases where more than two languages are aligned).&lt;/p&gt;
+&lt;p&gt;The German-language Grimm tales corpus is highly suitable for developing and using alignment methods – especially as seven successive editions of the collection were published between 1812 and 1857, the date of the final version containing 201 texts. Most texts underwent significant changes (amplification, rewriting and so forth) through this process, besides being added into or cut from subsequent editions. The collection was translated into French eight times in the nineteenth century – with each translation offering a selection of tales – and was translated into English at least as many times during the same period. The ACR project focuses on the ten tales which were most translated into French during the nineteenth century and which are the most representative of the collection. Subsequently, the website will continue adding tales. It will also include English translations, as well as translations into other languages.&lt;/p&gt;
+&lt;p&gt;In this community meeting, we will present the genesis and development of the project. We will focus on our workflow. We first developed a processing pipeline to convert the verified transcriptions of the texts in docx format into TEI XML, with metadata used to populate the TEI headers imported from an xlsx spreadsheet. In a second step, for each document, we performed pairwise alignments with a pivot version. The alignment was carried out using AIlign, an alignment tool based on multilingual embeddings — in this case, the LaBSE model — to identify semantic similarities between sentences or groups of sentences. Finally, we designed a multi-parallel corpus query interface, &lt;a href=&quot;https://grimm.unil.ch/&quot;&gt;Grimm Tradalign&lt;/a&gt;, implemented using the &lt;a href=&quot;https://teipublisher.org/&quot;&gt;TEI Publisher&lt;/a&gt; framework. In parallel, we developed a web interface to manage the import of collections and documents, and to launch the processing pipelines for individual documents with parallel versions. This interface, called Parataxe, also allows users, in its current version, to explore aligned texts through a multi-column display.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://grimm.unil.ch/&quot;&gt;Grimm Tradalign&lt;/a&gt; is still an active project. All contributions, advice, and collaboration are warmly welcome, whether regarding the Grimm corpus or concerning the implementation for other corpora.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>TEI Publisher 11.0.2</title>
